@@ -1,0 +1,231 @@
+/* =============================================================================
+   styles.css — Estética estilo Duolingo (verde, botones 3D, tarjetas redondeadas)
+   ============================================================================= */
+:root {
+  --green: #58cc02;
+  --green-dark: #58a700;
+  --blue: #1cb0f6;
+  --blue-dark: #1899d6;
+  --red: #ff4b4b;
+  --red-dark: #ea2b2b;
+  --yellow: #ffc800;
+  --gray: #e5e5e5;
+  --gray-dark: #afafaf;
+  --text: #3c3c3c;
+  --bg: #ffffff;
+  --locked: #e5e5e5;
+  --font: "Segoe UI", "DIN Round", system-ui, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  color: var(--text);
+  background: #f7f7f7;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------------- Barra superior ---------------- */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 20px; background: #fff; border-bottom: 2px solid var(--gray);
+  position: sticky; top: 0; z-index: 20;
+}
+.brand { font-size: 22px; font-weight: 800; color: var(--green); }
+.brand span { color: var(--text); }
+.stats { display: flex; gap: 16px; align-items: center; font-size: 18px; }
+.stat b { font-weight: 800; }
+.stat.streak { color: #ff9600; }
+.stat.xp { color: var(--yellow); }
+.stat.lvl { color: var(--blue); }
+
+/* ---------------- Tabs ---------------- */
+.tabs {
+  display: flex; gap: 8px; justify-content: center;
+  padding: 12px; background: #fff; border-bottom: 2px solid var(--gray);
+  position: sticky; top: 57px; z-index: 15;
+}
+.tab {
+  border: none; background: transparent; font-size: 16px; font-weight: 700;
+  color: var(--gray-dark); padding: 8px 16px; border-radius: 12px; cursor: pointer;
+  transition: background .15s;
+}
+.tab:hover { background: #f0f0f0; }
+.tab.active { color: var(--green); background: #e9f9dc; }
+
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
+.view { display: none; }
+.view.active { display: block; }
+
+/* ---------------- Camino (path) ---------------- */
+.path { display: flex; flex-direction: column; gap: 8px; }
+.unit-header {
+  background: var(--green); color: #fff; border-radius: 16px;
+  padding: 16px 20px; margin: 18px 0 8px; box-shadow: 0 4px 0 var(--green-dark);
+  display: flex; justify-content: space-between; align-items: center;
+}
+.unit-header.locked { background: var(--gray-dark); box-shadow: 0 4px 0 #8f8f8f; }
+.unit-header h3 { font-size: 18px; }
+.unit-header small { opacity: .9; font-weight: 600; }
+
+.nodes { display: flex; flex-direction: column; align-items: center; gap: 22px; padding: 12px 0; }
+.node-row { display: flex; justify-content: center; width: 100%; }
+/* Zig-zag estilo Duolingo */
+.node-row:nth-child(odd) { transform: translateX(-42px); }
+.node-row:nth-child(even) { transform: translateX(42px); }
+
+.node {
+  width: 74px; height: 74px; border-radius: 50%; border: none; cursor: pointer;
+  font-size: 30px; color: #fff; background: var(--green);
+  box-shadow: 0 6px 0 var(--green-dark); transition: transform .08s;
+  position: relative;
+}
+.node:active { transform: translateY(4px); box-shadow: 0 2px 0 var(--green-dark); }
+.node.completed { background: var(--yellow); box-shadow: 0 6px 0 #e0a800; }
+.node.locked { background: var(--locked); box-shadow: 0 6px 0 #c9c9c9; color: #bbb; cursor: not-allowed; }
+.node .node-stars {
+  position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%);
+  font-size: 12px; white-space: nowrap;
+}
+
+/* ---------------- Tarjetas ---------------- */
+.card {
+  background: #fff; border: 2px solid var(--gray); border-radius: 18px;
+  padding: 28px; margin-top: 12px;
+}
+.center { text-align: center; }
+.card h2 { margin-bottom: 12px; }
+.card p { margin-bottom: 10px; line-height: 1.5; }
+.muted { color: var(--gray-dark); font-size: 14px; }
+
+/* ---------------- Botones 3D ---------------- */
+.btn {
+  border: none; border-radius: 14px; padding: 14px 22px; font-size: 15px;
+  font-weight: 800; text-transform: uppercase; letter-spacing: .5px;
+  cursor: pointer; background: var(--gray); color: #777;
+  box-shadow: 0 4px 0 #c9c9c9; transition: transform .06s, filter .1s;
+}
+.btn:hover { filter: brightness(1.03); }
+.btn:active { transform: translateY(3px); box-shadow: 0 1px 0 #c9c9c9; }
+.btn:disabled { opacity: .5; cursor: not-allowed; box-shadow: 0 4px 0 #c9c9c9; }
+.btn-primary { background: var(--green); color: #fff; box-shadow: 0 4px 0 var(--green-dark); }
+.btn-primary:active { box-shadow: 0 1px 0 var(--green-dark); }
+.btn-danger { background: var(--red); color: #fff; box-shadow: 0 4px 0 var(--red-dark); }
+.btn-danger:active { box-shadow: 0 1px 0 var(--red-dark); }
+
+/* ---------------- Modales ---------------- */
+.modal {
+  position: fixed; inset: 0; background: rgba(0,0,0,.45);
+  display: flex; align-items: center; justify-content: center; z-index: 40; padding: 16px;
+}
+.modal.hidden { display: none; }
+.modal-box {
+  background: #fff; border-radius: 20px; width: 100%; max-width: 640px;
+  max-height: 92vh; overflow-y: auto; padding: 20px; animation: pop .18s ease;
+}
+@keyframes pop { from { transform: scale(.92); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+.quiz-head { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+.close-x { border: none; background: none; font-size: 20px; color: var(--gray-dark); cursor: pointer; }
+.progress-bar { flex: 1; height: 16px; background: var(--gray); border-radius: 10px; overflow: hidden; }
+.progress-fill { height: 100%; width: 0%; background: var(--green); border-radius: 10px; transition: width .25s; }
+.quiz-hearts, .exam-timer { font-size: 16px; font-weight: 700; white-space: nowrap; }
+.exam-timer { color: var(--red); font-variant-numeric: tabular-nums; }
+
+.tema-chip {
+  display: inline-block; background: #e9f9dc; color: var(--green-dark);
+  font-weight: 700; font-size: 12px; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px;
+}
+.enunciado { font-size: 20px; line-height: 1.4; margin-bottom: 16px; }
+.quiz-imagen { max-width: 100%; border-radius: 14px; margin-bottom: 16px; }
+
+.opciones { display: flex; flex-direction: column; gap: 12px; }
+.opcion {
+  text-align: left; border: 2px solid var(--gray); border-bottom-width: 4px;
+  border-radius: 14px; padding: 14px 18px; font-size: 16px; font-weight: 600;
+  background: #fff; color: var(--text); cursor: pointer; transition: background .1s;
+}
+.opcion:hover { background: #f7f7f7; }
+.opcion.selected { border-color: var(--blue); background: #ddf4ff; color: var(--blue-dark); }
+.opcion.correct { border-color: var(--green); background: #d7ffb8; color: var(--green-dark); }
+.opcion.wrong { border-color: var(--red); background: #ffdfe0; color: var(--red-dark); }
+.opcion.disabled { pointer-events: none; }
+.opcion .letra {
+  display: inline-block; width: 26px; height: 26px; line-height: 26px; text-align: center;
+  border-radius: 8px; background: var(--gray); margin-right: 10px; font-weight: 800;
+}
+
+.quiz-foot { margin-top: 22px; display: flex; justify-content: flex-end; }
+.quiz-foot .btn { min-width: 160px; }
+.exam-foot { justify-content: space-between; gap: 8px; }
+
+/* ---------------- Feedback ---------------- */
+.feedback {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+  animation: slideup .2s ease;
+}
+.feedback.hidden { display: none; }
+.feedback-inner { max-width: 720px; margin: 0 auto; padding: 20px; border-top-left-radius: 20px; border-top-right-radius: 20px; }
+.feedback.ok .feedback-inner { background: #d7ffb8; }
+.feedback.err .feedback-inner { background: #ffdfe0; }
+.feedback-head { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 800; margin-bottom: 6px; }
+.feedback.ok .feedback-head { color: var(--green-dark); }
+.feedback.err .feedback-head { color: var(--red-dark); }
+.feedback-text { font-size: 15px; line-height: 1.45; margin-bottom: 12px; }
+.feedback .btn { background: #fff; }
+@keyframes slideup { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+/* ---------------- Resultados ---------------- */
+.stars { font-size: 40px; margin: 12px 0; }
+.exam-score { font-size: 18px; margin: 8px 0 18px; }
+#exam-verdict.apto { color: var(--green); }
+#exam-verdict.no-apto { color: var(--red); }
+.exam-review { text-align: left; display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+.rev-item { border-radius: 12px; padding: 12px 14px; border: 2px solid var(--gray); }
+.rev-item.ok { border-color: var(--green); background: #f2ffe8; }
+.rev-item.err { border-color: var(--red); background: #fff2f2; }
+.rev-item .rev-q { font-weight: 700; margin-bottom: 6px; }
+.rev-item .rev-a { font-size: 14px; }
+.rev-item .rev-exp { font-size: 13px; color: #555; margin-top: 6px; }
+
+/* ---------------- Progreso / estadísticas ---------------- */
+.global-stats { display: flex; flex-wrap: wrap; gap: 12px; }
+.gstat {
+  flex: 1; min-width: 120px; text-align: center; background: #f7f7f7;
+  border-radius: 14px; padding: 14px; border: 2px solid var(--gray);
+}
+.gstat .num { font-size: 28px; font-weight: 800; color: var(--green); }
+.gstat .lbl { font-size: 13px; color: var(--gray-dark); font-weight: 700; }
+
+.tema-stat { margin-bottom: 14px; }
+.tema-stat .row { display: flex; justify-content: space-between; margin-bottom: 4px; font-weight: 700; font-size: 14px; }
+.tema-stat .row .pct { color: var(--blue); }
+.bar { height: 14px; background: var(--gray); border-radius: 8px; overflow: hidden; }
+.bar .fill { height: 100%; background: var(--green); border-radius: 8px; transition: width .3s; }
+.tema-stat .sub { font-size: 12px; color: var(--gray-dark); margin-top: 2px; }
+
+.fallo-item {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  border: 2px solid var(--gray); border-radius: 12px; padding: 10px 14px; margin-bottom: 8px;
+}
+.fallo-item .fq { font-size: 14px; }
+.fallo-item .badge {
+  background: #ffdfe0; color: var(--red-dark); font-weight: 800; font-size: 12px;
+  padding: 4px 10px; border-radius: 20px; white-space: nowrap;
+}
+
+/* ---------------- Desglose por tema (examen) ---------------- */
+.tema-breakdown { text-align: left; margin: 10px 0 18px; }
+.rev-title { text-align: left; margin: 10px 0 8px; font-size: 16px; }
+.bd-row { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; font-size: 13px; }
+.bd-name { flex: 0 0 42%; font-weight: 700; }
+.bd-bar { flex: 1; height: 12px; background: var(--gray); border-radius: 8px; overflow: hidden; }
+.bd-fill { display: block; height: 100%; background: var(--green); border-radius: 8px; }
+.bd-num { flex: 0 0 auto; color: var(--gray-dark); font-weight: 700; white-space: nowrap; }
+
+/* ---------------- Imagen de señal en el quiz ---------------- */
+.quiz-imagen { background: #fff; padding: 6px; object-fit: contain; max-height: 200px; }
+
+.hidden { display: none !important; }

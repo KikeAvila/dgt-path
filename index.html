@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+  <title>DGT Path — Permiso B</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#58cc02" />
+  <!-- iOS: instalable en pantalla de inicio -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="DGT Path" />
+  <link rel="apple-touch-icon" href="icon-180.png" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">🚗 <span>DGT&nbsp;Path</span></div>
+    <div class="stats">
+      <div class="stat streak" title="Racha">🔥 <b id="stat-racha">0</b></div>
+      <div class="stat xp" title="Experiencia">⚡ <b id="stat-xp">0</b></div>
+      <div class="stat lvl" title="Nivel">Nv <b id="stat-nivel">1</b></div>
+      <div class="stat hearts"><span id="stat-vidas">❤️❤️❤️❤️❤️</span></div>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-view="path">🗺️ Camino</button>
+    <button class="tab" data-view="review">🧠 Repaso</button>
+    <button class="tab" data-view="exam">📝 Examen</button>
+    <button class="tab" data-view="stats">📊 Progreso</button>
+  </nav>
+
+  <main>
+    <section id="view-path" class="view active"><div id="path" class="path"></div></section>
+
+    <section id="view-review" class="view">
+      <div class="card center">
+        <h2>🧠 Repaso Inteligente</h2>
+        <p>Repite las preguntas que fallas hasta dominarlas (repetición espaciada).</p>
+        <p class="muted">Pendientes: <b id="review-count">—</b></p>
+        <button class="btn btn-primary" id="btn-start-review">Empezar repaso</button>
+      </div>
+    </section>
+
+    <section id="view-exam" class="view">
+      <div class="card center">
+        <h2>📝 Simulacro oficial</h2>
+        <p>30 preguntas · 30 minutos · <b>APTO con ≤ 3 fallos</b>.</p>
+        <p class="muted">Las vidas no cuentan en el examen.</p>
+        <button class="btn btn-primary" id="btn-start-exam">Comenzar examen</button>
+      </div>
+    </section>
+
+    <section id="view-stats" class="view">
+      <div class="card"><h2>📊 Tu progreso</h2><div class="global-stats" id="global-stats"></div></div>
+      <div class="card"><h3>Dominio por tema</h3><div id="tema-stats"></div></div>
+      <div class="card">
+        <h3>❌ Fallos frecuentes</h3>
+        <p class="muted">Las preguntas que más veces has fallado y aún no dominas.</p>
+        <div id="fallos-list"></div>
+        <button class="btn btn-primary" id="btn-practice-mistakes" style="margin-top:14px">Practicar mis fallos</button>
+        <button class="btn" id="btn-reset" style="margin-top:14px">Reiniciar progreso</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Quiz -->
+  <div id="quiz-modal" class="modal hidden">
+    <div class="modal-box quiz-box">
+      <div class="quiz-head">
+        <button class="close-x" id="quiz-close">✕</button>
+        <div class="progress-bar"><div class="progress-fill" id="quiz-progress"></div></div>
+        <div class="quiz-hearts" id="quiz-hearts"></div>
+      </div>
+      <div class="quiz-body">
+        <div class="tema-chip" id="quiz-tema"></div>
+        <h2 class="enunciado" id="quiz-enunciado"></h2>
+        <img id="quiz-imagen" class="quiz-imagen hidden" alt="Señal" />
+        <div class="opciones" id="quiz-opciones"></div>
+      </div>
+      <div class="quiz-foot"><button class="btn btn-primary" id="quiz-check" disabled>Comprobar</button></div>
+    </div>
+  </div>
+
+  <div id="feedback" class="feedback hidden">
+    <div class="feedback-inner">
+      <div class="feedback-head"><span id="feedback-icon">✅</span><span id="feedback-title">¡Correcto!</span></div>
+      <p id="feedback-text" class="feedback-text"></p>
+      <button class="btn" id="feedback-continue">Continuar</button>
+    </div>
+  </div>
+
+  <div id="result-modal" class="modal hidden">
+    <div class="modal-box center">
+      <h2 id="result-title">¡Nodo completado!</h2>
+      <div class="stars" id="result-stars">⭐⭐⭐</div>
+      <p id="result-text"></p>
+      <button class="btn btn-primary" id="result-close">Seguir</button>
+    </div>
+  </div>
+
+  <div id="exam-modal" class="modal hidden">
+    <div class="modal-box exam-box">
+      <div class="quiz-head">
+        <button class="close-x" id="exam-close">✕</button>
+        <div class="progress-bar"><div class="progress-fill" id="exam-progress"></div></div>
+        <div class="exam-timer" id="exam-timer">30:00</div>
+      </div>
+      <div class="quiz-body">
+        <div class="tema-chip" id="exam-counter"></div>
+        <h2 class="enunciado" id="exam-enunciado"></h2>
+        <img id="exam-imagen" class="quiz-imagen hidden" alt="Señal" />
+        <div class="opciones" id="exam-opciones"></div>
+      </div>
+      <div class="quiz-foot exam-foot">
+        <button class="btn" id="exam-prev">← Anterior</button>
+        <button class="btn btn-primary" id="exam-next">Siguiente →</button>
+        <button class="btn btn-danger hidden" id="exam-finish">Finalizar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="exam-result-modal" class="modal hidden">
+    <div class="modal-box exam-result-box">
+      <h2 id="exam-verdict">—</h2>
+      <p id="exam-score" class="exam-score"></p>
+      <div id="exam-tema-breakdown" class="tema-breakdown"></div>
+      <h3 class="rev-title">Repaso de fallos</h3>
+      <div id="exam-review" class="exam-review"></div>
+      <button class="btn btn-primary" id="exam-result-close">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+    }
+  </script>
+</body>
+</html>
