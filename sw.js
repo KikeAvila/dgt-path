@@ -1,6 +1,6 @@
 /* Service worker — cachea la app para uso OFFLINE.
    Sube CACHE cada vez que cambies ficheros para forzar la actualización. */
-const CACHE = "dgt-path-v1";
+const CACHE = "dgt-path-v3";
 const ASSETS = [
   "./",
   "index.html",
@@ -33,13 +33,33 @@ self.addEventListener("activate", (e) => {
   );
 });
 
+// El código y los datos van "red primero" para que las actualizaciones se
+// apliquen en cuanto haya conexión; las imágenes/iconos van "caché primero"
+// (no cambian y así cargan al instante y funcionan offline).
+const NETWORK_FIRST = /(index\.html|app\.js|data\.js|styles\.css|manifest\.webmanifest)(\?|$)/;
+
 self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET") return;
-  e.respondWith(
-    caches.match(e.request).then((hit) => hit || fetch(e.request).then((res) => {
-      const copy = res.clone();
-      caches.open(CACHE).then((c) => c.put(e.request, copy)).catch(() => {});
-      return res;
-    }).catch(() => caches.match("index.html")))
-  );
+  const url = e.request.url;
+  const esCodigo = e.request.mode === "navigate" || NETWORK_FIRST.test(url);
+
+  if (esCodigo) {
+    // Red primero, con la caché como respaldo (offline).
+    e.respondWith(
+      fetch(e.request).then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE).then((c) => c.put(e.request, copy)).catch(() => {});
+        return res;
+      }).catch(() => caches.match(e.request).then((hit) => hit || caches.match("index.html")))
+    );
+  } else {
+    // Caché primero para el resto (imágenes, iconos).
+    e.respondWith(
+      caches.match(e.request).then((hit) => hit || fetch(e.request).then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE).then((c) => c.put(e.request, copy)).catch(() => {});
+        return res;
+      }).catch(() => caches.match("index.html")))
+    );
+  }
 });

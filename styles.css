@@ -228,4 +228,22 @@ main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
 /* ---------------- Imagen de señal en el quiz ---------------- */
 .quiz-imagen { background: #fff; padding: 6px; object-fit: contain; max-height: 200px; }
 
+/* ---------------- Selector de niveles de dificultad ---------------- */
+.nivel-selector { display: flex; gap: 8px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
+.nivel-btn {
+  border: 2px solid var(--gray); border-bottom-width: 4px; border-radius: 14px;
+  padding: 10px 16px; font-weight: 800; font-size: 14px; cursor: pointer;
+  background: #fff; color: var(--text);
+}
+.nivel-btn.active { background: var(--blue); color: #fff; border-color: var(--blue-dark); }
+.nivel-btn.locked { opacity: .5; cursor: not-allowed; }
+
+/* Nodo de examen de unidad */
+.node.exam { background: var(--blue); box-shadow: 0 6px 0 var(--blue-dark); }
+.node.exam.completed { background: var(--yellow); box-shadow: 0 6px 0 #e0a800; }
+.node .node-cap {
+  position: absolute; bottom: -16px; left: 50%; transform: translateX(-50%);
+  font-size: 11px; font-weight: 800; color: var(--gray-dark); white-space: nowrap;
+}
+
 .hidden { display: none !important; }

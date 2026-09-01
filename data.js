@@ -10,7 +10,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad máxima 20 km/h»: prohíbe circular a más de 20 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_20.svg"
+"imagen": "velocidad_max_20.svg",
+"dificultad": 1
 },
 {
 "id": 2,
@@ -23,7 +24,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "velocidad_max_20.svg"
+"imagen": "velocidad_max_20.svg",
+"dificultad": 1
 },
 {
 "id": 3,
@@ -36,7 +38,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad máxima 20 km/h»: prohíbe circular a más de 20 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_20.svg"
+"imagen": "velocidad_max_20.svg",
+"dificultad": 1
 },
 {
 "id": 4,
@@ -49,7 +52,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad máxima 30 km/h»: prohíbe circular a más de 30 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_30.svg"
+"imagen": "velocidad_max_30.svg",
+"dificultad": 1
 },
 {
 "id": 5,
@@ -62,7 +66,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "velocidad_max_30.svg"
+"imagen": "velocidad_max_30.svg",
+"dificultad": 1
 },
 {
 "id": 6,
@@ -75,7 +80,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad máxima 30 km/h»: prohíbe circular a más de 30 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_30.svg"
+"imagen": "velocidad_max_30.svg",
+"dificultad": 1
 },
 {
 "id": 7,
@@ -88,7 +94,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad máxima 40 km/h»: prohíbe circular a más de 40 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_40.svg"
+"imagen": "velocidad_max_40.svg",
+"dificultad": 1
 },
 {
 "id": 8,
@@ -101,7 +108,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "velocidad_max_40.svg"
+"imagen": "velocidad_max_40.svg",
+"dificultad": 1
 },
 {
 "id": 9,
@@ -114,7 +122,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad máxima 40 km/h»: prohíbe circular a más de 40 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_40.svg"
+"imagen": "velocidad_max_40.svg",
+"dificultad": 1
 },
 {
 "id": 10,
@@ -127,7 +136,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad máxima 60 km/h»: prohíbe circular a más de 60 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_60.svg"
+"imagen": "velocidad_max_60.svg",
+"dificultad": 1
 },
 {
 "id": 11,
@@ -140,7 +150,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "velocidad_max_60.svg"
+"imagen": "velocidad_max_60.svg",
+"dificultad": 1
 },
 {
 "id": 12,
@@ -153,7 +164,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad máxima 60 km/h»: prohíbe circular a más de 60 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_60.svg"
+"imagen": "velocidad_max_60.svg",
+"dificultad": 1
 },
 {
 "id": 13,
@@ -166,7 +178,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad máxima 70 km/h»: prohíbe circular a más de 70 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_70.svg"
+"imagen": "velocidad_max_70.svg",
+"dificultad": 1
 },
 {
 "id": 14,
@@ -179,7 +192,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "velocidad_max_70.svg"
+"imagen": "velocidad_max_70.svg",
+"dificultad": 1
 },
 {
 "id": 15,
@@ -192,7 +206,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad máxima 70 km/h»: prohíbe circular a más de 70 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_70.svg"
+"imagen": "velocidad_max_70.svg",
+"dificultad": 1
 },
 {
 "id": 16,
@@ -205,7 +220,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad máxima 80 km/h»: prohíbe circular a más de 80 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_80.svg"
+"imagen": "velocidad_max_80.svg",
+"dificultad": 1
 },
 {
 "id": 17,
@@ -218,7 +234,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "velocidad_max_80.svg"
+"imagen": "velocidad_max_80.svg",
+"dificultad": 1
 },
 {
 "id": 18,
@@ -231,7 +248,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad máxima 80 km/h»: prohíbe circular a más de 80 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_80.svg"
+"imagen": "velocidad_max_80.svg",
+"dificultad": 1
 },
 {
 "id": 19,
@@ -244,7 +262,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad máxima 90 km/h»: prohíbe circular a más de 90 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_90.svg"
+"imagen": "velocidad_max_90.svg",
+"dificultad": 1
 },
 {
 "id": 20,
@@ -257,7 +276,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "velocidad_max_90.svg"
+"imagen": "velocidad_max_90.svg",
+"dificultad": 1
 },
 {
 "id": 21,
@@ -270,7 +290,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad máxima 90 km/h»: prohíbe circular a más de 90 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_90.svg"
+"imagen": "velocidad_max_90.svg",
+"dificultad": 1
 },
 {
 "id": 22,
@@ -283,7 +304,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad máxima 100 km/h»: prohíbe circular a más de 100 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_100.svg"
+"imagen": "velocidad_max_100.svg",
+"dificultad": 1
 },
 {
 "id": 23,
@@ -296,7 +318,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "velocidad_max_100.svg"
+"imagen": "velocidad_max_100.svg",
+"dificultad": 1
 },
 {
 "id": 24,
@@ -309,7 +332,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad máxima 100 km/h»: prohíbe circular a más de 100 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_100.svg"
+"imagen": "velocidad_max_100.svg",
+"dificultad": 1
 },
 {
 "id": 25,
@@ -322,7 +346,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad máxima 110 km/h»: prohíbe circular a más de 110 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_110.svg"
+"imagen": "velocidad_max_110.svg",
+"dificultad": 1
 },
 {
 "id": 26,
@@ -335,7 +360,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "velocidad_max_110.svg"
+"imagen": "velocidad_max_110.svg",
+"dificultad": 1
 },
 {
 "id": 27,
@@ -348,7 +374,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad máxima 110 km/h»: prohíbe circular a más de 110 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_110.svg"
+"imagen": "velocidad_max_110.svg",
+"dificultad": 1
 },
 {
 "id": 28,
@@ -361,7 +388,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Circulación prohibida (entrada prohibida a todo tipo de vehículos)»: prohíbe la entrada a toda clase de vehículos.",
 "tema_id": 5,
-"imagen": "circulacion_prohibida.svg"
+"imagen": "circulacion_prohibida.svg",
+"dificultad": 1
 },
 {
 "id": 29,
@@ -374,7 +402,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "circulacion_prohibida.svg"
+"imagen": "circulacion_prohibida.svg",
+"dificultad": 1
 },
 {
 "id": 30,
@@ -387,7 +416,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Circulación prohibida (entrada prohibida a todo tipo de vehículos)»: prohíbe la entrada a toda clase de vehículos.",
 "tema_id": 5,
-"imagen": "circulacion_prohibida.svg"
+"imagen": "circulacion_prohibida.svg",
+"dificultad": 1
 },
 {
 "id": 31,
@@ -400,7 +430,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Giro a la derecha prohibido»: prohíbe girar a la derecha en la próxima intersección.",
 "tema_id": 5,
-"imagen": "prohibido_girar_derecha.svg"
+"imagen": "prohibido_girar_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 32,
@@ -413,7 +444,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "prohibido_girar_derecha.svg"
+"imagen": "prohibido_girar_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 33,
@@ -426,7 +458,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Giro a la derecha prohibido»: prohíbe girar a la derecha en la próxima intersección.",
 "tema_id": 5,
-"imagen": "prohibido_girar_derecha.svg"
+"imagen": "prohibido_girar_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 34,
@@ -439,7 +472,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Giro a la izquierda prohibido»: prohíbe girar a la izquierda en la próxima intersección.",
 "tema_id": 5,
-"imagen": "prohibido_girar_izquierda.svg"
+"imagen": "prohibido_girar_izquierda.svg",
+"dificultad": 1
 },
 {
 "id": 35,
@@ -452,7 +486,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "prohibido_girar_izquierda.svg"
+"imagen": "prohibido_girar_izquierda.svg",
+"dificultad": 1
 },
 {
 "id": 36,
@@ -465,7 +500,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Giro a la izquierda prohibido»: prohíbe girar a la izquierda en la próxima intersección.",
 "tema_id": 5,
-"imagen": "prohibido_girar_izquierda.svg"
+"imagen": "prohibido_girar_izquierda.svg",
+"dificultad": 1
 },
 {
 "id": 37,
@@ -478,7 +514,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Media vuelta (cambio de sentido) prohibida»: prohíbe efectuar el cambio de sentido de la marcha.",
 "tema_id": 5,
-"imagen": "prohibido_cambio_sentido.svg"
+"imagen": "prohibido_cambio_sentido.svg",
+"dificultad": 1
 },
 {
 "id": 38,
@@ -491,7 +528,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "prohibido_cambio_sentido.svg"
+"imagen": "prohibido_cambio_sentido.svg",
+"dificultad": 1
 },
 {
 "id": 39,
@@ -504,7 +542,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Media vuelta (cambio de sentido) prohibida»: prohíbe efectuar el cambio de sentido de la marcha.",
 "tema_id": 5,
-"imagen": "prohibido_cambio_sentido.svg"
+"imagen": "prohibido_cambio_sentido.svg",
+"dificultad": 1
 },
 {
 "id": 40,
@@ -517,7 +556,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Entrada prohibida a peatones»: prohíbe el paso a los peatones.",
 "tema_id": 5,
-"imagen": "prohibido_peatones.svg"
+"imagen": "prohibido_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 41,
@@ -530,7 +570,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "prohibido_peatones.svg"
+"imagen": "prohibido_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 42,
@@ -543,7 +584,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Entrada prohibida a peatones»: prohíbe el paso a los peatones.",
 "tema_id": 5,
-"imagen": "prohibido_peatones.svg"
+"imagen": "prohibido_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 43,
@@ -556,7 +598,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Entrada prohibida a bicicletas»: prohíbe la entrada a las bicicletas.",
 "tema_id": 5,
-"imagen": "prohibido_bicicletas.svg"
+"imagen": "prohibido_bicicletas.svg",
+"dificultad": 1
 },
 {
 "id": 44,
@@ -569,7 +612,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "prohibido_bicicletas.svg"
+"imagen": "prohibido_bicicletas.svg",
+"dificultad": 1
 },
 {
 "id": 45,
@@ -582,7 +626,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Entrada prohibida a bicicletas»: prohíbe la entrada a las bicicletas.",
 "tema_id": 5,
-"imagen": "prohibido_bicicletas.svg"
+"imagen": "prohibido_bicicletas.svg",
+"dificultad": 1
 },
 {
 "id": 46,
@@ -595,7 +640,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Entrada prohibida a motocicletas»: prohíbe la entrada a las motocicletas.",
 "tema_id": 5,
-"imagen": "prohibido_motos.svg"
+"imagen": "prohibido_motos.svg",
+"dificultad": 1
 },
 {
 "id": 47,
@@ -608,7 +654,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "prohibido_motos.svg"
+"imagen": "prohibido_motos.svg",
+"dificultad": 1
 },
 {
 "id": 48,
@@ -621,7 +668,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Entrada prohibida a motocicletas»: prohíbe la entrada a las motocicletas.",
 "tema_id": 5,
-"imagen": "prohibido_motos.svg"
+"imagen": "prohibido_motos.svg",
+"dificultad": 1
 },
 {
 "id": 49,
@@ -634,7 +682,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Entrada prohibida a camiones»: prohíbe la entrada a los vehículos de mercancías (camiones).",
 "tema_id": 5,
-"imagen": "prohibido_camiones.svg"
+"imagen": "prohibido_camiones.svg",
+"dificultad": 1
 },
 {
 "id": 50,
@@ -647,7 +696,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "prohibido_camiones.svg"
+"imagen": "prohibido_camiones.svg",
+"dificultad": 1
 },
 {
 "id": 51,
@@ -660,7 +710,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Entrada prohibida a camiones»: prohíbe la entrada a los vehículos de mercancías (camiones).",
 "tema_id": 5,
-"imagen": "prohibido_camiones.svg"
+"imagen": "prohibido_camiones.svg",
+"dificultad": 1
 },
 {
 "id": 52,
@@ -673,7 +724,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Adelantamiento prohibido para camiones»: prohíbe a los camiones adelantar a otros vehículos de motor.",
 "tema_id": 5,
-"imagen": "prohibido_adelantar_camiones.svg"
+"imagen": "prohibido_adelantar_camiones.svg",
+"dificultad": 1
 },
 {
 "id": 53,
@@ -686,7 +738,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "prohibido_adelantar_camiones.svg"
+"imagen": "prohibido_adelantar_camiones.svg",
+"dificultad": 1
 },
 {
 "id": 54,
@@ -699,7 +752,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Adelantamiento prohibido para camiones»: prohíbe a los camiones adelantar a otros vehículos de motor.",
 "tema_id": 5,
-"imagen": "prohibido_adelantar_camiones.svg"
+"imagen": "prohibido_adelantar_camiones.svg",
+"dificultad": 1
 },
 {
 "id": 55,
@@ -712,7 +766,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Parada y estacionamiento prohibidos»: prohíbe tanto la parada como el estacionamiento.",
 "tema_id": 5,
-"imagen": "parada_estacionamiento_prohibida.svg"
+"imagen": "parada_estacionamiento_prohibida.svg",
+"dificultad": 1
 },
 {
 "id": 56,
@@ -725,7 +780,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "parada_estacionamiento_prohibida.svg"
+"imagen": "parada_estacionamiento_prohibida.svg",
+"dificultad": 1
 },
 {
 "id": 57,
@@ -738,7 +794,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Parada y estacionamiento prohibidos»: prohíbe tanto la parada como el estacionamiento.",
 "tema_id": 5,
-"imagen": "parada_estacionamiento_prohibida.svg"
+"imagen": "parada_estacionamiento_prohibida.svg",
+"dificultad": 1
 },
 {
 "id": 58,
@@ -751,7 +808,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Masa máxima autorizada limitada a 5,5 t»: prohíbe el paso a vehículos cuya masa supere las 5,5 toneladas.",
 "tema_id": 5,
-"imagen": "masa_maxima_5t.svg"
+"imagen": "masa_maxima_5t.svg",
+"dificultad": 1
 },
 {
 "id": 59,
@@ -764,7 +822,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "masa_maxima_5t.svg"
+"imagen": "masa_maxima_5t.svg",
+"dificultad": 1
 },
 {
 "id": 60,
@@ -777,7 +836,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Masa máxima autorizada limitada a 5,5 t»: prohíbe el paso a vehículos cuya masa supere las 5,5 toneladas.",
 "tema_id": 5,
-"imagen": "masa_maxima_5t.svg"
+"imagen": "masa_maxima_5t.svg",
+"dificultad": 1
 },
 {
 "id": 61,
@@ -790,7 +850,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Altura máxima limitada a 3,5 m»: prohíbe el paso a vehículos de más de 3,5 m de altura.",
 "tema_id": 5,
-"imagen": "altura_maxima_35.svg"
+"imagen": "altura_maxima_35.svg",
+"dificultad": 1
 },
 {
 "id": 62,
@@ -803,7 +864,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "altura_maxima_35.svg"
+"imagen": "altura_maxima_35.svg",
+"dificultad": 1
 },
 {
 "id": 63,
@@ -816,7 +878,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Altura máxima limitada a 3,5 m»: prohíbe el paso a vehículos de más de 3,5 m de altura.",
 "tema_id": 5,
-"imagen": "altura_maxima_35.svg"
+"imagen": "altura_maxima_35.svg",
+"dificultad": 1
 },
 {
 "id": 64,
@@ -829,7 +892,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Anchura máxima limitada a 2 m»: prohíbe el paso a vehículos de más de 2 m de anchura.",
 "tema_id": 5,
-"imagen": "anchura_maxima_2.svg"
+"imagen": "anchura_maxima_2.svg",
+"dificultad": 1
 },
 {
 "id": 65,
@@ -842,7 +906,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "anchura_maxima_2.svg"
+"imagen": "anchura_maxima_2.svg",
+"dificultad": 1
 },
 {
 "id": 66,
@@ -855,7 +920,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Anchura máxima limitada a 2 m»: prohíbe el paso a vehículos de más de 2 m de anchura.",
 "tema_id": 5,
-"imagen": "anchura_maxima_2.svg"
+"imagen": "anchura_maxima_2.svg",
+"dificultad": 1
 },
 {
 "id": 67,
@@ -868,7 +934,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Distancia mínima entre vehículos 50 m»: obliga a mantener al menos 50 m de separación con el vehículo precedente.",
 "tema_id": 5,
-"imagen": "distancia_minima_50.svg"
+"imagen": "distancia_minima_50.svg",
+"dificultad": 1
 },
 {
 "id": 68,
@@ -881,7 +948,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "distancia_minima_50.svg"
+"imagen": "distancia_minima_50.svg",
+"dificultad": 1
 },
 {
 "id": 69,
@@ -894,7 +962,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Distancia mínima entre vehículos 50 m»: obliga a mantener al menos 50 m de separación con el vehículo precedente.",
 "tema_id": 5,
-"imagen": "distancia_minima_50.svg"
+"imagen": "distancia_minima_50.svg",
+"dificultad": 1
 },
 {
 "id": 70,
@@ -907,7 +976,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Fin de limitación de velocidad»: señala el final de una limitación de velocidad anterior.",
 "tema_id": 5,
-"imagen": "fin_limitacion_velocidad.svg"
+"imagen": "fin_limitacion_velocidad.svg",
+"dificultad": 1
 },
 {
 "id": 71,
@@ -920,7 +990,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "fin_limitacion_velocidad.svg"
+"imagen": "fin_limitacion_velocidad.svg",
+"dificultad": 1
 },
 {
 "id": 72,
@@ -933,7 +1004,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Fin de limitación de velocidad»: señala el final de una limitación de velocidad anterior.",
 "tema_id": 5,
-"imagen": "fin_limitacion_velocidad.svg"
+"imagen": "fin_limitacion_velocidad.svg",
+"dificultad": 1
 },
 {
 "id": 73,
@@ -946,7 +1018,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Fin de la prohibición de adelantar»: señala el final de la prohibición de adelantar.",
 "tema_id": 5,
-"imagen": "fin_prohibicion_adelantar.svg"
+"imagen": "fin_prohibicion_adelantar.svg",
+"dificultad": 1
 },
 {
 "id": 74,
@@ -959,7 +1032,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de prohibición.",
 "tema_id": 5,
-"imagen": "fin_prohibicion_adelantar.svg"
+"imagen": "fin_prohibicion_adelantar.svg",
+"dificultad": 1
 },
 {
 "id": 75,
@@ -972,7 +1046,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Fin de la prohibición de adelantar»: señala el final de la prohibición de adelantar.",
 "tema_id": 5,
-"imagen": "fin_prohibicion_adelantar.svg"
+"imagen": "fin_prohibicion_adelantar.svg",
+"dificultad": 1
 },
 {
 "id": 76,
@@ -985,7 +1060,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Sentido obligatorio a la derecha»: obliga a seguir hacia la derecha.",
 "tema_id": 5,
-"imagen": "sentido_obligatorio_derecha.svg"
+"imagen": "sentido_obligatorio_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 77,
@@ -998,7 +1074,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de obligación.",
 "tema_id": 5,
-"imagen": "sentido_obligatorio_derecha.svg"
+"imagen": "sentido_obligatorio_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 78,
@@ -1011,7 +1088,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Sentido obligatorio a la derecha»: obliga a seguir hacia la derecha.",
 "tema_id": 5,
-"imagen": "sentido_obligatorio_derecha.svg"
+"imagen": "sentido_obligatorio_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 79,
@@ -1024,7 +1102,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Sentido obligatorio a la izquierda»: obliga a seguir hacia la izquierda.",
 "tema_id": 5,
-"imagen": "sentido_obligatorio_izquierda.svg"
+"imagen": "sentido_obligatorio_izquierda.svg",
+"dificultad": 1
 },
 {
 "id": 80,
@@ -1037,7 +1116,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de obligación.",
 "tema_id": 5,
-"imagen": "sentido_obligatorio_izquierda.svg"
+"imagen": "sentido_obligatorio_izquierda.svg",
+"dificultad": 1
 },
 {
 "id": 81,
@@ -1050,7 +1130,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Sentido obligatorio a la izquierda»: obliga a seguir hacia la izquierda.",
 "tema_id": 5,
-"imagen": "sentido_obligatorio_izquierda.svg"
+"imagen": "sentido_obligatorio_izquierda.svg",
+"dificultad": 1
 },
 {
 "id": 82,
@@ -1063,7 +1144,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Paso obligatorio (por la derecha)»: obliga a pasar por la derecha del obstáculo o isleta.",
 "tema_id": 5,
-"imagen": "paso_obligatorio_derecha.svg"
+"imagen": "paso_obligatorio_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 83,
@@ -1076,7 +1158,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de obligación.",
 "tema_id": 5,
-"imagen": "paso_obligatorio_derecha.svg"
+"imagen": "paso_obligatorio_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 84,
@@ -1089,7 +1172,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Paso obligatorio (por la derecha)»: obliga a pasar por la derecha del obstáculo o isleta.",
 "tema_id": 5,
-"imagen": "paso_obligatorio_derecha.svg"
+"imagen": "paso_obligatorio_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 85,
@@ -1102,7 +1186,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Intersección de sentido giratorio obligatorio (rotonda)»: obliga a circular por la glorieta en el sentido indicado.",
 "tema_id": 5,
-"imagen": "interseccion_giratoria.svg"
+"imagen": "interseccion_giratoria.svg",
+"dificultad": 1
 },
 {
 "id": 86,
@@ -1115,7 +1200,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de obligación.",
 "tema_id": 5,
-"imagen": "interseccion_giratoria.svg"
+"imagen": "interseccion_giratoria.svg",
+"dificultad": 1
 },
 {
 "id": 87,
@@ -1128,7 +1214,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Intersección de sentido giratorio obligatorio (rotonda)»: obliga a circular por la glorieta en el sentido indicado.",
 "tema_id": 5,
-"imagen": "interseccion_giratoria.svg"
+"imagen": "interseccion_giratoria.svg",
+"dificultad": 1
 },
 {
 "id": 88,
@@ -1141,7 +1228,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Vía reservada para ciclos o vía ciclista»: vía reservada exclusivamente a bicicletas.",
 "tema_id": 5,
-"imagen": "calzada_bicicletas.svg"
+"imagen": "calzada_bicicletas.svg",
+"dificultad": 1
 },
 {
 "id": 89,
@@ -1154,7 +1242,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de obligación.",
 "tema_id": 5,
-"imagen": "calzada_bicicletas.svg"
+"imagen": "calzada_bicicletas.svg",
+"dificultad": 1
 },
 {
 "id": 90,
@@ -1167,7 +1256,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Vía reservada para ciclos o vía ciclista»: vía reservada exclusivamente a bicicletas.",
 "tema_id": 5,
-"imagen": "calzada_bicicletas.svg"
+"imagen": "calzada_bicicletas.svg",
+"dificultad": 1
 },
 {
 "id": 91,
@@ -1180,7 +1270,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Camino reservado para peatones»: vía reservada al tránsito de peatones.",
 "tema_id": 5,
-"imagen": "camino_peatones.svg"
+"imagen": "camino_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 92,
@@ -1193,7 +1284,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de obligación.",
 "tema_id": 5,
-"imagen": "camino_peatones.svg"
+"imagen": "camino_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 93,
@@ -1206,7 +1298,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Camino reservado para peatones»: vía reservada al tránsito de peatones.",
 "tema_id": 5,
-"imagen": "camino_peatones.svg"
+"imagen": "camino_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 94,
@@ -1219,7 +1312,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Velocidad mínima obligatoria 60 km/h»: obliga a circular al menos a 60 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_minima_60.svg"
+"imagen": "velocidad_minima_60.svg",
+"dificultad": 1
 },
 {
 "id": 95,
@@ -1232,7 +1326,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de obligación.",
 "tema_id": 5,
-"imagen": "velocidad_minima_60.svg"
+"imagen": "velocidad_minima_60.svg",
+"dificultad": 1
 },
 {
 "id": 96,
@@ -1245,7 +1340,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Velocidad mínima obligatoria 60 km/h»: obliga a circular al menos a 60 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_minima_60.svg"
+"imagen": "velocidad_minima_60.svg",
+"dificultad": 1
 },
 {
 "id": 97,
@@ -1258,7 +1354,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Cadenas para nieve obligatorias»: obliga a usar cadenas u otros dispositivos antideslizantes.",
 "tema_id": 5,
-"imagen": "cadenas_nieve.svg"
+"imagen": "cadenas_nieve.svg",
+"dificultad": 1
 },
 {
 "id": 98,
@@ -1271,7 +1368,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de obligación.",
 "tema_id": 5,
-"imagen": "cadenas_nieve.svg"
+"imagen": "cadenas_nieve.svg",
+"dificultad": 1
 },
 {
 "id": 99,
@@ -1284,7 +1382,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Cadenas para nieve obligatorias»: obliga a usar cadenas u otros dispositivos antideslizantes.",
 "tema_id": 5,
-"imagen": "cadenas_nieve.svg"
+"imagen": "cadenas_nieve.svg",
+"dificultad": 1
 },
 {
 "id": 100,
@@ -1297,7 +1396,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Curva peligrosa a la derecha»: advierte de una curva peligrosa hacia la derecha.",
 "tema_id": 5,
-"imagen": "peligro_curva_derecha.svg"
+"imagen": "peligro_curva_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 101,
@@ -1310,7 +1410,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_curva_derecha.svg"
+"imagen": "peligro_curva_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 102,
@@ -1323,7 +1424,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Curva peligrosa a la derecha»: advierte de una curva peligrosa hacia la derecha.",
 "tema_id": 5,
-"imagen": "peligro_curva_derecha.svg"
+"imagen": "peligro_curva_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 103,
@@ -1336,7 +1438,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Curvas peligrosas»: advierte de una sucesión de curvas próximas.",
 "tema_id": 5,
-"imagen": "peligro_curvas.svg"
+"imagen": "peligro_curvas.svg",
+"dificultad": 1
 },
 {
 "id": 104,
@@ -1349,7 +1452,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_curvas.svg"
+"imagen": "peligro_curvas.svg",
+"dificultad": 1
 },
 {
 "id": 105,
@@ -1362,7 +1466,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Curvas peligrosas»: advierte de una sucesión de curvas próximas.",
 "tema_id": 5,
-"imagen": "peligro_curvas.svg"
+"imagen": "peligro_curvas.svg",
+"dificultad": 1
 },
 {
 "id": 106,
@@ -1375,7 +1480,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: niños»: advierte de la proximidad de un lugar frecuentado por niños.",
 "tema_id": 5,
-"imagen": "peligro_ninos.svg"
+"imagen": "peligro_ninos.svg",
+"dificultad": 1
 },
 {
 "id": 107,
@@ -1388,7 +1494,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_ninos.svg"
+"imagen": "peligro_ninos.svg",
+"dificultad": 1
 },
 {
 "id": 108,
@@ -1401,7 +1508,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: niños»: advierte de la proximidad de un lugar frecuentado por niños.",
 "tema_id": 5,
-"imagen": "peligro_ninos.svg"
+"imagen": "peligro_ninos.svg",
+"dificultad": 1
 },
 {
 "id": 109,
@@ -1414,7 +1522,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: ciclistas»: advierte de la posible presencia de ciclistas en la vía.",
 "tema_id": 5,
-"imagen": "peligro_ciclistas.svg"
+"imagen": "peligro_ciclistas.svg",
+"dificultad": 1
 },
 {
 "id": 110,
@@ -1427,7 +1536,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_ciclistas.svg"
+"imagen": "peligro_ciclistas.svg",
+"dificultad": 1
 },
 {
 "id": 111,
@@ -1440,7 +1550,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: ciclistas»: advierte de la posible presencia de ciclistas en la vía.",
 "tema_id": 5,
-"imagen": "peligro_ciclistas.svg"
+"imagen": "peligro_ciclistas.svg",
+"dificultad": 1
 },
 {
 "id": 112,
@@ -1453,7 +1564,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: semáforo»: advierte de la proximidad de un semáforo.",
 "tema_id": 5,
-"imagen": "peligro_semaforo.svg"
+"imagen": "peligro_semaforo.svg",
+"dificultad": 1
 },
 {
 "id": 113,
@@ -1466,7 +1578,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_semaforo.svg"
+"imagen": "peligro_semaforo.svg",
+"dificultad": 1
 },
 {
 "id": 114,
@@ -1479,7 +1592,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: semáforo»: advierte de la proximidad de un semáforo.",
 "tema_id": 5,
-"imagen": "peligro_semaforo.svg"
+"imagen": "peligro_semaforo.svg",
+"dificultad": 1
 },
 {
 "id": 115,
@@ -1492,7 +1606,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: obras»: advierte de la proximidad de una zona de obras en la vía.",
 "tema_id": 5,
-"imagen": "peligro_obras.svg"
+"imagen": "peligro_obras.svg",
+"dificultad": 1
 },
 {
 "id": 116,
@@ -1505,7 +1620,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_obras.svg"
+"imagen": "peligro_obras.svg",
+"dificultad": 1
 },
 {
 "id": 117,
@@ -1518,7 +1634,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: obras»: advierte de la proximidad de una zona de obras en la vía.",
 "tema_id": 5,
-"imagen": "peligro_obras.svg"
+"imagen": "peligro_obras.svg",
+"dificultad": 1
 },
 {
 "id": 118,
@@ -1531,7 +1648,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: paso de animales en libertad»: advierte del posible paso de animales salvajes (en libertad).",
 "tema_id": 5,
-"imagen": "peligro_animales_libres.svg"
+"imagen": "peligro_animales_libres.svg",
+"dificultad": 1
 },
 {
 "id": 119,
@@ -1544,7 +1662,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_animales_libres.svg"
+"imagen": "peligro_animales_libres.svg",
+"dificultad": 1
 },
 {
 "id": 120,
@@ -1557,7 +1676,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: paso de animales en libertad»: advierte del posible paso de animales salvajes (en libertad).",
 "tema_id": 5,
-"imagen": "peligro_animales_libres.svg"
+"imagen": "peligro_animales_libres.svg",
+"dificultad": 1
 },
 {
 "id": 121,
@@ -1570,7 +1690,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: paso de animales domésticos»: advierte del posible paso de animales domésticos (ganado).",
 "tema_id": 5,
-"imagen": "peligro_animales_domesticos.svg"
+"imagen": "peligro_animales_domesticos.svg",
+"dificultad": 1
 },
 {
 "id": 122,
@@ -1583,7 +1704,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_animales_domesticos.svg"
+"imagen": "peligro_animales_domesticos.svg",
+"dificultad": 1
 },
 {
 "id": 123,
@@ -1596,7 +1718,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: paso de animales domésticos»: advierte del posible paso de animales domésticos (ganado).",
 "tema_id": 5,
-"imagen": "peligro_animales_domesticos.svg"
+"imagen": "peligro_animales_domesticos.svg",
+"dificultad": 1
 },
 {
 "id": 124,
@@ -1609,7 +1732,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: estrechamiento de calzada»: advierte de un estrechamiento de la calzada por ambos lados.",
 "tema_id": 5,
-"imagen": "peligro_estrechamiento.svg"
+"imagen": "peligro_estrechamiento.svg",
+"dificultad": 1
 },
 {
 "id": 125,
@@ -1622,7 +1746,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_estrechamiento.svg"
+"imagen": "peligro_estrechamiento.svg",
+"dificultad": 1
 },
 {
 "id": 126,
@@ -1635,7 +1760,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: estrechamiento de calzada»: advierte de un estrechamiento de la calzada por ambos lados.",
 "tema_id": 5,
-"imagen": "peligro_estrechamiento.svg"
+"imagen": "peligro_estrechamiento.svg",
+"dificultad": 1
 },
 {
 "id": 127,
@@ -1648,7 +1774,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: estrechamiento por la derecha»: advierte de un estrechamiento de la calzada por la derecha.",
 "tema_id": 5,
-"imagen": "peligro_estrechamiento_derecha.svg"
+"imagen": "peligro_estrechamiento_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 128,
@@ -1661,7 +1788,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_estrechamiento_derecha.svg"
+"imagen": "peligro_estrechamiento_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 129,
@@ -1674,7 +1802,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: estrechamiento por la derecha»: advierte de un estrechamiento de la calzada por la derecha.",
 "tema_id": 5,
-"imagen": "peligro_estrechamiento_derecha.svg"
+"imagen": "peligro_estrechamiento_derecha.svg",
+"dificultad": 1
 },
 {
 "id": 130,
@@ -1687,7 +1816,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: circulación en los dos sentidos»: advierte de un tramo con circulación en ambos sentidos.",
 "tema_id": 5,
-"imagen": "peligro_dos_sentidos.svg"
+"imagen": "peligro_dos_sentidos.svg",
+"dificultad": 1
 },
 {
 "id": 131,
@@ -1700,7 +1830,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_dos_sentidos.svg"
+"imagen": "peligro_dos_sentidos.svg",
+"dificultad": 1
 },
 {
 "id": 132,
@@ -1713,7 +1844,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: circulación en los dos sentidos»: advierte de un tramo con circulación en ambos sentidos.",
 "tema_id": 5,
-"imagen": "peligro_dos_sentidos.svg"
+"imagen": "peligro_dos_sentidos.svg",
+"dificultad": 1
 },
 {
 "id": 133,
@@ -1726,7 +1858,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: bajada con fuerte pendiente»: advierte de un descenso con inclinación pronunciada.",
 "tema_id": 5,
-"imagen": "peligro_bajada.svg"
+"imagen": "peligro_bajada.svg",
+"dificultad": 1
 },
 {
 "id": 134,
@@ -1739,7 +1872,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_bajada.svg"
+"imagen": "peligro_bajada.svg",
+"dificultad": 1
 },
 {
 "id": 135,
@@ -1752,7 +1886,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: bajada con fuerte pendiente»: advierte de un descenso con inclinación pronunciada.",
 "tema_id": 5,
-"imagen": "peligro_bajada.svg"
+"imagen": "peligro_bajada.svg",
+"dificultad": 1
 },
 {
 "id": 136,
@@ -1765,7 +1900,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: subida con fuerte pendiente»: advierte de una subida con inclinación pronunciada.",
 "tema_id": 5,
-"imagen": "peligro_subida.svg"
+"imagen": "peligro_subida.svg",
+"dificultad": 1
 },
 {
 "id": 137,
@@ -1778,7 +1914,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_subida.svg"
+"imagen": "peligro_subida.svg",
+"dificultad": 1
 },
 {
 "id": 138,
@@ -1791,7 +1928,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: subida con fuerte pendiente»: advierte de una subida con inclinación pronunciada.",
 "tema_id": 5,
-"imagen": "peligro_subida.svg"
+"imagen": "peligro_subida.svg",
+"dificultad": 1
 },
 {
 "id": 139,
@@ -1804,7 +1942,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: perfil irregular (badenes)»: advierte de badenes o irregularidades en el firme.",
 "tema_id": 5,
-"imagen": "peligro_badenes.svg"
+"imagen": "peligro_badenes.svg",
+"dificultad": 1
 },
 {
 "id": 140,
@@ -1817,7 +1956,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_badenes.svg"
+"imagen": "peligro_badenes.svg",
+"dificultad": 1
 },
 {
 "id": 141,
@@ -1830,7 +1970,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: perfil irregular (badenes)»: advierte de badenes o irregularidades en el firme.",
 "tema_id": 5,
-"imagen": "peligro_badenes.svg"
+"imagen": "peligro_badenes.svg",
+"dificultad": 1
 },
 {
 "id": 142,
@@ -1843,7 +1984,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: resalto (banda transversal)»: advierte de un resalto en la calzada para reducir la velocidad.",
 "tema_id": 5,
-"imagen": "peligro_resalto.svg"
+"imagen": "peligro_resalto.svg",
+"dificultad": 1
 },
 {
 "id": 143,
@@ -1856,7 +1998,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_resalto.svg"
+"imagen": "peligro_resalto.svg",
+"dificultad": 1
 },
 {
 "id": 144,
@@ -1869,7 +2012,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: resalto (banda transversal)»: advierte de un resalto en la calzada para reducir la velocidad.",
 "tema_id": 5,
-"imagen": "peligro_resalto.svg"
+"imagen": "peligro_resalto.svg",
+"dificultad": 1
 },
 {
 "id": 145,
@@ -1882,7 +2026,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: pavimento deslizante»: advierte de que el firme puede estar especialmente deslizante.",
 "tema_id": 5,
-"imagen": "peligro_deslizante.svg"
+"imagen": "peligro_deslizante.svg",
+"dificultad": 1
 },
 {
 "id": 146,
@@ -1895,7 +2040,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_deslizante.svg"
+"imagen": "peligro_deslizante.svg",
+"dificultad": 1
 },
 {
 "id": 147,
@@ -1908,7 +2054,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: pavimento deslizante»: advierte de que el firme puede estar especialmente deslizante.",
 "tema_id": 5,
-"imagen": "peligro_deslizante.svg"
+"imagen": "peligro_deslizante.svg",
+"dificultad": 1
 },
 {
 "id": 148,
@@ -1921,7 +2068,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: proyección de gravilla»: advierte de que puede proyectarse gravilla al circular.",
 "tema_id": 5,
-"imagen": "peligro_gravilla.svg"
+"imagen": "peligro_gravilla.svg",
+"dificultad": 1
 },
 {
 "id": 149,
@@ -1934,7 +2082,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_gravilla.svg"
+"imagen": "peligro_gravilla.svg",
+"dificultad": 1
 },
 {
 "id": 150,
@@ -1947,7 +2096,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: proyección de gravilla»: advierte de que puede proyectarse gravilla al circular.",
 "tema_id": 5,
-"imagen": "peligro_gravilla.svg"
+"imagen": "peligro_gravilla.svg",
+"dificultad": 1
 },
 {
 "id": 151,
@@ -1960,7 +2110,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: viento transversal»: advierte de rachas de viento lateral fuerte.",
 "tema_id": 5,
-"imagen": "peligro_viento.svg"
+"imagen": "peligro_viento.svg",
+"dificultad": 1
 },
 {
 "id": 152,
@@ -1973,7 +2124,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_viento.svg"
+"imagen": "peligro_viento.svg",
+"dificultad": 1
 },
 {
 "id": 153,
@@ -1986,7 +2138,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: viento transversal»: advierte de rachas de viento lateral fuerte.",
 "tema_id": 5,
-"imagen": "peligro_viento.svg"
+"imagen": "peligro_viento.svg",
+"dificultad": 1
 },
 {
 "id": 154,
@@ -1999,7 +2152,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: desprendimiento de rocas»: advierte del riesgo de desprendimientos sobre la vía.",
 "tema_id": 5,
-"imagen": "peligro_desprendimiento.svg"
+"imagen": "peligro_desprendimiento.svg",
+"dificultad": 1
 },
 {
 "id": 155,
@@ -2012,7 +2166,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_desprendimiento.svg"
+"imagen": "peligro_desprendimiento.svg",
+"dificultad": 1
 },
 {
 "id": 156,
@@ -2025,7 +2180,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: desprendimiento de rocas»: advierte del riesgo de desprendimientos sobre la vía.",
 "tema_id": 5,
-"imagen": "peligro_desprendimiento.svg"
+"imagen": "peligro_desprendimiento.svg",
+"dificultad": 1
 },
 {
 "id": 157,
@@ -2038,7 +2194,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: paso a nivel con barreras»: advierte de un paso a nivel provisto de barreras.",
 "tema_id": 5,
-"imagen": "peligro_paso_nivel_barreras.svg"
+"imagen": "peligro_paso_nivel_barreras.svg",
+"dificultad": 1
 },
 {
 "id": 158,
@@ -2051,7 +2208,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_paso_nivel_barreras.svg"
+"imagen": "peligro_paso_nivel_barreras.svg",
+"dificultad": 1
 },
 {
 "id": 159,
@@ -2064,7 +2222,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: paso a nivel con barreras»: advierte de un paso a nivel provisto de barreras.",
 "tema_id": 5,
-"imagen": "peligro_paso_nivel_barreras.svg"
+"imagen": "peligro_paso_nivel_barreras.svg",
+"dificultad": 1
 },
 {
 "id": 160,
@@ -2077,7 +2236,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: paso a nivel sin barreras»: advierte de un paso a nivel sin barreras.",
 "tema_id": 5,
-"imagen": "peligro_paso_nivel_sin_barreras.svg"
+"imagen": "peligro_paso_nivel_sin_barreras.svg",
+"dificultad": 1
 },
 {
 "id": 161,
@@ -2090,7 +2250,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_paso_nivel_sin_barreras.svg"
+"imagen": "peligro_paso_nivel_sin_barreras.svg",
+"dificultad": 1
 },
 {
 "id": 162,
@@ -2103,7 +2264,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: paso a nivel sin barreras»: advierte de un paso a nivel sin barreras.",
 "tema_id": 5,
-"imagen": "peligro_paso_nivel_sin_barreras.svg"
+"imagen": "peligro_paso_nivel_sin_barreras.svg",
+"dificultad": 1
 },
 {
 "id": 163,
@@ -2116,7 +2278,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Peligro: otros peligros»: advierte de un peligro distinto de los señalizados específicamente.",
 "tema_id": 5,
-"imagen": "peligro_otros.svg"
+"imagen": "peligro_otros.svg",
+"dificultad": 1
 },
 {
 "id": 164,
@@ -2129,7 +2292,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de advertencia de peligro.",
 "tema_id": 5,
-"imagen": "peligro_otros.svg"
+"imagen": "peligro_otros.svg",
+"dificultad": 1
 },
 {
 "id": 165,
@@ -2142,7 +2306,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Peligro: otros peligros»: advierte de un peligro distinto de los señalizados específicamente.",
 "tema_id": 5,
-"imagen": "peligro_otros.svg"
+"imagen": "peligro_otros.svg",
+"dificultad": 1
 },
 {
 "id": 166,
@@ -2155,7 +2320,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Estacionamiento (parking)»: indica un lugar autorizado para estacionar.",
 "tema_id": 5,
-"imagen": "indica_parking.svg"
+"imagen": "indica_parking.svg",
+"dificultad": 1
 },
 {
 "id": 167,
@@ -2168,7 +2334,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de indicación.",
 "tema_id": 5,
-"imagen": "indica_parking.svg"
+"imagen": "indica_parking.svg",
+"dificultad": 1
 },
 {
 "id": 168,
@@ -2181,7 +2348,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Estacionamiento (parking)»: indica un lugar autorizado para estacionar.",
 "tema_id": 5,
-"imagen": "indica_parking.svg"
+"imagen": "indica_parking.svg",
+"dificultad": 1
 },
 {
 "id": 169,
@@ -2194,7 +2362,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Autopista»: indica el comienzo de una autopista.",
 "tema_id": 5,
-"imagen": "indica_autopista.svg"
+"imagen": "indica_autopista.svg",
+"dificultad": 1
 },
 {
 "id": 170,
@@ -2207,7 +2376,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de indicación.",
 "tema_id": 5,
-"imagen": "indica_autopista.svg"
+"imagen": "indica_autopista.svg",
+"dificultad": 1
 },
 {
 "id": 171,
@@ -2220,7 +2390,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Autopista»: indica el comienzo de una autopista.",
 "tema_id": 5,
-"imagen": "indica_autopista.svg"
+"imagen": "indica_autopista.svg",
+"dificultad": 1
 },
 {
 "id": 172,
@@ -2233,7 +2404,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Hospital»: indica la proximidad de un hospital o centro sanitario con urgencias.",
 "tema_id": 5,
-"imagen": "indica_hospital.svg"
+"imagen": "indica_hospital.svg",
+"dificultad": 1
 },
 {
 "id": 173,
@@ -2246,7 +2418,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de indicación.",
 "tema_id": 5,
-"imagen": "indica_hospital.svg"
+"imagen": "indica_hospital.svg",
+"dificultad": 1
 },
 {
 "id": 174,
@@ -2259,7 +2432,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Hospital»: indica la proximidad de un hospital o centro sanitario con urgencias.",
 "tema_id": 5,
-"imagen": "indica_hospital.svg"
+"imagen": "indica_hospital.svg",
+"dificultad": 1
 },
 {
 "id": 175,
@@ -2272,7 +2446,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Puesto de socorro (primeros auxilios)»: indica la proximidad de un puesto de primeros auxilios.",
 "tema_id": 5,
-"imagen": "indica_socorro.svg"
+"imagen": "indica_socorro.svg",
+"dificultad": 1
 },
 {
 "id": 176,
@@ -2285,7 +2460,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de indicación.",
 "tema_id": 5,
-"imagen": "indica_socorro.svg"
+"imagen": "indica_socorro.svg",
+"dificultad": 1
 },
 {
 "id": 177,
@@ -2298,7 +2474,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Puesto de socorro (primeros auxilios)»: indica la proximidad de un puesto de primeros auxilios.",
 "tema_id": 5,
-"imagen": "indica_socorro.svg"
+"imagen": "indica_socorro.svg",
+"dificultad": 1
 },
 {
 "id": 178,
@@ -2311,7 +2488,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es la señal «Situación de un paso para peatones»: indica la ubicación de un paso de peatones.",
 "tema_id": 5,
-"imagen": "indica_paso_peatones.svg"
+"imagen": "indica_paso_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 179,
@@ -2324,7 +2502,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por su forma y color es una señal de indicación.",
 "tema_id": 5,
-"imagen": "indica_paso_peatones.svg"
+"imagen": "indica_paso_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 180,
@@ -2337,7 +2516,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "«Situación de un paso para peatones»: indica la ubicación de un paso de peatones.",
 "tema_id": 5,
-"imagen": "indica_paso_peatones.svg"
+"imagen": "indica_paso_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 181,
@@ -2350,7 +2530,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La calzada es la parte de la vía dedicada a la circulación de vehículos; puede estar compuesta por uno o varios carriles.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 182,
@@ -2363,7 +2544,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El arcén es la franja longitudinal contigua a la calzada, no destinada normalmente a la circulación de automóviles.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 183,
@@ -2376,7 +2558,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 2,
 "explicacion": "Ambas tienen calzadas separadas, pero la autopista cumple requisitos más estrictos: sin accesos de fincas colindantes ni cruces a nivel.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 184,
@@ -2389,7 +2572,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La travesía es el tramo de carretera que atraviesa una población, sin considerarse propiamente vía urbana.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 185,
@@ -2402,7 +2586,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Conductor es la persona que maneja el mecanismo de dirección de un vehículo o guía animales por la vía.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 186,
@@ -2415,7 +2600,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El carril es cada banda longitudinal de la calzada con anchura para una fila de vehículos, esté o no delimitada por marcas viales.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 187,
@@ -2428,7 +2614,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Un turismo pasa la primera ITV a los 4 años, cada 2 años entre los 4 y los 10, y anualmente a partir de los 10 años.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 188,
@@ -2441,7 +2628,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Los turismos particulares realizan su primera ITV a los 4 años de la matriculación.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 189,
@@ -2454,7 +2642,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El seguro obligatorio cubre la responsabilidad civil por los daños causados a terceros derivados de la circulación del vehículo.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 190,
@@ -2467,7 +2656,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La tarjeta de inspección técnica sellada y el distintivo adhesivo acreditan que se ha superado la ITV.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 191,
@@ -2480,7 +2670,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El conductor debe llevar consigo el permiso o licencia en vigor y exhibirlo a los agentes que lo soliciten.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 192,
@@ -2493,7 +2684,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El permiso de circulación identifica al titular administrativo del vehículo y al vehículo; las características técnicas figuran en la ficha técnica.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 193,
@@ -2506,7 +2698,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La tasa general es de 0,25 mg/l en aire espirado (equivalente a 0,5 g/l en sangre).",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 194,
@@ -2519,7 +2712,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Los conductores noveles y profesionales tienen una tasa reducida: 0,3 g/l en sangre (0,15 mg/l en aire).",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 195,
@@ -2532,7 +2726,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Para las drogas rige la tasa cero: está prohibido conducir con presencia de drogas en el organismo, salvo las administradas por prescripción médica que no mermen la capacidad.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 196,
@@ -2545,7 +2740,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El alcohol es un depresor del sistema nervioso: aumenta el tiempo de reacción, reduce el campo visual y genera exceso de confianza.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 197,
@@ -2558,7 +2754,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Muchos fármacos afectan a la aptitud para conducir; hay que revisar el pictograma de conducción del prospecto y consultar al médico o farmacéutico.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 198,
@@ -2571,7 +2768,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Es obligatorio someterse a las pruebas de detección de alcohol o drogas; la negativa puede ser constitutiva de delito.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 199,
@@ -2584,7 +2782,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En autopistas y autovías el límite genérico para turismos y motocicletas es de 120 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 200,
@@ -2597,7 +2796,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En carreteras convencionales el límite genérico para turismos es de 90 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 201,
@@ -2610,7 +2810,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Desde 2021, en vías urbanas de un solo carril por sentido el límite genérico es de 30 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 202,
@@ -2623,7 +2824,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "En vías de plataforma única de calzada y acera el límite genérico es de 20 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 203,
@@ -2636,7 +2838,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En vías urbanas con dos o más carriles por sentido de circulación el límite genérico sigue siendo 50 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 204,
@@ -2649,7 +2852,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Reducir la velocidad de forma injustificada, entorpeciendo la marcha de otros, está prohibido salvo causa justificada.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 205,
@@ -2662,7 +2866,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las señales triangulares con borde rojo son de advertencia de peligro.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 206,
@@ -2675,7 +2880,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las señales circulares azules son de obligación (indican el comportamiento obligatorio).",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 207,
@@ -2688,7 +2894,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La señal de STOP obliga a detener el vehículo por completo ante la línea y a ceder el paso.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 208,
@@ -2701,7 +2908,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 2,
 "explicacion": "El orden de prioridad es: agentes, señalización circunstancial, semáforos, señales verticales y marcas viales.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 209,
@@ -2714,7 +2922,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La línea continua no debe traspasarse; separa sentidos o carriles y prohíbe adelantar cruzándola.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 210,
@@ -2727,7 +2936,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El amarillo fijo obliga a detenerse igual que el rojo, salvo que el vehículo esté tan próximo que no pueda parar en condiciones de seguridad.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 211,
@@ -2740,7 +2950,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En intersecciones sin señalización de prioridad, tiene preferencia el vehículo que se aproxima por la derecha.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 212,
@@ -2753,7 +2964,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Antes de adelantar hay que comprobar que ningún vehículo va a adelantarnos y que existe espacio y visibilidad libres suficientes.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 213,
@@ -2766,7 +2978,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los vehículos que ya circulan por la glorieta tienen preferencia sobre los que pretenden entrar.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 214,
@@ -2779,7 +2992,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Toda maniobra debe señalizarse con antelación con los indicadores de dirección y realizarse sin poner en peligro a otros usuarios.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 215,
@@ -2792,7 +3006,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En los pasos para peatones señalizados, los peatones tienen preferencia y el conductor debe cederles el paso.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 216,
@@ -2805,7 +3020,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Está prohibido parar y estacionar en cambios de rasante y curvas de visibilidad reducida y sus proximidades.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 217,
@@ -2818,7 +3034,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Ante una avería en vía interurbana, conviene salir por el lado más seguro con el chaleco reflectante y resguardarse fuera de la calzada.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 218,
@@ -2831,7 +3048,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El reposacabezas, correctamente ajustado, limita el desplazamiento de la cabeza y previene el 'latigazo cervical' en colisiones por alcance.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 219,
@@ -2844,7 +3062,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La presión insuficiente aumenta el consumo y el desgaste, empeora la estabilidad y el frenado, y puede provocar reventones.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 220,
@@ -2857,7 +3076,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El cinturón es obligatorio para conductor y todos los ocupantes en cualquier tipo de vía y en todas las plazas que dispongan de él.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 221,
@@ -2870,7 +3090,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La profundidad mínima legal de las ranuras principales del neumático es de 1,6 mm.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 222,
@@ -2883,7 +3104,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El testigo rojo de presión de aceite indica un fallo grave; hay que detenerse en lugar seguro y no seguir circulando para no dañar el motor.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 223,
@@ -2896,7 +3118,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El ABS impide el bloqueo de las ruedas durante una frenada intensa, lo que permite seguir dirigiendo el vehículo.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 224,
@@ -2909,7 +3132,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La conducción eficiente usa marchas largas a bajas revoluciones, aceleraciones suaves y anticipación, reduciendo consumo y emisiones.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 225,
@@ -2922,7 +3146,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Vía interurbana es toda vía pública situada fuera de poblado; las urbanas están dentro de poblado.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 226,
@@ -2935,7 +3160,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La parada es una inmovilización de menos de dos minutos sin que el conductor abandone el vehículo; más allá, es estacionamiento.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 227,
@@ -2948,7 +3174,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Adelantar es rebasar a otro vehículo que marcha en el mismo sentido y ocupa el mismo carril que quien adelanta.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 228,
@@ -2961,7 +3188,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La tara es la masa del vehículo en vacío, con su equipo fijo y depósitos llenos, sin ocupantes ni carga.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 229,
@@ -2974,7 +3202,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La isleta es una zona delimitada dentro de la calzada para canalizar el tráfico o servir de refugio a los peatones.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 230,
@@ -2987,7 +3216,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Es peatón quien va a pie y también quien empuja un coche de niño o conduce a pie un ciclo o ciclomotor de dos ruedas.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 231,
@@ -3000,7 +3230,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El carril reservado para autobuses solo puede ser usado por estos y por los vehículos que expresamente autorice la señalización.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 232,
@@ -3013,7 +3244,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Hasta los 65 años el permiso B se renueva cada 10 años; a partir de esa edad, cada 5 años.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 233,
@@ -3026,7 +3258,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El conductor novel dispone inicialmente de 8 puntos; tras dos años sin sanciones pasa a 12, pudiendo llegar hasta 15.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 234,
@@ -3039,7 +3272,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Deben poder acreditarse el permiso de circulación y la tarjeta ITV en vigor, además del permiso de conducción del conductor.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 235,
@@ -3052,7 +3286,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En caso de pérdida, sustracción o deterioro debe solicitarse un duplicado a la DGT.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 236,
@@ -3065,7 +3300,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La etiqueta ambiental clasifica los vehículos por su nivel de emisiones y condiciona su circulación en zonas de bajas emisiones.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 237,
@@ -3078,7 +3314,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las placas deben ir colocadas (delante y detrás en un turismo), legibles y sin alteraciones que dificulten su lectura.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 238,
@@ -3091,7 +3328,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Conducir sin seguro obligatorio es una infracción sancionable e incluso puede conllevar la inmovilización o depósito del vehículo.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 239,
@@ -3104,7 +3342,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 2,
 "explicacion": "El alcohol solo desaparece con el tiempo; ni el café, ni la ducha, ni el ejercicio aceleran su eliminación.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 240,
@@ -3117,7 +3356,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Superar 0,60 mg/l en aire espirado (o 1,2 g/l en sangre) es constitutivo de delito contra la seguridad vial.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 241,
@@ -3130,7 +3370,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Profesionales y noveles no pueden superar 0,15 mg/l en aire espirado (0,3 g/l en sangre).",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 242,
@@ -3143,7 +3384,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El cannabis distorsiona la percepción y la coordinación y aumenta el tiempo de reacción, incrementando el riesgo.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 243,
@@ -3156,7 +3398,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La resaca produce fatiga, dolor de cabeza y menor atención, deteriorando la conducción aunque la tasa ya sea baja.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 244,
@@ -3169,7 +3412,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La combinación de alcohol y ciertos fármacos potencia la somnolencia y la pérdida de reflejos, multiplicando el riesgo.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 245,
@@ -3182,7 +3426,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Para las drogas rige la tasa cero; solo se exceptúan sustancias por prescripción médica que no afecten a la conducción.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 246,
@@ -3195,7 +3440,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En autopistas y autovías la velocidad mínima genérica es de 60 km/h (la mitad de la máxima genérica).",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 247,
@@ -3208,7 +3454,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Desde marzo de 2022 se eliminó el margen de +20 km/h para adelantar en vías convencionales; nunca debe superarse el límite.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 248,
@@ -3221,7 +3468,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Con lluvia disminuye la adherencia y aumenta la distancia de frenado; hay que reducir la velocidad y aumentar la separación.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 249,
@@ -3234,7 +3482,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La energía cinética es proporcional al cuadrado de la velocidad: al doblar la velocidad, se cuadruplica la energía y la gravedad de un impacto.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 250,
@@ -3247,7 +3496,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La separación debe ser suficiente para detenerse con seguridad si el vehículo precedente frena bruscamente.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 251,
@@ -3260,7 +3510,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Salvo para adelantar, se circula por el carril derecho; ir lento por la izquierda obstaculiza y puede sancionarse.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 252,
@@ -3273,7 +3524,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los automóviles circulan por la calzada; el arcén no está destinado a su circulación normal.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 253,
@@ -3286,7 +3538,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El triángulo invertido es la señal de 'ceda el paso': hay que ceder ante los vehículos de la vía preferente.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 254,
@@ -3299,7 +3552,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las señales cuadradas/rectangulares azules son de indicación o informativas.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 255,
@@ -3312,7 +3566,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La línea discontinua puede traspasarse cuando la seguridad de la circulación lo permita, por ejemplo para adelantar.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 256,
@@ -3325,7 +3580,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El amarillo intermitente permite pasar con precaución, sin conferir prioridad; se aplican las normas generales.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 257,
@@ -3338,7 +3594,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las señales circulares de borde rojo expresan prohibición o restricción.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 258,
@@ -3351,7 +3608,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las marcas amarillas indican prohibiciones o restricciones de parada y estacionamiento.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 259,
@@ -3364,7 +3622,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las señales de los agentes prevalecen sobre cualquier otra señal, incluidos los semáforos.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 260,
@@ -3377,7 +3636,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Quien se incorpora a la circulación desde una parada, estacionamiento o vía adyacente debe ceder el paso a los que ya circulan.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 261,
@@ -3390,7 +3650,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Se puede adelantar por la derecha cuando el conductor precedente ha señalizado que va a girar a la izquierda, entre otros casos tasados.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 262,
@@ -3403,7 +3664,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Debe dejarse al menos 1,5 m de separación lateral al adelantar a ciclistas, incluso invadiendo parcialmente el sentido contrario si la seguridad lo permite.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 263,
@@ -3416,7 +3678,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los vehículos prioritarios en servicio urgente gozan de prioridad cuando emiten las señales luminosas y acústicas reglamentarias; hay que facilitarles el paso.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 264,
@@ -3429,7 +3692,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La marcha atrás es complementaria y excepcional: se realiza en el menor recorrido posible y está prohibida en autopistas y autovías.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 265,
@@ -3442,7 +3706,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El cambio de sentido está prohibido donde la visibilidad sea insuficiente o el riesgo elevado: cambios de rasante, curvas, túneles, autopistas, etc.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 266,
@@ -3455,7 +3720,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Al girar a otra vía, el conductor debe ceder el paso a los peatones que la cruzan, aunque no haya paso señalizado.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 267,
@@ -3468,7 +3734,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Con una silla a contramarcha en el asiento delantero es obligatorio desactivar el airbag frontal, cuyo despliegue podría ser mortal para el bebé.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 268,
@@ -3481,7 +3748,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los menores de 135 cm o menos deben utilizar un dispositivo de retención infantil homologado y adaptado a su talla y peso.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 269,
@@ -3494,7 +3762,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La luz de emergencia V16, colocada en el punto más alto del vehículo, sustituye a los triángulos y evita tener que salir a la calzada.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 270,
@@ -3507,7 +3776,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Conviene descansar cada dos horas o 200 km aproximadamente, ya que la fatiga reduce la atención y los reflejos.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 271,
@@ -3520,7 +3790,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En túneles y pasos inferiores debe encenderse el alumbrado, como mínimo la luz de cruce, aunque sea de día.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 272,
@@ -3533,7 +3804,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La luz larga no debe usarse cuando pueda deslumbrar a otros usuarios; se cambia a la de cruce ante vehículos que vienen de frente o al adelantar.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 273,
@@ -3546,7 +3818,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El ESP corrige la trayectoria frenando ruedas de forma selectiva para evitar derrapes y la pérdida de control.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 274,
@@ -3559,7 +3832,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La autovía tiene calzadas separadas por sentido pero puede no reunir todos los requisitos de la autopista (por ejemplo, respecto a accesos).",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 275,
@@ -3572,7 +3846,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La carretera convencional es la vía interurbana que no es autopista ni autovía; suele tener un carril por sentido.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 276,
@@ -3585,7 +3860,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 2,
 "explicacion": "En zonas residenciales señalizadas con la S-28 la velocidad máxima es de 20 km/h y los peatones tienen prioridad.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 277,
@@ -3598,7 +3874,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La glorieta es una intersección en la que el tráfico circula de forma rotatoria alrededor de una isleta central.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 278,
@@ -3611,7 +3888,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El VMP es un vehículo: no puede circular por aceras ni por vías interurbanas o autopistas, y su conductor debe respetar las normas de tráfico.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 279,
@@ -3624,7 +3902,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El ciclomotor tiene una cilindrada no superior a 50 cm³ (si es de combustión) y una velocidad máxima de fábrica de 45 km/h.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 280,
@@ -3637,7 +3916,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La MMA es la masa máxima con que se autoriza a circular al vehículo cargado; superarla es una infracción y un riesgo.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 281,
@@ -3650,7 +3930,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El vehículo articulado es el conjunto de un vehículo de motor (tractora) y el semirremolque que arrastra.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 282,
@@ -3663,7 +3944,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Se consideran vulnerables los usuarios con menor protección: peatones, ciclistas, motoristas y usuarios de VMP.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 283,
@@ -3676,7 +3958,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El vado es un acceso permanente de vehículos a una finca; frente a él está prohibido estacionar.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 284,
@@ -3689,7 +3972,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El carril VAO (Vehículos de Alta Ocupación) se reserva a los vehículos con el número de ocupantes indicado y a los que autorice la señal.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 285,
@@ -3702,7 +3986,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El semirremolque se acopla al tractor de modo que parte de su masa gravita sobre él; el remolque reparte su peso sobre sus propios ejes.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 286,
@@ -3715,7 +4000,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El vehículo cargado no puede superar su MMA; la sobrecarga afecta a frenado, estabilidad y neumáticos.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 287,
@@ -3728,7 +4014,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La mediana es la zona no destinada a la circulación que separa las dos calzadas de sentidos opuestos.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 288,
@@ -3741,7 +4028,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El automóvil es un vehículo de motor para circular sin carriles, excluyéndose expresamente ciclomotores, tranvías y algunos vehículos especiales.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 289,
@@ -3754,7 +4042,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El paso a nivel es la intersección, al mismo nivel, entre una carretera y una vía de ferrocarril.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 290,
@@ -3767,7 +4056,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En las zonas de estacionamiento regulado el aparcamiento está limitado en tiempo y suele requerir el pago de una tasa.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 291,
@@ -3780,7 +4070,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El tranvía circula sobre raíles por la vía; por sus características suele tener preferencia de paso salvo indicación contraria.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 292,
@@ -3793,7 +4084,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El área de descanso es una zona anexa a la vía, fuera de la calzada, destinada a la parada y el descanso de los conductores.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 293,
@@ -3806,7 +4098,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La acera es la parte de la vía reservada al tránsito de peatones, normalmente elevada respecto a la calzada.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 294,
@@ -3819,7 +4112,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El permiso B habilita para automóviles de hasta 3.500 kg de MMA y un máximo de 9 plazas (8 pasajeros más el conductor).",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 295,
@@ -3832,7 +4126,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La edad mínima para obtener el permiso de conducción de la clase B es de 18 años.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 296,
@@ -3845,7 +4140,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El B permite remolques de hasta 750 kg; también remolques mayores si el conjunto no supera los 3.500 kg de MMA.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 297,
@@ -3858,7 +4154,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Tras varios años sin sanciones el saldo puede aumentar hasta un máximo de 15 puntos.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 298,
@@ -3871,7 +4168,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Al perder todos los puntos se pierde la vigencia del permiso; para recuperarlo hay que hacer un curso de sensibilización y aprobar una prueba.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 299,
@@ -3884,7 +4182,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La ficha o tarjeta ITV contiene los datos técnicos del vehículo y el registro de las inspecciones periódicas.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 300,
@@ -3897,7 +4196,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La venta o transmisión debe comunicarse a la DGT para actualizar la titularidad y evitar responsabilidades.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 301,
@@ -3910,7 +4210,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Con ITV desfavorable el vehículo no debe circular salvo para desplazarse al taller y volver a inspección tras la reparación.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 302,
@@ -3923,7 +4224,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La etiqueta azul '0 emisiones' identifica a los vehículos más limpios, como los eléctricos y de hidrógeno.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 303,
@@ -3936,7 +4238,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "En las ZBE se limita el acceso y la circulación de los vehículos más contaminantes según su distintivo ambiental.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 304,
@@ -3949,7 +4252,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La renovación exige un reconocimiento médico-psicotécnico que acredite que se mantienen las aptitudes para conducir.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 305,
@@ -3962,7 +4266,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Conviene comunicar el cambio de domicilio a la DGT para recibir correctamente las notificaciones administrativas.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 306,
@@ -3975,7 +4280,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "A partir de los 65 años el periodo de vigencia del permiso B se reduce a 5 años.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 307,
@@ -3988,7 +4294,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El recibo o justificante acredita que el seguro obligatorio de responsabilidad civil está en vigor.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 308,
@@ -4001,7 +4308,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Cuando el conjunto supera los límites del B se requiere el permiso B+E u otra categoría adecuada.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 309,
@@ -4014,7 +4322,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Transcurrido cierto tiempo sin infracciones (2 años para graves, 3 para muy graves) se recupera el saldo inicial de puntos.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 310,
@@ -4027,7 +4336,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los turismos deben llevar placa de matrícula delante y detrás, legibles y sin manipular.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 311,
@@ -4040,7 +4350,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Circular con la ITV caducada es una infracción sancionable y puede conllevar la inmovilización del vehículo.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 312,
@@ -4053,7 +4364,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La negativa a someterse a las pruebas legalmente establecidas constituye un delito contra la seguridad vial.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 313,
@@ -4066,7 +4378,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El sueño solo se combate durmiendo; hay que parar en un lugar seguro. Trucos como abrir la ventana no son eficaces.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 314,
@@ -4079,7 +4392,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Conducir usando el móvil en la mano está prohibido; la distracción multiplica el riesgo de accidente.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 315,
@@ -4092,7 +4406,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Está prohibido conducir con cascos o auriculares conectados a aparatos de sonido, pues aíslan al conductor del entorno.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 316,
@@ -4105,7 +4420,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La secuencia correcta es Proteger el lugar, Avisar a los servicios de emergencia y Socorrer a las víctimas.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 317,
@@ -4118,7 +4434,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "No se retira el casco salvo que sea imprescindible para salvar la vida (parada respiratoria), por el riesgo de agravar lesiones cervicales.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 318,
@@ -4131,7 +4448,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El 112 es el teléfono único de emergencias en toda la Unión Europea.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 319,
@@ -4144,7 +4462,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La posición lateral de seguridad evita que la lengua o un vómito obstruyan la vía aérea en una persona inconsciente que respira.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 320,
@@ -4157,7 +4476,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las comidas abundantes favorecen la somnolencia y reducen la concentración; conviene comer ligero antes de conducir.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 321,
@@ -4170,7 +4490,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las emociones intensas alteran la percepción y favorecen la conducción agresiva; es mejor tranquilizarse antes de arrancar.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 322,
@@ -4183,7 +4504,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Ese pictograma advierte de que el medicamento puede afectar a la conducción; hay que leer las instrucciones y consultar al médico.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 323,
@@ -4196,7 +4518,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Si el permiso obliga a corrección visual, hay que conducir siempre con ella; llevar un par de repuesto es muy recomendable.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 324,
@@ -4209,7 +4532,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El monóxido de carbono es un gas tóxico e inodoro; no debe arrancarse el motor en recintos cerrados sin ventilación.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 325,
@@ -4222,7 +4546,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Descansar con regularidad, mantener el habitáculo ventilado y comer ligero ayudan a prevenir la fatiga.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 326,
@@ -4235,7 +4560,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Incluso dosis bajas de alcohol reducen la capacidad de reacción y la coordinación; la tolerancia no elimina el deterioro.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 327,
@@ -4248,7 +4574,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La primera medida es la compresión directa sobre la herida para frenar la hemorragia.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 328,
@@ -4261,7 +4588,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En travesías rige el límite de zona urbana (50 km/h con carácter genérico), salvo que la señalización indique otra cosa.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 329,
@@ -4274,7 +4602,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los camiones y vehículos articulados tienen un límite genérico de 90 km/h en autopista y autovía.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 330,
@@ -4287,7 +4616,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los autobuses tienen un límite genérico de 100 km/h en autopistas y autovías.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 331,
@@ -4300,7 +4630,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Durante el tiempo de reacción (aprox. 1 s) el vehículo sigue avanzando; a más velocidad, mayor es esa distancia.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 332,
@@ -4313,7 +4644,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La distancia de detención = distancia recorrida durante la reacción + distancia de frenado propiamente dicha.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 333,
@@ -4326,7 +4658,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Con niebla se reduce la visibilidad y la adherencia; hay que aminorar la velocidad y separarse más del vehículo precedente.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 334,
@@ -4339,7 +4672,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los conjuntos de vehículos con remolque tienen límites de velocidad más bajos que el vehículo aislado.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 335,
@@ -4352,7 +4686,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Hay que moderar la velocidad y ceder el paso a los peatones en los pasos señalizados.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 336,
@@ -4365,7 +4700,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La velocidad inadecuada aumenta la probabilidad de accidente y la gravedad de las lesiones.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 337,
@@ -4378,7 +4714,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La presencia de peatones, y especialmente de niños, obliga a moderar la velocidad y a extremar la atención.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 338,
@@ -4391,7 +4728,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El ciclomotor no puede superar por construcción los 45 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 339,
@@ -4404,7 +4742,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Con hielo o nieve la adherencia es muy baja; hay que ir despacio, con maniobras suaves y gran distancia de seguridad.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 340,
@@ -4417,7 +4756,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Se circula normalmente por el carril derecho; los de la izquierda se usan para adelantar.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 341,
@@ -4430,7 +4770,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La energía cinética depende de la masa y del cuadrado de la velocidad; por eso la velocidad es determinante en la gravedad del choque.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 342,
@@ -4443,7 +4784,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La velocidad debe adaptarse y reducirse antes de la curva; frenar dentro de ella resta estabilidad.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 343,
@@ -4456,7 +4798,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Reducir la marcha sin motivo, obstaculizando a otros vehículos, está prohibido salvo causa justificada.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 344,
@@ -4469,7 +4812,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El aquaplaning es la pérdida de contacto de los neumáticos con el firme por una lámina de agua; se previene reduciendo la velocidad.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 345,
@@ -4482,7 +4826,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El octógono rojo es exclusivo de la señal de STOP: obliga a detenerse por completo y ceder el paso.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 346,
@@ -4495,7 +4840,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El rojo prohíbe el paso; hay que detenerse antes de la línea de detención o del semáforo.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 347,
@@ -4508,7 +4854,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El verde permite avanzar, pero no se debe entrar en la intersección si se va a quedar bloqueado en ella.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 348,
@@ -4521,7 +4868,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La flecha verde autoriza el movimiento en la dirección que indica, cediendo el paso a quien corresponda.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 349,
@@ -4534,7 +4882,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las señales de obras (fondo amarillo) prevalecen sobre las señales de circulación permanentes cuando se contradicen.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 350,
@@ -4547,7 +4896,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Es una señal de peligro que avisa de un lugar frecuentado por peatones (por ejemplo, cercanía de un colegio).",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 351,
@@ -4560,7 +4910,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Es la señal de 'adelantamiento prohibido'; rige hasta la señal de fin de prohibición o hasta la próxima intersección.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 352,
@@ -4573,7 +4924,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los triángulos en el pavimento (o la línea de ceda) obligan a ceder el paso a los vehículos de la vía prioritaria.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 353,
@@ -4586,7 +4938,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La señal de 'dirección prohibida' prohíbe la entrada de vehículos en el sentido en que está colocada.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 354,
@@ -4599,7 +4952,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Las señales azules con flecha indican el sentido obligatorio que deben seguir los vehículos.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 355,
@@ -4612,7 +4966,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Prevalecen las indicaciones de los agentes, luego la señalización circunstancial y de obras, después los semáforos, las señales verticales y, por último, las marcas viales.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 356,
@@ -4625,7 +4980,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es una señal de peligro por pavimento deslizante; conviene reducir la velocidad y evitar maniobras bruscas.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 357,
@@ -4638,7 +4994,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El disco rojo indica la entrada prohibida a toda clase de vehículos en ese punto.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 358,
@@ -4651,7 +5008,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los paneles de mensaje variable informan de retenciones, obras, límites temporales, etc., y sus indicaciones deben respetarse.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 359,
@@ -4664,7 +5022,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La 'P' sobre fondo azul señala una zona donde está permitido estacionar.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 360,
@@ -4677,7 +5036,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Es una señal de peligro que advierte de un tramo frecuentado por ciclistas.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 361,
@@ -4690,7 +5050,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La línea de detención marca el punto exacto donde debe pararse el vehículo ante un STOP.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 362,
@@ -4703,7 +5064,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Esta señal anula la limitación específica anterior; a partir de ella rigen los límites genéricos de la vía.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 363,
@@ -4716,7 +5078,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Estas señales de peligro advierten de la proximidad de un paso a nivel, con o sin barreras.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 364,
@@ -4729,7 +5092,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En pendientes con estrechamiento sin señal, tiene preferencia el que sube, pues le resulta más difícil reanudar la marcha (salvo que el que baja tenga cerca un apartadero).",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 365,
@@ -4742,7 +5106,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El adelantamiento está prohibido donde la visibilidad sea insuficiente o el riesgo elevado: curvas, cambios de rasante, pasos de peatones, intersecciones, túneles, etc.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 366,
@@ -4755,7 +5120,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Se debe dejar como mínimo 1,5 m; para ello se permite ocupar parcialmente el carril contrario, incluso sobre línea continua, si no hay riesgo.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 367,
@@ -4768,7 +5134,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Está prohibido detenerse o estacionar en intersecciones, pasos de peatones o ciclistas, carriles reservados, aceras y otros lugares que generen peligro u obstáculo.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 368,
@@ -4781,7 +5148,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El claxon se usa únicamente cuando sea necesario para evitar un accidente; su uso inmotivado está prohibido, especialmente de noche.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 369,
@@ -4794,7 +5162,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El carril de aceleración sirve para alcanzar la velocidad de la vía; hay que ceder el paso a los vehículos que ya circulan por ella.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 370,
@@ -4807,7 +5176,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Con las barreras bajando o bajadas está prohibido cruzar el paso a nivel; hay que esperar a que se abran.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 371,
@@ -4820,7 +5190,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Hay que facilitar el paso a los vehículos prioritarios en servicio urgente, apartándose hacia la derecha y deteniéndose si es necesario.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 372,
@@ -4833,7 +5204,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El cambio de carril exige señalización previa, comprobar espejos y ángulo muerto, y no obligar a frenar a los que ya circulan por ese carril.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 373,
@@ -4846,7 +5218,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Para abandonar la glorieta hay que aproximarse al carril exterior derecho y señalizar la salida con el intermitente.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 374,
@@ -4859,7 +5232,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El giro a la izquierda exige colocarse a la izquierda, señalizar y ceder el paso a los vehículos que circulan de frente en sentido contrario.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 375,
@@ -4872,7 +5246,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La presencia de un vehículo del que pueden descender niños obliga a moderar la velocidad y extremar la atención.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 376,
@@ -4885,7 +5260,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En las zonas residenciales los peatones tienen prioridad y pueden utilizar toda la zona de circulación; los vehículos van a paso de persona (máx. 20 km/h).",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 377,
@@ -4898,7 +5274,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Al estacionar hay que dejar el vehículo bien situado, sin obstaculizar el tráfico ni la visibilidad ni suponer un peligro.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 378,
@@ -4911,7 +5288,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Aunque el semáforo esté en verde, no se debe penetrar en la intersección si previsiblemente quedarás bloqueado dentro de ella.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 379,
@@ -4924,7 +5302,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La marcha atrás es excepcional y complementaria (por ejemplo, para aparcar), realizándose en el menor recorrido posible; está prohibida en autopistas y autovías.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 380,
@@ -4937,7 +5316,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "En vías interurbanas hay que ponerse el chaleco reflectante antes de salir del vehículo y, si es posible, resguardarse tras la barrera.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 381,
@@ -4950,7 +5330,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El cinturón retiene al ocupante, evita su proyección al exterior y reduce los golpes contra el interior del vehículo.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 382,
@@ -4963,7 +5344,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Ante un reventón no se debe frenar de golpe; hay que mantener la dirección, reducir suavemente la velocidad y detenerse en lugar seguro.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 383,
@@ -4976,7 +5358,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El casco homologado es obligatorio tanto para el conductor como para el pasajero de motocicletas y ciclomotores.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 384,
@@ -4989,7 +5372,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los testigos rojos señalan situaciones graves (frenos, aceite, temperatura...); los ámbar advierten de anomalías que requieren precaución.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 385,
@@ -5002,7 +5386,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La antiniebla trasera es muy potente y deslumbra; solo debe encenderse en condiciones de visibilidad muy reducida.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 386,
@@ -5015,7 +5400,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los amortiguadores desgastados empeoran el agarre de las ruedas al firme, la estabilidad en curva y alargan la frenada.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 387,
@@ -5028,7 +5414,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Las cadenas se colocan en las ruedas motrices para que transmitan la tracción sobre la nieve o el hielo.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 388,
@@ -5041,7 +5428,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La rueda temporal limita la velocidad (suele indicarse en la propia rueda) y debe reemplazarse por una normal lo antes posible.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 389,
@@ -5054,7 +5442,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La carga que sobresale debe ir bien sujeta y señalizada con el dispositivo reglamentario (panel V-20) para advertir a los demás.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 390,
@@ -5067,7 +5456,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La presión baja incrementa el consumo y el desgaste de los flancos, calienta el neumático y empeora la estabilidad y el frenado.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 391,
@@ -5080,7 +5470,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El ESP detecta la pérdida de trayectoria y frena ruedas concretas para estabilizar el vehículo.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 392,
@@ -5093,7 +5484,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La conducción eficiente usa marchas largas a bajas revoluciones, velocidad estable y anticipación, reduciendo consumo y emisiones.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 393,
@@ -5106,7 +5498,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El líquido de frenos transmite la fuerza al sistema; un nivel bajo o su degradación pueden provocar un fallo de frenada.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 394,
@@ -5119,7 +5512,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El airbag es un complemento del cinturón; sin cinturón, su despliegue puede incluso causar lesiones.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 395,
@@ -5132,7 +5526,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El sobrecalentamiento puede dañar gravemente el motor; hay que parar y dejar que se enfríe antes de revisar el nivel de refrigerante.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 396,
@@ -5145,7 +5540,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Superar la MMA compromete frenos, neumáticos y estabilidad, además de constituir una infracción.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 397,
@@ -5158,7 +5554,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Un reposacabezas bien ajustado (a la altura de la coronilla y cerca de la nuca) previene el latigazo cervical en colisiones por alcance.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 398,
@@ -5171,7 +5568,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las luces de posición hacen visible el vehículo; para ver la vía se necesita la luz de cruce o de carretera.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 399,
@@ -5184,7 +5582,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El vehículo mixto puede destinarse indistintamente al transporte de personas y de cosas, hasta un máximo autorizado.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 400,
@@ -5197,7 +5596,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los vehículos especiales (tractores, maquinaria de obras, etc.) tienen características propias que limitan su forma de circular.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 401,
@@ -5210,7 +5610,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La bicicleta es un ciclo, es decir, un vehículo movido por el esfuerzo muscular de quien lo conduce (salvo la asistencia al pedaleo permitida).",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 402,
@@ -5223,7 +5624,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El remolque ligero es el de masa máxima autorizada no superior a 750 kg.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 403,
@@ -5236,7 +5638,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El gálibo alude a las dimensiones límite; por ejemplo, la altura máxima permitida bajo un puente o túnel.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 404,
@@ -5249,7 +5652,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El apartadero es un ensanchamiento que permite apartarse para facilitar el cruce o el adelantamiento en vías estrechas.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 405,
@@ -5262,7 +5666,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El carril de deceleración permite reducir la velocidad para salir de la vía sin entorpecer la circulación del resto.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 406,
@@ -5275,7 +5680,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El vehículo histórico se cataloga oficialmente por su antigüedad y valor; tiene condiciones específicas de circulación e ITV.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 407,
@@ -5288,7 +5694,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El ramal es la vía que enlaza dos carreteras en un nudo o enlace, permitiendo el cambio de una a otra.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 408,
@@ -5301,7 +5708,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La zona peatonal está reservada al tránsito de peatones; los vehículos solo acceden en los casos autorizados.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 409,
@@ -5314,7 +5722,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La autocaravana circula y estaciona según las normas de su categoría; estacionar no equivale a acampar, que tiene sus propias reglas.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 410,
@@ -5327,7 +5736,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La etiqueta C (verde) identifica a los turismos de combustión más modernos que cumplen las normas de emisiones más exigentes de su tipo.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 411,
@@ -5340,7 +5750,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El titular de un permiso B con tres años de antigüedad puede conducir motocicletas A1 (hasta 125 cc) dentro de España.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 412,
@@ -5353,7 +5764,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Las infracciones muy graves pueden restar hasta 6 puntos, según el tipo (alcoholemia elevada, exceso de velocidad grave, etc.).",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 413,
@@ -5366,7 +5778,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El pago voluntario en el plazo reducido conlleva una bonificación del 50% del importe de la sanción (no afecta a los puntos).",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 414,
@@ -5379,7 +5792,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La ITV verifica los sistemas de seguridad y las emisiones del vehículo para garantizar que es apto para circular.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 415,
@@ -5392,7 +5806,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El permiso digital de miDGT es válido en España para identificarse ante la autoridad; para viajar al extranjero conviene llevar el físico.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 416,
@@ -5405,7 +5820,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El permiso AM, que habilita para conducir ciclomotores, puede obtenerse a partir de los 15 años.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 417,
@@ -5418,7 +5834,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La transferencia registra el nuevo titular; circular sin regularizarla puede acarrear problemas administrativos y de responsabilidad.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 418,
@@ -5431,7 +5848,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Transcurrido el periodo de validez para residentes, hay que canjear el permiso (si existe acuerdo) u obtener el español.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 419,
@@ -5444,7 +5862,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Con la edad se reduce el periodo de vigencia del permiso y, por tanto, la frecuencia de los reconocimientos médicos.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 420,
@@ -5457,7 +5876,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La cafeína puede aliviar temporalmente, pero la única solución real al sueño es detenerse y descansar.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 421,
@@ -5470,7 +5890,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "No se da comida ni bebida a un herido: podría necesitar cirugía y existe riesgo de atragantamiento o vómito.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 422,
@@ -5483,7 +5904,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Ante una parada, tras alertar a emergencias, se inicia la RCP si se sabe hacer; cada minuto cuenta.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 423,
@@ -5496,7 +5918,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Manipular un cigarrillo o el mechero distrae la vista, las manos y la mente de la tarea de conducir.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 424,
@@ -5509,7 +5932,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los estimulantes generan una falsa sensación de seguridad, agresividad y subestimación del peligro.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 425,
@@ -5522,7 +5946,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Ante el deslumbramiento hay que apartar la vista del foco, guiarse por la marca del borde derecho y, si es preciso, reducir la velocidad.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 426,
@@ -5535,7 +5960,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La adaptación de la vista a la oscuridad no es instantánea; al entrar en un túnel conviene moderar la velocidad y llevar las luces encendidas.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 427,
@@ -5548,7 +5974,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La embarazada debe usar el cinturón colocando la banda ventral por debajo del abdomen y la banda diagonal entre los pechos, hacia el lado.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 428,
@@ -5561,7 +5988,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La prisa induce a asumir riesgos (adelantamientos forzados, exceso de velocidad); es mejor planificar el tiempo con margen.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 429,
@@ -5574,7 +6002,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las quemaduras se enfrían con agua; no se revientan las ampollas ni se aplican remedios que puedan infectar.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 430,
@@ -5587,7 +6016,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los camiones de más de 3.500 kg tienen un límite genérico de 80 km/h en carreteras convencionales.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 431,
@@ -5600,7 +6030,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Los autobuses tienen un límite genérico de 80 km/h en carreteras convencionales (100 en autovía/autopista).",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 432,
@@ -5613,7 +6044,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El vehículo adelantado debe mantenerse a la derecha y no aumentar la velocidad; incluso debe reducirla si es necesario.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 433,
@@ -5626,7 +6058,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Hay que circular a una velocidad que permita detenerse dentro del espacio libre y visible por delante ante cualquier obstáculo.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 434,
@@ -5639,7 +6072,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "En una Zona 30 la velocidad máxima es de 30 km/h, para dar más seguridad a peatones y ciclistas.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 435,
@@ -5652,7 +6086,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El conjunto de turismo con remolque tiene un límite genérico de 70 km/h en carreteras convencionales.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 436,
@@ -5665,7 +6100,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El freno motor (una marcha corta) ayuda a controlar la velocidad en bajadas largas y evita que los frenos se calienten y pierdan eficacia.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 437,
@@ -5678,7 +6114,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Superar los límites es una infracción que, según su cuantía, resta puntos además de la multa económica.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 438,
@@ -5691,7 +6128,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Hay que aminorar y esperar a poder adelantar dejando al menos 1,5 m de separación lateral con seguridad.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 439,
@@ -5704,7 +6142,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las motocicletas tienen el mismo límite genérico que los turismos en autovía y autopista: 120 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 440,
@@ -5717,7 +6156,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El agua reduce temporalmente la eficacia de los frenos; se recuperan pisando suavemente el pedal varias veces para secarlos.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 441,
@@ -5730,7 +6170,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El panel cuadrado azul con un número indica la velocidad aconsejada (recomendada), no un límite obligatorio.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 442,
@@ -5743,7 +6184,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es una señal de peligro que avisa de un resalto o badén; hay que aminorar para no dañar el vehículo ni perder el control.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 443,
@@ -5756,7 +6198,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Advierte de que se pasa a un tramo con circulación en los dos sentidos; hay que extremar la precaución al adelantar.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 444,
@@ -5769,7 +6212,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La flecha de giro sobre disco rojo prohíbe girar en la dirección señalada.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 445,
@@ -5782,7 +6226,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La luz roja intermitente (frecuente en pasos a nivel o puentes móviles) prohíbe el paso: hay que detenerse.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 446,
@@ -5795,7 +6240,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El paso de cebra señala un paso de peatones; el conductor debe cederles el paso.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 447,
@@ -5808,7 +6254,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Las señales azules de servicio con la 'H' informan de la proximidad de un centro médico u hospital.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 448,
@@ -5821,7 +6268,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es una señal de peligro por curva; hay que moderar la velocidad antes de entrar en ella.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 449,
@@ -5834,7 +6282,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Advierte de un estrechamiento próximo; hay que estar atento a la prioridad y a los vehículos que vienen de frente.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 450,
@@ -5847,7 +6296,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Es una señal de indicación que informa de la ubicación de un paso de peatones.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 451,
@@ -5860,7 +6310,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Advierte del riesgo de encontrar animales domésticos (o salvajes, según el dibujo) cruzando la calzada.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 452,
@@ -5873,7 +6324,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Con el semáforo peatonal en verde el peatón tiene prioridad; el conductor que gire hacia ese paso debe cederle el paso.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 453,
@@ -5886,7 +6338,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "No se puede adelantar por el arcén; los adelantamientos se hacen por la izquierda y por la calzada.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 454,
@@ -5899,7 +6352,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Se regresa al carril de origen cuando haya espacio suficiente (viendo al adelantado por el retrovisor), señalizando y sin poner en peligro a nadie.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 455,
@@ -5912,7 +6366,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En vía interurbana los peatones circulan por su izquierda, de frente al tráfico, para verlo venir; como norma general.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 456,
@@ -5925,7 +6380,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La doble fila entorpece el tráfico y crea situaciones de riesgo; está prohibida aunque sea por poco tiempo.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 457,
@@ -5938,7 +6394,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La señal de prioridad al sentido contrario obliga a ceder el paso a los vehículos que circulan de frente por el estrechamiento.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 458,
@@ -5951,7 +6408,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El ganado y los animales de tiro o carga se guían por la derecha, ocupando el menor espacio y sin entorpecer más de lo imprescindible.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 459,
@@ -5964,7 +6422,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "No se debe penetrar ni detenerse en una intersección si vas a bloquearla; hay que esperar antes a que haya salida.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 460,
@@ -5977,7 +6436,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El giro a la derecha se realiza ciñéndose al borde derecho de la calzada y señalizándolo con antelación.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 461,
@@ -5990,7 +6450,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El carril reversible cambia de sentido según lo indiquen los semáforos o paneles; hay que respetar la señalización vigente en cada momento.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 462,
@@ -6003,7 +6464,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Hay que facilitar el paso al vehículo prioritario abriendo un pasillo entre carriles con precaución, sin cometer infracciones peligrosas.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 463,
@@ -6016,7 +6478,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El animal debe ir correctamente sujeto (arnés, transportín o separador) para que no distraiga ni salga proyectado en una frenada.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 464,
@@ -6029,7 +6492,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Una buena visibilidad es esencial; escobillas gastadas o falta de líquido dificultan ver con lluvia, barro o insectos.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 465,
@@ -6042,7 +6506,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las luces son esenciales para ver y ser visto; una bombilla fundida debe sustituirse pronto y conviene llevar repuestos.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 466,
@@ -6055,7 +6520,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La rotura de la correa de distribución suele causar daños internos graves; por eso debe sustituirse en los plazos que indica el fabricante.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 467,
@@ -6068,7 +6534,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El catalizador transforma parte de los gases nocivos del escape en otros menos contaminantes.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 468,
@@ -6081,7 +6548,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La carga en el techo debe ir bien sujeta; sube el centro de gravedad, resta estabilidad, aumenta el consumo y la altura del conjunto.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 469,
@@ -6094,7 +6562,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El desgaste desigual suele deberse a presión incorrecta, mala alineación (paralelo) o suspensión; debe revisarse en el taller.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 470,
@@ -6107,7 +6576,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El circuito de refrigeración evita que el motor se sobrecaliente; hay que vigilar el nivel de refrigerante y posibles fugas.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 471,
@@ -6120,7 +6590,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La dirección es un sistema de seguridad esencial; cualquier holgura o ruido debe revisarse de inmediato.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 472,
@@ -6133,7 +6604,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El chaleco debe estar a mano dentro del habitáculo y ponerse antes de bajar del coche en una avería o parada en vía interurbana.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 473,
@@ -6146,7 +6618,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La presión correcta mejora la adherencia y la seguridad, y reduce el desgaste y el consumo de combustible.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 474,
@@ -6159,7 +6632,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La vía urbana es la que discurre dentro de poblado, salvo las travesías, que tienen consideración propia.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 475,
@@ -6172,7 +6646,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En el ciclocarril los ciclos tienen prioridad y el resto de vehículos deben adaptarse a su ritmo.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 476,
@@ -6185,7 +6660,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El vehículo de motor se mueve por su propio motor; se excluyen los ciclos y ciclomotores de la definición general de automóvil.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 477,
@@ -6198,7 +6674,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Los paneles naranja identifican el transporte de mercancías peligrosas (ADR); conviene mantener la distancia.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 478,
@@ -6211,7 +6688,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Quien circula en silla de ruedas (a paso de persona) tiene la consideración de peatón.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 479,
@@ -6224,7 +6702,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "En una calzada de sentido único todos los vehículos circulan en la misma dirección.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 480,
@@ -6237,7 +6716,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El carril adicional en pendientes permite que los vehículos lentos se aparten y no retengan al resto del tráfico.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 481,
@@ -6250,7 +6730,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Los vehículos abandonados o mal estacionados pueden ser retirados por la autoridad y depositados.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 482,
@@ -6263,7 +6744,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La calzada puede constar de uno o varios carriles para la circulación de vehículos.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 483,
@@ -6276,7 +6758,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El refugio permite al peatón detenerse a mitad de un cruce ancho y completar el paso en dos tiempos.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 484,
@@ -6289,7 +6772,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "En las paradas reservadas al transporte público el resto de vehículos no puede detenerse ni estacionar.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 485,
@@ -6302,7 +6786,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La maquinaria agrícola es un vehículo especial; suele circular despacio y tiene limitaciones propias.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 486,
@@ -6315,7 +6800,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "En una calzada de doble sentido los vehículos circulan en ambas direcciones; hay que extremar la precaución al adelantar.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 487,
@@ -6328,7 +6814,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El todo riesgo amplía la cobertura a los daños del propio vehículo; el obligatorio solo cubre los causados a terceros.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 488,
@@ -6341,7 +6828,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El permiso debe estar en vigor; conducir con él caducado es sancionable.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 489,
@@ -6354,7 +6842,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La etiqueta B (amarilla) agrupa a vehículos de combustión más antiguos que los de etiqueta C, con mayores emisiones.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 490,
@@ -6367,7 +6856,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La baja definitiva por desguace se tramita a través de un Centro Autorizado de Tratamiento, que emite el certificado de destrucción.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 491,
@@ -6380,7 +6870,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Las reformas relevantes deben pasar inspección y anotarse en la ficha técnica para ser legales.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 492,
@@ -6393,7 +6884,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Según el país de destino puede exigirse el permiso internacional, que acompaña al permiso nacional.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 493,
@@ -6406,7 +6898,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La banda azul con la 'E' identifica la matrícula española dentro del formato común europeo.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 494,
@@ -6419,7 +6912,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Ante la pérdida o deterioro de la ficha técnica hay que tramitar un duplicado.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 495,
@@ -6432,7 +6926,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El transporte de viajeros en autobús requiere el permiso de la clase D, no el B.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 496,
@@ -6445,7 +6940,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Sin seguro en vigor el vehículo no puede circular; hacerlo es una infracción y expone a graves responsabilidades.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 497,
@@ -6458,7 +6954,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La renovación puede tramitarse con antelación a la fecha de caducidad para no quedarse sin permiso en vigor.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 498,
@@ -6471,7 +6968,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El permiso de circulación identifica al titular y al vehículo ante la Administración.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 499,
@@ -6484,7 +6982,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La distracción mental es tan peligrosa como la física: el conductor 'mira pero no ve' y reacciona tarde.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 500,
@@ -6497,7 +6996,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Configurar el GPS en marcha aparta la vista de la vía; hay que hacerlo antes de iniciar la marcha.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 501,
@@ -6510,7 +7010,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El calor excesivo produce somnolencia; conviene mantener una temperatura agradable y ventilar.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 502,
@@ -6523,7 +7024,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Hay que dar la localización precisa, el número y estado de los heridos y los riesgos presentes, para una respuesta eficaz.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 503,
@@ -6536,7 +7038,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Un microsueño de pocos segundos a 120 km/h supone recorrer decenas de metros sin control; hay que parar y dormir.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 504,
@@ -6549,7 +7052,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Las gafas de sol de noche o en túneles reducen la ya escasa luz disponible y comprometen la visión.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 505,
@@ -6562,7 +7066,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "No se mueve a un herido salvo peligro vital inmediato, por el riesgo de agravar lesiones (especialmente de columna).",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 506,
@@ -6575,7 +7080,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Muchos antihistamínicos y anticatarrales producen somnolencia; conviene comprobar su efecto antes de conducir.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 507,
@@ -6588,7 +7094,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Conducir de forma defensiva es prever los fallos ajenos y mantener márgenes de seguridad para reaccionar a tiempo.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 508,
@@ -6601,7 +7108,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Por su menor experiencia, los noveles tienen una tasa reducida (0,15 mg/l en aire; 0,3 g/l en sangre).",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 509,
@@ -6614,7 +7122,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Ante un shock se mantiene a la persona tumbada, abrigada y tranquila, sin comida ni bebida, hasta que llegue el personal sanitario.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 510,
@@ -6627,7 +7136,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La falta de hidratación favorece el cansancio y la pérdida de atención; conviene beber agua con regularidad.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 511,
@@ -6640,7 +7150,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Lo primero es ponerse a salvo: detener, evacuar a los ocupantes, alejarse y avisar; el extintor solo para fuegos incipientes y con precaución.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 512,
@@ -6653,7 +7164,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Los vehículos de mercancías de hasta 3.500 kg tienen el mismo límite genérico que los turismos en convencional: 90 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 513,
@@ -6666,7 +7178,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Dejar al menos 3 segundos hasta el punto por el que pasó el vehículo precedente proporciona una separación de seguridad razonable.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 514,
@@ -6679,7 +7192,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Las motocicletas tienen el mismo límite que los turismos en convencional: 90 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 515,
@@ -6692,7 +7206,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En zonas residenciales y peatonales con acceso de vehículos la velocidad máxima es de 20 km/h y los peatones tienen prioridad.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 516,
@@ -6705,7 +7220,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La señalización específica prevalece sobre los límites genéricos de la vía.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 517,
@@ -6718,7 +7234,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El exceso de velocidad en curva aumenta la fuerza centrífuga y puede hacer que el vehículo se salga de la trayectoria.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 518,
@@ -6731,7 +7248,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El adelantamiento exige visibilidad y espacio libres bastantes para realizarlo y reincorporarse sin riesgo.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 519,
@@ -6744,7 +7262,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los vehículos especiales circulan despacio; al acercarse a ellos hay que reducir la velocidad y adelantar con cuidado.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 520,
@@ -6757,7 +7276,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Sobre mojado la frenada es más larga; hay que aumentar la separación con el vehículo de delante.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 521,
@@ -6770,7 +7290,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La velocidad inadecuada está presente en un gran número de siniestros y agrava sus consecuencias.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 522,
@@ -6783,7 +7304,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "En aparcamientos hay maniobras y peatones constantes; hay que ir muy despacio y atento.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 523,
@@ -6796,7 +7318,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Ante un vehículo que 'te pega', conviene ampliar tu propia separación con el de delante y dejarle pasar cuando sea seguro.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 524,
@@ -6809,7 +7332,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Con niebla la luz larga deslumbra por reflexión; se usa la de cruce y, si es densa, las antiniebla delantera y trasera.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 525,
@@ -6822,7 +7346,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La señal de 'fin de prohibiciones' deja sin efecto varias restricciones señaladas con anterioridad.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 526,
@@ -6835,7 +7360,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El rombo amarillo señala que se circula por una vía con prioridad; el rombo tachado indica su fin.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 527,
@@ -6848,7 +7374,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Advierte de rachas de viento lateral que pueden desplazar el vehículo; hay que sujetar bien el volante y moderar la velocidad.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 528,
@@ -6861,7 +7388,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es una señal de peligro que anuncia la proximidad de un semáforo, útil donde no se ve con antelación.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 529,
@@ -6874,7 +7402,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El disco blanco con borde rojo prohíbe la circulación a toda clase de vehículos.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 530,
@@ -6887,7 +7416,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El triángulo con la exclamación advierte de un peligro que no dispone de señal específica; suele acompañarse de un panel aclaratorio.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 531,
@@ -6900,7 +7430,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El aspa de San Andrés indica un paso a nivel sin barreras; hay que extremar la precaución y ceder al tren.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 532,
@@ -6913,7 +7444,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Los paneles azules de las vías rápidas son de orientación e información sobre destinos y servicios.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 533,
@@ -6926,7 +7458,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La línea de borde delimita la parte utilizable de la calzada frente al arcén.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 534,
@@ -6939,7 +7472,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Al salir de la zona residencial dejan de regir sus condiciones especiales y se vuelve a las normas generales de la vía.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 535,
@@ -6952,7 +7486,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La señalización de obras es de obligado cumplimiento y prevalece sobre las marcas y señales permanentes que contradiga.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 536,
@@ -6965,7 +7500,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El panel complementario aporta información adicional a la señal (a qué distancia aplica, a qué vehículos, en qué horario, etc.).",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 537,
@@ -6978,7 +7514,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Advierte de una zona con presencia habitual de niños; hay que extremar la precaución y moderar la velocidad.",
 "tema_id": 5,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 538,
@@ -6991,7 +7528,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En pendiente se deja una marcha metida y se giran las ruedas hacia el bordillo, para que el vehículo no se deslice si falla el freno.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 539,
@@ -7004,7 +7542,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Quien sale de un inmueble o garaje debe ceder el paso a peatones y a los vehículos que circulan por la vía.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 540,
@@ -7017,7 +7556,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La regla general es adelantar por la izquierda; adelantar por la derecha solo se permite en casos concretos.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 541,
@@ -7030,7 +7570,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Parar en un túnel (salvo emergencia) es muy peligroso: reduce la visibilidad y obstaculiza en caso de incidente.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 542,
@@ -7043,7 +7584,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En curvas sin visibilidad hay que mantenerse en el propio carril, ceñido a la derecha, ante la posible llegada de otro vehículo.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 543,
@@ -7056,7 +7598,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El STOP obliga a detenerse totalmente en la línea y ceder el paso antes de incorporarse.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 544,
@@ -7069,7 +7612,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Seguir de cerca a un vehículo prioritario es peligroso e indebido: el tráfico se recompone tras su paso.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 545,
@@ -7082,7 +7626,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La parada para subir o bajar personas debe hacerse en lugar permitido, sin crear obstáculo ni peligro.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 546,
@@ -7095,7 +7640,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El adelantamiento en las proximidades de intersecciones está prohibido por el riesgo de vehículos que cruzan o giran.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 547,
@@ -7108,7 +7654,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Por sus características y menor capacidad de maniobra, el tranvía suele gozar de preferencia salvo indicación contraria.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 548,
@@ -7121,7 +7668,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La señal de ceda el paso obliga a su titular a dejar pasar a los vehículos de la vía preferente.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 549,
@@ -7134,7 +7682,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "De noche o con poca visibilidad, el peatón debe hacerse visible (elemento reflectante) y circular por su izquierda, de cara al tráfico.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 550,
@@ -7147,7 +7696,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Abrir la puerta sin mirar puede provocar el atropello de un ciclista; hay que comprobar antes el entorno.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 551,
@@ -7160,7 +7710,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Todos los ocupantes deben usar el cinturón en las plazas que dispongan de él, también en los asientos traseros.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 552,
@@ -7173,7 +7724,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Las luces de emergencia advierten a los demás de una situación de peligro o de un vehículo detenido/inmovilizado.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 553,
@@ -7186,7 +7738,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La antiniebla delantera se emplea con niebla o precipitaciones intensas; en condiciones normales podría deslumbrar y no debe usarse.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 554,
@@ -7199,7 +7752,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El testigo del ABS avisa de un fallo en ese sistema; el freno normal sigue funcionando, pero conviene repararlo pronto.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 555,
@@ -7212,7 +7766,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Un humo anormal del escape suele revelar un mal funcionamiento (combustión, aceite) y más emisiones contaminantes.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 556,
@@ -7225,7 +7780,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "La presión se mide en frío, ya que con el neumático caliente el aire se dilata y la lectura no es fiable.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 557,
@@ -7238,7 +7794,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Los objetos sueltos se convierten en proyectiles en una frenada brusca o colisión; deben ir sujetos o en el maletero.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 558,
@@ -7251,7 +7808,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Bajar en punto muerto priva del freno motor y sobrecarga los frenos; hay que descender con una marcha engranada.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 559,
@@ -7264,7 +7822,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El cinturón es obligatorio siempre; muchos accidentes graves ocurren en trayectos cortos y a poca velocidad.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 560,
@@ -7277,7 +7836,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Los neumáticos de invierno mejoran la adherencia con frío, lluvia o nieve; las cadenas se reservan para nieve abundante.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 561,
@@ -7290,7 +7850,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Quedarse sin combustible puede dejar el vehículo detenido en un punto peligroso; conviene repostar sin apurar la reserva.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 562,
@@ -7303,7 +7864,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El chirrido al frenar avisa a menudo del desgaste de las pastillas; deben revisarse para no dañar los discos ni perder eficacia.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 563,
@@ -7316,7 +7878,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Mirar lejos permite anticipar frenadas, obstáculos y maniobras, y reaccionar con más margen.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 564,
@@ -7329,7 +7892,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Es la señal de STOP: obliga a detener el vehículo por completo ante la línea y ceder el paso.",
 "tema_id": 5,
-"imagen": "stop.svg"
+"imagen": "stop.svg",
+"dificultad": 1
 },
 {
 "id": 565,
@@ -7342,7 +7906,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El triángulo invertido es la señal de 'ceda el paso': hay que ceder ante los vehículos de la vía preferente, deteniéndose si es necesario.",
 "tema_id": 5,
-"imagen": "ceda_el_paso.svg"
+"imagen": "ceda_el_paso.svg",
+"dificultad": 1
 },
 {
 "id": 566,
@@ -7355,7 +7920,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Es la señal de 'adelantamiento prohibido' para vehículos de motor; rige hasta la señal de fin de prohibición o la próxima intersección.",
 "tema_id": 5,
-"imagen": "prohibido_adelantar.svg"
+"imagen": "prohibido_adelantar.svg",
+"dificultad": 1
 },
 {
 "id": 567,
@@ -7368,7 +7934,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El disco blanco con borde rojo y un número indica la velocidad máxima permitida, en este caso 50 km/h.",
 "tema_id": 5,
-"imagen": "velocidad_max_50.svg"
+"imagen": "velocidad_max_50.svg",
+"dificultad": 1
 },
 {
 "id": 568,
@@ -7381,7 +7948,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Es una señal de velocidad máxima: no se puede superar los 120 km/h en ese tramo.",
 "tema_id": 5,
-"imagen": "velocidad_max_120.svg"
+"imagen": "velocidad_max_120.svg",
+"dificultad": 1
 },
 {
 "id": 569,
@@ -7394,7 +7962,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El triángulo de peligro con una curva advierte de una curva peligrosa; conviene reducir la velocidad antes de entrar.",
 "tema_id": 5,
-"imagen": "peligro_curva.svg"
+"imagen": "peligro_curva.svg",
+"dificultad": 1
 },
 {
 "id": 570,
@@ -7407,7 +7976,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El triángulo de peligro con un peatón avisa de un lugar frecuentado por peatones; hay que extremar la precaución.",
 "tema_id": 5,
-"imagen": "peligro_peatones.svg"
+"imagen": "peligro_peatones.svg",
+"dificultad": 1
 },
 {
 "id": 571,
@@ -7420,7 +7990,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El disco azul con borde y una diagonal rojos prohíbe el estacionamiento (la parada breve sí se permite).",
 "tema_id": 5,
-"imagen": "prohibido_estacionar.svg"
+"imagen": "prohibido_estacionar.svg",
+"dificultad": 1
 },
 {
 "id": 572,
@@ -7433,7 +8004,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El disco rojo con una banda blanca horizontal es la señal de 'dirección prohibida': prohíbe la entrada en ese sentido.",
 "tema_id": 5,
-"imagen": "direccion_prohibida.svg"
+"imagen": "direccion_prohibida.svg",
+"dificultad": 1
 },
 {
 "id": 573,
@@ -7446,7 +8018,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El disco azul con una flecha blanca indica el sentido obligatorio que deben seguir los vehículos.",
 "tema_id": 5,
-"imagen": "sentido_obligatorio.svg"
+"imagen": "sentido_obligatorio.svg",
+"dificultad": 1
 },
 {
 "id": 574,
@@ -7459,7 +8032,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Parada: inmovilización inferior a 2 minutos sin que el conductor abandone el vehículo.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 575,
@@ -7472,7 +8046,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Estacionamiento: inmovilización que no es parada ni obligada por circunstancias del tráfico.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 576,
@@ -7485,7 +8060,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La MMA es la masa máxima autorizada para circular, incluida tara más carga y ocupantes.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 577,
@@ -7498,7 +8074,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La isleta encauza la circulación o sirve de refugio peatonal; no se puede circular ni estacionar sobre ella.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 578,
@@ -7511,7 +8088,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La mediana separa dos calzadas de sentidos contrarios y no es zona de circulación.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 579,
@@ -7524,7 +8102,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Es peatón quien va a pie, empuja un ciclo/carro o se desplaza en silla de ruedas.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 580,
@@ -7537,7 +8116,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El ciclomotor tiene hasta 50 cm³ (o equivalente) y no supera los 45 km/h por construcción.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 581,
@@ -7550,7 +8130,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La glorieta ordena el tráfico haciéndolo girar alrededor de una isleta central.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 582,
@@ -7563,7 +8144,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La plataforma es la calzada más los arcenes; la acera queda fuera.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 583,
@@ -7576,7 +8158,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Ambulancias, bomberos, policía, etc., en servicio urgente son prioritarios con sus señales activadas.",
 "tema_id": 1,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 584,
@@ -7589,7 +8172,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Entre 4 y 10 años la ITV del turismo particular es bienal; a partir de 10 años, anual.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 585,
@@ -7602,7 +8186,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El permiso B (turismos) se obtiene a partir de los 18 años.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 586,
@@ -7615,7 +8200,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Con el permiso B: automóviles de hasta 3.500 kg de MMA y máximo 9 plazas (conductor incluido).",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 587,
@@ -7628,7 +8214,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El B permite remolque de hasta 750 kg de MMA; para más masa se necesita B96 o B+E según el conjunto.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 588,
@@ -7641,7 +8228,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El conductor novel empieza con 8 puntos; tras 3 años sin sanciones graves puede alcanzar 12 y luego hasta 15.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 589,
@@ -7654,7 +8242,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Hasta los 65 años el permiso B se renueva cada 10 años; a partir de esa edad, cada 5.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 590,
@@ -7667,7 +8256,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Debe poder acreditarse el permiso de circulación, la ITV en vigor y el seguro obligatorio.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 591,
@@ -7680,7 +8270,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La compraventa exige comunicar y tramitar el cambio de titularidad ante la DGT.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 592,
@@ -7693,7 +8284,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El seguro obligatorio cubre la responsabilidad civil frente a terceros; los daños propios requieren cobertura ampliada.",
 "tema_id": 2,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 593,
@@ -7706,7 +8298,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Nada (café, comida, ducha) acelera la eliminación del alcohol: solo el paso del tiempo lo reduce.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 594,
@@ -7719,7 +8312,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Para las drogas rige la tolerancia cero: su mera presencia detectable está prohibida.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 595,
@@ -7732,7 +8326,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La negativa a someterse a las pruebas es delito (art. 383 del Código Penal).",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 596,
@@ -7745,7 +8340,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El alcohol produce euforia y falsa seguridad mientras deteriora reflejos, visión y reacción.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 597,
@@ -7758,7 +8354,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El pictograma de conducción (triángulo rojo con coche) advierte de que el fármaco puede afectar a la conducción.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 598,
@@ -7771,7 +8368,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Régimen general: 0,25 mg/l en aire espirado (0,5 g/l en sangre). Noveles y profesionales: 0,15 mg/l.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 599,
@@ -7784,7 +8382,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Superar 0,60 mg/l en aire (o 1,2 g/l en sangre) es delito penal, no una simple sanción administrativa.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 600,
@@ -7797,7 +8396,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La fatiga reduce la atención y provoca microsueños; lo seguro es parar y descansar.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 601,
@@ -7810,7 +8410,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La recomendación es descansar cada 2 horas o 200 km, y siempre ante síntomas de fatiga.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 602,
@@ -7823,7 +8424,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Incluso por debajo del límite, el alcohol empeora la atención y la coordinación.",
 "tema_id": 3,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 603,
@@ -7836,7 +8438,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "El ciclomotor no puede superar los 45 km/h.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 604,
@@ -7849,7 +8452,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Hay que poder detenerse dentro de la distancia que se ve libre y ante obstáculos previsibles.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 605,
@@ -7862,7 +8466,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La distancia de frenado crece con el cuadrado de la velocidad: al doblarla se multiplica por cuatro.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 606,
@@ -7875,7 +8480,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Distancia de detención = espacio de reacción + espacio de frenado.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 607,
@@ -7888,7 +8494,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La regla de los 3 segundos ayuda a dejar una separación adecuada según la velocidad.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 608,
@@ -7901,7 +8508,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Entorpecer la marcha circulando anormalmente despacio sin causa justificada es infracción.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 609,
@@ -7914,7 +8522,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El aquaplaning es la pérdida de adherencia al 'flotar' el neumático sobre el agua; conviene reducir la velocidad.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 610,
@@ -7927,7 +8536,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La genérica para turismos en vía convencional es 90 km/h, salvo señalización distinta.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 611,
@@ -7940,7 +8550,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Ante peatones, niños o zonas escolares hay que reducir la velocidad y aumentar la atención.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 612,
@@ -7953,7 +8564,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La energía del impacto crece con el cuadrado de la velocidad, agravando las consecuencias.",
 "tema_id": 4,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 613,
@@ -7966,7 +8578,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Se adelanta por la izquierda; si el de delante va a girar a la izquierda, se le rebasa por la derecha.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 614,
@@ -7979,7 +8592,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "No se adelanta donde la visibilidad es reducida: cambios de rasante, curvas, etc.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 615,
@@ -7992,7 +8606,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La marcha atrás solo se admite como maniobra complementaria y breve; en autopista/autovía está prohibida.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 616,
@@ -8005,7 +8620,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Ante un vehículo de emergencia con señales, hay que cederle el paso y facilitarle la maniobra.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 617,
@@ -8018,7 +8634,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Quien se incorpora cede el paso a los que ya circulan.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 618,
@@ -8031,7 +8648,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El ferrocarril goza de preferencia absoluta; nunca se invade un paso a nivel sin tener salida.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 619,
@@ -8044,7 +8662,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Se estaciona en el sentido de la marcha, junto al borde derecho (salvo excepciones en calles de sentido único).",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 620,
@@ -8057,7 +8676,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Toda maniobra se señaliza con antelación y se realiza tras comprobar que es segura (espejos y ángulo muerto).",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 621,
@@ -8070,7 +8690,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "En pendiente estrecha tiene preferencia el que sube, porque reanudar la marcha cuesta arriba es más difícil.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 622,
@@ -8083,7 +8704,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Por sus características, el tranvía goza de preferencia sobre los demás vehículos.",
 "tema_id": 6,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 623,
@@ -8096,7 +8718,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El airbag es un complemento del cinturón; su eficacia depende de llevar el cinturón puesto.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 624,
@@ -8109,7 +8732,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El ESP corrige la pérdida de estabilidad frenando ruedas de forma selectiva para conservar la trayectoria.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 625,
@@ -8122,7 +8746,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La luz roja de temperatura indica sobrecalentamiento: parar para evitar averías graves del motor.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 626,
@@ -8135,7 +8760,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Hasta 135 cm es obligatorio un sistema de retención infantil homologado, preferentemente en plazas traseras.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 627,
@@ -8148,7 +8774,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "Hay que ponérselo antes de salir del vehículo a la calzada/arcén interurbano para ser visible.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 628,
@@ -8161,7 +8788,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Se frena antes de la curva; frenar dentro reduce la adherencia y puede provocar derrape o salida de vía.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 629,
@@ -8174,7 +8802,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "Marchas largas, aceleraciones suaves y anticipación reducen consumo, emisiones y desgaste.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 630,
@@ -8187,7 +8816,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La presión baja aumenta el desgaste y el consumo, calienta el neumático y puede provocar su reventón.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 631,
@@ -8200,7 +8830,8 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "La V-16 se sitúa en lo alto del vehículo y lo hace visible a distancia; sustituye a los triángulos.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
 },
 {
 "id": 632,
@@ -8213,6 +8844,1743 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 1,
 "explicacion": "El desgaste irregular avisa de fallos de presión, alineación (paralelismo) o suspensión: hay que revisarlo.",
 "tema_id": 7,
-"imagen": null
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 633,
+"enunciado": "¿Qué es una 'intersección'?",
+"opciones": [
+"El cruce o unión de dos o más vías a un mismo nivel.",
+"El punto donde una vía cambia de nombre.",
+"La zona de una autopista destinada a cambiar de sentido."
+],
+"correcta_idx": 0,
+"explicacion": "La intersección es el cruce o unión de vías a nivel. Si el cruce es con un ferrocarril se llama paso a nivel.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 634,
+"enunciado": "El 'firme' de una vía es:",
+"opciones": [
+"La capa superior de la calzada sobre la que ruedan los vehículos.",
+"El conjunto de señales verticales del tramo.",
+"La zona reservada al estacionamiento."
+],
+"correcta_idx": 0,
+"explicacion": "El firme es la superficie resistente construida sobre el terreno por la que circulan los vehículos.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 635,
+"enunciado": "Un 'tren de carretera' es:",
+"opciones": [
+"Un automóvil unido a uno o varios remolques.",
+"Un automóvil unido a un semirremolque.",
+"Un vehículo que circula sobre raíles."
+],
+"correcta_idx": 0,
+"explicacion": "El tren de carretera es un automóvil enganchado a uno o varios remolques. Si el enganche es un semirremolque, se llama vehículo articulado.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 636,
+"enunciado": "Un 'automóvil' se diferencia de un ciclomotor principalmente en que:",
+"opciones": [
+"El automóvil está concebido para circular sin carriles ni raíles y por sus características no es ciclomotor.",
+"El automóvil siempre tiene cuatro ruedas.",
+"El automóvil no puede transportar mercancías."
+],
+"correcta_idx": 0,
+"explicacion": "Automóvil es todo vehículo de motor que circula sin raíles y no es ciclomotor, tranvía ni vehículo para personas de movilidad reducida.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 637,
+"enunciado": "¿Qué es un 'turismo'?",
+"opciones": [
+"Un automóvil destinado al transporte de personas con capacidad hasta 9 plazas, incluido el conductor.",
+"Un automóvil de más de 9 plazas.",
+"Cualquier vehículo destinado al transporte de mercancías."
+],
+"correcta_idx": 0,
+"explicacion": "El turismo transporta personas y tiene una capacidad máxima de 9 plazas incluido el conductor.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 638,
+"enunciado": "¿Qué es un 'autobús' o autocar?",
+"opciones": [
+"Un automóvil para transporte de personas con más de 9 plazas, incluido el conductor.",
+"Un automóvil de hasta 9 plazas.",
+"Un vehículo de mercancías de más de 3.500 kg."
+],
+"correcta_idx": 0,
+"explicacion": "El autobús está concebido para transportar personas y tiene más de 9 plazas incluido el conductor.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 639,
+"enunciado": "Un 'camión' es un vehículo de motor destinado a:",
+"opciones": [
+"El transporte de mercancías, con más de 3.500 kg de MMA.",
+"El transporte de personas de más de 9 plazas.",
+"El transporte de mercancías con MMA no superior a 3.500 kg."
+],
+"correcta_idx": 0,
+"explicacion": "El camión transporta mercancías y su MMA supera los 3.500 kg. Si no supera esa masa se trata de una furgoneta.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 640,
+"enunciado": "Una 'furgoneta' es:",
+"opciones": [
+"Un vehículo destinado al transporte de mercancías cuya MMA no supera los 3.500 kg.",
+"Un vehículo de más de 3.500 kg de MMA.",
+"Un automóvil de más de 9 plazas."
+],
+"correcta_idx": 0,
+"explicacion": "La furgoneta transporta mercancías con una MMA igual o inferior a 3.500 kg.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 641,
+"enunciado": "Una 'motocicleta' es:",
+"opciones": [
+"Un vehículo de dos ruedas (o con sidecar) que supera los 50 cc o los 45 km/h.",
+"Cualquier vehículo de dos ruedas de hasta 45 km/h.",
+"Un vehículo de cuatro ruedas de menos de 425 kg."
+],
+"correcta_idx": 0,
+"explicacion": "La motocicleta es un vehículo de dos ruedas cuya cilindrada o velocidad superan los límites del ciclomotor (50 cc / 45 km/h).",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 642,
+"enunciado": "El 'peso en orden de marcha' (masa en orden de marcha) de un vehículo incluye:",
+"opciones": [
+"La tara más la masa del conductor estimada en 75 kg.",
+"Solo el vehículo totalmente vacío.",
+"La tara más toda la carga máxima que puede transportar."
+],
+"correcta_idx": 0,
+"explicacion": "La masa en orden de marcha es la del vehículo en vacío (tara) más el conductor, valorado en 75 kg.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 643,
+"enunciado": "La 'masa remolcable' de un vehículo es:",
+"opciones": [
+"La masa máxima que el vehículo puede arrastrar en un remolque.",
+"La masa del propio vehículo vacío.",
+"La suma de las plazas de asiento."
+],
+"correcta_idx": 0,
+"explicacion": "La masa remolcable es el peso máximo que un vehículo tractor está autorizado a arrastrar.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 644,
+"enunciado": "Una 'vía rápida' (carretera para automóviles) se caracteriza por:",
+"opciones": [
+"Tener una sola calzada, accesos limitados y estar reservada a automóviles, con la señalización correspondiente.",
+"Tener siempre dos calzadas separadas por mediana.",
+"Permitir la circulación de peatones y ciclos."
+],
+"correcta_idx": 0,
+"explicacion": "La vía rápida tiene calzada única y limitaciones de acceso; se reserva a automóviles y prohíbe a peatones, ciclos y vehículos lentos.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 645,
+"enunciado": "Un 'túnel', a efectos de circulación, es:",
+"opciones": [
+"Un tramo de vía cubierto que exige normas específicas (luces, distancias, prohibición de parar).",
+"Cualquier tramo con curvas peligrosas.",
+"Un puente sobre un río."
+],
+"correcta_idx": 0,
+"explicacion": "El túnel es un paso subterráneo o cubierto; en él rigen normas propias como circular con luz de cruce y respetar la distancia de seguridad.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 646,
+"enunciado": "Un 'enlace' de una vía es:",
+"opciones": [
+"El conjunto de ramales que permite pasar de una vía a otra sin cruces a nivel.",
+"El punto en el que termina la autopista.",
+"Una zona de descanso con servicios."
+],
+"correcta_idx": 0,
+"explicacion": "El enlace o nudo une varias vías mediante ramales, evitando los cruces a nivel.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 647,
+"enunciado": "El 'carril de aceleración' de una autovía sirve para:",
+"opciones": [
+"Ganar velocidad e incorporarse a la circulación con seguridad.",
+"Reducir la velocidad antes de salir.",
+"Estacionar en caso de avería."
+],
+"correcta_idx": 0,
+"explicacion": "El carril de aceleración permite alcanzar la velocidad de la vía antes de incorporarse; el de deceleración sirve para lo contrario, salir.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 648,
+"enunciado": "La 'detención' de un vehículo se refiere a:",
+"opciones": [
+"La inmovilización breve por necesidad de la circulación (semáforo, retención, orden de agente).",
+"Dejar el vehículo aparcado más de dos minutos.",
+"Abandonar el vehículo en la vía."
+],
+"correcta_idx": 0,
+"explicacion": "La detención es una inmovilización obligada por la circulación; no es voluntaria como la parada o el estacionamiento.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 649,
+"enunciado": "Un 'ciclo' es:",
+"opciones": [
+"Un vehículo de al menos dos ruedas accionado por el esfuerzo muscular de sus ocupantes.",
+"Cualquier vehículo de dos ruedas con motor.",
+"Un vehículo especial de obras."
+],
+"correcta_idx": 0,
+"explicacion": "El ciclo se mueve por el esfuerzo muscular de quien lo ocupa; la bicicleta es un ciclo de dos ruedas.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 650,
+"enunciado": "Un 'ciclomotor de tres ruedas' o un 'cuadriciclo ligero' se conducen con el permiso:",
+"opciones": [
+"AM, obtenible a partir de los 15 años.",
+"B, obtenible a los 18 años.",
+"A2, obtenible a los 18 años."
+],
+"correcta_idx": 0,
+"explicacion": "Los ciclomotores y cuadriciclos ligeros se conducen con el permiso AM, que puede obtenerse a los 15 años.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 651,
+"enunciado": "Una 'berma' es:",
+"opciones": [
+"La franja de terreno que hay entre el borde exterior de la explanación y el arcén o la cuneta.",
+"El carril central de una autovía.",
+"Una zona de la ciudad reservada a peatones."
+],
+"correcta_idx": 0,
+"explicacion": "La berma es la parte lateral de la plataforma situada entre el arcén (o cuneta) y el límite de la explanación.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 652,
+"enunciado": "Un 'obstáculo en la vía' es:",
+"opciones": [
+"Todo aquello que dificulta la libre circulación y puede generar peligro (carga caída, animal, avería).",
+"Únicamente un vehículo mal estacionado.",
+"Solo las obras señalizadas."
+],
+"correcta_idx": 0,
+"explicacion": "Es obstáculo cualquier cosa que entorpezca la circulación o suponga peligro; obliga a advertir a los demás usuarios.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 653,
+"enunciado": "Un 'vehículo de emergencia' o prioritario, cuando presta servicio urgente:",
+"opciones": [
+"Puede dejar de cumplir ciertas normas usando las señales luminosas y acústicas, sin poner en peligro a nadie.",
+"Debe cumplir todas las normas igual que el resto.",
+"Solo tiene prioridad de noche."
+],
+"correcta_idx": 0,
+"explicacion": "Los vehículos prioritarios en servicio urgente pueden exceptuar algunas normas avisando con sus señales, siempre extremando la precaución.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 654,
+"enunciado": "El 'titular' de un vehículo es:",
+"opciones": [
+"La persona a cuyo nombre figura el vehículo en el Registro de la DGT.",
+"Siempre la persona que lo conduce en cada momento.",
+"El fabricante del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "El titular es quien consta como propietario en el Registro de Vehículos; puede no coincidir con el conductor.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 655,
+"enunciado": "Un 'paso para peatones' es:",
+"opciones": [
+"La parte de la calzada, debidamente señalizada, por donde deben cruzar los peatones.",
+"Cualquier tramo de acera.",
+"Una zona exclusiva de vehículos."
+],
+"correcta_idx": 0,
+"explicacion": "El paso para peatones está señalizado (marcas o señales) y es el lugar por el que los peatones cruzan la calzada con preferencia.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 656,
+"enunciado": "Un 'vehículo para personas de movilidad reducida' es:",
+"opciones": [
+"Un vehículo pequeño, con velocidad limitada, concebido para personas con problemas de movilidad.",
+"Cualquier turismo adaptado.",
+"Un autobús con plataforma."
+],
+"correcta_idx": 0,
+"explicacion": "Es un vehículo de reducidas dimensiones y baja velocidad, diseñado específicamente para personas con movilidad reducida.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 657,
+"enunciado": "El concepto de 'poblado' (o zona urbana) es relevante porque:",
+"opciones": [
+"Dentro de él la vía se considera urbana y cambian los límites de velocidad y otras normas.",
+"No influye en la velocidad.",
+"Solo afecta a los peatones."
+],
+"correcta_idx": 0,
+"explicacion": "Las señales de entrada y salida de poblado delimitan la zona urbana, donde cambian los límites de velocidad y varias normas de circulación.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 658,
+"enunciado": "Una 'cuneta' es:",
+"opciones": [
+"La zanja a un lado de la calzada destinada a recoger y evacuar el agua.",
+"El carril reservado a autobuses.",
+"La franja para adelantar."
+],
+"correcta_idx": 0,
+"explicacion": "La cuneta es la zanja lateral de la vía para el desagüe; no es zona de circulación.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 659,
+"enunciado": "El 'permiso de circulación' de un vehículo es el documento que:",
+"opciones": [
+"Acredita la autorización para que el vehículo circule y a nombre de quién está.",
+"Habilita a una persona para conducir.",
+"Certifica la ITV en vigor."
+],
+"correcta_idx": 0,
+"explicacion": "El permiso de circulación autoriza al vehículo a circular e indica su titular; no debe confundirse con el permiso de conducir de la persona.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 660,
+"enunciado": "Un 'remolque' se diferencia de un semirremolque en que el remolque:",
+"opciones": [
+"Se apoya sobre sus propios ejes y no descarga peso sobre el vehículo tractor.",
+"Descarga parte de su peso sobre el vehículo tractor.",
+"No tiene ruedas propias."
+],
+"correcta_idx": 0,
+"explicacion": "El remolque tiene ejes propios que soportan todo su peso; el semirremolque apoya parte de su masa sobre el tractor.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 661,
+"enunciado": "La 'calzada' de una autopista o autovía con dos calzadas separadas:",
+"opciones": [
+"Cada sentido de circulación tiene su propia calzada separada por una mediana.",
+"Ambos sentidos comparten una única calzada.",
+"Solo existe calzada en sentido ascendente."
+],
+"correcta_idx": 0,
+"explicacion": "En autopistas y autovías cada sentido dispone de calzada independiente, separadas por mediana o barrera.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 662,
+"enunciado": "Un 'ciclo de motor' o 'bicicleta con pedaleo asistido' se considera bicicleta si:",
+"opciones": [
+"El motor deja de asistir al alcanzar los 25 km/h y no supera cierta potencia.",
+"El motor impulsa la bicicleta hasta cualquier velocidad.",
+"No lleva pedales."
+],
+"correcta_idx": 0,
+"explicacion": "La bicicleta de pedaleo asistido mantiene la condición de ciclo si el motor solo ayuda mientras se pedalea y deja de asistir a los 25 km/h.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 663,
+"enunciado": "Una 'zona de gran afluencia' o zona escolar señalizada implica:",
+"opciones": [
+"Extremar la precaución y, en su caso, respetar una velocidad reducida por la presencia de peatones.",
+"Que se puede circular más rápido.",
+"Que está prohibido el paso de peatones."
+],
+"correcta_idx": 0,
+"explicacion": "Las zonas con presencia habitual de peatones (escolares, etc.) exigen máxima precaución y suelen llevar limitaciones de velocidad.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 664,
+"enunciado": "Un 'punto kilométrico' (hito) sirve para:",
+"opciones": [
+"Indicar el kilómetro de la vía en que nos encontramos, útil para localizarnos.",
+"Marcar el límite de velocidad.",
+"Señalar una zona de estacionamiento."
+],
+"correcta_idx": 0,
+"explicacion": "El punto kilométrico identifica la posición en la vía; es clave para dar tu ubicación en caso de emergencia.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 665,
+"enunciado": "La 'explanación' de una carretera es:",
+"opciones": [
+"La superficie de terreno preparada sobre la que se asienta la vía.",
+"El conjunto de señales verticales.",
+"El carril de adelantamiento."
+],
+"correcta_idx": 0,
+"explicacion": "La explanación es la franja de terreno acondicionada sobre la que se construye la plataforma de la carretera.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 666,
+"enunciado": "Un 'vehículo agrícola especial' (tractor, cosechadora) se caracteriza por:",
+"opciones": [
+"Estar concebido para labores agrícolas y circular a velocidad reducida.",
+"Ser un turismo adaptado al campo.",
+"Transportar más de 9 personas."
+],
+"correcta_idx": 0,
+"explicacion": "Los vehículos agrícolas especiales están diseñados para tareas del campo y circulan a baja velocidad, con normas específicas.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 667,
+"enunciado": "Una 'vía ciclista' es:",
+"opciones": [
+"Una vía específicamente acondicionada y señalizada para la circulación de ciclos.",
+"Cualquier arcén de una autovía.",
+"Una acera cualquiera."
+],
+"correcta_idx": 0,
+"explicacion": "La vía ciclista está diseñada y señalizada para ciclos; incluye el carril-bici, la acera-bici, la pista-bici y la senda ciclable.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 668,
+"enunciado": "Un remolque se considera 'ligero' cuando su masa máxima autorizada no supera:",
+"opciones": [
+"750 kg.",
+"1.000 kg.",
+"500 kg."
+],
+"correcta_idx": 0,
+"explicacion": "El remolque ligero tiene una MMA igual o inferior a 750 kg.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 669,
+"enunciado": "Un cuadriciclo ligero tiene una masa en vacío (sin baterías, si es eléctrico) que no supera:",
+"opciones": [
+"425 kg.",
+"550 kg.",
+"350 kg."
+],
+"correcta_idx": 0,
+"explicacion": "El cuadriciclo ligero no supera los 425 kg de masa en vacío y su potencia no excede de 4 kW.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 670,
+"enunciado": "La capacidad máxima de un turismo, incluido el conductor, es de:",
+"opciones": [
+"9 plazas.",
+"8 plazas.",
+"10 plazas."
+],
+"correcta_idx": 0,
+"explicacion": "El turismo tiene hasta 9 plazas incluido el conductor; con más plazas sería un autobús.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 671,
+"enunciado": "La velocidad máxima a la que puede estar diseñado un vehículo de movilidad personal (VMP) es:",
+"opciones": [
+"25 km/h.",
+"30 km/h.",
+"20 km/h."
+],
+"correcta_idx": 0,
+"explicacion": "Los VMP tienen una velocidad de diseño de entre 6 y 25 km/h; no pueden superar los 25 km/h.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 672,
+"enunciado": "Para que un vehículo de mercancías sea un 'camión' y no una furgoneta, su MMA debe superar:",
+"opciones": [
+"3.500 kg.",
+"3.000 kg.",
+"5.000 kg."
+],
+"correcta_idx": 0,
+"explicacion": "El camión transporta mercancías con MMA superior a 3.500 kg; hasta esa masa es una furgoneta.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 673,
+"enunciado": "La diferencia esencial entre una autopista y una autovía es que la autopista:",
+"opciones": [
+"No admite accesos a las propiedades colindantes ni cruces a nivel.",
+"Siempre tiene más carriles que la autovía.",
+"Solo se diferencia en el color de sus señales."
+],
+"correcta_idx": 0,
+"explicacion": "La autopista cumple requisitos más estrictos: sin accesos a fincas colindantes y sin cruces a nivel; la autovía no cumple todos ellos.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 674,
+"enunciado": "Un vehículo de movilidad personal (VMP) tiene prohibido circular por:",
+"opciones": [
+"Aceras, zonas peatonales, autopistas, autovías y travesías.",
+"Únicamente por las autopistas.",
+"Solo por los carriles-bici."
+],
+"correcta_idx": 0,
+"explicacion": "El VMP no puede circular por aceras ni zonas peatonales, ni por autopistas, autovías, travesías o túneles urbanos.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 675,
+"enunciado": "La 'masa máxima autorizada' (MMA) de un vehículo:",
+"opciones": [
+"Es fijada por la Administración para su circulación y no puede superar la masa máxima técnicamente admisible.",
+"Siempre coincide con la tara del vehículo.",
+"Es la carga que lleva en cada viaje."
+],
+"correcta_idx": 0,
+"explicacion": "La MMA la fija la Administración para circular por vías públicas y es igual o menor que la masa máxima técnicamente admisible por fabricación.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 676,
+"enunciado": "Un 'vehículo articulado' está compuesto por:",
+"opciones": [
+"Un automóvil (cabeza tractora) y un semirremolque.",
+"Un automóvil y un remolque de dos ejes.",
+"Dos remolques enganchados."
+],
+"correcta_idx": 0,
+"explicacion": "El vehículo articulado es la unión de una cabeza tractora y un semirremolque; con un remolque sería un tren de carretera.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 677,
+"enunciado": "El permiso B autoriza a arrastrar un remolque cuya MMA no supere, con carácter general:",
+"opciones": [
+"750 kg (o más si el conjunto no supera 3.500 kg de MMA).",
+"1.500 kg en cualquier caso.",
+"3.500 kg de remolque, sin más condiciones."
+],
+"correcta_idx": 0,
+"explicacion": "Con el permiso B se puede arrastrar un remolque de hasta 750 kg, o superior siempre que la MMA del conjunto no exceda de 3.500 kg.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 678,
+"enunciado": "Una 'travesía' se distingue de una vía urbana normal en que:",
+"opciones": [
+"Es el tramo de una carretera que discurre por poblado, sin tener la condición de vía urbana.",
+"Siempre está en el centro de la ciudad.",
+"Es una vía exclusiva para peatones."
+],
+"correcta_idx": 0,
+"explicacion": "La travesía es el tramo de carretera que atraviesa un poblado; no se considera vía urbana aunque cruce la población.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 679,
+"enunciado": "La cilindrada máxima de un ciclomotor de motor de combustión es de:",
+"opciones": [
+"50 cc.",
+"125 cc.",
+"45 cc."
+],
+"correcta_idx": 0,
+"explicacion": "El ciclomotor no supera los 50 cc de cilindrada (o 4 kW si es eléctrico) ni los 45 km/h.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 680,
+"enunciado": "La potencia máxima de un cuadriciclo ligero es de:",
+"opciones": [
+"4 kW.",
+"6 kW.",
+"11 kW."
+],
+"correcta_idx": 0,
+"explicacion": "El cuadriciclo ligero no supera los 4 kW de potencia ni los 425 kg de masa en vacío.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 681,
+"enunciado": "Un ciclomotor es un vehículo de dos o tres ruedas cuya velocidad máxima por construcción no supera los...",
+"opciones": [
+"45 km/h y con cilindrada no superior a 50 cc.",
+"45 km/h y con cilindrada no superior a 125 cc.",
+"50 km/h y con cilindrada no superior a 50 cc."
+],
+"correcta_idx": 0,
+"explicacion": "La única definición correcta combina 45 km/h y 50 cc. Las otras cambian un solo dato (la cilindrada o la velocidad) y por eso son falsas.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 682,
+"enunciado": "El remolque ligero es aquel cuya masa máxima autorizada no excede de...",
+"opciones": [
+"750 kg.",
+"770 kg.",
+"760 kg."
+],
+"correcta_idx": 0,
+"explicacion": "La cifra exacta es 750 kg. Los distractores solo se diferencian en unas decenas de kilos para inducir a error.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 683,
+"enunciado": "El autobús es el automóvil concebido para el transporte de personas con capacidad de...",
+"opciones": [
+"más de 9 plazas, incluido el conductor.",
+"más de 9 plazas, excluido el conductor.",
+"9 o más plazas, incluido el conductor."
+],
+"correcta_idx": 0,
+"explicacion": "La definición correcta es 'más de 9 plazas incluido el conductor'. Cambiar 'incluido' por 'excluido', o 'más de 9' por '9 o más', altera el significado.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 684,
+"enunciado": "La masa en orden de marcha se obtiene sumando a la tara del vehículo...",
+"opciones": [
+"la masa del conductor, valorada en 75 kg.",
+"la masa del conductor, valorada en 68 kg.",
+"la masa del conductor y un acompañante, 150 kg."
+],
+"correcta_idx": 0,
+"explicacion": "Se suma únicamente el conductor valorado en 75 kg. Las otras cambian la cifra o añaden un acompañante.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 685,
+"enunciado": "Un vehículo de movilidad personal (VMP) está diseñado para alcanzar una velocidad máxima comprendida entre...",
+"opciones": [
+"6 y 25 km/h.",
+"6 y 30 km/h.",
+"5 y 25 km/h."
+],
+"correcta_idx": 0,
+"explicacion": "El rango correcto es 6 a 25 km/h. Los distractores modifican solo el límite inferior o el superior.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 686,
+"enunciado": "El vehículo articulado se compone de un automóvil y...",
+"opciones": [
+"un semirremolque que apoya parte de su masa sobre el tractor.",
+"un remolque que apoya parte de su masa sobre el tractor.",
+"un semirremolque que no apoya masa sobre el tractor."
+],
+"correcta_idx": 0,
+"explicacion": "Debe ser un semirremolque Y apoyar parte de su masa sobre el tractor: las otras opciones fallan en una sola palabra ('remolque' o 'no apoya').",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 687,
+"enunciado": "La autopista se diferencia de la autovía en que, entre otros requisitos, la autopista...",
+"opciones": [
+"no da acceso a las propiedades colindantes.",
+"sí da acceso a las propiedades colindantes.",
+"no da acceso a las áreas de servicio."
+],
+"correcta_idx": 0,
+"explicacion": "La autopista NO da acceso a las fincas colindantes (la autovía puede tenerlos). Sí da acceso a áreas de servicio; el matiz está en una sola palabra.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 688,
+"enunciado": "El cuadriciclo ligero tiene una potencia máxima de 4 kW y una masa en vacío que no supera...",
+"opciones": [
+"425 kg.",
+"450 kg.",
+"400 kg."
+],
+"correcta_idx": 0,
+"explicacion": "La masa límite es exactamente 425 kg (sin baterías si es eléctrico). Los distractores rondan esa cifra para confundir.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 689,
+"enunciado": "Una vía interurbana es toda aquella que...",
+"opciones": [
+"discurre fuera de poblado.",
+"discurre dentro de poblado.",
+"discurre por el centro de un poblado."
+],
+"correcta_idx": 0,
+"explicacion": "Interurbana = fuera de poblado. Las otras describen la vía urbana o la travesía cambiando una sola palabra.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 690,
+"enunciado": "La parada se diferencia del estacionamiento en que la parada no excede de...",
+"opciones": [
+"2 minutos y el conductor no se aleja del vehículo.",
+"5 minutos y el conductor no se aleja del vehículo.",
+"2 minutos, aunque el conductor se aleje del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "La parada dura menos de 2 minutos SIN que el conductor abandone el vehículo. Los distractores cambian el tiempo o eliminan la condición de no alejarse.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 691,
+"enunciado": "El permiso B permite arrastrar un remolque cuando la MMA del conjunto (vehículo + remolque) no supera...",
+"opciones": [
+"3.500 kg.",
+"4.250 kg.",
+"3.000 kg."
+],
+"correcta_idx": 0,
+"explicacion": "Con el permiso B ordinario el conjunto no puede superar 3.500 kg de MMA. La cifra 4.250 corresponde al B con código 96/B+E, distinto.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 692,
+"enunciado": "La bicicleta de pedaleo asistido conserva la consideración de ciclo si el motor deja de asistir cuando se alcanzan los...",
+"opciones": [
+"25 km/h.",
+"30 km/h.",
+"20 km/h."
+],
+"correcta_idx": 0,
+"explicacion": "La asistencia debe cortarse a los 25 km/h. Superado ese umbral dejaría de ser una bicicleta ordinaria.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 693,
+"enunciado": "La Dirección Electrónica Vial (DEV) sirve para:",
+"opciones": [
+"Recibir de forma electrónica las notificaciones de tráfico (multas, avisos).",
+"Pagar el impuesto de circulación municipal.",
+"Renovar el seguro del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "La DEV es un buzón electrónico donde la DGT notifica sanciones y comunicaciones; evita las notificaciones en papel.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 694,
+"enunciado": "El 'parte amistoso de accidente' es:",
+"opciones": [
+"Una declaración conjunta de los implicados para tramitar el siniestro con las aseguradoras.",
+"Una denuncia ante la Guardia Civil.",
+"El justificante de haber pasado la ITV."
+],
+"correcta_idx": 0,
+"explicacion": "El parte amistoso recoge lo ocurrido y lo firman los conductores; agiliza la gestión del accidente con los seguros.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 695,
+"enunciado": "La 'carta verde' del seguro:",
+"opciones": [
+"Acredita que el seguro tiene cobertura para circular por determinados países extranjeros.",
+"Es el distintivo ambiental del vehículo.",
+"Sustituye al permiso de circulación."
+],
+"correcta_idx": 0,
+"explicacion": "La carta verde es el certificado internacional del seguro; acredita su vigencia al circular por el extranjero.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 696,
+"enunciado": "El Impuesto de Vehículos de Tracción Mecánica (IVTM) es:",
+"opciones": [
+"Un impuesto municipal anual que se paga por tener el vehículo.",
+"Un pago único al matricular.",
+"La tasa de la ITV."
+],
+"correcta_idx": 0,
+"explicacion": "El IVTM (impuesto de circulación) lo gestiona el Ayuntamiento y se paga cada año.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 697,
+"enunciado": "El distintivo ambiental 'ECO' corresponde, en general, a:",
+"opciones": [
+"Vehículos híbridos o de gas que cumplen ciertos requisitos, con prestaciones intermedias.",
+"Solo a vehículos 100% eléctricos.",
+"A los vehículos más antiguos y contaminantes."
+],
+"correcta_idx": 0,
+"explicacion": "La etiqueta ECO se otorga a híbridos, híbridos enchufables de menor autonomía eléctrica y vehículos de gas (GLP/GNC).",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 698,
+"enunciado": "Los vehículos más antiguos y contaminantes, respecto al distintivo ambiental:",
+"opciones": [
+"No reciben etiqueta y suelen tener más restricciones en las Zonas de Bajas Emisiones.",
+"Reciben la etiqueta '0 emisiones'.",
+"Reciben siempre la etiqueta ECO."
+],
+"correcta_idx": 0,
+"explicacion": "Los vehículos más contaminantes (gasolina anteriores a 2000, diésel anteriores a 2006) no tienen distintivo y ven limitada su circulación en ZBE.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 699,
+"enunciado": "El permiso de la clase A1 habilita para conducir:",
+"opciones": [
+"Motocicletas de hasta 125 cc y 11 kW, a partir de los 16 años.",
+"Cualquier motocicleta sin límite de potencia.",
+"Turismos de hasta 3.500 kg."
+],
+"correcta_idx": 0,
+"explicacion": "El A1 permite motos de hasta 125 cc y 11 kW (relación potencia/peso limitada) y se obtiene a los 16 años.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 700,
+"enunciado": "El permiso de la clase A2 habilita para conducir:",
+"opciones": [
+"Motocicletas de hasta 35 kW, a partir de los 18 años.",
+"Motocicletas de cualquier potencia desde los 16 años.",
+"Autobuses."
+],
+"correcta_idx": 0,
+"explicacion": "El A2 permite motos de hasta 35 kW y se obtiene a los 18 años; tras 2 años se puede acceder al permiso A.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 701,
+"enunciado": "El código 96 (o el permiso B+E) sirve para:",
+"opciones": [
+"Poder arrastrar remolques más pesados de lo que permite el permiso B ordinario.",
+"Conducir motocicletas grandes.",
+"Conducir autobuses."
+],
+"correcta_idx": 0,
+"explicacion": "El código 96 amplía el B para conjuntos de mayor masa; el B+E permite remolques aún más pesados.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 702,
+"enunciado": "Un permiso de conducción expedido en otro país de la Unión Europea, en España:",
+"opciones": [
+"Es válido para conducir, sin necesidad de canjearlo.",
+"No sirve en ningún caso.",
+"Obliga a examinarse de nuevo de inmediato."
+],
+"correcta_idx": 0,
+"explicacion": "Los permisos de la UE/EEE son válidos en España; solo hay que cumplir las condiciones de vigencia y edad.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 703,
+"enunciado": "El permiso internacional de conducción:",
+"opciones": [
+"Es un documento que acompaña al permiso nacional para conducir en ciertos países fuera de la UE.",
+"Sustituye para siempre al permiso español.",
+"Solo vale dentro de España."
+],
+"correcta_idx": 0,
+"explicacion": "El permiso internacional traduce y complementa al permiso nacional; se exige en algunos países no comunitarios.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 704,
+"enunciado": "La 'baja temporal' de un vehículo permite:",
+"opciones": [
+"Que el vehículo deje de circular durante un tiempo sin darlo de baja definitiva.",
+"Circular sin seguro.",
+"No pasar nunca más la ITV."
+],
+"correcta_idx": 0,
+"explicacion": "La baja temporal (por robo, exportación, voluntaria...) suspende la obligación de circular, pero no es la baja definitiva del desguace.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 705,
+"enunciado": "Si la ITV resulta 'desfavorable' por un defecto grave, el vehículo:",
+"opciones": [
+"Solo puede circular para ir a repararlo y volver a pasar la inspección.",
+"Puede circular con normalidad.",
+"Debe ir obligatoriamente al desguace."
+],
+"correcta_idx": 0,
+"explicacion": "Con resultado desfavorable, el vehículo solo puede desplazarse al taller y de nuevo a la ITV dentro del plazo dado.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 706,
+"enunciado": "Si la ITV resulta 'negativa' por un defecto muy grave, el vehículo:",
+"opciones": [
+"No puede circular por sus propios medios (debe retirarse en grúa).",
+"Puede circular un mes más.",
+"Solo circula de noche."
+],
+"correcta_idx": 0,
+"explicacion": "Un defecto muy grave supone peligro; el vehículo no puede circular por sí mismo y debe ser retirado con grúa.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 707,
+"enunciado": "La inspección técnica (ITV) de las motocicletas se realiza, con carácter general:",
+"opciones": [
+"A partir de los 4 años de antigüedad, cada 2 años.",
+"Cada 6 meses desde su matriculación.",
+"Nunca, las motos están exentas."
+],
+"correcta_idx": 0,
+"explicacion": "Las motocicletas pasan su primera ITV a los 4 años y, a partir de ahí, cada 2 años.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 708,
+"enunciado": "La ITV debe realizarse en:",
+"opciones": [
+"Estaciones de inspección técnica autorizadas.",
+"Cualquier taller mecánico.",
+"El domicilio del titular."
+],
+"correcta_idx": 0,
+"explicacion": "La inspección se hace en estaciones ITV autorizadas por la Administración, no en talleres corrientes.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 709,
+"enunciado": "El adhesivo (pegatina) de la ITV en el parabrisas indica:",
+"opciones": [
+"El mes y el año en que caduca la inspección y hay que volver a pasarla.",
+"El nivel de emisiones del vehículo.",
+"El grupo sanguíneo del conductor."
+],
+"correcta_idx": 0,
+"explicacion": "La pegatina de la ITV muestra el año (color) y el mes de la próxima inspección obligatoria.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 710,
+"enunciado": "Una placa de matrícula temporal (verde) se utiliza:",
+"opciones": [
+"Para traslados o pruebas de vehículos aún sin matrícula definitiva.",
+"En vehículos históricos.",
+"En vehículos de personas con movilidad reducida."
+],
+"correcta_idx": 0,
+"explicacion": "Las placas verdes son temporales, para desplazamientos limitados de vehículos pendientes de matriculación definitiva.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 711,
+"enunciado": "Cuando un conductor comete una infracción GRAVE de las que restan puntos, puede perder:",
+"opciones": [
+"Entre 2 y 6 puntos según la infracción concreta.",
+"Siempre 12 puntos.",
+"Ningún punto."
+],
+"correcta_idx": 0,
+"explicacion": "Las infracciones graves y muy graves restan de 2 a 6 puntos según su gravedad.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 712,
+"enunciado": "Los cursos de sensibilización y reeducación vial sirven para:",
+"opciones": [
+"Recuperar parte de los puntos o poder volver a conducir tras perderlos todos.",
+"Pagar menos por el seguro obligatoriamente.",
+"Evitar pasar la ITV."
+],
+"correcta_idx": 0,
+"explicacion": "Estos cursos permiten recuperar puntos (hasta cierto límite) y son obligatorios para reobtener el permiso tras quedarse a cero.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 713,
+"enunciado": "Si un conductor pierde TODOS sus puntos:",
+"opciones": [
+"No puede conducir y, para reobtener el permiso, debe hacer un curso y superar una prueba.",
+"Recupera los puntos automáticamente al mes.",
+"Puede seguir conduciendo pagando una tasa."
+],
+"correcta_idx": 0,
+"explicacion": "Perder todos los puntos supone la pérdida de vigencia del permiso; hay que hacer curso y examen para recuperarlo.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 714,
+"enunciado": "El conductor novel tiene condiciones especiales durante:",
+"opciones": [
+"Los 2 primeros años desde que obtiene el permiso.",
+"Los 5 primeros años.",
+"Toda la vida del permiso."
+],
+"correcta_idx": 0,
+"explicacion": "Se considera conductor novel durante los 2 primeros años; en ese periodo hay particularidades (por ejemplo, una tasa de alcohol menor).",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 715,
+"enunciado": "El plazo general para presentar alegaciones frente a una multa de tráfico es de:",
+"opciones": [
+"20 días naturales desde la notificación.",
+"48 horas.",
+"6 meses."
+],
+"correcta_idx": 0,
+"explicacion": "Desde la notificación de la denuncia se dispone, con carácter general, de 20 días naturales para alegar.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 716,
+"enunciado": "Una sanción económica de tráfico GRAVE puede ascender, con carácter general, hasta:",
+"opciones": [
+"200 €.",
+"60 €.",
+"1.000 €."
+],
+"correcta_idx": 0,
+"explicacion": "Las infracciones leves llegan hasta 100 €, las graves hasta 200 € y las muy graves hasta 500 €.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 717,
+"enunciado": "La franquicia de un seguro es:",
+"opciones": [
+"La cantidad de cada siniestro que asume el propio asegurado antes de que pague la compañía.",
+"El descuento por no tener accidentes.",
+"El importe del impuesto de circulación."
+],
+"correcta_idx": 0,
+"explicacion": "Con franquicia, el asegurado paga una parte fija de cada siniestro y la aseguradora el resto.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 718,
+"enunciado": "El seguro obligatorio de automóviles NO cubre:",
+"opciones": [
+"Los daños propios del conductor causante del accidente.",
+"Los daños causados a terceros.",
+"Las lesiones de terceras personas."
+],
+"correcta_idx": 0,
+"explicacion": "El seguro obligatorio cubre los daños a terceros; los daños propios requieren coberturas adicionales (todo riesgo).",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 719,
+"enunciado": "Antes de comprar un vehículo de segunda mano conviene:",
+"opciones": [
+"Comprobar en un informe de la DGT sus cargas, ITV y posibles deudas o embargos.",
+"Fiarse solo de la palabra del vendedor.",
+"Cambiar el número de bastidor."
+],
+"correcta_idx": 0,
+"explicacion": "El informe de vehículo de la DGT indica titularidad, cargas, embargos e ITV; ayuda a evitar sorpresas.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 720,
+"enunciado": "El permiso de CONDUCCIÓN y el permiso de CIRCULACIÓN se diferencian en que:",
+"opciones": [
+"El de conducción acredita la aptitud de la persona; el de circulación autoriza a circular al vehículo.",
+"Son exactamente lo mismo.",
+"El de circulación identifica al conductor."
+],
+"correcta_idx": 0,
+"explicacion": "El permiso de conducir es de la persona; el permiso de circulación es del vehículo. No deben confundirse.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 721,
+"enunciado": "El número de bastidor de un vehículo:",
+"opciones": [
+"Es un identificador único grabado que sirve para identificar el vehículo.",
+"Es el número de la póliza del seguro.",
+"Cambia cada año."
+],
+"correcta_idx": 0,
+"explicacion": "El bastidor (VIN) identifica de forma única al vehículo; figura en la documentación y grabado en la carrocería.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 722,
+"enunciado": "Para poder circular, todo vehículo a motor debe llevar, como mínimo:",
+"opciones": [
+"El seguro obligatorio en vigor y la ITV al día cuando le corresponda.",
+"Solo el permiso de conducir del titular.",
+"Únicamente el distintivo ambiental."
+],
+"correcta_idx": 0,
+"explicacion": "Circular exige seguro obligatorio vigente y, si procede por su antigüedad, la ITV en vigor.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 723,
+"enunciado": "Si vas a circular por una Zona de Bajas Emisiones (ZBE) con un vehículo sin distintivo ambiental:",
+"opciones": [
+"Puede estar restringido o prohibido según la ordenanza municipal de esa ciudad.",
+"Siempre puedes circular sin límite.",
+"Solo puedes aparcar, no circular, en toda España."
+],
+"correcta_idx": 0,
+"explicacion": "Cada Ayuntamiento regula su ZBE; los vehículos sin etiqueta suelen tener el acceso limitado o prohibido.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 724,
+"enunciado": "El 'seguro a todo riesgo' se caracteriza porque:",
+"opciones": [
+"Además de los daños a terceros, cubre los daños propios del vehículo asegurado.",
+"Solo cubre daños a terceros.",
+"No cubre ningún daño material."
+],
+"correcta_idx": 0,
+"explicacion": "El todo riesgo amplía el obligatorio cubriendo también los daños del propio vehículo, con o sin franquicia.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 725,
+"enunciado": "El permiso de conducción digital de la app miDGT:",
+"opciones": [
+"Tiene validez para identificarte ante los agentes dentro de España.",
+"No tiene ninguna validez.",
+"Sustituye al permiso de circulación del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "El permiso en la app miDGT es válido para acreditar tu habilitación en territorio nacional.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 726,
+"enunciado": "Cuando cambias de domicilio, respecto a tu vehículo y permiso debes:",
+"opciones": [
+"Comunicar el cambio a la DGT para mantener actualizados tus datos.",
+"No hacer nada nunca.",
+"Volver a matricular el vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "El cambio de domicilio debe comunicarse a la DGT; así las notificaciones llegan correctamente.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 727,
+"enunciado": "El impuesto de matriculación de un vehículo:",
+"opciones": [
+"Es un tributo que puede pagarse al matricular según las emisiones de CO₂ del vehículo.",
+"Se paga cada vez que se pasa la ITV.",
+"Lo cobra el taller."
+],
+"correcta_idx": 0,
+"explicacion": "El impuesto de matriculación depende de las emisiones; algunos vehículos poco contaminantes quedan exentos.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 728,
+"enunciado": "El titular que no desea recibir notificaciones en papel puede:",
+"opciones": [
+"Suscribirse a la Dirección Electrónica Vial (DEV) para recibirlas electrónicamente.",
+"Ignorar cualquier notificación.",
+"Cambiar de matrícula."
+],
+"correcta_idx": 0,
+"explicacion": "La DEV permite recibir las notificaciones de tráfico de forma electrónica en lugar del correo postal.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 729,
+"enunciado": "Para transferir un vehículo al comprarlo de segunda mano, se debe:",
+"opciones": [
+"Tramitar el cambio de titularidad en la DGT y pagar la tasa e impuestos correspondientes.",
+"Solo guardar el contrato en casa.",
+"Esperar a la próxima ITV."
+],
+"correcta_idx": 0,
+"explicacion": "El cambio de titularidad se hace en la DGT (o gestoría) pagando la tasa y el impuesto de transmisiones.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 730,
+"enunciado": "El Certificado de Aptitud Profesional (CAP) es necesario para:",
+"opciones": [
+"Los conductores profesionales de transporte de mercancías o de viajeros por carretera.",
+"Cualquier conductor de turismo particular.",
+"Circular con una motocicleta."
+],
+"correcta_idx": 0,
+"explicacion": "El CAP acredita la cualificación de los conductores profesionales de camiones y autobuses; no lo necesita un conductor particular.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 731,
+"enunciado": "Un vehículo dado de BAJA DEFINITIVA (entregado al desguace):",
+"opciones": [
+"No puede volver a circular ni matricularse de nuevo.",
+"Puede volver a circular pagando una tasa.",
+"Solo puede circular fuera de poblado."
+],
+"correcta_idx": 0,
+"explicacion": "La baja definitiva es irreversible: el vehículo se descontamina y desguaza y no puede volver a circular.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 732,
+"enunciado": "El duplicado del permiso de circulación se solicita cuando:",
+"opciones": [
+"El documento se ha deteriorado, perdido o ha sido sustraído.",
+"El vehículo cambia de color.",
+"Se renueva el seguro."
+],
+"correcta_idx": 0,
+"explicacion": "Si el permiso de circulación se pierde, se estropea o te lo roban, debes pedir un duplicado a la DGT.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 733,
+"enunciado": "Un conductor que obtiene el permiso por primera vez (novel) parte con un saldo de puntos de:",
+"opciones": [
+"8 puntos.",
+"12 puntos.",
+"6 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "El conductor novel parte con 8 puntos; a los 3 años sin sancionar alcanza los 12.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 734,
+"enunciado": "El saldo máximo de puntos que puede llegar a tener un conductor sin sanciones es:",
+"opciones": [
+"15 puntos.",
+"12 puntos.",
+"20 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "Tras varios años sin perder puntos se llega a 12 y finalmente al máximo de 15.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 735,
+"enunciado": "Un turismo particular pasa su PRIMERA ITV y, entre los 4 y los 10 años, la repite:",
+"opciones": [
+"A los 4 años y, de 4 a 10 años, cada 2 años.",
+"A los 6 años y luego cada 3 años.",
+"A los 2 años y luego todos los años."
+],
+"correcta_idx": 0,
+"explicacion": "Turismo particular: primera ITV a los 4 años; de 4 a 10 años, cada 2 años; a partir de 10, todos los años.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 736,
+"enunciado": "Usar el teléfono móvil sosteniéndolo en la mano mientras se conduce supone la pérdida de:",
+"opciones": [
+"6 puntos.",
+"3 puntos.",
+"4 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "Desde la reforma de 2022, sujetar el móvil con la mano conduciendo resta 6 puntos.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 737,
+"enunciado": "No utilizar el cinturón de seguridad, el casco o el sistema de retención infantil supone la pérdida de:",
+"opciones": [
+"4 puntos.",
+"3 puntos.",
+"6 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "Desde 2022, no usar cinturón, casco o SRI resta 4 puntos (antes eran 3).",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 738,
+"enunciado": "Mediante un curso de recuperación, un conductor puede recuperar como máximo:",
+"opciones": [
+"6 puntos (una vez cada 2 años; los profesionales, una vez al año).",
+"12 puntos cada mes.",
+"Todos sus puntos cada vez que quiera."
+],
+"correcta_idx": 0,
+"explicacion": "Los cursos de recuperación devuelven hasta 6 puntos, con una periodicidad limitada.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 739,
+"enunciado": "Para recuperar el saldo total de puntos sin hacer curso, hay que estar sin ser sancionado:",
+"opciones": [
+"2 años (si la última fue grave) o 3 años (si fue muy grave).",
+"6 meses en todos los casos.",
+"10 años siempre."
+],
+"correcta_idx": 0,
+"explicacion": "El saldo se recupera por completo tras 2 años sin sancionar (última infracción grave) o 3 años (muy grave).",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 740,
+"enunciado": "El permiso B, mediante el código 96, permite conducir conjuntos (vehículo + remolque) cuya MMA total esté entre:",
+"opciones": [
+"3.500 y 4.250 kg.",
+"4.250 y 7.000 kg.",
+"2.000 y 3.000 kg."
+],
+"correcta_idx": 0,
+"explicacion": "El código 96 amplía el B para conjuntos de 3.500 a 4.250 kg de MMA; por encima se necesita el B+E.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 741,
+"enunciado": "Una infracción muy grave de tráfico puede suponer una multa de hasta:",
+"opciones": [
+"500 € y la detracción de hasta 6 puntos.",
+"100 € y ningún punto.",
+"3.000 € y 12 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "Las infracciones muy graves llegan a 500 € y pueden restar hasta 6 puntos.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 742,
+"enunciado": "El permiso A2 (motos de hasta 35 kW) se puede obtener a partir de los:",
+"opciones": [
+"18 años.",
+"16 años.",
+"20 años."
+],
+"correcta_idx": 0,
+"explicacion": "El A2 se obtiene a los 18 años; a los 16 se puede obtener el A1 (hasta 125 cc).",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 743,
+"enunciado": "Pagar una multa dentro del periodo de pago con reducción (pronto pago) supone, normalmente:",
+"opciones": [
+"Una reducción del 50 % del importe, renunciando a alegar.",
+"Pagar el doble.",
+"Recuperar los puntos perdidos."
+],
+"correcta_idx": 0,
+"explicacion": "El pronto pago aplica un 50 % de descuento en la multa económica, pero implica renunciar a las alegaciones; los puntos se pierden igual.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 744,
+"enunciado": "Un turismo particular con más de 10 años de antigüedad debe pasar la ITV:",
+"opciones": [
+"Todos los años.",
+"Cada 2 años.",
+"Cada 5 años."
+],
+"correcta_idx": 0,
+"explicacion": "A partir de los 10 años, el turismo particular pasa la ITV anualmente.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 745,
+"enunciado": "Un turismo particular pasa su primera inspección técnica (ITV) a los...",
+"opciones": [
+"4 años de su matriculación.",
+"5 años de su matriculación.",
+"3 años de su matriculación."
+],
+"correcta_idx": 0,
+"explicacion": "La primera ITV del turismo particular es a los 4 años. Los distractores cambian solo esa cifra.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 746,
+"enunciado": "El conductor novel parte con un saldo de...",
+"opciones": [
+"8 puntos.",
+"6 puntos.",
+"12 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "El novel arranca con 8 puntos. 6 y 12 son cifras cercanas puestas para confundir.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 747,
+"enunciado": "Con carácter general, el permiso B se renueva, para menores de 65 años, cada...",
+"opciones": [
+"10 años.",
+"8 años.",
+"5 años."
+],
+"correcta_idx": 0,
+"explicacion": "Hasta los 65 años el permiso B se renueva cada 10 años. A partir de esa edad, cada 5.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 748,
+"enunciado": "Con carácter general, el permiso B para conductores de 65 años o más se renueva cada...",
+"opciones": [
+"5 años.",
+"10 años.",
+"3 años."
+],
+"correcta_idx": 0,
+"explicacion": "A partir de los 65 años la renovación pasa a ser cada 5 años. Antes de esa edad, cada 10.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 749,
+"enunciado": "Sujetar el teléfono móvil con la mano mientras se conduce resta...",
+"opciones": [
+"6 puntos.",
+"4 puntos.",
+"3 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "La cifra vigente desde 2022 es 6 puntos. Los 3 puntos eran el valor antiguo; 4 corresponde a otras infracciones.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 750,
+"enunciado": "No usar el cinturón de seguridad, el casco o el sistema de retención infantil resta...",
+"opciones": [
+"4 puntos.",
+"3 puntos.",
+"6 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "Desde 2022 son 4 puntos. 3 era el valor anterior y 6 corresponde al uso del móvil.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 751,
+"enunciado": "La edad mínima para obtener el permiso B es de...",
+"opciones": [
+"18 años.",
+"16 años.",
+"21 años."
+],
+"correcta_idx": 0,
+"explicacion": "El permiso B se obtiene a los 18 años. 16 corresponde al A1/AM y 21 a permisos superiores.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 752,
+"enunciado": "Con el permiso B, sin autorización adicional, se puede arrastrar un remolque cuya MMA no supere...",
+"opciones": [
+"750 kg.",
+"700 kg.",
+"1.000 kg."
+],
+"correcta_idx": 0,
+"explicacion": "El límite exacto es 750 kg. Los distractores rondan esa cifra para inducir a error.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 753,
+"enunciado": "El saldo máximo de puntos que puede alcanzar un conductor es de...",
+"opciones": [
+"15 puntos.",
+"12 puntos.",
+"14 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "El máximo es 15 puntos. 12 es el saldo habitual del conductor con experiencia, no el máximo.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 754,
+"enunciado": "Mediante un curso, un conductor puede recuperar como máximo...",
+"opciones": [
+"6 puntos.",
+"4 puntos.",
+"8 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "El límite recuperable por curso es 6 puntos. Las otras cifras son cercanas para confundir.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 755,
+"enunciado": "El plazo general para alegar frente a una multa es de...",
+"opciones": [
+"20 días naturales.",
+"15 días naturales.",
+"30 días naturales."
+],
+"correcta_idx": 0,
+"explicacion": "El plazo es de 20 días naturales desde la notificación. 15 y 30 son distractores próximos.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 756,
+"enunciado": "Entre los 4 y los 10 años de antigüedad, un turismo particular pasa la ITV...",
+"opciones": [
+"cada 2 años.",
+"todos los años.",
+"cada 3 años."
+],
+"correcta_idx": 0,
+"explicacion": "De 4 a 10 años es cada 2 años; pasa a ser anual solo a partir de los 10 años.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 3
 }
 ];

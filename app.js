@@ -1,35 +1,70 @@
 /* =============================================================================
    app.js (PWA) — Lógica 100% en el navegador. No necesita servidor.
    Los datos están en window.DGT_QUESTIONS (data.js). El progreso se guarda en
-   localStorage. Replica las mecánicas del backend: SRS (SM-2), examen 30/30/<=3,
-   vidas, racha, XP, árbol de niveles, stats y sonidos con Web Audio API.
+   localStorage. Mecánicas: SRS (SM-2), vidas, racha, XP, sonidos y:
+
+   NUEVO (mejora septiembre 2026):
+   - El camino de cada unidad recorre TODAS sus preguntas en subbloques de 5.
+   - Al acertar se avanza solo (sin pulsar "Continuar"); solo al fallar se
+     muestra la explicación y hay que continuar manualmente.
+   - Al terminar los subbloques de una unidad se desbloquea un "Examen de unidad"
+     (30 preguntas de ese tema, estilo examen).
+   - 3 niveles de dificultad (1 normal, 2 difícil, 3 muy difícil). El nivel 2 se
+     desbloquea al completar todas las unidades + el examen general del nivel 1;
+     el nivel 3 igual respecto al nivel 2.
    ============================================================================= */
 "use strict";
 
-// -------- Configuración (igual que el backend) --------
+// -------- Configuración --------
 const CFG = {
-  QUIZ_SIZE: 5, NODES_PER_TEMA: 2, MAX_VIDAS: 5, VIDA_REGEN_MIN: 30,
-  XP_ACIERTO: 10, XP_NODO: 20, XP_EXAMEN: 50,
+  QUIZ_SIZE: 5, MAX_VIDAS: 5, VIDA_REGEN_MIN: 30,
+  XP_ACIERTO: 10, XP_NODO: 20, XP_EXAMEN: 50, XP_EXAMEN_UNIDAD: 30,
   EXAM_SIZE: 30, EXAM_MIN: 30, EXAM_MAX_FAILS: 3,
+  UNIT_EXAM_SIZE: 30,
+  AUTO_ADVANCE_MS: 1100, // pausa tras acertar antes de pasar a la siguiente
 };
 const TEMAS = {
   1: "Definiciones", 2: "Documentación e ITV", 3: "Alcohol, drogas y fármacos",
   4: "Velocidades", 5: "Señales", 6: "Prioridad y maniobras", 7: "Seguridad y mecánica",
 };
+const NIVELES = { 1: "Nivel 1 · Aprender", 2: "Nivel 2 · Difícil", 3: "Nivel 3 · Experto" };
+
 const QUESTIONS = window.DGT_QUESTIONS || [];
+QUESTIONS.forEach((q) => { if (!q.dificultad) q.dificultad = 1; });
 const BY_ID = {};
 QUESTIONS.forEach((q) => (BY_ID[q.id] = q));
 
 // -------- Estado persistente --------
-const KEY = "dgtpath_state_v1";
+const KEY = "dgtpath_state_v2";
+const KEY_OLD = "dgtpath_state_v1";
 let S = null;
 
+function nuevoEstado() {
+  return {
+    xp: 0, vidas: CFG.MAX_VIDAS, vidasTs: Date.now(), racha: 0, ultima: null,
+    srs: {}, nodes: {}, unitExam: {}, generalExam: {}, nivelDif: 1,
+  };
+}
 function loadState() {
   try { S = JSON.parse(localStorage.getItem(KEY)); } catch (_) { S = null; }
   if (!S) {
-    S = { xp: 0, vidas: CFG.MAX_VIDAS, vidasTs: Date.now(), racha: 0, ultima: null, srs: {}, nodes: {} };
+    S = nuevoEstado();
+    // Migración best-effort desde la versión anterior: conservamos XP, vidas,
+    // racha y el historial SRS (siguen siendo válidos). El progreso del camino
+    // se reinicia porque la estructura de nodos ha cambiado.
+    try {
+      const old = JSON.parse(localStorage.getItem(KEY_OLD));
+      if (old) {
+        S.xp = old.xp || 0; S.vidas = old.vidas ?? CFG.MAX_VIDAS;
+        S.vidasTs = old.vidasTs || Date.now(); S.racha = old.racha || 0;
+        S.ultima = old.ultima || null; S.srs = old.srs || {};
+      }
+    } catch (_) {}
     saveState();
   }
+  // Rellenar claves que puedan faltar.
+  S.unitExam = S.unitExam || {}; S.generalExam = S.generalExam || {};
+  S.nodes = S.nodes || {}; S.srs = S.srs || {}; S.nivelDif = S.nivelDif || 1;
   return S;
 }
 function saveState() { localStorage.setItem(KEY, JSON.stringify(S)); }
@@ -85,8 +120,15 @@ function actualizarSrs(qid, correcto) {
   s.due = addDays(today(), s.interval);
 }
 
+// -------- Preguntas por nivel/tema --------
+function poolTema(niv, tema) {
+  return QUESTIONS
+    .filter((q) => q.tema_id === tema && (q.dificultad || 1) === niv)
+    .sort((a, b) => a.id - b.id); // partición estable en subbloques
+}
+function nSubbloques(niv, tema) { return Math.ceil(poolTema(niv, tema).length / CFG.QUIZ_SIZE); }
+
 // -------- Utilidades --------
-function questionsByTema(t) { return QUESTIONS.filter((q) => q.tema_id === t); }
 function sample(arr, n) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
@@ -96,6 +138,19 @@ function shuffleOptions(question) {
   const arr = question.opciones.map((text, canonical) => ({ text, canonical }));
   for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; }
   return arr;
+}
+
+// -------- Desbloqueo de niveles de dificultad --------
+function nivelCompleto(niv) {
+  const temas = [1, 2, 3, 4, 5, 6, 7].filter((t) => poolTema(niv, t).length > 0);
+  if (!temas.length) return false;
+  const unidadesOk = temas.every((t) => S.unitExam[`${niv}_${t}`] && S.unitExam[`${niv}_${t}`].apto);
+  const generalOk = S.generalExam[`${niv}`] && S.generalExam[`${niv}`].apto;
+  return unidadesOk && generalOk;
+}
+function nivelDesbloqueado(niv) { return niv === 1 || nivelCompleto(niv - 1); }
+function nivelTieneContenido(niv) {
+  return [1, 2, 3, 4, 5, 6, 7].some((t) => poolTema(niv, t).length > 0);
 }
 
 // -------- Audio --------
@@ -129,45 +184,111 @@ function renderState() {
     "❤️".repeat(S.vidas) + "🤍".repeat(Math.max(0, CFG.MAX_VIDAS - S.vidas));
 }
 
-// -------- Árbol --------
-function buildTree() {
-  const conteos = {};
-  QUESTIONS.forEach((q) => (conteos[q.tema_id] = (conteos[q.tema_id] || 0) + 1));
+// -------- Selector de niveles de dificultad --------
+function renderNivelSelector() {
+  const cont = document.getElementById("nivel-selector");
+  cont.innerHTML = "";
+  [1, 2, 3].forEach((niv) => {
+    if (!nivelTieneContenido(niv) && niv !== 1) return; // oculta niveles vacíos
+    const desbloq = nivelDesbloqueado(niv);
+    const btn = document.createElement("button");
+    btn.className = "nivel-btn" + (S.nivelDif === niv ? " active" : "") + (desbloq ? "" : " locked");
+    btn.textContent = (desbloq ? "" : "🔒 ") + NIVELES[niv];
+    btn.addEventListener("click", () => {
+      if (!desbloq) {
+        toast(`🔒 Completa el nivel ${niv - 1} (todas las unidades + examen) para desbloquearlo.`);
+        return;
+      }
+      S.nivelDif = niv; saveState(); renderNivelSelector(); renderTree();
+    });
+    cont.appendChild(btn);
+  });
+}
+
+// -------- Árbol / camino --------
+function buildTree(niv) {
   const unidades = [];
-  let anteriorCompleto = true;
+  let anteriorCompleta = true; // la primera unidad con contenido siempre accesible
   for (let t = 1; t <= 7; t++) {
-    const n = conteos[t] || 0, nodos = [];
-    let completos = 0;
-    for (let i = 0; i < CFG.NODES_PER_TEMA; i++) {
-      const np = S.nodes[`${t}_${i}`] || { completado: false, estrellas: 0 };
-      if (np.completado) completos++;
+    const pool = poolTema(niv, t);
+    const n = pool.length;
+    const nSub = Math.ceil(n / CFG.QUIZ_SIZE);
+    const desbloqueada = anteriorCompleta && n > 0;
+
+    const nodos = [];
+    let subCompletos = 0;
+    for (let i = 0; i < nSub; i++) {
+      const np = S.nodes[`${niv}_${t}_${i}`] || { completado: false, estrellas: 0 };
+      if (np.completado) subCompletos++;
       let desbloqueado;
-      if (i === 0) desbloqueado = anteriorCompleto;
-      else desbloqueado = anteriorCompleto && !!(S.nodes[`${t}_${i - 1}`] && S.nodes[`${t}_${i - 1}`].completado);
-      nodos.push({ i, completado: !!np.completado, estrellas: np.estrellas || 0, desbloqueado: desbloqueado && n > 0 });
+      if (i === 0) desbloqueado = desbloqueada;
+      else {
+        const prev = S.nodes[`${niv}_${t}_${i - 1}`];
+        desbloqueado = desbloqueada && !!(prev && prev.completado);
+      }
+      nodos.push({ kind: "sub", i, completado: !!np.completado, estrellas: np.estrellas || 0, desbloqueado });
     }
-    const completa = completos === CFG.NODES_PER_TEMA && n > 0;
-    unidades.push({ t, titulo: TEMAS[t], n, desbloqueada: anteriorCompleto, completa, nodos });
-    anteriorCompleto = anteriorCompleto && completa;
+
+    // Examen de unidad (aparece si hay al menos un subbloque).
+    let examNode = null;
+    if (nSub > 0) {
+      const todosSub = subCompletos === nSub;
+      const ex = S.unitExam[`${niv}_${t}`];
+      examNode = {
+        kind: "exam",
+        completado: !!(ex && ex.apto),
+        estrellas: ex && ex.apto ? 3 : 0,
+        desbloqueado: desbloqueada && todosSub,
+      };
+      nodos.push(examNode);
+    }
+
+    const completa = !!(examNode && examNode.completado);
+    unidades.push({ t, titulo: TEMAS[t], n, nSub, desbloqueada, completa, nodos });
+    anteriorCompleta = anteriorCompleta && (completa || n === 0);
   }
   return unidades;
 }
+
 function renderTree() {
+  const niv = S.nivelDif;
   const path = document.getElementById("path"); path.innerHTML = "";
-  buildTree().forEach((u) => {
+  const unidades = buildTree(niv);
+  const hayContenido = unidades.some((u) => u.n > 0);
+  if (!hayContenido) {
+    path.innerHTML = `<div class="card center"><p class="muted">Aún no hay preguntas para este nivel.</p></div>`;
+    return;
+  }
+  unidades.forEach((u) => {
+    if (u.n === 0) return; // no mostrar unidades sin preguntas en este nivel
     const h = document.createElement("div");
     h.className = "unit-header" + (u.desbloqueada ? "" : " locked");
-    h.innerHTML = `<div><h3>Unidad ${u.t} · ${u.titulo}</h3><small>${u.n} preguntas ${u.desbloqueada ? "" : "· 🔒"}</small></div><div>${u.completa ? "🏆" : ""}</div>`;
+    h.innerHTML = `<div><h3>Unidad ${u.t} · ${u.titulo}</h3>
+      <small>${u.n} preguntas · ${u.nSub} bloques ${u.desbloqueada ? "" : "· 🔒"}</small></div>
+      <div>${u.completa ? "🏆" : ""}</div>`;
     path.appendChild(h);
+
     const nodes = document.createElement("div"); nodes.className = "nodes";
     u.nodos.forEach((n) => {
       const row = document.createElement("div"); row.className = "node-row";
       const btn = document.createElement("button");
       const locked = !n.desbloqueado;
-      btn.className = "node" + (n.completado ? " completed" : "") + (locked ? " locked" : "");
-      btn.innerHTML = locked ? "🔒" : n.completado ? "⭐" : "▶";
-      if (n.estrellas > 0) { const s = document.createElement("span"); s.className = "node-stars"; s.textContent = "⭐".repeat(n.estrellas); btn.appendChild(s); }
-      if (!locked) btn.addEventListener("click", () => startPractice(u.t, n.i, u.titulo));
+      if (n.kind === "exam") {
+        btn.className = "node exam" + (n.completado ? " completed" : "") + (locked ? " locked" : "");
+        btn.innerHTML = locked ? "🔒" : n.completado ? "🏆" : "📝";
+        const cap = document.createElement("span");
+        cap.className = "node-cap"; cap.textContent = "Examen";
+        btn.appendChild(cap);
+        if (!locked) btn.addEventListener("click", () => startUnitExam(niv, u.t, u.titulo));
+      } else {
+        btn.className = "node" + (n.completado ? " completed" : "") + (locked ? " locked" : "");
+        btn.innerHTML = locked ? "🔒" : n.completado ? "⭐" : "▶";
+        if (n.estrellas > 0) {
+          const s = document.createElement("span"); s.className = "node-stars";
+          s.textContent = "⭐".repeat(n.estrellas); btn.appendChild(s);
+        }
+        if (!locked) btn.addEventListener("click", () => startPractice(niv, u.t, n.i, u.titulo));
+      }
       row.appendChild(btn); nodes.appendChild(row);
     });
     path.appendChild(nodes);
@@ -177,11 +298,16 @@ function renderTree() {
 // -------- Sesión de quiz (práctica / repaso) --------
 let quiz = null;
 
-function startPractice(tema, nodeIndex, titulo) {
+function startPractice(niv, tema, nodeIndex, titulo) {
   Audio.ensure();
-  const pool = questionsByTema(tema);
-  if (!pool.length) return;
-  quiz = { mode: "practice", tema, nodeIndex, titulo, questions: sample(pool, CFG.QUIZ_SIZE), index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null };
+  const pool = poolTema(niv, tema);
+  const bloque = pool.slice(nodeIndex * CFG.QUIZ_SIZE, nodeIndex * CFG.QUIZ_SIZE + CFG.QUIZ_SIZE);
+  if (!bloque.length) return;
+  quiz = {
+    mode: "practice", niv, tema, nodeIndex, titulo,
+    questions: sample(bloque, bloque.length), // mismo bloque, orden variado
+    index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null,
+  };
   openModal("quiz-modal"); renderQuizQuestion();
 }
 function startReview() {
@@ -194,7 +320,7 @@ function startReview() {
     .slice(0, 15)
     .map((x) => BY_ID[x.qid]);
   if (!pend.length) { toast("🎉 ¡No tienes preguntas pendientes de repaso!"); return; }
-  quiz = { mode: "review", titulo: "Repaso inteligente", questions: pend, index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null };
+  quiz = { mode: "review", titulo: "Repaso inteligente", questions: pend, index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null };
   openModal("quiz-modal"); renderQuizQuestion();
 }
 
@@ -206,7 +332,8 @@ function setImagen(imgEl, question) {
 function renderQuizQuestion() {
   const q = quiz, question = q.questions[q.index];
   q.answered = false; q.selected = null; q.shuffle = shuffleOptions(question);
-  document.getElementById("quiz-tema").textContent = q.titulo + " · " + (TEMAS[question.tema_id] || "");
+  const nivTxt = q.mode === "practice" ? ` · ${NIVELES[q.niv].split(" · ")[1] || ""}` : "";
+  document.getElementById("quiz-tema").textContent = q.titulo + " · " + (TEMAS[question.tema_id] || "") + nivTxt;
   document.getElementById("quiz-enunciado").textContent = question.enunciado;
   setImagen(document.getElementById("quiz-imagen"), question);
   const cont = document.getElementById("quiz-opciones"); cont.innerHTML = "";
@@ -256,14 +383,29 @@ function showFeedback(correcto, explicacion, sinVidas) {
   document.getElementById("feedback-icon").textContent = correcto ? "✅" : "❌";
   document.getElementById("feedback-title").textContent = correcto ? "¡Correcto!" : "Respuesta incorrecta";
   document.getElementById("feedback-text").textContent = explicacion || "";
-  fb._sinVidas = sinVidas; fb.classList.remove("hidden");
+  fb._sinVidas = sinVidas;
+  const btn = document.getElementById("feedback-continue");
+  fb.classList.remove("hidden");
+
+  if (correcto && !sinVidas) {
+    // Acierto: se avanza solo, sin pulsar "Continuar".
+    btn.classList.add("hidden");
+    if (quiz) { clearTimeout(quiz.advTimer); quiz.advTimer = setTimeout(() => advanceQuiz(), CFG.AUTO_ADVANCE_MS); }
+  } else {
+    // Fallo (o sin vidas): hay que leer la explicación y continuar a mano.
+    btn.classList.remove("hidden");
+  }
 }
-function continueQuiz() {
+
+function advanceQuiz() {
+  if (!quiz) return;
+  clearTimeout(quiz.advTimer);
   const fb = document.getElementById("feedback"); fb.classList.add("hidden");
   if (fb._sinVidas) { finishQuiz(false); return; }
   quiz.index++;
   if (quiz.index >= quiz.questions.length) finishQuiz(true); else renderQuizQuestion();
 }
+
 function finishQuiz(completo) {
   closeModal("quiz-modal");
   const q = quiz;
@@ -272,12 +414,12 @@ function finishQuiz(completo) {
     const aprobado = q.aciertos >= Math.max(1, Math.floor(total * 0.6));
     const ratio = q.aciertos / total;
     const estrellas = ratio === 1 ? 3 : ratio >= 0.8 ? 2 : aprobado ? 1 : 0;
-    const key = `${q.tema}_${q.nodeIndex}`;
+    const key = `${q.niv}_${q.tema}_${q.nodeIndex}`;
     const prev = S.nodes[key] || { completado: false, estrellas: 0 };
     let xpGanado = 0;
     if (aprobado) { if (!prev.completado) { xpGanado = CFG.XP_NODO; S.xp += xpGanado; } S.nodes[key] = { completado: true, estrellas: Math.max(prev.estrellas, estrellas) }; }
-    saveState(); renderState(); renderTree();
-    showResult(aprobado ? "¡Nodo completado!" : "Nodo no superado", aprobado ? estrellas : 0, `Aciertos: ${q.aciertos}/${total} · +${xpGanado} XP`);
+    saveState(); renderState(); renderNivelSelector(); renderTree();
+    showResult(aprobado ? "¡Bloque completado!" : "Bloque no superado", aprobado ? estrellas : 0, `Aciertos: ${q.aciertos}/${total} · +${xpGanado} XP`);
   } else if (q.mode === "review") {
     loadReviewCount();
     showResult("Repaso terminado", q.fallos === 0 ? 3 : q.fallos <= 2 ? 2 : 1, `Aciertos: ${q.aciertos}/${q.index}`);
@@ -293,27 +435,57 @@ function showResult(title, estrellas, text) {
   openModal("result-modal");
 }
 
-// -------- Examen --------
+// -------- Examen (general y de unidad) --------
 let exam = null;
+
 function startExam() {
+  // Examen general del nivel de dificultad activo.
   Audio.ensure();
+  const niv = S.nivelDif;
   const porTema = {};
-  QUESTIONS.forEach((q) => { (porTema[q.tema_id] = porTema[q.tema_id] || []).push(q); });
+  QUESTIONS.filter((q) => (q.dificultad || 1) === niv).forEach((q) => { (porTema[q.tema_id] = porTema[q.tema_id] || []).push(q); });
   const temas = Object.keys(porTema);
+  if (!temas.length) { toast("No hay preguntas para el examen en este nivel."); return; }
   let sel = [];
-  if (temas.length) {
-    const base = Math.floor(CFG.EXAM_SIZE / temas.length);
-    temas.forEach((t) => { sel = sel.concat(sample(porTema[t], base)); });
-  }
+  const base = Math.floor(CFG.EXAM_SIZE / temas.length);
+  temas.forEach((t) => { sel = sel.concat(sample(porTema[t], base)); });
   if (sel.length < CFG.EXAM_SIZE) {
     const ids = new Set(sel.map((q) => q.id));
-    const resto = sample(QUESTIONS.filter((q) => !ids.has(q.id)), CFG.EXAM_SIZE - sel.length);
+    const resto = sample(QUESTIONS.filter((q) => (q.dificultad || 1) === niv && !ids.has(q.id)), CFG.EXAM_SIZE - sel.length);
     sel = sel.concat(resto);
   }
-  sel = sample(sel, CFG.EXAM_SIZE);
-  exam = { questions: sel, shuffles: sel.map(shuffleOptions), selected: new Array(sel.length).fill(null), index: 0, secs: CFG.EXAM_MIN * 60, timer: null };
+  sel = sample(sel, Math.min(CFG.EXAM_SIZE, sel.length));
+  lanzarExamen(sel, {
+    kind: "general", niv, tema: null,
+    titulo: `Examen general · ${NIVELES[niv].split(" · ")[1] || ""}`,
+    durMin: CFG.EXAM_MIN, maxFallos: CFG.EXAM_MAX_FAILS,
+  });
+}
+
+function startUnitExam(niv, tema, titulo) {
+  Audio.ensure();
+  const pool = poolTema(niv, tema);
+  const size = Math.min(CFG.UNIT_EXAM_SIZE, pool.length);
+  const sel = sample(pool, size);
+  const maxFallos = size >= 30 ? 3 : Math.max(1, Math.round(size * 0.1));
+  lanzarExamen(sel, {
+    kind: "unit", niv, tema,
+    titulo: `Examen · Unidad ${tema} (${titulo})`,
+    durMin: Math.max(10, size), maxFallos,
+  });
+}
+
+function lanzarExamen(questions, opts) {
+  if (!questions.length) { toast("No hay preguntas suficientes para el examen."); return; }
+  exam = {
+    questions, shuffles: questions.map(shuffleOptions),
+    selected: new Array(questions.length).fill(null),
+    index: 0, secs: opts.durMin * 60, timer: null,
+    kind: opts.kind, niv: opts.niv, tema: opts.tema, titulo: opts.titulo, maxFallos: opts.maxFallos,
+  };
   openModal("exam-modal"); renderExamQuestion(); startExamTimer();
 }
+
 function startExamTimer() {
   const el = document.getElementById("exam-timer");
   const tick = () => {
@@ -326,7 +498,7 @@ function startExamTimer() {
 }
 function renderExamQuestion() {
   const question = exam.questions[exam.index], shuffle = exam.shuffles[exam.index];
-  document.getElementById("exam-counter").textContent = `Pregunta ${exam.index + 1} / ${exam.questions.length}`;
+  document.getElementById("exam-counter").textContent = `${exam.titulo} · ${exam.index + 1}/${exam.questions.length}`;
   document.getElementById("exam-enunciado").textContent = question.enunciado;
   setImagen(document.getElementById("exam-imagen"), question);
   const cont = document.getElementById("exam-opciones"); cont.innerHTML = "";
@@ -364,18 +536,37 @@ function submitExam() {
     if (correcto) r.aciertos++; else r.fallos++;
     detalle.push({ q, sel, correcto });
   });
-  const apto = fallos <= CFG.EXAM_MAX_FAILS;
-  let xpGanado = 0; if (apto) { xpGanado = CFG.XP_EXAMEN; S.xp += xpGanado; }
+  const apto = fallos <= exam.maxFallos;
+
+  // Registro del resultado y recompensa.
+  let xpGanado = 0;
+  if (exam.kind === "unit") {
+    const key = `${exam.niv}_${exam.tema}`;
+    const prev = S.unitExam[key] || { apto: false, mejor: 0 };
+    if (apto && !prev.apto) { xpGanado = CFG.XP_EXAMEN_UNIDAD; S.xp += xpGanado; }
+    S.unitExam[key] = { apto: prev.apto || apto, mejor: Math.max(prev.mejor || 0, aciertos) };
+  } else {
+    const key = `${exam.niv}`;
+    const prev = S.generalExam[key] || { apto: false, mejor: 0 };
+    if (apto && !prev.apto) { xpGanado = CFG.XP_EXAMEN; S.xp += xpGanado; }
+    S.generalExam[key] = { apto: prev.apto || apto, mejor: Math.max(prev.mejor || 0, aciertos) };
+  }
   saveState(); renderState();
   closeModal("exam-modal");
-  renderExamResult({ apto, aciertos, fallos, enBlanco, xpGanado, resumen: Object.values(resumen).sort((a, b) => a.tema.localeCompare(b.tema)), detalle });
+  renderExamResult({ apto, aciertos, fallos, enBlanco, xpGanado, maxFallos: exam.maxFallos,
+    resumen: Object.values(resumen).sort((a, b) => a.tema.localeCompare(b.tema)), detalle, kind: exam.kind, niv: exam.niv });
   if (apto) Audio.levelup(); else Audio.wrong();
+  renderNivelSelector(); renderTree();
 }
 function renderExamResult(r) {
   const v = document.getElementById("exam-verdict");
   v.textContent = r.apto ? "✅ APTO" : "❌ NO APTO"; v.className = r.apto ? "apto" : "no-apto";
+  let extra = "";
+  if (r.apto && r.kind === "general" && nivelCompleto(r.niv) && r.niv < 3 && nivelTieneContenido(r.niv + 1)) {
+    extra = ` · 🎉 ¡Nivel ${r.niv + 1} desbloqueado!`;
+  }
   document.getElementById("exam-score").textContent =
-    `Aciertos: ${r.aciertos} · Fallos: ${r.fallos} · En blanco: ${r.enBlanco} (máx. ${CFG.EXAM_MAX_FAILS} para APTO) · +${r.xpGanado} XP`;
+    `Aciertos: ${r.aciertos} · Fallos: ${r.fallos} · En blanco: ${r.enBlanco} (máx. ${r.maxFallos} para APTO) · +${r.xpGanado} XP${extra}`;
   const bd = document.getElementById("exam-tema-breakdown"); bd.innerHTML = "";
   r.resumen.forEach((t) => {
     const total = t.aciertos + t.fallos, pct = total ? Math.round((t.aciertos / total) * 100) : 0;
@@ -464,26 +655,26 @@ function switchView(name) {
 function toast(text) {
   let el = document.getElementById("toast");
   if (!el) { el = document.createElement("div"); el.id = "toast";
-    el.style.cssText = "position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:12px 20px;border-radius:12px;z-index:99;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,.3)";
+    el.style.cssText = "position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:12px 20px;border-radius:12px;z-index:99;font-weight:700;box-shadow:0 4px 12px rgba(0,0,0,.3);max-width:90%;text-align:center";
     document.body.appendChild(el); }
-  el.textContent = text; el.style.opacity = "1"; clearTimeout(el._t); el._t = setTimeout(() => (el.style.opacity = "0"), 2600);
+  el.textContent = text; el.style.opacity = "1"; clearTimeout(el._t); el._t = setTimeout(() => (el.style.opacity = "0"), 3200);
 }
 
 // -------- Init --------
 function init() {
-  loadState(); regenVidas(); saveState(); renderState(); renderTree();
+  loadState(); regenVidas(); saveState(); renderState(); renderNivelSelector(); renderTree();
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => switchView(t.dataset.view)));
   document.getElementById("quiz-check").addEventListener("click", checkAnswer);
-  document.getElementById("quiz-close").addEventListener("click", () => closeModal("quiz-modal"));
-  document.getElementById("feedback-continue").addEventListener("click", continueQuiz);
+  document.getElementById("quiz-close").addEventListener("click", () => { if (quiz) clearTimeout(quiz.advTimer); closeModal("quiz-modal"); });
+  document.getElementById("feedback-continue").addEventListener("click", advanceQuiz);
   document.getElementById("result-close").addEventListener("click", () => closeModal("result-modal"));
   document.getElementById("btn-start-review").addEventListener("click", startReview);
   document.getElementById("btn-start-exam").addEventListener("click", startExam);
   document.getElementById("btn-practice-mistakes").addEventListener("click", startReview);
   document.getElementById("btn-reset").addEventListener("click", () => {
     if (confirm("¿Reiniciar todo tu progreso? Esto no borra las preguntas.")) {
-      S = { xp: 0, vidas: CFG.MAX_VIDAS, vidasTs: Date.now(), racha: 0, ultima: null, srs: {}, nodes: {} };
-      saveState(); renderState(); renderTree(); loadStats(); toast("Progreso reiniciado");
+      S = nuevoEstado();
+      saveState(); renderState(); renderNivelSelector(); renderTree(); loadStats(); toast("Progreso reiniciado");
     }
   });
   document.getElementById("exam-prev").addEventListener("click", () => { if (exam.index > 0) { exam.index--; renderExamQuestion(); } });
