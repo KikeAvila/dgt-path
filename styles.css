@@ -246,4 +246,49 @@ main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
   font-size: 11px; font-weight: 800; color: var(--gray-dark); white-space: nowrap;
 }
 
+/* ---------------- Etiqueta de reforma de reglamento ---------------- */
+.reforma-badge { margin-bottom: 12px; }
+.rb-tag {
+  display: inline-block; font-weight: 800; font-size: 12px; letter-spacing: .3px;
+  padding: 5px 12px; border-radius: 20px; color: #fff;
+}
+.rb-nuevo { background: #e67e00; }        /* naranja: novedad */
+.rb-modificado { background: #1cb0f6; }    /* azul: modificado */
+.rb-actualizado { background: #9b59b6; }   /* morado: actualizado */
+.rb-nota {
+  margin-top: 6px; font-size: 13px; line-height: 1.4;
+  background: #fff8e6; border: 1px solid #ffe08a; border-radius: 10px;
+  padding: 8px 12px; color: #6b5600;
+}
+
+/* ---------------- Teoría (fichas de lectura) ---------------- */
+.teoria-ficha {
+  background: #fff; border: 2px solid var(--gray); border-radius: 18px;
+  padding: 20px 22px; margin-top: 14px;
+}
+.teoria-ficha h3 { color: var(--green-dark); margin-bottom: 6px; font-size: 18px; }
+.teoria-sec { margin-top: 14px; }
+.teoria-sec h4 {
+  font-size: 15px; color: var(--blue-dark); margin-bottom: 6px;
+  border-left: 4px solid var(--blue); padding-left: 8px;
+}
+.teoria-sec ul { list-style: none; padding: 0; margin: 0; }
+.teoria-sec li {
+  position: relative; padding: 6px 0 6px 22px; font-size: 15px; line-height: 1.45;
+  border-bottom: 1px solid #f0f0f0;
+}
+.teoria-sec li:last-child { border-bottom: none; }
+.teoria-sec li::before { content: "✔"; position: absolute; left: 0; color: var(--green); font-weight: 800; }
+
+/* ---------------- Tarjeta de lectura del repaso ---------------- */
+.study-note {
+  background: #eaf6ff; border: 2px solid var(--blue); border-radius: 14px;
+  padding: 12px 16px; margin-bottom: 14px; font-size: 15px; line-height: 1.45;
+}
+.study-note .study-tag {
+  display: inline-block; background: var(--blue); color: #fff; font-weight: 800;
+  font-size: 12px; padding: 3px 10px; border-radius: 20px; margin-bottom: 8px;
+}
+.study-note .study-ok { color: var(--green-dark); font-weight: 700; }
+
 .hidden { display: none !important; }

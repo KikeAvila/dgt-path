@@ -26,6 +26,7 @@
 
   <nav class="tabs">
     <button class="tab active" data-view="path">🗺️ Camino</button>
+    <button class="tab" data-view="teoria">📖 Teoría</button>
     <button class="tab" data-view="review">🧠 Repaso</button>
     <button class="tab" data-view="exam">📝 Examen</button>
     <button class="tab" data-view="stats">📊 Progreso</button>
@@ -37,10 +38,19 @@
       <div id="path" class="path"></div>
     </section>
 
+    <section id="view-teoria" class="view">
+      <div class="card">
+        <h2>📖 Teoría — lectura rápida</h2>
+        <p class="muted">Repasos cortos por tema. Elige un tema y lee las ideas clave.</p>
+        <div id="teoria-selector" class="nivel-selector"></div>
+      </div>
+      <div id="teoria-content"></div>
+    </section>
+
     <section id="view-review" class="view">
       <div class="card center">
         <h2>🧠 Repaso Inteligente</h2>
-        <p>Repite las preguntas que fallas hasta dominarlas (repetición espaciada).</p>
+        <p>Primero <b>lees</b> la respuesta correcta y su explicación, y luego te <b>pones a prueba</b> con esa misma pregunta. Ideal para tus fallos.</p>
         <p class="muted">Pendientes: <b id="review-count">—</b></p>
         <button class="btn btn-primary" id="btn-start-review">Empezar repaso</button>
       </div>
@@ -78,11 +88,16 @@
       </div>
       <div class="quiz-body">
         <div class="tema-chip" id="quiz-tema"></div>
+        <div id="quiz-reforma" class="reforma-badge hidden"></div>
         <h2 class="enunciado" id="quiz-enunciado"></h2>
         <img id="quiz-imagen" class="quiz-imagen hidden" alt="Señal" />
+        <div id="quiz-study-note" class="study-note hidden"></div>
         <div class="opciones" id="quiz-opciones"></div>
       </div>
-      <div class="quiz-foot"><button class="btn btn-primary" id="quiz-check" disabled>Comprobar</button></div>
+      <div class="quiz-foot">
+        <button class="btn btn-primary hidden" id="quiz-study-btn">Ponerme a prueba ▸</button>
+        <button class="btn btn-primary" id="quiz-check" disabled>Comprobar</button>
+      </div>
     </div>
   </div>
 
@@ -112,6 +127,7 @@
       </div>
       <div class="quiz-body">
         <div class="tema-chip" id="exam-counter"></div>
+        <div id="exam-reforma" class="reforma-badge hidden"></div>
         <h2 class="enunciado" id="exam-enunciado"></h2>
         <img id="exam-imagen" class="quiz-imagen hidden" alt="Señal" />
         <div class="opciones" id="exam-opciones"></div>
@@ -136,6 +152,7 @@
   </div>
 
   <script src="data.js"></script>
+  <script src="teoria.js"></script>
   <script src="app.js"></script>
   <script>
     if ("serviceWorker" in navigator) {

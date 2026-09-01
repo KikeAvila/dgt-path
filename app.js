@@ -34,6 +34,10 @@ QUESTIONS.forEach((q) => { if (!q.dificultad) q.dificultad = 1; });
 const BY_ID = {};
 QUESTIONS.forEach((q) => (BY_ID[q.id] = q));
 
+// Teoría (fichas de lectura) desde teoria.js.
+const TEORIA = window.DGT_TEORIA || {};
+let teoriaSel = 1;
+
 // -------- Estado persistente --------
 const KEY = "dgtpath_state_v2";
 const KEY_OLD = "dgtpath_state_v1";
@@ -138,6 +142,25 @@ function shuffleOptions(question) {
   const arr = question.opciones.map((text, canonical) => ({ text, canonical }));
   for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; }
   return arr;
+}
+
+// -------- Etiqueta de reforma de reglamento --------
+const REFORMA_LABELS = {
+  nuevo: { t: "NUEVO", i: "🆕" },
+  modificado: { t: "MODIFICADO", i: "✏️" },
+  actualizado: { t: "ACTUALIZADO", i: "🔄" },
+};
+function reformaHTML(q) {
+  if (!q || !q.reforma_tipo) return "";
+  const m = REFORMA_LABELS[q.reforma_tipo] || { t: "CAMBIO", i: "⚖️" };
+  return `<span class="rb-tag rb-${q.reforma_tipo}">${m.i} ${m.t} · Reglamento 2026</span>` +
+    (q.reforma_nota ? `<div class="rb-nota">${q.reforma_nota}</div>` : "");
+}
+function setReforma(elId, q) {
+  const el = document.getElementById(elId);
+  const html = reformaHTML(q);
+  if (html) { el.innerHTML = html; el.classList.remove("hidden"); }
+  else { el.innerHTML = ""; el.classList.add("hidden"); }
 }
 
 // -------- Desbloqueo de niveles de dificultad --------
@@ -320,7 +343,7 @@ function startReview() {
     .slice(0, 15)
     .map((x) => BY_ID[x.qid]);
   if (!pend.length) { toast("🎉 ¡No tienes preguntas pendientes de repaso!"); return; }
-  quiz = { mode: "review", titulo: "Repaso inteligente", questions: pend, index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null };
+  quiz = { mode: "review", titulo: "Repaso inteligente", questions: pend, index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null, studyPhase: true };
   openModal("quiz-modal"); renderQuizQuestion();
 }
 
@@ -332,26 +355,67 @@ function setImagen(imgEl, question) {
 function renderQuizQuestion() {
   const q = quiz, question = q.questions[q.index];
   q.answered = false; q.selected = null; q.shuffle = shuffleOptions(question);
+  // En el repaso, cada pregunta se muestra primero como LECTURA y luego como test.
+  const studyMode = q.mode === "review" && q.studyPhase;
+
   const nivTxt = q.mode === "practice" ? ` · ${NIVELES[q.niv].split(" · ")[1] || ""}` : "";
   document.getElementById("quiz-tema").textContent = q.titulo + " · " + (TEMAS[question.tema_id] || "") + nivTxt;
+  setReforma("quiz-reforma", question);
   document.getElementById("quiz-enunciado").textContent = question.enunciado;
   setImagen(document.getElementById("quiz-imagen"), question);
+
   const cont = document.getElementById("quiz-opciones"); cont.innerHTML = "";
   const letras = ["A", "B", "C"];
   q.shuffle.forEach((opt, i) => {
     const b = document.createElement("button"); b.className = "opcion";
     b.innerHTML = `<span class="letra">${letras[i]}</span>${opt.text}`;
-    b.addEventListener("click", () => {
-      if (q.answered) return;
-      cont.querySelectorAll(".opcion").forEach((o) => o.classList.remove("selected"));
-      b.classList.add("selected"); q.selected = { canonical: opt.canonical, el: b };
-      document.getElementById("quiz-check").disabled = false;
-    });
+    if (studyMode) {
+      // Modo lectura: marca la correcta y no deja seleccionar.
+      b.classList.add("disabled");
+      if (opt.canonical === question.correcta_idx) b.classList.add("correct");
+    } else {
+      b.addEventListener("click", () => {
+        if (q.answered) return;
+        cont.querySelectorAll(".opcion").forEach((o) => o.classList.remove("selected"));
+        b.classList.add("selected"); q.selected = { canonical: opt.canonical, el: b };
+        document.getElementById("quiz-check").disabled = false;
+      });
+    }
     cont.appendChild(b);
   });
-  document.getElementById("quiz-check").disabled = true;
+
+  // Nota de lectura (solo en la fase de estudio del repaso).
+  const note = document.getElementById("quiz-study-note");
+  if (studyMode) {
+    note.innerHTML =
+      `<span class="study-tag">📖 Lee primero</span>` +
+      `<div>Respuesta correcta: <span class="study-ok">${question.opciones[question.correcta_idx]}</span></div>` +
+      (question.explicacion ? `<div style="margin-top:6px">${question.explicacion}</div>` : "");
+    note.classList.remove("hidden");
+  } else {
+    note.classList.add("hidden");
+  }
+
+  // Botones del pie: "Ponerme a prueba" en lectura; "Comprobar" en test.
+  const studyBtn = document.getElementById("quiz-study-btn");
+  const checkBtn = document.getElementById("quiz-check");
+  if (studyMode) {
+    studyBtn.classList.remove("hidden");
+    checkBtn.classList.add("hidden");
+  } else {
+    studyBtn.classList.add("hidden");
+    checkBtn.classList.remove("hidden");
+    checkBtn.disabled = true;
+  }
+
   document.getElementById("quiz-progress").style.width = (q.index / q.questions.length) * 100 + "%";
   document.getElementById("quiz-hearts").textContent = "❤️".repeat(S.vidas) + "🤍".repeat(Math.max(0, CFG.MAX_VIDAS - S.vidas));
+}
+
+function startTestPhase() {
+  if (!quiz) return;
+  quiz.studyPhase = false;
+  renderQuizQuestion();
 }
 
 function checkAnswer() {
@@ -403,7 +467,8 @@ function advanceQuiz() {
   const fb = document.getElementById("feedback"); fb.classList.add("hidden");
   if (fb._sinVidas) { finishQuiz(false); return; }
   quiz.index++;
-  if (quiz.index >= quiz.questions.length) finishQuiz(true); else renderQuizQuestion();
+  if (quiz.index >= quiz.questions.length) finishQuiz(true);
+  else { if (quiz.mode === "review") quiz.studyPhase = true; renderQuizQuestion(); }
 }
 
 function finishQuiz(completo) {
@@ -499,6 +564,7 @@ function startExamTimer() {
 function renderExamQuestion() {
   const question = exam.questions[exam.index], shuffle = exam.shuffles[exam.index];
   document.getElementById("exam-counter").textContent = `${exam.titulo} · ${exam.index + 1}/${exam.questions.length}`;
+  setReforma("exam-reforma", question);
   document.getElementById("exam-enunciado").textContent = question.enunciado;
   setImagen(document.getElementById("exam-imagen"), question);
   const cont = document.getElementById("exam-opciones"); cont.innerHTML = "";
@@ -579,7 +645,9 @@ function renderExamResult(r) {
   r.detalle.filter((d) => !d.correcto).forEach((d) => {
     const item = document.createElement("div"); item.className = "rev-item err";
     const tu = d.sel === null ? "— (sin responder)" : `${letras[d.sel]}) ${d.q.opciones[d.sel]}`;
+    const rf = reformaHTML(d.q);
     item.innerHTML = `<div class="rev-q">[${TEMAS[d.q.tema_id]}] ${d.q.enunciado}</div>
+      ${rf ? `<div class="reforma-badge" style="margin:6px 0">${rf}</div>` : ""}
       <div class="rev-a">Tu respuesta: <b>${tu}</b></div>
       <div class="rev-a">Correcta: <b>${letras[d.q.correcta_idx]}) ${d.q.opciones[d.q.correcta_idx]}</b></div>
       <div class="rev-exp">${d.q.explicacion || ""}</div>`;
@@ -642,6 +710,32 @@ function loadReviewCount() {
   document.getElementById("review-count").textContent = n;
 }
 
+// -------- Teoría (lectura) --------
+function renderTeoriaSelector() {
+  const cont = document.getElementById("teoria-selector"); cont.innerHTML = "";
+  const temas = Object.keys(TEORIA).map(Number).sort((a, b) => a - b);
+  temas.forEach((t) => {
+    const btn = document.createElement("button");
+    btn.className = "nivel-btn" + (teoriaSel === t ? " active" : "");
+    btn.textContent = `${t}. ${TEORIA[t].titulo}`;
+    btn.addEventListener("click", () => { teoriaSel = t; renderTeoriaSelector(); renderTeoriaContent(); });
+    cont.appendChild(btn);
+  });
+}
+function renderTeoriaContent() {
+  const cont = document.getElementById("teoria-content"); cont.innerHTML = "";
+  const tema = TEORIA[teoriaSel];
+  if (!tema) { cont.innerHTML = `<div class="card"><p class="muted">Todavía no hay teoría para este tema.</p></div>`; return; }
+  const ficha = document.createElement("div"); ficha.className = "teoria-ficha";
+  let html = `<h3>Tema ${teoriaSel} · ${tema.titulo}</h3>`;
+  (tema.secciones || []).forEach((s) => {
+    html += `<div class="teoria-sec"><h4>${s.h}</h4><ul>` +
+      (s.puntos || []).map((p) => `<li>${p}</li>`).join("") + `</ul></div>`;
+  });
+  ficha.innerHTML = html; cont.appendChild(ficha);
+}
+function loadTeoria() { renderTeoriaSelector(); renderTeoriaContent(); }
+
 // -------- Modales / vistas / toast --------
 function openModal(id) { document.getElementById(id).classList.remove("hidden"); }
 function closeModal(id) { document.getElementById(id).classList.add("hidden"); }
@@ -651,6 +745,7 @@ function switchView(name) {
   document.getElementById("view-" + name).classList.add("active");
   if (name === "review") loadReviewCount();
   if (name === "stats") loadStats();
+  if (name === "teoria") loadTeoria();
 }
 function toast(text) {
   let el = document.getElementById("toast");
@@ -667,6 +762,7 @@ function init() {
   document.getElementById("quiz-check").addEventListener("click", checkAnswer);
   document.getElementById("quiz-close").addEventListener("click", () => { if (quiz) clearTimeout(quiz.advTimer); closeModal("quiz-modal"); });
   document.getElementById("feedback-continue").addEventListener("click", advanceQuiz);
+  document.getElementById("quiz-study-btn").addEventListener("click", startTestPhase);
   document.getElementById("result-close").addEventListener("click", () => closeModal("result-modal"));
   document.getElementById("btn-start-review").addEventListener("click", startReview);
   document.getElementById("btn-start-exam").addEventListener("click", startExam);

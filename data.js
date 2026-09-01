@@ -8023,6 +8023,230 @@ window.DGT_QUESTIONS = [
 },
 {
 "id": 574,
+"enunciado": "¿Qué dispositivo es obligatorio desde 2026 para señalizar una avería o un accidente en la carretera?",
+"opciones": [
+"La baliza luminosa V-16 conectada.",
+"Los dos triángulos de preseñalización.",
+"Las luces de emergencia del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "Desde el 1 de enero de 2026 la baliza V-16 conectada es el único dispositivo obligatorio de preseñalización de peligro.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "actualizado",
+"reforma_nota": "Antes: dos triángulos. Ahora: baliza V-16 conectada (desde el 1 de enero de 2026)."
+},
+{
+"id": 575,
+"enunciado": "Una ventaja principal de la baliza V-16 frente a los triángulos es que:",
+"opciones": [
+"Se coloca en el techo del vehículo sin necesidad de bajarse a la calzada.",
+"No hay que activarla nunca.",
+"Solo sirve de día."
+],
+"correcta_idx": 0,
+"explicacion": "La V-16 evita que el conductor tenga que caminar por la calzada para colocar los triángulos, reduciendo el riesgo de atropello.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "actualizado",
+"reforma_nota": "Antes: había que salir a colocar los triángulos. Ahora: la V-16 se coloca desde el propio vehículo."
+},
+{
+"id": 576,
+"enunciado": "La baliza V-16 obligatoria desde 2026 debe estar:",
+"opciones": [
+"Conectada a la plataforma DGT 3.0 para transmitir su ubicación.",
+"Homologada solo para autopistas.",
+"Sujeta al parachoques delantero."
+],
+"correcta_idx": 0,
+"explicacion": "La V-16 obligatoria es la 'conectada': envía la posición del vehículo averiado a la DGT 3.0 y avisa al resto de conductores.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2,
+"reforma_tipo": "nuevo",
+"reforma_nota": "Novedad 2026: la baliza debe estar conectada a la DGT 3.0 (las no conectadas ya no valen)."
+},
+{
+"id": 577,
+"enunciado": "Al adelantar a un ciclista en una vía interurbana, además de dejar 1,5 m de separación debes:",
+"opciones": [
+"Reducir la velocidad al menos 20 km/h respecto al límite de la vía.",
+"Mantener exactamente la misma velocidad.",
+"Tocar el claxon para avisar."
+],
+"correcta_idx": 0,
+"explicacion": "Desde el 1 de octubre de 2026, al adelantar ciclistas hay que reducir la velocidad como mínimo 20 km/h, además de respetar 1,5 m.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2,
+"reforma_tipo": "actualizado",
+"reforma_nota": "Se mantiene el 1,5 m; NUEVO: reducir al menos 20 km/h (desde el 1 de octubre de 2026)."
+},
+{
+"id": 578,
+"enunciado": "Según la reforma que entra en vigor el 1 de octubre de 2026, los ciclistas deben usar casco:",
+"opciones": [
+"Obligatoriamente en las vías interurbanas.",
+"Solo si son menores de 12 años, en cualquier vía.",
+"Nunca es obligatorio."
+],
+"correcta_idx": 0,
+"explicacion": "La reforma establece el uso obligatorio del casco para ciclistas en vías interurbanas.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde el 1 de octubre de 2026: casco obligatorio para ciclistas en vías interurbanas."
+},
+{
+"id": 579,
+"enunciado": "Con la reforma de 2026, la edad mínima para circular con un patinete eléctrico (VMP) es de:",
+"opciones": [
+"15 años.",
+"12 años.",
+"18 años."
+],
+"correcta_idx": 0,
+"explicacion": "La nueva normativa fija en 15 años la edad mínima para conducir un VMP.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde el 1 de octubre de 2026: edad mínima de 15 años para los VMP."
+},
+{
+"id": 580,
+"enunciado": "Con la reforma de 2026, quien circula con un patinete eléctrico (VMP) debe llevar:",
+"opciones": [
+"Chaleco o elemento reflectante.",
+"Permiso de conducir de la clase B.",
+"Un remolque homologado."
+],
+"correcta_idx": 0,
+"explicacion": "La reforma obliga a los usuarios de VMP a usar prendas o elementos reflectantes para ser más visibles.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde el 1 de octubre de 2026: chaleco/elemento reflectante obligatorio en VMP."
+},
+{
+"id": 581,
+"enunciado": "Respecto al seguro, la reforma de 2026 establece para determinados patinetes (VMP):",
+"opciones": [
+"La obligación de tener un seguro de responsabilidad civil.",
+"Que nunca necesitan seguro.",
+"El mismo seguro que un camión."
+],
+"correcta_idx": 0,
+"explicacion": "La nueva normativa exige seguro de responsabilidad civil para determinados VMP, especialmente los de mayor peso.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde 2026: seguro de responsabilidad civil obligatorio para ciertos VMP."
+},
+{
+"id": 582,
+"enunciado": "Desde 2026, para poder circular por un carril Bus-VAO un turismo debe llevar:",
+"opciones": [
+"Al menos 2 ocupantes.",
+"La etiqueta ambiental 0 o ECO, aunque vaya solo el conductor.",
+"Cadenas para la nieve."
+],
+"correcta_idx": 0,
+"explicacion": "Desde enero de 2026 el Bus-VAO se reserva a vehículos con 2 o más ocupantes, motos y transporte público; un turismo con un solo ocupante no puede usarlo aunque tenga etiqueta 0 o ECO.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2,
+"reforma_tipo": "actualizado",
+"reforma_nota": "Antes: algunos turismos con etiqueta podían ir solos. Ahora: se exige un mínimo de 2 ocupantes."
+},
+{
+"id": 583,
+"enunciado": "Con la reforma de 2026, respecto al cinturón de seguridad, los taxistas y repartidores:",
+"opciones": [
+"Dejan de estar exentos y deben usarlo siempre.",
+"Siguen exentos en ciudad.",
+"Solo lo usan en autopista."
+],
+"correcta_idx": 0,
+"explicacion": "La reforma elimina la antigua exención del cinturón para taxistas, repartidores y profesores de autoescuela.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "modificado",
+"reforma_nota": "Antes: taxistas/repartidores/autoescuela estaban exentos en ciudad. Ahora: cinturón obligatorio siempre."
+},
+{
+"id": 584,
+"enunciado": "Con la reforma de 2026 queda prohibido adelantar cuando:",
+"opciones": [
+"Haya nieve o hielo en la calzada.",
+"Circulemos por una autovía.",
+"Sea de día."
+],
+"correcta_idx": 0,
+"explicacion": "La nueva normativa prohíbe expresamente adelantar cuando hay nieve o hielo en la vía, por el riesgo que supone.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde el 1 de octubre de 2026: prohibido adelantar con nieve o hielo en la calzada."
+},
+{
+"id": 585,
+"enunciado": "En una retención o atasco, la reforma de 2026 obliga a los conductores a:",
+"opciones": [
+"Dejar un pasillo de emergencia central apartándose cada uno hacia su lado.",
+"Detenerse en el arcén siempre.",
+"Cambiar de carril continuamente."
+],
+"correcta_idx": 0,
+"explicacion": "Se establece la obligación de formar un pasillo de emergencia en el centro para que puedan pasar los vehículos de emergencia.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde el 1 de octubre de 2026: obligación de dejar un pasillo de emergencia en los atascos."
+},
+{
+"id": 586,
+"enunciado": "Con la reforma de 2026, respecto al equipamiento del motorista:",
+"opciones": [
+"Será obligatorio el uso de calzado cerrado y guantes.",
+"Bastará con cualquier calzado.",
+"Solo se exige chaleco reflectante."
+],
+"correcta_idx": 0,
+"explicacion": "La reforma incorpora la obligación de que los motoristas usen calzado cerrado y guantes de protección.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde el 1 de octubre de 2026: calzado cerrado y guantes obligatorios para motoristas."
+},
+{
+"id": 587,
+"enunciado": "Con la reforma de 2026, las motocicletas podrán, en determinadas condiciones:",
+"opciones": [
+"Utilizar el arcén de forma puntual y con restricciones.",
+"Circular siempre por el carril izquierdo sin límite.",
+"Adelantar por la derecha sin restricciones."
+],
+"correcta_idx": 0,
+"explicacion": "La modificación del Reglamento permite a las motos el uso puntual del arcén en ciertos casos, con restricciones de seguridad.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde el 1 de octubre de 2026: uso puntual del arcén por motos, con restricciones."
+},
+{
+"id": 588,
 "enunciado": "¿Qué se entiende por 'parada'?",
 "opciones": [
 "La inmovilización del vehículo por más de dos minutos.",
@@ -8036,7 +8260,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 575,
+"id": 589,
 "enunciado": "¿Qué es el 'estacionamiento'?",
 "opciones": [
 "Cualquier inmovilización que no sea parada ni impuesta por el tráfico.",
@@ -8050,7 +8274,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 576,
+"id": 590,
 "enunciado": "La 'masa máxima autorizada' (MMA) es:",
 "opciones": [
 "El peso del vehículo vacío.",
@@ -8064,7 +8288,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 577,
+"id": 591,
 "enunciado": "Una 'isleta' es:",
 "opciones": [
 "Un tipo de rotonda pequeña.",
@@ -8078,7 +8302,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 578,
+"id": 592,
 "enunciado": "La 'mediana' de una vía es:",
 "opciones": [
 "La línea central discontinua.",
@@ -8092,7 +8316,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 579,
+"id": 593,
 "enunciado": "A efectos de tráfico, un 'peatón' incluye:",
 "opciones": [
 "Solo a quien camina sin nada en las manos.",
@@ -8106,7 +8330,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 580,
+"id": 594,
 "enunciado": "Un 'ciclomotor' se caracteriza por:",
 "opciones": [
 "Cilindrada hasta 50 cm³ y velocidad máxima por construcción de 45 km/h.",
@@ -8120,7 +8344,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 581,
+"id": 595,
 "enunciado": "¿Qué es una 'glorieta' (rotonda)?",
 "opciones": [
 "Un cruce con semáforos.",
@@ -8134,7 +8358,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 582,
+"id": 596,
 "enunciado": "La 'plataforma' de una vía comprende:",
 "opciones": [
 "Solo la calzada.",
@@ -8148,7 +8372,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 583,
+"id": 597,
 "enunciado": "Un 'vehículo prioritario' es aquel que:",
 "opciones": [
 "Circula siempre por el carril izquierdo.",
@@ -8162,7 +8386,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 584,
+"id": 598,
 "enunciado": "Un turismo particular con una antigüedad entre 4 y 10 años debe pasar la ITV:",
 "opciones": [
 "Cada año.",
@@ -8176,7 +8400,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 585,
+"id": 599,
 "enunciado": "¿A qué edad mínima se puede obtener el permiso B?",
 "opciones": [
 "A los 16 años.",
@@ -8190,7 +8414,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 586,
+"id": 600,
 "enunciado": "El permiso B autoriza a conducir turismos con una MMA no superior a:",
 "opciones": [
 "2.000 kg.",
@@ -8204,7 +8428,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 587,
+"id": 601,
 "enunciado": "Con el permiso B, ¿qué remolque se puede arrastrar sin permiso adicional?",
 "opciones": [
 "Cualquier remolque.",
@@ -8218,7 +8442,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 588,
+"id": 602,
 "enunciado": "¿Con cuántos puntos parte un conductor con el permiso recién obtenido (novel)?",
 "opciones": [
 "Con 12 puntos.",
@@ -8232,7 +8456,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 589,
+"id": 603,
 "enunciado": "¿Cada cuánto se renueva el permiso B para un conductor menor de 65 años?",
 "opciones": [
 "Cada 10 años.",
@@ -8246,7 +8470,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 590,
+"id": 604,
 "enunciado": "¿Qué documentación relativa al vehículo conviene poder acreditar al circular?",
 "opciones": [
 "Solo el permiso de conducir.",
@@ -8260,7 +8484,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 591,
+"id": 605,
 "enunciado": "Si vendes tu vehículo, ¿qué trámite corresponde principalmente?",
 "opciones": [
 "Nada, basta con entregar las llaves.",
@@ -8274,7 +8498,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 592,
+"id": 606,
 "enunciado": "El seguro obligatorio del automóvil cubre, como mínimo:",
 "opciones": [
 "Los daños del propio vehículo del asegurado.",
@@ -8288,7 +8512,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 593,
+"id": 607,
 "enunciado": "¿Se puede acelerar la eliminación del alcohol tomando café o una ducha fría?",
 "opciones": [
 "Sí, el café lo elimina rápidamente.",
@@ -8302,7 +8526,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 594,
+"id": 608,
 "enunciado": "Respecto al consumo de drogas y la conducción, la normativa establece:",
 "opciones": [
 "Una tasa tolerada similar a la del alcohol.",
@@ -8316,7 +8540,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 595,
+"id": 609,
 "enunciado": "Negarse a realizar las pruebas de alcohol o drogas requeridas por un agente:",
 "opciones": [
 "No tiene consecuencias si el conductor está sobrio.",
@@ -8330,7 +8554,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 596,
+"id": 610,
 "enunciado": "Uno de los primeros efectos del alcohol sobre la conducción es:",
 "opciones": [
 "Mejora de los reflejos.",
@@ -8344,7 +8568,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 597,
+"id": 611,
 "enunciado": "Los medicamentos que pueden afectar a la conducción suelen advertirlo con:",
 "opciones": [
 "Un círculo verde en la caja.",
@@ -8358,7 +8582,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 598,
+"id": 612,
 "enunciado": "La tasa máxima de alcohol en aire espirado para un conductor no novel es:",
 "opciones": [
 "0,25 mg/l.",
@@ -8372,7 +8596,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 599,
+"id": 613,
 "enunciado": "La conducción con una tasa de alcohol muy elevada (superior a 0,60 mg/l en aire):",
 "opciones": [
 "Es solo una infracción administrativa grave.",
@@ -8386,7 +8610,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 600,
+"id": 614,
 "enunciado": "La fatiga y la somnolencia al volante:",
 "opciones": [
 "No afectan si se lleva las ventanillas abiertas.",
@@ -8400,7 +8624,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 601,
+"id": 615,
 "enunciado": "Conviene hacer un descanso en viajes largos aproximadamente cada:",
 "opciones": [
 "6 horas de conducción continuada.",
@@ -8414,7 +8638,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 602,
+"id": 616,
 "enunciado": "Una tasa de alcohol por debajo del límite legal:",
 "opciones": [
 "Garantiza que la conducción no se ve afectada.",
@@ -8428,7 +8652,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 603,
+"id": 617,
 "enunciado": "La velocidad máxima de un ciclomotor es, con carácter general:",
 "opciones": [
 "45 km/h.",
@@ -8442,7 +8666,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 604,
+"id": 618,
 "enunciado": "Al circular, la velocidad debe permitir:",
 "opciones": [
 "Apurar siempre el límite máximo señalizado.",
@@ -8456,7 +8680,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 605,
+"id": 619,
 "enunciado": "Si se duplica la velocidad, la distancia de frenado aproximadamente:",
 "opciones": [
 "Se duplica.",
@@ -8470,7 +8694,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 606,
+"id": 620,
 "enunciado": "La 'distancia de detención' es la suma de:",
 "opciones": [
 "Distancia de seguridad y distancia de adelantamiento.",
@@ -8484,7 +8708,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 607,
+"id": 621,
 "enunciado": "Una forma sencilla de mantener la distancia de seguridad es:",
 "opciones": [
 "Ir siempre a 3 metros del de delante.",
@@ -8498,7 +8722,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 608,
+"id": 622,
 "enunciado": "Circular injustificadamente muy por debajo de los límites mínimos:",
 "opciones": [
 "Está siempre permitido, nunca se sanciona.",
@@ -8512,7 +8736,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 609,
+"id": 623,
 "enunciado": "Con lluvia intensa y agua en la calzada puede producirse 'aquaplaning', que consiste en:",
 "opciones": [
 "Que el motor se cale por el agua.",
@@ -8526,7 +8750,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 610,
+"id": 624,
 "enunciado": "En una vía convencional, si una señal no indica otra cosa, un turismo no debe superar:",
 "opciones": [
 "100 km/h.",
@@ -8540,7 +8764,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 611,
+"id": 625,
 "enunciado": "Al aproximarse a una zona con presencia de peatones o escolar, el conductor debe:",
 "opciones": [
 "Mantener la velocidad máxima permitida.",
@@ -8554,7 +8778,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 612,
+"id": 626,
 "enunciado": "La velocidad, por sí sola, en caso de accidente influye en que:",
 "opciones": [
 "No tiene relación con la gravedad.",
@@ -8568,7 +8792,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 613,
+"id": 627,
 "enunciado": "Como regla general, el adelantamiento se efectúa:",
 "opciones": [
 "Por la derecha.",
@@ -8582,7 +8806,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 614,
+"id": 628,
 "enunciado": "¿En cuál de estos lugares está prohibido adelantar?",
 "opciones": [
 "En una recta con buena visibilidad.",
@@ -8596,7 +8820,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 615,
+"id": 629,
 "enunciado": "La marcha atrás:",
 "opciones": [
 "Se puede usar libremente para recorrer largos tramos.",
@@ -8610,7 +8834,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 616,
+"id": 630,
 "enunciado": "Los vehículos prioritarios en servicio de urgencia (con señales activadas):",
 "opciones": [
 "Deben respetar todos los semáforos igual que los demás.",
@@ -8624,7 +8848,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 617,
+"id": 631,
 "enunciado": "Al incorporarse a la circulación desde un estacionamiento o vía secundaria:",
 "opciones": [
 "Tiene preferencia quien se incorpora.",
@@ -8638,7 +8862,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 618,
+"id": 632,
 "enunciado": "Ante un paso a nivel o la presencia de un tren:",
 "opciones": [
 "El vehículo tiene preferencia si va rápido.",
@@ -8652,7 +8876,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 619,
+"id": 633,
 "enunciado": "Para estacionar en una vía de doble sentido, con carácter general se hace:",
 "opciones": [
 "En cualquier lado indistintamente.",
@@ -8666,7 +8890,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 620,
+"id": 634,
 "enunciado": "Antes de cualquier maniobra (girar, cambiar de carril, adelantar) el conductor debe:",
 "opciones": [
 "Acelerar para hacerla rápido.",
@@ -8680,7 +8904,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 621,
+"id": 635,
 "enunciado": "En un tramo estrecho de montaña donde no pueden cruzarse dos vehículos, tiene preferencia:",
 "opciones": [
 "El que desciende.",
@@ -8694,7 +8918,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 622,
+"id": 636,
 "enunciado": "El tranvía, respecto al resto de vehículos:",
 "opciones": [
 "Cede siempre el paso.",
@@ -8708,7 +8932,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 623,
+"id": 637,
 "enunciado": "El airbag (SRS) es un sistema de seguridad que:",
 "opciones": [
 "Sustituye al cinturón de seguridad.",
@@ -8722,7 +8946,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 624,
+"id": 638,
 "enunciado": "El sistema de control de estabilidad (ESP/ESC) ayuda a:",
 "opciones": [
 "Reducir el consumo de combustible.",
@@ -8736,7 +8960,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 625,
+"id": 639,
 "enunciado": "Si durante la marcha se enciende la luz roja de temperatura del refrigerante, se debe:",
 "opciones": [
 "Seguir circulando con normalidad.",
@@ -8750,7 +8974,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 626,
+"id": 640,
 "enunciado": "Los niños de estatura igual o inferior a 135 cm deben viajar:",
 "opciones": [
 "En el asiento delantero sin más.",
@@ -8764,7 +8988,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 627,
+"id": 641,
 "enunciado": "El chaleco reflectante de alta visibilidad:",
 "opciones": [
 "Debe usarse al bajar del vehículo en la calzada o el arcén de vías interurbanas.",
@@ -8778,7 +9002,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 628,
+"id": 642,
 "enunciado": "Frenar bruscamente en mitad de una curva:",
 "opciones": [
 "Es lo más seguro siempre.",
@@ -8792,7 +9016,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 629,
+"id": 643,
 "enunciado": "Una conducción eficiente (que ahorra combustible y emisiones) recomienda:",
 "opciones": [
 "Acelerar y frenar con frecuencia.",
@@ -8806,7 +9030,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 630,
+"id": 644,
 "enunciado": "Una presión de neumáticos inferior a la recomendada provoca, entre otros efectos:",
 "opciones": [
 "Menor consumo de combustible.",
@@ -8820,7 +9044,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 631,
+"id": 645,
 "enunciado": "La luz de emergencia V-16 (baliza luminosa):",
 "opciones": [
 "Se coloca dentro del vehículo, en el salpicadero.",
@@ -8834,7 +9058,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 632,
+"id": 646,
 "enunciado": "Si un neumático presenta un desgaste irregular (más gastado por un lado):",
 "opciones": [
 "No tiene importancia mientras tenga dibujo.",
@@ -8848,7 +9072,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 633,
+"id": 647,
 "enunciado": "¿Qué es una 'intersección'?",
 "opciones": [
 "El cruce o unión de dos o más vías a un mismo nivel.",
@@ -8862,7 +9086,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 634,
+"id": 648,
 "enunciado": "El 'firme' de una vía es:",
 "opciones": [
 "La capa superior de la calzada sobre la que ruedan los vehículos.",
@@ -8876,7 +9100,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 635,
+"id": 649,
 "enunciado": "Un 'tren de carretera' es:",
 "opciones": [
 "Un automóvil unido a uno o varios remolques.",
@@ -8890,7 +9114,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 636,
+"id": 650,
 "enunciado": "Un 'automóvil' se diferencia de un ciclomotor principalmente en que:",
 "opciones": [
 "El automóvil está concebido para circular sin carriles ni raíles y por sus características no es ciclomotor.",
@@ -8904,7 +9128,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 637,
+"id": 651,
 "enunciado": "¿Qué es un 'turismo'?",
 "opciones": [
 "Un automóvil destinado al transporte de personas con capacidad hasta 9 plazas, incluido el conductor.",
@@ -8918,7 +9142,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 638,
+"id": 652,
 "enunciado": "¿Qué es un 'autobús' o autocar?",
 "opciones": [
 "Un automóvil para transporte de personas con más de 9 plazas, incluido el conductor.",
@@ -8932,7 +9156,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 639,
+"id": 653,
 "enunciado": "Un 'camión' es un vehículo de motor destinado a:",
 "opciones": [
 "El transporte de mercancías, con más de 3.500 kg de MMA.",
@@ -8946,7 +9170,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 640,
+"id": 654,
 "enunciado": "Una 'furgoneta' es:",
 "opciones": [
 "Un vehículo destinado al transporte de mercancías cuya MMA no supera los 3.500 kg.",
@@ -8960,7 +9184,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 641,
+"id": 655,
 "enunciado": "Una 'motocicleta' es:",
 "opciones": [
 "Un vehículo de dos ruedas (o con sidecar) que supera los 50 cc o los 45 km/h.",
@@ -8974,7 +9198,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 642,
+"id": 656,
 "enunciado": "El 'peso en orden de marcha' (masa en orden de marcha) de un vehículo incluye:",
 "opciones": [
 "La tara más la masa del conductor estimada en 75 kg.",
@@ -8988,7 +9212,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 643,
+"id": 657,
 "enunciado": "La 'masa remolcable' de un vehículo es:",
 "opciones": [
 "La masa máxima que el vehículo puede arrastrar en un remolque.",
@@ -9002,7 +9226,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 644,
+"id": 658,
 "enunciado": "Una 'vía rápida' (carretera para automóviles) se caracteriza por:",
 "opciones": [
 "Tener una sola calzada, accesos limitados y estar reservada a automóviles, con la señalización correspondiente.",
@@ -9016,7 +9240,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 645,
+"id": 659,
 "enunciado": "Un 'túnel', a efectos de circulación, es:",
 "opciones": [
 "Un tramo de vía cubierto que exige normas específicas (luces, distancias, prohibición de parar).",
@@ -9030,7 +9254,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 646,
+"id": 660,
 "enunciado": "Un 'enlace' de una vía es:",
 "opciones": [
 "El conjunto de ramales que permite pasar de una vía a otra sin cruces a nivel.",
@@ -9044,7 +9268,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 647,
+"id": 661,
 "enunciado": "El 'carril de aceleración' de una autovía sirve para:",
 "opciones": [
 "Ganar velocidad e incorporarse a la circulación con seguridad.",
@@ -9058,7 +9282,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 648,
+"id": 662,
 "enunciado": "La 'detención' de un vehículo se refiere a:",
 "opciones": [
 "La inmovilización breve por necesidad de la circulación (semáforo, retención, orden de agente).",
@@ -9072,7 +9296,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 649,
+"id": 663,
 "enunciado": "Un 'ciclo' es:",
 "opciones": [
 "Un vehículo de al menos dos ruedas accionado por el esfuerzo muscular de sus ocupantes.",
@@ -9086,7 +9310,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 650,
+"id": 664,
 "enunciado": "Un 'ciclomotor de tres ruedas' o un 'cuadriciclo ligero' se conducen con el permiso:",
 "opciones": [
 "AM, obtenible a partir de los 15 años.",
@@ -9100,7 +9324,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 651,
+"id": 665,
 "enunciado": "Una 'berma' es:",
 "opciones": [
 "La franja de terreno que hay entre el borde exterior de la explanación y el arcén o la cuneta.",
@@ -9114,7 +9338,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 652,
+"id": 666,
 "enunciado": "Un 'obstáculo en la vía' es:",
 "opciones": [
 "Todo aquello que dificulta la libre circulación y puede generar peligro (carga caída, animal, avería).",
@@ -9128,7 +9352,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 653,
+"id": 667,
 "enunciado": "Un 'vehículo de emergencia' o prioritario, cuando presta servicio urgente:",
 "opciones": [
 "Puede dejar de cumplir ciertas normas usando las señales luminosas y acústicas, sin poner en peligro a nadie.",
@@ -9142,7 +9366,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 654,
+"id": 668,
 "enunciado": "El 'titular' de un vehículo es:",
 "opciones": [
 "La persona a cuyo nombre figura el vehículo en el Registro de la DGT.",
@@ -9156,7 +9380,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 655,
+"id": 669,
 "enunciado": "Un 'paso para peatones' es:",
 "opciones": [
 "La parte de la calzada, debidamente señalizada, por donde deben cruzar los peatones.",
@@ -9170,7 +9394,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 656,
+"id": 670,
 "enunciado": "Un 'vehículo para personas de movilidad reducida' es:",
 "opciones": [
 "Un vehículo pequeño, con velocidad limitada, concebido para personas con problemas de movilidad.",
@@ -9184,7 +9408,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 657,
+"id": 671,
 "enunciado": "El concepto de 'poblado' (o zona urbana) es relevante porque:",
 "opciones": [
 "Dentro de él la vía se considera urbana y cambian los límites de velocidad y otras normas.",
@@ -9198,7 +9422,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 658,
+"id": 672,
 "enunciado": "Una 'cuneta' es:",
 "opciones": [
 "La zanja a un lado de la calzada destinada a recoger y evacuar el agua.",
@@ -9212,7 +9436,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 659,
+"id": 673,
 "enunciado": "El 'permiso de circulación' de un vehículo es el documento que:",
 "opciones": [
 "Acredita la autorización para que el vehículo circule y a nombre de quién está.",
@@ -9226,7 +9450,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 660,
+"id": 674,
 "enunciado": "Un 'remolque' se diferencia de un semirremolque en que el remolque:",
 "opciones": [
 "Se apoya sobre sus propios ejes y no descarga peso sobre el vehículo tractor.",
@@ -9240,7 +9464,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 661,
+"id": 675,
 "enunciado": "La 'calzada' de una autopista o autovía con dos calzadas separadas:",
 "opciones": [
 "Cada sentido de circulación tiene su propia calzada separada por una mediana.",
@@ -9254,7 +9478,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 662,
+"id": 676,
 "enunciado": "Un 'ciclo de motor' o 'bicicleta con pedaleo asistido' se considera bicicleta si:",
 "opciones": [
 "El motor deja de asistir al alcanzar los 25 km/h y no supera cierta potencia.",
@@ -9268,7 +9492,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 663,
+"id": 677,
 "enunciado": "Una 'zona de gran afluencia' o zona escolar señalizada implica:",
 "opciones": [
 "Extremar la precaución y, en su caso, respetar una velocidad reducida por la presencia de peatones.",
@@ -9282,7 +9506,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 664,
+"id": 678,
 "enunciado": "Un 'punto kilométrico' (hito) sirve para:",
 "opciones": [
 "Indicar el kilómetro de la vía en que nos encontramos, útil para localizarnos.",
@@ -9296,7 +9520,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 665,
+"id": 679,
 "enunciado": "La 'explanación' de una carretera es:",
 "opciones": [
 "La superficie de terreno preparada sobre la que se asienta la vía.",
@@ -9310,7 +9534,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 666,
+"id": 680,
 "enunciado": "Un 'vehículo agrícola especial' (tractor, cosechadora) se caracteriza por:",
 "opciones": [
 "Estar concebido para labores agrícolas y circular a velocidad reducida.",
@@ -9324,7 +9548,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 667,
+"id": 681,
 "enunciado": "Una 'vía ciclista' es:",
 "opciones": [
 "Una vía específicamente acondicionada y señalizada para la circulación de ciclos.",
@@ -9338,7 +9562,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 668,
+"id": 682,
 "enunciado": "Un remolque se considera 'ligero' cuando su masa máxima autorizada no supera:",
 "opciones": [
 "750 kg.",
@@ -9352,7 +9576,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 669,
+"id": 683,
 "enunciado": "Un cuadriciclo ligero tiene una masa en vacío (sin baterías, si es eléctrico) que no supera:",
 "opciones": [
 "425 kg.",
@@ -9366,7 +9590,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 670,
+"id": 684,
 "enunciado": "La capacidad máxima de un turismo, incluido el conductor, es de:",
 "opciones": [
 "9 plazas.",
@@ -9380,7 +9604,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 671,
+"id": 685,
 "enunciado": "La velocidad máxima a la que puede estar diseñado un vehículo de movilidad personal (VMP) es:",
 "opciones": [
 "25 km/h.",
@@ -9394,7 +9618,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 672,
+"id": 686,
 "enunciado": "Para que un vehículo de mercancías sea un 'camión' y no una furgoneta, su MMA debe superar:",
 "opciones": [
 "3.500 kg.",
@@ -9408,7 +9632,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 673,
+"id": 687,
 "enunciado": "La diferencia esencial entre una autopista y una autovía es que la autopista:",
 "opciones": [
 "No admite accesos a las propiedades colindantes ni cruces a nivel.",
@@ -9422,7 +9646,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 674,
+"id": 688,
 "enunciado": "Un vehículo de movilidad personal (VMP) tiene prohibido circular por:",
 "opciones": [
 "Aceras, zonas peatonales, autopistas, autovías y travesías.",
@@ -9436,7 +9660,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 675,
+"id": 689,
 "enunciado": "La 'masa máxima autorizada' (MMA) de un vehículo:",
 "opciones": [
 "Es fijada por la Administración para su circulación y no puede superar la masa máxima técnicamente admisible.",
@@ -9450,7 +9674,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 676,
+"id": 690,
 "enunciado": "Un 'vehículo articulado' está compuesto por:",
 "opciones": [
 "Un automóvil (cabeza tractora) y un semirremolque.",
@@ -9464,7 +9688,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 677,
+"id": 691,
 "enunciado": "El permiso B autoriza a arrastrar un remolque cuya MMA no supere, con carácter general:",
 "opciones": [
 "750 kg (o más si el conjunto no supera 3.500 kg de MMA).",
@@ -9478,7 +9702,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 678,
+"id": 692,
 "enunciado": "Una 'travesía' se distingue de una vía urbana normal en que:",
 "opciones": [
 "Es el tramo de una carretera que discurre por poblado, sin tener la condición de vía urbana.",
@@ -9492,7 +9716,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 679,
+"id": 693,
 "enunciado": "La cilindrada máxima de un ciclomotor de motor de combustión es de:",
 "opciones": [
 "50 cc.",
@@ -9506,7 +9730,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 680,
+"id": 694,
 "enunciado": "La potencia máxima de un cuadriciclo ligero es de:",
 "opciones": [
 "4 kW.",
@@ -9520,7 +9744,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 681,
+"id": 695,
 "enunciado": "Un ciclomotor es un vehículo de dos o tres ruedas cuya velocidad máxima por construcción no supera los...",
 "opciones": [
 "45 km/h y con cilindrada no superior a 50 cc.",
@@ -9534,7 +9758,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 682,
+"id": 696,
 "enunciado": "El remolque ligero es aquel cuya masa máxima autorizada no excede de...",
 "opciones": [
 "750 kg.",
@@ -9548,7 +9772,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 683,
+"id": 697,
 "enunciado": "El autobús es el automóvil concebido para el transporte de personas con capacidad de...",
 "opciones": [
 "más de 9 plazas, incluido el conductor.",
@@ -9562,7 +9786,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 684,
+"id": 698,
 "enunciado": "La masa en orden de marcha se obtiene sumando a la tara del vehículo...",
 "opciones": [
 "la masa del conductor, valorada en 75 kg.",
@@ -9576,7 +9800,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 685,
+"id": 699,
 "enunciado": "Un vehículo de movilidad personal (VMP) está diseñado para alcanzar una velocidad máxima comprendida entre...",
 "opciones": [
 "6 y 25 km/h.",
@@ -9590,7 +9814,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 686,
+"id": 700,
 "enunciado": "El vehículo articulado se compone de un automóvil y...",
 "opciones": [
 "un semirremolque que apoya parte de su masa sobre el tractor.",
@@ -9604,7 +9828,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 687,
+"id": 701,
 "enunciado": "La autopista se diferencia de la autovía en que, entre otros requisitos, la autopista...",
 "opciones": [
 "no da acceso a las propiedades colindantes.",
@@ -9618,7 +9842,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 688,
+"id": 702,
 "enunciado": "El cuadriciclo ligero tiene una potencia máxima de 4 kW y una masa en vacío que no supera...",
 "opciones": [
 "425 kg.",
@@ -9632,7 +9856,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 689,
+"id": 703,
 "enunciado": "Una vía interurbana es toda aquella que...",
 "opciones": [
 "discurre fuera de poblado.",
@@ -9646,7 +9870,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 690,
+"id": 704,
 "enunciado": "La parada se diferencia del estacionamiento en que la parada no excede de...",
 "opciones": [
 "2 minutos y el conductor no se aleja del vehículo.",
@@ -9660,7 +9884,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 691,
+"id": 705,
 "enunciado": "El permiso B permite arrastrar un remolque cuando la MMA del conjunto (vehículo + remolque) no supera...",
 "opciones": [
 "3.500 kg.",
@@ -9674,7 +9898,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 692,
+"id": 706,
 "enunciado": "La bicicleta de pedaleo asistido conserva la consideración de ciclo si el motor deja de asistir cuando se alcanzan los...",
 "opciones": [
 "25 km/h.",
@@ -9688,7 +9912,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 693,
+"id": 707,
 "enunciado": "La Dirección Electrónica Vial (DEV) sirve para:",
 "opciones": [
 "Recibir de forma electrónica las notificaciones de tráfico (multas, avisos).",
@@ -9702,7 +9926,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 694,
+"id": 708,
 "enunciado": "El 'parte amistoso de accidente' es:",
 "opciones": [
 "Una declaración conjunta de los implicados para tramitar el siniestro con las aseguradoras.",
@@ -9716,7 +9940,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 695,
+"id": 709,
 "enunciado": "La 'carta verde' del seguro:",
 "opciones": [
 "Acredita que el seguro tiene cobertura para circular por determinados países extranjeros.",
@@ -9730,7 +9954,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 696,
+"id": 710,
 "enunciado": "El Impuesto de Vehículos de Tracción Mecánica (IVTM) es:",
 "opciones": [
 "Un impuesto municipal anual que se paga por tener el vehículo.",
@@ -9744,7 +9968,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 697,
+"id": 711,
 "enunciado": "El distintivo ambiental 'ECO' corresponde, en general, a:",
 "opciones": [
 "Vehículos híbridos o de gas que cumplen ciertos requisitos, con prestaciones intermedias.",
@@ -9758,7 +9982,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 698,
+"id": 712,
 "enunciado": "Los vehículos más antiguos y contaminantes, respecto al distintivo ambiental:",
 "opciones": [
 "No reciben etiqueta y suelen tener más restricciones en las Zonas de Bajas Emisiones.",
@@ -9772,7 +9996,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 699,
+"id": 713,
 "enunciado": "El permiso de la clase A1 habilita para conducir:",
 "opciones": [
 "Motocicletas de hasta 125 cc y 11 kW, a partir de los 16 años.",
@@ -9786,7 +10010,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 700,
+"id": 714,
 "enunciado": "El permiso de la clase A2 habilita para conducir:",
 "opciones": [
 "Motocicletas de hasta 35 kW, a partir de los 18 años.",
@@ -9800,7 +10024,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 701,
+"id": 715,
 "enunciado": "El código 96 (o el permiso B+E) sirve para:",
 "opciones": [
 "Poder arrastrar remolques más pesados de lo que permite el permiso B ordinario.",
@@ -9814,7 +10038,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 702,
+"id": 716,
 "enunciado": "Un permiso de conducción expedido en otro país de la Unión Europea, en España:",
 "opciones": [
 "Es válido para conducir, sin necesidad de canjearlo.",
@@ -9828,7 +10052,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 703,
+"id": 717,
 "enunciado": "El permiso internacional de conducción:",
 "opciones": [
 "Es un documento que acompaña al permiso nacional para conducir en ciertos países fuera de la UE.",
@@ -9842,7 +10066,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 704,
+"id": 718,
 "enunciado": "La 'baja temporal' de un vehículo permite:",
 "opciones": [
 "Que el vehículo deje de circular durante un tiempo sin darlo de baja definitiva.",
@@ -9856,7 +10080,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 705,
+"id": 719,
 "enunciado": "Si la ITV resulta 'desfavorable' por un defecto grave, el vehículo:",
 "opciones": [
 "Solo puede circular para ir a repararlo y volver a pasar la inspección.",
@@ -9870,7 +10094,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 706,
+"id": 720,
 "enunciado": "Si la ITV resulta 'negativa' por un defecto muy grave, el vehículo:",
 "opciones": [
 "No puede circular por sus propios medios (debe retirarse en grúa).",
@@ -9884,7 +10108,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 707,
+"id": 721,
 "enunciado": "La inspección técnica (ITV) de las motocicletas se realiza, con carácter general:",
 "opciones": [
 "A partir de los 4 años de antigüedad, cada 2 años.",
@@ -9898,7 +10122,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 708,
+"id": 722,
 "enunciado": "La ITV debe realizarse en:",
 "opciones": [
 "Estaciones de inspección técnica autorizadas.",
@@ -9912,7 +10136,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 709,
+"id": 723,
 "enunciado": "El adhesivo (pegatina) de la ITV en el parabrisas indica:",
 "opciones": [
 "El mes y el año en que caduca la inspección y hay que volver a pasarla.",
@@ -9926,7 +10150,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 710,
+"id": 724,
 "enunciado": "Una placa de matrícula temporal (verde) se utiliza:",
 "opciones": [
 "Para traslados o pruebas de vehículos aún sin matrícula definitiva.",
@@ -9940,7 +10164,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 711,
+"id": 725,
 "enunciado": "Cuando un conductor comete una infracción GRAVE de las que restan puntos, puede perder:",
 "opciones": [
 "Entre 2 y 6 puntos según la infracción concreta.",
@@ -9954,7 +10178,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 712,
+"id": 726,
 "enunciado": "Los cursos de sensibilización y reeducación vial sirven para:",
 "opciones": [
 "Recuperar parte de los puntos o poder volver a conducir tras perderlos todos.",
@@ -9968,7 +10192,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 713,
+"id": 727,
 "enunciado": "Si un conductor pierde TODOS sus puntos:",
 "opciones": [
 "No puede conducir y, para reobtener el permiso, debe hacer un curso y superar una prueba.",
@@ -9982,7 +10206,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 714,
+"id": 728,
 "enunciado": "El conductor novel tiene condiciones especiales durante:",
 "opciones": [
 "Los 2 primeros años desde que obtiene el permiso.",
@@ -9996,7 +10220,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 715,
+"id": 729,
 "enunciado": "El plazo general para presentar alegaciones frente a una multa de tráfico es de:",
 "opciones": [
 "20 días naturales desde la notificación.",
@@ -10010,7 +10234,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 716,
+"id": 730,
 "enunciado": "Una sanción económica de tráfico GRAVE puede ascender, con carácter general, hasta:",
 "opciones": [
 "200 €.",
@@ -10024,7 +10248,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 717,
+"id": 731,
 "enunciado": "La franquicia de un seguro es:",
 "opciones": [
 "La cantidad de cada siniestro que asume el propio asegurado antes de que pague la compañía.",
@@ -10038,7 +10262,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 718,
+"id": 732,
 "enunciado": "El seguro obligatorio de automóviles NO cubre:",
 "opciones": [
 "Los daños propios del conductor causante del accidente.",
@@ -10052,7 +10276,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 719,
+"id": 733,
 "enunciado": "Antes de comprar un vehículo de segunda mano conviene:",
 "opciones": [
 "Comprobar en un informe de la DGT sus cargas, ITV y posibles deudas o embargos.",
@@ -10066,7 +10290,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 720,
+"id": 734,
 "enunciado": "El permiso de CONDUCCIÓN y el permiso de CIRCULACIÓN se diferencian en que:",
 "opciones": [
 "El de conducción acredita la aptitud de la persona; el de circulación autoriza a circular al vehículo.",
@@ -10080,7 +10304,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 721,
+"id": 735,
 "enunciado": "El número de bastidor de un vehículo:",
 "opciones": [
 "Es un identificador único grabado que sirve para identificar el vehículo.",
@@ -10094,7 +10318,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 722,
+"id": 736,
 "enunciado": "Para poder circular, todo vehículo a motor debe llevar, como mínimo:",
 "opciones": [
 "El seguro obligatorio en vigor y la ITV al día cuando le corresponda.",
@@ -10108,7 +10332,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 723,
+"id": 737,
 "enunciado": "Si vas a circular por una Zona de Bajas Emisiones (ZBE) con un vehículo sin distintivo ambiental:",
 "opciones": [
 "Puede estar restringido o prohibido según la ordenanza municipal de esa ciudad.",
@@ -10122,7 +10346,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 724,
+"id": 738,
 "enunciado": "El 'seguro a todo riesgo' se caracteriza porque:",
 "opciones": [
 "Además de los daños a terceros, cubre los daños propios del vehículo asegurado.",
@@ -10136,7 +10360,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 725,
+"id": 739,
 "enunciado": "El permiso de conducción digital de la app miDGT:",
 "opciones": [
 "Tiene validez para identificarte ante los agentes dentro de España.",
@@ -10150,7 +10374,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 726,
+"id": 740,
 "enunciado": "Cuando cambias de domicilio, respecto a tu vehículo y permiso debes:",
 "opciones": [
 "Comunicar el cambio a la DGT para mantener actualizados tus datos.",
@@ -10164,7 +10388,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 727,
+"id": 741,
 "enunciado": "El impuesto de matriculación de un vehículo:",
 "opciones": [
 "Es un tributo que puede pagarse al matricular según las emisiones de CO₂ del vehículo.",
@@ -10178,7 +10402,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 728,
+"id": 742,
 "enunciado": "El titular que no desea recibir notificaciones en papel puede:",
 "opciones": [
 "Suscribirse a la Dirección Electrónica Vial (DEV) para recibirlas electrónicamente.",
@@ -10192,7 +10416,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 729,
+"id": 743,
 "enunciado": "Para transferir un vehículo al comprarlo de segunda mano, se debe:",
 "opciones": [
 "Tramitar el cambio de titularidad en la DGT y pagar la tasa e impuestos correspondientes.",
@@ -10206,7 +10430,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 730,
+"id": 744,
 "enunciado": "El Certificado de Aptitud Profesional (CAP) es necesario para:",
 "opciones": [
 "Los conductores profesionales de transporte de mercancías o de viajeros por carretera.",
@@ -10220,7 +10444,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 731,
+"id": 745,
 "enunciado": "Un vehículo dado de BAJA DEFINITIVA (entregado al desguace):",
 "opciones": [
 "No puede volver a circular ni matricularse de nuevo.",
@@ -10234,7 +10458,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 732,
+"id": 746,
 "enunciado": "El duplicado del permiso de circulación se solicita cuando:",
 "opciones": [
 "El documento se ha deteriorado, perdido o ha sido sustraído.",
@@ -10248,7 +10472,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 733,
+"id": 747,
 "enunciado": "Un conductor que obtiene el permiso por primera vez (novel) parte con un saldo de puntos de:",
 "opciones": [
 "8 puntos.",
@@ -10262,7 +10486,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 734,
+"id": 748,
 "enunciado": "El saldo máximo de puntos que puede llegar a tener un conductor sin sanciones es:",
 "opciones": [
 "15 puntos.",
@@ -10276,7 +10500,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 735,
+"id": 749,
 "enunciado": "Un turismo particular pasa su PRIMERA ITV y, entre los 4 y los 10 años, la repite:",
 "opciones": [
 "A los 4 años y, de 4 a 10 años, cada 2 años.",
@@ -10290,7 +10514,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 736,
+"id": 750,
 "enunciado": "Usar el teléfono móvil sosteniéndolo en la mano mientras se conduce supone la pérdida de:",
 "opciones": [
 "6 puntos.",
@@ -10304,7 +10528,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 737,
+"id": 751,
 "enunciado": "No utilizar el cinturón de seguridad, el casco o el sistema de retención infantil supone la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -10318,7 +10542,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 738,
+"id": 752,
 "enunciado": "Mediante un curso de recuperación, un conductor puede recuperar como máximo:",
 "opciones": [
 "6 puntos (una vez cada 2 años; los profesionales, una vez al año).",
@@ -10332,7 +10556,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 739,
+"id": 753,
 "enunciado": "Para recuperar el saldo total de puntos sin hacer curso, hay que estar sin ser sancionado:",
 "opciones": [
 "2 años (si la última fue grave) o 3 años (si fue muy grave).",
@@ -10346,7 +10570,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 740,
+"id": 754,
 "enunciado": "El permiso B, mediante el código 96, permite conducir conjuntos (vehículo + remolque) cuya MMA total esté entre:",
 "opciones": [
 "3.500 y 4.250 kg.",
@@ -10360,7 +10584,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 741,
+"id": 755,
 "enunciado": "Una infracción muy grave de tráfico puede suponer una multa de hasta:",
 "opciones": [
 "500 € y la detracción de hasta 6 puntos.",
@@ -10374,7 +10598,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 742,
+"id": 756,
 "enunciado": "El permiso A2 (motos de hasta 35 kW) se puede obtener a partir de los:",
 "opciones": [
 "18 años.",
@@ -10388,7 +10612,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 743,
+"id": 757,
 "enunciado": "Pagar una multa dentro del periodo de pago con reducción (pronto pago) supone, normalmente:",
 "opciones": [
 "Una reducción del 50 % del importe, renunciando a alegar.",
@@ -10402,7 +10626,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 744,
+"id": 758,
 "enunciado": "Un turismo particular con más de 10 años de antigüedad debe pasar la ITV:",
 "opciones": [
 "Todos los años.",
@@ -10416,7 +10640,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 745,
+"id": 759,
 "enunciado": "Un turismo particular pasa su primera inspección técnica (ITV) a los...",
 "opciones": [
 "4 años de su matriculación.",
@@ -10430,7 +10654,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 746,
+"id": 760,
 "enunciado": "El conductor novel parte con un saldo de...",
 "opciones": [
 "8 puntos.",
@@ -10444,7 +10668,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 747,
+"id": 761,
 "enunciado": "Con carácter general, el permiso B se renueva, para menores de 65 años, cada...",
 "opciones": [
 "10 años.",
@@ -10458,7 +10682,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 748,
+"id": 762,
 "enunciado": "Con carácter general, el permiso B para conductores de 65 años o más se renueva cada...",
 "opciones": [
 "5 años.",
@@ -10472,7 +10696,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 749,
+"id": 763,
 "enunciado": "Sujetar el teléfono móvil con la mano mientras se conduce resta...",
 "opciones": [
 "6 puntos.",
@@ -10486,7 +10710,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 750,
+"id": 764,
 "enunciado": "No usar el cinturón de seguridad, el casco o el sistema de retención infantil resta...",
 "opciones": [
 "4 puntos.",
@@ -10500,7 +10724,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 751,
+"id": 765,
 "enunciado": "La edad mínima para obtener el permiso B es de...",
 "opciones": [
 "18 años.",
@@ -10514,7 +10738,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 752,
+"id": 766,
 "enunciado": "Con el permiso B, sin autorización adicional, se puede arrastrar un remolque cuya MMA no supere...",
 "opciones": [
 "750 kg.",
@@ -10528,7 +10752,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 753,
+"id": 767,
 "enunciado": "El saldo máximo de puntos que puede alcanzar un conductor es de...",
 "opciones": [
 "15 puntos.",
@@ -10542,7 +10766,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 754,
+"id": 768,
 "enunciado": "Mediante un curso, un conductor puede recuperar como máximo...",
 "opciones": [
 "6 puntos.",
@@ -10556,7 +10780,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 755,
+"id": 769,
 "enunciado": "El plazo general para alegar frente a una multa es de...",
 "opciones": [
 "20 días naturales.",
@@ -10570,7 +10794,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 756,
+"id": 770,
 "enunciado": "Entre los 4 y los 10 años de antigüedad, un turismo particular pasa la ITV...",
 "opciones": [
 "cada 2 años.",
@@ -10580,6 +10804,4164 @@ window.DGT_QUESTIONS = [
 "correcta_idx": 0,
 "explicacion": "De 4 a 10 años es cada 2 años; pasa a ser anual solo a partir de los 10 años.",
 "tema_id": 2,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 771,
+"enunciado": "El alcohol, respecto al sistema nervioso central, actúa como una sustancia:",
+"opciones": [
+"Estimulante que mejora los reflejos.",
+"Depresora que ralentiza las respuestas del organismo.",
+"Neutra, sin efecto sobre la conducción."
+],
+"correcta_idx": 1,
+"explicacion": "El alcohol es un depresor del sistema nervioso central: enlentece las respuestas y deteriora la conducción.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 772,
+"enunciado": "Una de las consecuencias del alcohol sobre la visión al conducir es:",
+"opciones": [
+"Que amplía el campo visual del conductor.",
+"Que reduce el campo visual (visión de túnel).",
+"Que no afecta a la visión en absoluto."
+],
+"correcta_idx": 1,
+"explicacion": "El alcohol reduce el campo visual y produce la llamada visión de túnel, dificultando ver lo que ocurre a los lados.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 773,
+"enunciado": "Tras beber alcohol, el tiempo de reacción del conductor:",
+"opciones": [
+"Aumenta, por lo que tarda más en responder ante un peligro.",
+"Disminuye, respondiendo más rápido.",
+"Se mantiene exactamente igual."
+],
+"correcta_idx": 0,
+"explicacion": "El alcohol aumenta el tiempo de reacción: el conductor tarda más en frenar o esquivar un obstáculo.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 774,
+"enunciado": "El alcohol suele producir en el conductor una:",
+"opciones": [
+"Percepción realista y prudente del riesgo.",
+"Falsa sensación de seguridad y exceso de confianza.",
+"Mejora en la coordinación de movimientos."
+],
+"correcta_idx": 1,
+"explicacion": "El alcohol genera una falsa sensación de seguridad: el conductor cree controlar mejor cuando en realidad su capacidad está mermada.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 775,
+"enunciado": "¿Cuál es la única forma real de eliminar el alcohol del organismo?",
+"opciones": [
+"Beber café cargado.",
+"Darse una ducha fría.",
+"Dejar pasar el tiempo, ya que lo metaboliza el hígado."
+],
+"correcta_idx": 2,
+"explicacion": "El alcohol solo se elimina con el tiempo, a medida que el hígado lo metaboliza; no existen trucos que aceleren el proceso.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 776,
+"enunciado": "Tomar un café bien cargado después de beber alcohol:",
+"opciones": [
+"Elimina el alcohol de la sangre de inmediato.",
+"No reduce la tasa de alcohol; solo puede darte una falsa sensación de estar más despierto.",
+"Reduce la tasa a la mitad."
+],
+"correcta_idx": 1,
+"explicacion": "El café no reduce la tasa de alcohol; como mucho aporta una sensación de alerta engañosa, pero el deterioro persiste.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 777,
+"enunciado": "Si se bebe alcohol con el estómago vacío (en ayunas):",
+"opciones": [
+"Se absorbe más lentamente que con el estómago lleno.",
+"Se absorbe más rápidamente, alcanzando antes tasas altas.",
+"No llega a pasar a la sangre."
+],
+"correcta_idx": 1,
+"explicacion": "En ayunas el alcohol se absorbe más deprisa, por lo que la tasa sube antes y con más intensidad.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 778,
+"enunciado": "La prueba que se utiliza habitualmente para detectar drogas en un control de tráfico es:",
+"opciones": [
+"Una prueba de saliva (test salival).",
+"Una radiografía.",
+"Un análisis de orina obligatorio en la vía."
+],
+"correcta_idx": 0,
+"explicacion": "El control de drogas se realiza mediante una prueba salival; si es positiva, puede confirmarse con un análisis posterior.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 779,
+"enunciado": "Negarse a someterse a las pruebas de detección de alcohol o drogas:",
+"opciones": [
+"No tiene consecuencias si el conductor lo pide por escrito.",
+"Es constitutivo de delito contra la seguridad vial.",
+"Solo es una infracción leve."
+],
+"correcta_idx": 1,
+"explicacion": "La negativa a las pruebas es un delito contra la seguridad vial recogido en el Código Penal (art. 383).",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 780,
+"enunciado": "Antes de tomar un medicamento y ponerse al volante conviene:",
+"opciones": [
+"Consultar el prospecto y fijarse en el pictograma de conducción.",
+"Duplicar la dosis para que haga efecto antes.",
+"Tomarlo siempre con una copa de vino."
+],
+"correcta_idx": 0,
+"explicacion": "Hay que leer el prospecto y observar el pictograma de conducción, ya que algunos fármacos afectan a la aptitud para conducir.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 781,
+"enunciado": "Algunos medicamentos, como ciertos antihistamínicos o ansiolíticos, pueden producir:",
+"opciones": [
+"Somnolencia y disminución de los reflejos.",
+"Una mejora garantizada de la atención.",
+"Inmunidad frente al cansancio."
+],
+"correcta_idx": 0,
+"explicacion": "Varios fármacos producen somnolencia y reducen los reflejos, por lo que hay que valorar si es seguro conducir.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 782,
+"enunciado": "El pictograma que advierte de que un medicamento puede afectar a la conducción es:",
+"opciones": [
+"Un triángulo rojo con un coche negro.",
+"Una cruz verde.",
+"Un círculo azul con una P."
+],
+"correcta_idx": 0,
+"explicacion": "El pictograma de conducción es un triángulo rojo con un coche en negro; avisa de que el fármaco puede mermar la capacidad de conducir.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 783,
+"enunciado": "Mezclar alcohol con determinados fármacos:",
+"opciones": [
+"Neutraliza los efectos de ambos.",
+"Puede potenciar la somnolencia y el deterioro de los reflejos.",
+"Es totalmente inofensivo."
+],
+"correcta_idx": 1,
+"explicacion": "La mezcla de alcohol y ciertos medicamentos multiplica efectos como la somnolencia y la pérdida de reflejos.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 784,
+"enunciado": "La fatiga y la falta de sueño al conducir pueden provocar:",
+"opciones": [
+"Microsueños, pérdidas breves de conciencia de pocos segundos.",
+"Una mejora de la concentración.",
+"Un aumento del campo visual."
+],
+"correcta_idx": 0,
+"explicacion": "El cansancio provoca microsueños: episodios de segundos en los que el conductor pierde el control sin darse cuenta.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 785,
+"enunciado": "En un viaje largo, para prevenir la fatiga se recomienda descansar:",
+"opciones": [
+"Solo al llegar al destino.",
+"Aproximadamente cada dos horas o cada 200 km.",
+"Únicamente si notas sueño profundo."
+],
+"correcta_idx": 1,
+"explicacion": "Conviene parar a descansar cada dos horas aproximadamente y ventilar el vehículo para combatir la fatiga.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 786,
+"enunciado": "Si mientras conduces notas los primeros síntomas de sueño (parpadeo, bostezos), lo correcto es:",
+"opciones": [
+"Detenerte en un lugar seguro y descansar.",
+"Acelerar para llegar antes.",
+"Subir el volumen de la música y seguir."
+],
+"correcta_idx": 0,
+"explicacion": "Ante los primeros síntomas de sueño hay que parar en un lugar seguro; ni la música ni la ventana abierta sustituyen al descanso.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 787,
+"enunciado": "El alcohol afecta a la coordinación de movimientos, lo que dificulta:",
+"opciones": [
+"Maniobras precisas como frenar, girar el volante o cambiar de marcha.",
+"Únicamente el uso de la radio.",
+"Solo la visión nocturna."
+],
+"correcta_idx": 0,
+"explicacion": "El alcohol deteriora la coordinación, complicando maniobras que requieren precisión como frenar o girar correctamente.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 788,
+"enunciado": "Aunque un conductor se sienta capaz tras beber una copa, el alcohol:",
+"opciones": [
+"No produce ningún efecto en dosis bajas.",
+"Ya deteriora la atención y los reflejos aun en cantidades pequeñas.",
+"Mejora la conducción con dosis moderadas."
+],
+"correcta_idx": 1,
+"explicacion": "Incluso dosis bajas de alcohol reducen atención y reflejos; la sensación de control es engañosa.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 789,
+"enunciado": "El alcoholímetro utilizado por los agentes en un control mide la tasa de alcohol en:",
+"opciones": [
+"El aire espirado.",
+"El sudor.",
+"El pulso del conductor."
+],
+"correcta_idx": 0,
+"explicacion": "El etilómetro mide la tasa de alcohol en el aire espirado, expresada en miligramos por litro (mg/l).",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 790,
+"enunciado": "Si en un control te realizan una primera prueba de alcoholemia positiva, tienes derecho a:",
+"opciones": [
+"Marcharte sin más trámites.",
+"Solicitar una segunda prueba de contraste y, en su caso, un análisis de sangre.",
+"Repetir la prueba tú mismo con tu propio aparato."
+],
+"correcta_idx": 1,
+"explicacion": "El conductor puede pedir una segunda medición de contraste y, si lo desea, un análisis de sangre para contrastar el resultado.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 791,
+"enunciado": "Los efectos del alcohol sobre la conducción aparecen:",
+"opciones": [
+"Solo cuando el conductor está visiblemente borracho.",
+"Desde tasas bajas, aunque el conductor no lo perciba.",
+"Únicamente al día siguiente."
+],
+"correcta_idx": 1,
+"explicacion": "El deterioro comienza con tasas bajas, muchas veces sin que el conductor sea consciente de ello.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 792,
+"enunciado": "La cantidad de alcohol que llega a la sangre depende, entre otros factores, de:",
+"opciones": [
+"El peso, el sexo, la comida ingerida y la rapidez con que se bebe.",
+"Únicamente de la marca de la bebida.",
+"Solo de la hora del día."
+],
+"correcta_idx": 0,
+"explicacion": "Factores como el peso, el sexo, el estómago lleno o vacío y la velocidad de ingesta influyen en la tasa alcanzada.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 793,
+"enunciado": "Los conductores profesionales (camiones, autobuses, taxis) tienen una tasa de alcohol permitida:",
+"opciones": [
+"Más alta que la del resto de conductores.",
+"Más baja que la general, igual que los noveles.",
+"Idéntica a la de los conductores generales."
+],
+"correcta_idx": 1,
+"explicacion": "Los profesionales tienen la misma tasa reducida que los noveles: 0,15 mg/l en aire (0,3 g/l en sangre).",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 794,
+"enunciado": "Un conductor novel se considera aquel que:",
+"opciones": [
+"Lleva menos de dos años con el permiso de conducir.",
+"Tiene menos de 18 años.",
+"Circula por primera vez en autopista."
+],
+"correcta_idx": 0,
+"explicacion": "Es novel quien lleva menos de dos años con el permiso; durante ese periodo su tasa de alcohol permitida es reducida.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 795,
+"enunciado": "El consumo de drogas estimulantes (cocaína, anfetaminas) al volante:",
+"opciones": [
+"Hace conducir de forma más segura.",
+"Provoca conductas arriesgadas, agresividad y falsa sensación de control.",
+"No influye en la conducción."
+],
+"correcta_idx": 1,
+"explicacion": "Los estimulantes generan euforia, impulsividad y falsa sensación de control, favoreciendo conductas peligrosas.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 796,
+"enunciado": "El cannabis (marihuana, hachís) al conducir produce, entre otros efectos:",
+"opciones": [
+"Mayor rapidez de reacción.",
+"Somnolencia, alteración de la percepción del tiempo y menor concentración.",
+"Mejora de la visión periférica."
+],
+"correcta_idx": 1,
+"explicacion": "El cannabis produce somnolencia, distorsiona la percepción del tiempo y el espacio y reduce la concentración.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 797,
+"enunciado": "Ventilar el habitáculo y bajar la ventanilla durante un viaje largo sirve para:",
+"opciones": [
+"Eliminar el alcohol de la sangre.",
+"Ayudar a mantenerse despierto, aunque no sustituye al descanso.",
+"Reducir el consumo de combustible."
+],
+"correcta_idx": 1,
+"explicacion": "Ventilar ayuda a mantenerse despierto, pero no sustituye a parar y descansar cuando aparece la fatiga.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 798,
+"enunciado": "Una cena copiosa y pesada antes de conducir puede:",
+"opciones": [
+"Aumentar la somnolencia y la sensación de fatiga.",
+"Mejorar los reflejos notablemente.",
+"Eliminar cualquier riesgo de sueño."
+],
+"correcta_idx": 0,
+"explicacion": "Las comidas copiosas favorecen la somnolencia; conviene comer ligero antes de un trayecto.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 799,
+"enunciado": "Si un conductor toma un medicamento por prescripción médica que puede afectar a la conducción, debe:",
+"opciones": [
+"Ignorar la advertencia porque es un fármaco recetado.",
+"Consultar al médico o farmacéutico si puede conducir y respetar sus indicaciones.",
+"Conducir solo de noche."
+],
+"correcta_idx": 1,
+"explicacion": "Aunque esté recetado, si el fármaco puede afectar a la conducción hay que consultar al profesional sanitario y seguir sus indicaciones.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 800,
+"enunciado": "El alcohol, sobre la capacidad de atención del conductor:",
+"opciones": [
+"La aumenta y ayuda a concentrarse.",
+"La disminuye, dificultando mantener la vigilancia.",
+"No tiene ningún efecto."
+],
+"correcta_idx": 1,
+"explicacion": "El alcohol reduce la atención y la capacidad de vigilancia, aumentando el riesgo de no detectar peligros.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 801,
+"enunciado": "Conducir con resaca al día siguiente de haber bebido:",
+"opciones": [
+"Es seguro porque la tasa ya es cero.",
+"Puede deteriorar la conducción por fatiga y menor atención, aunque la tasa sea baja.",
+"Mejora la percepción del riesgo."
+],
+"correcta_idx": 1,
+"explicacion": "La resaca provoca cansancio, dolor de cabeza y menor atención, deteriorando la conducción aunque quede poco alcohol en sangre.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 802,
+"enunciado": "Los agentes de tráfico pueden realizar pruebas de alcoholemia:",
+"opciones": [
+"Solo tras un accidente grave.",
+"En controles preventivos, tras infracciones o accidentes, y ante síntomas de haber bebido.",
+"Únicamente si el conductor lo autoriza previamente."
+],
+"correcta_idx": 1,
+"explicacion": "Los agentes pueden hacer pruebas en controles preventivos, tras infracciones o accidentes y cuando existan síntomas de haber consumido alcohol.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 803,
+"enunciado": "La graduación de una bebida indica:",
+"opciones": [
+"El porcentaje de alcohol que contiene.",
+"La temperatura a la que debe servirse.",
+"Su valor calórico exclusivamente."
+],
+"correcta_idx": 0,
+"explicacion": "La graduación expresa el porcentaje de alcohol de la bebida; a mayor graduación, más alcohol por la misma cantidad.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 804,
+"enunciado": "El plan más seguro si se va a beber alcohol en una celebración es:",
+"opciones": [
+"Beber poco y esperar media hora antes de conducir.",
+"Designar a un conductor que no beba, usar transporte público o taxi.",
+"Conducir despacio para compensar."
+],
+"correcta_idx": 1,
+"explicacion": "Lo más seguro es no conducir si se ha bebido: designar un conductor alternativo o usar transporte público.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 805,
+"enunciado": "El alcohol influye especialmente de forma negativa en la conducción:",
+"opciones": [
+"Nocturna, porque se suma a la peor visibilidad y a la fatiga.",
+"Solo en trayectos urbanos.",
+"Únicamente en autopista."
+],
+"correcta_idx": 0,
+"explicacion": "De noche el alcohol agrava sus efectos al combinarse con la menor visibilidad y el cansancio propios de esas horas.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 806,
+"enunciado": "Respecto a los efectos del alcohol, es correcto afirmar que:",
+"opciones": [
+"Afectan a todas las personas exactamente igual.",
+"Varían según la persona, pero siempre deterioran la conducción.",
+"Desaparecen con costumbre de beber."
+],
+"correcta_idx": 1,
+"explicacion": "El efecto varía entre personas, pero en todos los casos el alcohol deteriora la capacidad de conducir; la tolerancia no protege.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 807,
+"enunciado": "El sueño al volante es peligroso porque:",
+"opciones": [
+"Aparece siempre con mucho aviso previo.",
+"Puede provocar la salida de la vía o una colisión sin que el conductor reaccione.",
+"Solo afecta a conductores mayores."
+],
+"correcta_idx": 1,
+"explicacion": "El sueño puede hacer que el vehículo se salga de la vía o colisione sin reacción del conductor; es una causa frecuente de accidentes.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 808,
+"enunciado": "La mejor medida frente al sueño en un viaje largo es:",
+"opciones": [
+"Dormir lo suficiente antes de salir y planificar paradas.",
+"Tomar bebidas energéticas de forma continua.",
+"Conducir sin parar para llegar antes."
+],
+"correcta_idx": 0,
+"explicacion": "Salir descansado y planificar paradas periódicas es la forma más eficaz de prevenir el sueño al volante.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 809,
+"enunciado": "Si un pasajero se niega a que el conductor beba y coja el coche, lo más sensato es:",
+"opciones": [
+"Insistir en conducir para demostrar que se controla.",
+"Buscar una alternativa segura, ya que conducir bebido pone en riesgo a todos.",
+"Conducir solo por carreteras secundarias."
+],
+"correcta_idx": 1,
+"explicacion": "Conducir habiendo bebido pone en peligro al conductor y a los demás; lo correcto es buscar una alternativa segura.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 810,
+"enunciado": "El alcohol y las drogas están implicados en los accidentes de tráfico:",
+"opciones": [
+"En un porcentaje muy pequeño e irrelevante.",
+"En una parte importante de los accidentes mortales.",
+"Solo en accidentes sin víctimas."
+],
+"correcta_idx": 1,
+"explicacion": "El alcohol y las drogas figuran entre los principales factores de riesgo en los accidentes mortales de tráfico.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 811,
+"enunciado": "Una bebida 'sin alcohol' (0,0) para el conductor:",
+"opciones": [
+"Aporta la misma tasa que una cerveza normal.",
+"Es la opción recomendable si se va a conducir, ya que apenas aporta alcohol.",
+"Está prohibida a los conductores."
+],
+"correcta_idx": 1,
+"explicacion": "Las bebidas sin alcohol o 0,0 son la opción recomendable para quien va a conducir, pues no elevan de forma apreciable la tasa.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 812,
+"enunciado": "El efecto de las drogas alucinógenas sobre la conducción incluye:",
+"opciones": [
+"Alteraciones de la percepción que impiden conducir con seguridad.",
+"Una mejora de la coordinación.",
+"Ningún efecto relevante."
+],
+"correcta_idx": 0,
+"explicacion": "Los alucinógenos distorsionan la percepción de la realidad, lo que hace imposible conducir de forma segura.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 813,
+"enunciado": "El deber de someterse a las pruebas de alcohol o drogas alcanza a:",
+"opciones": [
+"Solo al conductor implicado en un accidente.",
+"Cualquier conductor requerido por los agentes, y también otros usuarios en ciertos casos.",
+"Únicamente a los conductores profesionales."
+],
+"correcta_idx": 1,
+"explicacion": "Están obligados a someterse a las pruebas los conductores requeridos por los agentes y, en determinados supuestos, otros implicados.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 814,
+"enunciado": "Frente a la fatiga, las bebidas energéticas o estimulantes:",
+"opciones": [
+"Sustituyen por completo al descanso.",
+"Solo enmascaran temporalmente el cansancio, que reaparece después.",
+"Eliminan el sueño de forma definitiva."
+],
+"correcta_idx": 1,
+"explicacion": "Los estimulantes solo enmascaran el cansancio durante un rato; el sueño reaparece, por lo que no sustituyen al descanso.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 815,
+"enunciado": "¿Cuál es la tasa máxima de alcohol en aire espirado para un conductor general con más de dos años de permiso?",
+"opciones": [
+"0,15 mg/l.",
+"0,25 mg/l.",
+"0,30 mg/l."
+],
+"correcta_idx": 1,
+"explicacion": "La tasa general es de 0,25 mg/l en aire espirado, equivalente a 0,5 g/l en sangre.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 816,
+"enunciado": "La tasa de alcohol en sangre que no pueden superar los conductores noveles y profesionales es:",
+"opciones": [
+"0,3 g/l.",
+"0,5 g/l.",
+"0,15 g/l."
+],
+"correcta_idx": 0,
+"explicacion": "Noveles y profesionales no pueden superar 0,3 g/l en sangre, equivalente a 0,15 mg/l en aire espirado.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 817,
+"enunciado": "A partir de qué tasa de alcohol en aire espirado conducir constituye siempre delito contra la seguridad vial (art. 379 CP):",
+"opciones": [
+"Más de 0,25 mg/l.",
+"Más de 0,50 mg/l.",
+"Más de 0,60 mg/l."
+],
+"correcta_idx": 2,
+"explicacion": "Superar 0,60 mg/l en aire espirado (1,2 g/l en sangre) es delito conforme al art. 379 del Código Penal.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 818,
+"enunciado": "El límite penal de 0,60 mg/l en aire espirado equivale en sangre a:",
+"opciones": [
+"0,5 g/l.",
+"1,2 g/l.",
+"0,8 g/l."
+],
+"correcta_idx": 1,
+"explicacion": "0,60 mg/l en aire espirado equivale a 1,2 g/l en sangre, el umbral del delito del art. 379 CP.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 819,
+"enunciado": "Un conductor con una tasa de 0,30 mg/l en aire espirado (dentro del rango 0,25-0,50) pierde:",
+"opciones": [
+"2 puntos.",
+"4 puntos.",
+"6 puntos."
+],
+"correcta_idx": 1,
+"explicacion": "Las tasas entre 0,25 y 0,50 mg/l suponen la pérdida de 4 puntos.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 820,
+"enunciado": "Un conductor con una tasa de 0,55 mg/l en aire espirado (superior a 0,50) pierde:",
+"opciones": [
+"4 puntos.",
+"6 puntos.",
+"3 puntos."
+],
+"correcta_idx": 1,
+"explicacion": "Superar 0,50 mg/l en aire espirado conlleva la pérdida de 6 puntos.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 821,
+"enunciado": "La detección de presencia de drogas en el organismo del conductor supone la pérdida de:",
+"opciones": [
+"4 puntos.",
+"6 puntos.",
+"2 puntos."
+],
+"correcta_idx": 1,
+"explicacion": "Dar positivo por presencia de drogas conlleva la pérdida de 6 puntos.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 822,
+"enunciado": "Para los conductores noveles y profesionales, la tasa máxima de alcohol en aire espirado es:",
+"opciones": [
+"0,15 mg/l.",
+"0,25 mg/l.",
+"0,20 mg/l."
+],
+"correcta_idx": 0,
+"explicacion": "Noveles y profesionales no pueden superar 0,15 mg/l en aire espirado (0,3 g/l en sangre).",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 823,
+"enunciado": "El delito de conducir bajo influencia de bebidas alcohólicas o drogas se recoge en el Código Penal en el artículo:",
+"opciones": [
+"379.",
+"383.",
+"384."
+],
+"correcta_idx": 0,
+"explicacion": "El art. 379 CP tipifica la conducción bajo la influencia de alcohol o drogas, incluido superar 0,60 mg/l en aire.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 824,
+"enunciado": "La negativa a someterse a las pruebas de alcohol o drogas se castiga en el Código Penal en el artículo:",
+"opciones": [
+"379.",
+"383.",
+"380."
+],
+"correcta_idx": 1,
+"explicacion": "El art. 383 CP tipifica como delito la negativa a someterse a las pruebas legalmente establecidas.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 825,
+"enunciado": "El límite penal de alcohol expresado en sangre, según el art. 379 CP, es superar:",
+"opciones": [
+"0,5 g/l.",
+"0,8 g/l.",
+"1,2 g/l."
+],
+"correcta_idx": 2,
+"explicacion": "Constituye delito superar 1,2 g/l en sangre (equivalente a 0,60 mg/l en aire espirado).",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 826,
+"enunciado": "La tasa reducida de los noveles se aplica durante:",
+"opciones": [
+"El primer año de permiso.",
+"Los dos primeros años de permiso.",
+"Los tres primeros años de permiso."
+],
+"correcta_idx": 1,
+"explicacion": "La tasa reducida de 0,15 mg/l se aplica a los conductores durante los dos primeros años de permiso.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 827,
+"enunciado": "Un conductor general que da 0,45 mg/l en aire espirado:",
+"opciones": [
+"No supera la tasa administrativa general.",
+"Supera la tasa general (0,25) y pierde 4 puntos, pero no comete delito.",
+"Comete delito del art. 379 CP."
+],
+"correcta_idx": 1,
+"explicacion": "0,45 mg/l está entre 0,25 y 0,50: supera la tasa general y resta 4 puntos, pero al no pasar de 0,60 no es delito.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 828,
+"enunciado": "La tasa máxima general de alcohol en aire espirado para un conductor con más de dos años de permiso es de:",
+"opciones": [
+"0,25 mg/l.",
+"0,15 mg/l.",
+"0,30 mg/l."
+],
+"correcta_idx": 0,
+"explicacion": "El dato correcto es 0,25 mg/l en aire espirado; 0,15 corresponde a noveles y profesionales, y 0,30 no es un umbral legal en aire.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 829,
+"enunciado": "La tasa reducida en aire espirado para conductores noveles y profesionales es de:",
+"opciones": [
+"0,15 mg/l.",
+"0,25 mg/l.",
+"0,10 mg/l."
+],
+"correcta_idx": 0,
+"explicacion": "El valor correcto es 0,15 mg/l; 0,25 es la tasa general y 0,10 no existe como límite legal.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 830,
+"enunciado": "Conducir con una tasa de alcohol en aire espirado superior a este valor constituye delito del art. 379 CP:",
+"opciones": [
+"0,50 mg/l.",
+"0,60 mg/l.",
+"0,65 mg/l."
+],
+"correcta_idx": 1,
+"explicacion": "El umbral penal es superar 0,60 mg/l en aire espirado; ni 0,50 ni 0,65 son la cifra legal correcta.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 831,
+"enunciado": "El límite del delito de alcoholemia expresado en gramos de alcohol por litro de sangre es superar:",
+"opciones": [
+"1,0 g/l.",
+"1,2 g/l.",
+"1,5 g/l."
+],
+"correcta_idx": 1,
+"explicacion": "La cifra correcta es 1,2 g/l en sangre (equivale a 0,60 mg/l en aire); 1,0 y 1,5 son incorrectas.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 832,
+"enunciado": "La tasa general de 0,25 mg/l en aire espirado equivale en sangre a:",
+"opciones": [
+"0,3 g/l.",
+"0,5 g/l.",
+"0,6 g/l."
+],
+"correcta_idx": 1,
+"explicacion": "La equivalencia correcta es 0,5 g/l en sangre; 0,3 g/l corresponde a la tasa reducida y 0,6 g/l no es un umbral legal.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 833,
+"enunciado": "La tasa reducida de 0,15 mg/l en aire espirado equivale en sangre a:",
+"opciones": [
+"0,3 g/l.",
+"0,5 g/l.",
+"0,15 g/l."
+],
+"correcta_idx": 0,
+"explicacion": "La equivalencia correcta es 0,3 g/l en sangre; 0,5 g/l corresponde a la tasa general y 0,15 g/l es un error.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 834,
+"enunciado": "Una tasa en aire espirado dentro del rango 0,25-0,50 mg/l conlleva la pérdida de:",
+"opciones": [
+"4 puntos.",
+"6 puntos.",
+"2 puntos."
+],
+"correcta_idx": 0,
+"explicacion": "En ese rango la pérdida es de 4 puntos; los 6 puntos corresponden a tasas superiores a 0,50 mg/l.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 835,
+"enunciado": "Una tasa en aire espirado superior a 0,50 mg/l conlleva la pérdida de:",
+"opciones": [
+"4 puntos.",
+"6 puntos.",
+"8 puntos."
+],
+"correcta_idx": 1,
+"explicacion": "Superar 0,50 mg/l resta 6 puntos; 4 puntos corresponden al rango inferior y 8 no es una cuantía prevista.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 836,
+"enunciado": "Dar positivo por presencia de drogas en la prueba salival conlleva la pérdida de:",
+"opciones": [
+"4 puntos.",
+"6 puntos.",
+"3 puntos."
+],
+"correcta_idx": 1,
+"explicacion": "La presencia de drogas resta 6 puntos; no son 4 ni 3.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 837,
+"enunciado": "El artículo del Código Penal que castiga la NEGATIVA a someterse a las pruebas de alcohol o drogas es el:",
+"opciones": [
+"379.",
+"383.",
+"385."
+],
+"correcta_idx": 1,
+"explicacion": "La negativa es el art. 383 CP; el 379 castiga la conducción bajo influencia y el 385 se refiere a otros supuestos.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 838,
+"enunciado": "El artículo del Código Penal que tipifica CONDUCIR bajo la influencia de alcohol o drogas es el:",
+"opciones": [
+"379.",
+"383.",
+"381."
+],
+"correcta_idx": 0,
+"explicacion": "La conducción bajo influencia es el art. 379 CP; el 383 castiga la negativa a las pruebas.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 839,
+"enunciado": "La tasa reducida de alcohol se aplica a los conductores durante:",
+"opciones": [
+"Los dos primeros años de permiso.",
+"Los tres primeros años de permiso.",
+"El primer año de permiso."
+],
+"correcta_idx": 0,
+"explicacion": "El plazo correcto son los dos primeros años; ni uno ni tres.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 840,
+"enunciado": "Circulando por una autopista, ¿cuál es la velocidad máxima genérica de un turismo si ninguna señal indica otra cosa?",
+"opciones": [
+"100 km/h",
+"120 km/h",
+"130 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "En autopista y autovía los turismos y motocicletas tienen como límite genérico 120 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 841,
+"enunciado": "En una autovía sin señalización específica de velocidad, una motocicleta puede circular como máximo a:",
+"opciones": [
+"120 km/h",
+"90 km/h",
+"110 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Las motocicletas comparten con los turismos el límite genérico de 120 km/h en autovía y autopista.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 842,
+"enunciado": "Un turismo circula por una carretera convencional fuera de poblado. Sin otra indicación, su velocidad máxima es:",
+"opciones": [
+"90 km/h",
+"100 km/h",
+"80 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Tras la reforma de 2019 se suprimió el límite de 100 y la genérica en convencional quedó en 90 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 843,
+"enunciado": "¿A qué velocidad máxima debe circular un turismo en una vía urbana con dos carriles por sentido de circulación?",
+"opciones": [
+"30 km/h",
+"50 km/h",
+"40 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "En vías urbanas con dos o más carriles por sentido el límite genérico es de 50 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 844,
+"enunciado": "En una calle urbana con un solo carril por sentido, ¿cuál es la velocidad máxima genérica?",
+"opciones": [
+"30 km/h",
+"20 km/h",
+"50 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Las vías urbanas de un único carril por sentido tienen un límite genérico de 30 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 845,
+"enunciado": "En una calle donde la acera y la calzada están al mismo nivel (plataforma única), la velocidad máxima es:",
+"opciones": [
+"20 km/h",
+"30 km/h",
+"10 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "En las vías de plataforma única, calzada y acera al mismo nivel, el límite es de 20 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 846,
+"enunciado": "La señal S-28 indica una zona residencial. En ella, la velocidad máxima permitida es:",
+"opciones": [
+"30 km/h",
+"20 km/h",
+"40 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "La señal S-28 delimita una zona residencial donde la velocidad máxima es de 20 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 847,
+"enunciado": "La velocidad mínima permitida en una vía es, con carácter general:",
+"opciones": [
+"La mitad de la velocidad máxima genérica de esa vía",
+"Un tercio de la velocidad máxima genérica",
+"Siempre 40 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Como norma general, la velocidad mínima es la mitad de la máxima genérica fijada para la vía.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 848,
+"enunciado": "Al adelantar a otro vehículo en una carretera convencional, respecto al límite de velocidad de la vía:",
+"opciones": [
+"Se puede superar en 20 km/h",
+"Se puede superar en 10 km/h",
+"Hay que respetarlo, no se puede superar"
+],
+"correcta_idx": 2,
+"explicacion": "Desde la reforma de 2022 se eliminó el margen de 20 km/h: al adelantar hay que respetar el límite.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 849,
+"enunciado": "La distancia de seguridad con el vehículo que circula delante debe ser:",
+"opciones": [
+"Siempre de 50 metros",
+"La suficiente para poder detenerse sin colisionar con él",
+"La misma sea cual sea la velocidad"
+],
+"correcta_idx": 1,
+"explicacion": "La distancia de seguridad es la que permite detenerse sin chocar; depende de la velocidad y del estado de la vía.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 850,
+"enunciado": "Ante la presencia de peatones que van a cruzar la calzada, el conductor debe:",
+"opciones": [
+"Mantener la velocidad y tocar el claxon",
+"Moderar la velocidad e incluso detenerse si es necesario",
+"Acelerar para pasar antes que ellos"
+],
+"correcta_idx": 1,
+"explicacion": "Se debe moderar la velocidad y detenerse si es preciso para no poner en peligro a los peatones.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 851,
+"enunciado": "Un ciclomotor tiene, por construcción, una velocidad máxima de:",
+"opciones": [
+"45 km/h",
+"50 km/h",
+"60 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Los ciclomotores y cuadriciclos ligeros están limitados a un máximo de 45 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 852,
+"enunciado": "Un cuadriciclo ligero tiene como velocidad máxima:",
+"opciones": [
+"60 km/h",
+"45 km/h",
+"90 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "Los cuadriciclos ligeros, al igual que los ciclomotores, no pueden superar los 45 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 853,
+"enunciado": "Cuando llueve intensamente, la distancia de seguridad respecto al vehículo de delante debe:",
+"opciones": [
+"Reducirse",
+"Mantenerse igual",
+"Aumentarse"
+],
+"correcta_idx": 2,
+"explicacion": "Con lluvia, hielo o niebla la distancia de frenado crece, por lo que hay que aumentar la distancia de seguridad.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 854,
+"enunciado": "Si un conductor circula anormalmente despacio sin causa justificada:",
+"opciones": [
+"No pasa nada, es más seguro ir despacio",
+"Puede ser sancionado por entorpecer la circulación",
+"Solo se sanciona en autopista"
+],
+"correcta_idx": 1,
+"explicacion": "Circular sin motivo por debajo de los límites mínimos entorpece el tráfico y es sancionable.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 855,
+"enunciado": "Al aproximarse a una obra en la carretera, el conductor debe:",
+"opciones": [
+"Mantener la velocidad de crucero",
+"Moderar la velocidad",
+"Aumentar la velocidad para pasar rápido"
+],
+"correcta_idx": 1,
+"explicacion": "Ante obras hay que moderar la velocidad por la posible presencia de operarios y obstáculos.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 856,
+"enunciado": "Un autobús que circula por una autopista tiene como velocidad máxima genérica:",
+"opciones": [
+"120 km/h",
+"100 km/h",
+"90 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "Los autobuses tienen un límite inferior al de los turismos: 100 km/h en autovía y autopista.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 857,
+"enunciado": "Sobre pavimento deslizante o con firme en mal estado, el conductor debe:",
+"opciones": [
+"Aumentar la velocidad",
+"Moderar la velocidad",
+"Frenar bruscamente"
+],
+"correcta_idx": 1,
+"explicacion": "Ante pavimento deslizante hay que moderar la velocidad para evitar la pérdida de adherencia.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 858,
+"enunciado": "La distancia de frenado de un vehículo aumenta con:",
+"opciones": [
+"El aumento de la velocidad",
+"La disminución de la velocidad",
+"El color del vehículo"
+],
+"correcta_idx": 0,
+"explicacion": "A mayor velocidad, mayor distancia de frenado; además crece con la lluvia, el hielo y la niebla.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 859,
+"enunciado": "Al acercarse a un paso de peatones, aunque no haya nadie cruzando, el conductor debe:",
+"opciones": [
+"Moderar la velocidad para poder detenerse si aparece un peatón",
+"Mantener siempre la velocidad máxima",
+"Acelerar"
+],
+"correcta_idx": 0,
+"explicacion": "Ante un paso de peatones hay que moderar la velocidad para poder detenerse ante un peatón que se disponga a cruzar.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 860,
+"enunciado": "Ante la presencia de animales cerca de la calzada, la conducta correcta es:",
+"opciones": [
+"Acelerar para alejarse cuanto antes",
+"Moderar la velocidad y estar preparado para detenerse",
+"No modificar la velocidad"
+],
+"correcta_idx": 1,
+"explicacion": "La presencia de animales obliga a moderar la velocidad, pues pueden invadir la calzada de forma imprevista.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 861,
+"enunciado": "Cuando la visibilidad es escasa por niebla o humo, respecto a la velocidad el conductor debe:",
+"opciones": [
+"Moderarla",
+"Aumentarla",
+"Mantenerla exactamente igual"
+],
+"correcta_idx": 0,
+"explicacion": "Con poca visibilidad se debe moderar la velocidad para poder reaccionar dentro del campo visible.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 862,
+"enunciado": "Un camión de más de 3.500 kg de MMA tiene en autopista una velocidad máxima genérica de:",
+"opciones": [
+"120 km/h",
+"90 km/h",
+"100 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "Los camiones tienen límites inferiores a los turismos; en autopista su genérica es de 90 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 863,
+"enunciado": "La energía cinética de un vehículo, y por tanto la gravedad de un impacto, depende sobre todo de:",
+"opciones": [
+"El color de la carrocería",
+"La velocidad a la que circula",
+"La antigüedad del vehículo"
+],
+"correcta_idx": 1,
+"explicacion": "La energía cinética crece con el cuadrado de la velocidad, por lo que ésta es determinante en la gravedad del choque.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 864,
+"enunciado": "Cuando una señal fija un límite de velocidad distinto al genérico de la vía, el conductor:",
+"opciones": [
+"Puede elegir el que prefiera",
+"Debe respetar el que indica la señal",
+"Debe respetar siempre el genérico"
+],
+"correcta_idx": 1,
+"explicacion": "La señalización específica prevalece sobre el límite genérico de la vía.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 865,
+"enunciado": "Al aproximarse a un centro escolar en horario de entrada o salida, el conductor debe:",
+"opciones": [
+"Extremar la precaución y moderar la velocidad",
+"Circular a la velocidad máxima genérica",
+"Usar el claxon de forma continua"
+],
+"correcta_idx": 0,
+"explicacion": "La posible presencia de niños obliga a moderar la velocidad y extremar la precaución.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 866,
+"enunciado": "Circular a una velocidad adecuada a las condiciones de la vía permite principalmente:",
+"opciones": [
+"Consumir siempre más combustible",
+"Disponer de tiempo y espacio para reaccionar ante imprevistos",
+"Llegar antes al destino sin riesgo"
+],
+"correcta_idx": 1,
+"explicacion": "Una velocidad adecuada permite reaccionar y detenerse con seguridad ante cualquier obstáculo.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 867,
+"enunciado": "En autovía, ¿pueden un turismo y una motocicleta circular al mismo límite máximo genérico?",
+"opciones": [
+"Sí, ambos a 120 km/h",
+"No, la moto va a 100 km/h",
+"No, el turismo va a 130 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Turismos y motocicletas comparten el límite de 120 km/h en autovía y autopista.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 868,
+"enunciado": "Reducir la velocidad ante un pavimento mojado es recomendable porque:",
+"opciones": [
+"El vehículo consume menos",
+"La adherencia disminuye y aumenta la distancia de frenado",
+"Los frenos se calientan menos"
+],
+"correcta_idx": 1,
+"explicacion": "El firme mojado reduce la adherencia y alarga la frenada, por lo que conviene moderar la velocidad.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 869,
+"enunciado": "Adaptar la velocidad significa, sobre todo, tener en cuenta:",
+"opciones": [
+"Solo el límite señalizado",
+"Las condiciones de la vía, el tráfico, el vehículo y la meteorología",
+"Únicamente la prisa del conductor"
+],
+"correcta_idx": 1,
+"explicacion": "La velocidad debe adaptarse a la vía, el tráfico, el estado del vehículo y las condiciones meteorológicas.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 870,
+"enunciado": "En una vía urbana de plataforma única, la prioridad de la señalización de 20 km/h responde a que:",
+"opciones": [
+"Los peatones comparten el espacio con los vehículos",
+"El firme es de peor calidad",
+"Es una zona de aparcamiento"
+],
+"correcta_idx": 0,
+"explicacion": "En plataforma única peatones y vehículos comparten el mismo nivel, por eso el límite es de 20 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 871,
+"enunciado": "Ante un ciclista al que vamos a rebasar en una carretera estrecha, debemos:",
+"opciones": [
+"Moderar la velocidad y dejar al menos 1,5 m de separación lateral",
+"Adelantar a la máxima velocidad posible",
+"Pitar y no reducir la velocidad"
+],
+"correcta_idx": 0,
+"explicacion": "Al rebasar ciclistas se debe moderar la velocidad y dejar una separación lateral mínima de 1,5 metros.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 872,
+"enunciado": "Al circular por un tramo de vía con hielo, la conducta correcta respecto a la velocidad es:",
+"opciones": [
+"Aumentarla para no perder el control",
+"Reducirla de forma notable",
+"Mantener la máxima genérica"
+],
+"correcta_idx": 1,
+"explicacion": "El hielo reduce drásticamente la adherencia; hay que reducir la velocidad de forma importante.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 873,
+"enunciado": "Un vehículo circula despacio y molesta a los que van detrás en una carretera estrecha. Lo correcto es:",
+"opciones": [
+"Seguir a su ritmo sin más",
+"Facilitar el adelantamiento cuando sea seguro",
+"Frenar para que no le adelanten"
+],
+"correcta_idx": 1,
+"explicacion": "El vehículo lento debe facilitar que los demás le adelanten cuando existan condiciones seguras.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 874,
+"enunciado": "La velocidad excesiva es una de las principales causas de accidente porque:",
+"opciones": [
+"Reduce el tiempo y el espacio disponibles para reaccionar",
+"Mejora la visibilidad",
+"Aumenta la adherencia de los neumáticos"
+],
+"correcta_idx": 0,
+"explicacion": "A mayor velocidad, menos tiempo y espacio para reaccionar y mayor distancia de frenado.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 875,
+"enunciado": "Al circular por un túnel, respecto a la velocidad conviene:",
+"opciones": [
+"Adaptarla y mantener la distancia de seguridad",
+"Circular a la máxima posible",
+"Detenerse a mitad de recorrido"
+],
+"correcta_idx": 0,
+"explicacion": "En túneles hay que adaptar la velocidad, respetar el límite y mantener la distancia de seguridad.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 876,
+"enunciado": "Para un turismo, el límite genérico en carretera convencional coincide con el de:",
+"opciones": [
+"Una motocicleta en la misma vía (90 km/h)",
+"Un camión en autovía",
+"Un ciclomotor"
+],
+"correcta_idx": 0,
+"explicacion": "Turismos y motocicletas tienen el mismo genérico de 90 km/h en carretera convencional.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 877,
+"enunciado": "En una zona con la señal de zona residencial (S-28), además de la velocidad, se debe tener en cuenta que:",
+"opciones": [
+"Los peatones tienen prioridad",
+"No pueden circular vehículos",
+"Se puede aparcar en cualquier sitio"
+],
+"correcta_idx": 0,
+"explicacion": "En zona residencial los peatones tienen prioridad y la velocidad se limita a 20 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 878,
+"enunciado": "Circular a una velocidad demasiado baja en una vía rápida puede:",
+"opciones": [
+"Ser tan peligroso como circular demasiado deprisa",
+"No suponer ningún riesgo",
+"Estar siempre permitido"
+],
+"correcta_idx": 0,
+"explicacion": "La velocidad anormalmente reducida entorpece el tráfico y puede provocar accidentes, igual que el exceso.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 879,
+"enunciado": "Antes de entrar en una curva cerrada, lo correcto es:",
+"opciones": [
+"Frenar dentro de la curva",
+"Reducir la velocidad antes de entrar",
+"Acelerar al entrar"
+],
+"correcta_idx": 1,
+"explicacion": "La reducción de velocidad debe hacerse antes de la curva, para trazarla con seguridad.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 880,
+"enunciado": "En una vía urbana, la velocidad genérica de 30 km/h se aplica a las vías que tienen:",
+"opciones": [
+"Un único carril por sentido de circulación",
+"Dos o más carriles por sentido",
+"Plataforma única"
+],
+"correcta_idx": 0,
+"explicacion": "El límite de 30 km/h corresponde a las vías urbanas con un solo carril por cada sentido.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 881,
+"enunciado": "El conductor debe moderar especialmente la velocidad cuando circula:",
+"opciones": [
+"Por autopista con buen tiempo",
+"Junto a zonas de recreo con niños o al cruzarse con peatones",
+"Únicamente de noche"
+],
+"correcta_idx": 1,
+"explicacion": "Hay que moderar la velocidad ante niños, peatones y demás usuarios vulnerables.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 882,
+"enunciado": "Respetar el límite de velocidad y la distancia de seguridad contribuye principalmente a:",
+"opciones": [
+"Reducir el riesgo de accidente y sus consecuencias",
+"Gastar más combustible",
+"Aumentar el desgaste de los frenos"
+],
+"correcta_idx": 0,
+"explicacion": "Una velocidad y distancia adecuadas reducen el riesgo de colisión y la gravedad de un posible impacto.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 883,
+"enunciado": "En autovía, la velocidad máxima genérica de un autobús es de 100 km/h, mientras que la de un turismo es de:",
+"opciones": [
+"100 km/h",
+"110 km/h",
+"120 km/h"
+],
+"correcta_idx": 2,
+"explicacion": "El turismo puede alcanzar 120 km/h en autovía, 20 km/h más que el autobús, limitado a 100 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 884,
+"enunciado": "Si un turismo circula a 90 km/h por una carretera convencional, su velocidad mínima genérica sería:",
+"opciones": [
+"45 km/h",
+"30 km/h",
+"60 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "La velocidad mínima es la mitad de la máxima genérica: la mitad de 90 son 45 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 885,
+"enunciado": "En autovía (máximo genérico 120 km/h para turismos), la velocidad mínima genérica es de:",
+"opciones": [
+"60 km/h",
+"50 km/h",
+"40 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "La mínima es la mitad de la máxima: la mitad de 120 son 60 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 886,
+"enunciado": "Si duplicamos la velocidad de un vehículo, la distancia de frenado aproximadamente:",
+"opciones": [
+"Se duplica",
+"Se cuadruplica",
+"No varía"
+],
+"correcta_idx": 1,
+"explicacion": "La distancia de frenado crece con el cuadrado de la velocidad: al doble de velocidad, cuádruple de frenado.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 887,
+"enunciado": "Un camión de más de 3.500 kg tiene en carretera convencional un límite genérico de:",
+"opciones": [
+"80 km/h",
+"90 km/h",
+"70 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "En carretera convencional el camión de más de 3.500 kg puede circular como máximo a 90 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 888,
+"enunciado": "La velocidad máxima por construcción de un ciclomotor, según su definición legal, es de:",
+"opciones": [
+"45 km/h",
+"50 km/h",
+"40 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Por construcción, el ciclomotor no puede superar los 45 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 889,
+"enunciado": "Antes de la reforma de 2019, la velocidad máxima en algunas carreteras convencionales era de 100 km/h. Actualmente el máximo genérico es de:",
+"opciones": [
+"100 km/h",
+"90 km/h",
+"80 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "La reforma de 2019 unificó la genérica de convencional en 90 km/h, eliminando el antiguo 100.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 890,
+"enunciado": "En una zona residencial señalizada con la S-28, la velocidad máxima es exactamente:",
+"opciones": [
+"20 km/h",
+"10 km/h",
+"30 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "En zona residencial (S-28) la velocidad no puede superar los 20 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 891,
+"enunciado": "Al triplicar la velocidad, la energía cinética del vehículo se multiplica aproximadamente por:",
+"opciones": [
+"3",
+"9",
+"6"
+],
+"correcta_idx": 1,
+"explicacion": "La energía cinética crece con el cuadrado de la velocidad: al triple, 3 al cuadrado, es decir, nueve veces.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 892,
+"enunciado": "Un turismo que arrastra un remolque ligero por carretera convencional ve su velocidad máxima reducida a:",
+"opciones": [
+"80 km/h",
+"90 km/h",
+"70 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Con remolque, el turismo reduce su genérica de convencional en 10 km/h, quedando en 80 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 893,
+"enunciado": "En una vía urbana de un único carril por sentido, la velocidad genérica es la mitad que en una autovía dividida entre dos. En concreto es:",
+"opciones": [
+"30 km/h",
+"20 km/h",
+"50 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "La vía urbana de un carril por sentido tiene un límite de 30 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 894,
+"enunciado": "Un autobús circula por carretera convencional. Su velocidad máxima genérica es de:",
+"opciones": [
+"80 km/h",
+"90 km/h",
+"100 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "El autobús en carretera convencional está limitado a 80 km/h, por debajo de los 90 del turismo.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 895,
+"enunciado": "En autopista, un turismo puede circular a 120 km/h. En esa misma vía, el límite máximo genérico de un camión de más de 3.500 kg es de:",
+"opciones": [
+"90 km/h",
+"100 km/h",
+"80 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "El camión pesado en autopista tiene un límite de 90 km/h, 30 km/h menos que el turismo.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 896,
+"enunciado": "En una autovía cuyo límite máximo genérico para turismos es de 120 km/h, ninguna señal indica otra cosa. La velocidad máxima permitida para un turismo es de:",
+"opciones": [
+"120 km/h",
+"100 km/h",
+"110 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Sin señalización específica, el turismo en autovía puede alcanzar los 120 km/h de la genérica.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 897,
+"enunciado": "Para un turismo sin remolque, y salvo señalización, la velocidad máxima genérica en carretera convencional fuera de poblado es de:",
+"opciones": [
+"80 km/h",
+"90 km/h",
+"100 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "La correcta es 90 km/h: 80 corresponde al turismo con remolque y 100 era el límite anterior a la reforma de 2019.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 898,
+"enunciado": "En una vía urbana con un único carril por sentido de circulación, la velocidad máxima genérica es de:",
+"opciones": [
+"20 km/h",
+"30 km/h",
+"50 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "La correcta es 30 km/h: 20 corresponde a plataforma única y 50 a vías de dos o más carriles por sentido.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 899,
+"enunciado": "En una vía urbana de plataforma única, con calzada y acera al mismo nivel, la velocidad máxima es de:",
+"opciones": [
+"20 km/h",
+"30 km/h",
+"10 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "La correcta es 20 km/h: 30 corresponde a vías de un carril por sentido y 10 no es un límite genérico establecido.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 900,
+"enunciado": "Al adelantar en una carretera convencional cuyo límite es de 90 km/h, un turismo puede alcanzar como máximo:",
+"opciones": [
+"110 km/h",
+"100 km/h",
+"90 km/h"
+],
+"correcta_idx": 2,
+"explicacion": "La correcta es 90 km/h: desde 2022 se eliminó el margen, antes se permitían 110 (90+20) o 100 (90+10).",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 901,
+"enunciado": "Si la velocidad máxima genérica de una vía es de 120 km/h, la velocidad mínima genérica en esa vía es de:",
+"opciones": [
+"50 km/h",
+"60 km/h",
+"40 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "La correcta es 60 km/h: la mínima es la mitad exacta de la máxima (120/2), no un tercio ni otra proporción.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 902,
+"enunciado": "La velocidad máxima por construcción de un ciclomotor o cuadriciclo ligero es de:",
+"opciones": [
+"40 km/h",
+"45 km/h",
+"50 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "La correcta es 45 km/h: es el máximo legal por construcción, ni 40 ni 50.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 903,
+"enunciado": "Si un vehículo pasa de 50 a 100 km/h (dobla su velocidad), su distancia de frenado aproximadamente se multiplica por:",
+"opciones": [
+"2",
+"4",
+"3"
+],
+"correcta_idx": 1,
+"explicacion": "La correcta es 4: la distancia de frenado varía con el cuadrado de la velocidad (2 al cuadrado = 4), no de forma proporcional.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 904,
+"enunciado": "Un turismo que arrastra un remolque circula por autovía. Su velocidad máxima genérica se ve reducida a:",
+"opciones": [
+"90 km/h",
+"100 km/h",
+"80 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "La correcta es 90 km/h: el conjunto con remolque reduce en autovía su límite desde los 120 del turismo solo.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 905,
+"enunciado": "En una zona residencial señalizada con la S-28, la velocidad máxima permitida es de:",
+"opciones": [
+"30 km/h",
+"20 km/h",
+"10 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "La correcta es 20 km/h: es el límite propio de la zona residencial S-28, ni 30 ni 10.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 906,
+"enunciado": "En autovía o autopista, la velocidad máxima genérica de un autobús es de:",
+"opciones": [
+"100 km/h",
+"120 km/h",
+"90 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "La correcta es 100 km/h: 120 corresponde a turismos y motos, y 90 al camión pesado.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 907,
+"enunciado": "Un camión de más de 3.500 kg de MMA circula por carretera convencional. Su velocidad máxima genérica es de:",
+"opciones": [
+"90 km/h",
+"80 km/h",
+"100 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "La correcta es 90 km/h: el camión pesado en convencional comparte el 90 del turismo, mientras que 80 es el del autobús.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 908,
+"enunciado": "En un cruce sin semáforos, un agente de la autoridad te indica con el brazo extendido horizontalmente que te detengas, pero una señal vertical de la vía te da prioridad de paso. ¿Cómo debes actuar?",
+"opciones": [
+"Elegir libremente, porque tienen el mismo rango",
+"Continuar según la señal vertical, porque prevalece sobre las indicaciones del agente",
+"Obedecer al agente y detenerme, porque sus órdenes tienen prioridad sobre las señales verticales"
+],
+"correcta_idx": 2,
+"explicacion": "Las órdenes de los agentes están en el primer lugar del orden de prioridad, por encima de las señales verticales.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 909,
+"enunciado": "Circulas por una calle donde un semáforo está en verde, pero unas balizas y conos naranjas de una obra desvían el tráfico hacia el carril contrario. ¿Qué prevalece?",
+"opciones": [
+"El semáforo en verde, porque la luz siempre manda sobre las obras",
+"La señalización de balizamiento de obras, que está por encima de los semáforos",
+"Las marcas viales pintadas debajo de los conos"
+],
+"correcta_idx": 1,
+"explicacion": "La señalización circunstancial y de balizamiento de obras ocupa el segundo lugar de prioridad, por encima de los semáforos.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 910,
+"enunciado": "Encuentras una señal triangular con borde rojo que muestra una bocacalle incorporándose por la derecha. ¿Qué te está indicando exactamente?",
+"opciones": [
+"Que estás obligado a ceder el paso a los que salen de esa bocacalle",
+"Que te aproximas a una intersección donde, salvo otra indicación, tú tienes la prioridad de paso",
+"Que debes detenerte por completo antes de la bocacalle"
+],
+"correcta_idx": 1,
+"explicacion": "Es una señal de advertencia de intersección con prioridad; anuncia el cruce, y por defecto conserva la prioridad quien la lleva.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 911,
+"enunciado": "Ante un STOP, la calzada tiene pintada una línea transversal continua. Si por nieve esa línea no es visible, ¿qué debes hacer?",
+"opciones": [
+"Puedo pasar sin detenerme, porque sin la marca vial la obligación desaparece",
+"Detenerme igualmente, porque la señal vertical de STOP obliga con independencia de que se vea o no la marca vial",
+"Ceder el paso pero sin necesidad de detenerme por completo"
+],
+"correcta_idx": 1,
+"explicacion": "La señal vertical R-2 (STOP) obliga a detenerse totalmente; la marca vial la complementa, pero su ausencia no anula la obligación.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 912,
+"enunciado": "En el centro de la calzada ves dos líneas longitudinales paralelas: una continua en tu lado y una discontinua en el lado contrario. ¿Qué significa para ti?",
+"opciones": [
+"Puedo rebasarla para adelantar, porque hay una discontinua",
+"No puedo rebasarla ni pisarla, porque la línea de mi lado es continua",
+"Puedo pisarla solo para estacionar"
+],
+"correcta_idx": 1,
+"explicacion": "Cuando hay una continua y una discontinua juntas, cada conductor obedece la que tiene a su lado; la continua no puede rebasarse ni pisarse.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 913,
+"enunciado": "Ves una señal circular de fondo azul con la silueta blanca de una bicicleta y otra, también circular pero con borde rojo, con una bicicleta y una barra roja. ¿En qué se diferencian?",
+"opciones": [
+"La azul obliga a circular por la vía ciclista; la de borde rojo prohíbe la entrada a bicicletas",
+"Ambas prohíben las bicicletas, solo cambia el color",
+"La azul es de peligro y la roja de obligación"
+],
+"correcta_idx": 0,
+"explicacion": "El fondo azul circular indica obligación (vía obligatoria para ciclos); el borde rojo circular indica prohibición (entrada prohibida a bicicletas).",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 914,
+"enunciado": "Una marca vial amarilla en zigzag pintada junto al bordillo, ¿qué te comunica?",
+"opciones": [
+"Que es una zona reservada para estacionar solo residentes",
+"Que hay una parada de autobús o zona con parada/estacionamiento prohibido o restringido",
+"Que puedes estacionar durante un tiempo limitado"
+],
+"correcta_idx": 1,
+"explicacion": "Las marcas amarillas en zigzag señalan zonas donde la parada o el estacionamiento están prohibidos o restringidos, típicas de paradas de bus.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 915,
+"enunciado": "Debajo de una señal de peligro por curva ves un panel rectangular con la inscripción '500 m'. ¿Qué te indica ese panel complementario?",
+"opciones": [
+"La longitud del tramo peligroso, que dura 500 m",
+"La velocidad máxima permitida en la curva",
+"La distancia a la que empieza el peligro, situado a 500 m"
+],
+"correcta_idx": 2,
+"explicacion": "Un panel con una distancia sencilla indica a qué distancia comienza la situación señalada; para indicar longitud del tramo se usa otro formato.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 916,
+"enunciado": "Llegas a una intersección con un semáforo apagado (sin ninguna luz encendida) y ves una señal de STOP en tu vía. ¿Qué haces?",
+"opciones": [
+"Paso con precaución sin detenerme, porque el semáforo apagado da prioridad",
+"Me detengo por completo, porque al no funcionar el semáforo rige la señal vertical de STOP",
+"Espero a que el semáforo vuelva a funcionar"
+],
+"correcta_idx": 1,
+"explicacion": "Si el semáforo está apagado o averiado, rige la señalización vertical existente; el STOP obliga a detenerse por completo.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 917,
+"enunciado": "Distingue entre la señal de 'Ceda el paso' y la de 'STOP' en cuanto a la obligación de parar.",
+"opciones": [
+"Ambas obligan siempre a detener totalmente el vehículo",
+"El 'Ceda el paso' obliga a ceder pero solo a detenerse si es necesario; el 'STOP' obliga a detenerse por completo siempre",
+"El 'STOP' solo obliga a ceder y el 'Ceda el paso' a detenerse"
+],
+"correcta_idx": 1,
+"explicacion": "El Ceda el paso (R-1) obliga a ceder la prioridad, deteniéndose únicamente si hace falta; el STOP (R-2) obliga a la detención completa.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 918,
+"enunciado": "Ves una señal rectangular azul con una flecha blanca y, sobre otra vía distinta, una señal cuadrada blanca con flecha negra. ¿Qué diferencia hay en su naturaleza?",
+"opciones": [
+"La azul es de indicación de sentido/dirección; la blanca suele ser de orientación en itinerarios",
+"Ambas son de obligación de girar",
+"La azul prohíbe el giro y la blanca lo obliga"
+],
+"correcta_idx": 0,
+"explicacion": "Las señales rectangulares azules son de indicación; no imponen obligación de maniobra como las circulares azules de sentido obligatorio.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 919,
+"enunciado": "Una señal cuadrada azul con una flecha blanca hacia arriba, ¿qué indica y en qué se diferencia de la circular azul con la misma flecha?",
+"opciones": [
+"La cuadrada indica una calle de sentido único; la circular obliga a seguir de frente",
+"Ambas obligan a seguir de frente sin excepción",
+"La cuadrada prohíbe seguir recto y la circular lo permite"
+],
+"correcta_idx": 0,
+"explicacion": "La cuadrada azul es de indicación (calle de dirección única); la circular azul es de obligación (sentido obligatorio de frente).",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 920,
+"enunciado": "En un paso a nivel el semáforo muestra una luz roja intermitente y no hay barreras bajadas. ¿Qué te obliga a hacer?",
+"opciones": [
+"Pasar con precaución porque intermitente significa solo precaución",
+"Detenerme, porque la luz roja intermitente en un paso a nivel obliga a parar igual que una roja fija",
+"Reducir la velocidad sin llegar a detenerme"
+],
+"correcta_idx": 1,
+"explicacion": "En pasos a nivel la luz roja intermitente obliga a detenerse; no equivale al ámbar intermitente de precaución.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 921,
+"enunciado": "Hay una contradicción: una señal vertical prohíbe girar a la izquierda, pero en el suelo una flecha pintada (marca vial) indica giro a la izquierda. ¿Qué obedeces?",
+"opciones": [
+"La marca vial del suelo, porque está más cerca del vehículo",
+"La señal vertical, porque prevalece sobre las marcas viales",
+"La que sea más restrictiva de las dos indistintamente"
+],
+"correcta_idx": 1,
+"explicacion": "En el orden de prioridad, las señales verticales están por encima de las marcas viales; prevalece la vertical.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 922,
+"enunciado": "Circulas y ves una señal circular con fondo blanco, borde rojo y una cifra '40' en negro; poco después, una señal cuadrada azul con un '40' blanco. ¿Qué diferencia hay?",
+"opciones": [
+"La circular fija una velocidad máxima de 40; la cuadrada azul recomienda o indica una velocidad de 40",
+"Ambas imponen 40 km/h como máximo obligatorio",
+"La circular es velocidad mínima y la azul máxima"
+],
+"correcta_idx": 0,
+"explicacion": "La circular con borde rojo es de prohibición (velocidad máxima obligatoria); la cuadrada azul es de indicación (velocidad aconsejada).",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 923,
+"enunciado": "Una señal circular de fondo azul con un número blanco '60' rodeado, ¿qué te obliga a hacer?",
+"opciones": [
+"A no superar los 60 km/h como velocidad máxima",
+"A circular al menos a 60 km/h, pues es una velocidad mínima obligatoria",
+"A circular exactamente a 60 km/h sin variación"
+],
+"correcta_idx": 1,
+"explicacion": "El fondo azul circular con una cifra indica velocidad mínima obligatoria: no se debe circular por debajo de ella.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 924,
+"enunciado": "Una señal triangular con borde rojo que muestra la silueta de la calzada estrechándose por ambos lados, ¿qué anuncia?",
+"opciones": [
+"Estrechamiento de la calzada por ambos lados",
+"Estrechamiento de la calzada por el lado derecho",
+"Estrechamiento de la calzada por el lado izquierdo"
+],
+"correcta_idx": 0,
+"explicacion": "Si el dibujo se estrecha por los dos lados, advierte de estrechamiento por ambos lados; si fuera solo por un lado, indicaría ese lado concreto.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 925,
+"enunciado": "Un semáforo muestra la luz ámbar fija cuando ya estás muy cerca de la línea de detención y no puedes parar con seguridad. ¿Qué debes hacer?",
+"opciones": [
+"Detenerte bruscamente en cualquier caso ante la línea",
+"Continuar, porque el ámbar fijo obliga a detenerse salvo que ya no se pueda con seguridad",
+"Acelerar siempre al ver el ámbar fijo"
+],
+"correcta_idx": 1,
+"explicacion": "El ámbar fijo obliga a detenerse, pero se exceptúa el caso en que el vehículo esté tan cerca que no pueda pararse en condiciones de seguridad.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 926,
+"enunciado": "Un semáforo circular muestra una luz ámbar intermitente en un cruce. ¿Qué te indica?",
+"opciones": [
+"Que debes detenerte por completo antes del cruce",
+"Que puedes continuar con precaución, extremando la atención al pasar",
+"Que la vía está cortada más adelante"
+],
+"correcta_idx": 1,
+"explicacion": "El ámbar intermitente permite pasar, pero obliga a extremar la precaución; no obliga a detenerse como el rojo o el ámbar fijo.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 927,
+"enunciado": "Una línea longitudinal continua pintada en el centro de la calzada. Selecciona la afirmación correcta.",
+"opciones": [
+"No puede ser rebasada ni pisada por los vehículos",
+"No puede ser rebasada, aunque sí pisada para adelantar",
+"Puede rebasarse cuando no venga nadie de frente"
+],
+"correcta_idx": 0,
+"explicacion": "La línea longitudinal continua no puede rebasarse ni pisarse; solo la discontinua puede rebasarse con precaución.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 928,
+"enunciado": "Un semáforo en verde para tu sentido de marcha en un cruce, ¿qué te permite exactamente?",
+"opciones": [
+"Pasar siempre, tengas o no la vía despejada",
+"Pasar, si la vía por la que vas a entrar está despejada",
+"Pasar solo tras detenerte primero"
+],
+"correcta_idx": 1,
+"explicacion": "El verde permite el paso, pero condicionado a que la calzada a la que se accede esté despejada para no quedar bloqueado en el cruce.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 929,
+"enunciado": "Un panel complementario colocado bajo una señal indica, entre otras cosas:",
+"opciones": [
+"Únicamente la velocidad máxima del tramo",
+"Solo la matrícula de los vehículos afectados",
+"La distancia, la longitud del tramo o a qué se aplica la señal"
+],
+"correcta_idx": 2,
+"explicacion": "El panel complementario precisa el alcance de la señal: distancia hasta ella, longitud del tramo afectado o a qué vehículos/situaciones se aplica.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 930,
+"enunciado": "Una señal de STOP (R-2), ¿qué obliga a hacer al conductor?",
+"opciones": [
+"A ceder el paso deteniéndose solo si viene otro vehículo",
+"A detener por completo el vehículo y ceder el paso",
+"A reducir la velocidad sin necesidad de detenerse"
+],
+"correcta_idx": 1,
+"explicacion": "El STOP obliga a la detención completa del vehículo y a ceder el paso; a diferencia del Ceda el paso, la parada es obligatoria siempre.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 931,
+"enunciado": "Encuentras una señal de 'Calzada con prioridad' (rombo amarillo con borde blanco). ¿Qué te indica?",
+"opciones": [
+"Que tienes prioridad de paso en las intersecciones de la vía por la que circulas",
+"Que debes ceder el paso en las intersecciones de la vía por la que circulas",
+"Que has de detenerte en las intersecciones de la vía por la que circulas"
+],
+"correcta_idx": 0,
+"explicacion": "El rombo amarillo indica que circulas por una vía con prioridad; solo la señal de fin de prioridad cambiaría esa situación.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 932,
+"enunciado": "Una señal de 'Prioridad respecto al sentido contrario' se coloca en un tramo estrecho. ¿Qué significa?",
+"opciones": [
+"Que tienes prioridad de paso frente a los vehículos que vienen de frente por ese tramo estrecho",
+"Que debes ceder el paso a los vehículos que vienen de frente por ese tramo estrecho",
+"Que debes detenerte antes de entrar en el tramo estrecho"
+],
+"correcta_idx": 0,
+"explicacion": "Esta señal otorga prioridad frente al sentido contrario; la señal opuesta (ceder al sentido contrario) obligaría a ceder.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 933,
+"enunciado": "Una línea longitudinal discontinua en la calzada, ¿qué permite?",
+"opciones": [
+"Rebasarla con precaución cuando la maniobra sea segura",
+"Rebasarla siempre sin ninguna precaución",
+"No rebasarla en ningún caso"
+],
+"correcta_idx": 0,
+"explicacion": "La línea discontinua puede rebasarse cuando la seguridad de la circulación lo permita; la continua, en cambio, no puede rebasarse.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 934,
+"enunciado": "En el orden de prioridad entre señales, las órdenes de los agentes ocupan el lugar:",
+"opciones": [
+"Segundo, por debajo del balizamiento de obras",
+"Último, por debajo de las marcas viales",
+"Primero, por encima de cualquier otra señalización"
+],
+"correcta_idx": 2,
+"explicacion": "Los agentes están en el primer nivel de prioridad; después van obras, semáforos, señales verticales y, por último, las marcas viales.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 935,
+"enunciado": "Entre un semáforo y una señal vertical que se contradicen, ¿cuál prevalece?",
+"opciones": [
+"El semáforo, porque está por encima de las señales verticales",
+"La señal vertical, porque está por encima de los semáforos",
+"Ninguno; en caso de duda hay que detenerse siempre"
+],
+"correcta_idx": 0,
+"explicacion": "En el orden de prioridad, los semáforos (tercer lugar) prevalecen sobre las señales verticales (cuarto lugar).",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 936,
+"enunciado": "Una marca vial de una línea de detención transversal continua unida a la señal de STOP indica al conductor:",
+"opciones": [
+"El punto exacto donde debe detener por completo el vehículo",
+"El punto donde debe reducir la velocidad sin detenerse",
+"El punto donde termina la zona de estacionamiento"
+],
+"correcta_idx": 0,
+"explicacion": "La línea de detención marca el lugar preciso donde el vehículo debe quedar completamente parado antes de la intersección.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 937,
+"enunciado": "Circula por una vía sin señales ni semáforos y llega a un cruce al mismo tiempo que otro vehículo que aparece por su derecha. ¿Quién pasa primero?",
+"opciones": [
+"El vehículo que viene por la derecha.",
+"Usted, por ir en la vía principal.",
+"El que circule a mayor velocidad."
+],
+"correcta_idx": 0,
+"explicacion": "Sin señalización que regule el cruce, la preferencia es para quien llega por la derecha.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 938,
+"enunciado": "¿Qué vehículos tienen preferencia de paso en cualquier caso frente al resto de la circulación?",
+"opciones": [
+"Los que transportan mercancías peligrosas.",
+"Los vehículos que circulan sobre raíles, como el tranvía o el tren.",
+"Los autobuses de línea regular."
+],
+"correcta_idx": 1,
+"explicacion": "Los vehículos que se desplazan sobre raíles tienen siempre prioridad de paso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 939,
+"enunciado": "¿Qué obligación impone la señal de STOP al conductor que la encuentra?",
+"opciones": [
+"Reducir la velocidad y continuar si no viene nadie.",
+"Encender las luces de emergencia y avanzar.",
+"Detener totalmente el vehículo y ceder el paso."
+],
+"correcta_idx": 2,
+"explicacion": "El STOP obliga a detención total del vehículo y a ceder el paso a la vía a la que se accede.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 940,
+"enunciado": "En una glorieta o rotonda, salvo señal que indique lo contrario, ¿quién tiene la preferencia de paso?",
+"opciones": [
+"Quien va a entrar en la glorieta.",
+"Quien ya circula por el interior de la glorieta.",
+"El vehículo de mayor tamaño."
+],
+"correcta_idx": 1,
+"explicacion": "En la glorieta tiene preferencia quien ya circula por ella, salvo señalización en sentido contrario.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 941,
+"enunciado": "Como norma general, ¿por qué lado se realiza el adelantamiento?",
+"opciones": [
+"Por el arcén.",
+"Por la derecha.",
+"Por la izquierda."
+],
+"correcta_idx": 2,
+"explicacion": "El adelantamiento se efectúa, con carácter general, por la izquierda del vehículo adelantado.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 942,
+"enunciado": "¿Qué debe hacer antes de incorporarse a la circulación desde un estacionamiento?",
+"opciones": [
+"Ceder el paso a los vehículos que ya circulan.",
+"Tocar el claxon para avisar de su salida.",
+"Exigir que se detengan los que circulan."
+],
+"correcta_idx": 0,
+"explicacion": "Quien se incorpora a la circulación debe ceder el paso a los que ya circulan por la vía.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 943,
+"enunciado": "La maniobra de marcha atrás está permitida:",
+"opciones": [
+"Como maniobra habitual en cualquier vía.",
+"En autovía siempre que haya poco tráfico.",
+"Solo como maniobra auxiliar, de corto recorrido y nunca en autopista o autovía."
+],
+"correcta_idx": 2,
+"explicacion": "La marcha atrás es una maniobra auxiliar de corto recorrido y está prohibida en autopistas y autovías.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 944,
+"enunciado": "¿Con qué debe señalizar las maniobras como girar o cambiar de carril?",
+"opciones": [
+"Con los intermitentes, con la suficiente antelación.",
+"Con las luces de posición.",
+"Únicamente con gestos de la mano."
+],
+"correcta_idx": 0,
+"explicacion": "Todas las maniobras deben señalizarse con los intermitentes y con la antelación suficiente.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 945,
+"enunciado": "Ante un vehículo de emergencia en servicio urgente con las señales luminosas y acústicas conectadas, usted debe:",
+"opciones": [
+"Mantener su velocidad sin variar la trayectoria.",
+"Facilitarle el paso, apartándose y deteniéndose si es necesario.",
+"Acelerar para no entorpecerlo."
+],
+"correcta_idx": 1,
+"explicacion": "Los vehículos prioritarios en servicio urgente tienen preferencia; hay que facilitarles el paso y detenerse si es preciso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 946,
+"enunciado": "¿Cuándo puede adelantarse por la derecha?",
+"opciones": [
+"Nunca, en ninguna circunstancia.",
+"Cuando el vehículo de delante ha indicado que va a girar a la izquierda y hay espacio.",
+"Siempre que se tenga prisa."
+],
+"correcta_idx": 1,
+"explicacion": "Se puede adelantar por la derecha si el precedente va a girar a la izquierda y existe espacio suficiente.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 947,
+"enunciado": "¿Dónde está prohibido cambiar el sentido de la marcha?",
+"opciones": [
+"En una calle ancha de doble sentido.",
+"En un cruce señalizado que lo permita.",
+"En un túnel."
+],
+"correcta_idx": 2,
+"explicacion": "Está prohibido cambiar de sentido en túneles, así como en cambios de rasante, curvas, pasos a nivel y autopistas/autovías.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 948,
+"enunciado": "Al llegar a un paso de peatones señalizado y ver personas cruzando, el conductor debe:",
+"opciones": [
+"Detenerse y cederles el paso.",
+"Avisar con el claxon para que se aparten.",
+"Rodearlos por el otro carril."
+],
+"correcta_idx": 0,
+"explicacion": "En pasos de peatones señalizados, los peatones tienen prioridad y el conductor debe cederles el paso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 949,
+"enunciado": "¿Está permitido parar o estacionar sobre un paso de peatones?",
+"opciones": [
+"Sí, si es solo un momento.",
+"No, está prohibido.",
+"Sí, si no hay peatones cerca."
+],
+"correcta_idx": 1,
+"explicacion": "Parar y estacionar está prohibido sobre los pasos de peatones.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 950,
+"enunciado": "Al terminar un adelantamiento y volver a su carril, usted debe:",
+"opciones": [
+"Cerrarle el paso rápidamente al adelantado.",
+"Regresar sin obligar al adelantado a frenar bruscamente.",
+"Permanecer indefinidamente en el carril izquierdo."
+],
+"correcta_idx": 1,
+"explicacion": "Tras adelantar hay que volver al carril propio sin forzar una frenada brusca del vehículo adelantado.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 951,
+"enunciado": "¿Está permitido estacionar delante de un vado debidamente señalizado?",
+"opciones": [
+"Sí, durante el día.",
+"Sí, si el vehículo es pequeño.",
+"No, está prohibido."
+],
+"correcta_idx": 2,
+"explicacion": "Estacionar delante de un vado señalizado está prohibido, ya que impide la entrada y salida de vehículos.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 952,
+"enunciado": "Al realizar marcha atrás, el conductor:",
+"opciones": [
+"Tiene siempre preferencia sobre los peatones.",
+"No necesita mirar hacia atrás.",
+"Debe ceder el paso a los peatones."
+],
+"correcta_idx": 2,
+"explicacion": "Durante la marcha atrás el conductor debe extremar la precaución y ceder el paso a los peatones.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 953,
+"enunciado": "En un paso a nivel con las barreras bajando, el conductor debe:",
+"opciones": [
+"Cruzar rápido antes de que cierren del todo.",
+"Detenerse y esperar a que se abran las barreras.",
+"Rodear la barrera por el arcén."
+],
+"correcta_idx": 1,
+"explicacion": "Ante barreras bajando o bajadas hay que detenerse; el tren tiene prioridad absoluta.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 954,
+"enunciado": "El cambio de sentido de la marcha solo puede efectuarse:",
+"opciones": [
+"Donde esté permitido y sin crear peligro ni obstáculo a la circulación.",
+"En cualquier punto si no viene nadie.",
+"Siempre en el interior de las curvas."
+],
+"correcta_idx": 0,
+"explicacion": "El cambio de sentido se hace solo donde esté permitido y sin generar peligro ni obstaculizar el tráfico.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 955,
+"enunciado": "Un vehículo que va a girar a la izquierda en una intersección, antes de hacerlo, debe:",
+"opciones": [
+"Acelerar para completar el giro rápido.",
+"Colocarse pegado al bordillo derecho.",
+"Señalizar el giro y ceder el paso a quien tenga preferencia."
+],
+"correcta_idx": 2,
+"explicacion": "Antes de girar a la izquierda hay que señalizarlo, situarse correctamente y ceder el paso a quien corresponda.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 956,
+"enunciado": "Al girar para entrar en otra vía y coincidir con peatones que cruzan por el paso de la calle a la que accede, usted debe:",
+"opciones": [
+"Cederles el paso.",
+"Pasar antes que ellos.",
+"Avisarles con las luces."
+],
+"correcta_idx": 0,
+"explicacion": "Al girar hacia una vía donde cruzan peatones, estos tienen prioridad y hay que cederles el paso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 957,
+"enunciado": "El adelantamiento por la derecha en ciudad está permitido:",
+"opciones": [
+"En calzadas con varios carriles en el mismo sentido señalizados con marcas.",
+"En cualquier calle estrecha.",
+"Solo de noche."
+],
+"correcta_idx": 0,
+"explicacion": "En vías urbanas con varios carriles en el mismo sentido puede rebasarse por la derecha.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 958,
+"enunciado": "Ante una señal de 'ceda el paso' con la vía libre, el conductor:",
+"opciones": [
+"Debe detenerse siempre por completo.",
+"Puede continuar sin detenerse totalmente.",
+"Debe dar marcha atrás."
+],
+"correcta_idx": 1,
+"explicacion": "El 'ceda el paso' no obliga a detención total; si no viene nadie con preferencia, se puede continuar.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 959,
+"enunciado": "Antes de abrir la puerta al bajar del vehículo estacionado, el conductor debe:",
+"opciones": [
+"Abrir sin más, la vía es suya.",
+"Bajar por la puerta más cercana al tráfico sin mirar.",
+"Comprobar que no se pone en peligro ni se obstaculiza a otros usuarios."
+],
+"correcta_idx": 2,
+"explicacion": "Al abrir la puerta hay que asegurarse de no crear peligro ni entorpecer a peatones o vehículos, especialmente ciclistas.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 960,
+"enunciado": "Un tranvía que se aproxima a un cruce respecto al resto de vehículos:",
+"opciones": [
+"Debe ceder el paso siempre.",
+"Tiene preferencia de paso.",
+"No tiene ninguna preferencia especial."
+],
+"correcta_idx": 1,
+"explicacion": "Los vehículos sobre raíles, como el tranvía, tienen preferencia de paso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 961,
+"enunciado": "¿Está permitido adelantar en una curva de visibilidad reducida?",
+"opciones": [
+"Sí, con precaución.",
+"No, está prohibido.",
+"Sí, si no viene nadie de frente en ese momento."
+],
+"correcta_idx": 1,
+"explicacion": "Adelantar en curvas de visibilidad reducida está prohibido por el riesgo de colisión frontal.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 962,
+"enunciado": "En un semáforo en verde para usted, pero con la salida bloqueada por una retención al otro lado del cruce:",
+"opciones": [
+"No debe entrar en el cruce hasta poder salir de él.",
+"Debe entrar porque tiene el verde.",
+"Debe tocar el claxon y avanzar."
+],
+"correcta_idx": 0,
+"explicacion": "Aunque el semáforo esté verde, no se debe invadir el cruce si se va a quedar detenido dentro, bloqueándolo.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 963,
+"enunciado": "¿Está permitida la marcha atrás en autopista?",
+"opciones": [
+"Sí, un tramo muy corto.",
+"Sí, si te has pasado la salida.",
+"No, está totalmente prohibida."
+],
+"correcta_idx": 2,
+"explicacion": "La marcha atrás está prohibida en autopistas y autovías en todo caso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 964,
+"enunciado": "En un carril-bici, parar o estacionar el turismo está:",
+"opciones": [
+"Prohibido.",
+"Permitido unos minutos.",
+"Permitido si no pasa ninguna bicicleta."
+],
+"correcta_idx": 0,
+"explicacion": "Parar y estacionar en los carriles reservados a bicicletas está prohibido.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 965,
+"enunciado": "Un vehículo prioritario en servicio urgente, ¿puede rebasar un semáforo en rojo?",
+"opciones": [
+"No, nunca puede saltarse un semáforo.",
+"Sí, con precaución y usando sus señales, cuando el servicio lo exija.",
+"Sí, sin necesidad de ninguna precaución."
+],
+"correcta_idx": 1,
+"explicacion": "Los vehículos prioritarios pueden dejar de cumplir ciertas normas, como el rojo, extremando la precaución y con sus señales activadas.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 966,
+"enunciado": "Cuando una ambulancia con prioridad se aproxima por detrás mientras usted circula, debe:",
+"opciones": [
+"Frenar en seco en su carril.",
+"Facilitarle el paso apartándose hacia la derecha cuando sea posible.",
+"Ignorarla si no le afecta directamente."
+],
+"correcta_idx": 1,
+"explicacion": "Hay que facilitar el paso al vehículo prioritario, normalmente desplazándose y deteniéndose a la derecha.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 967,
+"enunciado": "Antes de cambiar de carril, el conductor debe:",
+"opciones": [
+"Comprobar que no molesta a otros, señalizar y ceder el paso a quien circula por ese carril.",
+"Cambiar sin más si tiene prisa.",
+"Cambiar solo mirando el retrovisor central."
+],
+"correcta_idx": 0,
+"explicacion": "El cambio de carril exige comprobar el ángulo muerto, señalizar y no obligar a frenar a quien circula por el carril de destino.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 968,
+"enunciado": "Ante un STOP, si detiene el vehículo pero no cede el paso a quien tiene preferencia, comete:",
+"opciones": [
+"Nada, con detenerse es suficiente.",
+"Nada, el STOP solo obliga a mirar.",
+"Una infracción, porque el STOP obliga a parar y además ceder el paso."
+],
+"correcta_idx": 2,
+"explicacion": "El STOP obliga a detención total y a ceder el paso; cumplir solo una parte es infracción.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 969,
+"enunciado": "En una glorieta, para salir de ella el conductor debe:",
+"opciones": [
+"Salir bruscamente desde el carril interior sin avisar.",
+"Situarse en el carril adecuado y señalizar la salida con el intermitente.",
+"Detenerse en la salida para asegurarse."
+],
+"correcta_idx": 1,
+"explicacion": "Al salir de una glorieta hay que colocarse en el carril adecuado y señalizar la salida.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 970,
+"enunciado": "El estacionamiento debe realizarse de forma que el vehículo:",
+"opciones": [
+"No obstaculice la circulación ni constituya un peligro para los demás.",
+"Quede lo más cerca posible del cruce.",
+"Ocupe parte del paso de peatones."
+],
+"correcta_idx": 0,
+"explicacion": "Hay que estacionar sin obstaculizar la circulación ni crear peligro para el resto de usuarios.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 971,
+"enunciado": "En un cruce regulado por un agente de tráfico, ¿qué prevalece?",
+"opciones": [
+"Las indicaciones del agente sobre las señales y semáforos.",
+"El semáforo sobre el agente.",
+"La regla de la derecha sobre el agente."
+],
+"correcta_idx": 0,
+"explicacion": "Las órdenes de los agentes prevalecen sobre las señales, semáforos y normas generales de prioridad.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 972,
+"enunciado": "Para dejar o recoger pasajeros en la vía, la parada debe hacerse:",
+"opciones": [
+"En doble fila si es rápido.",
+"En un lugar permitido, sin obstaculizar y por el tiempo imprescindible.",
+"Sobre el paso de peatones para mayor comodidad."
+],
+"correcta_idx": 1,
+"explicacion": "La parada se realiza en lugar permitido, sin obstaculizar la circulación y durante el tiempo imprescindible.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 973,
+"enunciado": "Adelantar utilizando el arcén está:",
+"opciones": [
+"Prohibido, salvo excepciones muy concretas.",
+"Permitido siempre que el arcén esté libre.",
+"Permitido en carreteras convencionales."
+],
+"correcta_idx": 0,
+"explicacion": "El arcén no está destinado a adelantar; hacerlo por él está prohibido salvo casos muy concretos.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 974,
+"enunciado": "Al aproximarse a un paso de peatones sin semáforo, con carácter general el conductor debe:",
+"opciones": [
+"Mantener la velocidad si tiene prisa.",
+"Acelerar para pasar antes que los peatones.",
+"Moderar la velocidad y detenerse si hay peatones esperando o cruzando."
+],
+"correcta_idx": 2,
+"explicacion": "Ante un paso sin semáforo se modera la velocidad y se cede el paso a los peatones que van a cruzar o cruzan.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 975,
+"enunciado": "La incorporación desde una vía secundaria a una principal implica:",
+"opciones": [
+"Tener preferencia por acceder desde una vía nueva.",
+"Ceder el paso a los que circulan por la vía principal.",
+"Detener a los de la principal."
+],
+"correcta_idx": 1,
+"explicacion": "Al incorporarse a la vía principal se cede el paso a quienes ya circulan por ella.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 976,
+"enunciado": "Va a adelantar a un ciclista en una carretera convencional estrecha con línea continua. ¿Qué es lo correcto?",
+"opciones": [
+"Esperar a poder dejar la separación de seguridad, aunque implique invadir en parte el otro sentido si es seguro y no hay tráfico de frente.",
+"Adelantar pegado al ciclista sin separación para no invadir el otro carril.",
+"Tocar el claxon y adelantar rápido."
+],
+"correcta_idx": 0,
+"explicacion": "Para adelantar a un ciclista se debe mantener la separación lateral de seguridad, pudiendo ocupar parte del sentido contrario cuando sea seguro.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 977,
+"enunciado": "En una intersección con STOP, después de detenerse ve que se aproxima un vehículo por la vía preferente aún algo lejos. ¿Qué hace?",
+"opciones": [
+"Salgo de inmediato porque ya me he detenido.",
+"Espero a que pase o a tener espacio suficiente para no obligarle a frenar.",
+"Salgo porque el otro debe adaptarse a mí."
+],
+"correcta_idx": 1,
+"explicacion": "Tras el STOP se cede el paso realmente: no basta con parar, hay que dejar pasar sin obligar a frenar al preferente.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 978,
+"enunciado": "Un vehículo prioritario en servicio urgente circula por detrás y usted está detenido en un semáforo en rojo, con espacio a la derecha. Debe:",
+"opciones": [
+"Facilitarle el paso apartándose, aunque tenga el semáforo en rojo, cuando pueda hacerlo con seguridad.",
+"Permanecer inmóvil porque tiene el rojo.",
+"Cruzar el semáforo en rojo detrás de la ambulancia."
+],
+"correcta_idx": 0,
+"explicacion": "Hay que facilitar el paso al vehículo prioritario apartándose con precaución, incluso estando detenido ante un rojo.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 979,
+"enunciado": "Desea cambiar de sentido en una vía urbana de doble sentido con línea discontinua y sin prohibición. ¿Es correcto?",
+"opciones": [
+"No, el cambio de sentido está siempre prohibido en ciudad.",
+"Sí, si lo hace donde está permitido, señalizando y sin crear peligro ni obstáculo.",
+"Sí, aunque obligue a frenar bruscamente a otros."
+],
+"correcta_idx": 1,
+"explicacion": "El cambio de sentido es lícito donde no esté prohibido, señalizándolo y sin generar peligro ni obstáculo.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 980,
+"enunciado": "Al incorporarse a una autovía, el carril de aceleración termina y no ha encontrado hueco. Lo correcto es:",
+"opciones": [
+"Ajustar la velocidad y buscar un hueco sin detenerse, cediendo el paso a los que circulan.",
+"Detenerse al final del carril hasta que alguien le ceda el paso.",
+"Entrar obligando a frenar al vehículo del carril derecho."
+],
+"correcta_idx": 0,
+"explicacion": "El carril de aceleración sirve para adaptar la velocidad; hay que ceder el paso e incorporarse sin detenerse ni forzar frenadas.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 981,
+"enunciado": "Estaciona en una calle con pendiente pronunciada. Además del freno de estacionamiento, conviene:",
+"opciones": [
+"Dejar el vehículo en punto muerto sin más.",
+"Girar las ruedas hacia el bordillo o dejar una marcha engranada.",
+"Poner solo las luces de emergencia."
+],
+"correcta_idx": 1,
+"explicacion": "En pendientes conviene orientar las ruedas hacia el bordillo y dejar una marcha metida para evitar desplazamientos.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 982,
+"enunciado": "Circula por una vía con tranvía y llega a un cruce a la vez que él, sin semáforos. ¿Quién pasa?",
+"opciones": [
+"El tranvía, que tiene preferencia por circular sobre raíles.",
+"Usted, si viene por la derecha del tranvía.",
+"El que llegue primero al centro del cruce."
+],
+"correcta_idx": 0,
+"explicacion": "La regla de la derecha no se aplica frente al tranvía: los vehículos sobre raíles tienen preferencia.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 983,
+"enunciado": "En una vía de tres carriles en el mismo sentido en ciudad, un vehículo de su carril central circula más lento. ¿Puede rebasarlo por el carril de la derecha?",
+"opciones": [
+"No, siempre hay que adelantar por la izquierda.",
+"Sí, en vías urbanas con varios carriles en el mismo sentido está permitido rebasar por la derecha.",
+"Solo si pone el intermitente izquierdo."
+],
+"correcta_idx": 1,
+"explicacion": "En ciudad, con varios carriles en el mismo sentido, se permite avanzar por la derecha a vehículos más lentos.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 984,
+"enunciado": "Tiene una avería y detiene el vehículo en el arcén de una vía interurbana. Antes de bajarse, lo prioritario es:",
+"opciones": [
+"Señalizar la presencia del vehículo y ponerse el chaleco reflectante antes de salir a la calzada.",
+"Bajar rápidamente por el lado del tráfico.",
+"Iniciar la marcha atrás para salir del arcén."
+],
+"correcta_idx": 0,
+"explicacion": "Ante una avería hay que señalizar el vehículo y protegerse con el chaleco reflectante antes de salir a la calzada.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 985,
+"enunciado": "Se aproxima a un cruce sin señalizar por el que también llega un vehículo por su izquierda. ¿Debe usted cederle el paso?",
+"opciones": [
+"No; usted tiene preferencia por venir por la derecha respecto a él.",
+"Sí, el de la izquierda siempre tiene prioridad.",
+"Sí, si su vehículo es más grande."
+],
+"correcta_idx": 0,
+"explicacion": "Respecto al vehículo que llega por su izquierda, usted tiene la preferencia por la regla de la derecha.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 986,
+"enunciado": "Al terminar un adelantamiento en carretera, ¿cuándo debe volver a su carril?",
+"opciones": [
+"Cuando pueda ver al vehículo adelantado en el retrovisor y regresar sin obligarle a frenar.",
+"Inmediatamente, justo delante del adelantado.",
+"Tras recorrer varios kilómetros por la izquierda."
+],
+"correcta_idx": 0,
+"explicacion": "Se vuelve al carril cuando hay distancia suficiente para no obligar a frenar al adelantado, tras verlo por el retrovisor.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 987,
+"enunciado": "En una intersección va a girar a la izquierda y de frente viene un vehículo que sigue recto. ¿Quién tiene preferencia?",
+"opciones": [
+"Usted, porque va a girar y lo ha señalizado.",
+"El vehículo que sigue de frente; usted, que gira cruzando su trayectoria, cede el paso.",
+"El primero que entre en la intersección, sin más reglas."
+],
+"correcta_idx": 1,
+"explicacion": "Al girar a la izquierda se cruza la trayectoria del que viene de frente, que tiene preferencia.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 988,
+"enunciado": "Circula por una glorieta y otro vehículo espera para entrar en su misma salida. ¿Quién tiene preferencia?",
+"opciones": [
+"Usted, que ya circula por la glorieta.",
+"El que espera para entrar, por venir por la derecha.",
+"Ninguno; deben negociarlo con las luces."
+],
+"correcta_idx": 0,
+"explicacion": "En la glorieta tiene preferencia quien ya circula por ella frente a quien pretende entrar.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 989,
+"enunciado": "Sin señalización, ¿qué prioridad hay entre un vehículo que gira y un peatón que cruza por la prolongación de la acera de la vía a la que se accede?",
+"opciones": [
+"El peatón tiene prioridad; el conductor que gira debe cederle el paso.",
+"El vehículo tiene prioridad por ir motorizado.",
+"El que primero inicie el movimiento."
+],
+"correcta_idx": 0,
+"explicacion": "Al girar hacia una vía por la que cruzan peatones, estos tienen prioridad aunque no haya paso marcado.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 990,
+"enunciado": "Está prohibido adelantar en las intersecciones y en sus proximidades, salvo cuando:",
+"opciones": [
+"La intersección esté regulada por semáforos o la vía sea de sentido único.",
+"El adelantado esté señalizando que va a girar a la derecha.",
+"Haya poca visibilidad pero no venga nadie."
+],
+"correcta_idx": 0,
+"explicacion": "La prohibición de adelantar en intersecciones tiene excepciones, como que estén reguladas por semáforo o se circule en vía de sentido único.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 991,
+"enunciado": "El adelantamiento a un vehículo se realiza por la izquierda, salvo que el vehículo precedente:",
+"opciones": [
+"Circule por el centro de la calzada.",
+"Haya indicado claramente que va a girar a la izquierda y exista espacio para rebasarlo por la derecha.",
+"Lleve las luces de posición encendidas."
+],
+"correcta_idx": 1,
+"explicacion": "La excepción para rebasar por la derecha es que el precedente haya señalizado el giro a la izquierda y quede espacio suficiente.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 992,
+"enunciado": "La señal de STOP obliga a detención total, mientras que la de 'ceda el paso' obliga a:",
+"opciones": [
+"Ceder el paso, deteniéndose solo si es necesario para no estorbar a los preferentes.",
+"Detenerse siempre por completo antes de continuar.",
+"Reducir la marcha sin ceder el paso a nadie."
+],
+"correcta_idx": 0,
+"explicacion": "El 'ceda el paso' obliga a ceder la preferencia y a detenerse únicamente si es necesario; el STOP siempre exige parar del todo.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 993,
+"enunciado": "En una glorieta, tiene preferencia quien circula por ella respecto a quien va a entrar, salvo que:",
+"opciones": [
+"El que entra circule más deprisa.",
+"El que entra venga por la derecha del que circula.",
+"Una señal establezca lo contrario en algún acceso."
+],
+"correcta_idx": 2,
+"explicacion": "La preferencia del que ya circula por la glorieta cede solo cuando una señal disponga lo contrario.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 994,
+"enunciado": "La marcha atrás está permitida como maniobra auxiliar, y debe realizarse:",
+"opciones": [
+"Durante un recorrido de hasta cincuenta metros en cualquier vía.",
+"Durante el recorrido mínimo imprescindible y nunca en autopistas ni autovías.",
+"Durante el tiempo necesario, también en autovía si no hay tráfico."
+],
+"correcta_idx": 1,
+"explicacion": "La marcha atrás es auxiliar, de recorrido mínimo imprescindible, y está totalmente prohibida en autopistas y autovías.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 995,
+"enunciado": "El cambio de sentido de la marcha está prohibido, entre otros lugares, en:",
+"opciones": [
+"Cambios de rasante, curvas, pasos a nivel, túneles y autopistas o autovías.",
+"Cambios de rasante, curvas y cualquier vía urbana ancha.",
+"Curvas, túneles y todos los cruces con semáforo."
+],
+"correcta_idx": 0,
+"explicacion": "El cambio de sentido se prohíbe en cambios de rasante, curvas, pasos a nivel, túneles y autopistas/autovías.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 996,
+"enunciado": "El adelantamiento está prohibido en los pasos a nivel y, además:",
+"opciones": [
+"En sus alrededores hasta trescientos metros después.",
+"Solo cuando las barreras estén bajadas.",
+"En sus proximidades."
+],
+"correcta_idx": 2,
+"explicacion": "La prohibición de adelantar abarca los pasos a nivel y sus proximidades, con independencia de la posición de las barreras.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 997,
+"enunciado": "Los vehículos prioritarios en servicio urgente tienen preferencia cuando circulan:",
+"opciones": [
+"Con las señales luminosas y acústicas especiales en funcionamiento.",
+"Con solo las señales luminosas encendidas en todo caso.",
+"Aunque no lleven ninguna señal especial activada."
+],
+"correcta_idx": 0,
+"explicacion": "La preferencia del vehículo prioritario se vincula al uso de las señales luminosas y acústicas especiales en servicio urgente.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 998,
+"enunciado": "Antes de adelantar, además de disponer de espacio y visibilidad, el conductor debe cerciorarse de que:",
+"opciones": [
+"Ningún conductor que le sigue haya iniciado el adelantamiento sobre él.",
+"El vehículo de delante circule por debajo del límite de velocidad.",
+"El arcén esté despejado por si necesita usarlo."
+],
+"correcta_idx": 0,
+"explicacion": "Antes de adelantar hay que comprobar también que nadie que le siga haya comenzado ya a adelantarle.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 999,
+"enunciado": "Además de en los pasos de peatones, está prohibido parar y estacionar:",
+"opciones": [
+"En cualquier vía urbana con línea blanca discontinua.",
+"En las intersecciones y sus proximidades cuando se dificulta el giro a otros vehículos.",
+"En las glorietas de gran tamaño únicamente."
+],
+"correcta_idx": 1,
+"explicacion": "La prohibición de parar y estacionar alcanza a las intersecciones y proximidades cuando se dificultan los giros u otras maniobras.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1000,
+"enunciado": "En una incorporación a la circulación, el conductor debe ceder el paso, salvo que:",
+"opciones": [
+"Un agente o señal le concedan expresamente la preferencia.",
+"Circule un vehículo lento por la vía a la que accede.",
+"Haya señalizado la maniobra con antelación suficiente."
+],
+"correcta_idx": 0,
+"explicacion": "Quien se incorpora cede siempre el paso, salvo que un agente o una señal le otorguen expresamente la preferencia; señalizar no basta.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1001,
+"enunciado": "¿En qué plazas del vehículo es obligatorio abrocharse el cinturón de seguridad?",
+"opciones": [
+"Solo en las plazas delanteras.",
+"En todas las plazas, tanto delanteras como traseras.",
+"Solo cuando se circula por autopista o autovía."
+],
+"correcta_idx": 1,
+"explicacion": "El cinturón es obligatorio en todas las plazas del vehículo, delante y detrás, en cualquier tipo de vía.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1002,
+"enunciado": "Con carácter general, ¿en qué asientos deben viajar los niños de estatura igual o inferior a 135 cm?",
+"opciones": [
+"En los asientos traseros, con un sistema de retención infantil adecuado.",
+"En el asiento del copiloto para vigilarlos mejor.",
+"En cualquier asiento, siempre que lleven el cinturón del adulto."
+],
+"correcta_idx": 0,
+"explicacion": "Los menores de estatura igual o inferior a 135 cm deben usar un SRI adecuado y, con carácter general, viajar en los asientos traseros.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1003,
+"enunciado": "¿Quién está obligado a llevar casco homologado al circular en motocicleta?",
+"opciones": [
+"Únicamente el conductor.",
+"Únicamente el pasajero.",
+"Tanto el conductor como el pasajero."
+],
+"correcta_idx": 2,
+"explicacion": "El casco homologado es obligatorio para el conductor y el pasajero de motocicletas y ciclomotores.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1004,
+"enunciado": "Respecto al cinturón de seguridad, el airbag frontal es un sistema que:",
+"opciones": [
+"Sustituye al cinturón y permite no usarlo.",
+"Complementa al cinturón, pero no lo sustituye.",
+"Solo funciona si no se lleva puesto el cinturón."
+],
+"correcta_idx": 1,
+"explicacion": "El airbag es un sistema complementario del cinturón: mejora la protección, pero nunca lo sustituye.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1005,
+"enunciado": "¿Qué luz debe utilizarse de noche al circular por una vía urbana suficientemente iluminada?",
+"opciones": [
+"La luz de carretera (larga).",
+"Únicamente las luces antiniebla.",
+"La luz de cruce (corta)."
+],
+"correcta_idx": 2,
+"explicacion": "En vías iluminadas, túneles y con poca visibilidad se emplea la luz de cruce (corta).",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1006,
+"enunciado": "¿Cuándo puede usarse la luz de carretera (larga)?",
+"opciones": [
+"Fuera de poblado y en vías sin iluminación, sin deslumbrar a otros usuarios.",
+"Siempre que se circule de noche, incluso en ciudad.",
+"Solo cuando llueve intensamente."
+],
+"correcta_idx": 0,
+"explicacion": "La luz larga se usa fuera de poblado en vías sin iluminación, evitando deslumbrar al resto de conductores.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1007,
+"enunciado": "¿Cuál es la profundidad mínima legal del dibujo de la banda de rodadura de los neumáticos?",
+"opciones": [
+"0,8 milímetros.",
+"1,6 milímetros.",
+"3,2 milímetros."
+],
+"correcta_idx": 1,
+"explicacion": "La profundidad mínima legal del dibujo del neumático es de 1,6 mm.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1008,
+"enunciado": "¿En qué estado deben estar los neumáticos para comprobar correctamente su presión?",
+"opciones": [
+"En caliente, después de un largo recorrido.",
+"Indistintamente, la temperatura no influye.",
+"En frío, antes de rodar o tras recorrer poca distancia."
+],
+"correcta_idx": 2,
+"explicacion": "La presión debe medirse con los neumáticos en frío, ya que al rodar se calientan y la lectura no es fiable.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1009,
+"enunciado": "¿Para qué sirve el sistema ABS?",
+"opciones": [
+"Para evitar el bloqueo de las ruedas durante una frenada.",
+"Para aumentar la potencia del motor.",
+"Para reducir el consumo de combustible en autovía."
+],
+"correcta_idx": 0,
+"explicacion": "El ABS impide que las ruedas se bloqueen al frenar, permitiendo mantener el control de la dirección.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1010,
+"enunciado": "¿Qué controla principalmente el sistema ESP de un vehículo?",
+"opciones": [
+"La temperatura del aceite del motor.",
+"La estabilidad del vehículo, corrigiendo derrapes.",
+"El nivel de combustible del depósito."
+],
+"correcta_idx": 1,
+"explicacion": "El ESP es el control electrónico de estabilidad: ayuda a evitar derrapes y a mantener la trayectoria.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1011,
+"enunciado": "Ante una avería o accidente en la carretera, ¿qué prenda debe ponerse el conductor antes de salir del vehículo a la calzada?",
+"opciones": [
+"Un abrigo oscuro para no llamar la atención.",
+"No es necesaria ninguna prenda especial.",
+"El chaleco reflectante de alta visibilidad."
+],
+"correcta_idx": 2,
+"explicacion": "Es obligatorio colocarse el chaleco reflectante antes de salir a la calzada para ser visible.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1012,
+"enunciado": "¿Qué significan las siglas del protocolo P.A.S. en caso de accidente?",
+"opciones": [
+"Proteger, Avisar y Socorrer.",
+"Parar, Aparcar y Seguir.",
+"Prevenir, Ayudar y Señalizar."
+],
+"correcta_idx": 0,
+"explicacion": "El protocolo P.A.S. consiste en Proteger el lugar, Avisar al 112 y Socorrer a los heridos.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1013,
+"enunciado": "¿A qué número de teléfono se debe llamar para avisar de un accidente de tráfico?",
+"opciones": [
+"Al taller mecánico más cercano.",
+"Al 112, número único de emergencias.",
+"A la compañía aseguradora directamente."
+],
+"correcta_idx": 1,
+"explicacion": "El 112 es el número único europeo de emergencias, al que se avisa dentro del protocolo P.A.S.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1014,
+"enunciado": "En un accidente, ¿qué se debe hacer con un herido tumbado en la calzada?",
+"opciones": [
+"Trasladarlo siempre de inmediato a un lugar cerrado.",
+"Sentarlo cuanto antes para que se recupere.",
+"No moverlo, salvo que exista un peligro inminente (fuego, riesgo de atropello)."
+],
+"correcta_idx": 2,
+"explicacion": "No debe moverse a un herido salvo peligro inminente, para no agravar posibles lesiones.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1015,
+"enunciado": "¿Cada cuánto tiempo, de forma aproximada, conviene hacer una parada de descanso en un viaje largo?",
+"opciones": [
+"Aproximadamente cada dos horas.",
+"Solo cuando aparezcan los primeros síntomas de sueño profundo.",
+"Cada seis horas es suficiente."
+],
+"correcta_idx": 0,
+"explicacion": "Se recomienda descansar aproximadamente cada dos horas para prevenir la fatiga.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1016,
+"enunciado": "¿Qué es un microsueño al volante?",
+"opciones": [
+"Un método de descanso recomendado para conductores.",
+"Un breve episodio involuntario de sueño de pocos segundos, muy peligroso.",
+"Una sensación de bienestar tras una comida ligera."
+],
+"correcta_idx": 1,
+"explicacion": "El microsueño es una pérdida de conciencia de segundos, extremadamente peligrosa porque el vehículo queda sin control.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1017,
+"enunciado": "¿Cómo debe ir colocada la carga en un vehículo?",
+"opciones": [
+"Suelta, para poder redistribuirla durante la marcha.",
+"Siempre concentrada sobre el eje trasero.",
+"Bien sujeta y repartida, sin superar la masa máxima autorizada."
+],
+"correcta_idx": 2,
+"explicacion": "La carga debe ir bien sujeta y repartida, sin superar la MMA del vehículo.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1018,
+"enunciado": "¿Con qué señal se indica una carga que sobresale por la parte trasera del vehículo?",
+"opciones": [
+"Con la señal V-20 (panel a rayas rojas y blancas).",
+"Con el triángulo de preseñalización de peligro.",
+"No es necesaria ninguna señal si la carga es ligera."
+],
+"correcta_idx": 0,
+"explicacion": "La carga que sobresale por detrás se señaliza con el dispositivo V-20.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1019,
+"enunciado": "Para una conducción eficiente que ahorre combustible, conviene:",
+"opciones": [
+"Acelerar y frenar con frecuencia para mantener el ritmo.",
+"Circular con marchas largas y revoluciones bajas, anticipándose al tráfico.",
+"Mantener siempre marchas cortas y muchas revoluciones."
+],
+"correcta_idx": 1,
+"explicacion": "La conducción eficiente usa marchas largas, revoluciones bajas y anticipación, evitando acelerones y frenazos.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1020,
+"enunciado": "¿Cuándo debe encenderse la luz antiniebla trasera?",
+"opciones": [
+"Siempre que se circule de noche por autopista.",
+"Cuando se aparca en un lugar poco iluminado.",
+"Con niebla densa, lluvia o nieve intensas que reduzcan mucho la visibilidad."
+],
+"correcta_idx": 2,
+"explicacion": "La antiniebla trasera se reserva para niebla densa, lluvia o nieve intensas, por su fuerte capacidad de deslumbramiento.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1021,
+"enunciado": "¿Qué efecto tiene sobre la seguridad circular con los neumáticos poco hinchados?",
+"opciones": [
+"Mejora el agarre y reduce el consumo.",
+"Aumenta el consumo, el desgaste y la distancia de frenado.",
+"No tiene ningún efecto apreciable."
+],
+"correcta_idx": 1,
+"explicacion": "Una presión baja aumenta el consumo, el desgaste irregular y la distancia de frenado.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1022,
+"enunciado": "Al aumentar la velocidad de circulación, la distancia de frenado:",
+"opciones": [
+"Aumenta de forma proporcional al cuadrado de la velocidad.",
+"Se mantiene siempre igual.",
+"Disminuye porque el vehículo tiene más impulso."
+],
+"correcta_idx": 0,
+"explicacion": "La distancia de frenado crece con el cuadrado de la velocidad: al doblar la velocidad, la distancia se multiplica por cuatro.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1023,
+"enunciado": "¿Puede colocarse una silla infantil orientada hacia atrás (a contramarcha) en un asiento con airbag frontal activado?",
+"opciones": [
+"Sí, siempre que el niño lleve además el cinturón.",
+"No, nunca; el airbag podría causar graves lesiones al niño.",
+"Sí, es la posición más segura en ese asiento."
+],
+"correcta_idx": 1,
+"explicacion": "Nunca se coloca una silla a contramarcha en un asiento con airbag frontal activado; hay que desactivarlo antes.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1024,
+"enunciado": "¿Para qué sirven las luces de posición del vehículo?",
+"opciones": [
+"Para iluminar la calzada a gran distancia.",
+"Para señalizar una avería en la carretera.",
+"Para que el vehículo sea visto por los demás y percibir su anchura."
+],
+"correcta_idx": 2,
+"explicacion": "Las luces de posición sirven para que otros usuarios vean el vehículo y aprecien su anchura y longitud.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1025,
+"enunciado": "¿Qué dispositivo, junto con el chaleco, sirve para señalizar una avería o accidente y es obligatorio desde 2026?",
+"opciones": [
+"La baliza luminosa V-16.",
+"Una linterna de mano cualquiera.",
+"Las luces de posición del propio vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "La baliza V-16, obligatoria desde 2026, se coloca en el techo para señalizar el vehículo inmovilizado.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1026,
+"enunciado": "El líquido de frenos es importante porque:",
+"opciones": [
+"Sirve para lubricar el motor.",
+"Transmite la fuerza del pedal a los frenos; su fallo compromete la frenada.",
+"Refrigera el habitáculo del vehículo."
+],
+"correcta_idx": 1,
+"explicacion": "El líquido de frenos transmite la presión del pedal al sistema de frenado; un nivel insuficiente puede dejar sin frenos.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1027,
+"enunciado": "¿Qué indica normalmente un testigo de color rojo encendido en el cuadro de instrumentos?",
+"opciones": [
+"Una avería o situación que requiere detenerse y comprobar.",
+"Que todo funciona correctamente.",
+"Que conviene aumentar la velocidad."
+],
+"correcta_idx": 0,
+"explicacion": "Los testigos rojos advierten de una avería importante; en general obligan a detenerse y revisar.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1028,
+"enunciado": "¿Qué debe hacerse si durante la marcha se enciende el testigo rojo de presión de aceite?",
+"opciones": [
+"Seguir circulando hasta llegar a casa.",
+"Acelerar para que suba la presión.",
+"Detenerse cuanto antes en un lugar seguro y parar el motor."
+],
+"correcta_idx": 2,
+"explicacion": "La falta de presión de aceite puede dañar gravemente el motor; hay que detenerse y parar el motor lo antes posible.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1029,
+"enunciado": "¿Qué luz debe utilizarse al entrar en un túnel iluminado?",
+"opciones": [
+"Únicamente la luz de posición.",
+"La luz de cruce (corta).",
+"La luz de carretera (larga)."
+],
+"correcta_idx": 1,
+"explicacion": "En túneles se enciende la luz de cruce, como en cualquier situación de visibilidad reducida.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1030,
+"enunciado": "El uso del cinturón de seguridad reduce las lesiones porque:",
+"opciones": [
+"Retiene el cuerpo evitando que salga despedido o golpee el interior.",
+"Impide que se abran las puertas durante el choque.",
+"Aumenta la potencia de frenado del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "El cinturón retiene al ocupante y evita que salga despedido o impacte contra el interior del vehículo.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1031,
+"enunciado": "¿Cuál de estos elementos forma parte de una revisión básica antes de un viaje largo?",
+"opciones": [
+"Cambiar siempre el motor completo.",
+"Vaciar el depósito de combustible.",
+"Comprobar luces, frenos, neumáticos y niveles."
+],
+"correcta_idx": 2,
+"explicacion": "Antes de un viaje conviene revisar luces, frenos, neumáticos y niveles de líquidos.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1032,
+"enunciado": "La sobrecarga de un vehículo (superar su MMA):",
+"opciones": [
+"Mejora el agarre y acorta la distancia de frenado.",
+"Empeora la frenada y la estabilidad, además de ser una infracción.",
+"No influye si se conduce despacio."
+],
+"correcta_idx": 1,
+"explicacion": "Exceder la MMA aumenta la distancia de frenado, reduce la estabilidad y constituye una infracción.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1033,
+"enunciado": "¿Por qué es importante mantener limpio el parabrisas y en buen estado las escobillas?",
+"opciones": [
+"Porque reducen el consumo de combustible.",
+"Porque garantizan una buena visibilidad, esencial para la seguridad.",
+"Porque mejoran la potencia del motor."
+],
+"correcta_idx": 1,
+"explicacion": "Un parabrisas limpio y unas escobillas en buen estado aseguran una visibilidad correcta.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1034,
+"enunciado": "¿Qué ventaja aporta el ABS al frenar sobre un pavimento deslizante?",
+"opciones": [
+"Elimina por completo la distancia de frenado.",
+"Impide que el motor se cale.",
+"Permite seguir dirigiendo el vehículo mientras se frena con fuerza."
+],
+"correcta_idx": 2,
+"explicacion": "Al evitar el bloqueo, el ABS permite conservar la dirección durante una frenada de emergencia.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1035,
+"enunciado": "¿Dónde debe colocarse la baliza luminosa V-16 para señalizar el vehículo?",
+"opciones": [
+"En el punto más alto del vehículo, como el techo.",
+"En el suelo, delante del vehículo.",
+"Dentro del maletero cerrado."
+],
+"correcta_idx": 0,
+"explicacion": "La V-16 se coloca en el punto más alto del vehículo (habitualmente el techo) para ser visible a distancia.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1036,
+"enunciado": "Una ventaja de la baliza V-16 frente a los triángulos de emergencia es que:",
+"opciones": [
+"Se coloca sin salir a la calzada, reduciendo el riesgo de atropello.",
+"Ilumina toda la vía como si fuera de día.",
+"Sustituye a la obligación de usar chaleco."
+],
+"correcta_idx": 0,
+"explicacion": "La V-16 se coloca desde el interior o junto a la puerta, evitando caminar por la calzada como con los triángulos.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1037,
+"enunciado": "El aire acondicionado y otros consumos eléctricos del vehículo:",
+"opciones": [
+"No influyen en el consumo del motor.",
+"Aumentan el consumo de combustible, por lo que conviene usarlos con criterio.",
+"Reducen siempre el consumo de combustible."
+],
+"correcta_idx": 1,
+"explicacion": "El aire acondicionado y otros consumos elevan el gasto de combustible; una conducción eficiente los usa con moderación.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1038,
+"enunciado": "¿Qué se debe comprobar en los neumáticos además de la presión?",
+"opciones": [
+"La profundidad del dibujo y la ausencia de cortes o deformaciones.",
+"El color de la llanta.",
+"La marca del fabricante del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "Además de la presión, hay que vigilar la profundidad del dibujo y el estado general (cortes, bultos, desgaste).",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1039,
+"enunciado": "Circular con niebla densa por la carretera exige, entre otras precauciones:",
+"opciones": [
+"Encender la luz de carretera para ver mejor.",
+"Circular pegado al vehículo de delante para guiarse.",
+"Reducir la velocidad, aumentar la separación y usar las luces adecuadas."
+],
+"correcta_idx": 2,
+"explicacion": "Con niebla se reduce la velocidad, se aumenta la distancia y se usan la antiniebla y la luz de cruce; la larga deslumbra.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1040,
+"enunciado": "¿Qué conviene hacer para conducir con seguridad y anticiparse a los peligros?",
+"opciones": [
+"Fijar la vista únicamente en el capó del vehículo.",
+"Dirigir la mirada lejos y explorar el entorno con la vista.",
+"Mirar continuamente el salpicadero."
+],
+"correcta_idx": 1,
+"explicacion": "Mirar lejos y explorar el entorno permite anticiparse a los peligros y reaccionar a tiempo.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1041,
+"enunciado": "Frente a un charco o zona con agua en la calzada, el conductor debe temer un fenómeno llamado:",
+"opciones": [
+"Sobrealimentación del motor.",
+"Deslumbramiento por reflexión.",
+"Aquaplaning (pérdida de contacto de los neumáticos con el suelo)."
+],
+"correcta_idx": 2,
+"explicacion": "El aquaplaning se produce cuando el agua impide el contacto del neumático con el asfalto, y el conductor pierde control.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1042,
+"enunciado": "¿Qué elemento del vehículo transmite el giro del volante a las ruedas?",
+"opciones": [
+"El sistema de escape.",
+"El sistema de dirección.",
+"El sistema de refrigeración."
+],
+"correcta_idx": 1,
+"explicacion": "La dirección transmite el movimiento del volante a las ruedas para orientar el vehículo.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1
+},
+{
+"id": 1043,
+"enunciado": "Si el sistema ABS se activa en una frenada de emergencia, el conductor notará:",
+"opciones": [
+"Una vibración o pulsaciones en el pedal, que debe mantener pisado.",
+"Que el pedal se queda bloqueado y no debe pisarlo.",
+"Que el vehículo acelera solo."
+],
+"correcta_idx": 0,
+"explicacion": "Con el ABS actuando se siente un pulso en el pedal; hay que mantenerlo pisado y no soltarlo.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1044,
+"enunciado": "Un conductor duplica su velocidad de 40 a 80 km/h. ¿Cómo varía aproximadamente la distancia de frenado?",
+"opciones": [
+"Se mantiene prácticamente igual.",
+"Se multiplica por cuatro, al depender del cuadrado de la velocidad.",
+"Solo se duplica, igual que la velocidad."
+],
+"correcta_idx": 1,
+"explicacion": "La distancia de frenado crece con el cuadrado de la velocidad: al duplicarla, se multiplica por cuatro.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1045,
+"enunciado": "Si un niño mide 130 cm, ¿qué requisito debe cumplir para viajar en el coche?",
+"opciones": [
+"Puede usar solo el cinturón del adulto en cualquier asiento.",
+"Debe viajar obligatoriamente en el asiento del copiloto.",
+"Usar un sistema de retención infantil adecuado, generalmente en plaza trasera."
+],
+"correcta_idx": 2,
+"explicacion": "Al medir 130 cm (igual o menos de 135 cm) necesita SRI adecuado y, con carácter general, viaja en plaza trasera.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1046,
+"enunciado": "En un vehículo con airbag frontal en el copiloto que no se puede desactivar, ¿cómo debe viajar un bebé en silla a contramarcha?",
+"opciones": [
+"En una plaza trasera, nunca delante con el airbag activado.",
+"En el asiento del copiloto, es indiferente.",
+"En brazos de un adulto en el asiento delantero."
+],
+"correcta_idx": 0,
+"explicacion": "Si el airbag frontal no puede desactivarse, la silla a contramarcha debe ir en una plaza trasera.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1047,
+"enunciado": "Ante el reventón de un neumático delantero a velocidad de crucero, lo correcto es:",
+"opciones": [
+"Frenar a fondo de inmediato y girar el volante con fuerza.",
+"Sujetar firme el volante, no frenar bruscamente y reducir la velocidad poco a poco.",
+"Acelerar para estabilizar el vehículo."
+],
+"correcta_idx": 1,
+"explicacion": "Ante un reventón se sujeta el volante con firmeza, no se frena de golpe y se reduce la velocidad progresivamente.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1048,
+"enunciado": "¿Qué diferencia hay entre el ABS y el ESP?",
+"opciones": [
+"El ABS evita el bloqueo de las ruedas al frenar; el ESP corrige la pérdida de estabilidad.",
+"El ABS controla la estabilidad; el ESP evita el bloqueo al frenar.",
+"Ambos hacen exactamente lo mismo."
+],
+"correcta_idx": 0,
+"explicacion": "El ABS actúa sobre el bloqueo de ruedas en la frenada; el ESP corrige derrapes para mantener la trayectoria.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1049,
+"enunciado": "Circular con una carga sin distribuir correctamente afecta a la conducción porque:",
+"opciones": [
+"Mejora la adherencia de todos los neumáticos.",
+"Altera el equilibrio y la estabilidad, especialmente en curvas y frenadas.",
+"Reduce la distancia de frenado del vehículo."
+],
+"correcta_idx": 1,
+"explicacion": "Una carga mal repartida desequilibra el vehículo y empeora su estabilidad en curvas y frenadas.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1050,
+"enunciado": "Si durante la marcha el indicador de temperatura del refrigerante entra en la zona roja, se debe:",
+"opciones": [
+"Detenerse en un lugar seguro y dejar enfriar el motor antes de comprobar niveles.",
+"Abrir de inmediato el tapón del radiador con el motor caliente.",
+"Seguir circulando a mayor velocidad para ventilar el motor."
+],
+"correcta_idx": 0,
+"explicacion": "Ante un sobrecalentamiento se para y se deja enfriar; abrir el tapón en caliente puede provocar quemaduras.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1051,
+"enunciado": "¿Por qué una silla infantil correctamente instalada es más segura que sujetar al niño con el cinturón del adulto?",
+"opciones": [
+"Porque el cinturón del adulto no se ajusta al cuerpo del niño y puede lesionarlo.",
+"Porque el cinturón del adulto sujeta mejor a los niños pequeños.",
+"Porque la silla infantil no requiere anclaje al vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "El cinturón de adulto no encaja en la anatomía del niño y en un choque puede causar lesiones graves; por eso se usa un SRI.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1052,
+"enunciado": "En una frenada de emergencia con un vehículo sin ABS, para no perder el control conviene:",
+"opciones": [
+"Bloquear las ruedas para detenerse antes.",
+"Frenar con firmeza controlando que las ruedas no se bloqueen.",
+"Frenar solo con el freno de mano."
+],
+"correcta_idx": 1,
+"explicacion": "Sin ABS hay que evitar el bloqueo de las ruedas para conservar la dirección; el freno de mano puede provocar derrape.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1053,
+"enunciado": "Un conductor nota que el volante vibra a cierta velocidad. ¿Qué revisión es la más adecuada?",
+"opciones": [
+"El equilibrado y estado de los neumáticos y la dirección.",
+"El nivel de líquido limpiaparabrisas.",
+"El estado de las escobillas."
+],
+"correcta_idx": 0,
+"explicacion": "Las vibraciones en el volante suelen relacionarse con el equilibrado de ruedas o la dirección, que deben revisarse.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1054,
+"enunciado": "Al circular fuera de poblado por una vía sin iluminación con la luz de carretera y aparecer un vehículo de frente, se debe:",
+"opciones": [
+"Cambiar a la luz de cruce con antelación suficiente para no deslumbrar.",
+"Mantener la luz de carretera hasta el último momento.",
+"Apagar todas las luces al cruzarse."
+],
+"correcta_idx": 0,
+"explicacion": "Se pasa a la luz de cruce con tiempo para no deslumbrar al vehículo que viene de frente.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1055,
+"enunciado": "¿Cuál de estas conductas contribuye a alargar la vida de los frenos y ahorrar combustible?",
+"opciones": [
+"Circular con el pie apoyado permanentemente sobre el freno.",
+"Alternar acelerones y frenazos continuamente.",
+"Anticiparse al tráfico y usar el freno motor levantando el pie del acelerador."
+],
+"correcta_idx": 2,
+"explicacion": "Anticiparse y usar el freno motor reduce el desgaste de frenos y el consumo frente a acelerar y frenar en exceso.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 2
+},
+{
+"id": 1056,
+"enunciado": "La profundidad mínima legal del dibujo de los neumáticos de un turismo es de:",
+"opciones": [
+"1,6 milímetros.",
+"1,8 milímetros.",
+"1,4 milímetros."
+],
+"correcta_idx": 0,
+"explicacion": "El valor legal exacto es 1,6 mm; las otras cifras (1,8 y 1,4 mm) son incorrectas.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1057,
+"enunciado": "Los sistemas de retención infantil son obligatorios, con carácter general, para los menores cuya estatura sea igual o inferior a:",
+"opciones": [
+"125 centímetros.",
+"135 centímetros.",
+"145 centímetros."
+],
+"correcta_idx": 1,
+"explicacion": "El límite es 135 cm; 125 y 145 cm son valores incorrectos.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1058,
+"enunciado": "La baliza luminosa de señalización de emergencia se denomina:",
+"opciones": [
+"V-16.",
+"V-13.",
+"V-20."
+],
+"correcta_idx": 0,
+"explicacion": "La baliza luminosa de emergencia es la V-16; la V-20 señaliza carga que sobresale y no existe con este uso la V-13.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1059,
+"enunciado": "El dispositivo que se coloca para señalizar una carga que sobresale por la parte trasera del vehículo es:",
+"opciones": [
+"La señal V-16.",
+"La señal V-20.",
+"La señal V-2."
+],
+"correcta_idx": 1,
+"explicacion": "La carga que sobresale por detrás se señaliza con la V-20; la V-16 es la baliza de emergencia.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1060,
+"enunciado": "Un conductor pasa de circular a 50 km/h a hacerlo a 100 km/h. La distancia de frenado, aproximadamente:",
+"opciones": [
+"Se multiplica por dos.",
+"Se multiplica por tres.",
+"Se multiplica por cuatro."
+],
+"correcta_idx": 2,
+"explicacion": "Como la distancia de frenado depende del cuadrado de la velocidad, al duplicarla se multiplica por cuatro, no por dos ni por tres.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1061,
+"enunciado": "En viajes largos, la recomendación general de descanso es realizar una parada cada, aproximadamente:",
+"opciones": [
+"Dos horas de conducción.",
+"Tres horas de conducción.",
+"Cuatro horas de conducción."
+],
+"correcta_idx": 0,
+"explicacion": "La recomendación es descansar aproximadamente cada dos horas, no cada tres ni cada cuatro.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1062,
+"enunciado": "La distancia de frenado de un vehículo aumenta en proporción:",
+"opciones": [
+"Al doble de la velocidad.",
+"Al cuadrado de la velocidad.",
+"A la raíz cuadrada de la velocidad."
+],
+"correcta_idx": 1,
+"explicacion": "La distancia de frenado crece con el cuadrado de la velocidad; las otras dos relaciones son incorrectas.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1063,
+"enunciado": "El sistema electrónico que evita el bloqueo de las ruedas durante la frenada es el:",
+"opciones": [
+"ABS.",
+"ESP.",
+"EBD."
+],
+"correcta_idx": 0,
+"explicacion": "El que evita el bloqueo al frenar es el ABS; el ESP controla la estabilidad y el EBD reparte la fuerza de frenado.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1064,
+"enunciado": "El sistema electrónico que corrige la pérdida de estabilidad y ayuda a evitar derrapes es el:",
+"opciones": [
+"TPMS.",
+"ABS.",
+"ESP."
+],
+"correcta_idx": 2,
+"explicacion": "El control de estabilidad es el ESP; el ABS evita el bloqueo de ruedas y el TPMS vigila la presión de los neumáticos.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1065,
+"enunciado": "La presión de los neumáticos debe comprobarse siempre con las ruedas:",
+"opciones": [
+"En frío.",
+"En caliente.",
+"A temperatura ambiente tras un viaje largo."
+],
+"correcta_idx": 0,
+"explicacion": "La medición correcta se hace en frío; en caliente o tras un viaje largo la presión aumenta y la lectura es errónea.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1066,
+"enunciado": "La luz que debe utilizarse de noche al circular por una vía interurbana correctamente iluminada es la luz de:",
+"opciones": [
+"Carretera.",
+"Cruce.",
+"Posición."
+],
+"correcta_idx": 1,
+"explicacion": "En vías iluminadas se usa la luz de cruce; la de carretera solo en vías sin iluminación y la de posición no basta para circular de noche.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 3
+},
+{
+"id": 1067,
+"enunciado": "La baliza luminosa V-16 pasa a ser obligatoria, en sustitución de los triángulos, a partir del año:",
+"opciones": [
+"2024.",
+"2025.",
+"2026."
+],
+"correcta_idx": 2,
+"explicacion": "La obligatoriedad de la V-16 se fija en 2026; 2025 y 2024 son fechas incorrectas.",
+"tema_id": 7,
 "imagen": null,
 "dificultad": 3
 }
