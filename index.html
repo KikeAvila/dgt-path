@@ -25,7 +25,8 @@
   </header>
 
   <nav class="tabs">
-    <button class="tab active" data-view="path">🗺️ Camino</button>
+    <button class="tab active" data-view="inicio">🧭 Inicio</button>
+    <button class="tab" data-view="path">🗺️ Camino</button>
     <button class="tab" data-view="teoria">📖 Teoría</button>
     <button class="tab" data-view="review">🧠 Repaso</button>
     <button class="tab" data-view="exam">📝 Examen</button>
@@ -33,7 +34,11 @@
   </nav>
 
   <main>
-    <section id="view-path" class="view active">
+    <section id="view-inicio" class="view active">
+      <div id="inicio-content"></div>
+    </section>
+
+    <section id="view-path" class="view">
       <div id="nivel-selector" class="nivel-selector"></div>
       <div id="path" class="path"></div>
     </section>

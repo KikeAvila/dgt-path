@@ -212,20 +212,84 @@ function renderState() {
 }
 
 // -------- Selector de niveles de dificultad --------
-function renderNivelSelector() {
-  const cont = document.getElementById("nivel-selector");
+function pintarNiveles(contId, onPick) {
+  const cont = document.getElementById(contId);
+  if (!cont) return;
   cont.innerHTML = "";
   [1, 2, 3].forEach((niv) => {
     if (!nivelTieneContenido(niv)) return; // oculta niveles sin preguntas
     const btn = document.createElement("button");
-    // Selección LIBRE: puedes elegir cualquier nivel de dificultad cuando quieras.
+    // Selección LIBRE de dificultad.
     btn.className = "nivel-btn" + (S.nivelDif === niv ? " active" : "");
     btn.textContent = NIVELES[niv] + (nivelCompleto(niv) ? " ✅" : "");
-    btn.addEventListener("click", () => {
-      S.nivelDif = niv; saveState(); renderNivelSelector(); renderTree();
-    });
+    btn.addEventListener("click", () => { S.nivelDif = niv; saveState(); onPick(); });
     cont.appendChild(btn);
   });
+}
+function renderNivelSelector() {
+  pintarNiveles("nivel-selector", () => { renderNivelSelector(); renderTree(); });
+}
+
+// -------- Menú de Inicio (modos, revisar, categorías) --------
+const CAT_ICON = { 1: "📖", 2: "🪪", 3: "🍺", 4: "⏱️", 5: "🚦", 6: "⤵️", 7: "🔧" };
+function _menuSeccion(titulo, items) {
+  const wrap = document.createElement("div");
+  const h = document.createElement("h3"); h.className = "menu-sec-titulo"; h.textContent = titulo; wrap.appendChild(h);
+  const grid = document.createElement("div"); grid.className = "menu-grid";
+  items.forEach((it) => {
+    const c = document.createElement("div"); c.className = "menu-card";
+    c.innerHTML = `<div class="mc-ic">${it.ic}</div><div class="mc-t">${it.t}</div>${it.sub ? `<div class="mc-sub">${it.sub}</div>` : ""}`;
+    c.addEventListener("click", it.fn);
+    grid.appendChild(c);
+  });
+  wrap.appendChild(grid); return wrap;
+}
+function renderInicio() {
+  const cont = document.getElementById("inicio-content"); if (!cont) return; cont.innerHTML = "";
+  const head = document.createElement("div"); head.className = "card";
+  head.innerHTML = `<h2>¡Hola${S.perfil && S.perfil.nombre ? ", " + S.perfil.nombre : ""}! 👋</h2>
+    <p class="muted">Nivel ${nivel()} · ⚡ ${S.xp} XP · 🔥 ${S.racha} · ${"❤️".repeat(S.vidas)}${"🤍".repeat(Math.max(0, CFG.MAX_VIDAS - S.vidas))}</p>
+    <p class="muted" style="margin-top:6px">Dificultad:</p>
+    <div class="nivel-selector" id="inicio-nivel" style="margin-top:4px"></div>`;
+  cont.appendChild(head);
+  const modos = [
+    { ic: "🧠", t: "Práctica (Camino)", fn: () => switchView("path") },
+    { ic: "🛡️", t: "Examen de práctica", fn: () => startExam() },
+    { ic: "📖", t: "Leer teoría", fn: () => switchView("teoria") },
+    { ic: "🚦", t: "Practicar señales", fn: () => { teoriaSel = "senales"; switchView("teoria"); renderTeoriaSelector(); renderTeoriaContent(); } },
+  ];
+  const revisar = [
+    { ic: "❌", t: "Mis errores", fn: () => startReview() },
+    { ic: "🙈", t: "Menos vistas", fn: () => startMenosVistas() },
+  ];
+  cont.appendChild(_menuSeccion("Modos de examen", modos));
+  cont.appendChild(_menuSeccion("Revisar", revisar));
+  const cats = [1, 2, 3, 4, 5, 6, 7].map((t) => ({ ic: CAT_ICON[t], t: TEMAS[t], sub: NIVELES[S.nivelDif].split(" · ")[1], fn: () => startCategoria(t) }));
+  cont.appendChild(_menuSeccion("Categorías", cats));
+  pintarNiveles("inicio-nivel", () => renderInicio());
+}
+function startCategoria(tema) {
+  Audio.ensure();
+  const pool = poolTema(S.nivelDif, tema);
+  if (!pool.length) { toast(`No hay preguntas de "${TEMAS[tema]}" en este nivel.`); return; }
+  quiz = {
+    mode: "categoria", titulo: "Categoría · " + TEMAS[tema],
+    questions: sample(pool, Math.min(15, pool.length)),
+    index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null, studyPhase: false,
+  };
+  openModal("quiz-modal"); renderQuizQuestion();
+}
+function startMenosVistas() {
+  Audio.ensure();
+  const arr = QUESTIONS.map((q) => ({ q, v: S.srs[q.id] ? S.srs[q.id].vecesVista : 0 }))
+    .sort((a, b) => a.v - b.v).slice(0, 15).map((x) => x.q);
+  if (!arr.length) { toast("No hay preguntas."); return; }
+  quiz = {
+    mode: "categoria", titulo: "Menos vistas",
+    questions: sample(arr, arr.length),
+    index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null, studyPhase: false,
+  };
+  openModal("quiz-modal"); renderQuizQuestion();
 }
 
 // -------- Árbol / camino --------
@@ -546,9 +610,10 @@ function finishQuiz(completo) {
   } else if (q.mode === "review") {
     loadReviewCount();
     showResult("Repaso terminado", q.fallos === 0 ? 3 : q.fallos <= 2 ? 2 : 1, `Aciertos: ${q.aciertos}/${q.index}`);
-  } else if (q.mode === "senales") {
+  } else if (q.mode === "senales" || q.mode === "categoria") {
     const tot = q.answered ? q.index + 1 : q.index;
-    showResult("Práctica de señales 🚦", q.fallos === 0 ? 3 : q.fallos <= 3 ? 2 : 1, `Aciertos: ${q.aciertos}/${tot}`);
+    renderState(); renderInicio();
+    showResult(q.titulo || "Práctica", q.fallos === 0 ? 3 : q.fallos <= 3 ? 2 : 1, `Aciertos: ${q.aciertos}/${tot}`);
   } else {
     renderTree();
     showResult("Sin vidas ❤️", 0, `Aciertos: ${q.aciertos}. Espera a recuperar vidas (1 cada ${CFG.VIDA_REGEN_MIN} min).`);
@@ -959,6 +1024,7 @@ function switchView(name) {
   if (name === "review") loadReviewCount();
   if (name === "stats") loadStats();
   if (name === "teoria") loadTeoria();
+  if (name === "inicio") renderInicio();
 }
 function toast(text) {
   let el = document.getElementById("toast");
@@ -970,7 +1036,7 @@ function toast(text) {
 
 // -------- Init --------
 function init() {
-  loadState(); regenVidas(); saveState(); renderState(); renderNivelSelector(); renderTree();
+  loadState(); regenVidas(); saveState(); renderState(); renderNivelSelector(); renderTree(); renderInicio();
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => switchView(t.dataset.view)));
   document.getElementById("quiz-check").addEventListener("click", checkAnswer);
   document.getElementById("quiz-close").addEventListener("click", () => { if (quiz) clearTimeout(quiz.advTimer); closeModal("quiz-modal"); });

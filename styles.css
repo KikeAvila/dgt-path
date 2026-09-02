@@ -43,8 +43,8 @@ body {
 
 /* ---------------- Tabs ---------------- */
 .tabs {
-  display: flex; gap: 8px; justify-content: center;
-  padding: 12px; background: #fff; border-bottom: 2px solid var(--gray);
+  display: flex; gap: 6px; justify-content: center; flex-wrap: wrap;
+  padding: 10px; background: #fff; border-bottom: 2px solid var(--gray);
   position: sticky; top: 57px; z-index: 15;
 }
 .tab {
@@ -227,6 +227,22 @@ main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
 
 /* ---------------- Imagen de señal en el quiz ---------------- */
 .quiz-imagen { background: #fff; padding: 6px; object-fit: contain; max-height: 200px; }
+
+/* ---------------- Menú de Inicio (modos, revisar, categorías) ---------------- */
+.menu-sec-titulo { font-size: 17px; margin: 20px 0 10px; color: var(--text); }
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.menu-card {
+  background: #fff; border: 2px solid var(--gray); border-bottom-width: 4px; border-radius: 16px;
+  padding: 16px 12px; text-align: center; cursor: pointer; transition: transform .06s, background .1s;
+}
+.menu-card:hover { background: #f7f7f7; }
+.menu-card:active { transform: translateY(3px); border-bottom-width: 2px; }
+.menu-card .mc-ic {
+  width: 54px; height: 54px; margin: 0 auto 8px; border-radius: 50%;
+  background: #e9f9dc; display: flex; align-items: center; justify-content: center; font-size: 26px;
+}
+.menu-card .mc-t { font-weight: 800; font-size: 14px; line-height: 1.2; }
+.menu-card .mc-sub { font-size: 11px; color: var(--gray-dark); margin-top: 3px; }
 
 /* ---------------- Selector de niveles de dificultad ---------------- */
 .nivel-selector { display: flex; gap: 8px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
