@@ -216,16 +216,12 @@ function renderNivelSelector() {
   const cont = document.getElementById("nivel-selector");
   cont.innerHTML = "";
   [1, 2, 3].forEach((niv) => {
-    if (!nivelTieneContenido(niv) && niv !== 1) return; // oculta niveles vacíos
-    const desbloq = nivelDesbloqueado(niv);
+    if (!nivelTieneContenido(niv)) return; // oculta niveles sin preguntas
     const btn = document.createElement("button");
-    btn.className = "nivel-btn" + (S.nivelDif === niv ? " active" : "") + (desbloq ? "" : " locked");
-    btn.textContent = (desbloq ? "" : "🔒 ") + NIVELES[niv];
+    // Selección LIBRE: puedes elegir cualquier nivel de dificultad cuando quieras.
+    btn.className = "nivel-btn" + (S.nivelDif === niv ? " active" : "");
+    btn.textContent = NIVELES[niv] + (nivelCompleto(niv) ? " ✅" : "");
     btn.addEventListener("click", () => {
-      if (!desbloq) {
-        toast(`🔒 Completa el nivel ${niv - 1} (todas las unidades + examen) para desbloquearlo.`);
-        return;
-      }
       S.nivelDif = niv; saveState(); renderNivelSelector(); renderTree();
     });
     cont.appendChild(btn);
