@@ -75,7 +75,10 @@ function loadState() {
   S.perfil = S.perfil || { nombre: "", pin: "" };
   return S;
 }
-function saveState() { localStorage.setItem(KEY, JSON.stringify(S)); }
+function saveState() {
+  localStorage.setItem(KEY, JSON.stringify(S));
+  if (typeof cloudGuardar === "function") cloudGuardar(); // sube a la nube si está conectada
+}
 
 // -------- Fechas --------
 function today() {
@@ -962,31 +965,64 @@ function editarPerfil() {
   if (!/^\d{4}$/.test(pin)) { toast("El PIN debe ser exactamente 4 números."); return; }
   S.perfil = { nombre: (nombre || "").trim() || "Alumno", pin };
   saveState(); renderPerfil(); toast("Perfil guardado ✔");
+  if (cloudReady()) cloudLogin(S.perfil.nombre, S.perfil.pin); // conecta la nube con este usuario
 }
 let codigoModo = null;
+// Descodifica el progreso venga como JSON (archivo nuevo) o como base64 (código antiguo)
+function decodeProgreso(txt) {
+  txt = (txt || "").trim();
+  try { const d = JSON.parse(txt); if (d && d.perfil) return d; } catch (_) {}
+  try { const d = JSON.parse(decodeURIComponent(escape(atob(txt)))); if (d && d.perfil) return d; } catch (_) {}
+  return null;
+}
 function abrirExportar() {
   if (!S.perfil || !S.perfil.nombre || !/^\d{4}$/.test(S.perfil.pin || "")) {
     toast("Primero pon tu usuario y PIN (botón 'Poner usuario y PIN')."); return;
   }
-  const code = btoa(unescape(encodeURIComponent(JSON.stringify(S))));
   document.getElementById("codigo-titulo").textContent = "Exportar progreso";
   document.getElementById("codigo-ayuda").textContent =
-    "Copia TODO este código y pégalo en el otro dispositivo con 'Importar'. Incluye tu PIN, guárdalo tú.";
-  const ta = document.getElementById("codigo-texto"); ta.value = code; ta.readOnly = true;
+    "Pulsa «Descargar archivo» y guárdalo o pásalo al otro móvil (WhatsApp/AirDrop/Archivos). Incluye tu PIN. Si prefieres, también puedes copiar el texto.";
+  const ta = document.getElementById("codigo-texto"); ta.value = JSON.stringify(S); ta.readOnly = true;
   document.getElementById("codigo-pin-wrap").style.display = "none";
-  document.getElementById("codigo-accion").textContent = "Copiar";
+  document.getElementById("codigo-elegir-archivo").style.display = "none";
+  document.getElementById("codigo-descargar").style.display = "";
+  document.getElementById("codigo-accion").textContent = "Copiar texto";
   codigoModo = "export"; openModal("codigo-modal");
-  setTimeout(() => { ta.focus(); ta.select(); }, 50);
 }
 function abrirImportar() {
   document.getElementById("codigo-titulo").textContent = "Importar progreso";
   document.getElementById("codigo-ayuda").textContent =
-    "Pega el código que exportaste en el otro dispositivo y escribe su PIN de 4 cifras.";
+    "Pulsa «Elegir archivo» y selecciona el archivo de progreso (o pega el texto). Después escribe el PIN de 4 cifras.";
   const ta = document.getElementById("codigo-texto"); ta.value = ""; ta.readOnly = false;
   document.getElementById("codigo-pin-wrap").style.display = "";
   document.getElementById("codigo-pin").value = "";
+  document.getElementById("codigo-elegir-archivo").style.display = "";
+  document.getElementById("codigo-descargar").style.display = "none";
   document.getElementById("codigo-accion").textContent = "Importar";
   codigoModo = "import"; openModal("codigo-modal");
+}
+function descargarProgreso() {
+  const nombre = ((S.perfil && S.perfil.nombre) || "alumno").replace(/[^\w-]+/g, "_");
+  const blob = new Blob([JSON.stringify(S)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = `dgt-progreso-${nombre}.json`;
+  document.body.appendChild(a); a.click();
+  setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 200);
+  toast("Archivo descargado ⬇️ Pásalo al otro móvil y usa «Importar».");
+}
+function elegirArchivo() { document.getElementById("codigo-file").click(); }
+function archivoElegido(e) {
+  const f = e.target.files && e.target.files[0];
+  if (!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    document.getElementById("codigo-texto").value = (r.result || "").trim();
+    toast("Archivo cargado. Escribe el PIN y pulsa «Importar».");
+  };
+  r.onerror = () => toast("No se pudo leer el archivo.");
+  r.readAsText(f);
+  e.target.value = "";
 }
 function accionCodigo() {
   const ta = document.getElementById("codigo-texto");
@@ -999,10 +1035,9 @@ function accionCodigo() {
   }
   const code = (ta.value || "").trim();
   const pin = (document.getElementById("codigo-pin").value || "").trim();
-  let data;
-  try { data = JSON.parse(decodeURIComponent(escape(atob(code)))); }
-  catch (_) { toast("El código no es válido."); return; }
-  if (!data || !data.perfil) { toast("El código no contiene un perfil válido."); return; }
+  const data = decodeProgreso(code);
+  if (!data) { toast("El código/archivo no es válido."); return; }
+  if (!data.perfil) { toast("El código no contiene un perfil válido."); return; }
   if ((data.perfil.pin || "") !== pin) { toast("PIN incorrecto para ese código."); return; }
   S = data;
   S.unitExam = S.unitExam || {}; S.generalExam = S.generalExam || {};
@@ -1035,8 +1070,68 @@ function toast(text) {
 }
 
 // -------- Init --------
+// -------- Sincronización en la nube (Firebase Firestore) --------
+// El progreso se guarda en la nube bajo el usuario+PIN y se sincroniza solo
+// entre dispositivos en tiempo real. Si no hay internet o Firebase no carga,
+// todo sigue funcionando en local (localStorage) sin molestar.
+let cloudDoc = null, cloudUnsub = null, cloudSaveTimer = null, cloudAplicando = false;
+function cloudReady() { return typeof firebase !== "undefined" && !!window._db; }
+function cloudKey(nombre) { return (nombre || "").trim().toLowerCase().replace(/[^\w-]+/g, "_"); }
+
+function aplicarNube(jsonStr, ts) {
+  let data; try { data = JSON.parse(jsonStr); } catch (_) { return; }
+  if (!data || !data.perfil) return;
+  cloudAplicando = true;
+  S = data; S.cloudTs = ts;
+  S.unitExam = S.unitExam || {}; S.generalExam = S.generalExam || {};
+  S.nodes = S.nodes || {}; S.srs = S.srs || {}; S.nivelDif = S.nivelDif || 1;
+  S.perfil = S.perfil || { nombre: "", pin: "" };
+  localStorage.setItem(KEY, JSON.stringify(S)); // sin re-disparar la subida
+  renderState(); renderNivelSelector(); renderTree(); renderPerfil(); loadStats();
+  cloudAplicando = false;
+  toast("Progreso sincronizado ☁️");
+}
+function cloudGuardarYa() {
+  if (!cloudReady() || !cloudDoc) return;
+  S.cloudTs = Date.now();
+  cloudDoc.set({ pin: (S.perfil && S.perfil.pin) || "", data: JSON.stringify(S), updatedAt: S.cloudTs })
+    .catch((e) => console.warn("No se pudo guardar en la nube:", e));
+}
+function cloudGuardar() {
+  if (!cloudReady() || !cloudDoc || cloudAplicando) return;
+  clearTimeout(cloudSaveTimer);
+  cloudSaveTimer = setTimeout(cloudGuardarYa, 800); // agrupa cambios seguidos
+}
+async function cloudLogin(nombre, pin) {
+  if (!cloudReady()) return false;
+  const key = cloudKey(nombre);
+  if (!key || !/^\d{4}$/.test(pin || "")) return false;
+  try {
+    if (cloudUnsub) { cloudUnsub(); cloudUnsub = null; }
+    cloudDoc = window._db.collection("progresos").doc(key);
+    const snap = await cloudDoc.get();
+    if (snap.exists) {
+      const d = snap.data() || {};
+      if ((d.pin || "") !== pin) { toast("Ese usuario ya existe con otro PIN."); cloudDoc = null; return false; }
+      const remoteTs = d.updatedAt || 0, localTs = S.cloudTs || 0;
+      if (remoteTs > localTs && d.data) aplicarNube(d.data, remoteTs);
+      else cloudGuardarYa(); // lo de este dispositivo es más nuevo: súbelo
+    } else {
+      cloudGuardarYa(); // primer uso: crea el documento con lo actual
+    }
+    // Escucha en tiempo real: si cambias en otro dispositivo, se refleja aquí.
+    cloudUnsub = cloudDoc.onSnapshot((s) => {
+      if (!s.exists) return;
+      const d = s.data() || {};
+      if ((d.updatedAt || 0) > (S.cloudTs || 0) && d.data) aplicarNube(d.data, d.updatedAt);
+    });
+    return true;
+  } catch (e) { console.warn("cloudLogin:", e); return false; }
+}
+
 function init() {
   loadState(); regenVidas(); saveState(); renderState(); renderNivelSelector(); renderTree(); renderInicio();
+  if (S.perfil && S.perfil.nombre && /^\d{4}$/.test(S.perfil.pin || "")) cloudLogin(S.perfil.nombre, S.perfil.pin);
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => switchView(t.dataset.view)));
   document.getElementById("quiz-check").addEventListener("click", checkAnswer);
   document.getElementById("quiz-close").addEventListener("click", () => { if (quiz) clearTimeout(quiz.advTimer); closeModal("quiz-modal"); });
@@ -1076,6 +1171,9 @@ function init() {
   document.getElementById("btn-perfil-importar").addEventListener("click", abrirImportar);
   document.getElementById("codigo-accion").addEventListener("click", accionCodigo);
   document.getElementById("codigo-cerrar").addEventListener("click", () => closeModal("codigo-modal"));
+  document.getElementById("codigo-descargar").addEventListener("click", descargarProgreso);
+  document.getElementById("codigo-elegir-archivo").addEventListener("click", elegirArchivo);
+  document.getElementById("codigo-file").addEventListener("change", archivoElegido);
 
   // Práctica de señales (modo A / B).
   document.getElementById("senales-A").addEventListener("click", () => { closeModal("senales-modo-modal"); startSenales("A"); });

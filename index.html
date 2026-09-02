@@ -209,21 +209,28 @@
     <div class="modal-box">
       <h2 id="codigo-titulo">Código de progreso</h2>
       <p class="muted" id="codigo-ayuda"></p>
-      <textarea id="codigo-texto" rows="6" style="width:100%;font-family:monospace;font-size:12px"></textarea>
+      <input type="file" id="codigo-file" accept=".json,application/json,text/plain" style="display:none">
+      <button class="btn" id="codigo-elegir-archivo" style="display:none;width:100%;margin-bottom:8px">📂 Elegir archivo…</button>
+      <textarea id="codigo-texto" rows="4" style="width:100%;font-family:monospace;font-size:12px"></textarea>
       <div id="codigo-pin-wrap" style="margin-top:10px">
         <label>PIN (4 cifras): <input id="codigo-pin" inputmode="numeric" maxlength="4" style="width:80px;padding:6px;border:2px solid var(--gray);border-radius:8px"></label>
       </div>
-      <div style="margin-top:12px;display:flex;gap:8px;justify-content:flex-end">
+      <div style="margin-top:12px;display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap">
         <button class="btn" id="codigo-cerrar">Cerrar</button>
-        <button class="btn btn-primary" id="codigo-accion">Aceptar</button>
+        <button class="btn btn-primary" id="codigo-descargar" style="display:none">⬇️ Descargar archivo</button>
+        <button class="btn" id="codigo-accion">Aceptar</button>
       </div>
     </div>
   </div>
 
-  <script src="data.js?v=9"></script>
-  <script src="teoria.js?v=9"></script>
-  <script src="catalogo.js?v=9"></script>
-  <script src="app.js?v=9"></script>
+  <!-- SDK de Firebase (nube). Si no hay internet, la app funciona igual en local. -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js?v=10"></script>
+  <script src="data.js?v=10"></script>
+  <script src="teoria.js?v=10"></script>
+  <script src="catalogo.js?v=10"></script>
+  <script src="app.js?v=10"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
