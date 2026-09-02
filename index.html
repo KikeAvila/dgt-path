@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
   <title>DGT Path — Permiso B</title>
-  <link rel="stylesheet" href="styles.css?v=9" />
+  <link rel="stylesheet" href="styles.css?v=11" />
   <link rel="manifest" href="manifest.webmanifest" />
   <meta name="theme-color" content="#58cc02" />
   <!-- iOS: instalable en pantalla de inicio -->
@@ -21,6 +21,7 @@
       <div class="stat xp" title="Experiencia">⚡ <b id="stat-xp">0</b></div>
       <div class="stat lvl" title="Nivel">Nv <b id="stat-nivel">1</b></div>
       <div class="stat hearts"><span id="stat-vidas">❤️❤️❤️❤️❤️</span></div>
+      <button class="stat user" id="stat-user" title="Cuenta y sincronización">👤 <b id="stat-user-name">Entrar</b></button>
     </div>
   </header>
 
@@ -226,11 +227,11 @@
   <!-- SDK de Firebase (nube). Si no hay internet, la app funciona igual en local. -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="firebase-config.js?v=10"></script>
-  <script src="data.js?v=10"></script>
-  <script src="teoria.js?v=10"></script>
-  <script src="catalogo.js?v=10"></script>
-  <script src="app.js?v=10"></script>
+  <script src="firebase-config.js?v=11"></script>
+  <script src="data.js?v=11"></script>
+  <script src="teoria.js?v=11"></script>
+  <script src="catalogo.js?v=11"></script>
+  <script src="app.js?v=11"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));

@@ -951,10 +951,16 @@ function recargarVidas(modo) {
 
 // -------- Perfil (usuario + PIN) y código de progreso --------
 function renderPerfil() {
+  const nombre = (S.perfil && S.perfil.nombre) ? S.perfil.nombre : "";
   const el = document.getElementById("perfil-nombre");
-  if (el) el.textContent = (S.perfil && S.perfil.nombre) ? S.perfil.nombre : "— (sin definir)";
+  if (el) el.textContent = nombre || "— (sin definir)";
   const vi = document.getElementById("vidas-info");
   if (vi) vi.textContent = `${S.vidas} / ${CFG.MAX_VIDAS} ❤️`;
+  // Botón de cuenta de la barra superior.
+  const un = document.getElementById("stat-user-name");
+  if (un) un.textContent = nombre || "Entrar";
+  const ub = document.getElementById("stat-user");
+  if (ub) ub.classList.toggle("logged", !!nombre);
 }
 function editarPerfil() {
   const nombre = prompt("Tu nombre de usuario:", (S.perfil && S.perfil.nombre) || "");
@@ -1166,6 +1172,7 @@ function init() {
   document.getElementById("examen-modo-cancelar").addEventListener("click", () => closeModal("examen-modo-modal"));
 
   // Perfil y código de progreso.
+  document.getElementById("stat-user").addEventListener("click", editarPerfil);
   document.getElementById("btn-perfil-editar").addEventListener("click", editarPerfil);
   document.getElementById("btn-perfil-exportar").addEventListener("click", abrirExportar);
   document.getElementById("btn-perfil-importar").addEventListener("click", abrirImportar);

@@ -40,6 +40,15 @@ body {
 .stat.streak { color: #ff9600; }
 .stat.xp { color: var(--yellow); }
 .stat.lvl { color: var(--blue); }
+.stat.user {
+  cursor: pointer; font-size: 15px; color: var(--text);
+  background: #f2f7ff; border: 2px solid var(--blue); border-radius: 999px;
+  padding: 4px 12px; display: inline-flex; align-items: center; gap: 4px;
+  max-width: 120px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.stat.user b { color: var(--blue); font-weight: 800; }
+.stat.user.logged { background: #eafce0; border-color: var(--green); }
+.stat.user.logged b { color: var(--green); }
 
 /* ---------------- Tabs ---------------- */
 .tabs {
