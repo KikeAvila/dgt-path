@@ -37,6 +37,8 @@ QUESTIONS.forEach((q) => (BY_ID[q.id] = q));
 // Teoría (fichas de lectura) desde teoria.js.
 const TEORIA = window.DGT_TEORIA || {};
 let teoriaSel = 1;
+// Catálogo completo de señales (catalogo.js).
+const CATALOGO = (window.DGT_CATALOGO && window.DGT_CATALOGO.senales) || [];
 
 // -------- Estado persistente --------
 const KEY = "dgtpath_state_v2";
@@ -47,6 +49,7 @@ function nuevoEstado() {
   return {
     xp: 0, vidas: CFG.MAX_VIDAS, vidasTs: Date.now(), racha: 0, ultima: null,
     srs: {}, nodes: {}, unitExam: {}, generalExam: {}, nivelDif: 1,
+    perfil: { nombre: "", pin: "" },
   };
 }
 function loadState() {
@@ -69,6 +72,7 @@ function loadState() {
   // Rellenar claves que puedan faltar.
   S.unitExam = S.unitExam || {}; S.generalExam = S.generalExam || {};
   S.nodes = S.nodes || {}; S.srs = S.srs || {}; S.nivelDif = S.nivelDif || 1;
+  S.perfil = S.perfil || { nombre: "", pin: "" };
   return S;
 }
 function saveState() { localStorage.setItem(KEY, JSON.stringify(S)); }
@@ -288,7 +292,14 @@ function renderTree() {
     h.className = "unit-header" + (u.desbloqueada ? "" : " locked");
     h.innerHTML = `<div><h3>Unidad ${u.t} · ${u.titulo}</h3>
       <small>${u.n} preguntas · ${u.nSub} bloques ${u.desbloqueada ? "" : "· 🔒"}</small></div>
-      <div>${u.completa ? "🏆" : ""}</div>`;
+      <div style="display:flex;align-items:center;gap:8px">
+        ${u.completa ? "🏆" : ""}
+        ${u.desbloqueada ? `<button class="unit-exam-btn">📝 Examen</button>` : ""}
+      </div>`;
+    if (u.desbloqueada) {
+      const eb = h.querySelector(".unit-exam-btn");
+      if (eb) eb.addEventListener("click", () => abrirExamenModo(niv, u.t, u.titulo));
+    }
     path.appendChild(h);
 
     const nodes = document.createElement("div"); nodes.className = "nodes";
@@ -302,7 +313,7 @@ function renderTree() {
         const cap = document.createElement("span");
         cap.className = "node-cap"; cap.textContent = "Examen";
         btn.appendChild(cap);
-        if (!locked) btn.addEventListener("click", () => startUnitExam(niv, u.t, u.titulo));
+        if (!locked) btn.addEventListener("click", () => abrirExamenModo(niv, u.t, u.titulo));
       } else {
         btn.className = "node" + (n.completado ? " completed" : "") + (locked ? " locked" : "");
         btn.innerHTML = locked ? "🔒" : n.completado ? "⭐" : "▶";
@@ -347,8 +358,59 @@ function startReview() {
   openModal("quiz-modal"); renderQuizQuestion();
 }
 
+// -------- Práctica de señales (generada del catálogo) --------
+const SENALES_SESION = 20; // preguntas por sesión (aleatorias)
+function _preguntaSignifica(s, familia) {
+  const distract = sample(familia, 2).map((o) => o.nombre);
+  const opts = sample([s.nombre, ...distract], 3);
+  return {
+    id: "sig_" + s.codigo, tema_id: 5, imagenCat: s.img, imagen: null,
+    enunciado: "¿Qué significa esta señal?",
+    opciones: opts, correcta_idx: opts.indexOf(s.nombre),
+    explicacion: `${s.codigo} · ${s.nombre}. ${s.descripcion || ""}`,
+  };
+}
+function _preguntaGrupo(s, cats) {
+  const otras = sample(cats.filter((c) => c !== s.categoria), 2);
+  const opts = sample([s.categoria, ...otras], 3);
+  return {
+    id: "grp_" + s.codigo, tema_id: 5, imagenCat: s.img, imagen: null,
+    enunciado: "¿A qué grupo de señales pertenece esta?",
+    opciones: opts, correcta_idx: opts.indexOf(s.categoria),
+    explicacion: `${s.codigo} · ${s.nombre} — grupo: ${s.categoria}.`,
+  };
+}
+function generarSenales(modo) {
+  const con = CATALOGO.filter((s) => s.img && s.nombre);
+  const porCat = {}; con.forEach((s) => (porCat[s.categoria] = porCat[s.categoria] || []).push(s));
+  const cats = Object.keys(porCat);
+  const preg = [];
+  con.forEach((s) => {
+    let fam = (porCat[s.categoria] || []).filter((o) => o.codigo !== s.codigo);
+    if (fam.length < 2) fam = con.filter((o) => o.codigo !== s.codigo);
+    preg.push(_preguntaSignifica(s, fam));
+    if (modo === "B" && cats.length >= 3) preg.push(_preguntaGrupo(s, cats));
+  });
+  return sample(preg, SENALES_SESION); // baraja y coge una sesión manejable
+}
+function startSenales(modo) {
+  Audio.ensure();
+  const qs = generarSenales(modo);
+  if (!qs.length) { toast("No hay señales con imagen para practicar."); return; }
+  quiz = {
+    mode: "senales", titulo: modo === "B" ? "Señales · variantes" : "Señales",
+    questions: qs, index: 0, aciertos: 0, fallos: 0, answered: false,
+    shuffle: null, selected: null, advTimer: null, noVidas: true, noSrs: true, studyPhase: false,
+  };
+  openModal("quiz-modal"); renderQuizQuestion();
+}
+
 function setImagen(imgEl, question) {
-  if (question.imagen) { imgEl.src = "images/" + question.imagen.replace(/^.*[\\/]/, ""); imgEl.classList.remove("hidden"); imgEl.onerror = () => imgEl.classList.add("hidden"); }
+  // imagenCat = imagen del catálogo de señales (pwa/senales/); imagen = señales antiguas (pwa/images/).
+  const src = question.imagenCat
+    ? "senales/" + question.imagenCat
+    : (question.imagen ? "images/" + question.imagen.replace(/^.*[\\/]/, "") : null);
+  if (src) { imgEl.src = src; imgEl.classList.remove("hidden"); imgEl.onerror = () => imgEl.classList.add("hidden"); }
   else imgEl.classList.add("hidden");
 }
 
@@ -424,11 +486,11 @@ function checkAnswer() {
   const question = q.questions[q.index];
   const correcto = q.selected.canonical === question.correcta_idx;
 
-  regenVidas(); actualizarSrs(question.id, correcto); actualizarRacha();
+  regenVidas(); if (!q.noSrs) actualizarSrs(question.id, correcto); actualizarRacha();
   const nivelPrev = nivel();
   let subioNivel = false, sinVidas = false;
   if (correcto) { S.xp += CFG.XP_ACIERTO; subioNivel = nivel() > nivelPrev; q.aciertos++; }
-  else { S.vidas = Math.max(0, S.vidas - 1); sinVidas = S.vidas === 0; q.fallos++; }
+  else { if (!q.noVidas) { S.vidas = Math.max(0, S.vidas - 1); sinVidas = S.vidas === 0; } q.fallos++; }
   saveState(); renderState();
 
   const cont = document.getElementById("quiz-opciones");
@@ -488,6 +550,9 @@ function finishQuiz(completo) {
   } else if (q.mode === "review") {
     loadReviewCount();
     showResult("Repaso terminado", q.fallos === 0 ? 3 : q.fallos <= 2 ? 2 : 1, `Aciertos: ${q.aciertos}/${q.index}`);
+  } else if (q.mode === "senales") {
+    const tot = q.answered ? q.index + 1 : q.index;
+    showResult("Práctica de señales 🚦", q.fallos === 0 ? 3 : q.fallos <= 3 ? 2 : 1, `Aciertos: ${q.aciertos}/${tot}`);
   } else {
     renderTree();
     showResult("Sin vidas ❤️", 0, `Aciertos: ${q.aciertos}. Espera a recuperar vidas (1 cada ${CFG.VIDA_REGEN_MIN} min).`);
@@ -527,15 +592,30 @@ function startExam() {
   });
 }
 
-function startUnitExam(niv, tema, titulo) {
+let examenPendiente = null;
+function abrirExamenModo(niv, tema, titulo) {
+  // Deja elegir modo fácil / restringido antes de lanzar el examen de unidad.
+  examenPendiente = { niv, tema, titulo };
+  document.getElementById("examen-modo-titulo").textContent = `Unidad ${tema} · ${titulo}`;
+  openModal("examen-modo-modal");
+}
+function lanzarExamenPendiente(modo) {
+  const p = examenPendiente;
+  closeModal("examen-modo-modal");
+  if (p) startUnitExam(p.niv, p.tema, p.titulo, modo);
+}
+function startUnitExam(niv, tema, titulo, modo) {
   Audio.ensure();
+  modo = modo || "facil";
   const pool = poolTema(niv, tema);
   const size = Math.min(CFG.UNIT_EXAM_SIZE, pool.length);
   const sel = sample(pool, size);
-  const maxFallos = size >= 30 ? 3 : Math.max(1, Math.round(size * 0.1));
+  let maxFallos;
+  if (modo === "restringido") maxFallos = 0;              // hay que acertar TODAS
+  else maxFallos = size >= 30 ? 3 : Math.max(1, Math.round(size * 0.1));
   lanzarExamen(sel, {
-    kind: "unit", niv, tema,
-    titulo: `Examen · Unidad ${tema} (${titulo})`,
+    kind: "unit", niv, tema, modo,
+    titulo: `Examen U${tema} · ${modo === "restringido" ? "restringido 0 fallos" : "fácil ≤3"}`,
     durMin: Math.max(10, size), maxFallos,
   });
 }
@@ -659,6 +739,7 @@ function renderExamResult(r) {
 
 // -------- Stats --------
 function loadStats() {
+  renderPerfil();
   const conteos = {};
   QUESTIONS.forEach((q) => (conteos[q.tema_id] = (conteos[q.tema_id] || 0) + 1));
   let gTotal = 0, gDom = 0, gVistas = 0, gFallos = 0;
@@ -721,9 +802,17 @@ function renderTeoriaSelector() {
     btn.addEventListener("click", () => { teoriaSel = t; renderTeoriaSelector(); renderTeoriaContent(); });
     cont.appendChild(btn);
   });
+  if (CATALOGO.length) {
+    const b = document.createElement("button");
+    b.className = "nivel-btn" + (teoriaSel === "senales" ? " active" : "");
+    b.textContent = `🚦 Todas las señales (${CATALOGO.length})`;
+    b.addEventListener("click", () => { teoriaSel = "senales"; renderTeoriaSelector(); renderTeoriaContent(); });
+    cont.appendChild(b);
+  }
 }
 function renderTeoriaContent() {
   const cont = document.getElementById("teoria-content"); cont.innerHTML = "";
+  if (teoriaSel === "senales") { renderCatalogoSenales(cont); return; }
   const tema = TEORIA[teoriaSel];
   if (!tema) { cont.innerHTML = `<div class="card"><p class="muted">Todavía no hay teoría para este tema.</p></div>`; return; }
   const ficha = document.createElement("div"); ficha.className = "teoria-ficha";
@@ -734,7 +823,135 @@ function renderTeoriaContent() {
   });
   ficha.innerHTML = html; cont.appendChild(ficha);
 }
+function renderCatalogoSenales(cont) {
+  // Agrupa por categoría y muestra imagen (si hay) + código + nombre + significado.
+  const porCat = {};
+  CATALOGO.forEach((s) => { (porCat[s.categoria || "Otras"] = porCat[s.categoria || "Otras"] || []).push(s); });
+  const intro = document.createElement("div"); intro.className = "teoria-ficha";
+  intro.innerHTML = `<h3>🚦 Catálogo completo de señales (${CATALOGO.length})</h3>
+    <p class="sig" style="color:#555">Todas las señales oficiales (catálogo DGT 2025). Estúdialas por tipo o ponte a prueba.</p>
+    <button class="btn btn-primary" id="btn-practicar-senales" style="margin-top:8px">📝 Practicar estas señales (test)</button>`;
+  cont.appendChild(intro);
+  const bp = intro.querySelector("#btn-practicar-senales");
+  if (bp) bp.addEventListener("click", () => openModal("senales-modo-modal"));
+  Object.keys(porCat).forEach((cat) => {
+    const h = document.createElement("h3"); h.className = "senal-cat-titulo"; h.textContent = `${cat} (${porCat[cat].length})`;
+    cont.appendChild(h);
+    const grid = document.createElement("div"); grid.className = "senal-grid";
+    porCat[cat].forEach((s) => {
+      const card = document.createElement("div"); card.className = "senal-card";
+      const img = s.img ? `<img src="senales/${s.img}" alt="${s.codigo}" loading="lazy">` : `<div class="no-img">sin imagen</div>`;
+      const badge = s.nuevo2025 ? `<div class="senal-badge nueva">🆕 NUEVA 2025</div>`
+        : (s.cambio_diseno ? `<div class="senal-badge cambio">🔄 Diseño 2025</div>` : "");
+      card.innerHTML = `${img}${badge}<div class="cod">${s.codigo}</div><div class="nom">${s.nombre || ""}</div><div class="sig">${s.descripcion || ""}</div>`;
+      grid.appendChild(card);
+    });
+    cont.appendChild(grid);
+  });
+}
 function loadTeoria() { renderTeoriaSelector(); renderTeoriaContent(); }
+
+// -------- Recarga manual de vidas --------
+function unidadActual(niv) {
+  // Primera unidad con contenido cuyo examen aún no está aprobado.
+  for (let t = 1; t <= 7; t++) {
+    if (!poolTema(niv, t).length) continue;
+    const ex = S.unitExam[`${niv}_${t}`];
+    if (!(ex && ex.apto)) return t;
+  }
+  return null;
+}
+function recargarVidas(modo) {
+  if (modo === "facil") {
+    S.vidas = CFG.MAX_VIDAS; S.vidasTs = Date.now();
+    saveState(); renderState(); renderPerfil();
+    closeModal("vidas-modal"); toast("❤️ Vidas recargadas (modo fácil).");
+    return;
+  }
+  // Restringido: baja una lección (el último subbloque hecho) de la unidad actual.
+  const niv = S.nivelDif;
+  const t = unidadActual(niv);
+  if (!t) { closeModal("vidas-modal"); toast("No hay unidad en curso de la que bajar una lección."); return; }
+  const nSub = nSubbloques(niv, t);
+  let bajado = -1;
+  for (let i = nSub - 1; i >= 0; i--) {
+    const k = `${niv}_${t}_${i}`;
+    if (S.nodes[k] && S.nodes[k].completado) { delete S.nodes[k]; bajado = i; break; }
+  }
+  if (bajado < 0) { closeModal("vidas-modal"); toast("En la unidad actual no tienes lecciones hechas que bajar; no se recarga."); return; }
+  S.vidas = CFG.MAX_VIDAS; S.vidasTs = Date.now();
+  saveState(); renderState(); renderPerfil(); renderNivelSelector(); renderTree();
+  closeModal("vidas-modal");
+  toast(`❤️ Vidas recargadas. Bajó la lección ${bajado + 1} de la Unidad ${t}: tendrás que repetirla.`);
+}
+
+// -------- Perfil (usuario + PIN) y código de progreso --------
+function renderPerfil() {
+  const el = document.getElementById("perfil-nombre");
+  if (el) el.textContent = (S.perfil && S.perfil.nombre) ? S.perfil.nombre : "— (sin definir)";
+  const vi = document.getElementById("vidas-info");
+  if (vi) vi.textContent = `${S.vidas} / ${CFG.MAX_VIDAS} ❤️`;
+}
+function editarPerfil() {
+  const nombre = prompt("Tu nombre de usuario:", (S.perfil && S.perfil.nombre) || "");
+  if (nombre === null) return;
+  let pin = prompt("PIN de 4 números (protege tu código de progreso):", (S.perfil && S.perfil.pin) || "");
+  if (pin === null) return;
+  pin = (pin || "").trim();
+  if (!/^\d{4}$/.test(pin)) { toast("El PIN debe ser exactamente 4 números."); return; }
+  S.perfil = { nombre: (nombre || "").trim() || "Alumno", pin };
+  saveState(); renderPerfil(); toast("Perfil guardado ✔");
+}
+let codigoModo = null;
+function abrirExportar() {
+  if (!S.perfil || !S.perfil.nombre || !/^\d{4}$/.test(S.perfil.pin || "")) {
+    toast("Primero pon tu usuario y PIN (botón 'Poner usuario y PIN')."); return;
+  }
+  const code = btoa(unescape(encodeURIComponent(JSON.stringify(S))));
+  document.getElementById("codigo-titulo").textContent = "Exportar progreso";
+  document.getElementById("codigo-ayuda").textContent =
+    "Copia TODO este código y pégalo en el otro dispositivo con 'Importar'. Incluye tu PIN, guárdalo tú.";
+  const ta = document.getElementById("codigo-texto"); ta.value = code; ta.readOnly = true;
+  document.getElementById("codigo-pin-wrap").style.display = "none";
+  document.getElementById("codigo-accion").textContent = "Copiar";
+  codigoModo = "export"; openModal("codigo-modal");
+  setTimeout(() => { ta.focus(); ta.select(); }, 50);
+}
+function abrirImportar() {
+  document.getElementById("codigo-titulo").textContent = "Importar progreso";
+  document.getElementById("codigo-ayuda").textContent =
+    "Pega el código que exportaste en el otro dispositivo y escribe su PIN de 4 cifras.";
+  const ta = document.getElementById("codigo-texto"); ta.value = ""; ta.readOnly = false;
+  document.getElementById("codigo-pin-wrap").style.display = "";
+  document.getElementById("codigo-pin").value = "";
+  document.getElementById("codigo-accion").textContent = "Importar";
+  codigoModo = "import"; openModal("codigo-modal");
+}
+function accionCodigo() {
+  const ta = document.getElementById("codigo-texto");
+  if (codigoModo === "export") {
+    ta.select();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(ta.value).then(() => toast("Código copiado ✔")).catch(() => toast("Selecciónalo y cópialo a mano."));
+    } else { try { document.execCommand("copy"); toast("Código copiado ✔"); } catch (_) { toast("Selecciónalo y cópialo a mano."); } }
+    return;
+  }
+  const code = (ta.value || "").trim();
+  const pin = (document.getElementById("codigo-pin").value || "").trim();
+  let data;
+  try { data = JSON.parse(decodeURIComponent(escape(atob(code)))); }
+  catch (_) { toast("El código no es válido."); return; }
+  if (!data || !data.perfil) { toast("El código no contiene un perfil válido."); return; }
+  if ((data.perfil.pin || "") !== pin) { toast("PIN incorrecto para ese código."); return; }
+  S = data;
+  S.unitExam = S.unitExam || {}; S.generalExam = S.generalExam || {};
+  S.nodes = S.nodes || {}; S.srs = S.srs || {}; S.nivelDif = S.nivelDif || 1;
+  S.perfil = S.perfil || { nombre: "", pin: "" };
+  saveState();
+  renderState(); renderNivelSelector(); renderTree(); renderPerfil(); loadStats();
+  closeModal("codigo-modal");
+  toast(`Progreso de ${S.perfil.nombre || "usuario"} importado ✔`);
+}
 
 // -------- Modales / vistas / toast --------
 function openModal(id) { document.getElementById(id).classList.remove("hidden"); }
@@ -778,5 +995,31 @@ function init() {
   document.getElementById("exam-finish").addEventListener("click", submitExam);
   document.getElementById("exam-close").addEventListener("click", () => { if (exam && exam.timer) clearInterval(exam.timer); closeModal("exam-modal"); });
   document.getElementById("exam-result-close").addEventListener("click", () => closeModal("exam-result-modal"));
+
+  // Recarga manual de vidas (tocar el corazón o el botón de Progreso).
+  document.getElementById("stat-vidas").addEventListener("click", () => openModal("vidas-modal"));
+  document.getElementById("btn-recargar-vidas").addEventListener("click", () => openModal("vidas-modal"));
+  document.getElementById("vidas-facil").addEventListener("click", () => recargarVidas("facil"));
+  document.getElementById("vidas-restringido").addEventListener("click", () => recargarVidas("restringido"));
+  document.getElementById("vidas-cancelar").addEventListener("click", () => closeModal("vidas-modal"));
+
+  // Elección de modo del examen de unidad.
+  document.getElementById("examen-modo-facil").addEventListener("click", () => lanzarExamenPendiente("facil"));
+  document.getElementById("examen-modo-restringido").addEventListener("click", () => lanzarExamenPendiente("restringido"));
+  document.getElementById("examen-modo-cancelar").addEventListener("click", () => closeModal("examen-modo-modal"));
+
+  // Perfil y código de progreso.
+  document.getElementById("btn-perfil-editar").addEventListener("click", editarPerfil);
+  document.getElementById("btn-perfil-exportar").addEventListener("click", abrirExportar);
+  document.getElementById("btn-perfil-importar").addEventListener("click", abrirImportar);
+  document.getElementById("codigo-accion").addEventListener("click", accionCodigo);
+  document.getElementById("codigo-cerrar").addEventListener("click", () => closeModal("codigo-modal"));
+
+  // Práctica de señales (modo A / B).
+  document.getElementById("senales-A").addEventListener("click", () => { closeModal("senales-modo-modal"); startSenales("A"); });
+  document.getElementById("senales-B").addEventListener("click", () => { closeModal("senales-modo-modal"); startSenales("B"); });
+  document.getElementById("senales-cancelar").addEventListener("click", () => closeModal("senales-modo-modal"));
+
+  renderPerfil();
 }
 window.addEventListener("DOMContentLoaded", init);

@@ -246,6 +246,19 @@ main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
   font-size: 11px; font-weight: 800; color: var(--gray-dark); white-space: nowrap;
 }
 
+/* ---------------- Perfil / botones en tarjetas ---------------- */
+.perfil-botones { display: flex; flex-wrap: wrap; gap: 8px; }
+.perfil-botones .btn { flex: 1; min-width: 140px; }
+#stat-vidas { cursor: pointer; }
+
+/* Botón de examen directo en la cabecera de unidad */
+.unit-exam-btn {
+  border: none; background: rgba(255,255,255,.22); color: #fff; font-weight: 800;
+  font-size: 12px; padding: 6px 12px; border-radius: 12px; cursor: pointer; white-space: nowrap;
+}
+.unit-exam-btn:hover { background: rgba(255,255,255,.34); }
+.unit-header.locked .unit-exam-btn { display: none; }
+
 /* ---------------- Etiqueta de reforma de reglamento ---------------- */
 .reforma-badge { margin-bottom: 12px; }
 .rb-tag {
@@ -279,6 +292,24 @@ main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
 }
 .teoria-sec li:last-child { border-bottom: none; }
 .teoria-sec li::before { content: "✔"; position: absolute; left: 0; color: var(--green); font-weight: 800; }
+
+/* ---------------- Catálogo de señales (galería) ---------------- */
+.senal-cat-titulo { color: var(--green-dark); font-size: 16px; margin: 18px 0 8px; }
+.senal-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(150px,1fr)); gap: 12px; }
+.senal-card {
+  background: #fff; border: 2px solid var(--gray); border-radius: 14px; padding: 10px; text-align: center;
+}
+.senal-card img { width: 84px; height: 84px; object-fit: contain; }
+.senal-card .no-img {
+  width: 84px; height: 84px; margin: 0 auto; display: flex; align-items: center; justify-content: center;
+  background: #f0f0f0; border-radius: 10px; color: var(--gray-dark); font-size: 11px;
+}
+.senal-badge { display: inline-block; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 12px; margin-top: 4px; color: #fff; }
+.senal-badge.nueva { background: #e67e00; }
+.senal-badge.cambio { background: var(--blue); }
+.senal-card .cod { font-weight: 800; color: var(--blue-dark); font-size: 12px; margin-top: 6px; }
+.senal-card .nom { font-weight: 700; font-size: 13px; margin: 2px 0; }
+.senal-card .sig { font-size: 11px; color: #555; line-height: 1.35; }
 
 /* ---------------- Tarjeta de lectura del repaso ---------------- */
 .study-note {
