@@ -1166,6 +1166,10 @@ function switchView(name) {
   if (name === "teoria") loadTeoria();
   if (name === "inicio") renderInicio();
   if (name === "oficiales") renderOficiales();
+  if (name === "exam") {
+    const el = document.getElementById("exam-nivel-actual");
+    if (el) el.textContent = NIVELES[S.nivelDif] || ("nivel " + S.nivelDif);
+  }
 }
 function toast(text) {
   let el = document.getElementById("toast");

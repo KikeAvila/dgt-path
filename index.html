@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
   <title>DGT Path — Permiso B</title>
-  <link rel="stylesheet" href="styles.css?v=16" />
+  <link rel="stylesheet" href="styles.css?v=17" />
   <link rel="manifest" href="manifest.webmanifest" />
   <meta name="theme-color" content="#58cc02" />
   <!-- iOS: instalable en pantalla de inicio -->
@@ -73,10 +73,11 @@
 
     <section id="view-exam" class="view">
       <div class="card center">
-        <h2>📝 Simulacro oficial</h2>
-        <p>30 preguntas · 30 minutos · <b>APTO con ≤ 3 fallos</b>.</p>
-        <p class="muted">Las vidas no cuentan en el examen.</p>
+        <h2>📝 Examen de tu nivel</h2>
+        <p>30 preguntas de <b id="exam-nivel-actual">tu nivel actual</b>, repartidas por los 7 temas · 30 minutos · <b>APTO con ≤ 3 fallos</b>.</p>
+        <p class="muted">Coge preguntas del <b>nivel de dificultad seleccionado</b> (cámbialo en Inicio o Camino). Las vidas no cuentan.</p>
         <button class="btn btn-primary" id="btn-start-exam">Comenzar examen</button>
+        <p class="muted" style="margin-top:14px">¿Buscas <b>exámenes reales de la DGT</b> (por año y trimestre) o simulacros con preguntas reales? → pestaña <b>🏛️ Oficiales</b>.</p>
       </div>
     </section>
 
@@ -236,12 +237,12 @@
   <!-- SDK de Firebase (nube). Si no hay internet, la app funciona igual en local. -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="firebase-config.js?v=16"></script>
-  <script src="data.js?v=16"></script>
-  <script src="teoria.js?v=16"></script>
-  <script src="catalogo.js?v=16"></script>
-  <script src="examenes.js?v=16"></script>
-  <script src="app.js?v=16"></script>
+  <script src="firebase-config.js?v=17"></script>
+  <script src="data.js?v=17"></script>
+  <script src="teoria.js?v=17"></script>
+  <script src="catalogo.js?v=17"></script>
+  <script src="examenes.js?v=17"></script>
+  <script src="app.js?v=17"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
