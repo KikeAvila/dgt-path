@@ -27,12 +27,18 @@ const TEMAS = {
   1: "Definiciones", 2: "Documentación e ITV", 3: "Alcohol, drogas y fármacos",
   4: "Velocidades", 5: "Señales", 6: "Prioridad y maniobras", 7: "Seguridad y mecánica",
 };
-const NIVELES = { 1: "Nivel 1 · Aprender", 2: "Nivel 2 · Difícil", 3: "Nivel 3 · Experto" };
+const NIVELES = {
+  1: "Nivel 1 · Aprender", 2: "Nivel 2 · Difícil", 3: "Nivel 3 · Experto",
+  4: "Nivel 4 · Difíciles (DGT real)", 5: "Nivel 5 · Examen real DGT",
+};
 
 const QUESTIONS = window.DGT_QUESTIONS || [];
 QUESTIONS.forEach((q) => { if (!q.dificultad) q.dificultad = 1; });
 const BY_ID = {};
 QUESTIONS.forEach((q) => (BY_ID[q.id] = q));
+
+// Exámenes oficiales de la DGT (examenes.js): lista por fecha, más reciente primero.
+const EXAMENES = window.DGT_EXAMENES || [];
 
 // Teoría (fichas de lectura) desde teoria.js.
 const TEORIA = window.DGT_TEORIA || {};
@@ -48,7 +54,7 @@ let S = null;
 function nuevoEstado() {
   return {
     xp: 0, vidas: CFG.MAX_VIDAS, vidasTs: Date.now(), racha: 0, ultima: null,
-    srs: {}, nodes: {}, unitExam: {}, generalExam: {}, nivelDif: 1,
+    srs: {}, nodes: {}, unitExam: {}, generalExam: {}, examOficial: {}, nivelDif: 1,
     perfil: { nombre: "", pin: "" },
   };
 }
@@ -71,6 +77,7 @@ function loadState() {
   }
   // Rellenar claves que puedan faltar.
   S.unitExam = S.unitExam || {}; S.generalExam = S.generalExam || {};
+  S.examOficial = S.examOficial || {};
   S.nodes = S.nodes || {}; S.srs = S.srs || {}; S.nivelDif = S.nivelDif || 1;
   S.perfil = S.perfil || { nombre: "", pin: "" };
   return S;
@@ -134,7 +141,9 @@ function actualizarSrs(qid, correcto) {
 // -------- Preguntas por nivel/tema --------
 function poolTema(niv, tema) {
   return QUESTIONS
-    .filter((q) => q.tema_id === tema && (q.dificultad || 1) === niv)
+    // Las preguntas IA (no oficiales) NO entran en los niveles del Camino;
+    // solo se ven en Exámenes ▸ Simulacros IA, claramente separadas.
+    .filter((q) => q.tema_id === tema && (q.dificultad || 1) === niv && q.origen !== "ia_generada")
     .sort((a, b) => a.id - b.id); // partición estable en subbloques
 }
 function nSubbloques(niv, tema) { return Math.ceil(poolTema(niv, tema).length / CFG.QUIZ_SIZE); }
@@ -219,7 +228,7 @@ function pintarNiveles(contId, onPick) {
   const cont = document.getElementById(contId);
   if (!cont) return;
   cont.innerHTML = "";
-  [1, 2, 3].forEach((niv) => {
+  [1, 2, 3, 4, 5].forEach((niv) => {
     if (!nivelTieneContenido(niv)) return; // oculta niveles sin preguntas
     const btn = document.createElement("button");
     // Selección LIBRE de dificultad.
@@ -258,6 +267,7 @@ function renderInicio() {
   const modos = [
     { ic: "🧠", t: "Práctica (Camino)", fn: () => switchView("path") },
     { ic: "🛡️", t: "Examen de práctica", fn: () => startExam() },
+    { ic: "🏛️", t: "Exámenes oficiales DGT", fn: () => switchView("oficiales") },
     { ic: "📖", t: "Leer teoría", fn: () => switchView("teoria") },
     { ic: "🚦", t: "Practicar señales", fn: () => { teoriaSel = "senales"; switchView("teoria"); renderTeoriaSelector(); renderTeoriaContent(); } },
   ];
@@ -271,6 +281,84 @@ function renderInicio() {
   cont.appendChild(_menuSeccion("Categorías", cats));
   pintarNiveles("inicio-nivel", () => renderInicio());
 }
+
+function renderOficiales() {
+  const cont = document.getElementById("oficiales-content"); if (!cont) return; cont.innerHTML = "";
+  if (!EXAMENES.length) {
+    cont.innerHTML = '<div class="card"><p class="muted">No hay exámenes disponibles.</p></div>';
+    return;
+  }
+  // Preguntas REALES de la DGT (para los simulacros de práctica).
+  const reales = QUESTIONS.filter((q) => q.origen === "examen_oficial_dgt");
+  const dificiles = reales.filter((q) => q.dificultad === 4);
+
+  // --- Simulacros de práctica (se montan con preguntas REALES de la DGT) ---
+  const sim = [
+    { ic: "🎲", t: "Simulacro aleatorio", sub: "30 preguntas reales", fn: () => startExamenSimulacro(reales, "Simulacro aleatorio") },
+    { ic: "🔥", t: "Solo difíciles", sub: `${dificiles.length} preg · las que más se fallan`, fn: () => startExamenSimulacro(dificiles, "Simulacro difícil") },
+  ];
+  cont.appendChild(_menuSeccion("🎯 Simulacros de práctica (preguntas reales DGT)", sim));
+
+  // --- Exámenes reales de la DGT, por año y trimestre ---
+  const totalDif = EXAMENES.reduce((s, e) => s + (e.n_dificiles || 0), 0);
+  const info = document.createElement("div"); info.className = "card";
+  info.innerHTML = `<p class="muted">📊 <b>${EXAMENES.length}</b> exámenes oficiales reales (${EXAMENES[EXAMENES.length - 1].anio}–${EXAMENES[0].anio}), ` +
+    `<b>${reales.length}</b> preguntas. 🔥 = preguntas de los temas donde más se suspende (velocidad, alcohol, prioridad).</p>`;
+  cont.appendChild(info);
+
+  const porAnio = {};
+  EXAMENES.forEach((ex) => { const a = ex.anio || "Otros"; (porAnio[a] = porAnio[a] || []).push(ex); });
+  const anios = Object.keys(porAnio).sort((a, b) => (b > a ? 1 : -1));
+  anios.forEach((a) => {
+    const lista = porAnio[a].slice().sort((x, y) => y.num - x.num);
+    const items = lista.map((ex) => {
+      const r = S.examOficial && S.examOficial[ex.num];
+      const tri = ex.trimestre && ex.trimestre !== "?" ? ex.trimestre + " · " : "";
+      let sub = `${tri}${ex.ids.length} preg${ex.n_dificiles ? " · 🔥" + ex.n_dificiles : ""}`;
+      if (r) sub = `${r.apto ? "✅" : "❌"} ${r.mejor}/${r.total || ex.ids.length} · ${sub}`;
+      return { ic: "🏛️", t: ex.fecha || ("Test " + ex.num), sub, fn: () => startExamenOficial(ex) };
+    });
+    cont.appendChild(_menuSeccion("📅 " + a, items));
+  });
+
+  // --- Preguntas creadas por IA (NO oficiales), claramente separadas ---
+  const ia = QUESTIONS.filter((q) => q.origen === "ia_generada");
+  if (ia.length) {
+    const aviso = document.createElement("div"); aviso.className = "card";
+    aviso.style.borderLeft = "4px solid #b26a00";
+    aviso.innerHTML = `<h3 style="margin:0 0 4px">🤖 Simulacros IA <span class="muted">(no oficiales)</span></h3>` +
+      `<p class="muted">Estas <b>${ia.length}</b> preguntas de tipo "trampa" las <b>redactó la IA</b> (Claude) a partir del reglamento público. ` +
+      `<b>NO son oficiales de la DGT</b> — úsalas solo como repaso extra. Están separadas del resto a propósito.</p>`;
+    cont.appendChild(aviso);
+    const iaItems = [
+      { ic: "🤖", t: "Simulacro IA (aleatorio)", sub: "30 preguntas · no oficial", fn: () => startExamenSimulacro(ia, "🤖 Simulacro IA (no oficial)") },
+    ];
+    cont.appendChild(_menuSeccion("🤖 Preguntas de IA (no oficial)", iaItems));
+  }
+}
+
+function startExamenSimulacro(pool, titulo) {
+  Audio.ensure();
+  if (!pool || !pool.length) { toast("No hay preguntas para el simulacro."); return; }
+  const sel = sample(pool, Math.min(30, pool.length));
+  lanzarExamen(sel, {
+    kind: "simulacro", niv: null, tema: null,
+    titulo: titulo, durMin: 30, maxFallos: CFG.EXAM_MAX_FAILS,
+  });
+}
+
+function startExamenOficial(ex) {
+  Audio.ensure();
+  const preguntas = ex.ids.map((id) => BY_ID[id]).filter(Boolean);
+  if (!preguntas.length) { toast("Este examen no tiene preguntas disponibles."); return; }
+  lanzarExamen(preguntas, {
+    kind: "oficial", niv: null, tema: null, examNum: ex.num,
+    titulo: `DGT · ${ex.fecha || ("Test " + ex.num)}`,
+    durMin: Math.max(15, preguntas.length),
+    maxFallos: CFG.EXAM_MAX_FAILS,
+  });
+}
+
 function startCategoria(tema) {
   Audio.ensure();
   const pool = poolTema(S.nivelDif, tema);
@@ -691,6 +779,7 @@ function lanzarExamen(questions, opts) {
     selected: new Array(questions.length).fill(null),
     index: 0, secs: opts.durMin * 60, timer: null,
     kind: opts.kind, niv: opts.niv, tema: opts.tema, titulo: opts.titulo, maxFallos: opts.maxFallos,
+    examNum: opts.examNum,
   };
   openModal("exam-modal"); renderExamQuestion(); startExamTimer();
 }
@@ -750,7 +839,17 @@ function submitExam() {
 
   // Registro del resultado y recompensa.
   let xpGanado = 0;
-  if (exam.kind === "unit") {
+  if (exam.kind === "simulacro") {
+    if (apto) { xpGanado = CFG.XP_EXAMEN; S.xp += xpGanado; }  // sin registro persistente
+  } else if (exam.kind === "oficial") {
+    const prev = S.examOficial[exam.examNum] || { apto: false, mejor: 0 };
+    if (apto && !prev.apto) { xpGanado = CFG.XP_EXAMEN; S.xp += xpGanado; }
+    S.examOficial[exam.examNum] = {
+      apto: prev.apto || apto,
+      mejor: Math.max(prev.mejor || 0, aciertos),
+      total: exam.questions.length,
+    };
+  } else if (exam.kind === "unit") {
     const key = `${exam.niv}_${exam.tema}`;
     const prev = S.unitExam[key] || { apto: false, mejor: 0 };
     if (apto && !prev.apto) { xpGanado = CFG.XP_EXAMEN_UNIDAD; S.xp += xpGanado; }
@@ -772,7 +871,7 @@ function renderExamResult(r) {
   const v = document.getElementById("exam-verdict");
   v.textContent = r.apto ? "✅ APTO" : "❌ NO APTO"; v.className = r.apto ? "apto" : "no-apto";
   let extra = "";
-  if (r.apto && r.kind === "general" && nivelCompleto(r.niv) && r.niv < 3 && nivelTieneContenido(r.niv + 1)) {
+  if (r.apto && r.kind === "general" && nivelCompleto(r.niv) && r.niv < 5 && nivelTieneContenido(r.niv + 1)) {
     extra = ` · 🎉 ¡Nivel ${r.niv + 1} desbloqueado!`;
   }
   document.getElementById("exam-score").textContent =
@@ -1066,6 +1165,7 @@ function switchView(name) {
   if (name === "stats") loadStats();
   if (name === "teoria") loadTeoria();
   if (name === "inicio") renderInicio();
+  if (name === "oficiales") renderOficiales();
 }
 function toast(text) {
   let el = document.getElementById("toast");

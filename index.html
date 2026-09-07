@@ -28,6 +28,7 @@
   <nav class="tabs">
     <button class="tab active" data-view="inicio">🧭 Inicio</button>
     <button class="tab" data-view="path">🗺️ Camino</button>
+    <button class="tab" data-view="oficiales">🏛️ Oficiales</button>
     <button class="tab" data-view="teoria">📖 Teoría</button>
     <button class="tab" data-view="review">🧠 Repaso</button>
     <button class="tab" data-view="exam">📝 Examen</button>
@@ -37,6 +38,14 @@
   <main>
     <section id="view-inicio" class="view active">
       <div id="inicio-content"></div>
+    </section>
+
+    <section id="view-oficiales" class="view">
+      <div class="card">
+        <h2>🏛️ Exámenes DGT reales</h2>
+        <p class="muted">Preguntas <b>reales</b> de los tests oficiales de la revista de Tráfico de la DGT (2016–2026, 10 años). Haz un <b>simulacro</b> o repite un examen concreto por año y trimestre. <b>APTO con ≤ 3 fallos</b>; las vidas no cuentan.</p>
+      </div>
+      <div id="oficiales-content"></div>
     </section>
 
     <section id="view-path" class="view">
@@ -227,11 +236,12 @@
   <!-- SDK de Firebase (nube). Si no hay internet, la app funciona igual en local. -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="firebase-config.js?v=11"></script>
-  <script src="data.js?v=11"></script>
-  <script src="teoria.js?v=11"></script>
-  <script src="catalogo.js?v=11"></script>
-  <script src="app.js?v=11"></script>
+  <script src="firebase-config.js?v=15"></script>
+  <script src="data.js?v=15"></script>
+  <script src="teoria.js?v=15"></script>
+  <script src="catalogo.js?v=15"></script>
+  <script src="examenes.js?v=15"></script>
+  <script src="app.js?v=15"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));

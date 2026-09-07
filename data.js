@@ -1,2526 +1,14795 @@
 window.DGT_QUESTIONS = [
 {
 "id": 1,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad máxima 20 km/h)",
+"enunciado": "Los dos primeros años con permiso, ¿cuál es la tasa máxima de alcohol?",
 "opciones": [
-"Que prohíbe circular a más de 20 km/h.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"0,10 mg/l en aire espirado = 0,2 g/l en sangre.",
+"0,25 mg/l en aire espirado = 0,5 g/l en sangre.",
+"0,15 mg/l en aire espirado = 0,3 g/l en sangre."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad máxima 20 km/h»: prohíbe circular a más de 20 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_20.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 3,
+"imagen": "dgt_e234_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 1
 },
 {
 "id": 2,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad máxima 20 km/h»?",
+"enunciado": "La línea de borde de la calzada, ¿se puede atravesar?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Sí, cuando sea necesario y las circunstancias lo permitan.",
+"No, está prohibido.",
+"Sí, cuando la línea es discontinua; no, cuando es continua."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "velocidad_max_20.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 1,
+"imagen": "dgt_e234_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 2
 },
 {
 "id": 3,
-"enunciado": "Circulas y te encuentras la señal «Velocidad máxima 20 km/h». ¿Qué debes hacer?",
+"enunciado": "Si conduce una motocicleta y la calzada está mojada, ¿es necesario incrementar la presión de inflado de los neumáticos por encima de la recomendada por el fabricante?",
 "opciones": [
-"Debo no superar los 20 km/h.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"No, ya que una mayor presión de inflado no contribuye a aumentar la seguridad de circulación.",
+"Sí, porque aumenta la adherencia de los neumáticos y mejorará la seguridad de circulación.",
+"Sí, ya que aumenta la seguridad de circulación y así se evitan los derrapes."
 ],
 "correcta_idx": 0,
-"explicacion": "«Velocidad máxima 20 km/h»: prohíbe circular a más de 20 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_20.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 7,
+"imagen": "dgt_e234_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 3
 },
 {
 "id": 4,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad máxima 30 km/h)",
+"enunciado": "Al inmovilizar un vehículo en una autopista es obligatorio señalizar la presencia del mismo...",
 "opciones": [
-"Que prohíbe circular a más de 30 km/h.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Con la luz de posición, siempre.",
+"Con la luz de emergencia, si se dispone de ella y, en su caso, con la de posición.",
+"Únicamente con la luz de emergencia."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad máxima 30 km/h»: prohíbe circular a más de 30 km/h.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
 "tema_id": 5,
-"imagen": "velocidad_max_30.svg",
-"dificultad": 1
+"imagen": "dgt_e234_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 4
 },
 {
 "id": 5,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad máxima 30 km/h»?",
+"enunciado": "En un tramo de vía con un carril de aceleración, ¿se considera adelantamiento que un vehículo avance más rápidamente que otro que lo hace por el carril normal?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"No.",
+"Sí, como otro adelantamiento cualquiera.",
+"Sí, porque se trata de una vía interurbana."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "velocidad_max_30.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 6,
+"imagen": "dgt_e234_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 5
 },
 {
 "id": 6,
-"enunciado": "Circulas y te encuentras la señal «Velocidad máxima 30 km/h». ¿Qué debes hacer?",
+"enunciado": "Durante el día, con niebla densa o lluvia intensa, ¿se puede circular con la luz de largo alcance encendida?",
 "opciones": [
-"Debo no superar los 30 km/h.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"No, sólo puede encenderse la luz de corto alcance.",
+"No, la luz de largo alcance sólo puede encenderse de noche.",
+"Sí, pero es aconsejable encender la luz de cruce."
 ],
-"correcta_idx": 0,
-"explicacion": "«Velocidad máxima 30 km/h»: prohíbe circular a más de 30 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_30.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 6,
+"imagen": "dgt_e234_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 6
 },
 {
 "id": 7,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad máxima 40 km/h)",
+"enunciado": "En los vehículos de anchura inferior a un metro, la carga no debe sobresalir por la parte posterior más de...",
 "opciones": [
-"Que prohíbe circular a más de 40 km/h.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"0,40 metros.",
+"0,50 metros.",
+"0,25 metros"
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad máxima 40 km/h»: prohíbe circular a más de 40 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_40.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 6,
+"imagen": "dgt_e234_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 7
 },
 {
 "id": 8,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad máxima 40 km/h»?",
+"enunciado": "Esta señal vertical, ¿qué significa?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Zona de estacionamiento limitado.",
+"Estacionamiento prohibido en vado.",
+"Estacionamiento prohibido."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
 "tema_id": 5,
-"imagen": "velocidad_max_40.svg",
-"dificultad": 1
+"imagen": "dgt_e234_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 8
 },
 {
 "id": 9,
-"enunciado": "Circulas y te encuentras la señal «Velocidad máxima 40 km/h». ¿Qué debes hacer?",
+"enunciado": "El funcionamiento del airbag, ¿puede llegar a ser peligroso en un accidente?",
 "opciones": [
-"Debo no superar los 40 km/h.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Sí, si no se lleva puesto el cinturón de seguridad.",
+"Sí, siempre.",
+"No."
 ],
 "correcta_idx": 0,
-"explicacion": "«Velocidad máxima 40 km/h»: prohíbe circular a más de 40 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_40.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 7,
+"imagen": "dgt_e234_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 9
 },
 {
 "id": 10,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad máxima 60 km/h)",
+"enunciado": "Al estacionar en una pendiente descendente, ¿qué precauciones debe adoptar?",
 "opciones": [
-"Que prohíbe circular a más de 60 km/h.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Dejar colocada la primera marcha.",
+"Parar el motor, poner el freno de estacionamiento y dejar colocada la marcha atrás si la caja de cambios es manual.",
+"Parar el motor y poner el freno de estacionamiento, únicamente."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad máxima 60 km/h»: prohíbe circular a más de 60 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_60.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 6,
+"imagen": "dgt_e234_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 10
 },
 {
 "id": 11,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad máxima 60 km/h»?",
+"enunciado": "Conducir con mal tiempo, ¿puede favorecer la fatiga?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Sí, por ello se debe descansar con mayor frecuencia.",
+"No.",
+"Sólo en los viajes largos."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "velocidad_max_60.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 1,
+"imagen": "dgt_e234_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 11
 },
 {
 "id": 12,
-"enunciado": "Circulas y te encuentras la señal «Velocidad máxima 60 km/h». ¿Qué debes hacer?",
+"enunciado": "La amortiguación, ¿contribuye a prevenir los accidentes?",
 "opciones": [
-"Debo no superar los 60 km/h.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"No, en ningún caso.",
+"No, sólo contribuye al confort.",
+"Sí."
 ],
-"correcta_idx": 0,
-"explicacion": "«Velocidad máxima 60 km/h»: prohíbe circular a más de 60 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_60.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 6,
+"imagen": "dgt_e234_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 12
 },
 {
 "id": 13,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad máxima 70 km/h)",
+"enunciado": "A mayor velocidad aumenta...",
 "opciones": [
-"Que prohíbe circular a más de 70 km/h.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"La eficacia de los elementos de seguridad del vehículo.",
+"La fatiga que puede aparecer durante la conducción.",
+"La capacidad del conductor para anticiparse a las circunstancias del tráfico."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad máxima 70 km/h»: prohíbe circular a más de 70 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_70.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 4,
+"imagen": "dgt_e234_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 13
 },
 {
 "id": 14,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad máxima 70 km/h»?",
+"enunciado": "Fuera de poblado, los peatones deberán circular siempre por su derecha cuando...",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"La vía sea de sentido único, solamente.",
+"Sean impedidos y se desplacen en una silla de ruedas.",
+"La circulación sea nocturna."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "velocidad_max_70.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"tema_id": 1,
+"imagen": "dgt_e234_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 234,
+"examen_fecha": "Febrero-2016",
+"examen_anio": 2016,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 14
 },
 {
 "id": 15,
-"enunciado": "Circulas y te encuentras la señal «Velocidad máxima 70 km/h». ¿Qué debes hacer?",
+"enunciado": "Los cinturones de seguridad, ¿son eficaces para prevenir lesiones?",
 "opciones": [
-"Debo no superar los 70 km/h.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Sí.",
+"No.",
+"Sí, pero sólo cuando se conduce a poca velocidad."
 ],
 "correcta_idx": 0,
-"explicacion": "«Velocidad máxima 70 km/h»: prohíbe circular a más de 70 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_70.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 4,
+"imagen": "dgt_e235_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 1
 },
 {
 "id": 16,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad máxima 80 km/h)",
+"enunciado": "Si vende su vehículo, ¿debe comunicarlo a la Jefatura de Tráfico?",
 "opciones": [
-"Que prohíbe circular a más de 80 km/h.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"No. El nuevo titular es el que tiene que comunicar la compra.",
+"Sí, pero no hay plazo obligatorio para comunicar la venta.",
+"Sí. Debo comunicar la venta en el plazo de 10 días, indicando los datos del nuevo titular."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad máxima 80 km/h»: prohíbe circular a más de 80 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_80.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 6,
+"imagen": "dgt_e235_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 2
 },
 {
 "id": 17,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad máxima 80 km/h»?",
+"enunciado": "Los ocupantes del vehículo van a bajarse, ¿por qué lado deben hacerlo?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Por el lado más próximo al borde de la vía, como norma general.",
+"Por el lado derecho siempre.",
+"Por ambos lados."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "velocidad_max_80.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 1,
+"imagen": "dgt_e235_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 3
 },
 {
 "id": 18,
-"enunciado": "Circulas y te encuentras la señal «Velocidad máxima 80 km/h». ¿Qué debes hacer?",
+"enunciado": "El agente balancea una luz roja o amarilla, ¿a qué obliga?",
 "opciones": [
-"Debo no superar los 80 km/h.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"A disminuir la velocidad.",
+"A pasar por el lado correspondiente al brazo con el que realiza la señal.",
+"A detenerse a los usuarios de la vía hacia los que dirige la luz."
 ],
-"correcta_idx": 0,
-"explicacion": "«Velocidad máxima 80 km/h»: prohíbe circular a más de 80 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_80.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 4,
+"imagen": "dgt_e235_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 4
 },
 {
 "id": 19,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad máxima 90 km/h)",
+"enunciado": "Al aproximarnos a un autobús con esta señal en su parte posterior y que se encuentra parado recogiendo pasajeros, se deberá...",
 "opciones": [
-"Que prohíbe circular a más de 90 km/h.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Reducir la velocidad y si fuera preciso detener el vehículo.",
+"Avisar de nuestra presencia con ráfagas de luz.",
+"Siempre, parar detrás del vehículo hasta que reanude la marcha."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad máxima 90 km/h»: prohíbe circular a más de 90 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_90.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 4,
+"imagen": "dgt_e235_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 5
 },
 {
 "id": 20,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad máxima 90 km/h»?",
+"enunciado": "Un cambio de rasante es:",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Un tramo de vía donde hay un cambio de dirección.",
+"Un lugar en el que se encuentran dos tramos de vía de distinta inclinación.",
+"Un tramo de vía donde no se ve el ancho total de la calzada."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "velocidad_max_90.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 1,
+"imagen": "dgt_e235_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 6
 },
 {
 "id": 21,
-"enunciado": "Circulas y te encuentras la señal «Velocidad máxima 90 km/h». ¿Qué debes hacer?",
+"enunciado": "Esta señal indica que empieza...",
 "opciones": [
-"Debo no superar los 90 km/h.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Una autovía.",
+"Una autopista.",
+"Una carretera con un paso elevado."
 ],
-"correcta_idx": 0,
-"explicacion": "«Velocidad máxima 90 km/h»: prohíbe circular a más de 90 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_90.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 1,
+"imagen": "dgt_e235_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 7
 },
 {
 "id": 22,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad máxima 100 km/h)",
+"enunciado": "A la vista de esta señal, ¿puede pasar conduciendo un ciclomotor?",
 "opciones": [
-"Que prohíbe circular a más de 100 km/h.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Sí, porque no es un vehículo a motor.",
+"No.",
+"Sí, porque la señal sólo prohíbe el paso a automóviles, y no a ciclomotores."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad máxima 100 km/h»: prohíbe circular a más de 100 km/h.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
 "tema_id": 5,
-"imagen": "velocidad_max_100.svg",
-"dificultad": 1
+"imagen": "dgt_e235_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 8
 },
 {
 "id": 23,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad máxima 100 km/h»?",
+"enunciado": "En una intersección regulada por esta señal, ¿a quién debe ceder el paso?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"A ningún vehículo, porque esta señal me indica que circulo por la vía con prioridad.",
+"Sólo a los vehículos que tengan mayores dificultades de maniobra.",
+"A los vehículos que se aproximen por mi derecha."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "velocidad_max_100.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 6,
+"imagen": "dgt_e235_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 9
 },
 {
 "id": 24,
-"enunciado": "Circulas y te encuentras la señal «Velocidad máxima 100 km/h». ¿Qué debes hacer?",
+"enunciado": "Si presencia un accidente con víctimas y no ha llegado ayuda, ¿debe detenerse para prestar auxilio?",
 "opciones": [
-"Debo no superar los 100 km/h.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"No, puesto que puedo provocar otro accidente.",
+"Sí.",
+"No, pero llamaré inmediatamente a los servicios policiales y de urgencia."
 ],
-"correcta_idx": 0,
-"explicacion": "«Velocidad máxima 100 km/h»: prohíbe circular a más de 100 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_100.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 6,
+"imagen": "dgt_e235_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 10
 },
 {
 "id": 25,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad máxima 110 km/h)",
+"enunciado": "Circula con su turismo por una carretera en la que aparece esta señal de restricción con un panel de color amarillo que nos indica que no se permite circular a....",
 "opciones": [
-"Que prohíbe circular a más de 110 km/h.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Camiones de M.M.A menor de 3.500 kg ni conjuntos de vehículos.",
+"Cualquier vehículo de más de 3.500 kg.",
+"Camiones de M.M.A mayor de 3.500 kg ni vehículos articulados."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad máxima 110 km/h»: prohíbe circular a más de 110 km/h.",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
 "tema_id": 5,
-"imagen": "velocidad_max_110.svg",
-"dificultad": 1
+"imagen": "dgt_e235_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 11
 },
 {
 "id": 26,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad máxima 110 km/h»?",
+"enunciado": "Después de adelantar al turismo y al camión el turismo verde desea seguir adelantando a otros vehículos. ¿Debe regresar antes al carril derecho?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Sí, siempre.",
+"Sí, pero solamente cuando circulen vehículos detrás a más velocidad.",
+"No, porque en autopistas no es obligatorio."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "velocidad_max_110.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 6,
+"imagen": "dgt_e235_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 12
 },
 {
 "id": 27,
-"enunciado": "Circulas y te encuentras la señal «Velocidad máxima 110 km/h». ¿Qué debes hacer?",
+"enunciado": "Cuando la goma de un neumático se endurece por envejecimiento, ¿es peligroso?",
 "opciones": [
-"Debo no superar los 110 km/h.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Sí, porque el vehículo puede derrapar por falta de agarre.",
+"No, porque la goma dura se agarra mejor a la calzada.",
+"Sí, pero sólo cuando la calzada está mojada."
 ],
 "correcta_idx": 0,
-"explicacion": "«Velocidad máxima 110 km/h»: prohíbe circular a más de 110 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_max_110.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 7,
+"imagen": "dgt_e235_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 13
 },
 {
 "id": 28,
-"enunciado": "¿Qué indica la señal de la imagen? (Circulación prohibida (entrada prohibida a todo tipo de vehículos))",
+"enunciado": "En el arcén de esta vía, ¿puede inmovilizar su vehículo para ver el paisaje?",
 "opciones": [
-"Que prohíbe la entrada a toda clase de vehículos.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Sí, porque el arcén es ancho.",
+"No, porque está prohibido.",
+"Sí, porque no hay señales que lo prohíben."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Circulación prohibida (entrada prohibida a todo tipo de vehículos)»: prohíbe la entrada a toda clase de vehículos.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
 "tema_id": 5,
-"imagen": "circulacion_prohibida.svg",
-"dificultad": 1
+"imagen": "dgt_e235_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 14
 },
 {
 "id": 29,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Circulación prohibida (entrada prohibida a todo tipo de vehículos)»?",
+"enunciado": "La marca vial amarilla continua, ¿qué indica?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Prohíbe estacionar solamente.",
+"Prohíbe hacer parada y estacionar.",
+"Prohíbe hacer parada solamente."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "circulacion_prohibida.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"tema_id": 6,
+"imagen": "dgt_e235_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 235,
+"examen_fecha": "Abril 2016",
+"examen_anio": 2016,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 15
 },
 {
 "id": 30,
-"enunciado": "Circulas y te encuentras la señal «Circulación prohibida (entrada prohibida a todo tipo de vehículos)». ¿Qué debes hacer?",
+"enunciado": "Es de noche y necesita inmovilizar su vehículo en el arcén de una carretera por avería. ¿Qué luces debe encender?",
 "opciones": [
-"Debo no entrar con ningún vehículo.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Sólo las luces de posición.",
+"Las luces de emergencia y las luces cortas.",
+"Las de posición y las de emergencia."
 ],
-"correcta_idx": 0,
-"explicacion": "«Circulación prohibida (entrada prohibida a todo tipo de vehículos)»: prohíbe la entrada a toda clase de vehículos.",
-"tema_id": 5,
-"imagen": "circulacion_prohibida.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 7,
+"imagen": "dgt_e236_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 1
 },
 {
 "id": 31,
-"enunciado": "¿Qué indica la señal de la imagen? (Giro a la derecha prohibido)",
+"enunciado": "¿Cuándo está bien colocado en el asiento para conducir?",
 "opciones": [
-"Que prohíbe girar a la derecha en la próxima intersección.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Cuando llevo las piernas un poco dobladas y el cuerpo recto.",
+"Cuando llevo las piernas rectas y el cuerpo hacia atrás.",
+"Cuando llevo las piernas dobladas y el cuerpo hacia adelante."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Giro a la derecha prohibido»: prohíbe girar a la derecha en la próxima intersección.",
-"tema_id": 5,
-"imagen": "prohibido_girar_derecha.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 6,
+"imagen": "dgt_e236_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 2
 },
 {
 "id": 32,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Giro a la derecha prohibido»?",
+"enunciado": "Una furgoneta de uso privado dedicada al transporte de personas, con capacidad para nueve plazas, incluido el conductor, ¿cuándo debe pasar la primera ITV?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"A los tres años de antigüedad.",
+"A los cuatros años de antigüedad.",
+"A los dos años de antigüedad."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "prohibido_girar_derecha.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 2,
+"imagen": "dgt_e236_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 3
 },
 {
 "id": 33,
-"enunciado": "Circulas y te encuentras la señal «Giro a la derecha prohibido». ¿Qué debes hacer?",
+"enunciado": "El tiempo desde que ve un peligro hasta que actúa, ¿cómo se llama?",
 "opciones": [
-"Debo no girar a la derecha.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Tiempo de frenado.",
+"Tiempo de reacción.",
+"Tiempo de detención."
 ],
-"correcta_idx": 0,
-"explicacion": "«Giro a la derecha prohibido»: prohíbe girar a la derecha en la próxima intersección.",
-"tema_id": 5,
-"imagen": "prohibido_girar_derecha.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 6,
+"imagen": "dgt_e236_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 4
 },
 {
 "id": 34,
-"enunciado": "¿Qué indica la señal de la imagen? (Giro a la izquierda prohibido)",
+"enunciado": "El factor de riesgo que influye en la mayor parte de los accidentes, ¿cuál es?",
 "opciones": [
-"Que prohíbe girar a la izquierda en la próxima intersección.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"El factor vía y entorno.",
+"El factor humano.",
+"El factor vehículo."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Giro a la izquierda prohibido»: prohíbe girar a la izquierda en la próxima intersección.",
-"tema_id": 5,
-"imagen": "prohibido_girar_izquierda.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 1,
+"imagen": "dgt_e236_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 5
 },
 {
 "id": 35,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Giro a la izquierda prohibido»?",
+"enunciado": "Llevar encendido el teléfono móvil en el vehículo, ¿puede resultar peligroso?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"No, si no se va a utilizar.",
+"Sí, el sonido del teléfono, al igual que otro ruido, puede sorprender al conductor.",
+"No, porque no es un ruido que pueda distraer al conductor."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "prohibido_girar_izquierda.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 7,
+"imagen": "dgt_e236_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 6
 },
 {
 "id": 36,
-"enunciado": "Circulas y te encuentras la señal «Giro a la izquierda prohibido». ¿Qué debes hacer?",
+"enunciado": "Existe un mayor riesgo de somnolencia en vías con...",
 "opciones": [
-"Debo no girar a la izquierda.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"muchas curvas.",
+"mucho tráfico.",
+"trazado monótono."
 ],
-"correcta_idx": 0,
-"explicacion": "«Giro a la izquierda prohibido»: prohíbe girar a la izquierda en la próxima intersección.",
-"tema_id": 5,
-"imagen": "prohibido_girar_izquierda.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 1,
+"imagen": "dgt_e236_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 7
 },
 {
 "id": 37,
-"enunciado": "¿Qué indica la señal de la imagen? (Media vuelta (cambio de sentido) prohibida)",
+"enunciado": "Si un vehículo tiene el intermitente derecho encendido, pero su conductor señaliza con el brazo que va a girar a la izquierda, ¿qué señal prevalece?",
 "opciones": [
-"Que prohíbe efectuar el cambio de sentido de la marcha.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Depende de la circulación.",
+"La señal luminosa.",
+"La realizada con el brazo."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Media vuelta (cambio de sentido) prohibida»: prohíbe efectuar el cambio de sentido de la marcha.",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
 "tema_id": 5,
-"imagen": "prohibido_cambio_sentido.svg",
-"dificultad": 1
+"imagen": "dgt_e236_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 8
 },
 {
 "id": 38,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Media vuelta (cambio de sentido) prohibida»?",
+"enunciado": "¿Es aconsejable que los conductores de motocicletas lleven guantes?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"No.",
+"Sí.",
+"Sólo en vía urbana."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "prohibido_cambio_sentido.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 1,
+"imagen": "dgt_e236_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 9
 },
 {
 "id": 39,
-"enunciado": "Circulas y te encuentras la señal «Media vuelta (cambio de sentido) prohibida». ¿Qué debes hacer?",
+"enunciado": "¿Puede circular un turismo que expulsa por el tubo de escape más humo de lo permitido?",
 "opciones": [
-"Debo no cambiar de sentido.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Sí, mientras no sean gases nocivos.",
+"Sí, pero únicamente fuera de poblado.",
+"No."
 ],
-"correcta_idx": 0,
-"explicacion": "«Media vuelta (cambio de sentido) prohibida»: prohíbe efectuar el cambio de sentido de la marcha.",
-"tema_id": 5,
-"imagen": "prohibido_cambio_sentido.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 6,
+"imagen": "dgt_e236_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 10
 },
 {
 "id": 40,
-"enunciado": "¿Qué indica la señal de la imagen? (Entrada prohibida a peatones)",
+"enunciado": "En vías interurbanas, los ciclos y ciclomotores de dos ruedas, ¿dónde deben situarse para girar a la izquierda?",
 "opciones": [
-"Que prohíbe el paso a los peatones.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"En el carril izquierdo.",
+"En el centro, sin invadir el sentido contrario.",
+"A la derecha, fuera de la calzada si es posible, e iniciarlo desde ese lugar."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Entrada prohibida a peatones»: prohíbe el paso a los peatones.",
-"tema_id": 5,
-"imagen": "prohibido_peatones.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 1,
+"imagen": "dgt_e236_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 11
 },
 {
 "id": 41,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Entrada prohibida a peatones»?",
+"enunciado": "Mantener la distancia de seguridad adecuada, sobre todo en ciudad, ¿es una recomendación válida para evitar accidentes con las motocicletas?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Sí, porque se pueden evitar alcances.",
+"No, porque la distancia de seguridad no influye en los accidentes de moto.",
+"No, porque esta recomendación carece de sentido circulando."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "prohibido_peatones.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 4,
+"imagen": "dgt_e236_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 12
 },
 {
 "id": 42,
-"enunciado": "Circulas y te encuentras la señal «Entrada prohibida a peatones». ¿Qué debes hacer?",
+"enunciado": "El conductor que consume cocaína...",
 "opciones": [
-"Debo que no pasen peatones.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"puede volverse más competitivo y agresivo.",
+"es más tranquilo y menos competitivo.",
+"es más agresivo y menos competitivo."
 ],
 "correcta_idx": 0,
-"explicacion": "«Entrada prohibida a peatones»: prohíbe el paso a los peatones.",
-"tema_id": 5,
-"imagen": "prohibido_peatones.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 3,
+"imagen": "dgt_e236_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 13
 },
 {
 "id": 43,
-"enunciado": "¿Qué indica la señal de la imagen? (Entrada prohibida a bicicletas)",
+"enunciado": "Cuando llueve o hay viento, ¿por qué hay que tener más precaución con los ciclistas?",
 "opciones": [
-"Que prohíbe la entrada a las bicicletas.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Porque tienen más probabilidad de caerse.",
+"Porque pueden salpicar agua.",
+"Porque suelen estorbar el tráfico."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Entrada prohibida a bicicletas»: prohíbe la entrada a las bicicletas.",
-"tema_id": 5,
-"imagen": "prohibido_bicicletas.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"tema_id": 1,
+"imagen": "dgt_e236_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 236,
+"examen_fecha": "Julio 2016",
+"examen_anio": 2016,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 14
 },
 {
 "id": 44,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Entrada prohibida a bicicletas»?",
+"enunciado": "¿Es correcto el uso frecuente del freno de mano cuando se conduce?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Sí, se debe utilizar en curvas cerradas.",
+"Sí, siempre que el vehículo tenga ABS.",
+"No, sólo se debe utilizar en los casos de inmovilización del vehículo."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "prohibido_bicicletas.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 7,
+"imagen": "dgt_e237_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 1
 },
 {
 "id": 45,
-"enunciado": "Circulas y te encuentras la señal «Entrada prohibida a bicicletas». ¿Qué debes hacer?",
+"enunciado": "El alumbrado de gálibo es obligatorio para...",
 "opciones": [
-"Debo que no entren bicicletas.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Los vehículos que transporten mercancías peligrosas.",
+"Los vehículos de asistencia en carretera.",
+"Los vehículos cuya anchura sea mayor de 2,10 metros."
 ],
-"correcta_idx": 0,
-"explicacion": "«Entrada prohibida a bicicletas»: prohíbe la entrada a las bicicletas.",
-"tema_id": 5,
-"imagen": "prohibido_bicicletas.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 7,
+"imagen": "dgt_e237_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 2
 },
 {
 "id": 46,
-"enunciado": "¿Qué indica la señal de la imagen? (Entrada prohibida a motocicletas)",
+"enunciado": "Con el permiso de la clase B, ¿qué otros vehículos se pueden conducir, además de turismos?",
 "opciones": [
-"Que prohíbe la entrada a las motocicletas.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Todos los vehículos que se pueden conducir con el permiso A.",
+"Ciclomotores de dos, tres y cuatro ruedas.",
+"Motocicletas de más de 125 cc."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Entrada prohibida a motocicletas»: prohíbe la entrada a las motocicletas.",
-"tema_id": 5,
-"imagen": "prohibido_motos.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 7,
+"imagen": "dgt_e237_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 3
 },
 {
 "id": 47,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Entrada prohibida a motocicletas»?",
+"enunciado": "Para aumentar la fluidez del tráfico, se ha abierto un carril para circular en sentido contrario al habitual, ¿qué vehículos pueden circular por este carril?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Todos los autorizados a circular por la vía.",
+"Todos los que pueden circular a más de 60 km/h.",
+"Los turismos sin remolque y las motocicletas."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "prohibido_motos.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 4,
+"imagen": "dgt_e237_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 4
 },
 {
 "id": 48,
-"enunciado": "Circulas y te encuentras la señal «Entrada prohibida a motocicletas». ¿Qué debes hacer?",
+"enunciado": "Una fila de escolares está cruzando la calzada. ¿Debe cederles el paso?",
 "opciones": [
-"Debo que no entren motocicletas.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Solamente en los pasos para peatones.",
+"No, cuando no llevan paleta de STOP.",
+"Sí."
 ],
-"correcta_idx": 0,
-"explicacion": "«Entrada prohibida a motocicletas»: prohíbe la entrada a las motocicletas.",
-"tema_id": 5,
-"imagen": "prohibido_motos.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 1,
+"imagen": "dgt_e237_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 5
 },
 {
 "id": 49,
-"enunciado": "¿Qué indica la señal de la imagen? (Entrada prohibida a camiones)",
+"enunciado": "Un semáforo con una flecha negra sobre una luz roja fija...",
 "opciones": [
-"Que prohíbe la entrada a los vehículos de mercancías (camiones).",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Prohíbe circular por donde indica la flecha.",
+"Permite seguir circulando extremando la precaución.",
+"Obliga a continuar por donde indica la flecha."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Entrada prohibida a camiones»: prohíbe la entrada a los vehículos de mercancías (camiones).",
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
 "tema_id": 5,
-"imagen": "prohibido_camiones.svg",
-"dificultad": 1
+"imagen": "dgt_e237_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 6
 },
 {
 "id": 50,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Entrada prohibida a camiones»?",
+"enunciado": "En esta autovía hay mucha niebla. ¿Se puede circular a menos de 60 km/h?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"No, porque es una vía para circulación rápida.",
+"Sí, porque con la niebla se debe moderar la velocidad.",
+"No, en autovía nunca se debe circular a menos de la velocidad mínima permitida."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "prohibido_camiones.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 4,
+"imagen": "dgt_e237_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 7
 },
 {
 "id": 51,
-"enunciado": "Circulas y te encuentras la señal «Entrada prohibida a camiones». ¿Qué debes hacer?",
+"enunciado": "El alcohol, la fatiga y la velocidad excesiva, ¿de qué factor de riesgo forman parte?",
 "opciones": [
-"Debo que no entren camiones.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Del factor vehículo.",
+"Del factor vía y entorno.",
+"Del factor humano."
 ],
-"correcta_idx": 0,
-"explicacion": "«Entrada prohibida a camiones»: prohíbe la entrada a los vehículos de mercancías (camiones).",
-"tema_id": 5,
-"imagen": "prohibido_camiones.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 3,
+"imagen": "dgt_e237_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 8
 },
 {
 "id": 52,
-"enunciado": "¿Qué indica la señal de la imagen? (Adelantamiento prohibido para camiones)",
+"enunciado": "¿Cuántas placas de matrícula llevan las motocicletas?",
 "opciones": [
-"Que prohíbe a los camiones adelantar a otros vehículos de motor.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Una sola placa en la parte posterior, en posición vertical.",
+"Dos, una en la parte delantera y otra en la parte posterior.",
+"Una sola placa en la parte delantera."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Adelantamiento prohibido para camiones»: prohíbe a los camiones adelantar a otros vehículos de motor.",
-"tema_id": 5,
-"imagen": "prohibido_adelantar_camiones.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 2,
+"imagen": "dgt_e237_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 9
 },
 {
 "id": 53,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Adelantamiento prohibido para camiones»?",
+"enunciado": "¿Qué indica la línea longitudinal amarilla?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Que se puede parar pero no estacionar.",
+"Que no se puede parar ni estacionar.",
+"Que se puede parar y estacionar."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
 "tema_id": 5,
-"imagen": "prohibido_adelantar_camiones.svg",
-"dificultad": 1
+"imagen": "dgt_e237_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 10
 },
 {
 "id": 54,
-"enunciado": "Circulas y te encuentras la señal «Adelantamiento prohibido para camiones». ¿Qué debes hacer?",
+"enunciado": "Los limpiaparabrisas deben mantenerse en buen estado para circular con seguridad. Para ello se debe...",
 "opciones": [
-"Debo que los camiones no adelanten.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Comprobar que el depósito que contiene el líquido limpiaparabrisas esté siempre al máximo nivel.",
+"Realizar la revisión de las escobillas con el fin de asegurar su máxima eficacia.",
+"Aplicar sobre el parabrisas el líquido que recomienda el fabricante para facilitar el desplazamiento de las escobillas."
 ],
-"correcta_idx": 0,
-"explicacion": "«Adelantamiento prohibido para camiones»: prohíbe a los camiones adelantar a otros vehículos de motor.",
-"tema_id": 5,
-"imagen": "prohibido_adelantar_camiones.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 6,
+"imagen": "dgt_e237_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 11
 },
 {
 "id": 55,
-"enunciado": "¿Qué indica la señal de la imagen? (Parada y estacionamiento prohibidos)",
+"enunciado": "En condiciones meteorológicas o ambientales desfavorables, ¿cómo debe ser la separación con los vehículos que circulan delante?",
 "opciones": [
-"Que prohíbe tanto la parada como el estacionamiento.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Igual que cuando son favorables.",
+"Menor, para ver mejor a los vehículos que circulan delante.",
+"Mayor, para así disponer de más tiempo y espacio para reaccionar."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Parada y estacionamiento prohibidos»: prohíbe tanto la parada como el estacionamiento.",
-"tema_id": 5,
-"imagen": "parada_estacionamiento_prohibida.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 6,
+"imagen": "dgt_e237_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 12
 },
 {
 "id": 56,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Parada y estacionamiento prohibidos»?",
+"enunciado": "¿Quiénes están obligados a someterse a las pruebas de alcoholemia?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Todos los conductores de vehículos y cualquier usuario implicado directamente como posible responsable en un accidente de circulación.",
+"Sólo los conductores que presenten síntomas de embriaguez.",
+"Sólo los conductores de vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "parada_estacionamiento_prohibida.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 3,
+"imagen": "dgt_e237_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 13
 },
 {
 "id": 57,
-"enunciado": "Circulas y te encuentras la señal «Parada y estacionamiento prohibidos». ¿Qué debes hacer?",
+"enunciado": "Un vehículo especial de reparación o conservación de vías, al entrar en una autopista, debe utilizar la luz de señalización V-2...",
 "opciones": [
-"Debo no parar ni estacionar.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Sólo cuando llegue al lugar de trabajo.",
+"Desde la entrada de la autopista.",
+"Sólo de noche."
 ],
-"correcta_idx": 0,
-"explicacion": "«Parada y estacionamiento prohibidos»: prohíbe tanto la parada como el estacionamiento.",
-"tema_id": 5,
-"imagen": "parada_estacionamiento_prohibida.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"tema_id": 1,
+"imagen": "dgt_e237_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 14
 },
 {
 "id": 58,
-"enunciado": "¿Qué indica la señal de la imagen? (Masa máxima autorizada limitada a 5,5 t)",
+"enunciado": "A partir de esta señal, circular como mínimo a 30 kilómetros por hora...",
 "opciones": [
-"Que prohíbe el paso a vehículos cuya masa supere las 5,5 toneladas.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Es recomendable.",
+"Está prohibido.",
+"Es obligatorio."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Masa máxima autorizada limitada a 5,5 t»: prohíbe el paso a vehículos cuya masa supere las 5,5 toneladas.",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
 "tema_id": 5,
-"imagen": "masa_maxima_5t.svg",
-"dificultad": 1
+"imagen": "dgt_e237_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 237,
+"examen_fecha": "Octubre 2016",
+"examen_anio": 2016,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 15
 },
 {
 "id": 59,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Masa máxima autorizada limitada a 5,5 t»?",
+"enunciado": "Cuando las cintas no quedan bien estiradas, el cinturón de seguridad...",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"pierde eficacia y puede provocar lesiones durante el accidente.",
+"protege más en caso de accidente.",
+"no reduce su eficacia en caso de accidente."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "masa_maxima_5t.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 7,
+"imagen": "dgt_e238_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 1
 },
 {
 "id": 60,
-"enunciado": "Circulas y te encuentras la señal «Masa máxima autorizada limitada a 5,5 t». ¿Qué debes hacer?",
+"enunciado": "¿Qué indica la señal?",
 "opciones": [
-"Debo que no pasen vehículos de más de 5,5 t.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Que el carril derecho sólo puede ser utilizado por ciclos.",
+"Que el carril derecho sólo puede ser utilizado por ciclos y ciclomotores.",
+"Que por el carril derecho se llega a una senda ciclable."
 ],
 "correcta_idx": 0,
-"explicacion": "«Masa máxima autorizada limitada a 5,5 t»: prohíbe el paso a vehículos cuya masa supere las 5,5 toneladas.",
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
 "tema_id": 5,
-"imagen": "masa_maxima_5t.svg",
-"dificultad": 1
+"imagen": "dgt_e238_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 2
 },
 {
 "id": 61,
-"enunciado": "¿Qué indica la señal de la imagen? (Altura máxima limitada a 3,5 m)",
+"enunciado": "En caso de lluvia intensa, ¿es recomendable aumentar la distancia de seguridad y reducir la velocidad?",
 "opciones": [
-"Que prohíbe el paso a vehículos de más de 3,5 m de altura.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Sí; mejora el agarre de los neumáticos, pero no es recomendable reducir la velocidad.",
+"No; al reducir la velocidad mayor es la proporción de agua en el asfalto.",
+"Sí; ya que la adherencia es menor y, por consiguiente, la distancia de frenado aumenta."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Altura máxima limitada a 3,5 m»: prohíbe el paso a vehículos de más de 3,5 m de altura.",
-"tema_id": 5,
-"imagen": "altura_maxima_35.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 4,
+"imagen": "dgt_e238_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
 },
 {
 "id": 62,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Altura máxima limitada a 3,5 m»?",
+"enunciado": "Es obligatorio finalizar un adelantamiento...",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Incorporándose al carril derecho a la mayor velocidad posible.",
+"Únicamente señalizando el desplazamiento lateral.",
+"Incorporándose al carril de forma gradual sin obstaculizar."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "altura_maxima_35.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 6,
+"imagen": "dgt_e238_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
 },
 {
 "id": 63,
-"enunciado": "Circulas y te encuentras la señal «Altura máxima limitada a 3,5 m». ¿Qué debes hacer?",
+"enunciado": "¿Qué relación existe entre la velocidad y el campo de visión del conductor?",
 "opciones": [
-"Debo que no pasen vehículos de más de 3,5 m de alto.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"A mayor velocidad, menor campo visual.",
+"A menor velocidad, menor campo visual.",
+"A mayor velocidad, mayor campo visual."
 ],
 "correcta_idx": 0,
-"explicacion": "«Altura máxima limitada a 3,5 m»: prohíbe el paso a vehículos de más de 3,5 m de altura.",
-"tema_id": 5,
-"imagen": "altura_maxima_35.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 4,
+"imagen": "dgt_e238_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
 },
 {
 "id": 64,
-"enunciado": "¿Qué indica la señal de la imagen? (Anchura máxima limitada a 2 m)",
+"enunciado": "En una autopista o autovía, ¿se puede utilizar la mediana en algún caso?",
 "opciones": [
-"Que prohíbe el paso a vehículos de más de 2 m de anchura.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"No, nunca.",
+"Sí, para inmovilizar el vehículo por emergencia cuando no es posible hacerlo en el arcén de la derecha.",
+"Sí, para adelantar cuando los carriles estén ocupados."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Anchura máxima limitada a 2 m»: prohíbe el paso a vehículos de más de 2 m de anchura.",
-"tema_id": 5,
-"imagen": "anchura_maxima_2.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 6,
+"imagen": "dgt_e238_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 6
 },
 {
 "id": 65,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Anchura máxima limitada a 2 m»?",
+"enunciado": "Un agente, con toques de silbato cortos y frecuentes, ordena...",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Que se reanude la marcha.",
+"Que se detengan los vehículos a quienes se dirija.",
+"Que se inmovilice el vehículo fuera de la calzada."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "anchura_maxima_2.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 1,
+"imagen": "dgt_e238_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
 },
 {
 "id": 66,
-"enunciado": "Circulas y te encuentras la señal «Anchura máxima limitada a 2 m». ¿Qué debes hacer?",
+"enunciado": "¿Qué efectos puede producir un resfriado en la conducción?",
 "opciones": [
-"Debo que no pasen vehículos de más de 2 m de ancho.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Desorientación.",
+"Somnolencia y pérdida de concentración.",
+"Impulsividad."
 ],
-"correcta_idx": 0,
-"explicacion": "«Anchura máxima limitada a 2 m»: prohíbe el paso a vehículos de más de 2 m de anchura.",
-"tema_id": 5,
-"imagen": "anchura_maxima_2.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 6,
+"imagen": "dgt_e238_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
 },
 {
 "id": 67,
-"enunciado": "¿Qué indica la señal de la imagen? (Distancia mínima entre vehículos 50 m)",
+"enunciado": "Cuando tenga que bajar del vehículo para descargar el equipaje, ¿debe apagar el motor?",
 "opciones": [
-"Que obliga a mantener al menos 50 m de separación con el vehículo precedente.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"No, no es necesario si se trata de una parada breve.",
+"Sí, y además debe desconectar el sistema de arranque o contacto.",
+"No, sólo debe dejar accionado el freno de mano."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Distancia mínima entre vehículos 50 m»: obliga a mantener al menos 50 m de separación con el vehículo precedente.",
-"tema_id": 5,
-"imagen": "distancia_minima_50.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 7,
+"imagen": "dgt_e238_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
 },
 {
 "id": 68,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Distancia mínima entre vehículos 50 m»?",
+"enunciado": "¿Qué factor se relaciona con los accidentes juveniles?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"La falta de reflejos.",
+"La falta de mantenimiento del vehículo.",
+"La menor percepción del riesgo."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "distancia_minima_50.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 7,
+"imagen": "dgt_e238_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
 },
 {
 "id": 69,
-"enunciado": "Circulas y te encuentras la señal «Distancia mínima entre vehículos 50 m». ¿Qué debes hacer?",
+"enunciado": "Cuando para realizar un cambio de sentido obstaculiza la marcha de los vehículos que circulan detrás, deberá...",
 "opciones": [
-"Debo guardar 50 m con el de delante.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Hacer señales con la luz de freno para advertir su maniobra.",
+"Esperar hasta que pueda realizar la maniobra.",
+"Salir de la calzada por la derecha, si fuera posible, y esperar hasta que las condiciones de la circulación le permitan hacer la maniobra."
 ],
-"correcta_idx": 0,
-"explicacion": "«Distancia mínima entre vehículos 50 m»: obliga a mantener al menos 50 m de separación con el vehículo precedente.",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
 "tema_id": 5,
-"imagen": "distancia_minima_50.svg",
-"dificultad": 1
+"imagen": "dgt_e238_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
 },
 {
 "id": 70,
-"enunciado": "¿Qué indica la señal de la imagen? (Fin de limitación de velocidad)",
+"enunciado": "¿Es obligatorio apagar el motor cuando está cargando combustible?",
 "opciones": [
-"Que señala el final de una limitación de velocidad anterior.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"No.",
+"Sí, pero no es necesario si es el empleado de la gasolinera quien llena el depósito.",
+"Sí, siempre."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Fin de limitación de velocidad»: señala el final de una limitación de velocidad anterior.",
-"tema_id": 5,
-"imagen": "fin_limitacion_velocidad.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 7,
+"imagen": "dgt_e238_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
 },
 {
 "id": 71,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Fin de limitación de velocidad»?",
+"enunciado": "Un traje adecuado para conducir una motocicleta, debe...",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Estar muy ajustado al cuerpo para mejorar la estética.",
+"Tener colores oscuros.",
+"Ser resistente a los golpes y a la abrasión en caso de caída."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "fin_limitacion_velocidad.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 6,
+"imagen": "dgt_e238_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 13
 },
 {
 "id": 72,
-"enunciado": "Circulas y te encuentras la señal «Fin de limitación de velocidad». ¿Qué debes hacer?",
+"enunciado": "Fumar al volante...",
 "opciones": [
-"Debo que termina la limitación de velocidad.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Es una conducta que puede interferir en la conducción y provocar un accidente.",
+"Relaja y proporciona serenidad al fumador, lo que repercute positivamente en la conducción.",
+"Es la principal causa de distracción durante la conducción."
 ],
 "correcta_idx": 0,
-"explicacion": "«Fin de limitación de velocidad»: señala el final de una limitación de velocidad anterior.",
-"tema_id": 5,
-"imagen": "fin_limitacion_velocidad.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 6,
+"imagen": "dgt_e238_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
 },
 {
 "id": 73,
-"enunciado": "¿Qué indica la señal de la imagen? (Fin de la prohibición de adelantar)",
+"enunciado": "Fuera de poblado, como norma general , ¿por qué lado de la vía deberán circular los peatones?",
 "opciones": [
-"Que señala el final de la prohibición de adelantar.",
-"Que es una vía de sentido único.",
-"Que se recomienda esa maniobra."
+"Por la derecha en casos de poca visibilidad.",
+"Por la izquierda.",
+"Indistintamente, por la derecha o por la izquierda siempre que haya un arcén."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Fin de la prohibición de adelantar»: señala el final de la prohibición de adelantar.",
-"tema_id": 5,
-"imagen": "fin_prohibicion_adelantar.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"tema_id": 1,
+"imagen": "dgt_e238_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 238,
+"examen_fecha": "Diciembre 2016",
+"examen_anio": 2016,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 15
 },
 {
 "id": 74,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Fin de la prohibición de adelantar»?",
+"enunciado": "Hay una nube de humo. ¿Debe utilizarse algún tipo de alumbrado?",
 "opciones": [
-"De prohibición o restricción",
-"De obligación",
-"De advertencia de peligro"
+"Sólo si viene algún vehículo en sentido contrario.",
+"Sí, la luz antiniebla delantera o la luz de corto o largo alcance.",
+"No, porque es de día."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de prohibición.",
-"tema_id": 5,
-"imagen": "fin_prohibicion_adelantar.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 7,
+"imagen": "dgt_e239_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 1
 },
 {
 "id": 75,
-"enunciado": "Circulas y te encuentras la señal «Fin de la prohibición de adelantar». ¿Qué debes hacer?",
+"enunciado": "Esta señal indica peligro por...",
 "opciones": [
-"Debo que ya se puede adelantar.",
-"Puedo hacer lo contrario si voy con cuidado.",
-"Solo afecta a los vehículos pesados."
+"Pavimento deslizante por nieve.",
+"La proximidad de un tramo de vía con visibilidad reducida por niebla, lluvia o nieve.",
+"La proximidad de un tramo de la vía con desprendimientos frecuentes y la presencia de obstáculos en la calzada."
 ],
-"correcta_idx": 0,
-"explicacion": "«Fin de la prohibición de adelantar»: señala el final de la prohibición de adelantar.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
 "tema_id": 5,
-"imagen": "fin_prohibicion_adelantar.svg",
-"dificultad": 1
+"imagen": "dgt_e239_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 2
 },
 {
 "id": 76,
-"enunciado": "¿Qué indica la señal de la imagen? (Sentido obligatorio a la derecha)",
+"enunciado": "¿Qué indican los conos en la calzada?",
 "opciones": [
-"Que obliga a seguir hacia la derecha.",
-"Que esa maniobra está prohibida.",
-"Que solo es una recomendación sin carácter obligatorio."
+"Refuerzan el significado de las líneas discontinuas del carril.",
+"Nada, no son señales de circulación.",
+"La prohibición de rebasar la línea imaginaria que los une."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Sentido obligatorio a la derecha»: obliga a seguir hacia la derecha.",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
 "tema_id": 5,
-"imagen": "sentido_obligatorio_derecha.svg",
-"dificultad": 1
+"imagen": "dgt_e239_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 3
 },
 {
 "id": 77,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Sentido obligatorio a la derecha»?",
+"enunciado": "En los cambios de carril en un mismo sentido, ¿quién tiene prioridad?",
 "opciones": [
-"De obligación",
-"De prohibición",
-"De advertencia de peligro"
+"El vehículo que circula por el carril que se pretende ocupar.",
+"El vehículo que realiza el cambio de carril.",
+"Siempre los turismos sobre el resto de vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de obligación.",
-"tema_id": 5,
-"imagen": "sentido_obligatorio_derecha.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 6,
+"imagen": "dgt_e239_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 4
 },
 {
 "id": 78,
-"enunciado": "Circulas y te encuentras la señal «Sentido obligatorio a la derecha». ¿Qué debes hacer?",
+"enunciado": "En esta situación de aglomeración, ¿podrá circular por el arcén?",
 "opciones": [
-"Debo girar a la derecha.",
-"Es opcional, puedo elegir otra opción.",
-"Solo se aplica de noche."
+"No, está prohibido.",
+"Sí, si tiene prisa.",
+"Sí, para descongestionar el tráfico."
 ],
 "correcta_idx": 0,
-"explicacion": "«Sentido obligatorio a la derecha»: obliga a seguir hacia la derecha.",
-"tema_id": 5,
-"imagen": "sentido_obligatorio_derecha.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 6,
+"imagen": "dgt_e239_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 5
 },
 {
 "id": 79,
-"enunciado": "¿Qué indica la señal de la imagen? (Sentido obligatorio a la izquierda)",
+"enunciado": "Antes de iniciar un adelantamiento, ¿qué debe comprobar?",
 "opciones": [
-"Que obliga a seguir hacia la izquierda.",
-"Que esa maniobra está prohibida.",
-"Que solo es una recomendación sin carácter obligatorio."
+"Que los vehículos que circulan por el mismo carril no llevan encendidos los intermitentes.",
+"Que ningún conductor ha iniciado la maniobra de adelantar a su vehículo.",
+"Que los vehículos que circulan detrás mantienen la distancia de seguridad."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Sentido obligatorio a la izquierda»: obliga a seguir hacia la izquierda.",
-"tema_id": 5,
-"imagen": "sentido_obligatorio_izquierda.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 6,
+"imagen": "dgt_e239_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 6
 },
 {
 "id": 80,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Sentido obligatorio a la izquierda»?",
+"enunciado": "El conductor indica con el brazo que va a girar a la izquierda y lleva encendido el intermitente derecho; ¿qué señal tiene validez?",
 "opciones": [
-"De obligación",
-"De prohibición",
-"De advertencia de peligro"
+"Ninguna.",
+"La del brazo.",
+"La del intermitente."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de obligación.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
 "tema_id": 5,
-"imagen": "sentido_obligatorio_izquierda.svg",
-"dificultad": 1
+"imagen": "dgt_e239_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 7
 },
 {
 "id": 81,
-"enunciado": "Circulas y te encuentras la señal «Sentido obligatorio a la izquierda». ¿Qué debes hacer?",
+"enunciado": "En doble fila, ¿qué está prohibido?",
 "opciones": [
-"Debo girar a la izquierda.",
-"Es opcional, puedo elegir otra opción.",
-"Solo se aplica de noche."
+"Parar.",
+"Parar y estacionar.",
+"Estacionar."
 ],
-"correcta_idx": 0,
-"explicacion": "«Sentido obligatorio a la izquierda»: obliga a seguir hacia la izquierda.",
-"tema_id": 5,
-"imagen": "sentido_obligatorio_izquierda.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 6,
+"imagen": "dgt_e239_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 8
 },
 {
 "id": 82,
-"enunciado": "¿Qué indica la señal de la imagen? (Paso obligatorio (por la derecha))",
+"enunciado": "El semáforo de la fotografía está estropeado. ¿A quién debe ceder el paso en la intersección?",
 "opciones": [
-"Que obliga a pasar por la derecha del obstáculo o isleta.",
-"Que esa maniobra está prohibida.",
-"Que solo es una recomendación sin carácter obligatorio."
+"A los vehículos que entran por la derecha.",
+"A los vehículos que entran por la izquierda.",
+"A todos los vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Paso obligatorio (por la derecha)»: obliga a pasar por la derecha del obstáculo o isleta.",
-"tema_id": 5,
-"imagen": "paso_obligatorio_derecha.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 6,
+"imagen": "dgt_e239_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 9
 },
 {
 "id": 83,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Paso obligatorio (por la derecha)»?",
+"enunciado": "Este vehículo está averiado y circula a velocidad anormalmente reducida con la luz de emergencia encendida; ¿es correcto su comportamiento?",
 "opciones": [
-"De obligación",
-"De prohibición",
-"De advertencia de peligro"
+"Sí, porque el vehículo está averiado.",
+"No; las luces de emergencia se usan solo con el vehículo detenido.",
+"No; está prohibido el uso de este alumbrado en vías urbanas."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de obligación.",
-"tema_id": 5,
-"imagen": "paso_obligatorio_derecha.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 7,
+"imagen": "dgt_e239_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 10
 },
 {
 "id": 84,
-"enunciado": "Circulas y te encuentras la señal «Paso obligatorio (por la derecha)». ¿Qué debes hacer?",
+"enunciado": "Por seguridad, ¿cuál es la forma más aconsejable de bajar un puerto de montaña cuando en la calzada existan placas de hielo?",
 "opciones": [
-"Debo pasar por la derecha.",
-"Es opcional, puedo elegir otra opción.",
-"Solo se aplica de noche."
+"Con la marcha más corta que se pueda para evitar deslizamientos",
+"Utilizando el freno de mano para trazar las curvas.",
+"A baja velocidad con la marcha más larga que se pueda, evitando frenadas bruscas."
 ],
 "correcta_idx": 0,
-"explicacion": "«Paso obligatorio (por la derecha)»: obliga a pasar por la derecha del obstáculo o isleta.",
-"tema_id": 5,
-"imagen": "paso_obligatorio_derecha.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 4,
+"imagen": "dgt_e239_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 11
 },
 {
 "id": 85,
-"enunciado": "¿Qué indica la señal de la imagen? (Intersección de sentido giratorio obligatorio (rotonda))",
+"enunciado": "La velocidad máxima genérica para una motocicleta en una carretera convencional con arcén pavimentado de más de 1,50 metros de ancho es de...",
 "opciones": [
-"Que obliga a circular por la glorieta en el sentido indicado.",
-"Que esa maniobra está prohibida.",
-"Que solo es una recomendación sin carácter obligatorio."
+"90 kilómetros por hora.",
+"80 kilómetros por hora.",
+"100 kilómetros por hora."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Intersección de sentido giratorio obligatorio (rotonda)»: obliga a circular por la glorieta en el sentido indicado.",
-"tema_id": 5,
-"imagen": "interseccion_giratoria.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 4,
+"imagen": "dgt_e239_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 12
 },
 {
 "id": 86,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Intersección de sentido giratorio obligatorio (rotonda)»?",
+"enunciado": "Al conducir bajo condiciones climatológicas adversas...",
 "opciones": [
-"De obligación",
-"De prohibición",
-"De advertencia de peligro"
+"Es necesario descansar con más frecuencia.",
+"Es menos probable que aparezca la fatiga.",
+"No es necesario descansar."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de obligación.",
-"tema_id": 5,
-"imagen": "interseccion_giratoria.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 6,
+"imagen": "dgt_e239_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 13
 },
 {
 "id": 87,
-"enunciado": "Circulas y te encuentras la señal «Intersección de sentido giratorio obligatorio (rotonda)». ¿Qué debes hacer?",
+"enunciado": "A la vista de la señal, ¿es obligatorio detenerse para dejar pasar a un vehículo que circula en sentido contrario?",
 "opciones": [
-"Debo circular por la rotonda en ese sentido.",
-"Es opcional, puedo elegir otra opción.",
-"Solo se aplica de noche."
+"No, porque la señal otorga prioridad de paso.",
+"No, porque la señal no afecta a la prioridad de paso.",
+"Sí, mientras no se pueda continuar la marcha sin obligar a detenerse a los vehículos que circulen en sentido contrario."
 ],
-"correcta_idx": 0,
-"explicacion": "«Intersección de sentido giratorio obligatorio (rotonda)»: obliga a circular por la glorieta en el sentido indicado.",
-"tema_id": 5,
-"imagen": "interseccion_giratoria.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"tema_id": 6,
+"imagen": "dgt_e239_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 14
 },
 {
 "id": 88,
-"enunciado": "¿Qué indica la señal de la imagen? (Vía reservada para ciclos o vía ciclista)",
+"enunciado": "Esta señal indica el lugar a partir del cual...",
 "opciones": [
-"Que vía reservada exclusivamente a bicicletas.",
-"Que esa maniobra está prohibida.",
-"Que solo es una recomendación sin carácter obligatorio."
+"termina la obligación de circular, al menos, a 30 km/h.",
+"comienza la obligación de circular a más de 30 km/h.",
+"termina la recomendación de circular a más de 30 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Vía reservada para ciclos o vía ciclista»: vía reservada exclusivamente a bicicletas.",
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
 "tema_id": 5,
-"imagen": "calzada_bicicletas.svg",
-"dificultad": 1
+"imagen": "dgt_e239_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 239,
+"examen_fecha": "Febrero 2017",
+"examen_anio": 2017,
+"examen_mes": 2,
+"examen_trimestre": "T1",
+"examen_pos": 15
 },
 {
 "id": 89,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Vía reservada para ciclos o vía ciclista»?",
+"enunciado": "Al rebasar al autobús, ¿qué peligro debe preverse?",
 "opciones": [
-"De obligación",
-"De prohibición",
-"De advertencia de peligro"
+"Que puedan cruzar peatones ocultos por el propio autobús.",
+"Que los viajeros bajen por la parte izquierda.",
+"Ninguno, no es una situación de riesgo."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de obligación.",
-"tema_id": 5,
-"imagen": "calzada_bicicletas.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 1,
+"imagen": "dgt_e241_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 1
 },
 {
 "id": 90,
-"enunciado": "Circulas y te encuentras la señal «Vía reservada para ciclos o vía ciclista». ¿Qué debes hacer?",
+"enunciado": "La marca amarilla en zig-zag indica el lugar de la calzada...",
 "opciones": [
-"Debo que es una vía solo para bicicletas.",
-"Es opcional, puedo elegir otra opción.",
-"Solo se aplica de noche."
+"donde no se puede estacionar, pero sí se puede parar.",
+"reservado para el estacionamiento de autobuses.",
+"reservado para parada de autobús, no pudiendo parar otros vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "«Vía reservada para ciclos o vía ciclista»: vía reservada exclusivamente a bicicletas.",
-"tema_id": 5,
-"imagen": "calzada_bicicletas.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 6,
+"imagen": "dgt_e241_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 2
 },
 {
 "id": 91,
-"enunciado": "¿Qué indica la señal de la imagen? (Camino reservado para peatones)",
+"enunciado": "Las señales de obras...",
 "opciones": [
-"Que vía reservada al tránsito de peatones.",
-"Que esa maniobra está prohibida.",
-"Que solo es una recomendación sin carácter obligatorio."
+"establecen para los tramos de obras una reducción de la velocidad máxima en 10 km/h.",
+"tienen distinto símbolo y tamaño que las usadas en tramos sin obras.",
+"tienen el mismo significado que las usadas en tramos sin obras."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Camino reservado para peatones»: vía reservada al tránsito de peatones.",
-"tema_id": 5,
-"imagen": "camino_peatones.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 4,
+"imagen": "dgt_e241_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 3
 },
 {
 "id": 92,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Camino reservado para peatones»?",
+"enunciado": "El tiempo de reacción puede aumentar...",
 "opciones": [
-"De obligación",
-"De prohibición",
-"De advertencia de peligro"
+"después de una comida ligera.",
+"si usamos gafas graduadas.",
+"después de una fuerte discusión."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de obligación.",
-"tema_id": 5,
-"imagen": "camino_peatones.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 6,
+"imagen": "dgt_e241_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 4
 },
 {
 "id": 93,
-"enunciado": "Circulas y te encuentras la señal «Camino reservado para peatones». ¿Qué debes hacer?",
+"enunciado": "Fumar mientras se conduce...",
 "opciones": [
-"Debo que es un camino solo para peatones.",
-"Es opcional, puedo elegir otra opción.",
-"Solo se aplica de noche."
+"está prohibido.",
+"es recomendable, porque ayuda a mantener la atención.",
+"no es recomendable, porque puede afectar a la atención en la conducción."
 ],
-"correcta_idx": 0,
-"explicacion": "«Camino reservado para peatones»: vía reservada al tránsito de peatones.",
-"tema_id": 5,
-"imagen": "camino_peatones.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 6,
+"imagen": "dgt_e241_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 5
 },
 {
 "id": 94,
-"enunciado": "¿Qué indica la señal de la imagen? (Velocidad mínima obligatoria 60 km/h)",
+"enunciado": "Conducir durante mucho tiempo sin descansar...",
 "opciones": [
-"Que obliga a circular al menos a 60 km/h.",
-"Que esa maniobra está prohibida.",
-"Que solo es una recomendación sin carácter obligatorio."
+"mantiene al conductor más atento ante cualquier peligro.",
+"disminuye el riesgo de accidente.",
+"propicia la aparición de la fatiga."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Velocidad mínima obligatoria 60 km/h»: obliga a circular al menos a 60 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_minima_60.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 1,
+"imagen": "dgt_e241_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 6
 },
 {
 "id": 95,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Velocidad mínima obligatoria 60 km/h»?",
+"enunciado": "El reposacabezas, ¿cómo debe colocarse?",
 "opciones": [
-"De obligación",
-"De prohibición",
-"De advertencia de peligro"
+"A la altura de cuello.",
+"Lo más alto posible para que no moleste.",
+"A la altura de la cabeza."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de obligación.",
-"tema_id": 5,
-"imagen": "velocidad_minima_60.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 7,
+"imagen": "dgt_e241_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 7
 },
 {
 "id": 96,
-"enunciado": "Circulas y te encuentras la señal «Velocidad mínima obligatoria 60 km/h». ¿Qué debes hacer?",
+"enunciado": "Hay hielo en la vía. ¿Qué debe hacer?",
 "opciones": [
-"Debo circular a 60 km/h como mínimo.",
-"Es opcional, puedo elegir otra opción.",
-"Solo se aplica de noche."
+"Circular con el pie en el embrague.",
+"Circular a poca velocidad para no tener que frenar.",
+"Circular pisando el freno intermitentemente."
 ],
-"correcta_idx": 0,
-"explicacion": "«Velocidad mínima obligatoria 60 km/h»: obliga a circular al menos a 60 km/h.",
-"tema_id": 5,
-"imagen": "velocidad_minima_60.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 4,
+"imagen": "dgt_e241_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 8
 },
 {
 "id": 97,
-"enunciado": "¿Qué indica la señal de la imagen? (Cadenas para nieve obligatorias)",
+"enunciado": "La varilla del aceite del motor, ¿para qué sirve?",
 "opciones": [
-"Que obliga a usar cadenas u otros dispositivos antideslizantes.",
-"Que esa maniobra está prohibida.",
-"Que solo es una recomendación sin carácter obligatorio."
+"Para comprobar la temperatura del aceite.",
+"Para comprobar el nivel del aceite.",
+"Para comprobar la presión del aceite."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Cadenas para nieve obligatorias»: obliga a usar cadenas u otros dispositivos antideslizantes.",
-"tema_id": 5,
-"imagen": "cadenas_nieve.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 7,
+"imagen": "dgt_e241_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 9
 },
 {
 "id": 98,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Cadenas para nieve obligatorias»?",
+"enunciado": "Debido a un pinchazo sustituye una de las ruedas de su vehículo por la de uso temporal. ¿Cuántos kilómetros podrá circular en esas condiciones?",
 "opciones": [
-"De obligación",
-"De prohibición",
-"De advertencia de peligro"
+"Tantos como sean necesarios siempre que dicha rueda no haya sido utilizada anteriormente.",
+"Los que recomiende, como máximo, cada fabricante, y circulando a la velocidad que se indica en dicha rueda.",
+"No hay limitación de kilómetros porque se trata de una situación excepcional."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de obligación.",
-"tema_id": 5,
-"imagen": "cadenas_nieve.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 4,
+"imagen": "dgt_e241_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 10
 },
 {
 "id": 99,
-"enunciado": "Circulas y te encuentras la señal «Cadenas para nieve obligatorias». ¿Qué debes hacer?",
+"enunciado": "Para circular de noche por una travesía. ¿Qué luces son obligatorias?",
 "opciones": [
-"Debo montar cadenas para la nieve.",
-"Es opcional, puedo elegir otra opción.",
-"Solo se aplica de noche."
+"Las de posición y las cortas.",
+"Las de posición y las largas.",
+"Las de posición solamente."
 ],
 "correcta_idx": 0,
-"explicacion": "«Cadenas para nieve obligatorias»: obliga a usar cadenas u otros dispositivos antideslizantes.",
-"tema_id": 5,
-"imagen": "cadenas_nieve.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"tema_id": 7,
+"imagen": "dgt_e241_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 11
 },
 {
 "id": 100,
-"enunciado": "¿Qué indica la señal de la imagen? (Curva peligrosa a la derecha)",
+"enunciado": "¿A qué vehículos prohíbe pasar esta señal?",
 "opciones": [
-"Que advierte de una curva peligrosa hacia la derecha.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"A los vehículos que tienen más de 3,5 metros de anchura.",
+"A los vehículos que tienen más de 3.500 kilogramos de peso.",
+"A los vehículos que tienen más de 3,5 metros de altura."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Curva peligrosa a la derecha»: advierte de una curva peligrosa hacia la derecha.",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
 "tema_id": 5,
-"imagen": "peligro_curva_derecha.svg",
-"dificultad": 1
+"imagen": "dgt_e241_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 241,
+"examen_fecha": "Julio 2017",
+"examen_anio": 2017,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 12
 },
 {
 "id": 101,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Curva peligrosa a la derecha»?",
+"enunciado": "Cuando termine el adelantamiento, el vehículo adelantado deberá...",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Circular igual que lo está haciendo, con la luz de largo alcance encendida.",
+"Reducir la velocidad, obligatoriamente.",
+"Cambiar la luz de largo alcance por la luz de cruce."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_curva_derecha.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 4,
+"imagen": "dgt_e242_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 1
 },
 {
 "id": 102,
-"enunciado": "Circulas y te encuentras la señal «Curva peligrosa a la derecha». ¿Qué debes hacer?",
+"enunciado": "En esta vía, la velocidad mínima permitida a los turismos es de...",
 "opciones": [
-"Extremar la precaución: avisa de hay una curva a la derecha.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"90 km/h",
+"60 km/h",
+"75 km/h"
 ],
-"correcta_idx": 0,
-"explicacion": "«Curva peligrosa a la derecha»: advierte de una curva peligrosa hacia la derecha.",
-"tema_id": 5,
-"imagen": "peligro_curva_derecha.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 4,
+"imagen": "dgt_e242_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 2
 },
 {
 "id": 103,
-"enunciado": "¿Qué indica la señal de la imagen? (Curvas peligrosas)",
+"enunciado": "Esta señal indica peligro ante la proximidad...",
 "opciones": [
-"Que advierte de una sucesión de curvas próximas.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"De un resalto o badén en el pavimento.",
+"De un puente móvil.",
+"De un muelle."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Curvas peligrosas»: advierte de una sucesión de curvas próximas.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
 "tema_id": 5,
-"imagen": "peligro_curvas.svg",
-"dificultad": 1
+"imagen": "dgt_e242_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 3
 },
 {
 "id": 104,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Curvas peligrosas»?",
+"enunciado": "En un turismo, la carga puede sobresalir por su parte posterior...",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Hasta un 5 por 100 de su longitud.",
+"Hasta un 10 por 100 de su longitud y, si la carga fuera indivisible hasta un 15 por 100.",
+"No está permitido que sobresalga la carga del vehículo."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_curvas.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 6,
+"imagen": "dgt_e242_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 4
 },
 {
 "id": 105,
-"enunciado": "Circulas y te encuentras la señal «Curvas peligrosas». ¿Qué debes hacer?",
+"enunciado": "¿Qué síntomas nos avisan de que estamos fatigados?",
 "opciones": [
-"Extremar la precaución: avisa de hay varias curvas seguidas.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"La sensación de euforia.",
+"Suele aumentar el número y la duración de los parpadeos y la visión puede volverse borrosa.",
+"No realizar movimientos en el asiento, ni cambios de postura."
 ],
-"correcta_idx": 0,
-"explicacion": "«Curvas peligrosas»: advierte de una sucesión de curvas próximas.",
-"tema_id": 5,
-"imagen": "peligro_curvas.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 6,
+"imagen": "dgt_e242_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 5
 },
 {
 "id": 106,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: niños)",
+"enunciado": "¿Cuándo es obligatorio utilizar la luz de emergencia?",
 "opciones": [
-"Que advierte de la proximidad de un lugar frecuentado por niños.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Cuando se inmovilice el vehículo en una autopista.",
+"Cuando se reduzca la velocidad en carretera.",
+"Cuando se estacione el vehículo en doble fila."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: niños»: advierte de la proximidad de un lugar frecuentado por niños.",
-"tema_id": 5,
-"imagen": "peligro_ninos.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 4,
+"imagen": "dgt_e242_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 6
 },
 {
 "id": 107,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: niños»?",
+"enunciado": "Quiere adelantar a un ciclista que circula por el arcén; ¿qué distancia lateral debe dejar?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Un metro, al menos.",
+"Al menos metro y medio.",
+"No importa la distancia porque circula por el arcén."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_ninos.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 6,
+"imagen": "dgt_e242_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 7
 },
 {
 "id": 108,
-"enunciado": "Circulas y te encuentras la señal «Peligro: niños». ¿Qué debes hacer?",
+"enunciado": "Hay poca visibilidad por niebla. ¿Qué debe hacer?",
 "opciones": [
-"Extremar la precaución: avisa de puede haber niños.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Dejar más distancia de seguridad con el vehículo de delante.",
+"Llevar el pie siempre en el pedal del freno.",
+"Circular a la velocidad mínima de la vía."
 ],
 "correcta_idx": 0,
-"explicacion": "«Peligro: niños»: advierte de la proximidad de un lugar frecuentado por niños.",
-"tema_id": 5,
-"imagen": "peligro_ninos.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 4,
+"imagen": "dgt_e242_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 8
 },
 {
 "id": 109,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: ciclistas)",
+"enunciado": "¿Qué indica la flecha?",
 "opciones": [
-"Que advierte de la posible presencia de ciclistas en la vía.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Que hay una curva a la derecha.",
+"Que hay un carril de salida a la derecha.",
+"Que me acerco a una línea continua."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: ciclistas»: advierte de la posible presencia de ciclistas en la vía.",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
 "tema_id": 5,
-"imagen": "peligro_ciclistas.svg",
-"dificultad": 1
+"imagen": "dgt_e242_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 9
 },
 {
 "id": 110,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: ciclistas»?",
+"enunciado": "Necesita hacer una parada en una calle estrecha; ¿puede ocupar parte de la acera con su vehículo?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Sí.",
+"No.",
+"Solo si no hay señal que lo prohíba expresamente."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
 "tema_id": 5,
-"imagen": "peligro_ciclistas.svg",
-"dificultad": 1
+"imagen": "dgt_e242_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 10
 },
 {
 "id": 111,
-"enunciado": "Circulas y te encuentras la señal «Peligro: ciclistas». ¿Qué debes hacer?",
+"enunciado": "Uno de los pasajeros del turismo que Vd. conduce no lleva puesto el cinturón de seguridad. Si un agente de la autoridad denuncia la infracción, ¿quién es el responsable?",
 "opciones": [
-"Extremar la precaución: avisa de puede haber ciclistas.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"El tomador del seguro.",
+"El pasajero.",
+"El conductor."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: ciclistas»: advierte de la posible presencia de ciclistas en la vía.",
-"tema_id": 5,
-"imagen": "peligro_ciclistas.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 7,
+"imagen": "dgt_e242_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 11
 },
 {
 "id": 112,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: semáforo)",
+"enunciado": "Los neumáticos, ¿cuándo hay que cambiarlos?",
 "opciones": [
-"Que advierte de la proximidad de un semáforo.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Cuando la profundidad del dibujo sea menor de 1,6 mm.",
+"Cuando la profundidad del dibujo sea menor de 2 mm.",
+"Cuando la profundidad del dibujo sea menor de 3 mm."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: semáforo»: advierte de la proximidad de un semáforo.",
-"tema_id": 5,
-"imagen": "peligro_semaforo.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 7,
+"imagen": "dgt_e242_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 12
 },
 {
 "id": 113,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: semáforo»?",
+"enunciado": "¿Qué es el tiempo de reacción?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"El tiempo que pasa desde que se empieza una maniobra hasta que se termina.",
+"El tiempo que pasa desde que se arranca el vehículo hasta que se empieza a circular.",
+"El tiempo que pasa desde que se ve un peligro hasta que se toma una decisión."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_semaforo.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 6,
+"imagen": "dgt_e242_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 13
 },
 {
 "id": 114,
-"enunciado": "Circulas y te encuentras la señal «Peligro: semáforo». ¿Qué debes hacer?",
+"enunciado": "El hielo, la nieve, la calzada mojada y las obras, ¿de qué factor de riesgo forman parte?",
 "opciones": [
-"Extremar la precaución: avisa de hay un semáforo cerca.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Del factor humano.",
+"Del factor vehículo.",
+"Del factor vía y entorno."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: semáforo»: advierte de la proximidad de un semáforo.",
-"tema_id": 5,
-"imagen": "peligro_semaforo.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 1,
+"imagen": "dgt_e242_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 14
 },
 {
 "id": 115,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: obras)",
+"enunciado": "¿El estrés puede alterar las capacidades para conducir con seguridad?",
 "opciones": [
-"Que advierte de la proximidad de una zona de obras en la vía.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"No, en ningún caso.",
+"Sí.",
+"No, porque no afecta a la conducción."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: obras»: advierte de la proximidad de una zona de obras en la vía.",
-"tema_id": 5,
-"imagen": "peligro_obras.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"tema_id": 6,
+"imagen": "dgt_e242_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 242,
+"examen_fecha": "Octubre-2017",
+"examen_anio": 2017,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 15
 },
 {
 "id": 116,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: obras»?",
+"enunciado": "La luz antiniebla trasera deberá utilizarse en caso de...",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Niebla espesa.",
+"Circular de noche por una vía sin asfaltar.",
+"Circular al anochecer por una vía sin arcén."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_obras.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 6,
+"imagen": "dgt_e243_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 1
 },
 {
 "id": 117,
-"enunciado": "Circulas y te encuentras la señal «Peligro: obras». ¿Qué debes hacer?",
+"enunciado": "¿A qué vehículos prohíbe el adelantamiento esta señal?",
 "opciones": [
-"Extremar la precaución: avisa de hay obras.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"A los camiones de más de 3.500 kg. de M.M.A.",
+"A todos los vehículos de motor, incluidos camiones.",
+"A todos los camiones de menos de 3.500 kg. de M.M.A."
 ],
 "correcta_idx": 0,
-"explicacion": "«Peligro: obras»: advierte de la proximidad de una zona de obras en la vía.",
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
 "tema_id": 5,
-"imagen": "peligro_obras.svg",
-"dificultad": 1
+"imagen": "dgt_e243_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 2
 },
 {
 "id": 118,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: paso de animales en libertad)",
+"enunciado": "Si circula con un turismo en el que sobresale la carga por su parte trasera, ¿está obligado a colocar la señal de la imagen?",
 "opciones": [
-"Que advierte del posible paso de animales salvajes (en libertad).",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"No, porque un turismo no transporta exclusivamente mercancías.",
+"Solo se colocará cuando la carga sobresalga por la parte delantera.",
+"Sí; deberá colocarse en la parte posterior de la carga."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: paso de animales en libertad»: advierte del posible paso de animales salvajes (en libertad).",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
 "tema_id": 5,
-"imagen": "peligro_animales_libres.svg",
-"dificultad": 1
+"imagen": "dgt_e243_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
 },
 {
 "id": 119,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: paso de animales en libertad»?",
+"enunciado": "El conductor de un turismo utilizará un chaleco reflectante de alta visibilidad cuando salga del vehículo y ocupe...",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"La calzada o el arcén de las vías interurbanas.",
+"La calzada de las vías interurbanas, pero no cuando ocupe el arcén.",
+"La calzada o el arcén de todo tipo de vías, tanto urbanas como interurbanas."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_animales_libres.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 1,
+"imagen": "dgt_e243_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
 },
 {
 "id": 120,
-"enunciado": "Circulas y te encuentras la señal «Peligro: paso de animales en libertad». ¿Qué debes hacer?",
+"enunciado": "Para comprobar la presión de inflado, ¿cómo deben estar los neumáticos?",
 "opciones": [
-"Extremar la precaución: avisa de pueden cruzar animales salvajes.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Fríos.",
+"Calientes.",
+"Fríos o calientes, es igual."
 ],
 "correcta_idx": 0,
-"explicacion": "«Peligro: paso de animales en libertad»: advierte del posible paso de animales salvajes (en libertad).",
-"tema_id": 5,
-"imagen": "peligro_animales_libres.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 7,
+"imagen": "dgt_e243_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
 },
 {
 "id": 121,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: paso de animales domésticos)",
+"enunciado": "En una autopista con tres carriles para cada sentido, ¿por cuál se debe circular normalmente?",
 "opciones": [
-"Que advierte del posible paso de animales domésticos (ganado).",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Por cualquiera de ellos.",
+"Por el central o el derecho, es indistinto.",
+"Por el derecho."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: paso de animales domésticos»: advierte del posible paso de animales domésticos (ganado).",
-"tema_id": 5,
-"imagen": "peligro_animales_domesticos.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 6,
+"imagen": "dgt_e243_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 6
 },
 {
 "id": 122,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: paso de animales domésticos»?",
+"enunciado": "¿Cuáles son los daños no cubiertos por el seguro obligatorio al causante de un accidente?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Los daños personales que sufran los ocupantes del vehículo causante del accidente.",
+"Los daños personales que sufra el conductor responsable.",
+"Los daños que se produzcan en el vehículo contrario."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_animales_domesticos.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 2,
+"imagen": "dgt_e243_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
 },
 {
 "id": 123,
-"enunciado": "Circulas y te encuentras la señal «Peligro: paso de animales domésticos». ¿Qué debes hacer?",
+"enunciado": "En el carril de circulación de la derecha, ¿se puede estacionar?",
 "opciones": [
-"Extremar la precaución: avisa de pueden cruzar animales domésticos.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Sí, porque es una vía con poca circulación.",
+"No, porque lo prohíbe la marca vial.",
+"No, porque hay acera."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: paso de animales domésticos»: advierte del posible paso de animales domésticos (ganado).",
-"tema_id": 5,
-"imagen": "peligro_animales_domesticos.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 6,
+"imagen": "dgt_e243_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
 },
 {
 "id": 124,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: estrechamiento de calzada)",
+"enunciado": "La señal indica que se aproxima...",
 "opciones": [
-"Que advierte de un estrechamiento de la calzada por ambos lados.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"A una intersección en la que tengo prioridad.",
+"A una intersección en la que tienen preferencia los vehículos que entran por la derecha.",
+"A una intersección con circulación giratoria."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: estrechamiento de calzada»: advierte de un estrechamiento de la calzada por ambos lados.",
-"tema_id": 5,
-"imagen": "peligro_estrechamiento.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 6,
+"imagen": "dgt_e243_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
 },
 {
 "id": 125,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: estrechamiento de calzada»?",
+"enunciado": "Las señales realizadas con el brazo por los conductores, ¿son válidas?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Solo cuando se vean bien.",
+"Solo cuando se utilicen de día.",
+"Solo cuando se utilicen en poblado."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
 "tema_id": 5,
-"imagen": "peligro_estrechamiento.svg",
-"dificultad": 1
+"imagen": "dgt_e243_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
 },
 {
 "id": 126,
-"enunciado": "Circulas y te encuentras la señal «Peligro: estrechamiento de calzada». ¿Qué debes hacer?",
+"enunciado": "¿Está obligado a circular a una velocidad adecuada si las condiciones meteorológicas o ambientales son adversas?",
 "opciones": [
-"Extremar la precaución: avisa de la calzada se estrecha.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Sí, y si fuera preciso, debe detenerse sin riesgo para la circulación.",
+"Sí, siempre que se circule por vías de sentido único.",
+"No, si el vehículo dispone de todos los sistemas de seguridad más avanzados."
 ],
 "correcta_idx": 0,
-"explicacion": "«Peligro: estrechamiento de calzada»: advierte de un estrechamiento de la calzada por ambos lados.",
-"tema_id": 5,
-"imagen": "peligro_estrechamiento.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 4,
+"imagen": "dgt_e243_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
 },
 {
 "id": 127,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: estrechamiento por la derecha)",
+"enunciado": "Encender el intermitente, ¿da preferencia siempre para hacer maniobras?",
 "opciones": [
-"Que advierte de un estrechamiento de la calzada por la derecha.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Sí, porque he avisado.",
+"No.",
+"Sí, pero debo hacer la maniobra rápidamente."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: estrechamiento por la derecha»: advierte de un estrechamiento de la calzada por la derecha.",
-"tema_id": 5,
-"imagen": "peligro_estrechamiento_derecha.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 6,
+"imagen": "dgt_e243_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
 },
 {
 "id": 128,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: estrechamiento por la derecha»?",
+"enunciado": "En carretera, ¿cuándo puede adelantar por la derecha?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Cuando esté libre el carril de la derecha.",
+"Cuando el vehículo de delante vaya a girar a la izquierda y exista espacio libre en la calzada.",
+"Cuando conduzca por una calzada con más de dos carriles."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_estrechamiento_derecha.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 6,
+"imagen": "dgt_e243_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 13
 },
 {
 "id": 129,
-"enunciado": "Circulas y te encuentras la señal «Peligro: estrechamiento por la derecha». ¿Qué debes hacer?",
+"enunciado": "En esta vía interurbana, podrá parar su vehículo en la parte transitable del arcén...",
 "opciones": [
-"Extremar la precaución: avisa de la calzada se estrecha por la derecha.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Para subir o bajar personas.",
+"Para descargar objetos, siempre que la parada dure menos de 2 minutos.",
+"Por razones de emergencia."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: estrechamiento por la derecha»: advierte de un estrechamiento de la calzada por la derecha.",
-"tema_id": 5,
-"imagen": "peligro_estrechamiento_derecha.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 6,
+"imagen": "dgt_e243_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
 },
 {
 "id": 130,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: circulación en los dos sentidos)",
+"enunciado": "Mientras conduce, ¿qué teléfonos está permitido utilizar?",
 "opciones": [
-"Que advierte de un tramo con circulación en ambos sentidos.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Los sistemas de “manos libres”.",
+"Los sistemas con auriculares.",
+"Están permitidos todos los sistemas."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: circulación en los dos sentidos»: advierte de un tramo con circulación en ambos sentidos.",
-"tema_id": 5,
-"imagen": "peligro_dos_sentidos.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"tema_id": 6,
+"imagen": "dgt_e243_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 243,
+"examen_fecha": "Diciembre 2017",
+"examen_anio": 2017,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 15
 },
 {
 "id": 131,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: circulación en los dos sentidos»?",
+"enunciado": "En las autovías, ¿cuál es la velocidad mínima permitida para turismos?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"40 km/h",
+"50 km/h",
+"60 km/h"
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_dos_sentidos.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 4,
+"imagen": "dgt_e244_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 1
 },
 {
 "id": 132,
-"enunciado": "Circulas y te encuentras la señal «Peligro: circulación en los dos sentidos». ¿Qué debes hacer?",
+"enunciado": "Al poner en marcha un motor de gasolina, es conveniente...",
 "opciones": [
-"Extremar la precaución: avisa de pueden venir vehículos de frente.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Acelerar en vacío para que se caliente cuanto antes.",
+"Iniciar la marcha inmediatamente después de arrancar el motor.",
+"Esperar unos minutos antes de iniciar la marcha para que el motor se caliente."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: circulación en los dos sentidos»: advierte de un tramo con circulación en ambos sentidos.",
-"tema_id": 5,
-"imagen": "peligro_dos_sentidos.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 7,
+"imagen": "dgt_e244_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 2
 },
 {
 "id": 133,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: bajada con fuerte pendiente)",
+"enunciado": "La cinta abdominal del cinturón de seguridad debe colocarse sobre...",
 "opciones": [
-"Que advierte de un descenso con inclinación pronunciada.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Los huesos de la cadera",
+"Los muslos",
+"El abdomen"
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: bajada con fuerte pendiente»: advierte de un descenso con inclinación pronunciada.",
-"tema_id": 5,
-"imagen": "peligro_bajada.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 7,
+"imagen": "dgt_e244_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 3
 },
 {
 "id": 134,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: bajada con fuerte pendiente»?",
+"enunciado": "En una intersección señalizada en la que se encuentra un agente regulando el tráfico, ¿qué debe hacer?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Obedecer las señales del agente.",
+"Obedecer las señales de tráfico que regulan la prioridad.",
+"Aplicar las normas generales de prioridad de paso de los vehículos que se acerquen por la derecha."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
 "tema_id": 5,
-"imagen": "peligro_bajada.svg",
-"dificultad": 1
+"imagen": "dgt_e244_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 4
 },
 {
 "id": 135,
-"enunciado": "Circulas y te encuentras la señal «Peligro: bajada con fuerte pendiente». ¿Qué debes hacer?",
+"enunciado": "Como norma general, ¿qué vehículo tendrá preferencia de paso en este estrechamiento cuando la prioridad no esté expresamente señalizada?",
 "opciones": [
-"Extremar la precaución: avisa de hay una bajada pronunciada.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"El vehículo que haya entrado primero al estrechamiento.",
+"La motocicleta, porque tiene menos dificultad de maniobra.",
+"El vehículo que tenga que dar marcha atrás mayor distancia."
 ],
 "correcta_idx": 0,
-"explicacion": "«Peligro: bajada con fuerte pendiente»: advierte de un descenso con inclinación pronunciada.",
-"tema_id": 5,
-"imagen": "peligro_bajada.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 6,
+"imagen": "dgt_e244_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 5
 },
 {
 "id": 136,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: subida con fuerte pendiente)",
+"enunciado": "¿Cómo debe sentarse el pasajero de una motocicleta?",
 "opciones": [
-"Que advierte de una subida con inclinación pronunciada.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"De cualquier forma, siempre que vaya cómodo.",
+"A horcajadas y con los pies apoyados en los reposapiés laterales.",
+"A horcajadas entre la persona que conduce y el manillar de dirección."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: subida con fuerte pendiente»: advierte de una subida con inclinación pronunciada.",
-"tema_id": 5,
-"imagen": "peligro_subida.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 6,
+"imagen": "dgt_e244_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 6
 },
 {
 "id": 137,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: subida con fuerte pendiente»?",
+"enunciado": "Los agentes de la autoridad encargados de la vigilancia del tráfico podrán inmovilizar un vehículo cuando...",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Supere los niveles de gases, humos y ruidos permitidos reglamentariamente.",
+"Su conductor no disponga del permiso de circulación original.",
+"Su conductor sea sancionado dos veces en el mismo día."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_subida.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 2,
+"imagen": "dgt_e244_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 7
 },
 {
 "id": 138,
-"enunciado": "Circulas y te encuentras la señal «Peligro: subida con fuerte pendiente». ¿Qué debes hacer?",
+"enunciado": "Como norma general, una motocicleta, ¿puede circular por el arcén?",
 "opciones": [
-"Extremar la precaución: avisa de hay una subida pronunciada.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"No, debe circular por la calzada.",
+"Sí, pero no puede hacerlo en paralelo con otros vehículos.",
+"Sí, pero solo si su cilindrada es igual o inferior a 125 c.c."
 ],
 "correcta_idx": 0,
-"explicacion": "«Peligro: subida con fuerte pendiente»: advierte de una subida con inclinación pronunciada.",
-"tema_id": 5,
-"imagen": "peligro_subida.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 6,
+"imagen": "dgt_e244_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 8
 },
 {
 "id": 139,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: perfil irregular (badenes))",
+"enunciado": "¿Puede el conductor reducir la probabilidad de accidente debida al “factor vía”?",
 "opciones": [
-"Que advierte de badenes o irregularidades en el firme.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Sí, adaptando su conducción a las condiciones del medio.",
+"No, porque no puede actuar sobre la vía ni sobre el entorno.",
+"Sí, si su vehículo cuenta con los últimos avances de seguridad."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: perfil irregular (badenes)»: advierte de badenes o irregularidades en el firme.",
-"tema_id": 5,
-"imagen": "peligro_badenes.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 1,
+"imagen": "dgt_e244_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 9
 },
 {
 "id": 140,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: perfil irregular (badenes)»?",
+"enunciado": "Circular por debajo del límite máximo de velocidad, ¿puede causar accidentes?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Sí, cuando la velocidad no se adapte a las circunstancias del tráfico.",
+"No, sólo se pueden causar accidentes circulando por encima de ese límite.",
+"No."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_badenes.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 4,
+"imagen": "dgt_e244_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 10
 },
 {
 "id": 141,
-"enunciado": "Circulas y te encuentras la señal «Peligro: perfil irregular (badenes)». ¿Qué debes hacer?",
+"enunciado": "Para transportar una mascota, salvo que exista en el vehículo un lugar destinado para su transporte, debe estar...",
 "opciones": [
-"Extremar la precaución: avisa de el firme es irregular.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Controlada obligatoriamente por un pasajero.",
+"Situada obligatoriamente en los asientos traseros y con el cinturón de seguridad del vehículo.",
+"Sujeta de forma que no interfiera en el conductor para evitar perder el control del vehículo."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: perfil irregular (badenes)»: advierte de badenes o irregularidades en el firme.",
-"tema_id": 5,
-"imagen": "peligro_badenes.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 7,
+"imagen": "dgt_e244_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 11
 },
 {
 "id": 142,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: resalto (banda transversal))",
+"enunciado": "Cuando se consume alcohol, ¿se producen alteraciones en la visión?",
 "opciones": [
-"Que advierte de un resalto en la calzada para reducir la velocidad.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Sí, puede aparecer la visión túnel.",
+"No, solamente afecta a la capacidad motora.",
+"Sí, pero solamente con tasas de alcohol por encima de las permitidas."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: resalto (banda transversal)»: advierte de un resalto en la calzada para reducir la velocidad.",
-"tema_id": 5,
-"imagen": "peligro_resalto.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 3,
+"imagen": "dgt_e244_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 12
 },
 {
 "id": 143,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: resalto (banda transversal)»?",
+"enunciado": "Si presencia un accidente de circulación, ¿tiene obligación de avisar a la Autoridad o a sus agentes si solo hay heridos leves y la seguridad de la circulación está restablecida?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"No, salvo que alguna de las personas implicadas en el accidente lo solicite.",
+"Sí, siempre.",
+"No, en ningún caso."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_resalto.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 6,
+"imagen": "dgt_e244_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 13
 },
 {
 "id": 144,
-"enunciado": "Circulas y te encuentras la señal «Peligro: resalto (banda transversal)». ¿Qué debes hacer?",
+"enunciado": "Bajo los efectos del estrés la conducción se vuelve...",
 "opciones": [
-"Extremar la precaución: avisa de hay un resalto.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Menos temeraria.",
+"Más temeraria.",
+"Más segura."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: resalto (banda transversal)»: advierte de un resalto en la calzada para reducir la velocidad.",
-"tema_id": 5,
-"imagen": "peligro_resalto.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 6,
+"imagen": "dgt_e244_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 14
 },
 {
 "id": 145,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: pavimento deslizante)",
+"enunciado": "El impacto económico de los accidentes de tráfico afecta a...",
 "opciones": [
-"Que advierte de que el firme puede estar especialmente deslizante.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"todos los ciudadanos, directa o indirectamente.",
+"los conductores que tienen un accidente al pagar el seguro de su vehículo.",
+"las compañías aseguradoras en exclusiva."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: pavimento deslizante»: advierte de que el firme puede estar especialmente deslizante.",
-"tema_id": 5,
-"imagen": "peligro_deslizante.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"tema_id": 1,
+"imagen": "dgt_e244_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 244,
+"examen_fecha": "Enero 2018",
+"examen_anio": 2018,
+"examen_mes": 1,
+"examen_trimestre": "T1",
+"examen_pos": 15
 },
 {
 "id": 146,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: pavimento deslizante»?",
+"enunciado": "El inflado correcto de los neumáticos es...",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"El superior al recomendado en un 10%.",
+"El adecuado a los amortiguadores que lleve el coche.",
+"El recomendado por el fabricante en cada caso."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_deslizante.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"tema_id": 7,
+"imagen": "dgt_e245_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 1
 },
 {
 "id": 147,
-"enunciado": "Circulas y te encuentras la señal «Peligro: pavimento deslizante». ¿Qué debes hacer?",
+"enunciado": "La señalización vertical prevalece sobre...",
 "opciones": [
-"Extremar la precaución: avisa de el pavimento resbala.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Los semáforos.",
+"La señalización horizontal.",
+"Las señales de balizamiento."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: pavimento deslizante»: advierte de que el firme puede estar especialmente deslizante.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
 "tema_id": 5,
-"imagen": "peligro_deslizante.svg",
-"dificultad": 1
+"imagen": "dgt_e245_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 2
 },
 {
 "id": 148,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: proyección de gravilla)",
+"enunciado": "El conductor del vehículo que utiliza el carril adicional...",
 "opciones": [
-"Que advierte de que puede proyectarse gravilla al circular.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Circulará, como máximo, a 100 km/h.",
+"Deberá abandonar la vía en cuanto le sea posible.",
+"Llevará encendida, al menos, la luz de cruce."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: proyección de gravilla»: advierte de que puede proyectarse gravilla al circular.",
-"tema_id": 5,
-"imagen": "peligro_gravilla.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"tema_id": 6,
+"imagen": "dgt_e245_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 3
 },
 {
 "id": 149,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: proyección de gravilla»?",
+"enunciado": "Esta señal indica la proximidad de...",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Un cruce con una línea de tranvía.",
+"Un paso a nivel, puente móvil o muelle.",
+"Un cruce sin prioridad."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
 "tema_id": 5,
-"imagen": "peligro_gravilla.svg",
-"dificultad": 1
+"imagen": "dgt_e245_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 4
 },
 {
 "id": 150,
-"enunciado": "Circulas y te encuentras la señal «Peligro: proyección de gravilla». ¿Qué debes hacer?",
+"enunciado": "En condiciones de niebla espesa deberá...",
 "opciones": [
-"Extremar la precaución: avisa de puede saltar gravilla.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Llevar encendida la luz antiniebla delantera solamente.",
+"Moderar la velocidad.",
+"Circular por el arcén."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: proyección de gravilla»: advierte de que puede proyectarse gravilla al circular.",
-"tema_id": 5,
-"imagen": "peligro_gravilla.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"tema_id": 4,
+"imagen": "dgt_e245_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 5
 },
 {
 "id": 151,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: viento transversal)",
+"enunciado": "Si la antigüedad de su primer permiso de conducción es menor de 2 años, la tasa máxima de alcohol permitida para poder conducir es de...",
 "opciones": [
-"Que advierte de rachas de viento lateral fuerte.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"0,25 miligramos de alcohol por litro de aire espirado.",
+"0,15 miligramos de alcohol por litro de aire espirado.",
+"0,3 miligramos de alcohol por litro de aire espirado."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: viento transversal»: advierte de rachas de viento lateral fuerte.",
-"tema_id": 5,
-"imagen": "peligro_viento.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"tema_id": 3,
+"imagen": "dgt_e245_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 6
 },
 {
 "id": 152,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: viento transversal»?",
+"enunciado": "Una vez inmovilizado el vehículo, los usuarios deberán entrar o salir...",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Por cualquier lado del vehículo, tomando las debidas precauciones.",
+"Por el lado más próximo a la acera o al arcén, como norma general.",
+"Por el lado del conductor, siempre."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_viento.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"tema_id": 1,
+"imagen": "dgt_e245_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 7
 },
 {
 "id": 153,
-"enunciado": "Circulas y te encuentras la señal «Peligro: viento transversal». ¿Qué debes hacer?",
+"enunciado": "Para evitar o retrasar la aparición de la fatiga, es aconsejable que el conductor...",
 "opciones": [
-"Extremar la precaución: avisa de hay viento lateral.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Circule a menor velocidad para disminuir los efectos de la fatiga.",
+"Mantenga el interior del vehículo a una temperatura superior a 25 grados.",
+"Mantenga bien ventilado el interior del vehículo."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: viento transversal»: advierte de rachas de viento lateral fuerte.",
-"tema_id": 5,
-"imagen": "peligro_viento.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"tema_id": 4,
+"imagen": "dgt_e245_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 8
 },
 {
 "id": 154,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: desprendimiento de rocas)",
+"enunciado": "El conductor del vehículo blanco quiere volver rápidamente al carril derecho porque ve un peligro. ¿Qué debe hacer el conductor del vehículo verde?",
 "opciones": [
-"Que advierte del riesgo de desprendimientos sobre la vía.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Aumentar la velocidad para que desista de realizar la maniobra.",
+"Nada, porque no tiene ninguna obligación.",
+"Reducir la velocidad para facilitarle el retorno al carril."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: desprendimiento de rocas»: advierte del riesgo de desprendimientos sobre la vía.",
-"tema_id": 5,
-"imagen": "peligro_desprendimiento.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"tema_id": 4,
+"imagen": "dgt_e245_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 10
 },
 {
 "id": 155,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: desprendimiento de rocas»?",
+"enunciado": "En una calzada con nieve, ¿el uso brusco e inadecuado de los frenos puede ser causa de derrape?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Sí, si se frena bruscamente, los neumáticos pueden perder la adherencia sobre el pavimento.",
+"No, si las ruedas están perfectamente alineadas y equilibradas.",
+"No, si los neumáticos tienen la presión de inflado recomendada."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_desprendimiento.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"tema_id": 7,
+"imagen": "dgt_e245_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 245,
+"examen_fecha": "Marzo 2018",
+"examen_anio": 2018,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 11
 },
 {
 "id": 156,
-"enunciado": "Circulas y te encuentras la señal «Peligro: desprendimiento de rocas». ¿Qué debes hacer?",
+"enunciado": "Al cargar combustible es obligatorio...",
 "opciones": [
-"Extremar la precaución: avisa de pueden caer piedras.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"parar el motor y apagar las luces del vehículo.",
+"parar el motor y encender la señal de emergencia.",
+"parar el motor y subir las ventanillas del vehículo."
 ],
 "correcta_idx": 0,
-"explicacion": "«Peligro: desprendimiento de rocas»: advierte del riesgo de desprendimientos sobre la vía.",
-"tema_id": 5,
-"imagen": "peligro_desprendimiento.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 7,
+"imagen": "dgt_e246_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 1
 },
 {
 "id": 157,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: paso a nivel con barreras)",
+"enunciado": "Una motocicleta, ¿puede utilizar normalmente un carril VAO?",
 "opciones": [
-"Que advierte de un paso a nivel provisto de barreras.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Sí.",
+"No, solo pueden utilizarlo turismos.",
+"Sí, pero siempre que en dicho carril no exista tráfico."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: paso a nivel con barreras»: advierte de un paso a nivel provisto de barreras.",
-"tema_id": 5,
-"imagen": "peligro_paso_nivel_barreras.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 6,
+"imagen": "dgt_e246_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 2
 },
 {
 "id": 158,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: paso a nivel con barreras»?",
+"enunciado": "¿Cuál es la edad mínima para viajar como acompañante en una motocicleta conducida por alguien distinto a los padres o al tutor del menor, o por una persona mayor de edad autorizada?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"7 años.",
+"12 años.",
+"14 años."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_paso_nivel_barreras.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 1,
+"imagen": "dgt_e246_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 3
 },
 {
 "id": 159,
-"enunciado": "Circulas y te encuentras la señal «Peligro: paso a nivel con barreras». ¿Qué debes hacer?",
+"enunciado": "Si mientras conducimos tenemos una fuerte discusión y nos alteramos, es recomendable...",
 "opciones": [
-"Extremar la precaución: avisa de hay un paso a nivel con barreras.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Acelerar y procurar llegar lo antes posible a nuestro destino.",
+"Parar en lugar permitido y no continuar la marcha hasta sentirnos más tranquilos.",
+"Tomar un medicamento relajante."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: paso a nivel con barreras»: advierte de un paso a nivel provisto de barreras.",
-"tema_id": 5,
-"imagen": "peligro_paso_nivel_barreras.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 3,
+"imagen": "dgt_e246_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 4
 },
 {
 "id": 160,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: paso a nivel sin barreras)",
+"enunciado": "¿Cuándo está prohibido adelantar en los túneles?",
 "opciones": [
-"Que advierte de un paso a nivel sin barreras.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"Cuando solo existe un carril para cada sentido.",
+"Cuando existe más de un carril para cada sentido.",
+"Cuando el túnel no está iluminado."
 ],
 "correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: paso a nivel sin barreras»: advierte de un paso a nivel sin barreras.",
-"tema_id": 5,
-"imagen": "peligro_paso_nivel_sin_barreras.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 6,
+"imagen": "dgt_e246_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 5
 },
 {
 "id": 161,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: paso a nivel sin barreras»?",
+"enunciado": "Al cruzar un arcén por el que circulan peatones en una zona en la que no existe zona peatonal, ¿qué debe hacer?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Ceder el paso a los peatones, pues tienen preferencia.",
+"Avisar a los peatones de su presencia con señales acústicas.",
+"Continuar circulando, ya que tiene preferencia de paso."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_paso_nivel_sin_barreras.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 6,
+"imagen": "dgt_e246_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 6
 },
 {
 "id": 162,
-"enunciado": "Circulas y te encuentras la señal «Peligro: paso a nivel sin barreras». ¿Qué debes hacer?",
+"enunciado": "En esta zona con línea amarilla en zig-zag, ¿qué está prohibido?",
 "opciones": [
-"Extremar la precaución: avisa de hay un paso a nivel sin barreras.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"Estacionar.",
+"Parar.",
+"Parar y estacionar."
 ],
 "correcta_idx": 0,
-"explicacion": "«Peligro: paso a nivel sin barreras»: advierte de un paso a nivel sin barreras.",
-"tema_id": 5,
-"imagen": "peligro_paso_nivel_sin_barreras.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 6,
+"imagen": "dgt_e246_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 7
 },
 {
 "id": 163,
-"enunciado": "¿Qué indica la señal de la imagen? (Peligro: otros peligros)",
+"enunciado": "Este vehículo está inmovilizado por avería. Su conductor, ¿debe advertir de su presencia a los demás usuarios de la vía?",
 "opciones": [
-"Que advierte de un peligro distinto de los señalizados específicamente.",
-"Que es una zona sin ningún riesgo especial.",
-"Que obliga a detenerse siempre."
+"No; solo están obligados los conductores de camiones y autobuses.",
+"Fuera de poblado sí es obligatorio, siendo opcional en vías urbanas.",
+"Sí, y se emplearán los triángulos de preseñalización de peligro."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Peligro: otros peligros»: advierte de un peligro distinto de los señalizados específicamente.",
-"tema_id": 5,
-"imagen": "peligro_otros.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 7,
+"imagen": "dgt_e246_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 8
 },
 {
 "id": 164,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Peligro: otros peligros»?",
+"enunciado": "¿Cuál es la sanción por no tener el seguro obligatorio del vehículo?",
 "opciones": [
-"De advertencia de peligro",
-"De prohibición",
-"De indicación"
+"Una multa, pero sin inmovilización del vehículo.",
+"Una multa, y además se podrá inmovilizar el vehículo.",
+"La inmovilización del vehículo, pero no supone sanción económica."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de advertencia de peligro.",
-"tema_id": 5,
-"imagen": "peligro_otros.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 2,
+"imagen": "dgt_e246_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 9
 },
 {
 "id": 165,
-"enunciado": "Circulas y te encuentras la señal «Peligro: otros peligros». ¿Qué debes hacer?",
+"enunciado": "¿Qué debe tener especialmente en cuenta para dejar con el vehículo de delante una distancia que le permita, en caso de frenada brusca, detenerse con seguridad?",
 "opciones": [
-"Extremar la precaución: avisa de hay un peligro no concreto.",
-"Puedo ignorarla, no afecta a mi conducción.",
-"Debo acelerar para pasar cuanto antes."
+"La velocidad de circulación, únicamente.",
+"La velocidad y las condiciones de adherencia y frenado.",
+"Las condiciones climatológicas y el tipo de vehículo que nos sigue."
 ],
-"correcta_idx": 0,
-"explicacion": "«Peligro: otros peligros»: advierte de un peligro distinto de los señalizados específicamente.",
-"tema_id": 5,
-"imagen": "peligro_otros.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 4,
+"imagen": "dgt_e246_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 10
 },
 {
 "id": 166,
-"enunciado": "¿Qué indica la señal de la imagen? (Estacionamiento (parking))",
+"enunciado": "Todo peatón que circule por el arcén de una vía fuera de poblado, entre el ocaso y la salida del sol, ¿debe ir provisto de un elemento luminoso o retrorreflectante?",
 "opciones": [
-"Que indica un lugar autorizado para estacionar.",
-"Que está prohibido el paso.",
-"Que advierte de un peligro inminente."
+"No, si circula lo más próximo posible al borde de la calzada.",
+"Sí, para hacerse visible a una distancia mínima de 150 metros por los conductores que se le aproximen.",
+"Sí, pero solamente debe llevarlo puesto cuando existan condiciones meteorológicas que disminuyan sensiblemente la visibilidad."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Estacionamiento (parking)»: indica un lugar autorizado para estacionar.",
-"tema_id": 5,
-"imagen": "indica_parking.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 1,
+"imagen": "dgt_e246_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 11
 },
 {
 "id": 167,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Estacionamiento (parking)»?",
+"enunciado": "En un semáforo se apaga la luz verde y se enciende la luz amarilla fija; ¿puede pasar?",
 "opciones": [
-"De indicación",
-"De advertencia de peligro",
-"De obligación"
+"Sí, en todo caso.",
+"Sí, porque todavía no ha cambiado la luz a rojo.",
+"No, excepto si no puede detenerse en condiciones de seguridad suficiente."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de indicación.",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
 "tema_id": 5,
-"imagen": "indica_parking.svg",
-"dificultad": 1
+"imagen": "dgt_e246_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 12
 },
 {
 "id": 168,
-"enunciado": "Circulas y te encuentras la señal «Estacionamiento (parking)». ¿Qué debes hacer?",
+"enunciado": "Para girar a la izquierda en una vía en la que no hay marca que separe los dos sentidos de circulación, ¿dónde debe situarse?",
 "opciones": [
-"Me informa de se puede estacionar.",
-"Me prohíbe continuar.",
-"Me obliga a detener el vehículo."
+"Obligatoriamente en el arcén, para realizar la maniobra desde allí.",
+"En el centro de la calzada, invadiendo parte del sentido contrario si es preciso.",
+"Junto al eje de la calzada, sin invadir el sentido contrario."
 ],
-"correcta_idx": 0,
-"explicacion": "«Estacionamiento (parking)»: indica un lugar autorizado para estacionar.",
-"tema_id": 5,
-"imagen": "indica_parking.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 6,
+"imagen": "dgt_e246_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 13
 },
 {
 "id": 169,
-"enunciado": "¿Qué indica la señal de la imagen? (Autopista)",
+"enunciado": "En un carril bus, ¿puede un turismo realizar una parada?",
 "opciones": [
-"Que indica el comienzo de una autopista.",
-"Que está prohibido el paso.",
-"Que advierte de un peligro inminente."
+"Solo cuando no obstaculice la circulación de autobuses.",
+"Sí, en todo caso.",
+"No."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Autopista»: indica el comienzo de una autopista.",
-"tema_id": 5,
-"imagen": "indica_autopista.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 6,
+"imagen": "dgt_e246_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 14
 },
 {
 "id": 170,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Autopista»?",
+"enunciado": "El uso adecuado del casco implica que la correa de sujeción...",
 "opciones": [
-"De indicación",
-"De advertencia de peligro",
-"De obligación"
+"no debe abrocharse.",
+"debe llevarse correctamente abrochada, para que el casco cumpla eficazmente su función.",
+"puede llevarse desabrochada en vía urbana."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de indicación.",
-"tema_id": 5,
-"imagen": "indica_autopista.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"tema_id": 7,
+"imagen": "dgt_e246_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 246,
+"examen_fecha": "Mayo 2018",
+"examen_anio": 2018,
+"examen_mes": 5,
+"examen_trimestre": "T2",
+"examen_pos": 15
 },
 {
 "id": 171,
-"enunciado": "Circulas y te encuentras la señal «Autopista». ¿Qué debes hacer?",
+"enunciado": "Si debido a una emergencia, un conductor se ve obligado a inmovilizar su vehículo en una autopista, ¿puede hacerlo en la mediana?",
 "opciones": [
-"Me informa de empieza una autopista.",
-"Me prohíbe continuar.",
-"Me obliga a detener el vehículo."
+"No, en ningún caso se debe dejar inmovilizado el vehículo en la mediana.",
+"Solo si fuera preciso y de forma excepcional para no obstaculizar la circulación.",
+"No; siempre se debe dejar inmovilizado el vehículo en el arcén derecho"
 ],
-"correcta_idx": 0,
-"explicacion": "«Autopista»: indica el comienzo de una autopista.",
-"tema_id": 5,
-"imagen": "indica_autopista.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 1,
+"imagen": "dgt_e247_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 1
 },
 {
 "id": 172,
-"enunciado": "¿Qué indica la señal de la imagen? (Hospital)",
+"enunciado": "¿Qué puede aumentar la distancia de frenado?",
 "opciones": [
-"Que indica la proximidad de un hospital o centro sanitario con urgencias.",
-"Que está prohibido el paso.",
-"Que advierte de un peligro inminente."
+"Únicamente la velocidad.",
+"Que el vehículo lleve frenos de disco.",
+"Que haya nieve o hielo en la calzada."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Hospital»: indica la proximidad de un hospital o centro sanitario con urgencias.",
-"tema_id": 5,
-"imagen": "indica_hospital.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 7,
+"imagen": "dgt_e247_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 2
 },
 {
 "id": 173,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Hospital»?",
+"enunciado": "En un automóvil, ¿cuál de los siguientes elementos reduce el riesgo de lesiones de cuello en una colisión?",
 "opciones": [
-"De indicación",
-"De advertencia de peligro",
-"De obligación"
+"Los frenos ABS.",
+"El reposacabezas, ajustado de forma apropiada.",
+"El cinturón de seguridad."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de indicación.",
-"tema_id": 5,
-"imagen": "indica_hospital.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 7,
+"imagen": "dgt_e247_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 3
 },
 {
 "id": 174,
-"enunciado": "Circulas y te encuentras la señal «Hospital». ¿Qué debes hacer?",
+"enunciado": "Si los frenos se mojan...",
 "opciones": [
-"Me informa de hay un hospital cerca.",
-"Me prohíbe continuar.",
-"Me obliga a detener el vehículo."
+"Pueden dejar de frenar, perdiendo temporalmente su eficacia.",
+"Se estropean y deben cambiarse las zapatas o pastillas.",
+"Se frena en menos espacio."
 ],
 "correcta_idx": 0,
-"explicacion": "«Hospital»: indica la proximidad de un hospital o centro sanitario con urgencias.",
-"tema_id": 5,
-"imagen": "indica_hospital.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 7,
+"imagen": "dgt_e247_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 4
 },
 {
 "id": 175,
-"enunciado": "¿Qué indica la señal de la imagen? (Puesto de socorro (primeros auxilios))",
+"enunciado": "En un accidente entre dos vehículos, ¿qué tipo de daños cubre el seguro de responsabilidad civil de suscripción obligatoria?",
 "opciones": [
-"Que indica la proximidad de un puesto de primeros auxilios.",
-"Que está prohibido el paso.",
-"Que advierte de un peligro inminente."
+"Solamente los daños materiales.",
+"Los daños personales y los materiales del vehículo no causante del accidente.",
+"Solamente los daños personales."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Puesto de socorro (primeros auxilios)»: indica la proximidad de un puesto de primeros auxilios.",
-"tema_id": 5,
-"imagen": "indica_socorro.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 6,
+"imagen": "dgt_e247_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 5
 },
 {
 "id": 176,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Puesto de socorro (primeros auxilios)»?",
+"enunciado": "En las isletas de canalización del tráfico situadas en la calzada, ¿se puede parar o estacionar?",
 "opciones": [
-"De indicación",
-"De advertencia de peligro",
-"De obligación"
+"Se puede parar.",
+"Se puede estacionar.",
+"No se puede parar ni estacionar."
 ],
-"correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de indicación.",
-"tema_id": 5,
-"imagen": "indica_socorro.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 6,
+"imagen": "dgt_e247_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 6
 },
 {
 "id": 177,
-"enunciado": "Circulas y te encuentras la señal «Puesto de socorro (primeros auxilios)». ¿Qué debes hacer?",
+"enunciado": "Los vehículos prioritarios, ¿tienen prioridad de paso sobre el resto de los usuarios de la vía?",
 "opciones": [
-"Me informa de hay un puesto de primeros auxilios.",
-"Me prohíbe continuar.",
-"Me obliga a detener el vehículo."
+"Sí, siempre.",
+"No, nunca.",
+"Solo cuando circulen en servicio de urgencia."
 ],
-"correcta_idx": 0,
-"explicacion": "«Puesto de socorro (primeros auxilios)»: indica la proximidad de un puesto de primeros auxilios.",
-"tema_id": 5,
-"imagen": "indica_socorro.svg",
-"dificultad": 1
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 6,
+"imagen": "dgt_e247_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 7
 },
 {
 "id": 178,
-"enunciado": "¿Qué indica la señal de la imagen? (Situación de un paso para peatones)",
+"enunciado": "Las malas condiciones meteorológicas, como lluvia, viento o hielo, ¿aumentan la probabilidad de sufrir un accidente con una motocicleta?",
 "opciones": [
-"Que indica la ubicación de un paso de peatones.",
-"Que está prohibido el paso.",
-"Que advierte de un peligro inminente."
+"No; el mal tiempo no influye en la conducción de motocicletas.",
+"Sí; es más probable que el motorista se caiga si hace movimientos bruscos.",
+"Sí, pero solo si el conductor no lleva el equipamiento adecuado."
 ],
-"correcta_idx": 0,
-"explicacion": "Es la señal «Situación de un paso para peatones»: indica la ubicación de un paso de peatones.",
-"tema_id": 5,
-"imagen": "indica_paso_peatones.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 1,
+"imagen": "dgt_e247_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 8
 },
 {
 "id": 179,
-"enunciado": "Por su forma y color, ¿a qué grupo pertenece la señal «Situación de un paso para peatones»?",
+"enunciado": "Como norma general, en vías urbanas, ¿cual es la velocidad máxima permitida para motocicletas?",
 "opciones": [
-"De indicación",
-"De advertencia de peligro",
-"De obligación"
+"50 km/h.",
+"60 km/h.",
+"45 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Por su forma y color es una señal de indicación.",
-"tema_id": 5,
-"imagen": "indica_paso_peatones.svg",
-"dificultad": 1
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 4,
+"imagen": "dgt_e247_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 9
 },
 {
 "id": 180,
-"enunciado": "Circulas y te encuentras la señal «Situación de un paso para peatones». ¿Qué debes hacer?",
+"enunciado": "El medio ambiente, ¿se ve afectado por los accidentes de tráfico?",
 "opciones": [
-"Me informa de ahí hay un paso de peatones.",
-"Me prohíbe continuar.",
-"Me obliga a detener el vehículo."
+"No.",
+"Sí.",
+"Únicamente en vía interurbana."
 ],
-"correcta_idx": 0,
-"explicacion": "«Situación de un paso para peatones»: indica la ubicación de un paso de peatones.",
-"tema_id": 5,
-"imagen": "indica_paso_peatones.svg",
-"dificultad": 1
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 1,
+"imagen": "dgt_e247_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 10
 },
 {
 "id": 181,
+"enunciado": "Las altas temperaturas pueden suponer un riesgo para la seguridad durante la conducción. ¿Debe circular adoptando medidas preventivas?",
+"opciones": [
+"Sí, por lo que debe conducir durante la noche, ya que la temperatura al ser inferior permite al conductor un tiempo de reacción mayor.",
+"Sí, el conductor debe extremar las precauciones y realizar los descansos y paradas recomendadods, para evitar la fatiga y el sueño.",
+"No, siempre que en el interior del vehículo no se alcancen temperaturas superiores a 20 grados."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 6,
+"imagen": "dgt_e247_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 11
+},
+{
+"id": 182,
+"enunciado": "Conducir bajo los efectos de algunas drogas puede producir en el conductor...",
+"opciones": [
+"Una percepción mayor del campo visual.",
+"Un nivel de alerta mayor.",
+"Ilusiones ópticas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 3,
+"imagen": "dgt_e247_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 12
+},
+{
+"id": 183,
+"enunciado": "Muchos atropellos a peatones se producen cuando los vehículos...",
+"opciones": [
+"Circulan marcha atrás porque el conductor no ha visto al peatón.",
+"Se disponen a entrar en un garaje.",
+"Estacionan en la acera."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 1,
+"imagen": "dgt_e247_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 13
+},
+{
+"id": 184,
+"enunciado": "Fumar, mientras conduce, puede provocar...",
+"opciones": [
+"Distracciones y problemas de visión a causa del humo",
+"Un aumento de la capacidad de atención.",
+"Somnolencia."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 6,
+"imagen": "dgt_e247_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 14
+},
+{
+"id": 185,
+"enunciado": "Como norma general se prohíbe cambiar el sentido de la marcha...",
+"opciones": [
+"En las calzadas con prioridad.",
+"En las plazas de circulación giratoria.",
+"En los tramos de vía en los que esté prohibid adelantar."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"tema_id": 6,
+"imagen": "dgt_e247_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 247,
+"examen_fecha": "Julio 2018",
+"examen_anio": 2018,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 15
+},
+{
+"id": 186,
+"enunciado": "Para adelantar a este vehículo...",
+"opciones": [
+"es obligatorio esperar a un tramo en el que la calzada esté seca.",
+"debe tenerse especial cuidado, pues las salpicaduras pueden impedir la visibilidad.",
+"no deben tomarse precauciones especiales."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 6,
+"imagen": "dgt_e248_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 187,
+"enunciado": "No pueden circular por autopista...",
+"opciones": [
+"las motocicletas.",
+"los ciclomotores.",
+"los camiones de más de 3.500 kg de M.M.A."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 1,
+"imagen": "dgt_e248_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 188,
+"enunciado": "Una línea longitudinal discontinua con trazos más anchos que en el caso general, indica...",
+"opciones": [
+"la existencia de un carril reversible.",
+"la existencia de un carril especial para determinada clase de vehículos, de entrada o salida, u otro.",
+"la existencia de un carril que puede ser utilizado en sentido contrario al habitual."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 5,
+"imagen": "dgt_e248_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 189,
+"enunciado": "Al cargar combustible en el vehículo es obligatorio...",
+"opciones": [
+"apagar las luces y subir las ventanillas.",
+"parar el motor y encender la señal de emergencia.",
+"apagar las luces y los sistemas eléctricos, como la radio."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 7,
+"imagen": "dgt_e248_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 190,
+"enunciado": "En un paso para peatones sin semáforos que lo regule, ¿cuándo tienen preferencia los peatones?",
+"opciones": [
+"Solo cuando el paso esté situado en una travesía.",
+"Siempre.",
+"Solo cuando los peatones hayan iniciado el cruce."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 1,
+"imagen": "dgt_e248_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 191,
+"enunciado": "El conductor de la furgoneta, ¿puede hacer una parada en doble fila para descargar?",
+"opciones": [
+"No, está prohibido.",
+"Sí, excepcionalmente y respetando las normas sobre paradas.",
+"Solo si la parada tiene una duración igual o inferior a 1 minuto."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 6,
+"imagen": "dgt_e248_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 192,
+"enunciado": "Los vehículos que circulan por la autovía, ¿facilitarán el paso a los vehículos que se incorporan desde el carril de aceleración?",
+"opciones": [
+"No, salvo que se trate de vehículos de transporte colectivo.",
+"Sí, pero solo a los vehículos que se incorporen por el lado derecho.",
+"Sí, a cualquier vehículo que se incorpore, en la medida de lo posible."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 1,
+"imagen": "dgt_e248_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 193,
+"enunciado": "Cuando prevea que va a quedar detenido dentro del túnel más de dos minutos, ¿qué debe hacer?",
+"opciones": [
+"Apagar el motor.",
+"Apagar las luces.",
+"Dar media vuelta con cuidado."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 7,
+"imagen": "dgt_e248_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 194,
+"enunciado": "Circula de noche con el alumbrado interior encendido. ¿Es peligroso?",
+"opciones": [
+"No, porque descansa la vista.",
+"Sí, porque veo peor.",
+"No, porque evita deslumbramiento."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 7,
+"imagen": "dgt_e248_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 195,
+"enunciado": "La eficacia del frenado aumenta, entre otras circunstancias, cuando...",
+"opciones": [
+"La masa del vehículo es mayor, ya que a mayor masa menor distancia de frenado.",
+"Se pisa el pedal de embrague al mismo tiempo que el pedal de freno.",
+"La adherencia de los neumáticos al suelo es mayor."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 7,
+"imagen": "dgt_e248_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 196,
+"enunciado": "Como norma general, ¿cuándo es mayor el efecto del alcohol?",
+"opciones": [
+"Inmediatamente después de tomarlo.",
+"Entre 30 y 90 minutos después de haber ingerido el alcohol.",
+"Tres horas después de tomarlo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 3,
+"imagen": "dgt_e248_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 197,
+"enunciado": "¿De qué depende la distancia de detención?",
+"opciones": [
+"De la velocidad, solamente.",
+"Del tipo de vehículo, solamente.",
+"De la velocidad, del tiempo de reacción y de la distancia de frenado."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 4,
+"imagen": "dgt_e248_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 198,
+"enunciado": "¿Puede adelantar por la derecha al vehículo que circula delante por su mismo carril?",
+"opciones": [
+"Sí.",
+"No."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 6,
+"imagen": "dgt_e248_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 199,
+"enunciado": "La fatiga, ¿puede alterar el tiempo de reacción del conductor?",
+"opciones": [
+"Sí, lo aumenta.",
+"Sí, lo disminuye.",
+"No."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"tema_id": 1,
+"imagen": "dgt_e248_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 248,
+"examen_fecha": "Diciembre 2018",
+"examen_anio": 2018,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 200,
+"enunciado": "¿Es recomendable regular los reposacabezas del vehículo a la altura de cada ocupante?",
+"opciones": [
+"No es necesario, es solo un elemento de confort.",
+"Solo es necesario regular el reposacabezas del conductor.",
+"Sí; es un elemento de seguridad que puede evitar lesiones cervicales."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 7,
+"imagen": "dgt_e249_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 1
+},
+{
+"id": 201,
+"enunciado": "En un túnel con un solo carril para cada sentido, ¿está permitido el adelantamiento?",
+"opciones": [
+"No.",
+"Sí.",
+"Solo si la calzada dispone de arcén practicable."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 6,
+"imagen": "dgt_e249_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 2
+},
+{
+"id": 202,
+"enunciado": "Esta señal prohíbe…",
+"opciones": [
+"El estacionamiento entre la 1 y las 15 horas.",
+"El estacionamiento desde las 9 horas del día 1 hasta las 9 horas del día 16.",
+"La parada los días indicados en la señal."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 5,
+"imagen": "dgt_e249_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 3
+},
+{
+"id": 203,
+"enunciado": "Al incorporarse a una autopista, ¿puede pisar la zona de cebreado?",
+"opciones": [
+"Sí, si ya ha alcanzado en ese punto la velocidad adecuada para incorporarse a la circulación.",
+"Sí, para acortar la duración de la maniobra.",
+"No, está prohibido."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 4,
+"imagen": "dgt_e249_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 4
+},
+{
+"id": 204,
+"enunciado": "Los conos de la fotografía indican que se ha habilitado…",
+"opciones": [
+"Un carril reversible.",
+"Un carril VAO.",
+"Un carril adicional circunstancial."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 6,
+"imagen": "dgt_e249_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 5
+},
+{
+"id": 205,
+"enunciado": "La distancia de frenado es el espacio recorrido desde que el conductor…",
+"opciones": [
+"Ve el obstáculo hasta que se detiene el vehículo.",
+"Ve el obstáculo hasta que acciona el freno.",
+"Acciona el freno hasta que el vehículo se detiene."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 7,
+"imagen": "dgt_e249_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 6
+},
+{
+"id": 206,
+"enunciado": "En determinadas circunstancias, un turismo, ¿puede superar para adelantar la velocidad máxima fijada para el tipo de vía por la que circule?",
+"opciones": [
+"No, en ningún caso.",
+"Sí, en carreteras convencionales interurbanas.",
+"Sí, en todo tipo de vías interurbanas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 4,
+"imagen": "dgt_e249_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 7
+},
+{
+"id": 207,
+"enunciado": "Esta señal le indica peligro por la proximidad de…",
+"opciones": [
+"Un cruce con doble sentido de la circulación.",
+"Un cruce donde la circulación se efectúa de forma giratoria.",
+"Un cruce en el que tengo prioridad."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 5,
+"imagen": "dgt_e249_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 8
+},
+{
+"id": 208,
+"enunciado": "Salvo que exista señal que lo prohíba, por los arcenes de las autovías se permite circular…",
+"opciones": [
+"A peatones.",
+"A vehículos de tracción animal.",
+"A conductores de bicicletas mayores de 14 años."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 1,
+"imagen": "dgt_e249_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 9
+},
+{
+"id": 209,
+"enunciado": "El sistema de lavaparabrisas del vehículo, ¿necesita mantenimiento?",
+"opciones": [
+"No.",
+"Sí; vigilar el nivel del circuito de refrigeración, de donde toma el agua.",
+"Sí; vigilar el nivel de líquido lavaparabrisas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 7,
+"imagen": "dgt_e249_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 10
+},
+{
+"id": 210,
+"enunciado": "¿Es recomendable realizar un mantenimiento frecuente del sistema de alumbrado del vehículo?",
+"opciones": [
+"Sí, porque circular con una iluminación deficiente incrementa la fatiga visual del conductor y el riesgo de accidente.",
+"Sí, por lo que es obligatorio realizar revisiones mensuales.",
+"No, solamente cuando tenga que someterse a la inspección técnica reglamentaria."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 7,
+"imagen": "dgt_e249_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 11
+},
+{
+"id": 211,
+"enunciado": "Si por circunstancias especialmente graves un conductor traslada en su vehículo particular a una persona enferma, ¿cómo advertirá de su presencia?",
+"opciones": [
+"Agitando el brazo de arriba abajo con movimientos cortos y rápidos.",
+"Instalando en el techo de su vehículo una señal luminosa especial.",
+"Haciendo sonar el claxon y conectando la luz de emergencia."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 5,
+"imagen": "dgt_e249_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 12
+},
+{
+"id": 212,
+"enunciado": "Si hay charcos de agua en la calzada…",
+"opciones": [
+"No es aconsejable tomar ninguna precaución.",
+"Debe moderar la velocidad.",
+"Debe acelerar para atravesarlos lo antes posible."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 4,
+"imagen": "dgt_e249_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 13
+},
+{
+"id": 213,
+"enunciado": "¿Qué indica esta señal?",
+"opciones": [
+"Que hay que circular con precaución por la proximidad a un puente.",
+"Que hay un control de altura o gálibo.",
+"Que se circula por una autopista."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 5,
+"imagen": "dgt_e249_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 14
+},
+{
+"id": 214,
+"enunciado": "Un ciclomotor ocupado por dos personas, ¿puede utilizar normalmente un carril VAO?",
+"opciones": [
+"No.",
+"Sí, porque van dos personas.",
+"Sí, si circula por el arcén."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"tema_id": 6,
+"imagen": "dgt_e249_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 249,
+"examen_fecha": "Abril 2019",
+"examen_anio": 2019,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 15
+},
+{
+"id": 215,
+"enunciado": "Si a través del espejo retrovisor observa al vehículo policial que se ve en la fotografía, ¿qué debe hacer?",
+"opciones": [
+"Aumentar la velocidad, ya que me está indicando que voy despacio.",
+"Detener el vehículo inmediatamente.",
+"Detener el vehículo en el lado derecho, delante del coche policial, sin provocar riesgos a los demás usuarios."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 4,
+"imagen": "dgt_e250_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 1
+},
+{
+"id": 216,
+"enunciado": "¿Se puede mejorar la adherencia del vehículo en una zona en la que exista hielo en la calzada?",
+"opciones": [
+"Sí, usando cadenas o neumáticos de clavos.",
+"Solo usando cadenas pero nunca neumáticos de clavos, ya que está prohibidos.",
+"No, está prohibido circular cuando existe hielo en la calzada."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 7,
+"imagen": "dgt_e250_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 2
+},
+{
+"id": 217,
+"enunciado": "Los vehículos destinados a obras y servicios, ¿cómo advertirán de su presencia cuando estén realizando obras de reparación en la calzada?",
+"opciones": [
+"Mediante un dispositivo luminoso con una luz rotativa de color azul o rojo.",
+"Mediante un dispositivo luminoso con una o varias luces de color amarillo auto.",
+"Mediante un dispositivo luminoso con una o varias luces de color azul."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 7,
+"imagen": "dgt_e250_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 3
+},
+{
+"id": 218,
+"enunciado": "Como norma general, ¿quién tiene la preferencia en un estrechamiento sin señalizar?",
+"opciones": [
+"El vehículo que entre primero.",
+"El vehículo más pesado.",
+"Los vehículos de tracción animal."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 5,
+"imagen": "dgt_e250_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 5
+},
+{
+"id": 219,
+"enunciado": "En este cambio de rasante de reducida visibilidad, ¿puede adelantar el vehículo blanco al amarillo?",
+"opciones": [
+"Sí, porque no hay señalización expresa que lo prohíba.",
+"No, porque para ello debe ocupar parte de la calzada que corresponde al sentido contrario.",
+"Sí, porque lo ha señalizado convenientemente."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 5,
+"imagen": "dgt_e250_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 7
+},
+{
+"id": 220,
+"enunciado": "Cuando se toman bebidas alcohólicas…",
+"opciones": [
+"Aumenta el campo visual.",
+"Disminuye el campo visual.",
+"Disminuye el tiempo de reacción."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 3,
+"imagen": "dgt_e250_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 8
+},
+{
+"id": 221,
+"enunciado": "Si en una vía existe una línea longitudinal continua adosada a otra discontinua…",
+"opciones": [
+"Ningún vehículo que circule por la vía podrá atravesar ninguna de las dos líneas.",
+"El carril que tiene más cercana la línea discontinua es reversible.",
+"Debemos tener en cuenta solo la línea más cercana al carril por el que circulamos."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 5,
+"imagen": "dgt_e250_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 9
+},
+{
+"id": 222,
+"enunciado": "En un túnel, ¿qué distancia de seguridad mínima debe mantener el conductor de un turismo con el vehículo de delante si no pretende adelantar?",
+"opciones": [
+"100 metros o un intervalo de 4 segundos.",
+"50 metros o un intervalo de 3 segundos.",
+"200 metros o un intervalo de 10 segundos."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 4,
+"imagen": "dgt_e250_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 10
+},
+{
+"id": 223,
+"enunciado": "La mayoría de los vehículos disponen de un filtro en el habitáculo. ¿Debe sustituirse?",
+"opciones": [
+"Sí, sobre todo al inicio de la primavera, ya que su capacidad de retención es limitada.",
+"Sí, cada seis meses porque es un elemento sujeto a inspección técnica periódica.",
+"No, ya que es un filtro que se limpia automáticamente."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 2,
+"imagen": "dgt_e250_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 11
+},
+{
+"id": 224,
+"enunciado": "En una carretera cuya velocidad genérica es de 90 km/h, ¿qué velocidad se considera anormalmente reducida para un turismo?",
+"opciones": [
+"La inferior a 55 km/h",
+"La inferior a 60 km/h",
+"La inferior a 45 km/h"
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 4,
+"imagen": "dgt_e250_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 12
+},
+{
+"id": 225,
+"enunciado": "Esta señal, ¿permite realizar la maniobra de adelantamiento?",
+"opciones": [
+"No, en ningún caso.",
+"No, salvo que se adelante a un turismo.",
+"No, salvo que se adelante a motocicletas de dos ruedas y no se invada el sentido contrario."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 5,
+"imagen": "dgt_e250_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 13
+},
+{
+"id": 226,
+"enunciado": "Los agentes de tráfico inmovilizan un vehículo cuando su conductor tiene un tasa de alcohol mayor de la permitida. ¿Cuándo se dejará sin efecto dicha inmovilización?",
+"opciones": [
+"Cuando desparezca la causa que la motivó.",
+"Cuando el conductor viaje con menores de edad.",
+"Cuando el agente entregue al conductor el boletín de denuncia."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 3,
+"imagen": "dgt_e250_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 14
+},
+{
+"id": 227,
+"enunciado": "¿Qué indica la luz de posición de un vehículo?",
+"opciones": [
+"Que el vehículo está circulando.",
+"El lugar que ocupa el vehículo en la calzada y su anchura.",
+"Que el vehículo está parado."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"tema_id": 1,
+"imagen": "dgt_e250_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 250,
+"examen_fecha": "Julio 2019",
+"examen_anio": 2019,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 15
+},
+{
+"id": 228,
+"enunciado": "En caso de sufrir un reventón circulando por una vía a velocidad elevada, ¿es aconsejable pisar el pedal de freno con brusquedad?",
+"opciones": [
+"Sí, para mantener con mayor facilidad la trayectoria recta del vehículo.",
+"No; el frenado debe ser suave y progresivo.",
+"Solo si el reventón se produce en una de las ruedas delanteras."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 4,
+"imagen": "dgt_e251_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 229,
+"enunciado": "La lluvia, ¿exige al conductor tomar más precauciones de las habituales?",
+"opciones": [
+"Sí, ya que los neumáticos pueden perder su adherencia.",
+"No, porque mejora la visibilidad al limpiar el parabrisas.",
+"Solo mientras caen las primeras gotas, luego no es necesario tomar precauciones."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 7,
+"imagen": "dgt_e251_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 230,
+"enunciado": "¿Qué le indica esta señal?",
+"opciones": [
+"Recomienda llevar cadenas desde el punto en que se encuentra la señal.",
+"Obliga a llevar cadenas desde el punto en que se encuentra la señal.",
+"Señala que la vía se encuentra cortada por fuerte nevada."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 5,
+"imagen": "dgt_e251_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 231,
+"enunciado": "¿Podrá utilizar el carril VAO un turismo ocupado por cuatro personas si lleva enganchado un remolque ligero?",
+"opciones": [
+"No.",
+"Solo si el carril no está ocupado.",
+"Sí."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e251_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 232,
+"enunciado": "Si se encuentra detenido ante una señal de stop, ¿puede utilizar su teléfono móvil?",
+"opciones": [
+"No, de ninguna manera.",
+"Solo con un dispositivo de manos libres y sin utilizar cascos o auriculares.",
+"Sí, ya que el vehículo está detenido."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 5,
+"imagen": "dgt_e251_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 233,
+"enunciado": "En un vehículo de menos de 5 metros de longitud destinado al transporte de mercancías, ¿cuánto podrá sobresalir una carga de longitud indivisible por su parte delantera?",
+"opciones": [
+"Un tercio de la longitud del vehículo.",
+"Un 15% de la longitud del vehículo.",
+"Nada; solo podrá sobresalir por su parte trasera."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e251_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 234,
+"enunciado": "Circulando por un paso inferior, su vehículo sufre una avería que no le impide continuar la marcha; ¿qué debe hacer?",
+"opciones": [
+"Apagar el motor y conectar las luces de emergencia.",
+"Detener el vehículo, salir de él y dirigirse a la salida del paso inferior.",
+"Continuar circulando hasta salir del paso inferior, siempre que sea posible."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 7,
+"imagen": "dgt_e251_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 235,
+"enunciado": "Circula por el carril izquierdo; ¿qué le indica la flecha?",
+"opciones": [
+"Que está cerca la próxima salida.",
+"Que se permite la circulación en paralelo.",
+"Que debe incorporarse cuanto antes al carril derecho."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e251_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 236,
+"enunciado": "El conductor de un turismo debe circular con el alumbrado de su vehículo encendido...",
+"opciones": [
+"entre la puesta y la salida del sol.",
+"en los puentes y pasos a nivel.",
+"cuando circule por un carril para vehículos de alta ocupación (VAO)."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 7,
+"imagen": "dgt_e251_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 237,
+"enunciado": "Si la presión de inflado en los neumáticos es inferior a la recomendada, ¿aumenta el consumo de combustible?",
+"opciones": [
+"Sí, porque existe mayor rozamiento con el pavimento.",
+"Sí, y además el desgaste es mayor en el centro de la banda de rodamiento.",
+"No, siempre que estén compensadas las presiones entre todos los neumáticos del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 7,
+"imagen": "dgt_e251_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 238,
+"enunciado": "En la intersección de una vía pavimentada con otra sin pavimentar, ¿qué vehículos tienen preferencia de paso?",
+"opciones": [
+"Los que circulen por la vía más ancha.",
+"Los que se aproximen por la derecha.",
+"Los que circulen por la vía pavimentada."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e251_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 239,
+"enunciado": "¿En qué caso no le está permitido adelantar detrás de otro vehículo que ya está adelantando?",
+"opciones": [
+"Nunca está permitido adelantar cuando otro vehículo ya esté adelantando.",
+"Cuando circule por una glorieta",
+"Cuando no tenga visibilidad suficiente de la parte delantera de la vía."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e251_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 240,
+"enunciado": "La señal triangular indica...",
+"opciones": [
+"que hay un escalón lateral en la calzada.",
+"que el pavimento de la calzada puede estar muy deslizante.",
+"que hay un tramo de curvas peligrosas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 5,
+"imagen": "dgt_e251_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 241,
+"enunciado": "¿Qué debe hacer siempre que se acerque a un autobús del que bajan niños?",
+"opciones": [
+"Detenerse hasta que el autobús reanude su marcha.",
+"Tocar el claxon repetidamente para advertir de su presencia.",
+"Moderar la velocidad, e incluso detenerse si fuera necesario."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"tema_id": 4,
+"imagen": "dgt_e251_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 251,
+"examen_fecha": "Octubre 2019",
+"examen_anio": 2019,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 242,
+"enunciado": "La luz antiniebla trasera deberá utilizarse siempre que...",
+"opciones": [
+"circule por un puerto de montaña.",
+"circule por un túnel.",
+"circule con fuerte nevada."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e252_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 243,
+"enunciado": "En un turismo, ¿es obligatorio llevar triángulos de preseñalización de peligro?",
+"opciones": [
+"No es obligatorio, pero es aconsejable llevar, al menos, un triángulo.",
+"Sí, es obligatorio llevar dos triángulos homologados.",
+"Solo es obligatorio cuando se circule por vías interurbanas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 5,
+"imagen": "dgt_e252_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 244,
+"enunciado": "Para circular con un turismo, ¿qué documentos se necesitan en todo caso, además del permiso de conducción?",
+"opciones": [
+"El Impuesto de Vehículos de Tracción Mecánica (Impuesto Municipal de Circulación) del año en curso.",
+"El Permiso de Circulación solamente.",
+"El Permiso de Circulación y la Tarjeta de Inspección Técnica."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 2,
+"imagen": "dgt_e252_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 245,
+"enunciado": "¿Debe el conductor del turismo de color blanco respetar la señal de stop cuando llegue al cruce?",
+"opciones": [
+"Sí, debe respetar las marcas viales existentes.",
+"No, porque la señal horizontal solo es para los que giren a la izquierda.",
+"Sí, pero solo si sigue de frente."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 5,
+"imagen": "dgt_e252_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 246,
+"enunciado": "En esta vía se ha habilitado un carril adicional; ¿a qué velocidad como máximo circulará el vehículo naranja?",
+"opciones": [
+"A 80 kilómetros por hora.",
+"A 60 kilómetros por hora.",
+"A la genérica de la vía."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 4,
+"imagen": "dgt_e252_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 247,
+"enunciado": "Si mientras circula se le pincha una rueda, ¿qué debe hacer?",
+"opciones": [
+"Continuar circulando hasta llegar al taller más próximo.",
+"Inmovilizar rápidamente el vehículo fuera de la calzada o en lugar seguro.",
+"Detener el vehículo rápidamente en cualquier lugar y abandonarlo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 1,
+"imagen": "dgt_e252_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 248,
+"enunciado": "Como norma general, en un tramo de vía estrecho de gran pendiente debe ceder el paso...",
+"opciones": [
+"el vehículo que sube.",
+"el vehículo que baja.",
+"el vehículo más ligero."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e252_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 249,
+"enunciado": "Durante la conducción, la fatiga...",
+"opciones": [
+"hace que aumenten los errores de forma considerable.",
+"facilita la percepción de las señales de tráfico.",
+"hace que disminuyan los errores de forma considerable."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 5,
+"imagen": "dgt_e252_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 250,
+"enunciado": "Un semáforo con línea blanca horizontal sobre fondo negro...",
+"opciones": [
+"permite el paso a autobuses y tranvías.",
+"prohíbe el paso a autobuses de líneas regulares y tranvías.",
+"permite girar a la derecha y a la izquierda a autobuses y tranvías."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 5,
+"imagen": "dgt_e252_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 251,
+"enunciado": "La línea de borde de la calzada es discontinua; ¿está permitido estacionar en la parte transitable del arcén?",
+"opciones": [
+"Sí, porque la línea es discontinua.",
+"No, está prohibido.",
+"Solo para cargar o descargar mercancías."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e252_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 252,
+"enunciado": "¿Puede perder el control del vehículo si circula con los amortiguadores en mal estado?",
+"opciones": [
+"No, sin embargo, los cambios de marcha se realizarán con mayor dificultad debido a las oscilaciones del vehículo.",
+"Sí, porque la distancia de frenado disminuirá, especialmente con el firme irregular o mojado.",
+"Sí, porque el vehículo puede experimentar una inclinación excesiva al tomar las curvas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e252_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 253,
+"enunciado": "Si observa que un vehículo quiere incorporarse por el carril de aceleración, ¿qué debe hacer?",
+"opciones": [
+"Nada, porque tengo preferencia.",
+"Cederle el paso",
+"Facilitarle la incorporación en la medida de lo posible."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e252_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 254,
+"enunciado": "No deberá iniciar un adelantamiento sin comprobar previamente que...",
+"opciones": [
+"existe espacio suficiente para volver al carril derecho cuando termine la maniobra.",
+"los vehículos que circulan detrás mantienen la distancia de seguridad.",
+"el vehículo de delante reduce su velocidad para facilitar la maniobra."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 6,
+"imagen": "dgt_e252_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 255,
+"enunciado": "¿Cuál de las siguientes es una de las principales funciones del airbag en caso de accidente?",
+"opciones": [
+"Evitar el efecto submarino.",
+"Reducir el riesgo de heridas en la cara producidas por fragmentos de cristal procedentes del parabrisas.",
+"Evitar que la columna de dirección golpee al conductor."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 7,
+"imagen": "dgt_e252_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 256,
+"enunciado": "¿En qué tipo de vías se debe mantener la distancia de seguridad?",
+"opciones": [
+"Solo en calzadas con dos sentidos de circulación.",
+"Solo en calzadas en mal estado.",
+"En todo tipo de vías."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"tema_id": 1,
+"imagen": "dgt_e252_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 252,
+"examen_fecha": "Diciembre 2019",
+"examen_anio": 2019,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 257,
+"enunciado": "Debido a una emergencia, un turismo queda inmovilizado en la calzada; su conductor ¿debe colocar los triángulos de preseñalización de peligro, como norma general?",
+"opciones": [
+"No, excepto si la inmovilización se produce en una vía fuera de poblado.",
+"Solo debe encender la luz de emergencia y, si procede, las luces de posición.",
+"Sí, aunque haya encendido la luz de emergencia, la de posición o ambas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 1,
+"imagen": "dgt_e253_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 1
+},
+{
+"id": 258,
+"enunciado": "Esta señal indica...",
+"opciones": [
+"Peligro por la proximidad de una zona donde sopla fuerte viento lateral.",
+"Peligro por la proximidad de un tramo de vía con pavimento deslizante por hielo.",
+"Peligro por la proximidad de un vehículo accidentado que obstruye la calzada."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 5,
+"imagen": "dgt_e253_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 2
+},
+{
+"id": 259,
+"enunciado": "Como norma general, en vías de tres calzadas se utilizarán las de los laterales...",
+"opciones": [
+"En sentido único, si bien se podrá habilitar algún carril para el sentido contrario.",
+"En ambos sentidos.",
+"En sentido único, siempre que el tráfico sea fluido."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 1,
+"imagen": "dgt_e253_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 3
+},
+{
+"id": 260,
+"enunciado": "Cuando se aprecia fuerte viento lateral...",
+"opciones": [
+"Se deberá reducir la velocidad y corregir las ligeras desviaciones de la dirección.",
+"Se deberá aumentar la velocidad para compensar la fuerza del viento.",
+"Disminuye el riesgo de accidente, ya que el viento evita que el vehículo se desvíe de su trayectoria."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 4,
+"imagen": "dgt_e253_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 4
+},
+{
+"id": 261,
+"enunciado": "¿Cuándo se deben cambiar las escobillas del limpiaparabrisas?",
+"opciones": [
+"Cada dos años obligatoriamente.",
+"Cuando las gomas estén dañadas.",
+"Siempre antes de pasar la inspección técnica del vehículo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 2,
+"imagen": "dgt_e253_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 5
+},
+{
+"id": 262,
+"enunciado": "Esta señal, ¿prohíbe el cambio de dirección en la próxima intersección?",
+"opciones": [
+"Sí, ya que debo seguir la dirección y sentido que señala la flecha.",
+"No, solo prohíbe el cambio de sentido.",
+"No, solo me indica que la vía es de sentido único."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 5,
+"imagen": "dgt_e253_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 6
+},
+{
+"id": 263,
+"enunciado": "¿Tiene prioridad de paso una ambulancia que circule con las señales luminosas apagadas?",
+"opciones": [
+"No.",
+"Solo tiene preferencia en las vías urbanas.",
+"Sí, tiene preferencia en todo tipo de vías."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 5,
+"imagen": "dgt_e253_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 7
+},
+{
+"id": 264,
+"enunciado": "Un vehículo va a incorporarse a la circulación; ¿cuándo debe ceder el paso?",
+"opciones": [
+"Cuando entre en el carril de circulación desde el lado izquierdo, solamente.",
+"Siempre.",
+"Cuando entre en el carril de circulación desde el lado derecho, solamente."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 6,
+"imagen": "dgt_e253_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 8
+},
+{
+"id": 265,
+"enunciado": "Circula con su turismo por esta carretera convencional; ¿cuál es la velocidad máxima permitida?",
+"opciones": [
+"90 km/h",
+"100 km/h",
+"80 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 4,
+"imagen": "dgt_e253_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 9
+},
+{
+"id": 266,
+"enunciado": "¿Está permitido atravesar la marca vial de la derecha para cambiar de carril?",
+"opciones": [
+"Sí, pero con precaución.",
+"No.",
+"No, porque solamente está permitido estacionar."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 6,
+"imagen": "dgt_e253_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 10
+},
+{
+"id": 267,
+"enunciado": "¿Por qué es aconsejable cambiar periódicamente el aceite lubricante?",
+"opciones": [
+"Porque, estando en buenas condiciones, mantiene el buen estado del motor más tiempo y el desgaste de las piezas es menor.",
+"Porque el aceite con el tiempo se vuelve más viscoso y no fluye correctamente entre las piezas.",
+"Porque el aceite con el uso y pasado un tiempo pierde excesiva cantidad de volumen y hay que reponerlo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 7,
+"imagen": "dgt_e253_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 11
+},
+{
+"id": 268,
+"enunciado": "Circula por una travesía; ya se ha puesto el sol y la vía está suficientemente iluminada. ¿Qué alumbrado debe encender?",
+"opciones": [
+"Ninguno, ya que la vía está suficientemente iluminada.",
+"Las luces de posición y las de corto alcance o de cruce.",
+"Solamente las luces de posición."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 7,
+"imagen": "dgt_e253_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 12
+},
+{
+"id": 269,
+"enunciado": "Cuando el semáforo se ponga verde, ¿qué debe hacer?",
+"opciones": [
+"Obedecer la señal de stop.",
+"Obedecer al semáforo, que tiene prioridad sobre la señal de stop.",
+"Obedecer al semáforo, pero debo ceder el paso."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 5,
+"imagen": "dgt_e253_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 13
+},
+{
+"id": 270,
+"enunciado": "Si su vehículo está provisto de caja de cambios manual, en una calle con pendiente ascendente, ¿cómo debe estacionar?",
+"opciones": [
+"Poniendo el freno de estacionamiento y la primera velocidad.",
+"Poniendo el freno de estacionamiento y la marcha atrás.",
+"Basta con poner el freno de estacionamiento."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 6,
+"imagen": "dgt_e253_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 14
+},
+{
+"id": 271,
+"enunciado": "En las calzadas con dos sentidos y tres carriles, cuando quiera girar a la izquierda, ¿dónde debe colocarse?",
+"opciones": [
+"En el carril central.",
+"En el arcén derecho.",
+"En el carril izquierdo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"tema_id": 6,
+"imagen": "dgt_e253_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 253,
+"examen_fecha": "Junio 2020",
+"examen_anio": 2020,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 15
+},
+{
+"id": 272,
+"enunciado": "¿A qué vehículos de transporte de mercancías prohíbe pasar esta señal?",
+"opciones": [
+"A los de más de 3.500 kg. de M.M.A., solo cuando llevan carga.",
+"A los de menos de 3.500 kg. de M.M.A.",
+"A los de más de 3.500 kg. de M.M.A., con carga o sin carga."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 5,
+"imagen": "dgt_e254_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 1
+},
+{
+"id": 273,
+"enunciado": "Para adelantar al grupo de ciclistas, el vehículo rebasa la línea continua y ocupa el carril destinado a la circulación en sentido contrario; ¿es correcto su comportamiento?",
+"opciones": [
+"Sí, y debe guardar una separación lateral de, al menos, 1,5 metros",
+"Solo es correcto si no existe una señal vertical que prohíba adelantar.",
+"No, porque en este tramo de vía está prohibido el adelantamiento."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 5,
+"imagen": "dgt_e254_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 2
+},
+{
+"id": 274,
+"enunciado": "Si sufre una avería y tiene que salir de su vehículo, ¿en cuál de los siguientes casos debe utilizar el chaleco reflectante?",
+"opciones": [
+"Al ocupar el arcén en vías interurbanas.",
+"Solamente al ocupar la calzada o el arcén en autopistas o autovías.",
+"Al ocupar la calzada en vías urbanas."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 1,
+"imagen": "dgt_e254_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 3
+},
+{
+"id": 275,
+"enunciado": "Si entra en una curva a la izquierda a velocidad excesiva, la fuerza centrífuga, ¿puede afectar a la trayectoria del vehículo?",
+"opciones": [
+"Sí; se desplazará hacia la izquierda de la calzada.",
+"Sí; se desplazará hacia la derecha de la calzada.",
+"No; la fuerza centrífuga no afecta a la trayectoria del vehículo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 4,
+"imagen": "dgt_e254_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 4
+},
+{
+"id": 276,
+"enunciado": "¿Cómo se denominan los costes de pérdida de vidas, de capacidad productiva y el sufrimiento físico y psicológico que tienen lugar como consecuencia de un accidente de tráfico?",
+"opciones": [
+"Costes sanitarios.",
+"Costes materiales.",
+"Costes humanos."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 6,
+"imagen": "dgt_e254_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 5
+},
+{
+"id": 277,
+"enunciado": "Si ningún elemento impide su funcionamiento eficaz, ¿qué sistema de seguridad pasiva evita que, en caso de accidente, se produzca el efecto submarino?",
+"opciones": [
+"El airbag.",
+"El reposacabezas.",
+"El cinturón de seguridad."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 7,
+"imagen": "dgt_e254_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 6
+},
+{
+"id": 278,
+"enunciado": "Se considera peatón a la persona...",
+"opciones": [
+"que, sin ser conductor, transita a pie por las vías públicas.",
+"a cuyo cargo está un animal o animales.",
+"que circula con una bicicleta."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 1,
+"imagen": "dgt_e254_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 7
+},
+{
+"id": 279,
+"enunciado": "El consumo de drogas de abuso o ilegales, ¿afecta a la seguridad vial?",
+"opciones": [
+"No, en absoluto.",
+"Sí, ya que alteran de modo importante las capacidades del conductor.",
+"Solo si el conductor no está habituado a consumirlas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 3,
+"imagen": "dgt_e254_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 8
+},
+{
+"id": 280,
+"enunciado": "Durante la conducción, ¿qué horas son especialmente propicias para la aparición del sueño?",
+"opciones": [
+"Las últimas horas de la mañana.",
+"Las horas de la madrugada y las primeras horas de la tarde.",
+"Las últimas horas de la tarde y las primeras de la mañana."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 6,
+"imagen": "dgt_e254_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 9
+},
+{
+"id": 281,
+"enunciado": "En un turismo con cinco plazas autorizadas, incluida la del conductor, ¿está permitido transportar a seis personas?",
+"opciones": [
+"No.",
+"Sí, siempre que no se supere la masa máxima autorizada del vehículo.",
+"Solo cuando al menos uno de los ocupantes sea menor de edad."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 1,
+"imagen": "dgt_e254_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 10
+},
+{
+"id": 282,
+"enunciado": "Una vez finalizado el estado de alarma por el COVID-19 y restablecida la nueva normalidad, los ocupantes de un vehículo particular que esté circulando por vías públicas, ¿están obligados al uso de mascarillas?",
+"opciones": [
+"No, cuando el único ocupante del vehículo sea el conductor.",
+"Sí, aunque todos sus ocupantes convivan en el mismo domicilio.",
+"Sí, cuando un tercio de los ocupantes del vehículo sea mayor de 70 años."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 1,
+"imagen": "dgt_e254_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 11
+},
+{
+"id": 283,
+"enunciado": "A los peatones que utilicen monopatines o patines en ningún caso les está permitido...",
+"opciones": [
+"ser arrastrados por otros vehículos.",
+"circular por el arcén de una travesía.",
+"circular a paso de persona por las aceras."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 1,
+"imagen": "dgt_e254_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 12
+},
+{
+"id": 284,
+"enunciado": "Los efectos secundarios de los medicamentos que alteran la capacidad de conducción, ¿se manifiestan de la misma manera en todas las personas?",
+"opciones": [
+"Solo si el tratamiento médico se prolonga en el tiempo.",
+"Sí; sus efectos son idénticos para todas las personas.",
+"No; pueden variar por diversos factores, como la edad o el estado físico del conductor."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 3,
+"imagen": "dgt_e254_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 13
+},
+{
+"id": 285,
+"enunciado": "¿Están obligados los conductores de motocicletas a llevar un chaleco reflectante de alta visibilidad?",
+"opciones": [
+"Sí.",
+"Solo cuando circulen por vías interurbanas.",
+"No."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 1,
+"imagen": "dgt_e254_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 14
+},
+{
+"id": 286,
+"enunciado": "¿Es peligroso introducir una dirección en un navegador GPS mientras se conduce?",
+"opciones": [
+"Solo si el navegador no está integrado en el vehículo.",
+"No, porque es una ayuda para conducir con mayor seguridad.",
+"Sí, ya que distrae al conductor."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"tema_id": 1,
+"imagen": "dgt_e254_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 254,
+"examen_fecha": "Julio 2020",
+"examen_anio": 2020,
+"examen_mes": 7,
+"examen_trimestre": "T3",
+"examen_pos": 15
+},
+{
+"id": 287,
+"enunciado": "La luz antiniebla trasera se utilizará siempre que...",
+"opciones": [
+"se circule a velocidad anormalmente reducida.",
+"se circule por carreteras de alta montaña.",
+"las condiciones meteorológicas sean especialmente desfavorables."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 4,
+"imagen": "dgt_e255_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 288,
+"enunciado": "¿Qué medidas deberá adoptar ante esta señal?",
+"opciones": [
+"Aumentaré la atención por posibles desprendimientos y obstáculos en la calzada.",
+"Aceleraré, pasando la zona lo más rápidamente posible para dejar paso libre.",
+"Me autoriza a circular en sentido contrario, extremando la precaución, en caso de desprendimientos."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 5,
+"imagen": "dgt_e255_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 289,
+"enunciado": "A partir de la señal, el conductor de un camión de menos de 3.500 kilos de M.M.A., ¿puede adelantar a otros vehículos?",
+"opciones": [
+"No; la señal le prohíbe adelantar a todo tipo de vehículos a motor.",
+"Sí; la señal afecta a camiones cuya M.M.A. supere los 3.500 kilos.",
+"Solo puede adelantar a vehículos de dos ruedas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 5,
+"imagen": "dgt_e255_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 290,
+"enunciado": "Este conjunto de marcas blancas pintadas en la calzada...",
+"opciones": [
+"obliga al vehículo a detenerse siempre.",
+"indica un paso para peatones.",
+"indica que ningún conductor puede entrar con su vehículo o animal en esta zona."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 1,
+"imagen": "dgt_e255_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 291,
+"enunciado": "Para incorporarse a la vía principal, un turismo tiene que atravesar un carril bici debidamente señalizado; ¿deberá ceder el paso a los ciclistas que circulan por el mismo?",
+"opciones": [
+"Sí; los ciclistas tienen prioridad de paso.",
+"No; el turismo tiene prioridad de paso.",
+"Solo cuando los ciclistas circulen en grupo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 6,
+"imagen": "dgt_e255_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 292,
+"enunciado": "El nivel del depósito de líquido lavaparabrisas, ¿se debe revisar con cierta frecuencia?",
+"opciones": [
+"Sí, es conveniente para no quedarnos sin él cuando lo necesitemos.",
+"Solo hay que revisarlo en verano porque con el calor el líquido se evapora.",
+"No es necesario, basta con revisarlo antes de pasar la inspección técnica."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 2,
+"imagen": "dgt_e255_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 293,
+"enunciado": "En calzadas con doble sentido de circulación y dos carriles sin delimitar por marcas viales, ¿por dónde se debe de circular?",
+"opciones": [
+"Por el centro de la calzada.",
+"Por el carril derecho.",
+"Por cualquiera de los dos carriles si no vienen vehículos en sentido contrario."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 1,
+"imagen": "dgt_e255_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 294,
+"enunciado": "En caso de lluvia, ¿es aconsejable aumentar la distancia de seguridad con el vehículo que circula delante?",
+"opciones": [
+"Sí, porque la distancia de frenado aumenta.",
+"No, porque la distancia de frenado disminuye.",
+"Solo en vías rápidas, pero no en vías urbanas ni en carreteras convencionales"
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 4,
+"imagen": "dgt_e255_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 295,
+"enunciado": "El conductor de un vehículo podrá adelantar en un túnel cuando...",
+"opciones": [
+"exista más de un carril en el sentido contrario de su marcha.",
+"exista más de un carril en su sentido de circulación.",
+"exista un carril para cada sentido, siempre que el túnel esté bien iluminado."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 6,
+"imagen": "dgt_e255_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 296,
+"enunciado": "La flecha izquierda de la señal, ¿qué indica?",
+"opciones": [
+"Obliga a seguir la dirección de la flecha en la próxima intersección.",
+"Que en el próximo tramo se desvía el carril de la izquierda.",
+"Que es obligatorio circular por el arcén izquierdo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 6,
+"imagen": "dgt_e255_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 297,
+"enunciado": "A la entrada y salida del colegio, para evitar riesgos, ¿qué precauciones deberá tomar cuando los niños desciendan del vehículo, además de la previa vigilancia del entorno?",
+"opciones": [
+"No deberán abrir las puertas ni apearse antes de la completa inmovilización del vehículo.",
+"Para mayor seguridad lo harán siempre por la puerta del conductor.",
+"Deberán bajar del vehículo por la puerta más alejada del borde de la vía."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 1,
+"imagen": "dgt_e255_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 298,
+"enunciado": "En esta vía, para adelantar al camión, ¿a qué velocidad puede circular como máximo el turismo?",
+"opciones": [
+"A 140 km/h.",
+"A 110 km/h.",
+"A 120 km/h."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 4,
+"imagen": "dgt_e255_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 299,
+"enunciado": "Si conduce el turismo amarillo y quiere girar a la derecha, ¿qué debe hacer?",
+"opciones": [
+"Continuar de frente.",
+"Esperar a que el semáforo de la izquierda se ponga verde.",
+"Girar a la derecha porque lo permite el semáforo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 5,
+"imagen": "dgt_e255_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 300,
+"enunciado": "Está adelantando y ve que hay peligro; ¿qué debe hacer?",
+"opciones": [
+"Aumentar la velocidad y adelantar rápidamente.",
+"Reducir la velocidad, señalizar y volver a mi carril.",
+"Pedir ayuda al vehículo que estoy adelantando."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 4,
+"imagen": "dgt_e255_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 301,
+"enunciado": "En esta calle de sentido único en la que no hay señalización que prohíba estacionar ni marcas viales en la calzada, ¿en qué lado está permitido el estacionamiento?",
+"opciones": [
+"En el lado derecho solamente.",
+"En ambos lados, tanto en el derecho como en el izquierdo.",
+"En el lado izquierdo solamente."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"tema_id": 5,
+"imagen": "dgt_e255_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 255,
+"examen_fecha": "Octubre 2020",
+"examen_anio": 2020,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 302,
+"enunciado": "Los ciclistas, ¿están obligados a encender el alumbrado cuando circulan de noche?",
+"opciones": [
+"Sí.",
+"No, si llevan puestas prendas reflectantes.",
+"Solo cuando circulan por vías interurbanas."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 1,
+"imagen": "dgt_e256_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 303,
+"enunciado": "La carga transportada en un turismo no deberá...",
+"opciones": [
+"Descargarse por el lado del vehículo más próximo al borde de la calzada.",
+"Sobresalir por la parte posterior más de un 5% de su longitud.",
+"Comprometer su estabilidad."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 1,
+"imagen": "dgt_e256_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 304,
+"enunciado": "¿Cómo puede reducir la velocidad de su vehículo?",
+"opciones": [
+"Solo con el sistema de frenado.",
+"Solo con el motor.",
+"Tanto con el sistema de frenado como con el motor."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 4,
+"imagen": "dgt_e256_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 305,
+"enunciado": "En esta vía de doble sentido, el conductor del turismo blanco, ¿dónde situará su vehículo para girar a la izquierda?",
+"opciones": [
+"Sobre la línea discontinua, invadiendo ligeramente el sentido contrario.",
+"Junto a la línea discontinua, sin invadir el sentido contrario.",
+"A la derecha, fuera de la calzada siempre que sea posible."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 1,
+"imagen": "dgt_e256_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 306,
+"enunciado": "La marca indica un paso...",
+"opciones": [
+"para peatones.",
+"para ciclistas.",
+"para ciclistas y ciclomotores."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 1,
+"imagen": "dgt_e256_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 307,
+"enunciado": "La falta de experiencia al volante, ¿puede ser una de las causas que expliquen los accidentes de tráfico que sufren los conductores noveles?",
+"opciones": [
+"Sí; es una de las causas de los accidentes protagonizados por jóvenes.",
+"No; el estado de la vía y del vehículo son los únicos factores que explican los accidentes.",
+"Solo si el conductor novel ha consumido alcohol o drogas ilegales."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 3,
+"imagen": "dgt_e256_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 308,
+"enunciado": "Hay nieve y solo tiene cadenas para dos ruedas. ¿Dónde debe ponerlas?",
+"opciones": [
+"En las ruedas delanteras siempre.",
+"En las ruedas motrices siempre.",
+"En las ruedas traseras siempre."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 7,
+"imagen": "dgt_e256_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 309,
+"enunciado": "Esta carretera no tiene arcén; ¿puede estacionar a la derecha, fuera de la vía?",
+"opciones": [
+"Sí, porque estoy fuera de la calzada.",
+"No, porque es una vía interurbana.",
+"Solo si hay una señal que permita expresamente el estacionamiento."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 6,
+"imagen": "dgt_e256_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 310,
+"enunciado": "Si un vehículo queda detenido por avería en un paso a nivel, el conductor debe adoptar en primer lugar las medidas necesarias para...",
+"opciones": [
+"que todos los ocupantes abandonen el vehículo.",
+"desconectar los bornes de la batería del vehículo.",
+"colocar el triángulo de preseñalización de peligro en la vía."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 7,
+"imagen": "dgt_e256_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 311,
+"enunciado": "Circular en motocicleta bajo una lluvia intensa obliga a...",
+"opciones": [
+"circular lo más cerca posible del vehículo que va por delante.",
+"moderar la velocidad, e incluso detenerse si fuera preciso.",
+"encender la luz de largo alcance, incluso dentro de poblado."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 4,
+"imagen": "dgt_e256_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 312,
+"enunciado": "uera de poblado, una autocaravana va a adelantar a un vehículo pesado. ¿Puede producirse una situación de riesgo cuando circulen en paralelo si sopla fuerte viento lateral por la izquierda?",
+"opciones": [
+"No, si ambos vehículos tienen el mismo volumen y peso.",
+"Sí, porque se produciría un empuje brusco de los dos vehículos hacia la izquierda.",
+"Sí, puede producirse el efecto pantalla y aproximarse de forma brusca al vehículo pesado."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 6,
+"imagen": "dgt_e256_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 313,
+"enunciado": "El consumo de alcohol, ¿afecta al tiempo que tarda en reaccionar el conductor ante una situación de emergencia?",
+"opciones": [
+"Sí; el tiempo de reacción aumenta.",
+"Sí; el tiempo de reacción disminuye.",
+"No; el consumo de alcohol no afecta al tiempo de reacción."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 3,
+"imagen": "dgt_e256_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 314,
+"enunciado": "Si arrastra con su turismo un remolque ligero, ¿está obligado a llevar entre sus accesorios un equipo homologado de extinción de incendios en condiciones de uso?",
+"opciones": [
+"No.",
+"Sí.",
+"Solo cuando circule por vías interurbanas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 1,
+"imagen": "dgt_e256_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 315,
+"enunciado": "El estilo de conducción de una motocicleta, ¿puede influir en el consumo de combustible?",
+"opciones": [
+"No, solo depende de la cilindrada de la motocicleta.",
+"No, si se adopta una postura aerodinámica.",
+"Sí."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"tema_id": 7,
+"imagen": "dgt_e256_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 256,
+"examen_fecha": "Diciembre 2020",
+"examen_anio": 2020,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 316,
+"enunciado": "¿Qué es un catadióptrico?",
+"opciones": [
+"Un dispositivo que refleja la luz procedente de una fuente luminosa.",
+"Una placa de matrícula reflectante.",
+"Un dispositivo de alumbrado del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 2,
+"imagen": "dgt_e257_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 1
+},
+{
+"id": 317,
+"enunciado": "¿Está permitida la circulación de vehículos cuyo nivel de emisión de ruidos supere los límites establecidos?",
+"opciones": [
+"Sí.",
+"No.",
+"Solo está permitida su circulación por vías urbanas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 7,
+"imagen": "dgt_e257_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 2
+},
+{
+"id": 318,
+"enunciado": "En esta carretera, ¿dónde se puede estacionar?",
+"opciones": [
+"Dentro de la vía, en el lado derecho.",
+"En ninguna parte; está prohibido estacionar dentro y fuera de la vía.",
+"Fuera de la vía, en el lado derecho."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 6,
+"imagen": "dgt_e257_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 3
+},
+{
+"id": 319,
+"enunciado": "Los conductores jóvenes, en general, ¿evalúan peor los 4 riesgos de la circulación?",
+"opciones": [
+"No.",
+"Sí, lo que reduce la posibilidad de sufrir un accidente de tráfico.",
+"Sí, lo que aumenta la posibilidad de sufrir un accidente de tráfico."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 1,
+"imagen": "dgt_e257_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 4
+},
+{
+"id": 320,
+"enunciado": "Respecto a los efectos secundarios de los medicamentos y su influencia en la conducción, tras ingerir fármacos somníferos o hipnóticos normalmente...",
+"opciones": [
+"disminuye el tiempo de reacción.",
+"aumenta el tiempo de reacción.",
+"aumenta el campo visual."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 3,
+"imagen": "dgt_e257_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 5
+},
+{
+"id": 321,
+"enunciado": "Durante el día, las motocicletas están obligadas a llevar encendida la luz de cruce...",
+"opciones": [
+"cuando circulen por cualquier tipo de vía.",
+"cuando circulen por vías interurbanas, solamente.",
+"cuando las condiciones climatológicas sean adversas, solamente."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 6,
+"imagen": "dgt_e257_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 6
+},
+{
+"id": 322,
+"enunciado": "Un conductor que, pese a poder hacerlo sin riesgo, no se detiene a ayudar a una víctima grave de accidente que se encuentra desamparada, ¿podría estar cometiendo un delito?",
+"opciones": [
+"Sí, aunque el conductor no esté implicado en el accidente.",
+"No; ayudar a las víctimas es un gesto de solidaridad, pero no es un deber.",
+"Sí, pero solo si el conductor está implicado en el accidente."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 6,
+"imagen": "dgt_e257_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 7
+},
+{
+"id": 323,
+"enunciado": "En una motocicleta con mandos independientes para cada uno de los frenos, ¿dónde se acciona generalmente el freno delantero?",
+"opciones": [
+"En el manillar, con la mano derecha.",
+"En el manillar, con la mano izquierda.",
+"En un pedal, con el pie izquierdo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 7,
+"imagen": "dgt_e257_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 8
+},
+{
+"id": 324,
+"enunciado": "¿Puede perder puntos de su saldo si pone en peligro a un grupo de ciclistas durante un adelantamiento?",
+"opciones": [
+"Sí, es una infracción que supone la pérdida de 4 puntos.",
+"No; es una infracción que no supone la pérdida de puntos.",
+"No, porque es un delito contra la seguridad vial no una infracción administrativa."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 1,
+"imagen": "dgt_e257_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 9
+},
+{
+"id": 325,
+"enunciado": "En esta vía se ha habilitado un carril adicional circunstancial, ¿a qué velocidad, como mínimo, deberán circular por dicho carril?",
+"opciones": [
+"60 km/h o inferior si así estuviese señalizado.",
+"80 km/h.",
+"A la mitad de la genérica señalada para cada categoría de vehículos."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 4,
+"imagen": "dgt_e257_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 10
+},
+{
+"id": 326,
+"enunciado": "Cuando se circula con lluvia disminuye la visibilidad, sobre todo si la lluvia es fuerte. ¿Qué precauciones debe tomar?",
+"opciones": [
+"Debe aumentar la distancia de seguridad y reducir la velocidad.",
+"No debe abrir las ventanillas para evitar que se empañen los cristales.",
+"Debe circular sobre las líneas o marcas blancas longitudinales de la carretera para mantener la trayectoria adecuada."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 4,
+"imagen": "dgt_e257_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 11
+},
+{
+"id": 327,
+"enunciado": "Cuando viaje con su mascota, ¿en qué lugar del vehículo podrá situarse para evitar que interfiera en la conducción?",
+"opciones": [
+"En el asiento delantero ya que si dispone de airbag frontal estará doblemente protegida.",
+"Donde no comprometa su seguridad ni la del resto de pasajeros, además de ir sujeta con el dispositivo adecuado.",
+"En los asientos traseros sujeta con el cinturón de seguridad como un pasajero más."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 7,
+"imagen": "dgt_e257_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 12
+},
+{
+"id": 328,
+"enunciado": "¿Qué indica la señal colocada en la parte trasera del vehículo compuesta por una lámina reflectante de color amarillo rodeada de una lámina fluorescente de color rojo?",
+"opciones": [
+"Que el vehículo o el conjunto de vehículos tiene una longitud superior a 12 metros.",
+"Que el vehículo transporta mercancías peligrosas.",
+"Qué el vehículo no podrá circular a una velocidad superior a 90 km/h."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 4,
+"imagen": "dgt_e257_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 13
+},
+{
+"id": 329,
+"enunciado": "Esta señal indica peligro por la proximidad de...",
+"opciones": [
+"un tramo de vía con posible obstrucción en la calzada.",
+"un resalto o badén en la vía o pavimento en mal estado.",
+"un tramo de vía con pendientes ascendentes y descendentes."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 5,
+"imagen": "dgt_e257_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 14
+},
+{
+"id": 330,
+"enunciado": "Esta señal indica que...",
+"opciones": [
+"a su altura puede realizar un cambio de sentido de la marcha a la derecha.",
+"las únicas direcciones aconsejadas son seguir de frente o girar a la derecha.",
+"debe seguir una de las direcciones y sentidos que señalan las flechas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"tema_id": 5,
+"imagen": "dgt_e257_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 257,
+"examen_fecha": "Marzo 2021",
+"examen_anio": 2021,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 15
+},
+{
+"id": 331,
+"enunciado": "A un turismo, ¿le está permitido circular con láminas adhesivas o cortinillas contra el sol en las ventanillas traseras?",
+"opciones": [
+"No, en ningún caso.",
+"Sí, en todo caso.",
+"Solo si el vehículo lleva dos espejos retrovisores exteriores."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 6,
+"imagen": "dgt_e258_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 1
+},
+{
+"id": 332,
+"enunciado": "¿Cuándo está permitido estacionar en un túnel?",
+"opciones": [
+"Cuando el túnel está suficientemente iluminado.",
+"Cuando la calzada tiene dos carriles de circulación para cada sentido.",
+"Nunca."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 6,
+"imagen": "dgt_e258_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 2
+},
+{
+"id": 333,
+"enunciado": "En esta intersección con señal de STOP y buena visibilidad, ¿qué debe hacer?",
+"opciones": [
+"Detenerse siempre una vez superada la línea transversal.",
+"Seguir circulando sin detenerse, porque no viene ningún vehículo de frente.",
+"Detenerse siempre ante la línea transversal."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 6,
+"imagen": "dgt_e258_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 3
+},
+{
+"id": 334,
+"enunciado": "En una calzada de doble sentido de circulación en la que no 4 están delimitados los carriles, está obligado a circular por...",
+"opciones": [
+"el lugar de la calzada que crea más seguro.",
+"la derecha, lo más cerca posible del borde de la calzada.",
+"el eje imaginario de la calzada."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 6,
+"imagen": "dgt_e258_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 4
+},
+{
+"id": 335,
+"enunciado": "En defecto de señalización, ¿cuál es la velocidad máxima que no deberán rebasar los vehículos en una autopista dentro de poblado?",
+"opciones": [
+"50 km/h, pudiéndola superar en 20 km/h. para adelantar.",
+"80 km/h.",
+"50 km/h."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 4,
+"imagen": "dgt_e258_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 5
+},
+{
+"id": 336,
+"enunciado": "Con lluvia intensa, una motocicleta, ¿puede sufrir “aquaplaning”?",
+"opciones": [
+"No; solo los turismos pueden sufrir “aquaplaning”.",
+"Solo si la motocicleta lleva sidecar",
+"Sí, especialmente si circula a velocidad elevada."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 4,
+"imagen": "dgt_e258_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 6
+},
+{
+"id": 337,
+"enunciado": "Cuando el fondo de las señales de orientación es amarillo, indica que se circula por...",
+"opciones": [
+"un tramo de vía en obras.",
+"una vía para automóviles.",
+"un tramo de vía especialmente peligroso."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 5,
+"imagen": "dgt_e258_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 7
+},
+{
+"id": 338,
+"enunciado": "Los paneles de mensaje variable, ¿pueden utilizarse para dar instrucciones de obligado cumplimiento?",
+"opciones": [
+"No, son meramente informativos.",
+"Sí.",
+"No, solo pueden usarse para advertir de posibles peligros."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 5,
+"imagen": "dgt_e258_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 8
+},
+{
+"id": 339,
+"enunciado": "En una vía urbana, las operaciones de carga y descarga se realizarán...",
+"opciones": [
+"depositando la mercancía en la calzada o en zonas peatonales.",
+"respetando las disposiciones que dicten las autoridades municipales.",
+"por el lado del vehículo más alejado del borde de la calzada."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 1,
+"imagen": "dgt_e258_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 10
+},
+{
+"id": 340,
+"enunciado": "Conducir bajo los síntomas de una alergia respiratoria, ¿aumenta el riesgo de sufrir un accidente?",
+"opciones": [
+"Sí, pero solo durante la primavera debido a la mayor presencia de polen.",
+"No, el riesgo es el mismo que el de un conductor sin alergia respiratoria.",
+"Sí, ya que puede verse alterada la capacidad para conducir con seguridad."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 1,
+"imagen": "dgt_e258_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 11
+},
+{
+"id": 341,
+"enunciado": "Los resaltos en los pasos para peatones, ¿se consideran obstáculos en la calzada?",
+"opciones": [
+"Sí, cuando son metálicos.",
+"Sí, puesto que dificultan el cruce de los pasos de peatones.",
+"No, siempre que garanticen la seguridad vial de los usuarios y especialmente de los ciclistas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 1,
+"imagen": "dgt_e258_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 12
+},
+{
+"id": 342,
+"enunciado": "¿Está permitido estacionar en las calles residenciales?",
+"opciones": [
+"No, excepto en los lugares señalizados.",
+"No, excepto en horas nocturnas.",
+"Sí, en cualquier lugar de la vía."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 5,
+"imagen": "dgt_e258_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 13
+},
+{
+"id": 343,
+"enunciado": "En caso de producirse un incendio en el interior de un túnel, ¿qué medida de seguridad, entre otras, adoptará el conductor?",
+"opciones": [
+"Apartará su vehículo a la derecha para dejar paso a los servicios de emergencia.",
+"Apagará el motor del vehículo y permanecerá en su interior.",
+"Dejará arrancado el motor de su vehículo y abandonará el túnel."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 7,
+"imagen": "dgt_e258_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 14
+},
+{
+"id": 344,
+"enunciado": "En caso de condiciones meteorológicas muy desfavorables, como lluvia muy intensa, ¿se puede circular con la luz antiniebla trasera encendida?",
+"opciones": [
+"No, solo puede utilizarse con niebla densa.",
+"Sí.",
+"Sí, aunque su uso es opcional."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"tema_id": 1,
+"imagen": "dgt_e258_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 258,
+"examen_fecha": "Junio 2021",
+"examen_anio": 2021,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 15
+},
+{
+"id": 345,
+"enunciado": "En una carretera convencional que transcurre fuera de poblado, ¿cuál es la velocidad máxima que le está permitido alcanzar a un turismo para adelantar?",
+"opciones": [
+"120 km/h",
+"110 km/h.",
+"90 km/h."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 4,
+"imagen": "dgt_e259_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 346,
+"enunciado": "Los vehículos para personas con movilidad reducida, si no existe 4 vía o parte de ella que les está especialmente destinada...",
+"opciones": [
+"deben circular por el arcén, siempre que sea transitable y suficiente.",
+"pueden circular por autopista.",
+"pueden circular por autovía."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 1,
+"imagen": "dgt_e259_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 347,
+"enunciado": "La marca vial es continua; ¿está permitido adelantar?",
+"opciones": [
+"Sí, porque el camión circula despacio.",
+"No, porque la marca vial lo prohíbe.",
+"No, porque la vía no tiene arcén."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 6,
+"imagen": "dgt_e259_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 348,
+"enunciado": "Para ahorrar carburante, ¿dónde se debe cargar el equipaje?",
+"opciones": [
+"En el maletero.",
+"En la baca.",
+"En el maletero o en la baca, es indistinto."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 6,
+"imagen": "dgt_e259_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 349,
+"enunciado": "Para circular con mayor seguridad...",
+"opciones": [
+"el vehículo debe estar en perfecto estado pero no es necesario que lo esté el conductor.",
+"el conductor debe estar en perfecto estado pero no es necesario que lo esté el vehículo.",
+"tanto el conductor como el vehículo deben estar en perfecto estado."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 1,
+"imagen": "dgt_e259_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 350,
+"enunciado": "En caso de niebla espesa, ¿qué luces debe utilizar el conductor de un turismo?",
+"opciones": [
+"Las luces antiniebla delanteras y las de emergencia.",
+"Las luces antiniebla, las de posición y las de emergencia.",
+"Las luces antiniebla, las de posición y las de corto alcance."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 7,
+"imagen": "dgt_e259_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 351,
+"enunciado": "En esta intersección con “circulación giratoria”, que no es glorieta, ¿a qué vehículos debe ceder el paso?",
+"opciones": [
+"A los que entren por la izquierda.",
+"A los que entren por la derecha.",
+"A los que están girando alrededor de la isleta."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 6,
+"imagen": "dgt_e259_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 352,
+"enunciado": "Una exposición continuada del vehículo a temperaturas elevadas, puede provocar un deterioro mayor de las gomas de las escobillas de los limpiaparabrisas. ¿Cuáles son los efectos más comunes?",
+"opciones": [
+"Se reblandecen y pierden elasticidad.",
+"Se endurecen y se agrietan.",
+"Se dilatan y ejercen mayor presión sobre el cristal."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 7,
+"imagen": "dgt_e259_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 353,
+"enunciado": "¿Cuál es la función del freno de mano?",
+"opciones": [
+"Reducir la velocidad del vehículo en ciudad.",
+"Inmovilizar el vehículo al estacionar.",
+"Reducir la velocidad del vehículo cuando circule por una vía con una pendiente prolongada."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 4,
+"imagen": "dgt_e259_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 354,
+"enunciado": "¿Qué debe hacer para avisar de que va a disminuir la velocidad de su vehículo de modo considerable?",
+"opciones": [
+"Encender las luces de posición.",
+"Encender el intermitente izquierdo.",
+"Pisar varias veces el pedal de freno."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 7,
+"imagen": "dgt_e259_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 355,
+"enunciado": "En el supuesto en el que existan dos señales del mismo tipo con indicaciones que parezcan estar en contradicción, ¿cuál de ellas tendrá prioridad?",
+"opciones": [
+"La más restrictiva.",
+"La menos restrictiva.",
+"La más próxima."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"tema_id": 5,
+"imagen": "dgt_e259_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 259,
+"examen_fecha": "Octubre 2021",
+"examen_anio": 2021,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 356,
+"enunciado": "¿Qué debe hacer si se ve obligado a detener su vehículo en el interior de un túnel por motivos de circulación?",
+"opciones": [
+"Encender la señal de emergencia y las luces de carretera.",
+"Detenerse lo más lejos posible del vehículo de delante.",
+"Detenerse lo más cerca posible del vehículo de delante."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 5,
+"imagen": "dgt_e260_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 357,
+"enunciado": "¿Cómo hay que colocarse el cinturón de seguridad?",
+"opciones": [
+"Muy ajustado, aunque apriete un poco, para que sujete mejor.",
+"Flojo y con holgura, para poder llegar a todo el habitáculo del vehículo.",
+"Ajustado al cuerpo, ni muy apretado ni flojo, y sin que esté retorcido."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 7,
+"imagen": "dgt_e260_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 358,
+"enunciado": "¿Con qué objetivo se establecen los límites de velocidad?",
+"opciones": [
+"Para garantizar la máxima seguridad y fluidez.",
+"Para garantizar la máxima fluidez, aunque disminuya la seguridad.",
+"Para garantizar la máxima seguridad, aunque disminuya la fluidez"
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 4,
+"imagen": "dgt_e260_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 359,
+"enunciado": "El consumo de drogas de abuso o ilegales, ¿puede alterar la percepción del riesgo?",
+"opciones": [
+"Sí, aumenta y el conductor percibe mejor las situaciones de riesgo.",
+"Sí, disminuye y el conductor percibe peor las situaciones de riesgo.",
+"No; el consumo de drogas no altera la percepción del riesgo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 3,
+"imagen": "dgt_e260_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 360,
+"enunciado": "Para incorporarse a la circulación, ¿se puede dar marcha atrás?",
+"opciones": [
+"Sí, es una de las maniobras en las que está permitido.",
+"No, en ningún caso.",
+"Sí, pero solo en vías urbanas."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 6,
+"imagen": "dgt_e260_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 361,
+"enunciado": "Una vez iniciado el adelantamiento, se producen circunstancias que hacen difícil su finalización sin provocar riesgos; ¿qué está obligado a hacer el conductor?",
+"opciones": [
+"Aumentar la velocidad para finalizar el adelantamiento.",
+"Advertir del riesgo al vehículo al que pretende adelantar para que detenga su marcha.",
+"Reducir la velocidad y regresar a su carril sin obstaculizar."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 6,
+"imagen": "dgt_e260_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 362,
+"enunciado": "En los lugares donde se impida la visibilidad de la señalización a los usuarios a quienes les afecta está prohibido...",
+"opciones": [
+"parar, pero está permitido estacionar.",
+"estacionar, pero está permitido parar.",
+"parar y estacionar."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 5,
+"imagen": "dgt_e260_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 363,
+"enunciado": "Un conductor con sueño...",
+"opciones": [
+"tarda menos tiempo en reaccionar.",
+"analiza situaciones de tráfico complejas en menos tiempo.",
+"tarda más tiempo en reaccionar."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 1,
+"imagen": "dgt_e260_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 364,
+"enunciado": "Los sistemas de navegación, ¿pueden ayudarnos a controlar la velocidad de circulación?",
+"opciones": [
+"Solo cuando se circula a velocidades superiores a 100 km/h.",
+"No, los sistemas de navegación no ayudan a controlar la velocidad.",
+"Sí, aunque la principal fuente de información debe de ser siempre el velocímetro."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 4,
+"imagen": "dgt_e260_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 365,
+"enunciado": "En un turismo, ¿cuántos chalecos reflectantes es obligatorio llevar?",
+"opciones": [
+"Uno.",
+"Dos: uno para el conductor y otro para el acompañante.",
+"Uno por cada plaza autorizada de que disponga el vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 7,
+"imagen": "dgt_e260_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 366,
+"enunciado": "Queda atascado con su turismo en una zona de barro donde patinan las ruedas motrices. ¿Cuál es la forma más adecuada de actuar para seguir circulando?",
+"opciones": [
+"Pisar a fondo el pedal acelerador para conseguir mayor tracción en las ruedas y así lograr mayor adherencia",
+"Preparar un terreno estable colocando el material adecuado cerca de las ruedas motrices para que estas tengan la adherencia suficiente.",
+"Empujar el vehículo por uno de los laterales hacia una mejor superficie con adherencia."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 6,
+"imagen": "dgt_e260_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 367,
+"enunciado": "Si el pasajero de una motocicleta no utiliza el casco de protección, la responsabilidad es del...",
+"opciones": [
+"conductor.",
+"pasajero.",
+"titular del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 2,
+"imagen": "dgt_e260_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 368,
+"enunciado": "¿Qué precaución puede adoptar para evitar el riesgo de atropello a ciclistas?",
+"opciones": [
+"Iniciar un adelantamiento cuando se acerque un grupo de ciclistas en sentido contrario.",
+"Utilizar señales luminosas para avisar de su propósito de adelantarles.",
+"No hacer señales acústicas cerca de ellos."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 5,
+"imagen": "dgt_e260_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 369,
+"enunciado": "El seguro de suscripción obligatoria, ¿cubre los daños causados al conductor no culpable de un accidente?",
+"opciones": [
+"Sí, los daños personales, pero no los materiales.",
+"Sí, tanto los daños personales como los materiales.",
+"No, ni los daños personales ni los materiales."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 1,
+"imagen": "dgt_e260_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 370,
+"enunciado": "Si su permiso de conducir tiene un año de antigüedad, ¿cuál es tasa máxima permitida de alcohol?",
+"opciones": [
+"0,25 miligramos por litro de aire espirado.",
+"0,30 miligramos por litro de aire espirado.",
+"0,15 miligramos por litro de aire espirado."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"tema_id": 3,
+"imagen": "dgt_e260_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 260,
+"examen_fecha": "Diciembre 2021",
+"examen_anio": 2021,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 371,
+"enunciado": "Esta señal indica que se acerca a un cruce...",
+"opciones": [
+"Sin preferencia de paso.",
+"Con preferencia de paso.",
+"Con un vía estrecha."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 5,
+"imagen": "dgt_e261_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 1
+},
+{
+"id": 372,
+"enunciado": "¿Influye la velocidad en el campo visual del conductor?",
+"opciones": [
+"Sí; el campo visual disminuye al aumentar la velocidad.",
+"No.",
+"Sí; el campo visual se amplía al aumentar la velocidad."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 4,
+"imagen": "dgt_e261_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 2
+},
+{
+"id": 373,
+"enunciado": "A una vía así señalizada, ¿qué vehículos no pueden acceder?",
+"opciones": [
+"Turismos.",
+"Bicicletas.",
+"Motocicletas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 5,
+"imagen": "dgt_e261_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 3
+},
+{
+"id": 374,
+"enunciado": "Tomar un café o un té, ¿son estrategias eficaces para reducir la tasa de alcoholemia?",
+"opciones": [
+"No.",
+"Sí.",
+"No, pero masticar café en grano sí reduce la tasa de alcoholemia."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 3,
+"imagen": "dgt_e261_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 4
+},
+{
+"id": 375,
+"enunciado": "El accidente más frecuente por el uso del teléfono móvil mientras se conduce es...",
+"opciones": [
+"La salida de la vía.",
+"El choque frontolateral.",
+"Al alcance."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 1,
+"imagen": "dgt_e261_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 5
+},
+{
+"id": 376,
+"enunciado": "¿Por qué es aconsejable circular en vías urbanas respetando en todo momento la velocidad establecida para cada tramo de vía?",
+"opciones": [
+"Porque el motor del vehículo consume menos combustible si trabaja a altas revoluciones.",
+"Porque las multas por exceso de velocidad en vías urbanas son más caras que en vías interurbanas.",
+"Porque la mayoría de los atropellos con muerte del peatón se producen en vías urbanas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 7,
+"imagen": "dgt_e261_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 6
+},
+{
+"id": 377,
+"enunciado": "El efecto submarino, que en un accidente de tráfico puede provocar graves lesiones al conductor, está relacionado con...",
+"opciones": [
+"Una incorrecta presión de los neumáticos.",
+"Un mal uso del cinturón de seguridad.",
+"Un consumo excesivo de alcohol, medicamentos o drogas de abuso."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 3,
+"imagen": "dgt_e261_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 7
+},
+{
+"id": 378,
+"enunciado": "En este caso en que la señalización se contradice, prevalece la señal...",
+"opciones": [
+"Más restrictiva.",
+"Realizada con el brazo",
+"Luminosa."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 5,
+"imagen": "dgt_e261_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 8
+},
+{
+"id": 379,
+"enunciado": "En una vía urbana de sentido único, está permitido estacionar en el lado...",
+"opciones": [
+"Derecho.",
+"Derecho o izquierdo, fuera de la calzada o del arcén.",
+"Derecho o izquierdo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 6,
+"imagen": "dgt_e261_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 9
+},
+{
+"id": 380,
+"enunciado": "Si aún no ha salido el sol pero existe buena visibilidad, ¿qué alumbrado debe utilizar si circula por una vía interurbana?",
+"opciones": [
+"El alumbrado de posición y el de corto alcance.",
+"Ninguno.",
+"El alumbrado de posición, únicamente."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 7,
+"imagen": "dgt_e261_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 10
+},
+{
+"id": 381,
+"enunciado": "En caso de existir niebla espesa, además de reducir la visibilidad, ¿puede disminuir la adherencia de los neumáticos sobre la calzada?",
+"opciones": [
+"Sí, pero solamente en caso de frenar bruscamente.",
+"No, la adherencia de los neumáticos solamente disminuye cuando llueve.",
+"Sí, debido a que la niebla humedece la calzada haciéndola más deslizante."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 7,
+"imagen": "dgt_e261_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 11
+},
+{
+"id": 382,
+"enunciado": "¿Qué debe hacer cuando vaya a adelantar a un ciclista que lleva un pasajero?",
+"opciones": [
+"Aumentar la precaución ya que la bicicleta se puede desestabilizar con mayor facilidad.",
+"Aumentar la velocidad y circular lo más cerca posible del borde derecho de la calzada.",
+"Hacer señales acústicas al llegar a su altura para advertir de nuestra presencia."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 5,
+"imagen": "dgt_e261_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 12
+},
+{
+"id": 383,
+"enunciado": "Si un agente de tráfico, desde su vehículo, le ordena detenerse mediante el encendido de un dispositivo con una luz amarilla intermitente hacia delante, ¿dónde deberá hacerlo?",
+"opciones": [
+"En el lado derecho de la calzada, detr s del veh culo policial.",
+"Donde no genere mayores riesgos ni molestias para el resto de usuarios.",
+"En el lado izquierdo de la calzada, delante del veh culo policial."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 6,
+"imagen": "dgt_e261_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 13
+},
+{
+"id": 384,
+"enunciado": "Si conduce con frecuencia y consume antihistamínicos para tratar una alergia respiratoria, es conveniente...",
+"opciones": [
+"Utilizar antihistamínicos no sedantes, que no producen somnolencia.",
+"Tomar alguna bebida alcohólica para evitar la aparición del sueño.",
+"Viajar al atardecer o al amanecer, ya que hay menos polen en el aire."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 3,
+"imagen": "dgt_e261_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 14
+},
+{
+"id": 385,
+"enunciado": "Situado en un vehículo, ¿qué identifica la señal V-25 Distintivo ambiental?",
+"opciones": [
+"Su clasificación ambiental en función de su nivel de emisiones y combustible empleado.",
+"El tipo de combustible empleado y su nivel de radiación atmosférica.",
+"Su clasificación ambiental en función de su nivel de contaminación acústica."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"tema_id": 7,
+"imagen": "dgt_e261_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 261,
+"examen_fecha": "Marzo2022",
+"examen_anio": 2022,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 15
+},
+{
+"id": 386,
+"enunciado": "El conductor de un turismo se ve obligado a realizar el traslado de un enfermo en servicio de urgencia; ¿qué luces debe llevar encendidas?",
+"opciones": [
+"Las de emergencia.",
+"Las largas.",
+"Las de posición."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 7,
+"imagen": "dgt_e262_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 1
+},
+{
+"id": 387,
+"enunciado": "En este cruce, ¿qué se debe hacer?",
+"opciones": [
+"Detenerse solo si se aproximan vehículos por la derecha.",
+"Detenerse y ceder el paso a todos los vehículos que se aproximen por ambos lados.",
+"Detenerse solo si se aproximan vehículos por la izquierda."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 6,
+"imagen": "dgt_e262_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 2
+},
+{
+"id": 388,
+"enunciado": "El carril izquierdo está abierto en sentido contrario al habitual; ¿a qué velocidad máxima pueden circular los vehículos que circulan por el carril derecho?",
+"opciones": [
+"A la velocidad máxima de la vía, 120 km/h.",
+"A 60 km/h.",
+"A 80 km/h."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 4,
+"imagen": "dgt_e262_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 3
+},
+{
+"id": 389,
+"enunciado": "¿Está permitido circular por una autovía por debajo del límite mínimo de velocidad establecido para dicha vía sin causa justificada",
+"opciones": [
+"No, porque es una velocidad anormalmente reducida.",
+"Sí, aunque es obligatorio circular por el arcén.",
+"Solo si no se entorpece la marcha normal de otros vehículos."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 1,
+"imagen": "dgt_e262_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 4
+},
+{
+"id": 390,
+"enunciado": "Una cuadrícula de marcas amarillas pintada en el suelo indica...",
+"opciones": [
+"que no se puede franquear la intersección.",
+"que no se debe entrar en la intersección si se puede quedar detenido en ella, obstaculizando la circulación.",
+"que el estacionamiento está prohibido."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 6,
+"imagen": "dgt_e262_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 5
+},
+{
+"id": 391,
+"enunciado": "El conductor de un vehículo extiende el brazo horizontalmente con la palma de la mano hacia atrás, ¿qué indica?",
+"opciones": [
+"Que va a girar a la izquierda.",
+"Que va a circular marcha atrás.",
+"Que tiene intención de inmovilizar el vehículo o de frenar su marcha de modo considerable."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 6,
+"imagen": "dgt_e262_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 6
+},
+{
+"id": 392,
+"enunciado": "Entre los gastos sanitarios derivados de los accidentes de tráfico con víctimas se encuentran...",
+"opciones": [
+"los derivados por la pérdida de producción de personas empleadas.",
+"los daños causados al medio ambiente.",
+"los de rehabilitación en centros de salud."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 6,
+"imagen": "dgt_e262_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 7
+},
+{
+"id": 393,
+"enunciado": "En general, un conductor con estrés...",
+"opciones": [
+"se distrae con mayor facilidad.",
+"toma decisiones más rápidas y comete menos errores.",
+"presta mayor atención al entorno y tarda más en tomar decisiones."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 1,
+"imagen": "dgt_e262_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 8
+},
+{
+"id": 394,
+"enunciado": "En caso de contradicción entre señales del mismo tipo, ¿cuál prevalecerá?",
+"opciones": [
+"La menos restrictiva.",
+"La más restrictiva.",
+"Ninguna de las señales."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 5,
+"imagen": "dgt_e262_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 9
+},
+{
+"id": 395,
+"enunciado": "Una persona provista de un certificado médico que le exima de utilizar los sistemas de retención del vehículo, ¿está obligada a llevar abrochado el cinturón de seguridad?",
+"opciones": [
+"Sí.",
+"No.",
+"Únicamente fuera de poblado."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 7,
+"imagen": "dgt_e262_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 10
+},
+{
+"id": 396,
+"enunciado": "Debido a una retención de circulación tiene que reducir, de modo considerable, la velocidad de su vehículo. ¿Debe advertir, siempre que sea posible, a los vehículos que circulan detrás?",
+"opciones": [
+"Sí, con el empleo de la luz de emergencia.",
+"Sí, con el empleo reiterado de las luces de frenado o moviendo el brazo alternativamente de arriba a abajo.",
+"No, está prohibido hacer advertencias, ya que pueden crear confusión."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 4,
+"imagen": "dgt_e262_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 11
+},
+{
+"id": 397,
+"enunciado": "En vías urbanas de doble sentido de circulación, ¿en qué lado de la calzada puede estacionar un turismo?",
+"opciones": [
+"A ambos lados cuando la línea de separación de los sentidos sea discontinua.",
+"En el lado izquierdo de la calzada en el sentido de la marcha.",
+"En el lado derecho de la calzada en el sentido de la marcha."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 1,
+"imagen": "dgt_e262_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 12
+},
+{
+"id": 398,
+"enunciado": "Si no está implicado en un accidente, ¿debe prestar auxilio a los heridos?",
+"opciones": [
+"Solo si lo solicita algún herido.",
+"No.",
+"Sí, salvo que la ayuda ya esté organizada."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 6,
+"imagen": "dgt_e262_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 13
+},
+{
+"id": 399,
+"enunciado": "En una autovía, el límite de velocidad para una motocicleta es de...",
+"opciones": [
+"120 km/h, pudiéndose superar en 20 km/h para adelantar.",
+"120 km/h.",
+"100 km/h."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 4,
+"imagen": "dgt_e262_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 14
+},
+{
+"id": 400,
+"enunciado": "La velocidad, ¿es un factor de riesgo que produce accidentes?",
+"opciones": [
+"No, si el vehículo dispone de los últimos sistemas de seguridad.",
+"No; solo agrava las consecuencias del accidente pero no es un factor de riesgo.",
+"Sí, y por eso debe ser la adecuada en cada momento."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"tema_id": 4,
+"imagen": "dgt_e262_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 262,
+"examen_fecha": "Junio 2022",
+"examen_anio": 2022,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 15
+},
+{
+"id": 401,
+"enunciado": "¿Qué alumbrado deberá mantener encendido un vehículo estacionado durante la noche en el arcén de una travesía insuficientemente iluminada?",
+"opciones": [
+"Ninguno, ya que es un estacionamiento dentro de poblado.",
+"Las luces de largo alcance y las luces de emergencia.",
+"Las luces de posición, que podrá sustituir por las de estacionamiento."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 7,
+"imagen": "dgt_e263_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 402,
+"enunciado": "¿Qué usuarios deben obedecer el semáforo de la fotografía?",
+"opciones": [
+"Los conductores de todos los vehículos de dos ruedas.",
+"Los conductores de bicicletas y de ciclomotores.",
+"Los peatones y los conductores de bicicletas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 1,
+"imagen": "dgt_e263_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 403,
+"enunciado": "Cuando está lloviendo, ¿qué presión deben tener los neumáticos?",
+"opciones": [
+"Mayor que la aconsejada por el fabricante.",
+"Menor que la aconsejada por el fabricante.",
+"La presión aconsejada por el fabricante."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 7,
+"imagen": "dgt_e263_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 404,
+"enunciado": "¿Existe relación entre consumo de drogas de abuso o ilegales y accidentes de tráfico?",
+"opciones": [
+"Sí; las drogas alteran gravemente las capacidades necesarias para conducir.",
+"Solo cuando el conductor mezcla el consumo de drogas con el de alcohol.",
+"No; la conducción es más segura cuando se consumen drogas de abuso."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 3,
+"imagen": "dgt_e263_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 405,
+"enunciado": "En un carril VAO, ¿puede circular un turismo que arrastra un remolque de menos de 750 kg de M.M.A.?",
+"opciones": [
+"Sí, pero solo de día.",
+"No.",
+"Sí, siempre."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 6,
+"imagen": "dgt_e263_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 406,
+"enunciado": "Una embarazada, ¿debe llevar puesto el cinturón de seguridad?",
+"opciones": [
+"Sí, pero solo en vías interurbanas.",
+"Sí, es obligatorio.",
+"No, no es obligatorio."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 7,
+"imagen": "dgt_e263_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 407,
+"enunciado": "Con esta señalización, ¿a qué velocidad debe circular?",
+"opciones": [
+"Al menos a 30 km/h.",
+"Obligatoriamente a 30 km/h.",
+"A 30 km/h, como recomendación, durante el tramo que dure el peligro."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 4,
+"imagen": "dgt_e263_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 408,
+"enunciado": "Debido al deterioro psicofísico consecuencia del envejecimiento, ¿qué situaciones de tráfico ofrecen más dificultades a las personas mayores?",
+"opciones": [
+"Los giros a la izquierda, especialmente en vías urbanas.",
+"Los estacionamientos, sobre todo cuando se realizan a la derecha de la calzada.",
+"Las situaciones complejas, como incorporarse a una vía en la que se circula a alta velocidad."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 6,
+"imagen": "dgt_e263_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 409,
+"enunciado": "De las siguientes, ¿cuál es una obligación que corresponde al titular del vehículo?",
+"opciones": [
+"Verificar que las placas de matrícula del vehículo no presentan obstáculos que impidan su lectura.",
+"Identificar ante la Administración al conductor del vehículo en el momento de cometerse una infracción.",
+"Comprobar que todos los ocupantes del vehículo hacen uso del cinturón de seguridad."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 2,
+"imagen": "dgt_e263_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 410,
+"enunciado": "El conductor de un turismo, ¿qué debe hacer para incorporarse a la circulación?",
+"opciones": [
+"Solo señalizar la maniobra, porque los demás tienen que ceder el paso.",
+"Seguir siempre las indicaciones de otra persona.",
+"Asegurarse de que puede hacerlo sin peligro para los demás usuarios."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 6,
+"imagen": "dgt_e263_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 411,
+"enunciado": "Como mantenimiento preventivo, ¿es conveniente realizar una revisión periódica del sistema de alumbrado del vehículo?",
+"opciones": [
+"Sí, para comprobar su correcto reglado y funcionamiento.",
+"No, salvo en los vehículos que disponen de un sistema regulador automático.",
+"No, solamente, cuando lleve sobrecarga porque podrían producirse cambios de inclinación del alcance luminoso."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 7,
+"imagen": "dgt_e263_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 412,
+"enunciado": "Siempre que exista espacio suficiente y adoptando las máximas precauciones, está permitido adelantar por la derecha...",
+"opciones": [
+"en vías interurbanas, en las intersecciones y sus proximidades.",
+"en autopistas y autovías que discurran exclusivamente dentro de poblado.",
+"en vías urbanas con dos o más carriles delimitados por líneas longitudinales."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 6,
+"imagen": "dgt_e263_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 413,
+"enunciado": "En caso de estar implicado en un accidente, ¿debe detenerse para ayudar a restablecer la seguridad de la circulación?",
+"opciones": [
+"No, esa tarea corresponde a la policía de tráfico.",
+"Sí, en la medida de lo posible.",
+"Solo si hay fallecidos o heridos graves."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 6,
+"imagen": "dgt_e263_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 414,
+"enunciado": "Si conduce una motocicleta por una autovía con tres o más carriles, ¿le está permitido circular por el carril situado más a la izquierda?",
+"opciones": [
+"Sí, cuando las circunstancias del tráfico o la vía lo aconsejen.",
+"Solo cuando la circulación se encuentre saturada.",
+"No, solo puede utilizar los carriles derecho y central."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 1,
+"imagen": "dgt_e263_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 415,
+"enunciado": "Si conduce una motocicleta, ¿es aconsejable utilizar guantes?",
+"opciones": [
+"Sí; su uso es obligatorio en todo tipo de vías.",
+"Sí, incluso en verano, para proteger las manos en caso de caída.",
+"No, porque pueden dificultar la conducción."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"tema_id": 1,
+"imagen": "dgt_e263_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 263,
+"examen_fecha": "Octubre 2022",
+"examen_anio": 2022,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 416,
+"enunciado": "La señal indica que...",
+"opciones": [
+"está en un callejón sin salida y debe retroceder.",
+"está prohibido pasar sin detenerse.",
+"se aproxima a una elevación del terreno."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 5,
+"imagen": "dgt_e264_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 417,
+"enunciado": "¿Para qué sirve el carril de deceleración?",
+"opciones": [
+"Para que circulen los vehículos lentos.",
+"Para adelantar por la derecha.",
+"Para reducir la velocidad al salir de una autopista."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 4,
+"imagen": "dgt_e264_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 418,
+"enunciado": "En una vía interurbana insuficientemente iluminada, un turismo circula a menos de 40 km/h; ¿puede circular utilizando solo la luz de posición y la de corto alcance?",
+"opciones": [
+"Sí, aunque puede encender la de largo alcance si no deslumbra a otros usuarios.",
+"No; es obligatorio que circule con la luz de largo alcance encendida.",
+"Solo cuando circule por una travesía."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 4,
+"imagen": "dgt_e264_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 419,
+"enunciado": "Las marcas blancas y rojas de la calzada, ¿qué indican?",
+"opciones": [
+"Una zona reservada para la salida de competiciones de coches.",
+"Una zona reservada para el estacionamiento de camiones.",
+"Una zona reservada para frenado de emergencia, donde no se puede parar ni estacionar."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 6,
+"imagen": "dgt_e264_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 420,
+"enunciado": "¿Es recomendable tener especial cuidado al adelantar a un grupo de ciclistas en los ascensos prolongados?",
+"opciones": [
+"No; los adelantamientos a ciclistas no implican riesgo alguno.",
+"Solo si algún ciclista va bebiendo algún líquido o tomando alimentos sólidos.",
+"Sí, porque debido al esfuerzo y pedaleo pueden realizar cambios bruscos de trayectoria."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 6,
+"imagen": "dgt_e264_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 421,
+"enunciado": "Un agente circula en una moto portando una bandera verde; ¿qué indica?",
+"opciones": [
+"La calzada está abierta, pero hay que extremar la atención.",
+"La calzada queda de nuevo abierta al tráfico a partir de su paso.",
+"Se está desarrollando en la calzada una actividad deportiva."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 1,
+"imagen": "dgt_e264_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 422,
+"enunciado": "En general, bajo los efectos de la cocaína...",
+"opciones": [
+"aumenta la capacidad de concentración del conductor.",
+"disminuye la capacidad de concentración del conductor.",
+"se percibe mejor el entorno y se toman decisiones más seguras."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 3,
+"imagen": "dgt_e264_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 423,
+"enunciado": "Cuando la carga sobresale de un vehículo, ¿es obligatorio señalizarla con el panel de la imagen?",
+"opciones": [
+"No, excepto para los vehículos destinados al transporte de mercancías.",
+"Solo es obligatorio si la carga sobresale por la parte trasera.",
+"Sí, para todo tipo de vehículos, pero solo cuando la carga sea indivisible."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 5,
+"imagen": "dgt_e264_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 424,
+"enunciado": "Buscar una emisora de radio o manipular el reproductor de música, ¿pueden distraer al conductor?",
+"opciones": [
+"No.",
+"Solo si las emisoras de radio no están guardadas en memoria.",
+"Sí, aumentando el riesgo de accidente."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 1,
+"imagen": "dgt_e264_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 425,
+"enunciado": "En una vía urbana con un carril en cada sentido, deberá circular...",
+"opciones": [
+"lo más cerca posible del borde derecho de la calzada.",
+"por la zona que mejor convenga.",
+"por el centro de la calzada, en tramos rectos."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 1,
+"imagen": "dgt_e264_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 426,
+"enunciado": "Un conductor circula por una calzada muy mojada; si para frenar necesita pisar a fondo el pedal de freno, ¿a qué puede ser debido, principalmente?",
+"opciones": [
+"A un fallo del sistema de frenos.",
+"A que el sistema ABS necesita una revisión.",
+"Al enfriamiento excesivo de los discos de freno."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 7,
+"imagen": "dgt_e264_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 427,
+"enunciado": "Esta marca transversal continua, ¿está permitido franquearla sin detenerse antes?",
+"opciones": [
+"No, nunca.",
+"Sí, cuando haya peatones.",
+"Sí, cuando no sea obligatoria la detención."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 1,
+"imagen": "dgt_e264_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 428,
+"enunciado": "Normalmente, ¿qué ocurre cuando un conductor sufre una distracción al volante?",
+"opciones": [
+"Enciende las luces de emergencia o pisa el pedal de freno reiteradamente.",
+"Pisa el pedal de freno en lugar del acelerador.",
+"Tarda más tiempo en reaccionar ante una situación de riesgo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 7,
+"imagen": "dgt_e264_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 429,
+"enunciado": "En una vía con un carril para cada sentido de la marcha, ¿está permitido que un conductor adelante a varios vehículos a la vez?",
+"opciones": [
+"No, en ningún caso.",
+"Solo si puede volver a la derecha sin causar peligro en caso de encontrar vehículos de frente.",
+"Sí, siempre que adelante a vehículos de grandes dimensiones."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 1,
+"imagen": "dgt_e264_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 430,
+"enunciado": "Un peatón, ¿puede estar obligado a realizar una prueba de alcoholemia?",
+"opciones": [
+"Sí, cuando esté implicado directamente como posible responsable de un accidente.",
+"Sí, en un control preventivo de alcoholemia.",
+"No, en ningún caso."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"tema_id": 3,
+"imagen": "dgt_e264_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 264,
+"examen_fecha": "Diciembre 2022",
+"examen_anio": 2022,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 431,
+"enunciado": "Si un conductor se encuentra esta señal, debe saber que en la próxima intersección...",
+"opciones": [
+"tiene prioridad sobre los vehículos que se acerquen tanto por la derecha como por la izquierda.",
+"se aplica la regla general de prioridad de paso.",
+"debe ceder el paso a los vehículos que se acerquen tanto por la derecha como por la izquierda."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 6,
+"imagen": "dgt_e265_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 1
+},
+{
+"id": 432,
+"enunciado": "En un viaje largo es aconsejable descansar...",
+"opciones": [
+"siempre que se encuentre un área de descanso.",
+"cada 2 horas aproximadamente.",
+"cada 5 horas aproximadamente."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 1,
+"imagen": "dgt_e265_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 2
+},
+{
+"id": 433,
+"enunciado": "La señal de velocidad máxima pintada sobre un carril, ¿qué indica?",
+"opciones": [
+"Prohibido circular a más de 60 kilómetros por hora en todos los carriles.",
+"Prohibido circular a más de 60 kilómetros por hora en ese carril.",
+"Prohibido circular a más de 60 kilómetros por hora para los vehículos que van a girar a la derecha."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 4,
+"imagen": "dgt_e265_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 3
+},
+{
+"id": 434,
+"enunciado": "El conductor de un vehículo de distribución de mercancías ¿cuándo podrá circular por vía urbana sin utilizar el cinturón de seguridad?",
+"opciones": [
+"En trayectos cortos, cuando realice sucesivas operaciones de carga y descarga.",
+"En todo momento; en poblado no tiene obligación de utilizar el cinturón de seguridad.",
+"En ningún caso; siempre debe utilizar el cinturón de seguridad."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 1,
+"imagen": "dgt_e265_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 4
+},
+{
+"id": 435,
+"enunciado": "Si un vehículo estacionado se incorpora a la circulación, ¿tiene prioridad para realizar la maniobra?",
+"opciones": [
+"Sí, en cualquier caso.",
+"Sí, si lo ha señalizado previamente.",
+"No."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 6,
+"imagen": "dgt_e265_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 5
+},
+{
+"id": 436,
+"enunciado": "Esta señal indica la situación de un lugar donde se puede...",
+"opciones": [
+"estacionar el vehículo cuando está averiado.",
+"realizar una parada para descansar.",
+"apartar el vehículo en un túnel para dejar libre el paso."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 5,
+"imagen": "dgt_e265_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 6
+},
+{
+"id": 437,
+"enunciado": "¿Cómo se llama la distancia que recorre un vehículo desde que el conductor percibe un estímulo hasta que se responde al mismo?",
+"opciones": [
+"Distancia de frenado.",
+"Distancia de reacción.",
+"Distancia de detención."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 1,
+"imagen": "dgt_e265_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 7
+},
+{
+"id": 438,
+"enunciado": "¿Cuál es, como norma general, la velocidad máxima a la que le está permitido circular a un turismo por una carretera convencional?",
+"opciones": [
+"80 km/h.",
+"100 km/h.",
+"90 km/h."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 4,
+"imagen": "dgt_e265_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 8
+},
+{
+"id": 439,
+"enunciado": "Dos vehículos del mismo tipo se encuentran justo en la mitad de este estrechamiento, en el que la prioridad no está señalizada. ¿Cuál de ellos tendrá preferencia de paso?",
+"opciones": [
+"El vehículo que tenga que dar marcha atrás una menor distancia.",
+"El vehículo que tenga que dar marcha atrás mayor distancia.",
+"El vehículo que tenga mayor longitud, anchura o masa máxima autorizada."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 6,
+"imagen": "dgt_e265_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 9
+},
+{
+"id": 440,
+"enunciado": "Cuando no se puede circular hacia adelante ni cambiar de dirección o sentido de la marcha, ¿se permite circular marcha atrás?",
+"opciones": [
+"Sí, pero solo con el recorrido mínimo indispensable.",
+"Sí, pero el recorrido hacia atrás no puede ser superior a 15 metros ni se puede invadir un cruce de vías.",
+"No."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 6,
+"imagen": "dgt_e265_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 10
+},
+{
+"id": 441,
+"enunciado": "Si ha instalado en su vehículo neumáticos de invierno, ¿es conveniente sustituirlos cuando las temperaturas comiencen a ser más cálidas?",
+"opciones": [
+"Sí, porque cuando la temperatura es más cálida se desgastan con más rapidez.",
+"No, porque se adaptan progresivamente a los cambios de temperatura.",
+"Sí, porque en tiempo cálido disminuye considerablemente la distancia de frenado."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 7,
+"imagen": "dgt_e265_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 11
+},
+{
+"id": 442,
+"enunciado": "En una travesía, ¿está permitido circular con la luz de largo alcance encendida?",
+"opciones": [
+"No.",
+"Sí, en travesías insuficientemente iluminadas.",
+"Sólo si se circula a una velocidad superior a los 40 km/h."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 4,
+"imagen": "dgt_e265_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 12
+},
+{
+"id": 443,
+"enunciado": "¿Está permitido que las motocicletas circulen por un carril reservado para vehículos con alta ocupación (VAO)?",
+"opciones": [
+"No.",
+"Solo si lleva algún ocupante, además del conductor.",
+"Sí."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 6,
+"imagen": "dgt_e265_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 13
+},
+{
+"id": 444,
+"enunciado": "El alcohol desaparece de la sangre...",
+"opciones": [
+"rápidamente, eliminándose por completo una hora después de su consumo.",
+"inmediatamente después de su consumo a través del sudor y de la orina.",
+"muy lentamente, eliminándose por completo varias horas después de su consumo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 3,
+"imagen": "dgt_e265_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 14
+},
+{
+"id": 445,
+"enunciado": "¿Es seguro conducir después de haber consumido anfetaminas?",
+"opciones": [
+"No.",
+"Sí, porque son relajantes y retrasan la aparición del sueño.",
+"Solo si se consumen acompañadas de alguna bebida alcohólica."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"tema_id": 3,
+"imagen": "dgt_e265_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 265,
+"examen_fecha": "Marzo 2023",
+"examen_anio": 2023,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 15
+},
+{
+"id": 446,
+"enunciado": "Los conductores de turismos, ¿están obligados a llevar en su vehículo una rueda de uso temporal y las herramientas indispensables para su cambio?",
+"opciones": [
+"No, ya que puede sustituirse por un sistema alternativo que permita la movilidad.",
+"Es obligatorio llevar una rueda de uso temporal, pero no las herramientas para su cambio.",
+"Sí, es un repuesto obligatorio e insustituible que deben llevar todos los turismos."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 1,
+"imagen": "dgt_e266_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 1
+},
+{
+"id": 447,
+"enunciado": "Los conductores, ¿pueden llevar en los oídos cascos o auriculares conectados a un teléfono móvil mientras conducen?",
+"opciones": [
+"No, excepto los conductores de bicicletas y los de vehículos de movilidad personal.",
+"Sí, siempre que los auriculares sean inalámbricos.",
+"No, está prohibido como norma general."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 7,
+"imagen": "dgt_e266_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 2
+},
+{
+"id": 448,
+"enunciado": "Los accidentes de tráfico en los que el sueño es el principal factor de riesgo, ¿pueden suceder durante las horas diurnas?",
+"opciones": [
+"Sí, especialmente entre las dos y las cuatro de la tarde.",
+"Sí, aunque es un tipo de accidente que solo sufren los conductores profesionales.",
+"No, solo suceden durante las horas nocturnas."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 1,
+"imagen": "dgt_e266_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 3
+},
+{
+"id": 449,
+"enunciado": "La obligación de dejar espacio suficiente para permitir el adelantamiento no será aplicable...",
+"opciones": [
+"donde esté prohibido el adelantamiento.",
+"en carreteras convencionales.",
+"en vías con un único carril para cada sentido."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 6,
+"imagen": "dgt_e266_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 4
+},
+{
+"id": 450,
+"enunciado": "Los conductores de bicicletas tienen prioridad de paso respecto a los vehículos de motor...",
+"opciones": [
+"en las zonas peatonales debidamente señalizadas.",
+"en todas las intersecciones.",
+"cuando circulen por un paso para ciclistas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 1,
+"imagen": "dgt_e266_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 5
+},
+{
+"id": 451,
+"enunciado": "¿Qué debe llevar todo peatón que transite de noche por el arcén de una vía fuera de poblado?",
+"opciones": [
+"Un catadióptrico amarillo que pueda verse a una distancia mínima de 50 metros.",
+"Un teléfono móvil.",
+"Un elemento luminoso o reflectante que sea visible a una distancia mínima de 150 metros."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 1,
+"imagen": "dgt_e266_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 6
+},
+{
+"id": 452,
+"enunciado": "Consumir alcohol con el estómago lleno, ¿influye en la tasa de alcoholemia?",
+"opciones": [
+"Sí; el alcohol se absorbe más lentamente, pero esto no evita el riesgo de accidente.",
+"Sí; el alcohol se absorbe más rápidamente, por lo que la tasa de alcoholemia es mayor.",
+"No; es un factor que no influye en la tasa de alcoholemia."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 3,
+"imagen": "dgt_e266_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 7
+},
+{
+"id": 453,
+"enunciado": "Además de estar regulado a la altura idónea, ¿qué separación debe existir entre el reposacabezas y la cabeza para que sea eficaz?",
+"opciones": [
+"La mínima posible y nunca superior a 4 centímetros.",
+"La máxima posible y nunca inferior a 5 centímetros.",
+"Superior a 10 centímetros."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 7,
+"imagen": "dgt_e266_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 8
+},
+{
+"id": 454,
+"enunciado": "Como norma general, en una vía interurbana de doble sentido de la circulación está permitido parar fuera de la calzada...",
+"opciones": [
+"en el lado izquierdo y dejando libre la parte transitable del arcén.",
+"en el lado derecho y dejando libre la parte transitable del arcén.",
+"en el lado derecho y sobre la parte transitable del arcén."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 1,
+"imagen": "dgt_e266_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 9
+},
+{
+"id": 455,
+"enunciado": "Si un conductor novel presenta una tasa del alcohol en aire espirado de 0,20 miligramos por litro, el agente de tráfico, ¿le realizará una segunda prueba de alcoholemia?",
+"opciones": [
+"No; para ello debe tener una tasa superior a 0,25 miligramos por litro.",
+"Solo si está implicado directamente en un accidente de circulación.",
+"Sí, para una mayor garantía y a efectos de contraste."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 3,
+"imagen": "dgt_e266_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 10
+},
+{
+"id": 456,
+"enunciado": "Circula con un turismo que arrastra un remolque de menos de 750 kg. de M.M.A. en el que transporta mercancías. En cuanto a la distribución de la carga, ¿debe tomar precauciones especiales?",
+"opciones": [
+"Sí, la carga debe estar bien distribuida e ir bien sujeta para evitar que se desplace y pueda llegar a desestabilizar al vehículo.",
+"No, salvo que supere la masa máxima autorizada del remolque.",
+"Sí, debe situarse en la parte trasera del remolque para bajar el centro de gravedad y asegurar la estabilidad del vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 6,
+"imagen": "dgt_e266_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 11
+},
+{
+"id": 457,
+"enunciado": "Si padece una alergia respiratoria, ¿es conveniente circular con las ventanas del vehículo abiertas?",
+"opciones": [
+"Sí, para llevar bien ventilado el interior del vehículo.",
+"Solo en primavera.",
+"No."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 6,
+"imagen": "dgt_e266_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 12
+},
+{
+"id": 458,
+"enunciado": "¿Es necesario revisar el funcionamiento del sistema de alumbrado de un vehículo?",
+"opciones": [
+"Solo si el vehículo no lleva instaladas luces de xenón.",
+"No, no es necesario.",
+"Sí; forma parte del mantenimiento preventivo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 7,
+"imagen": "dgt_e266_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 13
+},
+{
+"id": 459,
+"enunciado": "En vías interurbanas, ¿cuál es la infracción más habitual que cometen los peatones víctimas de atropello?",
+"opciones": [
+"No respetar los semáforos.",
+"Estar o marchar por la calzada de forma antirreglamentaria.",
+"No obedecer las señales de los agentes."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"tema_id": 1,
+"imagen": "dgt_e266_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 266,
+"examen_fecha": "Junio 2023",
+"examen_anio": 2023,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 14
+},
+{
+"id": 460,
+"enunciado": "Cuando las indicaciones de un semáforo y una señal de balizamiento se contradicen, prevalece…",
+"opciones": [
+"La señal de balizamiento, por orden de prioridad.",
+"El semáforo.",
+"La señal más restrictiva."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 5,
+"imagen": "dgt_e267_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 461,
+"enunciado": "Al abandonar una autovía deberá…",
+"opciones": [
+"Reducir la velocidad de 60 km/h.",
+"Continuar por su carril hasta la salida.",
+"Circular por el carril de deceleración lo antes posible."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 4,
+"imagen": "dgt_e267_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 462,
+"enunciado": "El freno de pie, ¿sobre qué ruedas actúa?",
+"opciones": [
+"Sobre las ruedas delanteras.",
+"Sobre las cuatro ruedas.",
+"Sobre las ruedas motrices."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 7,
+"imagen": "dgt_e267_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 463,
+"enunciado": "En una autopista con tres carriles para el mismo sentido, normalmente, ¿cuál debe utilizar?",
+"opciones": [
+"Cualquiera de ellos.",
+"El central o el derecho, indistintamente.",
+"El derecho."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 6,
+"imagen": "dgt_e267_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 464,
+"enunciado": "Quiere girar a la derecha. ¿Cómo debe avisar a los demás conductores?",
+"opciones": [
+"Con las luces o con el claxon",
+"Con el intermitente o con el brazo",
+"Con el brazo o con el claxon."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 7,
+"imagen": "dgt_e267_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 465,
+"enunciado": "La lluvia, ¿afecta al agarre de las ruedas del vehículo a la calzada?",
+"opciones": [
+"No, el agarre es el mismo que cuando la calzada está seca.",
+"Sí, se agarran más a la calzada.",
+"Sí, se agarran menos."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 1,
+"imagen": "dgt_e267_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 466,
+"enunciado": "La señal a la izquierda de la fotografía indica que tienen prohibido adelantar…",
+"opciones": [
+"los turismos.",
+"los turismos y los camiones de menos de 3.500 kg.",
+"los camiones de más de 3.500 kg."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 5,
+"imagen": "dgt_e267_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 467,
+"enunciado": "Las señales azules, ¿qué indican?",
+"opciones": [
+"Que la autopista se termina.",
+"Que la autopista es de peaje.",
+"Los carriles para ir a otras carreteras o poblaciones."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 5,
+"imagen": "dgt_e267_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 468,
+"enunciado": "¿Qué debe hacer un peatón si, cuando va a cruzar una vía, se encuentra de frente a un agente con el brazo levantado verticalmente?",
+"opciones": [
+"Detenerse.",
+"Cruzar. Las señales de los agentes sólo obligan a los conductores de vehículos.",
+"Detenerse, excepto si un semáforo le da preferencia de paso, en cuyo caso debe cruzar."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 5,
+"imagen": "dgt_e267_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 469,
+"enunciado": "De los siguientes, ¿cuál es un síntoma característico de la aparición de la fatiga durante la conducción?",
+"opciones": [
+"Se distingue mejor la información relevante de la irrelevante.",
+"La disminución en el número de correcciones de la dirección",
+"El incremento de la agudeza visual."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 6,
+"imagen": "dgt_e267_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 470,
+"enunciado": "Tras la exposición prolongada de un vehículo a altas temperaturas y al calor, ¿es conveniente revisar si sus faros y pilotos han sufrido algún deterioro?",
+"opciones": [
+"Sí, para comprobar de forma visual su estado y capacidad de iluminación.",
+"No, ya que el acabado de los faros está hecho de un material que soporta todo tipo de factores sin deteriorarse.",
+"Sí, salvo en los vehículos de poca antigüedad."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 6,
+"imagen": "dgt_e267_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 471,
+"enunciado": "La tasa de alcoholemia en sangre más segura para circular es…",
+"opciones": [
+"0,0 gramos por litro.",
+"0,5 gramos por litro.",
+"0,3 gramos por litro."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 3,
+"imagen": "dgt_e267_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 472,
+"enunciado": "Sobrevalorar su capacidad de conducción o una menor percepción del riesgo son conductas que, en general, hacen que los conductores jóvenes…",
+"opciones": [
+"tengan menos probabilidad de sufrir un accidente.",
+"tengan más probabilidad de sufrir un accidente",
+"sean más prudentes al volante"
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 1,
+"imagen": "dgt_e267_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 473,
+"enunciado": "¿Está permitido que los vehículos prioritarios en servicio de urgencia utilicen únicamente la señal luminosa?",
+"opciones": [
+"Sí, cuando no suponga un peligro para los demás usuarios.",
+"No, tienen que utilizar simultáneamente la señal luminosa y la acústica",
+"Sólo en vías urbanas; en vías interurbanas deben usar siempre la señal acústica"
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"tema_id": 5,
+"imagen": "dgt_e267_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 267,
+"examen_fecha": "Octubre 2023",
+"examen_anio": 2023,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 474,
+"enunciado": "En idénticas situaciones de tráfico, el tiempo de reacción…",
+"opciones": [
+"puede variar en función del estado psicofísico del conductor.",
+"es siempre el mismo, no influye el estado psicofísico del conductor.",
+"es el mismo para todos los conductores."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 1,
+"imagen": "dgt_e268_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 475,
+"enunciado": "El color del casco de protección de un motorista, ¿puede influir en su seguridad?",
+"opciones": [
+"No.",
+"Sí; los de colores claros o brillantes hacen más visible al motorista.",
+"Sí; los de colores oscuros absorben mejor los impactos."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 7,
+"imagen": "dgt_e268_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 476,
+"enunciado": "La señal que se observa en la fotografía prohíbe…",
+"opciones": [
+"cambiar el sentido de la marcha y girar a la izquierda.",
+"girar a la izquierda.",
+"cambiar el sentido de la marcha."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 5,
+"imagen": "dgt_e268_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 477,
+"enunciado": "Antes de abrir las puertas para bajar de un vehículo, debe cerciorarse siempre de que…",
+"opciones": [
+"no se ocasiona peligro a otros usuarios.",
+"las luces de emergencia del vehículo están encendidas.",
+"se ha puesto el chaleco reflectante."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 7,
+"imagen": "dgt_e268_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 478,
+"enunciado": "En las intersecciones señalizadas, ¿cuál es la norma general que prevalece?",
+"opciones": [
+"Cumplir lo que la señal indica.",
+"Ceder el paso siempre a la derecha.",
+"Abstenerse del cumplimiento de la señalización."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 6,
+"imagen": "dgt_e268_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 479,
+"enunciado": "Si toma analgésicos narcóticos para tratar algún dolor intenso, lo más aconsejable es…",
+"opciones": [
+"conducir con normalidad, ya que no tienen efectos secundarios.",
+"conducir sólo de noche, ya que sus efectos secundarios son menores.",
+"no conducir durante el tratamiento."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 6,
+"imagen": "dgt_e268_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 480,
+"enunciado": "Respecto a la velocidad anormalmente reducida, ¿a qué velocidad mínima, salvo causa justificada, deberá circular una pick-up por una autovía?",
+"opciones": [
+"60 km/h.",
+"55 km/h.",
+"70 km/h."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 4,
+"imagen": "dgt_e268_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 481,
+"enunciado": "Al circular marcha atrás debe tener en cuenta que…",
+"opciones": [
+"no debe recorrer más de 10 metros.",
+"debe hacerlo con precaución, ya que pueden pasar personas por detrás del vehículo.",
+"tiene prioridad sobre los peatones."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 6,
+"imagen": "dgt_e268_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 482,
+"enunciado": "Si un conductor se niega a realizar las pruebas de detección alcohólica, los agentes de tráfico, ¿pueden inmovilizar su vehículo?",
+"opciones": [
+"Solo si presenta síntomas evidentes de haber consumido alcohol.",
+"No.",
+"Sí, y además está cometiendo un delito."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 3,
+"imagen": "dgt_e268_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 483,
+"enunciado": "¿Puede trasportar una carga indivisible que por sus dimensiones sobresalga lateralmente de la proyección en planta de una motocicleta?",
+"opciones": [
+"Sí, ya que, aunque sobresalga más de 1 metro no compromete su estabilidad.",
+"No, ya que dicha carga solamente puede sobresalir por la parte anterior y posterior.",
+"Sí, siempre que no sobresalga más de 0,50 metros por cada lado de su eje longitudinal."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 6,
+"imagen": "dgt_e268_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 484,
+"enunciado": "Si conduce una motocicleta y hay niebla ligera, ¿qué alumbrado debe utilizar, además del de posición?",
+"opciones": [
+"La luz antiniebla delantera, si la lleva, o la luz de corto o largo alcance.",
+"La luz antiniebla delantera y trasera, si las lleva, y la luz de corto alcance.",
+"La luz antiniebla trasera, si la lleva, y la luz de largo alcance."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 7,
+"imagen": "dgt_e268_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 485,
+"enunciado": "La línea discontinua, ¿qué indica?",
+"opciones": [
+"Un carril especial.",
+"La cercanía a una línea longitudinal continua.",
+"Un carril reversible."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 5,
+"imagen": "dgt_e268_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 486,
+"enunciado": "Buscar una dirección en el navegador GPS durante la conducción, ¿puede ser peligroso?",
+"opciones": [
+"Solo si el navegador GPS se encuentra muy alejado del asiento del conductor.",
+"No, porque ayuda a conducir con mayor seguridad.",
+"Sí, porque el conductor se distrae."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"tema_id": 1,
+"imagen": "dgt_e268_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 268,
+"examen_fecha": "Diciembre 2023",
+"examen_anio": 2023,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 487,
+"enunciado": "Una vez termine de adelantar el vehículo verde, ¿puede seguir circulando por el carril izquierdo?",
+"opciones": [
+"No, debe circular por el carril derecho.",
+"No, porque por el segundo carril sólo se puede circular para adelantar.",
+"Sí, porque en autopista se puede circular por cualquier carril."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 6,
+"imagen": "dgt_e269_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 1
+},
+{
+"id": 488,
+"enunciado": "En general, un conductor que sufre un trastorno depresivo…",
+"opciones": [
+"sufre distracciones.",
+"comete menos errores a la hora de tomar decisiones.",
+"es más inseguro al volante."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 1,
+"imagen": "dgt_e269_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 2
+},
+{
+"id": 489,
+"enunciado": "En caso de accidente, ¿existe relación entre la velocidad de circulación y la gravedad de las lesiones de los ocupantes de un vehículo?",
+"opciones": [
+"Sí; a mayor velocidad menor es la probabilidad de sufrir lesiones graves.",
+"Sí; a mayor velocidad mayor es la probabilidad de sufrir lesiones graves.",
+"No; la gravedad de las lesiones depende sólo de los sistemas de seguridad pasiva."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 4,
+"imagen": "dgt_e269_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 3
+},
+{
+"id": 490,
+"enunciado": "Un conductor se encuentra situado en el carril derecho de esta calzada, ¿puede seguir de frente?",
+"opciones": [
+"Sí; puede girar a la derecha o continuar de frente.",
+"Sí, porque no existe una señal vertical que prohíba seguir de frente.",
+"No, está obligado a girar a la derecha."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 5,
+"imagen": "dgt_e269_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 4
+},
+{
+"id": 491,
+"enunciado": "En un turismo con cinco plazas autorizadas, ¿se puede transportar a seis personas?",
+"opciones": [
+"No, está prohibido.",
+"Sí, siempre que no se supere la masa máxima autorizada.",
+"Sólo si uno de los ocupantes, al menos, es menor de 14 años."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 6,
+"imagen": "dgt_e269_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 5
+},
+{
+"id": 492,
+"enunciado": "El sueño y la fatiga, ¿cómo influyen en la conducción?",
+"opciones": [
+"Disminuyen el tiempo de reacción.",
+"Aumentan la capacidad de reacción.",
+"Aumentan la distancia de reacción."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 6,
+"imagen": "dgt_e269_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 6
+},
+{
+"id": 493,
+"enunciado": "Si se ve implicado en un accidente de tráfico con posibilidad de muertos o heridos graves, ¿qué actuaciones, entre otras, debe llevar a cabo en la medida de lo posible?",
+"opciones": [
+"Seguir circulando, sin prestar ayuda a las víctimas ni avisar a la autoridad.",
+"Detener el vehículo sin crear peligro, avisar a la autoridad o sus agentes y auxiliar a los heridos.",
+"Detenerse, borrar las huellas del accidente y cambiar de sitio a los heridos y vehículos."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 6,
+"imagen": "dgt_e269_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 7
+},
+{
+"id": 494,
+"enunciado": "Cuando son víctimas de atropello, las lesiones más graves en los ciclistas, que pueden incluso provocar la muerte, se localizan en…",
+"opciones": [
+"las piernas.",
+"la cabeza.",
+"las manos."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 1,
+"imagen": "dgt_e269_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 8
+},
+{
+"id": 495,
+"enunciado": "En esta carretera convencional con arcén transitable, ¿por dónde debe circular un ciclomotor?",
+"opciones": [
+"Por el centro de la calzada o por el arcén de la derecha.",
+"Por la calzada, lo más cerca posible del borde derecho.",
+"Por el arcén de la derecha."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 1,
+"imagen": "dgt_e269_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 9
+},
+{
+"id": 496,
+"enunciado": "En un control preventivo, ¿pueden los agentes someter a un conductor a una prueba de detección de estupefacientes?",
+"opciones": [
+"Sí.",
+"Sólo si está implicado en un accidente.",
+"No; es una prueba que sólo se puede realizar en un centro médico."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 3,
+"imagen": "dgt_e269_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 10
+},
+{
+"id": 497,
+"enunciado": "Circula por una calzada en la que debido a la niebla el pavimento está húmedo y resbaladizo. ¿Cómo debe ser la conducción?",
+"opciones": [
+"Dinámica y, a una velocidad alta para evitar que las ruedas patinen.",
+"Suave, sin movimientos bruscos, aumentando la distancia de seguridad, además de reducir la velocidad.",
+"Igual que cuando la calzada está seca, ya que los neumáticos no pierden adherencia."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 4,
+"imagen": "dgt_e269_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 11
+},
+{
+"id": 498,
+"enunciado": "En esta zona cebreada, ¿pueden los conductores circular o pararse sobre ella?",
+"opciones": [
+"Pararse sí pueden, pero circular está prohibido.",
+"Sí, todos los conductores pueden tanto pararse como circular sobre ella.",
+"No, no pueden ni circular ni pararse sobre ella."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 1,
+"imagen": "dgt_e269_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 12
+},
+{
+"id": 499,
+"enunciado": "En poblado, ¿está permitido usar las advertencias acústicas?",
+"opciones": [
+"Sí, para evitar un accidente o avisar a los demás usuarios de que se realiza un servicio de urgencia.",
+"Sí, exclusivamente para evitar un accidente.",
+"No."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 6,
+"imagen": "dgt_e269_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 13
+},
+{
+"id": 500,
+"enunciado": "Conduce un turismo con un remolque de un solo eje. ¿Le afecta esta señal?",
+"opciones": [
+"No.",
+"Sí, porque lleva un remolque de un eje.",
+"No, salvo que la M.M.A. del remolque supere la cifra indicada en la señal."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"tema_id": 5,
+"imagen": "dgt_e269_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 269,
+"examen_fecha": "Marzo 2024",
+"examen_anio": 2024,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 14
+},
+{
+"id": 501,
+"enunciado": "El consumo de alcohol, aunque sea en pequeñas cantidades...",
+"opciones": [
+"no deteriora la capacidad para conducir.",
+"deteriora la capacidad para conducir.",
+"deteriora la capacidad para conducir sólo si se mezcla con alguna droga ilegal."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 3,
+"imagen": "dgt_e270_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 1
+},
+{
+"id": 502,
+"enunciado": "Una persona mayor de edad, ¿puede transportar a un pasajero en una bicicleta que, por construcción, no pueda ser ocupada por más de una persona?",
+"opciones": [
+"Sólo si el conductor pedalea levantado y el pasajero va sentado en el sillín.",
+"Sí, a un menor de hasta siete años en un asiento adicional homologado.",
+"No, está prohibido."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 1,
+"imagen": "dgt_e270_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 2
+},
+{
+"id": 503,
+"enunciado": "Delante de un vado, esta señal prohíbe…",
+"opciones": [
+"la parada y el estacionamiento.",
+"únicamente la parada.",
+"solamente el estacionamiento."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 5,
+"imagen": "dgt_e270_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 3
+},
+{
+"id": 504,
+"enunciado": "A falta de señalización, ¿cuál es la velocidad máxima permitida para una furgoneta cuando circule por una autovía que discurra dentro de poblado?",
+"opciones": [
+"80 km/h.",
+"100 km/h.",
+"90 km/h."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 4,
+"imagen": "dgt_e270_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 4
+},
+{
+"id": 505,
+"enunciado": "Los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil homologados debidamente adaptados a...",
+"opciones": [
+"su talla y edad.",
+"su edad y peso.",
+"su talla y peso."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 6,
+"imagen": "dgt_e270_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 5
+},
+{
+"id": 506,
+"enunciado": "En un carril reservado para uso exclusivo del transporte público urbano, ¿se puede estacionar?",
+"opciones": [
+"Sólo fuera del horario de servicio.",
+"No.",
+"Sí, se puede parar y estacionar."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 6,
+"imagen": "dgt_e270_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 6
+},
+{
+"id": 507,
+"enunciado": "Para los conductores y pasajeros de motocicletas, ¿tiene importancia el vestuario a utilizar?",
+"opciones": [
+"No, es indiferente siempre que lleven el casco.",
+"No, porque no aporta nada a la seguridad.",
+"Sí, es fundamental porque el cuerpo está directamente expuesto a las inclemencias del tiempo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 7,
+"imagen": "dgt_e270_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 7
+},
+{
+"id": 508,
+"enunciado": "¿Es posible ahorrar combustible evitando cambios de marcha innecesarios?",
+"opciones": [
+"Sí.",
+"No, en ningún caso.",
+"Depende de si el vehículo tiene motor diésel o de gasolina."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 7,
+"imagen": "dgt_e270_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 8
+},
+{
+"id": 509,
+"enunciado": "¿Qué debe hacer el conductor del vehículo ante las indicaciones que le realiza el agente del vehículo policial con la señal V-1 encendida?",
+"opciones": [
+"Reducir la marcha.",
+"Detenerse en el lado derecho, delante del vehículo policial.",
+"Detenerse en el lado izquierdo, detrás del vehículo policial."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 5,
+"imagen": "dgt_e270_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 9
+},
+{
+"id": 510,
+"enunciado": "En un accidente de tráfico se produce el efecto submarino cuando...",
+"opciones": [
+"el cuerpo del ocupante del vehículo se desliza por debajo del cinturón de seguridad.",
+"el reposacabezas está mal regulado y el cuello sufre un violento movimiento de vaivén.",
+"el conductor recibe un impacto directo y fuerte del airbag en la cara."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 7,
+"imagen": "dgt_e270_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 10
+},
+{
+"id": 511,
+"enunciado": "En condiciones meteorológicas especialmente desfavorables, como en caso de fuerte granizada, ¿qué precauciones, entre otras, debe tomar?",
+"opciones": [
+"Disminuir la velocidad, evitando pisar el freno, y aumentar la distancia de seguridad.",
+"Acercarse al vehículo de delante y encender el dispositivo de preseñalización de peligro.",
+"Circular con cambios frecuentes de dirección para evitar que se produzca “aquaplaning”."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 4,
+"imagen": "dgt_e270_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 11
+},
+{
+"id": 512,
+"enunciado": "¿Qué indica el panel situado bajo la señal?",
+"opciones": [
+"La distancia al final de un tramo con curvas peligrosas.",
+"La longitud de un tramo con curvas peligrosas.",
+"La distancia al inicio de un tramo con curvas peligrosas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 5,
+"imagen": "dgt_e270_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 12
+},
+{
+"id": 513,
+"enunciado": "Si conducimos de noche para evitar los atascos debemos tener en cuenta que...",
+"opciones": [
+"el sueño o la somnolencia al volante aparecen con mayor facilidad.",
+"no es necesario descansar en trayectos largos, ya que durante la noche no aparece la fatiga.",
+"la oscuridad impide la aparición del sueño, pero favorece la aparición de la fatiga."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 6,
+"imagen": "dgt_e270_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 13
+},
+{
+"id": 514,
+"enunciado": "Siempre que sea posible, ¿cómo debe inmovilizar un vehículo que se ha visto implicado en un accidente?",
+"opciones": [
+"Con unos calzos o con cualquier elemento que sirva como tal.",
+"Cortando el contacto y echando el freno de mano.",
+"Desconectando los bornes de la batería."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"tema_id": 7,
+"imagen": "dgt_e270_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 270,
+"examen_fecha": "Junio 2024",
+"examen_anio": 2024,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 14
+},
+{
+"id": 515,
+"enunciado": "Un conductor que señaliza un cambio de carril, ¿tiene preferencia sobre los conductores de los vehículos que circulan por el carril al que se pretende desplazar?",
+"opciones": [
+"Sí.",
+"No.",
+"Sólo si va a adelantar a un vehículo de grandes dimensiones."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 6,
+"imagen": "dgt_e271_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 516,
+"enunciado": "¿Qué debe hacer el conductor de un vehículo que, por motivos de emergencia, quede inmovilizado dentro de un paso inferior?",
+"opciones": [
+"Permanecer en el interior del vehículo.",
+"Inmovilizar el vehículo lo más cerca posible del borde izquierdo de la calzada.",
+"Solicitar auxilio a través del poste de socorro más próximo, si existiese."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 1,
+"imagen": "dgt_e271_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 517,
+"enunciado": "En esta situación, ¿está permitido adelantar al ciclista?",
+"opciones": [
+"Sí, aunque para ello haya que invadir el carril de sentido contrario.",
+"Sólo si al adelantar no se invade el carril de sentido contrario.",
+"No, porque la señalización prohíbe el adelantamiento."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 6,
+"imagen": "dgt_e271_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 518,
+"enunciado": "Conducir durante mucho tiempo a una velocidad elevada...",
+"opciones": [
+"disminuye la aparición de la fatiga pero aumenta la agresividad.",
+"acelera la aparición de la fatiga y, por tanto, disminuye la agresividad.",
+"acelera la aparición de la fatiga y hace que aumente la agresividad."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 4,
+"imagen": "dgt_e271_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 519,
+"enunciado": "Factores individuales como la edad, la fatiga o el estado físico del conductor, ¿pueden hacer que los efectos secundarios de los medicamentos sean diferentes en cada persona?",
+"opciones": [
+"No, los efectos secundarios son los mismos para todas las personas.",
+"Sí, los efectos secundarios pueden variar en cada persona.",
+"Sólo si durante el tratamiento no se siguen los consejos del médico."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 3,
+"imagen": "dgt_e271_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 520,
+"enunciado": "Si se lleva instalado un navegador GPS hay que tener en cuenta que...",
+"opciones": [
+"mientras se conduce no es conveniente apartar la vista del navegador.",
+"las indicaciones del navegador prevalecen sobre la señalización de la vía.",
+"el criterio del conductor debe prevalecer sobre las indicaciones del navegador."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 1,
+"imagen": "dgt_e271_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 521,
+"enunciado": "Se debe desactivar el airbag frontal cuando en el asiento correspondiente al copiloto...",
+"opciones": [
+"viaje una mujer embarazada.",
+"se instale un dispositivo de retención infantil orientado hacia atrás.",
+"se instale un dispositivo de retención infantil orientado hacia delante."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 7,
+"imagen": "dgt_e271_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 522,
+"enunciado": "En una autopista que transcurre por zona urbana, ¿a qué velocidad máxima puede circular un turismo si no existe señalización?",
+"opciones": [
+"A 80 km/h.",
+"A 120 km/h.",
+"A 100 km/h."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 4,
+"imagen": "dgt_e271_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 523,
+"enunciado": "¿Puede rebasar la velocidad máxima indicada en la señal?",
+"opciones": [
+"Sí, en 20 km/h para adelantar.",
+"No.",
+"Sí, mientras lo permitan las circunstancias."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 4,
+"imagen": "dgt_e271_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 524,
+"enunciado": "Si debido a la lluvia intensa, en una vía interurbana no se distingue un vehículo de color negro a 50 metros de distancia, ¿es posible circular con el alumbrado de largo alcance encendido?",
+"opciones": [
+"No, está prohibido.",
+"Sí, porque la vía está insuficientemente iluminada.",
+"Sólo se puede encender la luz de cruce y la antiniebla delantera."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 7,
+"imagen": "dgt_e271_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 525,
+"enunciado": "La parte externa de uno de los neumáticos de su vehículo presenta una deformación en forma de bulto, ¿es recomendable sustituir el neumático lo antes posible?",
+"opciones": [
+"Sí, porque aumenta la posibilidad de sufrir un reventón.",
+"No. Se puede seguir circulando con seguridad ya que no supone un riesgo importante.",
+"No; no es necesario sustituirlo ya que siempre se puede reparar en un taller especializado."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 7,
+"imagen": "dgt_e271_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 526,
+"enunciado": "El agente balancea una luz amarilla; ¿qué indica?",
+"opciones": [
+"Precaución al circular.",
+"El carril por el que se debe circular.",
+"Obliga a detenerse a los conductores hacia los que dirige la luz."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 6,
+"imagen": "dgt_e271_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 527,
+"enunciado": "Los carriles reversibles están delimitados por marcas longitudinales…",
+"opciones": [
+"discontinuas con una separación sensiblemente más corta.",
+"discontinuas simples a ambos lados.",
+"dobles discontinuas a ambos lados."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 6,
+"imagen": "dgt_e271_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 528,
+"enunciado": "Conforme a los datos de accidentalidad, en los períodos de vacaciones y los fines de semana...",
+"opciones": [
+"no varía de forma importante el número de accidentes con víctimas mortales.",
+"aumenta el número de accidentes con víctimas mortales.",
+"disminuye el número de accidentes con víctimas mortales."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 6,
+"imagen": "dgt_e271_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 529,
+"enunciado": "Si su turismo ha pasado favorablemente la primera ITV, ¿cuándo tiene que pasar la próxima inspección?",
+"opciones": [
+"Dentro de 2 años.",
+"Dentro de 4 años.",
+"Al año siguiente."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"tema_id": 2,
+"imagen": "dgt_e271_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 271,
+"examen_fecha": "Octubre 2024",
+"examen_anio": 2024,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 530,
+"enunciado": "En una calzada de un solo sentido de circulación, ¿dónde debe situarse para cambiar de dirección a la izquierda?",
+"opciones": [
+"Junto al borde izquierdo de la calzada.",
+"Junto al borde derecho de la calzada.",
+"En una calzada de un solo sentido no se puede cambiar de dirección."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 1,
+"imagen": "dgt_e272_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 531,
+"enunciado": "¿Está permitido realizar una parada en una autovía o autopista?",
+"opciones": [
+"Sí, en la mediana o en el arcén, indistintamente.",
+"Sólo si el arcén es transitable y su anchura es superior a 1,5 metros.",
+"No, excepto en las zonas habilitadas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 1,
+"imagen": "dgt_e272_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 532,
+"enunciado": "¿Debe entrar en una intersección en una situación en la que el tráfico esté tan saturado que, al detenerse, posiblemente obstaculice la circulación transversal?",
+"opciones": [
+"Sólo si conduce un vehículo de servicio público, como un taxi.",
+"Sí, siempre que tenga prioridad de paso.",
+"No, aunque tenga prioridad de paso."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 6,
+"imagen": "dgt_e272_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 533,
+"enunciado": "Cuando un conductor no supere la tasa máxima de alcohol permitida, el agente de tráfico, ¿puede realizarle una segunda prueba?",
+"opciones": [
+"No, en ningún caso.",
+"Sí, si muestra signos evidentes de encontrarse bajo los efectos del alcohol.",
+"Sólo si está implicado en un accidente."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 3,
+"imagen": "dgt_e272_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 534,
+"enunciado": "¿Qué debe hacer si empieza a llover con intensidad mientras conduce una motocicleta?",
+"opciones": [
+"Moderar la velocidad, e incluso detenerse si fuera necesario.",
+"Circular pegado a los vehículos pesados para protegerse de la lluvia.",
+"Aumentar la velocidad para llegar antes al destino."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 4,
+"imagen": "dgt_e272_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 535,
+"enunciado": "Entre los efectos negativos de la velocidad se encuentra el efecto túnel, en el que el conductor...",
+"opciones": [
+"sólo percibe el centro de la calzada y deja de ver los laterales.",
+"tiene la falsa sensación de que circula a velocidad reducida.",
+"percibe mejor los laterales de la vía que el centro de la calzada."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 1,
+"imagen": "dgt_e272_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 536,
+"enunciado": "¿Cómo debe colocar el navegador GPS portátil en el vehículo?",
+"opciones": [
+"Debajo del volante, tan cerca del suelo como sea posible.",
+"Justo detrás del volante, a la altura de los ojos del conductor.",
+"Donde no entorpezca ni la visión ni el despliegue del airbag"
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 7,
+"imagen": "dgt_e272_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 537,
+"enunciado": "¿Cuál es una de las principales causas de los accidentes de las personas mayores?",
+"opciones": [
+"El deterioro de las capacidades psicomotoras.",
+"El aumento de la visión periférica.",
+"Una mejor percepción y análisis de los riesgos."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 7,
+"imagen": "dgt_e272_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 538,
+"enunciado": "Todo conductor implicado en un accidente de tráfico, ¿está obligado a detenerse para esclarecer los hechos?",
+"opciones": [
+"Sólo si es culpable del accidente.",
+"Sí, pero de forma que no cree un nuevo peligro para la circulación.",
+"No."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 6,
+"imagen": "dgt_e272_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 539,
+"enunciado": "Si circula con la presión de inflado de los neumáticos descompensada, ¿aumenta el riesgo de perder el control del vehículo?",
+"opciones": [
+"Sí, ya que la frenada es irregular y se reduce la estabilidad del vehículo.",
+"No, sobre todo si está descompensada por eje mejora la adherencia, incluso, cuando la calzada está resbaladiza.",
+"No, porque aumenta el área de contacto del neumático con la calzada y facilita el rodaje."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 7,
+"imagen": "dgt_e272_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 540,
+"enunciado": "Si lleva a un pasajero en una motocicleta, al frenar...",
+"opciones": [
+"es más difícil que se bloquee la rueda trasera.",
+"el peso se desplaza hacia la parte trasera de la motocicleta.",
+"es conveniente no soltar el acelerador y accionar sólo el freno trasero."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 7,
+"imagen": "dgt_e272_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 541,
+"enunciado": "Si, debido a la lluvia, el pavimento está deslizante, ¿qué precauciones se deben tomar?",
+"opciones": [
+"Moderar la velocidad y, si fuera preciso, detener el vehículo.",
+"Mantener la velocidad y estar atento al cumplimiento de la señalización vertical.",
+"Ninguna, ya que las circunstancias de la vía son idénticas para todos los usuarios."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 4,
+"imagen": "dgt_e272_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 542,
+"enunciado": "¿Cuál de los tres factores de riesgo es el que está menos implicado entre las causas de los accidentes de tráfico?",
+"opciones": [
+"El factor vía y su entorno.",
+"El factor humano.",
+"El factor vehículo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"tema_id": 1,
+"imagen": "dgt_e272_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 272,
+"examen_fecha": "Diciembre 2024",
+"examen_anio": 2024,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 543,
+"enunciado": "¿Está permitido circular con un vehículo cuyas placas de matrícula presentan obstáculos que impiden o dificultan su lectura e identificación?",
+"opciones": [
+"No; el conductor debe verificar que las placas de matrícula se pueden leer correctamente.",
+"Sí, siempre que la placa de matrícula delantera se pueda leer correctamente.",
+"Sí, siempre que el vehículo solo circule por vías urbanas y travesías."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 1,
+"imagen": "dgt_e273_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 1
+},
+{
+"id": 544,
+"enunciado": "Respecto al uso del cinturón de seguridad, como norma general, el ocupante de un turismo distinto del conductor está obligado a...",
+"opciones": [
+"llevarlo puesto y sin abrochar, excepto si viaja en la plaza delantera.",
+"llevarlo puesto y abrochado solo en vías interurbanas.",
+"llevarlo puesto y correctamente abrochado."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 1,
+"imagen": "dgt_e273_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 2
+},
+{
+"id": 545,
+"enunciado": "En vías interurbanas con tres carriles para el mismo sentido, ¿le está permitido circular por el carril izquierdo a un turismo con remolque?",
+"opciones": [
+"Sí, cuando la longitud del conjunto no supere los 7 metros.",
+"Sí, pero solo para adelantar a otros vehículos.",
+"No, en ningún caso."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 6,
+"imagen": "dgt_e273_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 3
+},
+{
+"id": 546,
+"enunciado": "El conductor de este vehículo está indicando que va a...",
+"opciones": [
+"desplazarse a la derecha.",
+"desplazarse a la izquierda.",
+"frenar."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 1,
+"imagen": "dgt_e273_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 4
+},
+{
+"id": 547,
+"enunciado": "Cuando se adelante a vehículos de tracción animal, fuera de poblado, la separación lateral...",
+"opciones": [
+"no debe ser inferior a 1,5 metros.",
+"debe ser inferior a 1,5 metros, en todos los casos.",
+"debe ser siempre proporcional a la anchura y características de la vía."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 1,
+"imagen": "dgt_e273_p05.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 5
+},
+{
+"id": 548,
+"enunciado": "¿Qué alumbrado deberá dejar encendido, como norma general, el conductor de un vehículo inmovilizado entre la puesta y la salida del sol en el arcén de una travesía insuficientemente iluminada?",
+"opciones": [
+"Ninguno.",
+"Las luces de emergencia.",
+"Las luces de posición."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 7,
+"imagen": "dgt_e273_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 6
+},
+{
+"id": 549,
+"enunciado": "¿De qué peligro advierte esta señal?",
+"opciones": [
+"Proximidad de un escalón lateral o desnivel a lo largo de un tramo de vía.",
+"Proximidad de pavimento deslizante por hielo o nieve.",
+"Proximidad de una zona de la calzada cuyo pavimento puede resultar muy deslizante."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 5,
+"imagen": "dgt_e273_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 7
+},
+{
+"id": 550,
+"enunciado": "Esta señal, ¿prohíbe proseguir la marcha si no dispone de cadenas para nieve?",
+"opciones": [
+"Sí, en cualquier caso.",
+"No, ya que esta señal solo recomienda la utilización de cadenas.",
+"Sí, a no ser que disponga de otros dispositivos autorizados, igual de eficaces."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 5,
+"imagen": "dgt_e273_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 8
+},
+{
+"id": 551,
+"enunciado": "¿Qué alteración provoca con mayor frecuencia el consumo de alcohol en el comportamiento del conductor?",
+"opciones": [
+"Respuestas impulsivas y agresivas ante los demás conductores.",
+"Disminución del tiempo de reacción.",
+"Mayor facilidad para percibir los semáforos y las señales luminosas."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 5,
+"imagen": "dgt_e273_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 9
+},
+{
+"id": 552,
+"enunciado": "¿Qué indica esta señal situada en la parte posterior de un vehículo?",
+"opciones": [
+"Que transporta mercancías peligrosas.",
+"Que es un vehículo especial y está realizando trabajos en la vía.",
+"Que es un vehículo lento y no puede superar la velocidad de 40 km/h."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 4,
+"imagen": "dgt_e273_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 10
+},
+{
+"id": 553,
+"enunciado": "Si ha dormido mal o no ha dormido lo suficiente debe tener en cuenta que...",
+"opciones": [
+"conducir por una autovía durante horas impide la aparición del sueño.",
+"no se encuentra en perfectas condiciones para conducir.",
+"una taza de café elimina la fatiga y le ayuda a concentrarse."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 1,
+"imagen": "dgt_e273_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 11
+},
+{
+"id": 554,
+"enunciado": "¿Con qué dos factores suelen relacionarse muchos de los accidentes más graves que sufren los jóvenes conductores?",
+"opciones": [
+"Con el consumo de alcohol y drogas y una actitud prudente al volante.",
+"Con la falta de experiencia al volante y el consumo de alcohol y drogas.",
+"Con la velocidad excesiva y una adecuada percepción del riesgo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 3,
+"imagen": "dgt_e273_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 12
+},
+{
+"id": 555,
+"enunciado": "¿Cuál de las siguientes circunstancias hace que aumente el consumo de combustible?",
+"opciones": [
+"Circular con las ventanillas del vehículo subidas.",
+"Circular con el vehículo muy cargado.",
+"Circular con unos neumáticos que carezcan de dibujo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 7,
+"imagen": "dgt_e273_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 13
+},
+{
+"id": 556,
+"enunciado": "¿Cuál de las siguientes razones puede explicar que el vehículo sea el factor de riesgo que aparece en un grado menor como causa principal de los accidentes de tráfico?",
+"opciones": [
+"A las importantes mejoras técnicas introducidas en su diseño y construcción.",
+"A que la edad media de los vehículos es cada vez mayor.",
+"A que en los últimos 20 años, los kilómetros recorridos han disminuido año tras año."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 6,
+"imagen": "dgt_e273_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 14
+},
+{
+"id": 557,
+"enunciado": "Para mantener la seguridad, ¿qué elementos se deben revisar periódicamente y con mayor frecuencia que el resto de componentes del vehículo?",
+"opciones": [
+"Los neumáticos, el sistema de frenado y los amortiguadores.",
+"Las luces, la batería y las llantas.",
+"El filtro del aire, la dirección y los retrovisores."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"tema_id": 7,
+"imagen": "dgt_e273_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 273,
+"examen_fecha": "Abril 2025",
+"examen_anio": 2025,
+"examen_mes": 4,
+"examen_trimestre": "T2",
+"examen_pos": 15
+},
+{
+"id": 558,
+"enunciado": "De día es obligatorio encender el alumbrado que corresponda cuando se circule...",
+"opciones": [
+"por un puente móvil.",
+"por un carril reservado a vehículos con alta ocupación (VAO).",
+"por pasos inferiores o tramos de vía afectados por la señal \"Túnel\"."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 5,
+"imagen": "dgt_e274_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 1
+},
+{
+"id": 559,
+"enunciado": "Entre los siguientes tipos de señales, ¿cuál es el orden de prioridad?",
+"opciones": [
+"Señales verticales, agentes y semáforos.",
+"Agentes, semáforos y señales verticales.",
+"Semáforos, agentes y señales verticales."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 5,
+"imagen": "dgt_e274_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 2
+},
+{
+"id": 560,
+"enunciado": "Esta señal prohíbe la entrada a...",
+"opciones": [
+"ciclos y ciclomotores.",
+"ciclos.",
+"todos los vehículos de dos ruedas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 5,
+"imagen": "dgt_e274_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 3
+},
+{
+"id": 561,
+"enunciado": "En general, bajo los efectos de la cocaína el conductor...",
+"opciones": [
+"es inseguro e infravalora sus capacidades al volante.",
+"se concentra mejor, por lo que sus decisiones son más seguras.",
+"es competitivo e impulsivo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 3,
+"imagen": "dgt_e274_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 4
+},
+{
+"id": 562,
+"enunciado": "Las embarazadas, ¿están obligadas a utilizar el cinturón de seguridad?",
+"opciones": [
+"Sí, como norma general.",
+"No, porque es peligroso para el feto.",
+"Solo si no les dificulta los movimientos para conducir."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 7,
+"imagen": "dgt_e274_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 5
+},
+{
+"id": 563,
+"enunciado": "El calor afecta negativamente a las capacidades para conducir con seguridad. Un conductor que se encuentra bajo sus efectos normalmente:",
+"opciones": [
+"Tarda más en reaccionar y es menos agresivo.",
+"Tarda más en reaccionar y es más agresivo.",
+"Tarda menos en reaccionar y es más agresivo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 1,
+"imagen": "dgt_e274_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 6
+},
+{
+"id": 564,
+"enunciado": "Cuando la luz de marcha atrás esté averiada, ¿cómo debe indicar que va a dar marcha atrás?",
+"opciones": [
+"Moviendo el brazo de arriba abajo.",
+"Con el brazo extendido y la palma de la mano hacia atrás.",
+"Advirtiéndolo con el claxon."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 7,
+"imagen": "dgt_e274_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 7
+},
+{
+"id": 565,
+"enunciado": "En una vía interurbana con un carril por sentido, ¿dónde se colocará un ciclomotor para girar a la izquierda, si no existe carril específico para realizar el giro?",
+"opciones": [
+"En el eje de la calzada, sin invadir el carril de sentido contrario.",
+"En la parte central del carril por el que circule.",
+"A la derecha, fuera de la calzada siempre que sea posible."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 1,
+"imagen": "dgt_e274_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 8
+},
+{
+"id": 566,
+"enunciado": "Esta marca transversal discontinua, ¿obliga a detenerse antes de franquearla?",
+"opciones": [
+"Solo si hay visibilidad reducida.",
+"No, porque no parar no implica ningún peligro a la circulación.",
+"No, salvo que sea necesario para ceder el paso."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 6,
+"imagen": "dgt_e274_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 9
+},
+{
+"id": 567,
+"enunciado": "Para intentar evitar la aparición de la somnolencia durante la conducción es aconsejable dormir...",
+"opciones": [
+"entre 5 y 7 horas diarias.",
+"menos horas de las necesarias, para mantener alto el nivel de alerta.",
+"las horas suficientes para estar descansado, que para la mayoría de las personas son entre 7 y 9 horas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 6,
+"imagen": "dgt_e274_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 10
+},
+{
+"id": 568,
+"enunciado": "¿Cómo debe comportarse el conductor de un turismo, sobre todo en vías urbanas, para evitar un accidente con una motocicleta o un ciclomotor?",
+"opciones": [
+"Debe circular en paralelo y lo más cerca posible de los vehículos de dos ruedas.",
+"Debe mirar por los retrovisores con frecuencia.",
+"Debe reducir o incluso eliminar la distancia de seguridad."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 1,
+"imagen": "dgt_e274_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 11
+},
+{
+"id": 569,
+"enunciado": "En un carril habilitado en sentido contrario al habitual por trabajos en la calzada, ¿qué vehículos tienen permitido utilizarlo?",
+"opciones": [
+"Todos los que estén autorizados a circular por la vía.",
+"Solo turismos y motocicletas.",
+"Automóviles que no superen los 3.500 kg de M.M.A. y motocicletas."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 1,
+"imagen": "dgt_e274_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 12
+},
+{
+"id": 570,
+"enunciado": "En los adelantamientos a ciclistas en vías con un carril para cada sentido, ¿está permitido ocupar el carril de sentido contrario?",
+"opciones": [
+"Sí, siempre que el adelantamiento se pueda realizar con seguridad.",
+"No.",
+"Solo si ambos sentidos están separados por línea blanca discontinua."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 6,
+"imagen": "dgt_e274_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 13
+},
+{
+"id": 571,
+"enunciado": "Los conductores, ¿están obligados a realizar las pruebas para la comprobación de la tasa de alcoholemia cuando sean requeridos para ello por la policía de tráfico?",
+"opciones": [
+"No; pueden negarse a hacerla y seguir circulando.",
+"Solo están obligados en caso de accidente de tráfico.",
+"Sí; negarse a realizarla es un delito incluido en el Código Penal."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 3,
+"imagen": "dgt_e274_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 14
+},
+{
+"id": 572,
+"enunciado": "¿Es conveniente utilizar un aceite lubricante con un índice de viscosidad tan bajo que, al calentarse el motor, se vuelva excesivamente líquido?",
+"opciones": [
+"No, ya que el aceite no llega a engrasar bien las piezas del motor.",
+"Sí; cuanto más líquido, mejor engrasa y además arrastra los residuos depositados en el motor.",
+"Solo si el motor se calienta en exceso, ya que engrasa mejor y ayuda a bajar su temperatura."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"tema_id": 7,
+"imagen": "dgt_e274_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 274,
+"examen_fecha": "Junio 2025",
+"examen_anio": 2025,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 15
+},
+{
+"id": 573,
+"enunciado": "Si existen semáforos con indicaciones distintas a la derecha y a la izquierda, ¿a cuál obedecerán los que pretendan seguir de frente?",
+"opciones": [
+"Al situado a su derecha.",
+"Al que se encuentre más cerca del vehículo.",
+"Al situado inmediatamente a su izquierda."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 5,
+"imagen": "dgt_e275_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 574,
+"enunciado": "En el centro de la calzada hay doble línea continua; ¿qué indica?",
+"opciones": [
+"Que la calzada es peligrosa.",
+"Que hay un carril especial.",
+"Que no se puede atravesar, ni pisar la línea."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 5,
+"imagen": "dgt_e275_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 575,
+"enunciado": "Al cruzar un arcén por el que transitan peatones, ¿qué debe hacer?",
+"opciones": [
+"Avisarles mediante señales acústicas para que se aparten.",
+"Cederles el paso, pero solamente si forman un grupo.",
+"Cederles el paso si no disponen de zona peatonal."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 5,
+"imagen": "dgt_e275_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 576,
+"enunciado": "Esta señal, ¿prohíbe cambiar de dirección a la izquierda?",
+"opciones": [
+"No.",
+"Sí, pero no prohíbe girar a la derecha.",
+"Sí; prohíbe realizar cualquier giro."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 5,
+"imagen": "dgt_e275_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 577,
+"enunciado": "Un furgón, ¿puede utilizar un carril reversible?",
+"opciones": [
+"Solo si su M.M.A. no es superior a 3.500 kilogramos.",
+"No.",
+"Sí."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e275_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 578,
+"enunciado": "Como norma general, en la parte transitable del arcén de una vía interurbana, ¿está permitida la parada o el estacionamiento?",
+"opciones": [
+"Está permitida la parada, pero no el estacionamiento.",
+"Está prohibida tanto la parada como el estacionamiento.",
+"Está permitida tanto la parada como el estacionamiento."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e275_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 579,
+"enunciado": "Circulando por una autopista observa que se ha pasado una salida, ¿puede volver a ella circulando marcha atrás?",
+"opciones": [
+"No.",
+"Sí, cuando el recorrido no supere los 15 metros.",
+"Sí, comprobando que no existe peligro para otros usuarios."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e275_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 580,
+"enunciado": "¿Puede circular con su turismo si el equipaje no permite una visión adecuada de la vía por el espejo retrovisor interior?",
+"opciones": [
+"No; en ningún caso la carga puede disminuir la visibilidad a través del espejo retrovisor.",
+"Sí, si el vehículo lleva dos espejos retrovisores exteriores, uno a cada lado.",
+"Solo si el retrovisor derecho es gran angular y el interior es panorámico."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 1,
+"imagen": "dgt_e275_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 581,
+"enunciado": "¿Qué significado tiene esta señal?",
+"opciones": [
+"Peligro por la proximidad de un paso a nivel provisto de barreras o semibarreras.",
+"Peligro por la proximidad de un paso a nivel sin barreras de más de una vía férrea.",
+"Peligro por la proximidad de un cruce con una línea de tranvía."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 5,
+"imagen": "dgt_e275_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 582,
+"enunciado": "En general, un conductor con sueño...",
+"opciones": [
+"acepta un mayor nivel de riesgo en la conducción.",
+"acepta un menor nivel de riesgo en la conducción.",
+"tarda menos en reaccionar ante un suceso imprevisto."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 1,
+"imagen": "dgt_e275_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 583,
+"enunciado": "¿Cómo se conocen a los colectivos de personas que tienen una mayor probabilidad de verse implicados en un accidente de tráfico o de fallecer a consecuencia del mismo?",
+"opciones": [
+"Grupos de riesgo o vulnerables en el tráfico.",
+"Víctimas de accidentes de tráfico.",
+"Grupos en riesgo de exclusión social."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e275_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 584,
+"enunciado": "¿Puede sobresalir por la parte trasera del vehículo la carga indivisible que transporta un turismo?",
+"opciones": [
+"Sí, un máximo de hasta el 10% de la longitud del vehículo.",
+"No, la carga no puede sobresalir por la parte trasera de un turismo.",
+"Sí, un máximo de hasta el 15% de la longitud del vehículo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e275_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 585,
+"enunciado": "¿Qué indican estas marcas viales?",
+"opciones": [
+"Prohibición de estacionar.",
+"Zona de estacionamiento exclusiva para residentes.",
+"Zona de estacionamiento de duración limitada."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e275_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 586,
+"enunciado": "Si queda detenido en un atasco, ¿qué distancia es aconsejable mantener con el vehículo de delante?",
+"opciones": [
+"Un metro como máximo.",
+"Un espacio mínimo para ocupar menos espacio.",
+"Dos o tres metros para no golpear al vehículo de delante en caso de alcance trasero."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e275_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 587,
+"enunciado": "¿Qué condiciones deben tener los neumáticos de una motocicleta?",
+"opciones": [
+"Las dos ruedas tienen que ser del mismo tamaño y características.",
+"Las ranuras de la banda de rodadura deben tener una profundidad mínima de 1,6 milímetros.",
+"No deben presentar ampollas, deformaciones anormales o roturas."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"tema_id": 7,
+"imagen": "dgt_e275_p15.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 275,
+"examen_fecha": "Octubre 2025",
+"examen_anio": 2025,
+"examen_mes": 10,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 588,
+"enunciado": "A un turismo, ¿le está permitido circular si tiene roto el espejo retrovisor exterior izquierdo?",
+"opciones": [
+"Sí, porque el retrovisor exterior izquierdo no es obligatorio.",
+"Sólo si el vehículo tiene espejo retrovisor interior.",
+"No, cuando el conductor no pueda ver la circulación por detrás del vehículo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 1,
+"imagen": "dgt_e276_p01.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 1
+},
+{
+"id": 589,
+"enunciado": "¿Qué es un microsueño?",
+"opciones": [
+"Un periodo de unos segundos durante el cual el conductor sueña mientras conduce.",
+"Un periodo de unos segundos durante el cual el conductor queda ligeramente dormido sin darse cuenta.",
+"Un periodo corto de descanso que el conductor realiza cuando siente fatiga."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 1,
+"imagen": "dgt_e276_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 2
+},
+{
+"id": 590,
+"enunciado": "En una retención en la que están los vehículos detenidos, ¿está permitido usar el teléfono móvil?",
+"opciones": [
+"No, excepto en vías urbanas.",
+"Únicamente con un dispositivo de manos libres y sin usar auriculares.",
+"Sí, porque el vehículo no está en movimiento."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 1,
+"imagen": "dgt_e276_p03.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 3
+},
+{
+"id": 591,
+"enunciado": "Una luz verde en forma de flecha apuntando hacia abajo en un semáforo de carril...",
+"opciones": [
+"obliga a no abandonar el carril sobre el que está colocada.",
+"exime de la obligación de detenerse ante una luz roja circular.",
+"No exime de tener que cumplir las normas generales sobre prioridad de paso."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e276_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 4
+},
+{
+"id": 592,
+"enunciado": "Entre la puesta y la salida del sol, ¿puede encender la luz de largo alcance en caso de niebla?",
+"opciones": [
+"Sí, procurando no deslumbrar a otros usuarios de la vía.",
+"Sólo en carreteras con un carril para cada sentido de la circulación.",
+"No, está prohibido."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e276_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 5
+},
+{
+"id": 593,
+"enunciado": "En este paso para peatones, si no funciona el semáforo, ¿es obligatorio ceder el paso a los peatones que intenten cruzar?",
+"opciones": [
+"Sí, porque los peatones tienen prioridad de paso.",
+"No, porque los vehículos tienen prioridad de paso.",
+"Sólo si quien intenta cruzar es una fila de escolares."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e276_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 6
+},
+{
+"id": 594,
+"enunciado": "En la ficha de inspección técnica de esta motocicleta figura que tiene estructura de autoprotección y cinturón de seguridad. ¿Puede conducirla sin utilizar el casco de protección?",
+"opciones": [
+"Sólo cuando circule por vías urbanas.",
+"Sí.",
+"No."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 7,
+"imagen": "dgt_e276_p07.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 7
+},
+{
+"id": 595,
+"enunciado": "Si quiere abandonar una autovía, ¿en qué momento debe entrar en el carril de deceleración?",
+"opciones": [
+"Lo antes posible.",
+"Es indiferente, en cualquier momento mientras la línea sea discontinua.",
+"Lo más tarde posible."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 1,
+"imagen": "dgt_e276_p08.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 8
+},
+{
+"id": 596,
+"enunciado": "¿Está permitido estacionar en doble fila?",
+"opciones": [
+"Sí, siempre que el conductor no abandone el vehículo.",
+"No, en ningún caso.",
+"Sólo cuando la duración del estacionamiento sea inferior a dos minutos."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 6,
+"imagen": "dgt_e276_p09.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 9
+},
+{
+"id": 597,
+"enunciado": "En una vía fuera de poblado en la que no exista zona peatonal ni arcén practicable, ¿está permitido que un peatón circule por la calzada?",
+"opciones": [
+"Sí, siempre que tome las debidas precauciones.",
+"Sólo si arrastra un vehículo de reducidas dimensiones que no sea de motor.",
+"No."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 1,
+"imagen": "dgt_e276_p10.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 10
+},
+{
+"id": 598,
+"enunciado": "¿Cuál es uno de los problemas que, debido al deterioro de las aptitudes psicofísicas, encuentran muchas personas mayores como peatones en las vías públicas?",
+"opciones": [
+"Tienen mayor capacidad de orientación, sobre todo en calles que no conocen bien.",
+"No aprecian bien la velocidad a la que se acercan los vehículos.",
+"Los bordillos de las aceras están al mismo nivel que la calzada."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 1,
+"imagen": "dgt_e276_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 11
+},
+{
+"id": 599,
+"enunciado": "Acaba de comprar un turismo nuevo; ¿cuándo debe presentarlo a la primera inspección técnica reglamentaria?",
+"opciones": [
+"A los cuatro años, a contar desde la fecha de compra.",
+"A los dos años, a contar desde la fecha de matriculación.",
+"A los cuatro años, a contar desde la fecha de matriculación."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 2,
+"imagen": "dgt_e276_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 12
+},
+{
+"id": 600,
+"enunciado": "En las proximidades de vías de uso exclusivo de ciclos, ¿qué precauciones se deben tomar?",
+"opciones": [
+"Hacer señales acústicas para indicar nuestra presencia.",
+"Moderar la velocidad y, si fuera preciso, detener el vehículo.",
+"Mantener la velocidad y estar atento al cumplimiento de la señalización vertical."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 4,
+"imagen": "dgt_e276_p13.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 13
+},
+{
+"id": 601,
+"enunciado": "¿Está permitido circular con un turismo por una vía en cuyo acceso está situada esta señal?",
+"opciones": [
+"No, porque es una vía reservada para todos los vehículos de dos ruedas.",
+"No, porque es una vía reservada para ciclos.",
+"Sí, porque es una vía permitida para todos los vehículos, excepto ciclos."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 5,
+"imagen": "dgt_e276_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 14
+},
+{
+"id": 602,
+"enunciado": "Un turismo con el distintivo ambiental de la imagen, clasificado como ECO, ¿está autorizado a circular por el carril VAO si su único ocupante es el conductor?",
+"opciones": [
+"Sí, siempre que lleve el distintivo adhesivo en el parabrisas.",
+"No, salvo que por los paneles de mensaje variable se autorice su acceso.",
+"Sí, aunque no lleve el distintivo adhesivo en el parabrisas."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"tema_id": 5,
+"imagen": "dgt_e276_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 276,
+"examen_fecha": "Diciembre 2025",
+"examen_anio": 2025,
+"examen_mes": 12,
+"examen_trimestre": "T4",
+"examen_pos": 15
+},
+{
+"id": 603,
+"enunciado": "El conductor de una motocicleta, ¿tiene permitido realizar una parada en un carril reservado para autobuses?",
+"opciones": [
+"Sí, mientras no obstaculice la circulación de autobuses.",
+"No, está prohibido.",
+"Está permitido parar, pero no estacionar."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 6,
+"imagen": "dgt_e277_p02.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 2
+},
+{
+"id": 604,
+"enunciado": "¿Puede incorporarse a la circulación desde un estacionamiento circulando marcha atrás?",
+"opciones": [
+"Sí, mientras no invada un cruce de vías.",
+"Sí, mientras que el recorrido no sea superior a 20 metros.",
+"Sí, aunque el recorrido sea superior a 20 metros."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 6,
+"imagen": "dgt_e277_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 3
+},
+{
+"id": 605,
+"enunciado": "La distancia de frenado está determinada por...",
+"opciones": [
+"un único factor, la velocidad a la que se circula.",
+"varios factores, como la velocidad, el estado de la vía o el del vehículo.",
+"un único factor, el estado del vehículo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 4,
+"imagen": "dgt_e277_p04.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 4
+},
+{
+"id": 606,
+"enunciado": "Si tiene un accidente y no lleva puesto el cinturón de seguridad, las posibilidades de resultar muerto en el siniestro son casi el doble en...",
+"opciones": [
+"la plaza del conductor, únicamente.",
+"las plazas delanteras, únicamente.",
+"todas las plazas del vehículo."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 7,
+"imagen": "dgt_e277_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 5
+},
+{
+"id": 607,
+"enunciado": "En un turismo, ¿es obligatorio llevar dos chalecos reflectantes, uno para el conductor del vehículo y otro para su acompañante?",
+"opciones": [
+"Sólo es obligatorio en motocicletas, pero no en turismos.",
+"Sí, se debe llevar un chaleco por cada plaza del vehículo.",
+"No."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 7,
+"imagen": "dgt_e277_p06.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 6
+},
+{
+"id": 608,
+"enunciado": "Si una intersección con prioridad de paso está saturada y es previsible que se quede detenido sin terminar de atravesarla, impidiendo la circulación transversal, ¿qué debe hacer?",
+"opciones": [
+"Entrar en la intersección, porque tiene prioridad de paso.",
+"Tocar el claxon con insistencia hasta que los otros conductores le dejen pasar.",
+"No entrar en la intersección."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 6,
+"imagen": "dgt_e277_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 7
+},
+{
+"id": 609,
+"enunciado": "Una luz roja intermitente o dos luces rojas alternativamente intermitentes de un semáforo...",
+"opciones": [
+"permiten el paso con precaución.",
+"prohíben temporalmente el paso.",
+"obligan a moderar la velocidad antes de pasar."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 4,
+"imagen": "dgt_e277_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 8
+},
+{
+"id": 610,
+"enunciado": "En esta vía de doble sentido, ¿qué vehículos deben guardar una separación mínima de 50 metros con el vehículo de delante cuando no pretendan adelantar?",
+"opciones": [
+"Todos los camiones, con independencia de su M.M.A.",
+"Los conjuntos de vehículos de más de 10 metros de longitud.",
+"Los turismos."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 6,
+"imagen": "dgt_e277_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 10
+},
+{
+"id": 611,
+"enunciado": "En un turismo de nueve plazas, incluida la del conductor, ¿pueden viajar nueve menores de edad?",
+"opciones": [
+"No, porque se supera el número de plazas autorizado.",
+"Sólo si los niños son menores de 12 años.",
+"Sí, siempre que el conductor sea su padre, madre o tutor."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 1,
+"imagen": "dgt_e277_p11.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 11
+},
+{
+"id": 612,
+"enunciado": "¿Qué puede verse afectado si cambia el carenado de una motocicleta?",
+"opciones": [
+"La estética, exclusivamente.",
+"La aerodinámica y el consumo.",
+"La visibilidad del vehículo."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 6,
+"imagen": "dgt_e277_p12.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 12
+},
+{
+"id": 613,
+"enunciado": "¿Existe riesgo de accidente si un conductor utiliza un dispositivo de manos libres para hablar por teléfono mientras conduce?",
+"opciones": [
+"No; el dispositivo está pensado para que no exista ningún riesgo.",
+"Sólo si la conversación dura más de cinco minutos.",
+"Sí, hay cierto riesgo porque disminuye la atención."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 1,
+"imagen": "dgt_e277_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 13
+},
+{
+"id": 614,
+"enunciado": "¿Qué factor de riesgo ocasiona un mayor número de accidentes de tráfico?",
+"opciones": [
+"El factor humano.",
+"El factor vía y su entorno.",
+"El factor vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 1,
+"imagen": "dgt_e277_p14.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 14
+},
+{
+"id": 615,
+"enunciado": "Como norma general, ¿cómo se denomina el tramo de carretera que discurre por poblado?",
+"opciones": [
+"Carretera convencional.",
+"Travesía.",
+"Autovía."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"tema_id": 1,
+"imagen": "dgt_e277_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 277,
+"examen_fecha": "Marzo de 2026",
+"examen_anio": 2026,
+"examen_mes": 3,
+"examen_trimestre": "T1",
+"examen_pos": 15
+},
+{
+"id": 616,
+"enunciado": "Circula con un turismo con remolque; ¿puede entrar en una vía con esta señal?",
+"opciones": [
+"Sí, cuando el remolque tenga un solo eje.",
+"No, con ningún vehículo que arrastre un remolque.",
+"Sí, con cualquier conjunto de vehículos."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 5,
+"imagen": "dgt_e278_p01.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 1
+},
+{
+"id": 617,
+"enunciado": "El consumo de cannabis afecta al comportamiento del conductor porque...",
+"opciones": [
+"aumenta su nivel de atención.",
+"aumenta su tiempo de reacción.",
+"disminuye la somnolencia."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 3,
+"imagen": "dgt_e278_p02.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 2
+},
+{
+"id": 618,
+"enunciado": "¿Puede adelantar en un túnel con un solo carril para cada sentido?",
+"opciones": [
+"No, ya que su sentido de la marcha sólo dispone de un carril.",
+"Sí, si en sentido contrario no circula ningún vehículo.",
+"No; en los túneles siempre está prohibido adelantar."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 6,
+"imagen": "dgt_e278_p03.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 3
+},
+{
+"id": 619,
+"enunciado": "Si se ve obligado a circular con una rueda de repuesto de uso temporal o de emergencia, ¿qué debe tener en cuenta?",
+"opciones": [
+"Las indicaciones de los fabricantes de este tipo de repuestos.",
+"Que si está homologada su duración es la misma que la de una rueda normal.",
+"Que su presión debe ser superior a la de las otras tres ruedas."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 7,
+"imagen": "dgt_e278_p04.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 4
+},
+{
+"id": 620,
+"enunciado": "Estas marcas viales azules indican...",
+"opciones": [
+"la zona en que se permite estacionar, al igual que las marcas blancas.",
+"que en ciertos periodos del día, la duración del estacionamiento está limitada.",
+"que está prohibido estacionar."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 6,
+"imagen": "dgt_e278_p05.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 5
+},
+{
+"id": 621,
+"enunciado": "Factores variables como la cantidad y la calidad del sueño, el consumo de medicamentos sedantes o la monotonía en la conducción, ¿afectan por igual a todos los conductores?",
+"opciones": [
+"Sólo a los conductores que circulan principalmente de noche.",
+"No; el mismo factor puede afectar de manera distinta a dos personas.",
+"Sí."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 3,
+"imagen": "dgt_e278_p06.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 6
+},
+{
+"id": 622,
+"enunciado": "En vía urbana, cuando utilice el carril que más convenga a su destino, ¿puede abandonar dicho carril?",
+"opciones": [
+"Sí, para prepararse a cambiar de dirección, adelantar, parar o estacionar.",
+"No, en ningún caso.",
+"Sí, pero sólo para cambiar de dirección."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 6,
+"imagen": "dgt_e278_p07.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 7
+},
+{
+"id": 623,
+"enunciado": "En una vía urbana, ¿debe tocar el claxon para advertir que va a realizar un adelantamiento?",
+"opciones": [
+"Sí, salvo que se encuentre cerca de un hospital.",
+"Sí, siempre que sea a intervalos cortos y el sonido no sea estridente.",
+"No."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 6,
+"imagen": "dgt_e278_p08.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 8
+},
+{
+"id": 624,
+"enunciado": "Circula con la luz de largo alcance y se acerca a un vehículo que circula a menor velocidad en su mismo sentido de la marcha; ¿debe sustituir la luz de carretera por la de corto alcance?",
+"opciones": [
+"No, ya que no es necesario ni aconsejable.",
+"Sí, para evitar la posibilidad de deslumbramiento a través del espejo retrovisor.",
+"Solo si no tiene intención de adelantar."
+],
+"correcta_idx": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 4,
+"imagen": "dgt_e278_p09.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 9
+},
+{
+"id": 625,
+"enunciado": "Si un conductor inicia un adelantamiento y se producen circunstancias que hacen difícil finalizar la maniobra...",
+"opciones": [
+"debe regresar a su carril y advertirlo a los que circulen por detrás.",
+"el conductor del vehículo adelantado está obligado a apartarse al arcén.",
+"debe acelerar y terminar la maniobra, aunque genere una situación de riesgo."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 6,
+"imagen": "dgt_e278_p10.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 10
+},
+{
+"id": 626,
+"enunciado": "¿A qué velocidad máxima tiene permitido circular un ciclomotor por esta carretera convencional con un carril para cada sentido de la circulación?",
+"opciones": [
+"45 kilómetros por hora.",
+"80 kilómetros por hora.",
+"60 kilómetros por hora."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 4,
+"imagen": "dgt_e278_p11.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 11
+},
+{
+"id": 627,
+"enunciado": "¿Cuál es una de las infracciones que cometen los conductores con mayor riesgo para los peatones?",
+"opciones": [
+"No respetar la prioridad en los pasos para peatones.",
+"Circular por una autovía en sentido contrario al establecido.",
+"No mantener la distancia de seguridad con el vehículo que circula delante."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 1,
+"imagen": "dgt_e278_p12.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 12
+},
+{
+"id": 628,
+"enunciado": "¿Quién está obligado a cuidar de que los pasajeros de un vehículo mantengan la posición adecuada para garantizar la seguridad?",
+"opciones": [
+"Los pasajeros mayores de edad.",
+"El pasajero que ocupe el asiento delantero.",
+"El conductor."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 1,
+"imagen": "dgt_e278_p13.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 13
+},
+{
+"id": 629,
+"enunciado": "Si un vehículo de la policía de tráfico se sitúa detrás de usted y enciende un dispositivo con una luz roja destelleante hacia delante, ¿qué debe hacer?",
+"opciones": [
+"Detenerse y, en su caso, seguir las instrucciones del agente.",
+"Reducir la velocidad y apartarse a la derecha, para facilitar el adelantamiento.",
+"Detenerse en el lado izquierdo de la calzada, delante del vehículo policial."
+],
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 4,
+"imagen": "dgt_e278_p14.jpg",
+"dificultad": 4,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 14
+},
+{
+"id": 630,
+"enunciado": "¿Es peligroso conducir cuando los rayos de sol caen de forma directa sobre los ojos del conductor?",
+"opciones": [
+"Sí, pero encendiendo la luz de largo alcance se mejora la visibilidad.",
+"No, porque al haber más luz, la visibilidad es mejor.",
+"Sí, la visión se ve afectada y es difícil distinguir lo que ocurre alrededor."
+],
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"tema_id": 1,
+"imagen": "dgt_e278_p15.jpg",
+"dificultad": 5,
+"origen": "examen_oficial_dgt",
+"examen_num": 278,
+"examen_fecha": "Junio 2026",
+"examen_anio": 2026,
+"examen_mes": 6,
+"examen_trimestre": "T2",
+"examen_pos": 15
+},
+{
+"id": 631,
+"enunciado": "Un turismo aparece en la ficha técnica con estos datos: peso del vehículo vacío con depósitos llenos y herramientas, 1.200 kg; y masa máxima que puede alcanzar cargado, 1.800 kg. ¿Qué representa el valor de 1.200 kg?",
+"opciones": [
+"La masa máxima autorizada (MMA) del vehículo.",
+"La masa en orden de marcha (o tara), es decir, el vehículo en vacío.",
+"La carga útil máxima que puede transportar."
+],
+"correcta_idx": 1,
+"explicacion": "La masa del vehículo vacío, con combustible, líquidos, herramientas y rueda de repuesto (y en la definición actual, el conductor de 75 kg) es la masa en orden de marcha, muy próxima al concepto clásico de tara. La MMA (1.800 kg) es la masa máxima autorizada cargado. La carga útil sería la diferencia (600 kg), no el propio 1.200. La trampa está en confundir el peso en vacío con la MMA o con la carga útil.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 632,
+"enunciado": "¿Cuál es la diferencia correcta entre la masa máxima autorizada (MMA) y la carga útil de un vehículo?",
+"opciones": [
+"La MMA es la masa del vehículo vacío y la carga útil es lo que puede transportar además del conductor.",
+"La MMA es la masa máxima del vehículo cargado autorizada por la Administración, y la carga útil es la diferencia entre la MMA y la tara.",
+"MMA y carga útil son sinónimos: ambas indican el peso máximo con carga."
+],
+"correcta_idx": 1,
+"explicacion": "La MMA es la masa máxima con la que se autoriza a circular al vehículo cargado (la fija el fabricante y la aprueba la Administración). La carga útil es lo que realmente se puede cargar: MMA menos la tara. La trampa habitual es asignar a la MMA el significado de peso en vacío o creer que es lo mismo que carga útil.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 633,
+"enunciado": "Circula usted por una vía de dos calzadas separadas, con más de un carril por sentido y sin acceso directo a las propiedades colindantes, pero permite la incorporación de tractores y ciclomotores y tiene algún cruce a nivel. ¿Ante qué tipo de vía se encuentra?",
+"opciones": [
+"Una autopista.",
+"Una autovía.",
+"Una vía rápida."
+],
+"correcta_idx": 1,
+"explicacion": "La autovía no exige los rigurosos requisitos de trazado de la autopista y no prohíbe totalmente ciertos accesos, pudiendo tener alguna limitación menor. La autopista prohíbe el acceso a fincas colindantes y no admite cruces a nivel, con calzadas separadas y limitaciones estrictas. La vía rápida es de una sola calzada con limitación de acceso a colindantes. La trampa está en confundir autopista y autovía por tener ambas calzadas separadas.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 634,
+"enunciado": "¿Qué distingue esencialmente a una vía rápida de una autovía?",
+"opciones": [
+"La vía rápida tiene una sola calzada, aunque con limitación de acceso a las propiedades colindantes.",
+"La vía rápida tiene calzadas separadas y la autovía una sola.",
+"No existe diferencia legal: son la misma clase de vía con distinto nombre."
+],
+"correcta_idx": 0,
+"explicacion": "La vía rápida es una carretera de una sola calzada con limitación total de accesos a las propiedades colindantes. La autovía dispone de calzadas separadas para cada sentido. La trampa es invertir la característica de calzada única o creer que ambos términos son intercambiables.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 635,
+"enunciado": "En un vehículo en circulación, ¿quién tiene la consideración legal de conductor?",
+"opciones": [
+"Únicamente la persona que maneja el volante y los pedales del vehículo a motor.",
+"La persona que maneja el mecanismo de dirección o va al mando del vehículo, incluida la que guía animales o conduce a mano un ciclo.",
+"Cualquier ocupante mayor de edad que viaje en los asientos delanteros."
+],
+"correcta_idx": 1,
+"explicacion": "Conductor es quien maneja el mecanismo de dirección o va al mando del vehículo, o quien guía animales de tiro, carga o silla o ganado. El concepto es más amplio que el de \"quien lleva el volante\". Los ocupantes que no manejan el vehículo son pasajeros, no conductores. La trampa está en restringir el concepto solo a vehículos a motor.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 636,
+"enunciado": "Se detiene su vehículo durante menos de dos minutos para que un pasajero suba, sin que usted abandone el puesto de conducción. Legalmente, ¿qué maniobra ha realizado?",
+"opciones": [
+"Una detención.",
+"Una parada.",
+"Un estacionamiento."
+],
+"correcta_idx": 1,
+"explicacion": "La parada es la inmovilización de un vehículo por tiempo no superior a dos minutos, sin que el conductor lo abandone, para tomar o dejar personas o cargar/descargar cosas. La detención es la inmovilización impuesta por las circunstancias del tráfico o por una señal (semáforo, agente). El estacionamiento supera los dos minutos o el conductor abandona el vehículo. La trampa es confundir parada con detención.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 637,
+"enunciado": "Inmoviliza el vehículo más de dos minutos y baja a comprar el periódico. ¿Cómo se califica esta maniobra?",
+"opciones": [
+"Parada, porque ha sido breve.",
+"Detención, por circunstancias ajenas a su voluntad.",
+"Estacionamiento."
+],
+"correcta_idx": 2,
+"explicacion": "Es estacionamiento porque la inmovilización supera los dos minutos y, además, el conductor abandona el vehículo. No es parada (que exige no superar dos minutos y no abandonar el vehículo) ni detención (inmovilización obligada por el tráfico o una señal). La trampa está en el criterio del tiempo y del abandono del puesto de conducción.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 638,
+"enunciado": "En una carretera con una banda longitudinal a la derecha, no destinada a la circulación normal de vehículos y delimitada por una línea, ¿qué parte de la vía es esa banda?",
+"opciones": [
+"Un carril adicional de circulación.",
+"El arcén.",
+"La calzada de servicio."
+],
+"correcta_idx": 1,
+"explicacion": "El arcén es la franja longitudinal contigua a la calzada, no destinada al uso de vehículos automóviles salvo en circunstancias excepcionales. La calzada es la parte destinada a la circulación de vehículos y el carril es una banda de la calzada suficiente para la marcha de una fila de vehículos. La trampa está en tomar el arcén por un carril o por una calzada de servicio.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 639,
+"enunciado": "¿Qué se entiende exactamente por calzada?",
+"opciones": [
+"Toda la superficie de la vía, incluidos arcenes y aceras.",
+"La parte de la vía destinada a la circulación de vehículos, compuesta por uno o varios carriles.",
+"Únicamente el carril por el que circula el vehículo en cada momento."
+],
+"correcta_idx": 1,
+"explicacion": "La calzada es la parte de la vía destinada a la circulación de vehículos, y puede estar formada por uno o varios carriles. No incluye los arcenes ni las aceras, ni se limita a un solo carril. La trampa está en ampliarla a toda la vía o reducirla a un carril.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 640,
+"enunciado": "Va usted por el carril derecho y se desplaza al carril izquierdo para situarse detrás de otro vehículo que circula por él, sin llegar a rebasarlo. ¿Qué maniobra realiza?",
+"opciones": [
+"Un adelantamiento.",
+"Un cambio de carril (o de dirección lateral), no un adelantamiento.",
+"Una incorporación a la circulación."
+],
+"correcta_idx": 1,
+"explicacion": "El adelantamiento exige rebasar a uno o varios vehículos que circulan en el mismo sentido, volviendo después al carril de origen si procede. Si solo cambia de carril y se coloca detrás de otro sin rebasarlo, es un cambio de carril, no un adelantamiento. La trampa está en llamar adelantamiento a todo movimiento hacia el carril izquierdo.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 641,
+"enunciado": "Un vehículo de policía circula con su señal luminosa azul encendida pero SIN emitir la señal acústica especial. ¿Está prestando un servicio urgente que le confiere prioridad de paso sobre los demás?",
+"opciones": [
+"Sí; con la señal luminosa encendida ya tiene prioridad aunque no use la acústica.",
+"No necesariamente; para gozar de la prioridad como vehículo prioritario en servicio urgente debe advertir su presencia con las señales luminosas y, además, la acústica especial cuando sea preciso.",
+"Sí, porque los vehículos de policía tienen prioridad permanente en cualquier circunstancia."
+],
+"correcta_idx": 1,
+"explicacion": "Los vehículos prioritarios (policía, bomberos, ambulancias, protección civil, salvamento) solo gozan de prioridad cuando circulan en servicio urgente y lo advierten mediante la señal luminosa y, cuando sea necesario, la acústica especial. Sin estar en servicio urgente y advertirlo, no tienen prioridad. La trampa es creer que la prioridad es permanente o que basta la luz en cualquier caso.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 642,
+"enunciado": "El permiso de la clase B, ¿qué vehículos autoriza a conducir en cuanto a su masa máxima autorizada?",
+"opciones": [
+"Automóviles con una MMA que no exceda de 3.500 kg y no más de 8 plazas además del conductor.",
+"Automóviles con una MMA que no exceda de 5.000 kg y hasta 9 plazas incluido el conductor.",
+"Cualquier automóvil de hasta 3.500 kg, sin límite de plazas."
+],
+"correcta_idx": 0,
+"explicacion": "El permiso B autoriza a conducir automóviles cuya MMA no exceda de 3.500 kg y cuyo número de asientos, incluido el del conductor, no exceda de nueve (es decir, 8 plazas además del conductor). La trampa está en subir el límite a 5.000 kg o en olvidar el límite de plazas.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 643,
+"enunciado": "¿Qué permiso se necesita, con carácter general, para conducir motocicletas de cualquier cilindrada y potencia?",
+"opciones": [
+"El permiso A2.",
+"El permiso A.",
+"El permiso B con más de tres años de antigüedad."
+],
+"correcta_idx": 1,
+"explicacion": "El permiso A autoriza a conducir motocicletas sin límite de potencia. El A2 se limita a motocicletas de potencia máxima de 35 kW y con una determinada relación potencia/peso. El permiso B con tres años de antigüedad solo permite conducir motocicletas de hasta 125 cm3 y 11 kW (equivalente al A1) dentro del territorio nacional, no cualquier motocicleta. La trampa está en confundir A con A2 o creer que el B habilita para grandes motos.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 644,
+"enunciado": "Una zona peatonal de la vía, ¿qué característica define correctamente?",
+"opciones": [
+"Parte de la vía, elevada o delimitada de otra forma, reservada a la circulación de peatones, incluyendo la acera y el andén.",
+"Cualquier arcén por el que puedan caminar los peatones cuando no hay acera.",
+"El paso de peatones señalizado con marcas viales."
+],
+"correcta_idx": 0,
+"explicacion": "La zona peatonal es la parte de la vía, elevada o delimitada de otra forma, reservada a la circulación de peatones; incluye la acera y el andén. El arcén no es una zona peatonal (aunque el peatón pueda usarlo a falta de acera) y el paso de peatones es solo una zona de la calzada para que crucen. La trampa está en confundir zona peatonal con arcén o con paso de peatones.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 645,
+"enunciado": "Un turismo particular acaba de cumplir exactamente 4 años desde su primera matriculación. ¿Cuándo debe pasar su primera ITV y con qué periodicidad posterior?",
+"opciones": [
+"Está exento durante los 4 primeros años, así que la primera ITV es al cumplir 4 años y después cada 2 años hasta los 10.",
+"La primera ITV es a los 5 años y luego anual.",
+"La primera ITV es a los 4 años y después anual."
+],
+"correcta_idx": 0,
+"explicacion": "Para turismos: exentos hasta los 4 años; de 4 a 10 años, cada 2 años; a partir de 10 años, anual. La trampa está en confundir la periodicidad bienal (4-10) con la anual, que solo empieza al superar los 10 años.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 646,
+"enunciado": "Un turismo tiene 11 años de antigüedad. ¿Cada cuánto tiempo debe someterse a la ITV?",
+"opciones": [
+"Cada 2 años, porque solo los vehículos de más de 15 años pasan ITV anual.",
+"Anualmente, porque supera los 10 años de antigüedad.",
+"Cada 6 meses."
+],
+"correcta_idx": 1,
+"explicacion": "A partir de los 10 años los turismos pasan ITV cada año. La trampa es creer que la periodicidad anual empieza más tarde (15 años) o mantener la bienal indefinidamente.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 647,
+"enunciado": "Un turismo tiene 8 años de antigüedad. ¿Cuál es su periodicidad de ITV?",
+"opciones": [
+"Anual.",
+"Cada 2 años.",
+"Está exento hasta los 10 años."
+],
+"correcta_idx": 1,
+"explicacion": "Entre 4 y 10 años, la ITV del turismo es bienal (cada 2 años). La trampa: 8 años sigue dentro del tramo bienal; la anual no comienza hasta superar los 10 años.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 648,
+"enunciado": "Un conductor de 66 años renueva su permiso de la clase B. ¿Qué periodo de vigencia tendrá, salvo que un informe médico indique uno menor?",
+"opciones": [
+"10 años, igual que antes de cumplir los 65.",
+"5 años.",
+"3 años."
+],
+"correcta_idx": 1,
+"explicacion": "Hasta los 65 años el permiso B se renueva cada 10 años; a partir de los 65, cada 5 años (salvo que el reconocimiento médico fije un plazo inferior). La trampa es mantener los 10 años o confundir con los 3.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 649,
+"enunciado": "Un conductor tiene 64 años y va a renovar su permiso B. Si no hay condiciones médicas restrictivas, ¿qué vigencia le corresponde?",
+"opciones": [
+"5 años, porque está cerca de los 65.",
+"10 años, porque aún no ha cumplido los 65.",
+"4 años."
+],
+"correcta_idx": 1,
+"explicacion": "El corte es cumplir 65 años. A los 64 todavía se aplica la vigencia de 10 años. La trampa es anticipar el plazo de 5 años antes de tiempo por 'estar cerca' del límite.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 650,
+"enunciado": "¿Qué documento acredita la titularidad administrativa del vehículo y a nombre de quién está matriculado?",
+"opciones": [
+"La tarjeta de inspección técnica (ficha técnica / tarjeta ITV).",
+"El permiso de circulación.",
+"El recibo del seguro obligatorio."
+],
+"correcta_idx": 1,
+"explicacion": "El permiso de circulación identifica al titular y la matrícula del vehículo. La tarjeta ITV recoge las características técnicas. La trampa es confundir ambos documentos.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 651,
+"enunciado": "¿En qué documento se anotan y sellan los resultados de cada inspección técnica periódica superada?",
+"opciones": [
+"En el permiso de circulación.",
+"En la tarjeta de inspección técnica del vehículo (tarjeta ITV / ficha técnica).",
+"En el permiso de conducción del titular."
+],
+"correcta_idx": 1,
+"explicacion": "La periodicidad y el resultado de la ITV constan en la tarjeta de inspección técnica. La trampa es atribuir esa función al permiso de circulación, que solo acredita titularidad y matrícula.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 652,
+"enunciado": "Un conductor obtiene por primera vez el permiso B. ¿Con qué saldo inicial de puntos comienza?",
+"opciones": [
+"Con 12 puntos desde el primer día.",
+"Con 8 puntos, que pasan a 12 tras 2 años sin ser sancionado.",
+"Con 6 puntos."
+],
+"correcta_idx": 1,
+"explicacion": "El conductor novel parte de 8 puntos; alcanza 12 a los 2 años sin sanciones firmes que detraigan puntos. La trampa es dar 12 de inicio o rebajar el saldo inicial a 6.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 653,
+"enunciado": "¿Cuál es el máximo de puntos que puede acumular un conductor y qué requisito permite superar los 12?",
+"opciones": [
+"El máximo es 15 puntos, alcanzables tras 3 años sin ser sancionado con pérdida de puntos.",
+"El máximo es 12 puntos y no puede superarse en ningún caso.",
+"El máximo es 15 puntos tras 2 años sin sanciones."
+],
+"correcta_idx": 0,
+"explicacion": "Quien mantiene el saldo de 12 durante 3 años sin sanciones con detracción alcanza 15 puntos (máximo). La trampa es fijar el tope en 12 o reducir el plazo a 2 años.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 654,
+"enunciado": "Tras la reforma de la Ley de Tráfico de 2022, ¿qué ocurre con los puntos al recuperar el permiso después de haberlo perdido totalmente por saldo cero?",
+"opciones": [
+"Se recupera con 8 puntos, tanto la primera vez como en reincidencias dentro de los plazos.",
+"Se recupera con 8 puntos con carácter general, aunque puede ser menor (6) si se pierde de nuevo en el plazo legal de reincidencia.",
+"Se recupera siempre con 12 puntos."
+],
+"correcta_idx": 1,
+"explicacion": "Tras perder la vigencia por saldo cero y superar el curso de sensibilización, se recupera el permiso con 8 puntos con carácter general; si se vuelve a perder dentro del plazo de reincidencia, se recupera con 6. La trampa es dar siempre 8 o creer que se vuelve a 12.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 655,
+"enunciado": "Un conductor con 12 puntos comete una infracción grave que detrae puntos. ¿Cuánto tiempo debe pasar sin sanciones detractoras para recuperar el saldo total de 12 puntos?",
+"opciones": [
+"3 años sin infracciones que detraigan puntos.",
+"2 años sin infracciones que detraigan puntos.",
+"6 meses sin infracciones."
+],
+"correcta_idx": 1,
+"explicacion": "Tras una infracción grave, se recupera el saldo total de 12 puntos si transcurren 2 años sin ser sancionado con detracción. Para las infracciones muy graves el plazo es de 3 años. La trampa es intercambiar los plazos de graves y muy graves.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 656,
+"enunciado": "¿Cuál es el plazo que debe transcurrir sin sanciones detractoras para recuperar el crédito total de puntos tras una infracción MUY GRAVE?",
+"opciones": [
+"2 años.",
+"3 años.",
+"1 año."
+],
+"correcta_idx": 1,
+"explicacion": "Las infracciones muy graves exigen 3 años sin sanciones detractoras para recuperar el saldo total; las graves, 2 años. La trampa es aplicar el plazo de las graves (2 años) a las muy graves.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 657,
+"enunciado": "¿Qué seguro es de suscripción obligatoria para poder poner en circulación un vehículo a motor?",
+"opciones": [
+"El seguro a todo riesgo con franquicia.",
+"El seguro obligatorio de responsabilidad civil de suscripción obligatoria (SOA).",
+"Solo el seguro que cubre los daños propios del vehículo."
+],
+"correcta_idx": 1,
+"explicacion": "Es obligatorio el seguro de responsabilidad civil que cubre los daños causados a terceros. El 'todo riesgo' o el de daños propios son voluntarios. La trampa es confundir la cobertura obligatoria (daños a terceros) con las coberturas voluntarias.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 658,
+"enunciado": "Un conductor con permiso de otro país de la Unión Europea reside en España y desea equiparar su documento al español. ¿Qué trámite realiza y qué NO implica?",
+"opciones": [
+"Un canje del permiso, que no exige repetir el examen de conducir con carácter general.",
+"Una transferencia del permiso, que obliga siempre a examinarse de nuevo.",
+"Una renovación, que exige matricular también el vehículo."
+],
+"correcta_idx": 0,
+"explicacion": "El canje sustituye un permiso extranjero (UE o país con convenio) por el español sin repetir examen con carácter general. La 'transferencia' se refiere al cambio de titularidad de un vehículo, no del permiso. La trampa es mezclar los conceptos de canje (permiso) y transferencia (vehículo).",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 659,
+"enunciado": "Un conductor con permiso B obtenido hace 5 años circula por una vía interurbana. En un control se le mide alcohol en aire espirado. ¿A partir de qué valor se considera que supera la tasa administrativa permitida?",
+"opciones": [
+"A partir de 0,15 mg/l de aire espirado.",
+"A partir de 0,25 mg/l de aire espirado.",
+"A partir de 0,30 mg/l de aire espirado."
+],
+"correcta_idx": 1,
+"explicacion": "La tasa general para conductores con más de 2 años de permiso es 0,25 mg/l en aire espirado (equivalente a 0,5 g/l en sangre). El 0,15 mg/l corresponde a noveles y profesionales, y 0,30 es un valor inexistente que mezcla el 0,3 g/l de sangre con las unidades de aire.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 660,
+"enunciado": "Una persona obtuvo el permiso B hace 14 meses. ¿Cuál es la tasa máxima de alcohol en aire espirado que puede presentar sin infringir la norma?",
+"opciones": [
+"0,25 mg/l de aire espirado.",
+"0,15 mg/l de aire espirado.",
+"0,50 mg/l de aire espirado."
+],
+"correcta_idx": 1,
+"explicacion": "Al llevar menos de 2 años con el permiso es conductor novel, por lo que su tasa es la reducida de 0,15 mg/l en aire (0,3 g/l en sangre). El 0,25 es la general y el 0,50 confunde el valor de sangre (0,5 g/l) con las unidades de aire.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 661,
+"enunciado": "La tasa de alcohol reducida de 0,15 mg/l en aire espirado equivale en sangre a:",
+"opciones": [
+"0,3 g/l en sangre.",
+"0,5 g/l en sangre.",
+"0,15 g/l en sangre."
+],
+"correcta_idx": 0,
+"explicacion": "La equivalencia aire-sangre es de 1 a 2 aproximadamente: 0,15 mg/l en aire = 0,3 g/l en sangre. La trampa es responder 0,5 g/l (que corresponde a 0,25 mg/l) o mantener la misma cifra cambiando solo la unidad.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 662,
+"enunciado": "Un conductor profesional que transporta viajeros da positivo con 0,20 mg/l de alcohol en aire espirado. ¿Ha cometido infracción?",
+"opciones": [
+"No, porque no llega a 0,25 mg/l.",
+"Sí, porque su tasa máxima es 0,15 mg/l.",
+"No, porque los profesionales tienen tasa 0,50 mg/l."
+],
+"correcta_idx": 1,
+"explicacion": "Los conductores profesionales tienen la tasa reducida de 0,15 mg/l en aire, igual que los noveles. Con 0,20 mg/l ya la superan. La trampa es aplicarles la tasa general de 0,25 mg/l.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 663,
+"enunciado": "¿A partir de qué tasa de alcohol en aire espirado la conducción constituye delito contra la seguridad vial según el Código Penal?",
+"opciones": [
+"A partir de 0,60 mg/l en aire espirado.",
+"A partir de 0,25 mg/l en aire espirado.",
+"A partir de 0,50 mg/l en aire espirado."
+],
+"correcta_idx": 0,
+"explicacion": "El delito por tasa objetiva se comete a partir de 0,60 mg/l en aire espirado (1,2 g/l en sangre). El 0,25 es una infracción administrativa y el 0,50 confunde con el valor de sangre de la tasa general.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 664,
+"enunciado": "La tasa penal de 0,60 mg/l de alcohol en aire espirado corresponde en sangre a:",
+"opciones": [
+"1,2 g/l en sangre.",
+"0,6 g/l en sangre.",
+"0,8 g/l en sangre."
+],
+"correcta_idx": 0,
+"explicacion": "Aplicando la equivalencia (aire x2 = sangre), 0,60 mg/l en aire = 1,2 g/l en sangre, umbral del delito. Las trampas son repetir la cifra cambiando de unidad (0,6 g/l) o inventar 0,8 g/l.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 665,
+"enunciado": "En un control de drogas mediante saliva se detecta la presencia de cocaína en un conductor, aunque no muestra síntomas evidentes. ¿Qué determina la norma?",
+"opciones": [
+"No hay infracción si no se supera una tasa mínima establecida.",
+"Hay infracción por la simple presencia de la droga en el organismo.",
+"Solo hay infracción si además supera 0,25 mg/l de alcohol."
+],
+"correcta_idx": 1,
+"explicacion": "A diferencia del alcohol, para las drogas no existe tasa permitida: basta la mera presencia en el organismo para infringir. La trampa es aplicar una tasa mínima como en el alcohol.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 666,
+"enunciado": "¿Cuánto tiempo debe transcurrir desde la obtención del permiso para dejar de tener la consideración de conductor novel a efectos de la tasa de alcohol?",
+"opciones": [
+"1 año.",
+"2 años.",
+"3 años."
+],
+"correcta_idx": 1,
+"explicacion": "Se es conductor novel durante los 2 primeros años desde la obtención del permiso, periodo en el que se aplica la tasa reducida de 0,15 mg/l. La trampa son las cifras cercanas de 1 o 3 años.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 667,
+"enunciado": "Respecto a la sensación que produce el alcohol en el conductor, ¿qué afirmación es correcta?",
+"opciones": [
+"Produce una falsa sensación de seguridad y mejora real de reflejos.",
+"Produce una falsa sensación de seguridad mientras aumenta el tiempo de reacción.",
+"Reduce el tiempo de reacción y aumenta la capacidad de atención."
+],
+"correcta_idx": 1,
+"explicacion": "El alcohol genera una falsa sensación de seguridad y euforia, pero en realidad aumenta el tiempo de reacción y disminuye la atención. La trampa mezcla el efecto psicológico engañoso con una supuesta mejora real que no existe.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 668,
+"enunciado": "Un conductor se niega a someterse a las pruebas de detección de alcohol tras un requerimiento legítimo de los agentes. ¿Qué consecuencia tiene?",
+"opciones": [
+"Ninguna, someterse a la prueba es voluntario.",
+"Puede constituir un delito, ya que la prueba es obligatoria.",
+"Solo una advertencia, salvo que haya causado un accidente."
+],
+"correcta_idx": 1,
+"explicacion": "Someterse a las pruebas de detección es obligatorio y la negativa puede constituir un delito contra la seguridad vial, con independencia de que se haya causado o no un accidente. La trampa es presentarlo como voluntario.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 669,
+"enunciado": "Antes de conducir tomando un medicamento, ¿cuál es la referencia más fiable sobre si afecta a la conducción?",
+"opciones": [
+"El prospecto y el pictograma del triángulo con el coche del envase.",
+"La sensación personal de encontrarse bien.",
+"Que no contenga alcohol en su composición."
+],
+"correcta_idx": 0,
+"explicacion": "Muchos medicamentos afectan a la conducción (somnolencia, visión, reflejos) y lo advierten en el prospecto y con el pictograma del triángulo rojo con el coche. La trampa es fiarse de la sensación subjetiva o pensar que solo importa el alcohol.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 670,
+"enunciado": "Un conductor novel da 0,25 mg/l en aire espirado. ¿Cómo se califica su situación?",
+"opciones": [
+"Correcto, está justo en el límite general permitido.",
+"Infracción, porque su límite es 0,15 mg/l y lo ha superado.",
+"Delito, porque ha superado los 0,15 mg/l."
+],
+"correcta_idx": 1,
+"explicacion": "El novel tiene límite 0,15 mg/l, así que 0,25 mg/l es infracción administrativa (no delito, que empieza en 0,60). La primera trampa aplica la tasa general; la tercera confunde infracción con delito.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 671,
+"enunciado": "Sobre la eliminación del alcohol del organismo, ¿qué afirmación es correcta?",
+"opciones": [
+"Un café cargado y una ducha fría aceleran su eliminación.",
+"El cuerpo lo elimina lentamente y solo el tiempo reduce la tasa.",
+"El ejercicio físico intenso lo elimina en pocos minutos."
+],
+"correcta_idx": 1,
+"explicacion": "El hígado metaboliza el alcohol a un ritmo fijo y lento; solo el paso del tiempo reduce la tasa. Ni el café, ni la ducha ni el ejercicio aceleran su eliminación: son mitos habituales que constituyen la trampa.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 672,
+"enunciado": "Se detecta en un conductor 0,30 g/l de alcohol en sangre. Se trata de un conductor con permiso desde hace 6 meses. ¿Qué se concluye?",
+"opciones": [
+"No infringe, porque su límite en sangre es 0,5 g/l.",
+"Infringe, porque su límite en sangre es 0,3 g/l y lo alcanza.",
+"Comete delito, porque supera 0,3 g/l en sangre."
+],
+"correcta_idx": 1,
+"explicacion": "Como novel su límite en sangre es 0,3 g/l (0,15 mg/l en aire); alcanzar o superar ese valor es infracción administrativa, no delito. La primera trampa aplica la tasa general de sangre y la tercera confunde con el ámbito penal.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 673,
+"enunciado": "Circula usted con su turismo por una autovía. ¿Cuál es la velocidad máxima genérica que no debe rebasar?",
+"opciones": [
+"90 km/h",
+"120 km/h",
+"100 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "En autopista y autovía el límite genérico para turismos es 120 km/h. El 90 corresponde a carretera convencional y el 100 a algunos vehículos como autobuses o camiones en autovía; no confunda el tipo de vía.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 674,
+"enunciado": "Conduce su turismo por una carretera convencional (fuera de poblado, con un carril para cada sentido). ¿A qué velocidad máxima puede circular?",
+"opciones": [
+"90 km/h",
+"100 km/h",
+"120 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "El límite genérico en carretera convencional para turismos es 90 km/h. Los 120 son de autopista/autovía. La trampa es aplicar el límite de la vía de alta capacidad a una convencional.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 675,
+"enunciado": "Va a adelantar a otro vehículo en una carretera convencional cuyo límite es 90 km/h. ¿Hasta qué velocidad puede llegar durante la maniobra de adelantamiento?",
+"opciones": [
+"110 km/h, porque se permite superar en 20 km/h el límite",
+"100 km/h, un margen de 10 km/h",
+"90 km/h, no puede rebasar en ningún caso el límite de la vía"
+],
+"correcta_idx": 2,
+"explicacion": "Desde 2022 se eliminó el margen de +20 km/h para adelantar en convencionales. El conductor NUNCA puede rebasar el límite genérico de la vía, ni siquiera para adelantar. Ese +20 es un error histórico que ya no existe.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 676,
+"enunciado": "¿Cuál es la velocidad MÍNIMA genérica a la que puede circular un turismo en una autopista con límite máximo de 120 km/h, salvo circunstancias justificadas?",
+"opciones": [
+"45 km/h",
+"60 km/h",
+"90 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "La velocidad mínima genérica es la mitad de la máxima fijada para la vía: la mitad de 120 es 60 km/h. La trampa es confundirla con la mitad del máximo de un turismo (90) o inventar cifras redondas.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 677,
+"enunciado": "Circula por una vía urbana con un único carril para cada sentido de circulación. ¿Cuál es el límite máximo de velocidad?",
+"opciones": [
+"20 km/h",
+"50 km/h",
+"30 km/h"
+],
+"correcta_idx": 2,
+"explicacion": "Desde 2021, en vías urbanas de un solo carril por sentido el límite es 30 km/h. Los 50 son para vías de dos o más carriles por sentido y los 20 para plataforma única (calzada y acera al mismo nivel). No mezcle los tres casos.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 678,
+"enunciado": "Circula por una vía urbana de dos carriles por sentido de circulación. ¿Cuál es la velocidad máxima permitida?",
+"opciones": [
+"50 km/h",
+"30 km/h",
+"20 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "En vías urbanas con dos o más carriles por sentido el límite es 50 km/h. El 30 se aplica a un solo carril por sentido y el 20 a plataforma única. La trampa está en no contar bien los carriles por sentido.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 679,
+"enunciado": "Circula por una vía urbana de plataforma única, en la que la calzada y la acera están al mismo nivel. ¿Cuál es el límite de velocidad?",
+"opciones": [
+"30 km/h",
+"20 km/h",
+"10 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "En calles de plataforma única (acera y calzada al mismo nivel) el límite es 20 km/h. Muchos lo confunden con el 30 de las calles de un carril por sentido; aquí prevalece el 20 por la convivencia con peatones.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 680,
+"enunciado": "Conduce una motocicleta por una autopista. ¿Cuál es su velocidad máxima genérica?",
+"opciones": [
+"100 km/h",
+"120 km/h",
+"90 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "Las motocicletas tienen el mismo límite genérico que los turismos: 120 km/h en autopista/autovía. La trampa es asignarles el límite de los camiones (90/100), pero la motocicleta equipara al turismo.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 681,
+"enunciado": "Conduce un camión con una masa máxima autorizada superior a 3.500 kg por una autovía. ¿Cuál es su velocidad máxima genérica?",
+"opciones": [
+"120 km/h",
+"90 km/h",
+"80 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "Los camiones de MMA superior a 3.500 kg tienen un máximo de 90 km/h en autopista y autovía, no los 120 de un turismo. El 80 corresponde a estos camiones en carretera convencional; distinga el tipo de vía.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 682,
+"enunciado": "Conduce un autobús por una carretera convencional. ¿Cuál es la velocidad máxima genérica?",
+"opciones": [
+"100 km/h",
+"90 km/h",
+"80 km/h"
+],
+"correcta_idx": 2,
+"explicacion": "El autobús tiene un límite de 80 km/h en carretera convencional. Los 90 son del turismo en esa misma vía y los 100 del autobús en autopista/autovía. La confusión típica es aplicarle el límite del turismo.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 683,
+"enunciado": "Conduce un turismo que arrastra un remolque de menos de 750 kg por una autovía. ¿Cuál es su velocidad máxima genérica?",
+"opciones": [
+"120 km/h",
+"90 km/h",
+"100 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "Un turismo que arrastra un remolque tiene el límite reducido a 90 km/h en autopista y autovía (frente a los 120 km/h de un turismo solo). La trampa es aplicar 100 km/h (autobuses/derivados de turismo) o mantener los 120 km/h del turismo sin remolque.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 684,
+"enunciado": "Conduce un ciclomotor. ¿Cuál es su velocidad máxima por construcción y normativa en cualquier vía?",
+"opciones": [
+"45 km/h",
+"60 km/h",
+"90 km/h"
+],
+"correcta_idx": 0,
+"explicacion": "El ciclomotor no puede superar los 45 km/h en ninguna vía, ya que esa es su velocidad máxima por construcción. La trampa es aplicarle límites de vía (90, 60) que nunca alcanzará ni le están permitidos.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 685,
+"enunciado": "Circula a 100 km/h por una carretera convencional con su turismo. Detrás de usted otro vehículo mantiene una distancia de seguridad. En condiciones normales, ¿cuál es la regla básica de la distancia de seguridad respecto al vehículo que le precede?",
+"opciones": [
+"Mantener siempre exactamente 50 metros",
+"Dejar un espacio libre que le permita detenerse sin colisionar si el de delante frena bruscamente",
+"Mantener la mitad en metros de la velocidad a la que circula"
+],
+"correcta_idx": 1,
+"explicacion": "La distancia de seguridad no es una cifra fija, sino la que permite detenerse sin colisionar ante un frenazo del vehículo precedente. Las cifras cerradas (50 m, mitad de la velocidad) son reglas orientativas o trampas, no la definición reglamentaria.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 686,
+"enunciado": "Conduce un turismo por un tramo de carretera convencional señalizado con una señal de límite de 70 km/h. ¿A qué velocidad máxima puede circular?",
+"opciones": [
+"90 km/h, el límite genérico de la vía",
+"70 km/h, el que indica la señal",
+"80 km/h, la media entre ambos"
+],
+"correcta_idx": 1,
+"explicacion": "La señalización concreta prevalece siempre sobre el límite genérico. Si una señal indica 70, ese es el máximo aunque el genérico de la vía sea 90. La trampa es creer que el límite genérico permite ir más rápido que la señal.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 687,
+"enunciado": "Conduce un turismo con remolque ligero (menos de 750 kg) por una carretera convencional. ¿Cuál es su velocidad máxima genérica?",
+"opciones": [
+"90 km/h",
+"80 km/h",
+"70 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "El turismo con remolque baja a 80 km/h en carretera convencional. Sin remolque iría a 90; con remolque se reduce en 10 km/h. La confusión es no aplicar la reducción por arrastrar remolque.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 688,
+"enunciado": "¿Cuál es la velocidad MÍNIMA genérica a la que debe circular un turismo en una carretera convencional cuyo máximo es 90 km/h, salvo justificación?",
+"opciones": [
+"30 km/h",
+"45 km/h",
+"60 km/h"
+],
+"correcta_idx": 1,
+"explicacion": "La velocidad mínima es la mitad de la máxima de la vía: la mitad de 90 es 45 km/h. La trampa es usar la mitad de otro límite (120 daría 60) o inventar cifras; siempre es la mitad del máximo de ESA vía.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 689,
+"enunciado": "En un cruce, un agente de circulación indica con el brazo extendido horizontalmente que detengamos la marcha, pero el semáforo que tenemos enfrente está en verde. ¿Qué debemos hacer?",
+"opciones": [
+"Obedecer al semáforo, porque regula específicamente ese cruce",
+"Detenernos, porque las indicaciones del agente prevalecen sobre cualquier otra señal",
+"Avanzar con precaución, ya que ambas señales tienen el mismo rango"
+],
+"correcta_idx": 1,
+"explicacion": "El orden de prioridad es: agente > semáforo > señal vertical > marca vial. La indicación del agente prevalece siempre sobre el semáforo aunque esté en verde. La trampa consiste en creer que el semáforo, por ser el que regula el cruce, manda sobre el agente.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 690,
+"enunciado": "Coincide en un mismo tramo una señal vertical que prohíbe adelantar y una marca vial longitudinal discontinua que, en principio, permitiría el adelantamiento. ¿Qué prevalece?",
+"opciones": [
+"La marca vial, porque está pintada sobre la propia calzada",
+"La señal vertical, porque tiene mayor prioridad que las marcas viales",
+"Ninguna, el conductor elige la más favorable"
+],
+"correcta_idx": 1,
+"explicacion": "En el orden de prioridad, la señal vertical prevalece sobre la marca vial. Por tanto, aunque la línea discontinua permitiría adelantar, la señal de prohibición de adelantamiento manda. La trampa es pensar que la marca vial, por estar más cerca de las ruedas, tiene preferencia.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 691,
+"enunciado": "Respecto a la FORMA y COLOR, ¿cómo se caracterizan por lo general las señales de advertencia de peligro?",
+"opciones": [
+"Triangulares con el vértice hacia arriba, fondo blanco y borde rojo",
+"Circulares con fondo blanco y borde rojo",
+"Circulares con fondo azul"
+],
+"correcta_idx": 0,
+"explicacion": "Las señales de advertencia de peligro son triangulares (vértice hacia arriba), fondo blanco y borde rojo. Las circulares de borde rojo y fondo blanco son de prohibición o restricción, y las circulares azules son de obligación. La trampa mezcla la forma triangular con la circular.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 692,
+"enunciado": "Una señal circular de fondo azul con una flecha blanca apuntando hacia la derecha, ¿qué tipo de señal es y qué significa?",
+"opciones": [
+"De peligro: advierte de una curva peligrosa a la derecha",
+"De prohibición: prohíbe girar a la derecha",
+"De obligación: obliga a seguir el sentido indicado por la flecha (sentido obligatorio)"
+],
+"correcta_idx": 2,
+"explicacion": "Las señales circulares de fondo azul son de OBLIGACIÓN. Una flecha blanca sobre fondo azul impone el sentido obligatorio de circulación. La trampa: el color azul se asocia a obligación, no a prohibición (roja) ni a peligro (triangular).",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 693,
+"enunciado": "¿Qué característica define a las señales que indican el FIN de una prohibición o restricción anteriormente establecida?",
+"opciones": [
+"Son triangulares con una banda verde",
+"Suelen ser circulares, de color blanco o gris, con una o varias bandas oblicuas que anulan la prohibición",
+"Son cuadradas de fondo azul con el símbolo tachado en rojo"
+],
+"correcta_idx": 1,
+"explicacion": "Las señales de fin de prohibición son circulares, de color claro (blanco/gris) y llevan bandas oblicuas (una o varias) que anulan la restricción previa. La trampa las confunde con las de obligación (azules) o con formas triangulares de peligro.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 694,
+"enunciado": "Con carácter general, en vías fuera de poblado, ¿a qué distancia antes del peligro se colocan las señales de advertencia de peligro?",
+"opciones": [
+"Entre 150 y 250 metros antes del peligro",
+"Justo en el punto donde comienza el peligro",
+"A 500 metros exactos siempre"
+],
+"correcta_idx": 0,
+"explicacion": "Fuera de poblado, las señales de peligro se colocan con carácter general entre 150 y 250 metros antes del punto peligroso, para dar tiempo de reacción. La trampa sugiere que se colocan justo en el peligro (eso sería inútil) o una distancia fija exagerada.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 695,
+"enunciado": "Una línea longitudinal continua blanca que separa dos sentidos de circulación, ¿qué está permitido respecto a ella?",
+"opciones": [
+"Rebasarla para adelantar siempre que no venga nadie de frente",
+"No se debe rebasar ni circular sobre ella, salvo para acceder a una propiedad o cambiar de calzada cuando esté permitido",
+"Cruzarla libremente porque solo es orientativa"
+],
+"correcta_idx": 1,
+"explicacion": "La línea continua no debe ser rebasada ni circular sobre ella; solo se admite en supuestos muy tasados (acceso a una propiedad colindante, por ejemplo). La discontinua sí permite rebasarla cuando la seguridad lo permita. La trampa aplica a la continua la regla de la discontinua.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 696,
+"enunciado": "¿Qué diferencia esencial existe entre la señal de STOP y la de Ceda el paso en cuanto a la obligación que imponen?",
+"opciones": [
+"Ambas obligan siempre a detener completamente el vehículo",
+"El STOP obliga a detenerse por completo en el lugar indicado; el Ceda el paso obliga a ceder la preferencia, deteniéndose solo si es necesario",
+"El Ceda el paso obliga a parar en seco y el STOP solo a reducir"
+],
+"correcta_idx": 1,
+"explicacion": "El STOP (octogonal) obliga a detención total en el punto marcado; el Ceda el paso (triangular con vértice hacia abajo) obliga a ceder la prioridad, deteniéndose solo si hay vehículos con preferencia. La trampa intercambia las obligaciones de ambas señales.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 697,
+"enunciado": "¿Cuál es la diferencia entre la señal de 'Circulación prohibida en ambos sentidos' y la de 'Entrada prohibida'?",
+"opciones": [
+"La primera (círculo rojo con centro blanco) prohíbe la entrada a todo vehículo en ambos sentidos; la segunda (círculo rojo con banda blanca horizontal) prohíbe solo la entrada en ese sentido",
+"Ambas significan exactamente lo mismo y son intercambiables",
+"La de entrada prohibida permite salir pero no entrar a los peatones únicamente"
+],
+"correcta_idx": 0,
+"explicacion": "'Circulación prohibida' (círculo rojo con interior blanco) prohíbe circular en ambos sentidos; 'Entrada prohibida' (círculo rojo con banda blanca horizontal, la 'dirección prohibida') solo veta la entrada en ese sentido, típica de calles de sentido único. La trampa es confundir ambos discos rojos.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 698,
+"enunciado": "En una señal de peligro colocada bajo un panel complementario que indica '300 m', ¿qué expresa ese panel?",
+"opciones": [
+"La longitud total del tramo peligroso",
+"La distancia que existe desde la señal hasta el comienzo del peligro anunciado",
+"La velocidad máxima recomendada en metros por segundo"
+],
+"correcta_idx": 1,
+"explicacion": "Un panel complementario con una cifra de distancia bajo una señal de peligro indica la distancia desde la señal hasta el comienzo del peligro. Si indicara la longitud del tramo afectado, el panel llevaría una doble flecha vertical. La trampa confunde 'distancia al peligro' con 'longitud del tramo'.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 699,
+"enunciado": "Las señales de balizamiento, como los paneles direccionales y los hitos de arista, ¿qué finalidad principal cumplen?",
+"opciones": [
+"Indicar límites de velocidad obligatorios",
+"Destacar la presencia de obstáculos o resaltar el trazado de la vía para guiar al conductor",
+"Prohibir el estacionamiento en curva"
+],
+"correcta_idx": 1,
+"explicacion": "Las señales de balizamiento (paneles direccionales, hitos de arista, captafaros, etc.) tienen por objeto resaltar el trazado de la vía o la presencia de obstáculos para orientar al conductor, especialmente de noche o con poca visibilidad. La trampa les atribuye funciones de prohibición o velocidad.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 700,
+"enunciado": "En un estrechamiento de calzada señalizado con la señal de 'Prioridad al sentido contrario', ¿qué debe hacer el conductor?",
+"opciones": [
+"Tiene preferencia y puede pasar primero por el estrechamiento",
+"Debe ceder el paso a los vehículos que circulan en sentido contrario antes de entrar en el estrechamiento",
+"Debe detenerse siempre por completo aunque no venga nadie"
+],
+"correcta_idx": 1,
+"explicacion": "La señal de 'Prioridad al sentido contrario' (flecha roja hacia abajo del propio sentido y flecha negra del contrario) obliga a ceder el paso a quien viene de frente. Su opuesta, 'Prioridad respecto al sentido contrario', otorga la preferencia. La trampa invierte quién tiene la prioridad en el estrechamiento.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 701,
+"enunciado": "Una señal triangular con borde rojo y el dibujo de dos niños, ¿qué tipo de señal es y qué comunica?",
+"opciones": [
+"De prohibición: prohíbe el paso a menores de edad",
+"De advertencia de peligro: avisa de un lugar frecuentado por niños (proximidad de zona escolar, etc.)",
+"De obligación: obliga a llevar sistemas de retención infantil"
+],
+"correcta_idx": 1,
+"explicacion": "Al ser triangular con borde rojo, es una señal de ADVERTENCIA de peligro: avisa de un lugar frecuentado por niños. No prohíbe ni obliga nada; solo advierte para extremar la precaución. La trampa interpreta el símbolo como una prohibición u obligación por el hecho de aparecer niños.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 702,
+"enunciado": "Si en una intersección coinciden una marca vial de STOP pintada en el suelo y una señal vertical de Ceda el paso, ¿cuál se obedece?",
+"opciones": [
+"La marca vial de STOP, porque está más cerca de las ruedas",
+"La señal vertical de Ceda el paso, porque las señales verticales prevalecen sobre las marcas viales",
+"La que el conductor considere más segura en ese momento"
+],
+"correcta_idx": 1,
+"explicacion": "Según el orden de prioridad, la señal vertical prevalece sobre la marca vial. Por tanto se obedece el Ceda el paso vertical (ceder la preferencia sin detención total obligatoria), no la marca de STOP del suelo. La trampa apela a la 'cercanía a las ruedas' de la marca, que no otorga prioridad.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 703,
+"enunciado": "Circula por el interior de una glorieta y otro vehículo espera para acceder a ella por una de las entradas. En ausencia de señalización que indique lo contrario, ¿quién tiene la preferencia de paso?",
+"opciones": [
+"El vehículo que ya está circulando por la calzada anular de la glorieta.",
+"El vehículo que va a entrar, porque se aproxima por la derecha del que circula dentro.",
+"El primero de los dos que ponga la rueda sobre la línea de la glorieta."
+],
+"correcta_idx": 0,
+"explicacion": "La glorieta funciona como una vía de sentido giratorio: salvo señalización en contra, tiene preferencia quien ya circula por el anillo. La trampa es aplicar mecánicamente la regla de la derecha, que aquí no rige: el que entra siempre debe ceder el paso al que ya gira.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 704,
+"enunciado": "Va a abandonar una glorieta de dos carriles por una salida situada a su derecha. ¿Desde qué carril y con qué maniobra previa debe hacerlo correctamente?",
+"opciones": [
+"Desde el carril exterior (el de la derecha), habiéndose situado en él con antelación y señalizando la salida con el intermitente derecho.",
+"Desde el carril interior, cruzando en diagonal hacia la salida sin señalizar, porque dentro de la glorieta no hay que indicar.",
+"Desde cualquiera de los dos carriles, ya que en las glorietas no existe obligación de circular por un carril determinado."
+],
+"correcta_idx": 0,
+"explicacion": "Para salir hay que ocupar previamente el carril exterior y anunciar la salida con el intermitente derecho. La trampa es creer que dentro de la glorieta no se señaliza o que se puede salir cruzando carriles desde el interior, lo que provoca cortes de trayectoria a quien circula por el carril exterior.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 705,
+"enunciado": "Se aproxima a una intersección sin señales ni semáforos, en la que confluye por su derecha un camino sin pavimentar mientras usted circula por una vía asfaltada. ¿Cómo se resuelve la preferencia?",
+"opciones": [
+"Cede el paso al vehículo del camino de tierra, porque se aproxima por su derecha.",
+"Tiene usted preferencia, porque circula por una vía asfaltada frente a un camino sin pavimentar.",
+"Tiene usted preferencia por circular a mayor velocidad que el vehículo del camino."
+],
+"correcta_idx": 1,
+"explicacion": "Es una excepción a la regla de la derecha: quien sale de una vía sin pavimentar debe ceder el paso a quien circula por una pavimentada. La trampa es aplicar automáticamente la preferencia por la derecha ignorando esta excepción prevista en el Reglamento.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 706,
+"enunciado": "Sale de un aparcamiento y desea incorporarse a la circulación de una vía por la que ya vienen vehículos. ¿Qué obligación tiene?",
+"opciones": [
+"Ceder el paso a los vehículos que ya circulan, aunque tenga que detenerse por completo para hacerlo.",
+"Tiene preferencia si va despacio y con el intermitente puesto, porque los demás deben facilitarle la maniobra.",
+"Tiene preferencia sobre los que vienen por su izquierda, ya que estos se aproximan por ese lado."
+],
+"correcta_idx": 0,
+"explicacion": "Quien se incorpora a la circulación desde una zona colindante (aparcamiento, garaje, propiedad) siempre cede el paso a los que ya circulan. La trampa es pensar que señalizar la maniobra da preferencia: señalizar no exime nunca de ceder el paso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 707,
+"enunciado": "Adelanta a un ciclista que circula por su mismo sentido en una carretera convencional. ¿Cómo debe realizar la maniobra conforme a la normativa vigente?",
+"opciones": [
+"Dejando al menos 1,5 metros de separación lateral y pudiendo ocupar parte o la totalidad del carril contrario si es necesario y está permitido adelantar.",
+"Dejando al menos 1 metro de separación lateral, sin invadir en ningún caso el carril contrario.",
+"Superando su velocidad en al menos 20 km/h para completar el adelantamiento con seguridad."
+],
+"correcta_idx": 0,
+"explicacion": "La separación lateral mínima al adelantar a un ciclista es de 1,5 metros, y para respetarla se puede ocupar el carril contrario cuando el adelantamiento esté permitido. La trampa mezcla el dato antiguo del margen de +20 km/h, hoy eliminado, y rebaja la distancia a 1 metro.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 708,
+"enunciado": "En una carretera convencional con línea longitudinal continua que separa los dos sentidos, un ciclista circula muy despacio delante de usted. ¿Puede adelantarlo invadiendo el carril contrario?",
+"opciones": [
+"No, la línea continua prohíbe invadir el sentido contrario en cualquier circunstancia.",
+"Sí, se permite rebasar excepcionalmente la línea continua para adelantar a un ciclista dejando 1,5 m, si hay visibilidad y no se pone en peligro a nadie que venga de frente.",
+"Sí, siempre que toque el claxon previamente para avisar a los que circulan en sentido contrario."
+],
+"correcta_idx": 1,
+"explicacion": "La normativa permite rebasar excepcionalmente la línea continua para adelantar a ciclistas (y ciclomotores u otros vehículos lentos) respetando 1,5 m, siempre que haya visibilidad y no cree peligro. La trampa es el absolutismo de que la línea continua nunca se puede pisar.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 709,
+"enunciado": "Circula por una vía de dos carriles por sentido y va a adelantar. ¿En cuál de estas situaciones está PROHIBIDO el adelantamiento?",
+"opciones": [
+"Inmediatamente antes y en los pasos para peatones señalizados.",
+"En cualquier tramo recto con visibilidad suficiente y calzada seca.",
+"Cuando el vehículo precedente circula por debajo del límite de velocidad de la vía."
+],
+"correcta_idx": 0,
+"explicacion": "Está prohibido adelantar inmediatamente antes y en pasos de peatones, así como en cambios de rasante, curvas sin visibilidad e intersecciones. La trampa presenta como prohibición situaciones normales de adelantamiento (recta con visibilidad, vehículo lento), que precisamente son cuándo sí se puede.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 710,
+"enunciado": "Desea estacionar su vehículo junto al bordillo, cerca de una intersección en zona urbana. ¿A qué distancia mínima de la esquina o intersección debe hacerlo para no cometer infracción?",
+"opciones": [
+"A no menos de 5 metros de la esquina o intersección, para no reducir la visibilidad en el cruce.",
+"A no menos de 2 metros, ya que basta con dejar libre el propio paso de peatones.",
+"A cualquier distancia, siempre que no se suba el vehículo al bordillo."
+],
+"correcta_idx": 0,
+"explicacion": "No se puede estacionar a menos de 5 metros de una esquina o intersección, precisamente para mantener la visibilidad y la maniobrabilidad en el cruce. La trampa rebaja arbitrariamente la distancia a 2 metros o la elimina.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 711,
+"enunciado": "Indique en cuál de los siguientes lugares está PROHIBIDO tanto parar como estacionar.",
+"opciones": [
+"En los pasos para peatones y sobre las marcas viales que los delimitan.",
+"En una zona ancha de arcén de una travesía, con el vehículo totalmente fuera de la calzada.",
+"En una calle de doble sentido, junto al bordillo derecho, durante una carga breve."
+],
+"correcta_idx": 0,
+"explicacion": "Parar o estacionar sobre un paso de peatones está prohibido en todo caso, porque impide el cruce seguro de los viandantes. La trampa incluye supuestos permitidos (arcén amplio despejado, junto al bordillo derecho) para confundir con la única situación realmente prohibida.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 712,
+"enunciado": "Va a detener su vehículo brevemente en un cambio de rasante de visibilidad reducida en una carretera convencional. ¿Es correcto?",
+"opciones": [
+"No: está prohibido parar y estacionar en cambios de rasante de visibilidad reducida y en sus proximidades.",
+"Sí, si no supera dos minutos y permanece al volante para reanudar la marcha.",
+"Sí, siempre que encienda las luces de emergencia mientras esté detenido."
+],
+"correcta_idx": 0,
+"explicacion": "En cambios de rasante y curvas de visibilidad reducida está prohibido parar y estacionar, porque un vehículo detenido no se ve a tiempo y provoca alcances. La trampa es creer que las luces de emergencia o permanecer al volante legitiman una detención en un lugar peligroso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 713,
+"enunciado": "Circula por una vía y un peatón se dispone a cruzar por un paso de peatones no regulado por semáforo. ¿Cómo debe actuar?",
+"opciones": [
+"Cederle el paso y detenerse si es preciso, porque el peatón tiene preferencia en el paso señalizado.",
+"Tiene usted preferencia mientras el peatón no haya pisado aún la calzada, aunque esté esperando en el bordillo del paso.",
+"Puede continuar si toca el claxon para advertir al peatón de que va a pasar."
+],
+"correcta_idx": 0,
+"explicacion": "En un paso para peatones sin semáforo, el peatón que va a cruzar tiene preferencia y el conductor debe cederle el paso deteniéndose si es necesario. La trampa es condicionar la preferencia a que el peatón ya haya invadido la calzada, cuando basta con que se disponga a cruzar.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 714,
+"enunciado": "Va a efectuar un cambio de sentido en una vía interurbana. ¿En cuál de estos lugares NO puede hacerlo?",
+"opciones": [
+"En un cambio de rasante, en una curva de visibilidad reducida o en un túnel.",
+"En un tramo recto y llano señalizado expresamente para el cambio de sentido.",
+"En una intersección habilitada y señalizada para girar a la izquierda."
+],
+"correcta_idx": 0,
+"explicacion": "El cambio de sentido está prohibido donde la visibilidad sea insuficiente o el riesgo elevado: cambios de rasante, curvas sin visibilidad, túneles, pasos inferiores. La trampa ofrece lugares habilitados y con visibilidad, que son precisamente donde sí está permitido.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 715,
+"enunciado": "Necesita realizar la marcha atrás para completar una maniobra en la que se ha equivocado de calle. ¿Qué establece la norma?",
+"opciones": [
+"Solo puede usarse como maniobra complementaria de otra que la exija, recorriendo la menor distancia posible y sin invadir cruces.",
+"Puede circularse marcha atrás el tramo necesario, siempre que sea por el arcén y con las luces de emergencia.",
+"Está permitida en cualquier vía si no hay vehículos detrás y se avanza despacio."
+],
+"correcta_idx": 0,
+"explicacion": "La marcha atrás no es un modo de circular: solo se admite como maniobra auxiliar de otra que la requiera (por ejemplo estacionar), por el menor recorrido posible y nunca en cruces ni cambios de rasante. La trampa es presentarla como forma válida de recorrer un tramo por haberse equivocado.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 716,
+"enunciado": "Se incorpora a una autovía a través de un carril de aceleración. ¿Quién tiene la preferencia respecto a los vehículos que circulan por el carril derecho de la autovía?",
+"opciones": [
+"Los que ya circulan por la autovía; usted debe adaptar su velocidad y ceder el paso al incorporarse.",
+"Usted, porque el carril de aceleración le concede prioridad para entrar en la vía principal.",
+"El que llegue antes al punto donde termina el carril de aceleración, sin más reglas."
+],
+"correcta_idx": 0,
+"explicacion": "El carril de aceleración sirve para igualar velocidad, no para dar preferencia: el que se incorpora cede el paso a quien ya circula por la vía. La trampa es interpretar que el carril de aceleración otorga prioridad de entrada.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 717,
+"enunciado": "Circula por una vía urbana y, tras usted, se aproxima una ambulancia con las señales luminosas y acústicas de emergencia conectadas. ¿Cómo debe actuar?",
+"opciones": [
+"Facilitarle el paso apartándose y deteniéndose si es preciso, incluso arrimándose y dejando libre el espacio necesario para que pase.",
+"Mantener su velocidad y trayectoria para no entorpecer, ya que el vehículo prioritario buscará el hueco.",
+"Acelerar para alejarse de la ambulancia y no estorbar su avance."
+],
+"correcta_idx": 0,
+"explicacion": "Ante un vehículo prioritario con las señales de emergencia conectadas hay que cederle el paso, apartándose y deteniéndose si es necesario para dejarle vía libre. La trampa es acelerar (peligroso e ineficaz) o quedarse inmóvil sin abrir hueco.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 718,
+"enunciado": "En una intersección sin señalizar confluyen su vía y otra por la que se acerca por su derecha un vehículo. Sin embargo, usted circula por una vía que tiene carácter de preferente y así está señalizado en la otra vía con un ceda el paso. ¿Quién pasa primero?",
+"opciones": [
+"Usted, porque la señalización de la otra vía (ceda el paso) le atribuye la preferencia pese a que el otro venga por la derecha.",
+"El vehículo de la derecha, porque la regla de la derecha prevalece sobre cualquier señal.",
+"Ninguno tiene preferencia; ambos deben detenerse y pasar alternativamente."
+],
+"correcta_idx": 0,
+"explicacion": "La preferencia por la derecha solo rige a falta de señalización o norma que disponga otra cosa. Si la otra vía tiene un ceda el paso, su conductor debe ceder aunque venga por la derecha. La trampa es dar por absoluta la regla de la derecha por encima de las señales.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 719,
+"enunciado": "Circulas con tu vehículo particular por una vía interurbana y ves a un usuario de patinete eléctrico (VMP) circulando por el arcén de esa misma carretera. ¿Es correcta esa circulación?",
+"opciones": [
+"No, los VMP tienen prohibido circular por vías interurbanas, travesías, autopistas y autovías",
+"Sí, siempre que lleve casco y chaleco reflectante",
+"Sí, porque va por el arcén y no invade la calzada principal"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: el casco o el arcén no habilitan nada. El Reglamento General de Vehículos prohíbe expresamente a los VMP circular por vías interurbanas, travesías, autopistas, autovías y túneles urbanos. Su ámbito es la ciudad según ordenanza.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 720,
+"enunciado": "Un conductor de patinete eléctrico (VMP) da positivo en un control de alcoholemia con 0,30 mg/l en aire espirado. ¿Qué ocurre?",
+"opciones": [
+"Es sancionable, porque las tasas de alcohol y drogas se aplican también a los VMP",
+"No es sancionable, porque el VMP no es un vehículo a motor",
+"Solo se le advierte, ya que a los VMP no se les aplican tasas de alcohol"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: mucha gente cree que al patinete 'no le afecta' el alcohol. Al conductor de un VMP se le aplican las mismas tasas y controles de alcohol y drogas que a cualquier conductor, y puede ser sancionado.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 721,
+"enunciado": "¿Por dónde debe circular, con carácter general, un patinete eléctrico (VMP) en ciudad?",
+"opciones": [
+"Por la calzada o por los carriles y espacios habilitados por la ordenanza municipal, nunca por la acera",
+"Por la acera, siempre a velocidad moderada y respetando al peatón",
+"Por la acera o por la calzada indistintamente, a elección del conductor"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa clásica: el VMP NO puede circular por aceras ni zonas peatonales bajo ningún concepto. Debe ir por calzada o por los espacios que fije la ordenanza municipal; la acera es del peatón.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 722,
+"enunciado": "Vas conduciendo tu coche y suena una llamada. ¿Cuál de estas conductas está permitida por la norma?",
+"opciones": [
+"Hablar mediante un sistema de manos libres que no requiera sostener ni manipular el teléfono",
+"Sostener el móvil con la mano apoyándolo en el hombro mientras hablas",
+"Mirar el móvil en la mano solo para leer un mensaje rápido en un semáforo en rojo"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: está prohibido usar el móvil sosteniéndolo con la mano, incluso parado en un semáforo (sigues siendo conductor en la vía). Solo se permite mediante manos libres que no obligue a sujetar ni manipular el dispositivo.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 723,
+"enunciado": "Tu coche dispone de sistema de frenada automática de emergencia y mantenimiento de carril (sistemas ADAS). ¿Qué implica esto para tu forma de conducir?",
+"opciones": [
+"Nada cambia en tu responsabilidad: son ayudas que asisten, pero no sustituyen la atención y el control del conductor",
+"Puedes reducir tu atención, porque el sistema frena y corrige el carril por ti",
+"Puedes soltar el volante en autovía mientras el sistema mantiene el carril"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: los ADAS son sistemas de AYUDA a la conducción, no de conducción autónoma. El conductor sigue siendo responsable, debe mantener el control y la atención en todo momento.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 724,
+"enunciado": "Viaja contigo un niño que mide 128 cm y pesa 30 kg. ¿Cómo debe ir en el vehículo?",
+"opciones": [
+"Con un sistema de retención infantil homologado y adecuado a su talla y peso, preferentemente en asiento trasero",
+"Con el cinturón normal del coche, ya que con 30 kg es suficiente",
+"En el asiento delantero con el cinturón, si el airbag está activado"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: el criterio es la ESTATURA. Los menores de estatura igual o inferior a 135 cm deben usar un sistema de retención infantil homologado adaptado a su talla y peso, y como norma general en las plazas traseras.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 725,
+"enunciado": "¿Qué relación existe entre el airbag y el cinturón de seguridad?",
+"opciones": [
+"El airbag es un complemento del cinturón; sin cinturón el airbag puede llegar a agravar las lesiones",
+"El airbag sustituye al cinturón, por lo que con airbag no es obligatorio el cinturón",
+"Son sistemas alternativos: basta con llevar uno de los dos activado"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa muy habitual: el airbag NO sustituye al cinturón, lo COMPLEMENTA. Está diseñado para actuar con el cinturón puesto; sin cinturón, el impacto contra el airbag puede provocar lesiones graves.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 726,
+"enunciado": "Circulas de día por una autovía con buena visibilidad. ¿Qué alumbrado debes llevar encendido?",
+"opciones": [
+"El alumbrado de cruce (luz corta), obligatorio también de día en autopistas y autovías",
+"Ninguno, porque de día con buena visibilidad no es necesaria ninguna luz",
+"La luz antiniebla trasera, para ser más visible a alta velocidad"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: la antiniebla trasera solo se usa con niebla densa, lluvia intensa o visibilidad muy reducida; deslumbra si se usa sin necesidad. En autovías y autopistas es obligatorio llevar encendida la luz de cruce.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 727,
+"enunciado": "¿Cuándo está permitido utilizar la luz antiniebla trasera?",
+"opciones": [
+"Solo cuando la visibilidad sea muy reducida por niebla densa, lluvia intensa, nieve o polvo",
+"Siempre que sea de noche, para reforzar la visibilidad del vehículo",
+"Al circular por túneles bien iluminados, para que se vea mejor el coche"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: usarla de noche normal o en túnel iluminado deslumbra a quien va detrás y está prohibido. La antiniebla trasera se reserva para condiciones de visibilidad muy reducida (niebla densa, lluvia o nieve intensas, polvo).",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 728,
+"enunciado": "¿Cuál es la profundidad mínima legal de las estrías (dibujo) de la banda de rodadura de los neumáticos?",
+"opciones": [
+"1,6 milímetros en toda la banda de rodadura",
+"3 milímetros, medidos en el centro del neumático",
+"Basta con que el neumático no muestre las lonas ni deformaciones"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: no vale 'mientras no se vea la lona'. La profundidad mínima legal del dibujo es de 1,6 mm; por debajo de ese valor el neumático no supera la ITV y compromete la adherencia y el frenado.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 729,
+"enunciado": "Encuentras a un motorista accidentado, consciente y quejándose, tumbado en la calzada. Aplicando primeros auxilios, ¿qué debes hacer con el casco?",
+"opciones": [
+"No quitárselo salvo que sea imprescindible (parada respiratoria o vómito); esperar a los servicios sanitarios",
+"Quitárselo siempre de inmediato para que respire mejor",
+"Quitárselo y colocarle el casco bajo la cabeza a modo de almohada"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa peligrosa: retirar el casco puede agravar una lesión cervical. Como norma NO se quita el casco a un motorista; solo se retira, con extrema precaución, si es imprescindible para mantener la vía aérea.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 730,
+"enunciado": "Ante un accidente de tráfico, ¿en qué orden se aplica el método PAS?",
+"opciones": [
+"Proteger, Avisar y Socorrer, en ese orden",
+"Socorrer primero a los heridos, luego Avisar y por último Proteger",
+"Avisar a emergencias, Socorrer y finalmente Proteger la zona"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: el instinto lleva a socorrer primero, pero el método PAS obliga a PROTEGER la zona (evitar nuevos accidentes), luego AVISAR al 112 y por último SOCORRER a las víctimas.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 731,
+"enunciado": "Salvo peligro inminente, ¿qué se debe hacer con una persona herida en un accidente de tráfico?",
+"opciones": [
+"No moverla y esperar a los servicios sanitarios, para no agravar posibles lesiones",
+"Sentarla y darle agua para que se recupere",
+"Trasladarla cuanto antes al arcén y después llamar al 112"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: mover a un herido puede agravar lesiones de columna. Salvo peligro inminente (fuego, riesgo de atropello), NO se debe mover al herido; se avisa al 112 y se espera asistencia sanitaria.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 732,
+"enunciado": "Aplicando una conducción eficiente para reducir consumo y emisiones, ¿cómo debes actuar?",
+"opciones": [
+"Circular en marchas largas a bajas revoluciones y evitar el ralentí prolongado apagando el motor en paradas largas",
+"Mantener el motor en marchas cortas y revoluciones altas para tener más respuesta",
+"Dejar el motor al ralentí en las paradas largas para no forzar el arranque"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: revoluciones altas y marchas cortas disparan el consumo, y el ralentí prolongado gasta sin avanzar. La conducción eficiente usa marchas largas a bajas revoluciones y evita el ralentí innecesario.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 733,
+"enunciado": "A partir del 1 de enero de 2026, ¿qué dispositivo de preseñalización de peligro será obligatorio en caso de inmovilización del vehículo?",
+"opciones": [
+"La luz de emergencia V-16 conectada, que sustituye a los triángulos de preseñalización",
+"Los dos triángulos de preseñalización, que seguirán siendo obligatorios",
+"El chaleco reflectante, que sustituye a la señal luminosa"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: desde el 1 de enero de 2026 la luz V-16 (con geolocalización) pasa a ser obligatoria y sustituye a los triángulos, evitando que el conductor baje del coche para colocarlos. El chaleco es un elemento distinto y complementario.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 734,
+"enunciado": "Vas a tomar un medicamento cuyo prospecto muestra el pictograma de un coche indicando precaución al conducir. ¿Qué debes tener en cuenta?",
+"opciones": [
+"Que ciertos fármacos afectan a la capacidad de conducir; debes seguir el prospecto y la indicación médica y, si procede, no conducir",
+"Que el pictograma solo es orientativo y no influye si te encuentras bien",
+"Que basta con reducir la velocidad para compensar el efecto del medicamento"
+],
+"correcta_idx": 0,
+"explicacion": "Trampa: los medicamentos con ese pictograma pueden producir somnolencia o alterar reflejos y son un factor de riesgo real, igual que el alcohol. Hay que atender al prospecto y a la indicación médica, no a 'cómo te encuentras'.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 735,
 "enunciado": "¿Qué se entiende por 'calzada' de una vía?",
 "opciones": [
 "La parte de la vía destinada a la circulación de vehículos.",
@@ -2534,7 +14803,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 182,
+"id": 736,
 "enunciado": "El 'arcén' es:",
 "opciones": [
 "El carril central de una autopista.",
@@ -2548,7 +14817,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 183,
+"id": 737,
 "enunciado": "¿Qué diferencia principal existe entre autopista y autovía?",
 "opciones": [
 "La autopista permite mayor velocidad que la autovía en todos los casos.",
@@ -2562,7 +14831,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 184,
+"id": 738,
 "enunciado": "Una 'travesía' es:",
 "opciones": [
 "Cualquier carretera comarcal.",
@@ -2576,7 +14845,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 185,
+"id": 739,
 "enunciado": "El término 'conductor' se aplica a:",
 "opciones": [
 "Solo a quien maneja un vehículo de motor.",
@@ -2590,7 +14859,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 186,
+"id": 740,
 "enunciado": "¿Qué es un 'carril'?",
 "opciones": [
 "Toda la anchura de la calzada.",
@@ -2604,7 +14873,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 187,
+"id": 741,
 "enunciado": "¿Cada cuánto tiempo debe pasar la ITV un turismo de uso particular a partir de los 10 años de antigüedad?",
 "opciones": [
 "Cada dos años.",
@@ -2618,7 +14887,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 188,
+"id": 742,
 "enunciado": "¿Cuándo debe pasar un turismo particular su primera inspección técnica (ITV)?",
 "opciones": [
 "A los 4 años desde su primera matriculación.",
@@ -2632,7 +14901,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 189,
+"id": 743,
 "enunciado": "El seguro obligatorio de responsabilidad civil de un vehículo cubre:",
 "opciones": [
 "Solo los daños del propio conductor culpable.",
@@ -2646,7 +14915,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 190,
+"id": 744,
 "enunciado": "¿Qué documento acredita que un vehículo ha superado la inspección técnica?",
 "opciones": [
 "El permiso de circulación.",
@@ -2660,7 +14929,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 191,
+"id": 745,
 "enunciado": "¿Es obligatorio llevar el permiso de conducción original durante la conducción?",
 "opciones": [
 "Sí, debe llevarse y exhibirse a la autoridad cuando lo requiera.",
@@ -2674,7 +14943,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 192,
+"id": 746,
 "enunciado": "El permiso de circulación del vehículo identifica principalmente:",
 "opciones": [
 "Al titular del vehículo y al propio vehículo.",
@@ -2688,7 +14957,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 193,
+"id": 747,
 "enunciado": "¿Cuál es la tasa máxima de alcohol en aire espirado para un conductor con más de dos años de permiso (general)?",
 "opciones": [
 "0,15 mg/l.",
@@ -2702,7 +14971,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 194,
+"id": 748,
 "enunciado": "¿Qué tasa de alcohol en sangre no puede superar un conductor novel (menos de dos años de permiso)?",
 "opciones": [
 "0,3 g/l.",
@@ -2716,7 +14985,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 195,
+"id": 749,
 "enunciado": "Respecto a las drogas, ¿qué establece la normativa para conducir?",
 "opciones": [
 "Se permite un mínimo si no afecta a la conducción.",
@@ -2730,7 +14999,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 196,
+"id": 750,
 "enunciado": "¿Cómo afecta el alcohol a la capacidad de conducción?",
 "opciones": [
 "Aumenta los reflejos y la concentración.",
@@ -2744,7 +15013,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 197,
+"id": 751,
 "enunciado": "Un medicamento que produce somnolencia:",
 "opciones": [
 "Puede afectar a la conducción; debe consultarse el prospecto y al médico.",
@@ -2758,7 +15027,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 198,
+"id": 752,
 "enunciado": "Si un agente requiere una prueba de alcoholemia, el conductor:",
 "opciones": [
 "Puede negarse sin consecuencias.",
@@ -2772,7 +15041,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 199,
+"id": 753,
 "enunciado": "¿Cuál es la velocidad máxima genérica para turismos en autopista o autovía?",
 "opciones": [
 "100 km/h.",
@@ -2786,7 +15055,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 200,
+"id": 754,
 "enunciado": "En una vía convencional fuera de poblado, la velocidad máxima genérica para un turismo es:",
 "opciones": [
 "70 km/h.",
@@ -2800,7 +15069,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 201,
+"id": 755,
 "enunciado": "En vías urbanas con un único carril por sentido de circulación, la velocidad máxima genérica es:",
 "opciones": [
 "20 km/h.",
@@ -2814,7 +15083,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 202,
+"id": 756,
 "enunciado": "En vías urbanas de plataforma única (calzada y acera al mismo nivel), la velocidad máxima es:",
 "opciones": [
 "20 km/h.",
@@ -2828,7 +15097,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 203,
+"id": 757,
 "enunciado": "En vías urbanas con dos o más carriles por sentido, la velocidad máxima genérica es:",
 "opciones": [
 "30 km/h.",
@@ -2842,7 +15111,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 204,
+"id": 758,
 "enunciado": "¿Puede un turismo circular por debajo de los límites mínimos de velocidad de forma injustificada?",
 "opciones": [
 "Sí, siempre es más seguro ir despacio.",
@@ -2856,7 +15125,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 205,
+"id": 759,
 "enunciado": "Una señal triangular con borde rojo indica generalmente:",
 "opciones": [
 "Una prohibición.",
@@ -2870,7 +15139,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 206,
+"id": 760,
 "enunciado": "Una señal circular con fondo azul indica generalmente:",
 "opciones": [
 "Prohibición.",
@@ -2884,7 +15153,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 207,
+"id": 761,
 "enunciado": "La señal de STOP obliga a:",
 "opciones": [
 "Reducir la velocidad únicamente.",
@@ -2898,7 +15167,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 208,
+"id": 762,
 "enunciado": "En caso de contradicción entre una señal y una marca vial, ¿qué prevalece?",
 "opciones": [
 "La marca vial.",
@@ -2912,7 +15181,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 209,
+"id": 763,
 "enunciado": "Una línea longitudinal continua en el centro de la calzada significa que:",
 "opciones": [
 "Se puede adelantar con precaución.",
@@ -2926,7 +15195,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 210,
+"id": 764,
 "enunciado": "Un semáforo con luz amarilla fija indica:",
 "opciones": [
 "Que se debe acelerar para pasar.",
@@ -2940,7 +15209,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 211,
+"id": 765,
 "enunciado": "En una intersección sin señalizar, ¿quién tiene preferencia con carácter general?",
 "opciones": [
 "El que viene por la izquierda.",
@@ -2954,7 +15223,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 212,
+"id": 766,
 "enunciado": "Antes de iniciar un adelantamiento, el conductor debe asegurarse de que:",
 "opciones": [
 "Nadie le está adelantando a él y dispone de espacio y visibilidad suficientes.",
@@ -2968,7 +15237,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 213,
+"id": 767,
 "enunciado": "En una rotonda (glorieta), la preferencia de paso corresponde a:",
 "opciones": [
 "El vehículo que va a entrar en ella.",
@@ -2982,7 +15251,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 214,
+"id": 768,
 "enunciado": "Para cambiar de carril o girar, el conductor debe:",
 "opciones": [
 "Hacerlo rápidamente sin avisar.",
@@ -2996,7 +15265,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 215,
+"id": 769,
 "enunciado": "Al aproximarse a un paso de peatones señalizado sin semáforo con peatones esperando:",
 "opciones": [
 "El conductor tiene siempre preferencia.",
@@ -3010,7 +15279,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 216,
+"id": 770,
 "enunciado": "¿Está permitido detenerse o estacionar en un cambio de rasante o curva de visibilidad reducida?",
 "opciones": [
 "Sí, si se encienden las luces de emergencia.",
@@ -3024,7 +15293,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 217,
+"id": 771,
 "enunciado": "¿A qué distancia debe colocarse, con carácter general, respecto a un vehículo detenido en una parada de emergencia el conductor que se apea en vía interurbana?",
 "opciones": [
 "Debe abandonar el vehículo por el lado del tráfico rápidamente.",
@@ -3038,7 +15307,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 218,
+"id": 772,
 "enunciado": "¿Cuál es la finalidad principal del reposacabezas del asiento?",
 "opciones": [
 "Servir de apoyo para dormir en trayectos largos.",
@@ -3052,7 +15321,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 219,
+"id": 773,
 "enunciado": "Unos neumáticos con la presión más baja de la recomendada provocan:",
 "opciones": [
 "Menor consumo de combustible.",
@@ -3066,7 +15335,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 220,
+"id": 774,
 "enunciado": "El uso del cinturón de seguridad es:",
 "opciones": [
 "Obligatorio para todos los ocupantes, en vías urbanas e interurbanas.",
@@ -3080,7 +15349,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 221,
+"id": 775,
 "enunciado": "La profundidad mínima legal del dibujo de la banda de rodadura de los neumáticos es:",
 "opciones": [
 "1,6 mm.",
@@ -3094,7 +15363,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 222,
+"id": 776,
 "enunciado": "Si se enciende la luz roja de presión de aceite del motor durante la marcha, se debe:",
 "opciones": [
 "Continuar hasta el destino sin más.",
@@ -3108,7 +15377,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 223,
+"id": 777,
 "enunciado": "El sistema ABS de frenado sirve para:",
 "opciones": [
 "Frenar en menor distancia siempre, en cualquier superficie.",
@@ -3122,7 +15391,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 224,
+"id": 778,
 "enunciado": "Una conducción eficiente para reducir consumo y emisiones recomienda:",
 "opciones": [
 "Circular en marchas largas y a régimen de motor moderado, anticipando las frenadas.",
@@ -3136,7 +15405,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 225,
+"id": 779,
 "enunciado": "¿Qué es una vía interurbana?",
 "opciones": [
 "Cualquier calle situada dentro de una ciudad.",
@@ -3150,7 +15419,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 226,
+"id": 780,
 "enunciado": "La diferencia entre 'parada' y 'estacionamiento' es que la parada:",
 "opciones": [
 "No supera los dos minutos y el conductor no se aleja del vehículo.",
@@ -3164,7 +15433,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 227,
+"id": 781,
 "enunciado": "El 'adelantamiento' se define como la maniobra de:",
 "opciones": [
 "Cambiar de carril para estacionar.",
@@ -3178,7 +15447,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 228,
+"id": 782,
 "enunciado": "La 'tara' de un vehículo es:",
 "opciones": [
 "Su masa en vacío, sin ocupantes ni carga, pero con combustible y equipo fijo.",
@@ -3192,7 +15461,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 229,
+"id": 783,
 "enunciado": "Una 'isleta' en una vía es:",
 "opciones": [
 "Una zona elevada para el descanso de conductores.",
@@ -3206,7 +15475,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 230,
+"id": 784,
 "enunciado": "Se considera 'peatón', a efectos de circulación:",
 "opciones": [
 "Solo quien camina por la acera.",
@@ -3220,7 +15489,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 231,
+"id": 785,
 "enunciado": "El 'carril bus' está reservado a:",
 "opciones": [
 "Todos los vehículos en hora punta.",
@@ -3234,7 +15503,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 232,
+"id": 786,
 "enunciado": "Con carácter general, ¿cada cuánto se renueva el permiso B para menores de 65 años?",
 "opciones": [
 "Cada 10 años.",
@@ -3248,7 +15517,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 233,
+"id": 787,
 "enunciado": "¿Con cuántos puntos parte un conductor que obtiene el permiso por primera vez?",
 "opciones": [
 "12 puntos.",
@@ -3262,7 +15531,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 234,
+"id": 788,
 "enunciado": "¿Qué documentación relativa al vehículo debe poder mostrarse a los agentes?",
 "opciones": [
 "Solo el permiso de conducción.",
@@ -3276,7 +15545,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 235,
+"id": 789,
 "enunciado": "Si extravías tu permiso de conducción, debes:",
 "opciones": [
 "Dejar de conducir para siempre.",
@@ -3290,7 +15559,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 236,
+"id": 790,
 "enunciado": "El distintivo ambiental de la DGT (etiqueta) sirve para:",
 "opciones": [
 "Clasificar los vehículos según su impacto medioambiental.",
@@ -3304,7 +15573,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 237,
+"id": 791,
 "enunciado": "Las placas de matrícula del vehículo:",
 "opciones": [
 "Pueden retirarse si molestan estéticamente.",
@@ -3318,7 +15587,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 238,
+"id": 792,
 "enunciado": "Circular sin el seguro obligatorio en vigor:",
 "opciones": [
 "Es legal si el vehículo es nuevo.",
@@ -3332,7 +15601,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 239,
+"id": 793,
 "enunciado": "La única forma de reducir la tasa de alcohol en el organismo es:",
 "opciones": [
 "Beber café cargado.",
@@ -3346,7 +15615,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 240,
+"id": 794,
 "enunciado": "Conducir con una tasa de alcohol en aire espirado superior a 0,60 mg/l:",
 "opciones": [
 "Es solo una infracción administrativa leve.",
@@ -3360,7 +15629,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 241,
+"id": 795,
 "enunciado": "La tasa de alcohol en aire espirado para conductores profesionales y noveles es:",
 "opciones": [
 "0,15 mg/l.",
@@ -3374,7 +15643,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 242,
+"id": 796,
 "enunciado": "El consumo de cannabis antes de conducir:",
 "opciones": [
 "Mejora la concentración.",
@@ -3388,7 +15657,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 243,
+"id": 797,
 "enunciado": "Conducir con resaca (efecto residual del alcohol):",
 "opciones": [
 "Es totalmente seguro porque ya no se está bebido.",
@@ -3402,7 +15671,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 244,
+"id": 798,
 "enunciado": "Mezclar alcohol con medicamentos:",
 "opciones": [
 "Anula los efectos del alcohol.",
@@ -3416,7 +15685,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 245,
+"id": 799,
 "enunciado": "Ante la presencia de drogas en el organismo, el límite legal para conducir es:",
 "opciones": [
 "Tasa cero, salvo prescripción médica que no merme la capacidad.",
@@ -3430,7 +15699,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 246,
+"id": 800,
 "enunciado": "¿Cuál es la velocidad mínima genérica en autopista o autovía para turismos?",
 "opciones": [
 "40 km/h.",
@@ -3444,7 +15713,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 247,
+"id": 801,
 "enunciado": "Desde 2022, para adelantar en una carretera convencional, ¿se puede superar en 20 km/h el límite de velocidad?",
 "opciones": [
 "Sí, hasta 20 km/h por encima.",
@@ -3458,7 +15727,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 248,
+"id": 802,
 "enunciado": "La distancia de frenado de un vehículo, al circular sobre pavimento mojado:",
 "opciones": [
 "Disminuye.",
@@ -3472,7 +15741,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 249,
+"id": 803,
 "enunciado": "Si se duplica la velocidad, la energía cinética del vehículo:",
 "opciones": [
 "Se duplica.",
@@ -3486,7 +15755,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 250,
+"id": 804,
 "enunciado": "La distancia de seguridad con el vehículo que precede debe permitir:",
 "opciones": [
 "Detenerse sin colisionar ante una frenada imprevista del de delante.",
@@ -3500,7 +15769,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 251,
+"id": 805,
 "enunciado": "Circular muy por debajo del límite en el carril izquierdo de una autovía sin adelantar:",
 "opciones": [
 "Es lo más seguro.",
@@ -3514,7 +15783,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 252,
+"id": 806,
 "enunciado": "En una vía convencional con arcén de más de 1,5 m, un turismo:",
 "opciones": [
 "Debe circular por el arcén.",
@@ -3528,7 +15797,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 253,
+"id": 807,
 "enunciado": "La señal triangular con el vértice hacia abajo (invertida) significa:",
 "opciones": [
 "Stop.",
@@ -3542,7 +15811,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 254,
+"id": 808,
 "enunciado": "Una señal cuadrada o rectangular de fondo azul indica generalmente:",
 "opciones": [
 "Peligro inminente.",
@@ -3556,7 +15825,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 255,
+"id": 809,
 "enunciado": "Una línea longitudinal discontinua en la calzada permite:",
 "opciones": [
 "Traspasarla cuando la maniobra sea segura (por ejemplo, para adelantar).",
@@ -3570,7 +15839,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 256,
+"id": 810,
 "enunciado": "Un semáforo con luz amarilla intermitente indica:",
 "opciones": [
 "Vía cerrada.",
@@ -3584,7 +15853,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 257,
+"id": 811,
 "enunciado": "Una señal circular con borde rojo y fondo blanco indica normalmente:",
 "opciones": [
 "Obligación.",
@@ -3598,7 +15867,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 258,
+"id": 812,
 "enunciado": "Las marcas viales de color amarillo en el bordillo o la calzada suelen indicar:",
 "opciones": [
 "Zona de aparcamiento gratuito.",
@@ -3612,7 +15881,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 259,
+"id": 813,
 "enunciado": "Si un agente de tráfico ordena algo que contradice a un semáforo en verde:",
 "opciones": [
 "Se obedece al semáforo.",
@@ -3626,7 +15895,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 260,
+"id": 814,
 "enunciado": "Al incorporarse a la circulación desde un estacionamiento, el conductor:",
 "opciones": [
 "Tiene preferencia sobre los que ya circulan.",
@@ -3640,7 +15909,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 261,
+"id": 815,
 "enunciado": "¿Cuándo está permitido adelantar por la derecha?",
 "opciones": [
 "Nunca.",
@@ -3654,7 +15923,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 262,
+"id": 816,
 "enunciado": "Al adelantar a un ciclista en vía interurbana, la separación lateral mínima debe ser de:",
 "opciones": [
 "0,5 metros.",
@@ -3668,7 +15937,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 263,
+"id": 817,
 "enunciado": "Un vehículo prioritario (ambulancia, bomberos, policía) en servicio urgente:",
 "opciones": [
 "No tiene ninguna preferencia especial.",
@@ -3682,7 +15951,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 264,
+"id": 818,
 "enunciado": "La maniobra de marcha atrás:",
 "opciones": [
 "Puede hacerse durante largos recorridos si hay poco tráfico.",
@@ -3696,7 +15965,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 265,
+"id": 819,
 "enunciado": "¿Dónde está prohibido cambiar de sentido de la marcha?",
 "opciones": [
 "En cualquier cruce amplio.",
@@ -3710,7 +15979,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 266,
+"id": 820,
 "enunciado": "Al girar para entrar en otra vía y encontrar peatones cruzando por el paso al que te incorporas:",
 "opciones": [
 "El conductor mantiene la preferencia.",
@@ -3724,7 +15993,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 267,
+"id": 821,
 "enunciado": "Si se instala una silla infantil orientada hacia atrás en el asiento del copiloto, el airbag frontal:",
 "opciones": [
 "Debe permanecer activado.",
@@ -3738,7 +16007,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 268,
+"id": 822,
 "enunciado": "Los menores de estatura igual o inferior a 135 cm deben viajar:",
 "opciones": [
 "En el asiento delantero sin más.",
@@ -3752,7 +16021,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 269,
+"id": 823,
 "enunciado": "La señal luminosa de emergencia V16:",
 "opciones": [
 "Sustituye a los triángulos de preseñalización de peligro.",
@@ -3766,7 +16035,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 270,
+"id": 824,
 "enunciado": "Para prevenir la fatiga en viajes largos, es recomendable:",
 "opciones": [
 "No parar hasta llegar al destino.",
@@ -3780,7 +16049,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 271,
+"id": 825,
 "enunciado": "Al circular por un túnel, el conductor debe:",
 "opciones": [
 "Apagar todas las luces.",
@@ -3794,7 +16063,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 272,
+"id": 826,
 "enunciado": "El uso de la luz de carretera (larga) es incorrecto cuando:",
 "opciones": [
 "Se circula por vía interurbana sin iluminación y sin otros vehículos.",
@@ -3808,7 +16077,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 273,
+"id": 827,
 "enunciado": "El sistema de control de estabilidad (ESP) ayuda a:",
 "opciones": [
 "Aumentar la potencia del motor.",
@@ -3822,7 +16091,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 274,
+"id": 828,
 "enunciado": "Una autovía se caracteriza por:",
 "opciones": [
 "Tener un solo carril compartido para ambos sentidos.",
@@ -3836,7 +16105,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 275,
+"id": 829,
 "enunciado": "¿Qué es una carretera convencional?",
 "opciones": [
 "Toda vía interurbana que no reúne las características de autopista o autovía.",
@@ -3850,7 +16119,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 276,
+"id": 830,
 "enunciado": "En una calle residencial (señal S-28), la velocidad máxima es:",
 "opciones": [
 "50 km/h.",
@@ -3864,7 +16133,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 277,
+"id": 831,
 "enunciado": "Una glorieta (rotonda) es:",
 "opciones": [
 "Un tipo de aparcamiento.",
@@ -3878,7 +16147,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 278,
+"id": 832,
 "enunciado": "Un vehículo de movilidad personal (VMP), como un patinete eléctrico, a efectos de circulación es:",
 "opciones": [
 "Un peatón.",
@@ -3892,7 +16161,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 279,
+"id": 833,
 "enunciado": "¿Qué caracteriza a un ciclomotor?",
 "opciones": [
 "Cilindrada máxima de 50 cm³ y velocidad máxima por construcción de 45 km/h.",
@@ -3906,7 +16175,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 280,
+"id": 834,
 "enunciado": "La masa máxima autorizada (MMA) de un vehículo es:",
 "opciones": [
 "El peso del vehículo vacío.",
@@ -3920,7 +16189,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 281,
+"id": 835,
 "enunciado": "Un 'vehículo articulado' es:",
 "opciones": [
 "Un turismo con techo solar.",
@@ -3934,7 +16203,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 282,
+"id": 836,
 "enunciado": "Los 'usuarios vulnerables' de la vía son, entre otros:",
 "opciones": [
 "Los camiones y autobuses.",
@@ -3948,7 +16217,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 283,
+"id": 837,
 "enunciado": "Un 'vado' señalizado en el bordillo indica:",
 "opciones": [
 "Zona de carga y descarga.",
@@ -3962,7 +16231,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 284,
+"id": 838,
 "enunciado": "El carril VAO está reservado a:",
 "opciones": [
 "Vehículos de alta ocupación (con varios ocupantes) o los que indique la señalización.",
@@ -3976,7 +16245,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 285,
+"id": 839,
 "enunciado": "La diferencia entre un remolque y un semirremolque es que el semirremolque:",
 "opciones": [
 "No existe tal diferencia.",
@@ -3990,7 +16259,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 286,
+"id": 840,
 "enunciado": "El 'peso en carga' que realmente lleva un vehículo no debe superar:",
 "opciones": [
 "El doble de la tara.",
@@ -4004,7 +16273,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 287,
+"id": 841,
 "enunciado": "Una 'mediana' es:",
 "opciones": [
 "La línea pintada en el centro de la calzada.",
@@ -4018,7 +16287,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 288,
+"id": 842,
 "enunciado": "Un 'automóvil', según el reglamento, es:",
 "opciones": [
 "Cualquier vehículo, incluidos los ciclos.",
@@ -4032,7 +16301,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 289,
+"id": 843,
 "enunciado": "Un 'paso a nivel' es:",
 "opciones": [
 "Un cruce de la vía con una línea de ferrocarril a la misma altura.",
@@ -4046,7 +16315,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 290,
+"id": 844,
 "enunciado": "La 'zona de estacionamiento regulado' (zona azul, verde) es aquella en la que:",
 "opciones": [
 "Se puede aparcar gratis sin límite.",
@@ -4060,7 +16329,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 291,
+"id": 845,
 "enunciado": "El 'tranvía', a efectos de circulación:",
 "opciones": [
 "Es un automóvil más.",
@@ -4074,7 +16343,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 292,
+"id": 846,
 "enunciado": "Un 'área de descanso' en una autovía sirve para:",
 "opciones": [
 "Estacionar y descansar fuera de la calzada de circulación.",
@@ -4088,7 +16357,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 293,
+"id": 847,
 "enunciado": "La 'acera' es:",
 "opciones": [
 "Parte de la calzada para vehículos lentos.",
@@ -4102,7 +16371,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 294,
+"id": 848,
 "enunciado": "El permiso de la clase B autoriza a conducir, con carácter general:",
 "opciones": [
 "Cualquier vehículo, incluidos camiones y autobuses.",
@@ -4116,7 +16385,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 295,
+"id": 849,
 "enunciado": "¿Qué edad mínima se exige para obtener el permiso B?",
 "opciones": [
 "16 años.",
@@ -4130,7 +16399,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 296,
+"id": 850,
 "enunciado": "Con el permiso B se puede arrastrar un remolque cuya MMA no supere:",
 "opciones": [
 "750 kg (o más si el conjunto no excede de 3.500 kg).",
@@ -4144,7 +16413,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 297,
+"id": 851,
 "enunciado": "El saldo máximo de puntos que puede alcanzar un conductor con experiencia y sin sanciones es:",
 "opciones": [
 "12 puntos.",
@@ -4158,7 +16427,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 298,
+"id": 852,
 "enunciado": "Si un conductor pierde la totalidad de sus puntos:",
 "opciones": [
 "No puede conducir y deberá superar un curso y una prueba para recuperar el permiso.",
@@ -4172,7 +16441,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 299,
+"id": 853,
 "enunciado": "La tarjeta de inspección técnica (ficha técnica) del vehículo recoge:",
 "opciones": [
 "El saldo de puntos del conductor.",
@@ -4186,7 +16455,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 300,
+"id": 854,
 "enunciado": "Al vender un vehículo, el titular debe:",
 "opciones": [
 "No hacer nada.",
@@ -4200,7 +16469,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 301,
+"id": 855,
 "enunciado": "Un vehículo que no ha superado la ITV (resultado desfavorable):",
 "opciones": [
 "Puede circular con normalidad.",
@@ -4214,7 +16483,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 302,
+"id": 856,
 "enunciado": "El distintivo ambiental '0 emisiones' (azul) corresponde a:",
 "opciones": [
 "Vehículos diésel antiguos.",
@@ -4228,7 +16497,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 303,
+"id": 857,
 "enunciado": "Una Zona de Bajas Emisiones (ZBE) es:",
 "opciones": [
 "Un área donde se restringe la circulación de los vehículos más contaminantes.",
@@ -4242,7 +16511,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 304,
+"id": 858,
 "enunciado": "Para renovar el permiso de conducción es necesario:",
 "opciones": [
 "Superar de nuevo el examen teórico.",
@@ -4256,7 +16525,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 305,
+"id": 859,
 "enunciado": "Si cambias de domicilio, respecto a tu vehículo y permiso:",
 "opciones": [
 "No es necesario comunicar nada.",
@@ -4270,7 +16539,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 306,
+"id": 860,
 "enunciado": "El permiso B, para conductores de entre 65 años o más, se renueva, con carácter general, cada:",
 "opciones": [
 "10 años.",
@@ -4284,7 +16553,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 307,
+"id": 861,
 "enunciado": "El justificante del seguro obligatorio sirve para:",
 "opciones": [
 "Acreditar que el vehículo tiene cubierta la responsabilidad civil.",
@@ -4298,7 +16567,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 308,
+"id": 862,
 "enunciado": "Para arrastrar un remolque pesado que hace que el conjunto supere los 3.500 kg suele necesitarse:",
 "opciones": [
 "El permiso B+E (o la categoría superior correspondiente).",
@@ -4312,7 +16581,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 309,
+"id": 863,
 "enunciado": "Recuperar el saldo inicial de puntos tras haber sido sancionado requiere, con carácter general:",
 "opciones": [
 "Pasar un tiempo sin cometer infracciones que detraigan puntos.",
@@ -4326,7 +16595,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 310,
+"id": 864,
 "enunciado": "Las placas de matrícula de un turismo deben colocarse:",
 "opciones": [
 "Solo en la parte delantera.",
@@ -4340,7 +16609,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 311,
+"id": 865,
 "enunciado": "Conducir un vehículo cuya ITV ha caducado:",
 "opciones": [
 "Es una infracción.",
@@ -4354,7 +16623,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 312,
+"id": 866,
 "enunciado": "Negarse a someterse a las pruebas de detección de alcohol o drogas es:",
 "opciones": [
 "Un derecho del conductor sin consecuencias.",
@@ -4368,7 +16637,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 313,
+"id": 867,
 "enunciado": "Ante los primeros síntomas de sueño al volante, lo correcto es:",
 "opciones": [
 "Abrir la ventanilla y seguir conduciendo.",
@@ -4382,7 +16651,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 314,
+"id": 868,
 "enunciado": "El uso del teléfono móvil sujetándolo con la mano mientras se conduce:",
 "opciones": [
 "Está permitido a baja velocidad.",
@@ -4396,7 +16665,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 315,
+"id": 869,
 "enunciado": "Conducir utilizando auriculares conectados a un reproductor o teléfono:",
 "opciones": [
 "Está permitido si el volumen es bajo.",
@@ -4410,7 +16679,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 316,
+"id": 870,
 "enunciado": "El orden de actuación ante un accidente se resume en la conducta:",
 "opciones": [
 "P.A.S.: Proteger, Avisar y Socorrer.",
@@ -4424,7 +16693,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 317,
+"id": 871,
 "enunciado": "Ante un motorista herido en un accidente, respecto a su casco:",
 "opciones": [
 "Debe quitarse siempre de inmediato.",
@@ -4438,7 +16707,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 318,
+"id": 872,
 "enunciado": "¿Cuál es el número de teléfono único europeo de emergencias?",
 "opciones": [
 "091.",
@@ -4452,7 +16721,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 319,
+"id": 873,
 "enunciado": "A una persona inconsciente que respira con normalidad y sin sospecha de lesión grave de columna se le puede colocar en:",
 "opciones": [
 "Posición lateral de seguridad.",
@@ -4466,7 +16735,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 320,
+"id": 874,
 "enunciado": "Tomar una comida muy copiosa antes de conducir:",
 "opciones": [
 "Mejora los reflejos.",
@@ -4480,7 +16749,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 321,
+"id": 875,
 "enunciado": "Un estado de ira o fuerte estrés al volante:",
 "opciones": [
 "Ayuda a conducir con más precisión.",
@@ -4494,7 +16763,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 322,
+"id": 876,
 "enunciado": "Si el prospecto de un medicamento muestra el pictograma de un coche dentro de un triángulo rojo:",
 "opciones": [
 "Es obligatorio tomarlo antes de conducir.",
@@ -4508,7 +16777,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 323,
+"id": 877,
 "enunciado": "Si un conductor necesita gafas o lentillas para ver bien (así consta en su permiso):",
 "opciones": [
 "Puede conducir sin ellas si conoce el trayecto.",
@@ -4522,7 +16791,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 324,
+"id": 878,
 "enunciado": "La inhalación de gases de escape (monóxido de carbono) en un lugar cerrado:",
 "opciones": [
 "Es inofensiva.",
@@ -4536,7 +16805,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 325,
+"id": 879,
 "enunciado": "En viajes largos, para mantener la concentración conviene:",
 "opciones": [
 "Conducir muchas horas seguidas sin parar.",
@@ -4550,7 +16819,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 326,
+"id": 880,
 "enunciado": "El consumo de alcohol, aunque sea moderado, antes de conducir:",
 "opciones": [
 "No afecta si se está acostumbrado.",
@@ -4564,7 +16833,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 327,
+"id": 881,
 "enunciado": "Ante una hemorragia abundante en un herido, mientras llega la ayuda, lo indicado es:",
 "opciones": [
 "Aplicar presión directa sobre la herida.",
@@ -4578,7 +16847,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 328,
+"id": 882,
 "enunciado": "En una travesía (tramo de carretera que cruza un poblado), la velocidad máxima genérica es, salvo señal, de:",
 "opciones": [
 "90 km/h.",
@@ -4592,7 +16861,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 329,
+"id": 883,
 "enunciado": "La velocidad máxima genérica de un camión de más de 3.500 kg en autovía es:",
 "opciones": [
 "120 km/h.",
@@ -4606,7 +16875,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 330,
+"id": 884,
 "enunciado": "La velocidad máxima genérica de un autobús en autovía o autopista es:",
 "opciones": [
 "80 km/h.",
@@ -4620,7 +16889,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 331,
+"id": 885,
 "enunciado": "La distancia recorrida durante el tiempo de reacción del conductor:",
 "opciones": [
 "Es independiente de la velocidad.",
@@ -4634,7 +16903,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 332,
+"id": 886,
 "enunciado": "La distancia total de detención de un vehículo es la suma de:",
 "opciones": [
 "La distancia de reacción más la distancia de frenado.",
@@ -4648,7 +16917,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 333,
+"id": 887,
 "enunciado": "Ante niebla densa, la conducta correcta respecto a la velocidad es:",
 "opciones": [
 "Mantener la velocidad máxima permitida.",
@@ -4662,7 +16931,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 334,
+"id": 888,
 "enunciado": "Un turismo que arrastra un remolque ve reducida su velocidad máxima respecto a la de un turismo solo:",
 "opciones": [
 "No, circula al mismo límite.",
@@ -4676,7 +16945,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 335,
+"id": 889,
 "enunciado": "En una vía urbana, ante un paso de peatones con personas esperando, el conductor debe:",
 "opciones": [
 "Mantener la velocidad.",
@@ -4690,7 +16959,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 336,
+"id": 890,
 "enunciado": "Circular a una velocidad excesiva para las condiciones de la vía:",
 "opciones": [
 "Reduce el riesgo de accidente.",
@@ -4704,7 +16973,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 337,
+"id": 891,
 "enunciado": "En una carretera convencional con niños jugando cerca del arcén, el conductor debe:",
 "opciones": [
 "Extremar la precaución y reducir la velocidad.",
@@ -4718,7 +16987,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 338,
+"id": 892,
 "enunciado": "La velocidad máxima por construcción de un ciclomotor es:",
 "opciones": [
 "45 km/h.",
@@ -4732,7 +17001,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 339,
+"id": 893,
 "enunciado": "Sobre pavimento con hielo o nieve, la conducta correcta es:",
 "opciones": [
 "Frenar con fuerza y bruscamente.",
@@ -4746,7 +17015,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 340,
+"id": 894,
 "enunciado": "En una vía de dos o más carriles por sentido, un turismo que circula despacio debe hacerlo:",
 "opciones": [
 "Por el carril de la izquierda.",
@@ -4760,7 +17029,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 341,
+"id": 895,
 "enunciado": "La energía que hay que disipar al frenar y la gravedad de un impacto dependen sobre todo de:",
 "opciones": [
 "El color del vehículo.",
@@ -4774,7 +17043,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 342,
+"id": 896,
 "enunciado": "Al aproximarse a una curva de visibilidad reducida, la velocidad debe:",
 "opciones": [
 "Reducirse antes de entrar en la curva.",
@@ -4788,7 +17057,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 343,
+"id": 897,
 "enunciado": "Circular a velocidad anormalmente reducida sin causa justificada:",
 "opciones": [
 "Está siempre permitido por ser más seguro.",
@@ -4802,7 +17071,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 344,
+"id": 898,
 "enunciado": "Con lluvia intensa puede producirse 'aquaplaning', que consiste en:",
 "opciones": [
 "Que los neumáticos pierden contacto con el asfalto por una capa de agua.",
@@ -4816,7 +17085,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 345,
+"id": 899,
 "enunciado": "La señal octogonal (ocho lados) de color rojo corresponde a:",
 "opciones": [
 "Ceda el paso.",
@@ -4830,7 +17099,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 346,
+"id": 900,
 "enunciado": "Un semáforo circular en rojo obliga a:",
 "opciones": [
 "Pasar con precaución.",
@@ -4844,7 +17113,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 347,
+"id": 901,
 "enunciado": "Un semáforo en verde:",
 "opciones": [
 "Obliga a pasar aunque haya un obstáculo.",
@@ -4858,7 +17127,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 348,
+"id": 902,
 "enunciado": "Una flecha verde iluminada en un semáforo indica:",
 "opciones": [
 "Que se permite el movimiento en el sentido señalado por la flecha.",
@@ -4872,7 +17141,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 349,
+"id": 903,
 "enunciado": "Las señales de obras suelen tener fondo amarillo y, respecto a las demás señales:",
 "opciones": [
 "Tienen menos importancia.",
@@ -4886,7 +17155,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 350,
+"id": 904,
 "enunciado": "Una señal triangular con dos peatones (adultos o niños) advierte de:",
 "opciones": [
 "Zona de aparcamiento.",
@@ -4900,7 +17169,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 351,
+"id": 905,
 "enunciado": "La señal circular con dos coches (uno rojo y otro negro) significa:",
 "opciones": [
 "Adelantamiento obligatorio.",
@@ -4914,7 +17183,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 352,
+"id": 906,
 "enunciado": "Una marca vial de triángulos pintados en el suelo apuntando hacia el conductor indica:",
 "opciones": [
 "Obligación de detenerse siempre.",
@@ -4928,7 +17197,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 353,
+"id": 907,
 "enunciado": "Una señal circular blanca con una banda roja horizontal (dirección prohibida) indica:",
 "opciones": [
 "Que está prohibido el acceso a esa vía en ese sentido.",
@@ -4942,7 +17211,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 354,
+"id": 908,
 "enunciado": "Una señal azul cuadrada con una flecha blanca hacia arriba indica:",
 "opciones": [
 "Sentido obligatorio (hay que seguir en esa dirección).",
@@ -4956,7 +17225,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 355,
+"id": 909,
 "enunciado": "El orden de prioridad entre señales, de mayor a menor, es:",
 "opciones": [
 "Marcas viales, señales verticales, semáforos, agentes.",
@@ -4970,7 +17239,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 356,
+"id": 910,
 "enunciado": "Una señal triangular con un dibujo de la calzada y un coche derrapando advierte de:",
 "opciones": [
 "Pavimento deslizante.",
@@ -4984,7 +17253,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 357,
+"id": 911,
 "enunciado": "La señal de 'entrada prohibida a toda clase de vehículos' es:",
 "opciones": [
 "Un círculo rojo (disco) sin símbolos en su interior.",
@@ -4998,7 +17267,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 358,
+"id": 912,
 "enunciado": "Un panel de mensaje variable (pantalla electrónica) en autovía:",
 "opciones": [
 "Puede ignorarse.",
@@ -5012,7 +17281,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 359,
+"id": 913,
 "enunciado": "Una señal cuadrada azul con la letra 'P' blanca indica:",
 "opciones": [
 "Prohibido aparcar.",
@@ -5026,7 +17295,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 360,
+"id": 914,
 "enunciado": "Una señal triangular con la silueta de una bicicleta advierte de:",
 "opciones": [
 "Prohibido el paso a bicicletas.",
@@ -5040,7 +17309,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 361,
+"id": 915,
 "enunciado": "La línea transversal continua pintada ante un STOP indica:",
 "opciones": [
 "El lugar donde hay que detenerse por completo.",
@@ -5054,7 +17323,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 362,
+"id": 916,
 "enunciado": "Una señal de fin de limitación de velocidad (círculo con banda diagonal):",
 "opciones": [
 "Aumenta la limitación anterior.",
@@ -5068,7 +17337,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 363,
+"id": 917,
 "enunciado": "Una señal triangular con un tren o una valla advierte de:",
 "opciones": [
 "Proximidad de un paso a nivel.",
@@ -5082,7 +17351,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 364,
+"id": 918,
 "enunciado": "En un tramo estrecho con pendiente, sin señalización específica, tiene preferencia:",
 "opciones": [
 "El vehículo que desciende.",
@@ -5096,7 +17365,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 365,
+"id": 919,
 "enunciado": "¿Dónde está prohibido adelantar?",
 "opciones": [
 "En rectas con buena visibilidad.",
@@ -5110,7 +17379,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 366,
+"id": 920,
 "enunciado": "Al adelantar a un ciclista en una carretera convencional:",
 "opciones": [
 "Debe dejarse al menos 1,5 m de separación lateral, pudiendo ocupar parte del sentido contrario si es seguro.",
@@ -5124,7 +17393,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 367,
+"id": 921,
 "enunciado": "¿Dónde está prohibido parar y estacionar?",
 "opciones": [
 "En intersecciones, pasos de peatones, carriles bici y sobre la acera.",
@@ -5138,7 +17407,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 368,
+"id": 922,
 "enunciado": "El uso del claxon (avisador acústico) en vía urbana:",
 "opciones": [
 "Está permitido libremente.",
@@ -5152,7 +17421,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 369,
+"id": 923,
 "enunciado": "Al incorporarse a una autovía por un carril de aceleración, el conductor debe:",
 "opciones": [
 "Detenerse al final del carril y esperar.",
@@ -5166,7 +17435,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 370,
+"id": 924,
 "enunciado": "Ante un paso a nivel con las barreras bajando o bajadas:",
 "opciones": [
 "Puede cruzarse rápidamente si no se ve el tren.",
@@ -5180,7 +17449,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 371,
+"id": 925,
 "enunciado": "Cuando se aproxima un vehículo prioritario (ambulancia) con las señales luminosas y acústicas conectadas:",
 "opciones": [
 "Se debe facilitar su paso, apartándose y deteniéndose si es preciso.",
@@ -5194,7 +17463,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 372,
+"id": 926,
 "enunciado": "Antes de cambiar de carril en una vía de varios carriles, el conductor debe:",
 "opciones": [
 "Señalizar con el intermitente, comprobar el ángulo muerto y ceder al que circula por el carril de destino.",
@@ -5208,7 +17477,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 373,
+"id": 927,
 "enunciado": "En una glorieta con varios carriles, para salir de ella se debe:",
 "opciones": [
 "Salir desde el carril interior directamente.",
@@ -5222,7 +17491,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 374,
+"id": 928,
 "enunciado": "Al efectuar un giro a la izquierda en una intersección, el conductor debe:",
 "opciones": [
 "Ceñirse a la izquierda, señalizar y ceder el paso a los que vienen de frente.",
@@ -5236,7 +17505,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 375,
+"id": 929,
 "enunciado": "Un autobús o vehículo de transporte escolar detenido, del que pueden bajar niños:",
 "opciones": [
 "Obliga a extremar la precaución por si aparecen peatones.",
@@ -5250,7 +17519,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 376,
+"id": 930,
 "enunciado": "En una calle residencial (S-28), la prioridad entre vehículos y peatones es:",
 "opciones": [
 "De los vehículos.",
@@ -5264,7 +17533,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 377,
+"id": 931,
 "enunciado": "La maniobra de estacionamiento debe realizarse de modo que el vehículo:",
 "opciones": [
 "Quede lo más alejado posible del bordillo.",
@@ -5278,7 +17547,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 378,
+"id": 932,
 "enunciado": "En una intersección regulada por semáforo en verde para ti, pero con retención al otro lado:",
 "opciones": [
 "Debes entrar igualmente.",
@@ -5292,7 +17561,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 379,
+"id": 933,
 "enunciado": "La marcha atrás en una vía está permitida:",
 "opciones": [
 "Como maniobra complementaria de otra que la exija, en el menor recorrido posible.",
@@ -5306,7 +17575,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 380,
+"id": 934,
 "enunciado": "Al salir de tu vehículo tras detenerte en el arcén de una vía interurbana por avería:",
 "opciones": [
 "Debes ponerte el chaleco reflectante antes de salir a la calzada.",
@@ -5320,7 +17589,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 381,
+"id": 935,
 "enunciado": "La función principal del cinturón de seguridad es:",
 "opciones": [
 "Evitar multas.",
@@ -5334,7 +17603,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 382,
+"id": 936,
 "enunciado": "Ante el reventón de un neumático en marcha, la conducta correcta es:",
 "opciones": [
 "Frenar bruscamente y girar con fuerza.",
@@ -5348,7 +17617,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 383,
+"id": 937,
 "enunciado": "El casco de protección homologado, en motocicletas y ciclomotores:",
 "opciones": [
 "Es obligatorio para conductor y pasajero.",
@@ -5362,7 +17631,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 384,
+"id": 938,
 "enunciado": "Un testigo (luz de aviso) de color rojo encendido en el cuadro de mandos indica normalmente:",
 "opciones": [
 "Una anomalía leve que puede esperar.",
@@ -5376,7 +17645,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 385,
+"id": 939,
 "enunciado": "La luz antiniebla trasera debe utilizarse:",
 "opciones": [
 "Siempre que se circule de noche.",
@@ -5390,7 +17659,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 386,
+"id": 940,
 "enunciado": "Unos amortiguadores en mal estado afectan a:",
 "opciones": [
 "Solo a la comodidad.",
@@ -5404,7 +17673,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 387,
+"id": 941,
 "enunciado": "Cuando es obligatorio el uso de cadenas por nieve, estas se montan:",
 "opciones": [
 "En las ruedas motrices (las que transmiten la tracción).",
@@ -5418,7 +17687,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 388,
+"id": 942,
 "enunciado": "Una rueda de repuesto de uso temporal ('galleta'):",
 "opciones": [
 "Permite circular a cualquier velocidad.",
@@ -5432,7 +17701,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 389,
+"id": 943,
 "enunciado": "Circular con una carga que sobresale por la parte trasera del vehículo exige:",
 "opciones": [
 "Señalizarla debidamente (por ejemplo, con el panel V-20).",
@@ -5446,7 +17715,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 390,
+"id": 944,
 "enunciado": "Llevar los neumáticos con una presión inferior a la recomendada:",
 "opciones": [
 "Reduce el consumo y el desgaste.",
@@ -5460,7 +17729,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 391,
+"id": 945,
 "enunciado": "El sistema ESP (control de estabilidad) actúa:",
 "opciones": [
 "Frenando ruedas de forma selectiva para corregir derrapes y mantener la trayectoria.",
@@ -5474,7 +17743,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 392,
+"id": 946,
 "enunciado": "Para una conducción eficiente y menos contaminante conviene:",
 "opciones": [
 "Circular a altas revoluciones en marchas cortas.",
@@ -5488,7 +17757,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 393,
+"id": 947,
 "enunciado": "El líquido de frenos debe revisarse porque:",
 "opciones": [
 "Si su nivel o estado es deficiente, puede fallar la frenada.",
@@ -5502,7 +17771,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 394,
+"id": 948,
 "enunciado": "El airbag es un sistema de seguridad que:",
 "opciones": [
 "Sustituye al cinturón de seguridad.",
@@ -5516,7 +17785,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 395,
+"id": 949,
 "enunciado": "Si el indicador de temperatura del motor entra en la zona roja:",
 "opciones": [
 "Hay que seguir circulando a mayor velocidad.",
@@ -5530,7 +17799,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 396,
+"id": 950,
 "enunciado": "La sobrecarga de un vehículo (llevar más peso que su MMA):",
 "opciones": [
 "Mejora la estabilidad.",
@@ -5544,7 +17813,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 397,
+"id": 951,
 "enunciado": "El reposacabezas debe ajustarse de modo que:",
 "opciones": [
 "Quede lo más bajo posible.",
@@ -5558,7 +17827,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 398,
+"id": 952,
 "enunciado": "El alumbrado de posición (luces de gálibo/posición) sirve principalmente para:",
 "opciones": [
 "Iluminar la calzada a gran distancia.",
@@ -5572,7 +17841,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 399,
+"id": 953,
 "enunciado": "Un 'vehículo mixto adaptable' es aquel que:",
 "opciones": [
 "Solo puede transportar personas.",
@@ -5586,7 +17855,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 400,
+"id": 954,
 "enunciado": "Un 'vehículo especial' es, por ejemplo:",
 "opciones": [
 "Un turismo deportivo.",
@@ -5600,7 +17869,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 401,
+"id": 955,
 "enunciado": "Una bicicleta, a efectos de la normativa, es:",
 "opciones": [
 "Un peatón.",
@@ -5614,7 +17883,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 402,
+"id": 956,
 "enunciado": "Un remolque se considera 'ligero' cuando su MMA no supera:",
 "opciones": [
 "750 kg.",
@@ -5628,7 +17897,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 403,
+"id": 957,
 "enunciado": "El 'gálibo' de un vehículo o de una vía hace referencia a:",
 "opciones": [
 "Su color.",
@@ -5642,7 +17911,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 404,
+"id": 958,
 "enunciado": "Un 'apartadero' en una vía estrecha sirve para:",
 "opciones": [
 "Ensanchar la calzada y permitir el cruce o el paso de vehículos.",
@@ -5656,7 +17925,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 405,
+"id": 959,
 "enunciado": "El 'carril de deceleración' de una autovía es:",
 "opciones": [
 "El carril para reducir la velocidad antes de abandonar la vía por una salida.",
@@ -5670,7 +17939,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 406,
+"id": 960,
 "enunciado": "Un 'vehículo histórico' es aquel que:",
 "opciones": [
 "Simplemente es de segunda mano.",
@@ -5684,7 +17953,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 407,
+"id": 961,
 "enunciado": "El 'ramal' de un enlace es:",
 "opciones": [
 "La vía que conecta dos carreteras permitiendo pasar de una a otra.",
@@ -5698,7 +17967,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 408,
+"id": 962,
 "enunciado": "Una zona peatonal es:",
 "opciones": [
 "Una vía reservada, de forma permanente o temporal, a la circulación de peatones.",
@@ -5712,7 +17981,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 409,
+"id": 963,
 "enunciado": "Una autocaravana, a efectos de circulación, se rige:",
 "opciones": [
 "Por normas mágicas propias.",
@@ -5726,7 +17995,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 410,
+"id": 964,
 "enunciado": "El distintivo ambiental 'C' (verde) corresponde a:",
 "opciones": [
 "Vehículos eléctricos puros.",
@@ -5740,7 +18009,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 411,
+"id": 965,
 "enunciado": "Con el permiso B y una antigüedad mínima de 3 años, en territorio nacional se puede conducir además:",
 "opciones": [
 "Camiones de más de 3.500 kg.",
@@ -5754,7 +18023,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 412,
+"id": 966,
 "enunciado": "Una infracción MUY GRAVE puede suponer la detracción de:",
 "opciones": [
 "Hasta 6 puntos del permiso.",
@@ -5768,7 +18037,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 413,
+"id": 967,
 "enunciado": "Pagar una multa dentro del periodo de pago reducido (pronto pago) suele suponer:",
 "opciones": [
 "Un recargo del 50%.",
@@ -5782,7 +18051,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 414,
+"id": 968,
 "enunciado": "La inspección técnica de vehículos (ITV) comprueba, entre otras cosas:",
 "opciones": [
 "El estado del conductor.",
@@ -5796,7 +18065,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 415,
+"id": 969,
 "enunciado": "El permiso de conducir en formato digital (por ejemplo, en la app miDGT):",
 "opciones": [
 "No tiene ninguna validez.",
@@ -5810,7 +18079,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 416,
+"id": 970,
 "enunciado": "La edad mínima para obtener el permiso AM (ciclomotores) es:",
 "opciones": [
 "15 años.",
@@ -5824,7 +18093,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 417,
+"id": 971,
 "enunciado": "Si compras un vehículo, para poder circular con él a tu nombre debes:",
 "opciones": [
 "Tramitar el cambio de titularidad (transferencia) en la DGT.",
@@ -5838,7 +18107,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 418,
+"id": 972,
 "enunciado": "Un conductor con permiso extranjero no comunitario que reside en España, pasado cierto tiempo, generalmente debe:",
 "opciones": [
 "Canjear u obtener el permiso español según los acuerdos vigentes.",
@@ -5852,7 +18121,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 419,
+"id": 973,
 "enunciado": "La periodicidad del reconocimiento psicofísico se acorta:",
 "opciones": [
 "A medida que aumenta la edad del conductor.",
@@ -5866,7 +18135,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 420,
+"id": 974,
 "enunciado": "Tomar café o bebidas con cafeína cuando se tiene sueño al conducir:",
 "opciones": [
 "Elimina por completo el sueño.",
@@ -5880,7 +18149,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 421,
+"id": 975,
 "enunciado": "A una persona herida y consciente tras un accidente, mientras llega la ayuda:",
 "opciones": [
 "Se le debe dar de comer y beber.",
@@ -5894,7 +18163,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 422,
+"id": 976,
 "enunciado": "Si una persona no respira tras un accidente y estás formado para ello, procede:",
 "opciones": [
 "Iniciar la reanimación cardiopulmonar (compresiones torácicas) tras avisar al 112.",
@@ -5908,7 +18177,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 423,
+"id": 977,
 "enunciado": "Encender un cigarrillo mientras se conduce:",
 "opciones": [
 "Mejora la concentración.",
@@ -5922,7 +18191,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 424,
+"id": 978,
 "enunciado": "Las drogas estimulantes (como la cocaína o las anfetaminas) al volante:",
 "opciones": [
 "Hacen conducir mejor.",
@@ -5936,7 +18205,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 425,
+"id": 979,
 "enunciado": "El deslumbramiento por los faros de un vehículo que viene de frente de noche:",
 "opciones": [
 "No afecta a la visión.",
@@ -5950,7 +18219,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 426,
+"id": 980,
 "enunciado": "La vista necesita un tiempo para adaptarse al entrar en un túnel oscuro desde el exterior soleado; por ello:",
 "opciones": [
 "Conviene reducir la velocidad al acceder al túnel.",
@@ -5964,7 +18233,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 427,
+"id": 981,
 "enunciado": "En una mujer embarazada, el cinturón de seguridad:",
 "opciones": [
 "No debe usarse.",
@@ -5978,7 +18247,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 428,
+"id": 982,
 "enunciado": "Conducir con prisa o estrés por llegar tarde:",
 "opciones": [
 "Mejora la eficiencia.",
@@ -5992,7 +18261,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 429,
+"id": 983,
 "enunciado": "Ante una quemadura leve por el líquido caliente del motor, una primera medida es:",
 "opciones": [
 "Aplicar hielo directamente y reventar las ampollas.",
@@ -6006,7 +18275,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 430,
+"id": 984,
 "enunciado": "La velocidad máxima genérica de un camión de más de 3.500 kg en carretera convencional es:",
 "opciones": [
 "90 km/h.",
@@ -6020,7 +18289,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 431,
+"id": 985,
 "enunciado": "La velocidad máxima genérica de un autobús en carretera convencional es:",
 "opciones": [
 "80 km/h.",
@@ -6034,7 +18303,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 432,
+"id": 986,
 "enunciado": "Cuando otro vehículo nos está adelantando, debemos:",
 "opciones": [
 "Acelerar para no dejarnos adelantar.",
@@ -6048,7 +18317,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 433,
+"id": 987,
 "enunciado": "La regla básica de velocidad dice que se debe poder detener el vehículo:",
 "opciones": [
 "Dentro del espacio de vía libre y visible que se tiene delante.",
@@ -6062,7 +18331,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 434,
+"id": 988,
 "enunciado": "Una 'Zona 30' es un área urbana donde:",
 "opciones": [
 "La velocidad máxima es de 30 km/h para pacificar el tráfico.",
@@ -6076,7 +18345,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 435,
+"id": 989,
 "enunciado": "Un turismo que arrastra un remolque circula por una carretera convencional a un máximo genérico de:",
 "opciones": [
 "90 km/h.",
@@ -6090,7 +18359,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 436,
+"id": 990,
 "enunciado": "En un descenso prolongado y con pendiente pronunciada, para no sobrecalentar los frenos conviene:",
 "opciones": [
 "Ir en punto muerto.",
@@ -6104,7 +18373,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 437,
+"id": 991,
 "enunciado": "El exceso de velocidad, además de sancionarse, puede conllevar:",
 "opciones": [
 "La detracción de puntos del permiso.",
@@ -6118,7 +18387,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 438,
+"id": 992,
 "enunciado": "Al aproximarse a un grupo de ciclistas por detrás en una carretera estrecha, el conductor debe:",
 "opciones": [
 "Reducir la velocidad y adelantar solo cuando pueda dejar 1,5 m con seguridad.",
@@ -6132,7 +18401,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 439,
+"id": 993,
 "enunciado": "Las motocicletas, en autovía, tienen como velocidad máxima genérica:",
 "opciones": [
 "100 km/h.",
@@ -6146,7 +18415,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 440,
+"id": 994,
 "enunciado": "Después de atravesar un tramo con agua (charco profundo), los frenos pueden:",
 "opciones": [
 "Funcionar mejor.",
@@ -6160,7 +18429,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 441,
+"id": 995,
 "enunciado": "Una señal cuadrada azul con un número en blanco (por ejemplo, '60') indica:",
 "opciones": [
 "Velocidad máxima obligatoria.",
@@ -6174,7 +18443,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 442,
+"id": 996,
 "enunciado": "Una señal triangular con un símbolo de un badén o resalto advierte de:",
 "opciones": [
 "Un resalto en la calzada; conviene reducir la velocidad.",
@@ -6188,7 +18457,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 443,
+"id": 997,
 "enunciado": "Una señal triangular con dos flechas verticales opuestas (una arriba y otra abajo) indica:",
 "opciones": [
 "Sentido único.",
@@ -6202,7 +18471,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 444,
+"id": 998,
 "enunciado": "Una señal circular con una flecha de giro tachada en rojo significa:",
 "opciones": [
 "Giro obligatorio en ese sentido.",
@@ -6216,7 +18485,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 445,
+"id": 999,
 "enunciado": "Un semáforo con una sola luz roja intermitente (por ejemplo, en un paso a nivel) obliga a:",
 "opciones": [
 "Pasar con precaución sin detenerse.",
@@ -6230,7 +18499,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 446,
+"id": 1000,
 "enunciado": "Las franjas anchas blancas paralelas pintadas a lo ancho de la calzada (paso de cebra) indican:",
 "opciones": [
 "Zona de estacionamiento.",
@@ -6244,7 +18513,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 447,
+"id": 1001,
 "enunciado": "Una señal cuadrada azul con una 'H' blanca indica:",
 "opciones": [
 "Un hospital o centro sanitario cercano.",
@@ -6258,7 +18527,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 448,
+"id": 1002,
 "enunciado": "Una señal triangular con una curva dibujada advierte de:",
 "opciones": [
 "Una curva peligrosa; conviene reducir la velocidad.",
@@ -6272,7 +18541,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 449,
+"id": 1003,
 "enunciado": "Una señal triangular que muestra la calzada estrechándose indica:",
 "opciones": [
 "Estrechamiento de la calzada.",
@@ -6286,7 +18555,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 450,
+"id": 1004,
 "enunciado": "Una señal azul rectangular con la silueta de un peatón sobre un paso de cebra indica:",
 "opciones": [
 "Prohibido el paso a peatones.",
@@ -6300,7 +18569,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 451,
+"id": 1005,
 "enunciado": "Una señal triangular con el dibujo de un animal doméstico (por ejemplo, una vaca) advierte de:",
 "opciones": [
 "Prohibido el paso de animales.",
@@ -6314,7 +18583,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 452,
+"id": 1006,
 "enunciado": "Un peatón que cruza por un paso regulado por semáforo con su luz verde peatonal:",
 "opciones": [
 "Debe ceder el paso a los coches.",
@@ -6328,7 +18597,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 453,
+"id": 1007,
 "enunciado": "Adelantar utilizando el arcén:",
 "opciones": [
 "Está permitido si hay prisa.",
@@ -6342,7 +18611,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 454,
+"id": 1008,
 "enunciado": "Tras completar un adelantamiento, para volver a tu carril debes:",
 "opciones": [
 "Reincorporarte cuanto antes cortando al adelantado.",
@@ -6356,7 +18625,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 455,
+"id": 1009,
 "enunciado": "En una vía interurbana sin acera ni arcén transitable, los peatones deben circular:",
 "opciones": [
 "Por su derecha.",
@@ -6370,7 +18639,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 456,
+"id": 1010,
 "enunciado": "Está prohibido detenerse o estacionar en doble fila porque:",
 "opciones": [
 "Obstaculiza la circulación y reduce la visibilidad.",
@@ -6384,7 +18653,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 457,
+"id": 1011,
 "enunciado": "Ante un estrechamiento señalizado con una señal que da prioridad al sentido contrario:",
 "opciones": [
 "Debes ceder el paso a los vehículos que vienen de frente.",
@@ -6398,7 +18667,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 458,
+"id": 1012,
 "enunciado": "Guiar animales (por ejemplo, un rebaño) por una vía debe hacerse, como norma general:",
 "opciones": [
 "Por el centro de la calzada.",
@@ -6412,7 +18681,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 459,
+"id": 1013,
 "enunciado": "Detenerse dentro de una intersección para esperar un hueco:",
 "opciones": [
 "Está permitido siempre.",
@@ -6426,7 +18695,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 460,
+"id": 1014,
 "enunciado": "Para girar a la derecha en una intersección, con carácter general el conductor debe:",
 "opciones": [
 "Ceñirse al borde derecho y señalizar la maniobra.",
@@ -6440,7 +18709,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 461,
+"id": 1015,
 "enunciado": "Un carril reversible es aquel que:",
 "opciones": [
 "Solo se usa en un sentido para siempre.",
@@ -6454,7 +18723,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 462,
+"id": 1016,
 "enunciado": "Cuando circulas y una ambulancia con prioridad se aproxima por detrás en un atasco:",
 "opciones": [
 "Debes intentar dejarle un pasillo, arrimándote a los lados con precaución.",
@@ -6468,7 +18737,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 463,
+"id": 1017,
 "enunciado": "Transportar un animal de compañía suelto en el habitáculo:",
 "opciones": [
 "Es lo más cómodo y seguro.",
@@ -6482,7 +18751,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 464,
+"id": 1018,
 "enunciado": "El líquido limpiaparabrisas y las escobillas en buen estado son importantes porque:",
 "opciones": [
 "No influyen en la seguridad.",
@@ -6496,7 +18765,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 465,
+"id": 1019,
 "enunciado": "Si se funde una bombilla de una luz obligatoria (por ejemplo, una luz de cruce):",
 "opciones": [
 "Puede seguirse circulando indefinidamente.",
@@ -6510,7 +18779,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 466,
+"id": 1020,
 "enunciado": "Si la correa de distribución del motor se rompe en marcha:",
 "opciones": [
 "No pasa nada.",
@@ -6524,7 +18793,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 467,
+"id": 1021,
 "enunciado": "El catalizador de un vehículo sirve para:",
 "opciones": [
 "Aumentar la potencia.",
@@ -6538,7 +18807,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 468,
+"id": 1022,
 "enunciado": "Llevar carga sobre la baca del techo:",
 "opciones": [
 "No afecta a nada.",
@@ -6552,7 +18821,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 469,
+"id": 1023,
 "enunciado": "Un desgaste irregular de los neumáticos (más por un lado que por otro) puede indicar:",
 "opciones": [
 "Que todo está perfecto.",
@@ -6566,7 +18835,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 470,
+"id": 1024,
 "enunciado": "El sistema de refrigeración del motor (con líquido anticongelante):",
 "opciones": [
 "Mantiene el motor a la temperatura adecuada de funcionamiento.",
@@ -6580,7 +18849,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 471,
+"id": 1025,
 "enunciado": "Holguras o ruidos anormales en la dirección del vehículo:",
 "opciones": [
 "Deben revisarse, pues comprometen el control del vehículo.",
@@ -6594,7 +18863,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 472,
+"id": 1026,
 "enunciado": "El chaleco reflectante de alta visibilidad debe:",
 "opciones": [
 "Guardarse en el maletero y ponerse solo al llegar a casa.",
@@ -6608,7 +18877,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 473,
+"id": 1027,
 "enunciado": "Circular con los neumáticos a la presión recomendada por el fabricante:",
 "opciones": [
 "Aumenta el consumo.",
@@ -6622,7 +18891,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 474,
+"id": 1028,
 "enunciado": "Una vía urbana es:",
 "opciones": [
 "Toda vía situada dentro de poblado, excepto las travesías.",
@@ -6636,7 +18905,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 475,
+"id": 1029,
 "enunciado": "Un ciclocarril (o ciclocalle) es:",
 "opciones": [
 "Un carril exclusivo para camiones.",
@@ -6650,7 +18919,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 476,
+"id": 1030,
 "enunciado": "Un 'vehículo de motor' es:",
 "opciones": [
 "Cualquier vehículo, incluidas las bicicletas.",
@@ -6664,7 +18933,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 477,
+"id": 1031,
 "enunciado": "Los paneles rectangulares de color naranja en un vehículo indican que transporta:",
 "opciones": [
 "Mercancías peligrosas.",
@@ -6678,7 +18947,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 478,
+"id": 1032,
 "enunciado": "Una persona que se desplaza en silla de ruedas por la vía se considera:",
 "opciones": [
 "Un vehículo de motor.",
@@ -6692,7 +18961,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 479,
+"id": 1033,
 "enunciado": "Una calzada de sentido único es aquella en la que:",
 "opciones": [
 "Se circula en un solo sentido de la marcha.",
@@ -6706,7 +18975,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 480,
+"id": 1034,
 "enunciado": "Un carril adicional de circulación en una subida sirve normalmente para:",
 "opciones": [
 "Que los vehículos lentos no entorpezcan a los demás.",
@@ -6720,7 +18989,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 481,
+"id": 1035,
 "enunciado": "Un vehículo aparentemente abandonado en la vía:",
 "opciones": [
 "Puede ser retirado por la autoridad y llevado a depósito.",
@@ -6734,7 +19003,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 482,
+"id": 1036,
 "enunciado": "La 'calzada' puede estar dividida en:",
 "opciones": [
 "Uno o varios carriles.",
@@ -6748,7 +19017,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 483,
+"id": 1037,
 "enunciado": "Un refugio o isleta peatonal en el centro de una calzada ancha sirve para:",
 "opciones": [
 "Que los peatones puedan cruzar en dos fases con seguridad.",
@@ -6762,7 +19031,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 484,
+"id": 1038,
 "enunciado": "Una parada de transporte público (autobús) señalizada:",
 "opciones": [
 "Es un lugar donde está prohibido parar y estacionar a los demás vehículos.",
@@ -6776,7 +19045,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 485,
+"id": 1039,
 "enunciado": "Un tractor o máquina agrícola es, a efectos de circulación:",
 "opciones": [
 "Un turismo.",
@@ -6790,7 +19059,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 486,
+"id": 1040,
 "enunciado": "Una calzada de doble sentido es aquella en la que:",
 "opciones": [
 "Se circula en los dos sentidos de la marcha.",
@@ -6804,7 +19073,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 487,
+"id": 1041,
 "enunciado": "El seguro 'a todo riesgo', frente al obligatorio:",
 "opciones": [
 "Cubre también daños propios del vehículo asegurado, además de la responsabilidad civil.",
@@ -6818,7 +19087,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 488,
+"id": 1042,
 "enunciado": "Conducir con el permiso de conducción caducado:",
 "opciones": [
 "Es una infracción; debe renovarse para seguir conduciendo.",
@@ -6832,7 +19101,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 489,
+"id": 1043,
 "enunciado": "El distintivo ambiental 'B' (amarillo) corresponde, en general, a:",
 "opciones": [
 "Vehículos eléctricos.",
@@ -6846,7 +19115,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 490,
+"id": 1044,
 "enunciado": "Para dar de baja definitiva un vehículo que va al desguace, este debe entregarse en:",
 "opciones": [
 "Un Centro Autorizado de Tratamiento (CAT / desguace autorizado).",
@@ -6860,7 +19129,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 491,
+"id": 1045,
 "enunciado": "Las reformas de importancia en un vehículo:",
 "opciones": [
 "Deben legalizarse y anotarse en la documentación del vehículo.",
@@ -6874,7 +19143,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 492,
+"id": 1046,
 "enunciado": "Para conducir en algunos países fuera de la UE puede ser necesario:",
 "opciones": [
 "El permiso internacional de conducción.",
@@ -6888,7 +19157,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 493,
+"id": 1047,
 "enunciado": "La placa de matrícula española con la banda azul y la 'E' indica:",
 "opciones": [
 "Que el vehículo está matriculado en España (formato europeo).",
@@ -6902,7 +19171,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 494,
+"id": 1048,
 "enunciado": "Si pierdes la tarjeta de inspección técnica (ficha técnica) del vehículo:",
 "opciones": [
 "Debes solicitar un duplicado.",
@@ -6916,7 +19185,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 495,
+"id": 1049,
 "enunciado": "El permiso de la clase B, ¿habilita para conducir un autobús?",
 "opciones": [
 "Sí, si tiene menos de 20 plazas.",
@@ -6930,7 +19199,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 496,
+"id": 1050,
 "enunciado": "El impago continuado del seguro obligatorio del vehículo:",
 "opciones": [
 "Deja el vehículo sin cobertura y su circulación pasa a ser infracción.",
@@ -6944,7 +19213,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 497,
+"id": 1051,
 "enunciado": "La renovación del permiso de conducción se puede realizar:",
 "opciones": [
 "Con cierta antelación a su caducidad.",
@@ -6958,7 +19227,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 498,
+"id": 1052,
 "enunciado": "El permiso de circulación de un vehículo acredita, sobre todo:",
 "opciones": [
 "La titularidad administrativa del vehículo.",
@@ -6972,7 +19241,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 499,
+"id": 1053,
 "enunciado": "Ir 'con la mente en otra cosa' mientras se conduce (distracción cognitiva):",
 "opciones": [
 "No afecta si las manos están en el volante.",
@@ -6986,7 +19255,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 500,
+"id": 1054,
 "enunciado": "Manipular el navegador (GPS) o la pantalla táctil con el vehículo en marcha:",
 "opciones": [
 "Es seguro si se hace rápido.",
@@ -7000,7 +19269,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 501,
+"id": 1055,
 "enunciado": "Una temperatura demasiado alta dentro del habitáculo durante un viaje largo:",
 "opciones": [
 "Favorece la somnolencia y la fatiga.",
@@ -7014,7 +19283,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 502,
+"id": 1056,
 "enunciado": "Al llamar al 112 tras un accidente conviene indicar:",
 "opciones": [
 "El lugar exacto, el número de heridos y su estado.",
@@ -7028,7 +19297,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 503,
+"id": 1057,
 "enunciado": "Los 'microsueños' (dormirse unos segundos sin darse cuenta) al volante:",
 "opciones": [
 "Son inofensivos.",
@@ -7042,7 +19311,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 504,
+"id": 1058,
 "enunciado": "Usar gafas de sol al conducir de noche o en un túnel:",
 "opciones": [
 "Es recomendable para descansar la vista.",
@@ -7056,7 +19325,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 505,
+"id": 1059,
 "enunciado": "Un herido tras un accidente solo debe moverse:",
 "opciones": [
 "Siempre, para sacarlo de la carretera.",
@@ -7070,7 +19339,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 506,
+"id": 1060,
 "enunciado": "Un medicamento común para el resfriado o la alergia:",
 "opciones": [
 "Nunca afecta a la conducción.",
@@ -7084,7 +19353,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 507,
+"id": 1061,
 "enunciado": "La conducción defensiva consiste, principalmente, en:",
 "opciones": [
 "Anticiparse a los posibles errores de los demás y prever situaciones de riesgo.",
@@ -7098,7 +19367,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 508,
+"id": 1062,
 "enunciado": "El consumo de alcohol en conductores jóvenes y noveles:",
 "opciones": [
 "Es menos peligroso por su edad.",
@@ -7112,7 +19381,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 509,
+"id": 1063,
 "enunciado": "Ante una persona en estado de shock (pálida, sudorosa, con pulso débil), mientras llega la ayuda:",
 "opciones": [
 "Se la mantiene tumbada y abrigada, sin darle de beber.",
@@ -7126,7 +19395,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 510,
+"id": 1064,
 "enunciado": "La deshidratación durante un viaje largo:",
 "opciones": [
 "No afecta a la conducción.",
@@ -7140,7 +19409,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 511,
+"id": 1065,
 "enunciado": "Si tu vehículo empieza a arder, lo prioritario es:",
 "opciones": [
 "Detenerse, salir con los ocupantes y alejarse, avisando al 112.",
@@ -7154,7 +19423,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 512,
+"id": 1066,
 "enunciado": "Un vehículo destinado al transporte de mercancías de MMA no superior a 3.500 kg (furgoneta) circula por carretera convencional a un máximo genérico de:",
 "opciones": [
 "90 km/h.",
@@ -7168,7 +19437,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 513,
+"id": 1067,
 "enunciado": "La 'regla de los 3 segundos' sirve para:",
 "opciones": [
 "Calcular una distancia de seguridad adecuada respecto al vehículo de delante.",
@@ -7182,7 +19451,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 514,
+"id": 1068,
 "enunciado": "La velocidad máxima genérica de una motocicleta en carretera convencional es:",
 "opciones": [
 "90 km/h.",
@@ -7196,7 +19465,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 515,
+"id": 1069,
 "enunciado": "En una zona peatonal o residencial en la que se permite el paso de vehículos, la velocidad máxima es:",
 "opciones": [
 "50 km/h.",
@@ -7210,7 +19479,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 516,
+"id": 1070,
 "enunciado": "Cuando una señal fija un límite de velocidad concreto y difiere del genérico de la vía:",
 "opciones": [
 "Prevalece el límite de la señal.",
@@ -7224,7 +19493,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 517,
+"id": 1071,
 "enunciado": "Entrar en una curva a velocidad excesiva puede provocar:",
 "opciones": [
 "Mejor agarre.",
@@ -7238,7 +19507,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 518,
+"id": 1072,
 "enunciado": "Antes de iniciar un adelantamiento hay que asegurarse de disponer de:",
 "opciones": [
 "Espacio y visibilidad libres suficientes para completarlo sin peligro.",
@@ -7252,7 +19521,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 519,
+"id": 1073,
 "enunciado": "Un vehículo especial (por ejemplo, una cosechadora) suele circular:",
 "opciones": [
 "A la misma velocidad que un turismo.",
@@ -7266,7 +19535,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 520,
+"id": 1074,
 "enunciado": "Con lluvia intensa, además de reducir la velocidad, la distancia de seguridad se debe:",
 "opciones": [
 "Reducir.",
@@ -7280,7 +19549,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 521,
+"id": 1075,
 "enunciado": "La velocidad inadecuada a las condiciones de la vía:",
 "opciones": [
 "Es uno de los principales factores en los accidentes de tráfico.",
@@ -7294,7 +19563,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 522,
+"id": 1076,
 "enunciado": "En un aparcamiento o zona de estacionamiento con peatones circulando, conviene circular:",
 "opciones": [
 "A muy baja velocidad y con máxima atención.",
@@ -7308,7 +19577,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 523,
+"id": 1077,
 "enunciado": "Si un vehículo te sigue demasiado cerca (poca distancia de seguridad), lo recomendable es:",
 "opciones": [
 "Frenar bruscamente para asustarlo.",
@@ -7322,7 +19591,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 524,
+"id": 1078,
 "enunciado": "Con niebla, además de reducir la velocidad, es aconsejable:",
 "opciones": [
 "Usar la luz de carretera (larga).",
@@ -7336,7 +19605,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 525,
+"id": 1079,
 "enunciado": "Una señal circular con varias barras que anula prohibiciones anteriores indica:",
 "opciones": [
 "Fin de las prohibiciones señaladas previamente.",
@@ -7350,7 +19619,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 526,
+"id": 1080,
 "enunciado": "Un rombo (cuadrado sobre un vértice) amarillo indica:",
 "opciones": [
 "Calzada con prioridad.",
@@ -7364,7 +19633,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 527,
+"id": 1081,
 "enunciado": "Una señal triangular con la palabra o el símbolo de viento lateral (manga de aire) advierte de:",
 "opciones": [
 "Peligro por fuertes vientos laterales.",
@@ -7378,7 +19647,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 528,
+"id": 1082,
 "enunciado": "Una señal triangular con el dibujo de un semáforo advierte de:",
 "opciones": [
 "La proximidad de un semáforo.",
@@ -7392,7 +19661,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 529,
+"id": 1083,
 "enunciado": "Una señal circular blanca con borde rojo, sin ningún símbolo en su interior, indica:",
 "opciones": [
 "Circulación prohibida para toda clase de vehículos (en ambos sentidos).",
@@ -7406,7 +19675,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 530,
+"id": 1084,
 "enunciado": "Una señal triangular con un signo de exclamación indica:",
 "opciones": [
 "Un peligro no recogido en otras señales (otros peligros).",
@@ -7420,7 +19689,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 531,
+"id": 1085,
 "enunciado": "Las aspas en forma de X (aspa de San Andrés) en un cruce ferroviario señalan:",
 "opciones": [
 "Un paso a nivel sin barreras.",
@@ -7434,7 +19703,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 532,
+"id": 1086,
 "enunciado": "Un panel rectangular con fondo azul en una autovía suele ofrecer:",
 "opciones": [
 "Información u orientación (direcciones, servicios, destinos).",
@@ -7448,7 +19717,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 533,
+"id": 1087,
 "enunciado": "La línea longitudinal pintada en el borde exterior de la calzada sirve para:",
 "opciones": [
 "Delimitar el borde de la calzada y separarla del arcén.",
@@ -7462,7 +19731,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 534,
+"id": 1088,
 "enunciado": "Una señal que anuncia el fin de una zona residencial (fin de S-28) significa que:",
 "opciones": [
 "Dejan de aplicarse las normas especiales de esa zona (prioridad peatonal, 20 km/h).",
@@ -7476,7 +19745,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 535,
+"id": 1089,
 "enunciado": "En una zona de obras, los conos, paneles direccionales y balizas de color amarillo/naranja:",
 "opciones": [
 "Deben respetarse y prevalecen sobre la señalización permanente.",
@@ -7490,7 +19759,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 536,
+"id": 1090,
 "enunciado": "Un panel complementario colocado debajo de una señal:",
 "opciones": [
 "Precisa o amplía el significado de la señal principal (distancia, horario, tipo de vehículo...).",
@@ -7504,7 +19773,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 537,
+"id": 1091,
 "enunciado": "Una señal triangular con dos niños advierte de:",
 "opciones": [
 "La proximidad de un lugar frecuentado por niños (por ejemplo, un colegio).",
@@ -7518,7 +19787,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 538,
+"id": 1092,
 "enunciado": "Al estacionar en una pendiente pronunciada, además del freno de mano conviene:",
 "opciones": [
 "Dejar el vehículo en punto muerto.",
@@ -7532,7 +19801,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 539,
+"id": 1093,
 "enunciado": "Al salir de un garaje o propiedad colindante a la vía, el conductor:",
 "opciones": [
 "Tiene preferencia sobre los que circulan.",
@@ -7546,7 +19815,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 540,
+"id": 1094,
 "enunciado": "El adelantamiento, como norma general, se realiza:",
 "opciones": [
 "Por la izquierda del vehículo al que se adelanta.",
@@ -7560,7 +19829,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 541,
+"id": 1095,
 "enunciado": "Está prohibido parar y estacionar en el interior de un túnel porque:",
 "opciones": [
 "Supone un grave peligro y dificulta la evacuación.",
@@ -7574,7 +19843,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 542,
+"id": 1096,
 "enunciado": "En una curva de visibilidad reducida, invadir parcialmente el carril contrario:",
 "opciones": [
 "Está permitido si hay prisa.",
@@ -7588,7 +19857,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 543,
+"id": 1097,
 "enunciado": "Ante una señal de STOP al incorporarse a una vía, el conductor:",
 "opciones": [
 "Debe detener el vehículo por completo y ceder el paso.",
@@ -7602,7 +19871,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 544,
+"id": 1098,
 "enunciado": "Respecto a los vehículos de emergencia en servicio urgente que circulan delante de ti:",
 "opciones": [
 "Debes seguirlos de cerca para aprovechar el hueco.",
@@ -7616,7 +19885,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 545,
+"id": 1099,
 "enunciado": "Para detenerse a recoger o dejar pasajeros en ciudad, el conductor debe:",
 "opciones": [
 "Hacerlo donde esté permitido, sin obstaculizar la circulación y por el menor tiempo posible.",
@@ -7630,7 +19899,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 546,
+"id": 1100,
 "enunciado": "En una intersección, cerca de ella no se debe adelantar porque:",
 "opciones": [
 "Aumenta el riesgo de colisión con vehículos que entran o salen.",
@@ -7644,7 +19913,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 547,
+"id": 1101,
 "enunciado": "Al circular por una vía con tranvía, si este se aproxima a un cruce:",
 "opciones": [
 "El tranvía suele tener preferencia, salvo señalización en contra.",
@@ -7658,7 +19927,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 548,
+"id": 1102,
 "enunciado": "Cuando dos vehículos coinciden en un cruce y uno tiene señal de 'ceda el paso':",
 "opciones": [
 "El que tiene el 'ceda el paso' debe dejar pasar al otro.",
@@ -7672,7 +19941,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 549,
+"id": 1103,
 "enunciado": "Los peatones que circulan por el arcén o la calzada de una vía interurbana de noche:",
 "opciones": [
 "Deben ser visibles (prenda reflectante) y circular por su izquierda.",
@@ -7686,7 +19955,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 550,
+"id": 1104,
 "enunciado": "Antes de abrir la puerta del vehículo tras estacionar en la calle:",
 "opciones": [
 "Hay que asegurarse de no poner en peligro a ciclistas u otros usuarios que se aproximen.",
@@ -7700,7 +19969,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 551,
+"id": 1105,
 "enunciado": "En un vehículo con varias plazas traseras ocupadas, el cinturón de seguridad:",
 "opciones": [
 "Solo lo usa el del centro.",
@@ -7714,7 +19983,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 552,
+"id": 1106,
 "enunciado": "La luz de emergencia (warning / intermitentes simultáneos) debe usarse:",
 "opciones": [
 "Para avisar de un peligro, avería o retención imprevista.",
@@ -7728,7 +19997,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 553,
+"id": 1107,
 "enunciado": "La luz antiniebla delantera:",
 "opciones": [
 "Puede usarse en condiciones de niebla, lluvia intensa o nevada.",
@@ -7742,7 +20011,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 554,
+"id": 1108,
 "enunciado": "Si se enciende el testigo del sistema ABS:",
 "opciones": [
 "Conviene revisar el sistema; el ABS podría no actuar en una frenada de emergencia.",
@@ -7756,7 +20025,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 555,
+"id": 1109,
 "enunciado": "Un humo de escape muy negro, azulado o excesivo puede indicar:",
 "opciones": [
 "Que el motor funciona perfectamente.",
@@ -7770,7 +20039,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 556,
+"id": 1110,
 "enunciado": "La presión de los neumáticos debe comprobarse:",
 "opciones": [
 "Preferiblemente en frío (antes de rodar o tras poco recorrido).",
@@ -7784,7 +20053,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 557,
+"id": 1111,
 "enunciado": "Colocar objetos duros sobre la bandeja trasera o el salpicadero:",
 "opciones": [
 "Es seguro.",
@@ -7798,7 +20067,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 558,
+"id": 1112,
 "enunciado": "En un descenso largo, dejar el vehículo en punto muerto (desembragado) para ahorrar:",
 "opciones": [
 "Es recomendable.",
@@ -7812,7 +20081,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 559,
+"id": 1113,
 "enunciado": "El uso del cinturón de seguridad en trayectos urbanos muy cortos:",
 "opciones": [
 "No es necesario.",
@@ -7826,7 +20095,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 560,
+"id": 1114,
 "enunciado": "Los neumáticos de invierno, frente a las cadenas:",
 "opciones": [
 "Ofrecen mejor agarre en frío/nieve ligera y permiten circular con normalidad.",
@@ -7840,7 +20109,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 561,
+"id": 1115,
 "enunciado": "Circular con el indicador de combustible en la reserva:",
 "opciones": [
 "Obliga a planificar el repostaje pronto para no quedarse parado en un lugar peligroso.",
@@ -7854,7 +20123,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 562,
+"id": 1116,
 "enunciado": "Un chirrido metálico al frenar suele indicar:",
 "opciones": [
 "Que las pastillas de freno están desgastadas y conviene revisarlas.",
@@ -7868,7 +20137,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 563,
+"id": 1117,
 "enunciado": "Para conducir con seguridad conviene dirigir la mirada:",
 "opciones": [
 "Solo al vehículo de delante.",
@@ -7882,7 +20151,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 564,
+"id": 1118,
 "enunciado": "¿Qué obliga a hacer la señal de la imagen?",
 "opciones": [
 "Reducir la velocidad sin más.",
@@ -7896,7 +20165,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 565,
+"id": 1119,
 "enunciado": "¿Qué indica la señal de la imagen?",
 "opciones": [
 "Ceda el paso a los vehículos de la vía preferente.",
@@ -7910,7 +20179,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 566,
+"id": 1120,
 "enunciado": "¿Qué prohíbe la señal de la imagen?",
 "opciones": [
 "Circular a más de 100 km/h.",
@@ -7924,7 +20193,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 567,
+"id": 1121,
 "enunciado": "¿Qué significa la señal de la imagen?",
 "opciones": [
 "Velocidad aconsejada de 50 km/h.",
@@ -7938,7 +20207,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 568,
+"id": 1122,
 "enunciado": "La señal de la imagen indica que la velocidad máxima permitida es:",
 "opciones": [
 "120 km/h.",
@@ -7952,7 +20221,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 569,
+"id": 1123,
 "enunciado": "¿De qué advierte la señal de la imagen?",
 "opciones": [
 "De una curva peligrosa próxima.",
@@ -7966,7 +20235,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 570,
+"id": 1124,
 "enunciado": "¿Qué advierte la señal de la imagen?",
 "opciones": [
 "Prohibido el paso a peatones.",
@@ -7980,7 +20249,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 571,
+"id": 1125,
 "enunciado": "¿Qué prohibición indica la señal de la imagen?",
 "opciones": [
 "El estacionamiento en ese lado de la vía.",
@@ -7994,7 +20263,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 572,
+"id": 1126,
 "enunciado": "¿Qué significado tiene la señal mostrada en la imagen?",
 "opciones": [
 "Dirección prohibida: no se puede entrar en ese sentido.",
@@ -8008,7 +20277,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 573,
+"id": 1127,
 "enunciado": "¿Qué obliga la señal de la imagen?",
 "opciones": [
 "A seguir de frente (sentido obligatorio).",
@@ -8022,7 +20291,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 574,
+"id": 1128,
 "enunciado": "¿Qué dispositivo es obligatorio desde 2026 para señalizar una avería o un accidente en la carretera?",
 "opciones": [
 "La baliza luminosa V-16 conectada.",
@@ -8038,7 +20307,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Antes: dos triángulos. Ahora: baliza V-16 conectada (desde el 1 de enero de 2026)."
 },
 {
-"id": 575,
+"id": 1129,
 "enunciado": "Una ventaja principal de la baliza V-16 frente a los triángulos es que:",
 "opciones": [
 "Se coloca en el techo del vehículo sin necesidad de bajarse a la calzada.",
@@ -8054,7 +20323,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Antes: había que salir a colocar los triángulos. Ahora: la V-16 se coloca desde el propio vehículo."
 },
 {
-"id": 576,
+"id": 1130,
 "enunciado": "La baliza V-16 obligatoria desde 2026 debe estar:",
 "opciones": [
 "Conectada a la plataforma DGT 3.0 para transmitir su ubicación.",
@@ -8070,7 +20339,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Novedad 2026: la baliza debe estar conectada a la DGT 3.0 (las no conectadas ya no valen)."
 },
 {
-"id": 577,
+"id": 1131,
 "enunciado": "Al adelantar a un ciclista en una vía interurbana, además de dejar 1,5 m de separación debes:",
 "opciones": [
 "Reducir la velocidad al menos 20 km/h respecto al límite de la vía.",
@@ -8086,7 +20355,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Se mantiene el 1,5 m; NUEVO: reducir al menos 20 km/h (desde el 1 de octubre de 2026)."
 },
 {
-"id": 578,
+"id": 1132,
 "enunciado": "Según la reforma que entra en vigor el 1 de octubre de 2026, los ciclistas deben usar casco:",
 "opciones": [
 "Obligatoriamente en las vías interurbanas.",
@@ -8102,7 +20371,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: casco obligatorio para ciclistas en vías interurbanas."
 },
 {
-"id": 579,
+"id": 1133,
 "enunciado": "Con la reforma de 2026, la edad mínima para circular con un patinete eléctrico (VMP) es de:",
 "opciones": [
 "15 años.",
@@ -8118,7 +20387,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: edad mínima de 15 años para los VMP."
 },
 {
-"id": 580,
+"id": 1134,
 "enunciado": "Con la reforma de 2026, quien circula con un patinete eléctrico (VMP) debe llevar:",
 "opciones": [
 "Chaleco o elemento reflectante.",
@@ -8134,7 +20403,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: chaleco/elemento reflectante obligatorio en VMP."
 },
 {
-"id": 581,
+"id": 1135,
 "enunciado": "Respecto al seguro, la reforma de 2026 establece para determinados patinetes (VMP):",
 "opciones": [
 "La obligación de tener un seguro de responsabilidad civil.",
@@ -8150,7 +20419,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde 2026: seguro de responsabilidad civil obligatorio para ciertos VMP."
 },
 {
-"id": 582,
+"id": 1136,
 "enunciado": "Desde 2026, para poder circular por un carril Bus-VAO un turismo debe llevar:",
 "opciones": [
 "Al menos 2 ocupantes.",
@@ -8166,7 +20435,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Antes: algunos turismos con etiqueta podían ir solos. Ahora: se exige un mínimo de 2 ocupantes."
 },
 {
-"id": 583,
+"id": 1137,
 "enunciado": "Con la reforma de 2026, respecto al cinturón de seguridad, los taxistas y repartidores:",
 "opciones": [
 "Dejan de estar exentos y deben usarlo siempre.",
@@ -8182,7 +20451,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Antes: taxistas/repartidores/autoescuela estaban exentos en ciudad. Ahora: cinturón obligatorio siempre."
 },
 {
-"id": 584,
+"id": 1138,
 "enunciado": "Con la reforma de 2026 queda prohibido adelantar cuando:",
 "opciones": [
 "Haya nieve o hielo en la calzada.",
@@ -8198,7 +20467,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: prohibido adelantar con nieve o hielo en la calzada."
 },
 {
-"id": 585,
+"id": 1139,
 "enunciado": "En una retención o atasco, la reforma de 2026 obliga a los conductores a:",
 "opciones": [
 "Dejar un pasillo de emergencia central apartándose cada uno hacia su lado.",
@@ -8214,7 +20483,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: obligación de dejar un pasillo de emergencia en los atascos."
 },
 {
-"id": 586,
+"id": 1140,
 "enunciado": "Con la reforma de 2026, respecto al equipamiento del motorista:",
 "opciones": [
 "Será obligatorio el uso de calzado cerrado y guantes.",
@@ -8230,7 +20499,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: calzado cerrado y guantes obligatorios para motoristas."
 },
 {
-"id": 587,
+"id": 1141,
 "enunciado": "Con la reforma de 2026, las motocicletas podrán, en determinadas condiciones:",
 "opciones": [
 "Utilizar el arcén de forma puntual y con restricciones.",
@@ -8246,7 +20515,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: uso puntual del arcén por motos, con restricciones."
 },
 {
-"id": 588,
+"id": 1142,
 "enunciado": "¿Qué se entiende por 'parada'?",
 "opciones": [
 "La inmovilización del vehículo por más de dos minutos.",
@@ -8260,7 +20529,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 589,
+"id": 1143,
 "enunciado": "¿Qué es el 'estacionamiento'?",
 "opciones": [
 "Cualquier inmovilización que no sea parada ni impuesta por el tráfico.",
@@ -8274,7 +20543,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 590,
+"id": 1144,
 "enunciado": "La 'masa máxima autorizada' (MMA) es:",
 "opciones": [
 "El peso del vehículo vacío.",
@@ -8288,7 +20557,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 591,
+"id": 1145,
 "enunciado": "Una 'isleta' es:",
 "opciones": [
 "Un tipo de rotonda pequeña.",
@@ -8302,7 +20571,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 592,
+"id": 1146,
 "enunciado": "La 'mediana' de una vía es:",
 "opciones": [
 "La línea central discontinua.",
@@ -8316,7 +20585,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 593,
+"id": 1147,
 "enunciado": "A efectos de tráfico, un 'peatón' incluye:",
 "opciones": [
 "Solo a quien camina sin nada en las manos.",
@@ -8330,7 +20599,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 594,
+"id": 1148,
 "enunciado": "Un 'ciclomotor' se caracteriza por:",
 "opciones": [
 "Cilindrada hasta 50 cm³ y velocidad máxima por construcción de 45 km/h.",
@@ -8344,7 +20613,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 595,
+"id": 1149,
 "enunciado": "¿Qué es una 'glorieta' (rotonda)?",
 "opciones": [
 "Un cruce con semáforos.",
@@ -8358,7 +20627,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 596,
+"id": 1150,
 "enunciado": "La 'plataforma' de una vía comprende:",
 "opciones": [
 "Solo la calzada.",
@@ -8372,7 +20641,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 597,
+"id": 1151,
 "enunciado": "Un 'vehículo prioritario' es aquel que:",
 "opciones": [
 "Circula siempre por el carril izquierdo.",
@@ -8386,7 +20655,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 598,
+"id": 1152,
 "enunciado": "Un turismo particular con una antigüedad entre 4 y 10 años debe pasar la ITV:",
 "opciones": [
 "Cada año.",
@@ -8400,7 +20669,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 599,
+"id": 1153,
 "enunciado": "¿A qué edad mínima se puede obtener el permiso B?",
 "opciones": [
 "A los 16 años.",
@@ -8414,7 +20683,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 600,
+"id": 1154,
 "enunciado": "El permiso B autoriza a conducir turismos con una MMA no superior a:",
 "opciones": [
 "2.000 kg.",
@@ -8428,7 +20697,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 601,
+"id": 1155,
 "enunciado": "Con el permiso B, ¿qué remolque se puede arrastrar sin permiso adicional?",
 "opciones": [
 "Cualquier remolque.",
@@ -8442,7 +20711,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 602,
+"id": 1156,
 "enunciado": "¿Con cuántos puntos parte un conductor con el permiso recién obtenido (novel)?",
 "opciones": [
 "Con 12 puntos.",
@@ -8456,7 +20725,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 603,
+"id": 1157,
 "enunciado": "¿Cada cuánto se renueva el permiso B para un conductor menor de 65 años?",
 "opciones": [
 "Cada 10 años.",
@@ -8470,7 +20739,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 604,
+"id": 1158,
 "enunciado": "¿Qué documentación relativa al vehículo conviene poder acreditar al circular?",
 "opciones": [
 "Solo el permiso de conducir.",
@@ -8484,7 +20753,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 605,
+"id": 1159,
 "enunciado": "Si vendes tu vehículo, ¿qué trámite corresponde principalmente?",
 "opciones": [
 "Nada, basta con entregar las llaves.",
@@ -8498,7 +20767,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 606,
+"id": 1160,
 "enunciado": "El seguro obligatorio del automóvil cubre, como mínimo:",
 "opciones": [
 "Los daños del propio vehículo del asegurado.",
@@ -8512,7 +20781,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 607,
+"id": 1161,
 "enunciado": "¿Se puede acelerar la eliminación del alcohol tomando café o una ducha fría?",
 "opciones": [
 "Sí, el café lo elimina rápidamente.",
@@ -8526,7 +20795,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 608,
+"id": 1162,
 "enunciado": "Respecto al consumo de drogas y la conducción, la normativa establece:",
 "opciones": [
 "Una tasa tolerada similar a la del alcohol.",
@@ -8540,7 +20809,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 609,
+"id": 1163,
 "enunciado": "Negarse a realizar las pruebas de alcohol o drogas requeridas por un agente:",
 "opciones": [
 "No tiene consecuencias si el conductor está sobrio.",
@@ -8554,7 +20823,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 610,
+"id": 1164,
 "enunciado": "Uno de los primeros efectos del alcohol sobre la conducción es:",
 "opciones": [
 "Mejora de los reflejos.",
@@ -8568,7 +20837,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 611,
+"id": 1165,
 "enunciado": "Los medicamentos que pueden afectar a la conducción suelen advertirlo con:",
 "opciones": [
 "Un círculo verde en la caja.",
@@ -8582,7 +20851,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 612,
+"id": 1166,
 "enunciado": "La tasa máxima de alcohol en aire espirado para un conductor no novel es:",
 "opciones": [
 "0,25 mg/l.",
@@ -8596,7 +20865,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 613,
+"id": 1167,
 "enunciado": "La conducción con una tasa de alcohol muy elevada (superior a 0,60 mg/l en aire):",
 "opciones": [
 "Es solo una infracción administrativa grave.",
@@ -8610,7 +20879,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 614,
+"id": 1168,
 "enunciado": "La fatiga y la somnolencia al volante:",
 "opciones": [
 "No afectan si se lleva las ventanillas abiertas.",
@@ -8624,7 +20893,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 615,
+"id": 1169,
 "enunciado": "Conviene hacer un descanso en viajes largos aproximadamente cada:",
 "opciones": [
 "6 horas de conducción continuada.",
@@ -8638,7 +20907,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 616,
+"id": 1170,
 "enunciado": "Una tasa de alcohol por debajo del límite legal:",
 "opciones": [
 "Garantiza que la conducción no se ve afectada.",
@@ -8652,7 +20921,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 617,
+"id": 1171,
 "enunciado": "La velocidad máxima de un ciclomotor es, con carácter general:",
 "opciones": [
 "45 km/h.",
@@ -8666,7 +20935,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 618,
+"id": 1172,
 "enunciado": "Al circular, la velocidad debe permitir:",
 "opciones": [
 "Apurar siempre el límite máximo señalizado.",
@@ -8680,7 +20949,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 619,
+"id": 1173,
 "enunciado": "Si se duplica la velocidad, la distancia de frenado aproximadamente:",
 "opciones": [
 "Se duplica.",
@@ -8694,7 +20963,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 620,
+"id": 1174,
 "enunciado": "La 'distancia de detención' es la suma de:",
 "opciones": [
 "Distancia de seguridad y distancia de adelantamiento.",
@@ -8708,7 +20977,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 621,
+"id": 1175,
 "enunciado": "Una forma sencilla de mantener la distancia de seguridad es:",
 "opciones": [
 "Ir siempre a 3 metros del de delante.",
@@ -8722,7 +20991,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 622,
+"id": 1176,
 "enunciado": "Circular injustificadamente muy por debajo de los límites mínimos:",
 "opciones": [
 "Está siempre permitido, nunca se sanciona.",
@@ -8736,7 +21005,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 623,
+"id": 1177,
 "enunciado": "Con lluvia intensa y agua en la calzada puede producirse 'aquaplaning', que consiste en:",
 "opciones": [
 "Que el motor se cale por el agua.",
@@ -8750,7 +21019,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 624,
+"id": 1178,
 "enunciado": "En una vía convencional, si una señal no indica otra cosa, un turismo no debe superar:",
 "opciones": [
 "100 km/h.",
@@ -8764,7 +21033,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 625,
+"id": 1179,
 "enunciado": "Al aproximarse a una zona con presencia de peatones o escolar, el conductor debe:",
 "opciones": [
 "Mantener la velocidad máxima permitida.",
@@ -8778,7 +21047,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 626,
+"id": 1180,
 "enunciado": "La velocidad, por sí sola, en caso de accidente influye en que:",
 "opciones": [
 "No tiene relación con la gravedad.",
@@ -8792,7 +21061,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 627,
+"id": 1181,
 "enunciado": "Como regla general, el adelantamiento se efectúa:",
 "opciones": [
 "Por la derecha.",
@@ -8806,7 +21075,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 628,
+"id": 1182,
 "enunciado": "¿En cuál de estos lugares está prohibido adelantar?",
 "opciones": [
 "En una recta con buena visibilidad.",
@@ -8820,7 +21089,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 629,
+"id": 1183,
 "enunciado": "La marcha atrás:",
 "opciones": [
 "Se puede usar libremente para recorrer largos tramos.",
@@ -8834,7 +21103,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 630,
+"id": 1184,
 "enunciado": "Los vehículos prioritarios en servicio de urgencia (con señales activadas):",
 "opciones": [
 "Deben respetar todos los semáforos igual que los demás.",
@@ -8848,7 +21117,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 631,
+"id": 1185,
 "enunciado": "Al incorporarse a la circulación desde un estacionamiento o vía secundaria:",
 "opciones": [
 "Tiene preferencia quien se incorpora.",
@@ -8862,7 +21131,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 632,
+"id": 1186,
 "enunciado": "Ante un paso a nivel o la presencia de un tren:",
 "opciones": [
 "El vehículo tiene preferencia si va rápido.",
@@ -8876,7 +21145,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 633,
+"id": 1187,
 "enunciado": "Para estacionar en una vía de doble sentido, con carácter general se hace:",
 "opciones": [
 "En cualquier lado indistintamente.",
@@ -8890,7 +21159,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 634,
+"id": 1188,
 "enunciado": "Antes de cualquier maniobra (girar, cambiar de carril, adelantar) el conductor debe:",
 "opciones": [
 "Acelerar para hacerla rápido.",
@@ -8904,7 +21173,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 635,
+"id": 1189,
 "enunciado": "En un tramo estrecho de montaña donde no pueden cruzarse dos vehículos, tiene preferencia:",
 "opciones": [
 "El que desciende.",
@@ -8918,7 +21187,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 636,
+"id": 1190,
 "enunciado": "El tranvía, respecto al resto de vehículos:",
 "opciones": [
 "Cede siempre el paso.",
@@ -8932,7 +21201,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 637,
+"id": 1191,
 "enunciado": "El airbag (SRS) es un sistema de seguridad que:",
 "opciones": [
 "Sustituye al cinturón de seguridad.",
@@ -8946,7 +21215,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 638,
+"id": 1192,
 "enunciado": "El sistema de control de estabilidad (ESP/ESC) ayuda a:",
 "opciones": [
 "Reducir el consumo de combustible.",
@@ -8960,7 +21229,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 639,
+"id": 1193,
 "enunciado": "Si durante la marcha se enciende la luz roja de temperatura del refrigerante, se debe:",
 "opciones": [
 "Seguir circulando con normalidad.",
@@ -8974,7 +21243,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 640,
+"id": 1194,
 "enunciado": "Los niños de estatura igual o inferior a 135 cm deben viajar:",
 "opciones": [
 "En el asiento delantero sin más.",
@@ -8988,7 +21257,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 641,
+"id": 1195,
 "enunciado": "El chaleco reflectante de alta visibilidad:",
 "opciones": [
 "Debe usarse al bajar del vehículo en la calzada o el arcén de vías interurbanas.",
@@ -9002,7 +21271,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 642,
+"id": 1196,
 "enunciado": "Frenar bruscamente en mitad de una curva:",
 "opciones": [
 "Es lo más seguro siempre.",
@@ -9016,7 +21285,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 643,
+"id": 1197,
 "enunciado": "Una conducción eficiente (que ahorra combustible y emisiones) recomienda:",
 "opciones": [
 "Acelerar y frenar con frecuencia.",
@@ -9030,7 +21299,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 644,
+"id": 1198,
 "enunciado": "Una presión de neumáticos inferior a la recomendada provoca, entre otros efectos:",
 "opciones": [
 "Menor consumo de combustible.",
@@ -9044,7 +21313,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 645,
+"id": 1199,
 "enunciado": "La luz de emergencia V-16 (baliza luminosa):",
 "opciones": [
 "Se coloca dentro del vehículo, en el salpicadero.",
@@ -9058,7 +21327,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 646,
+"id": 1200,
 "enunciado": "Si un neumático presenta un desgaste irregular (más gastado por un lado):",
 "opciones": [
 "No tiene importancia mientras tenga dibujo.",
@@ -9072,7 +21341,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 647,
+"id": 1201,
 "enunciado": "¿Qué es una 'intersección'?",
 "opciones": [
 "El cruce o unión de dos o más vías a un mismo nivel.",
@@ -9086,7 +21355,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 648,
+"id": 1202,
 "enunciado": "El 'firme' de una vía es:",
 "opciones": [
 "La capa superior de la calzada sobre la que ruedan los vehículos.",
@@ -9100,7 +21369,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 649,
+"id": 1203,
 "enunciado": "Un 'tren de carretera' es:",
 "opciones": [
 "Un automóvil unido a uno o varios remolques.",
@@ -9114,7 +21383,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 650,
+"id": 1204,
 "enunciado": "Un 'automóvil' se diferencia de un ciclomotor principalmente en que:",
 "opciones": [
 "El automóvil está concebido para circular sin carriles ni raíles y por sus características no es ciclomotor.",
@@ -9128,7 +21397,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 651,
+"id": 1205,
 "enunciado": "¿Qué es un 'turismo'?",
 "opciones": [
 "Un automóvil destinado al transporte de personas con capacidad hasta 9 plazas, incluido el conductor.",
@@ -9142,7 +21411,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 652,
+"id": 1206,
 "enunciado": "¿Qué es un 'autobús' o autocar?",
 "opciones": [
 "Un automóvil para transporte de personas con más de 9 plazas, incluido el conductor.",
@@ -9156,7 +21425,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 653,
+"id": 1207,
 "enunciado": "Un 'camión' es un vehículo de motor destinado a:",
 "opciones": [
 "El transporte de mercancías, con más de 3.500 kg de MMA.",
@@ -9170,7 +21439,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 654,
+"id": 1208,
 "enunciado": "Una 'furgoneta' es:",
 "opciones": [
 "Un vehículo destinado al transporte de mercancías cuya MMA no supera los 3.500 kg.",
@@ -9184,7 +21453,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 655,
+"id": 1209,
 "enunciado": "Una 'motocicleta' es:",
 "opciones": [
 "Un vehículo de dos ruedas (o con sidecar) que supera los 50 cc o los 45 km/h.",
@@ -9198,7 +21467,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 656,
+"id": 1210,
 "enunciado": "El 'peso en orden de marcha' (masa en orden de marcha) de un vehículo incluye:",
 "opciones": [
 "La tara más la masa del conductor estimada en 75 kg.",
@@ -9212,7 +21481,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 657,
+"id": 1211,
 "enunciado": "La 'masa remolcable' de un vehículo es:",
 "opciones": [
 "La masa máxima que el vehículo puede arrastrar en un remolque.",
@@ -9226,7 +21495,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 658,
+"id": 1212,
 "enunciado": "Una 'vía rápida' (carretera para automóviles) se caracteriza por:",
 "opciones": [
 "Tener una sola calzada, accesos limitados y estar reservada a automóviles, con la señalización correspondiente.",
@@ -9240,7 +21509,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 659,
+"id": 1213,
 "enunciado": "Un 'túnel', a efectos de circulación, es:",
 "opciones": [
 "Un tramo de vía cubierto que exige normas específicas (luces, distancias, prohibición de parar).",
@@ -9254,7 +21523,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 660,
+"id": 1214,
 "enunciado": "Un 'enlace' de una vía es:",
 "opciones": [
 "El conjunto de ramales que permite pasar de una vía a otra sin cruces a nivel.",
@@ -9268,7 +21537,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 661,
+"id": 1215,
 "enunciado": "El 'carril de aceleración' de una autovía sirve para:",
 "opciones": [
 "Ganar velocidad e incorporarse a la circulación con seguridad.",
@@ -9282,7 +21551,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 662,
+"id": 1216,
 "enunciado": "La 'detención' de un vehículo se refiere a:",
 "opciones": [
 "La inmovilización breve por necesidad de la circulación (semáforo, retención, orden de agente).",
@@ -9296,7 +21565,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 663,
+"id": 1217,
 "enunciado": "Un 'ciclo' es:",
 "opciones": [
 "Un vehículo de al menos dos ruedas accionado por el esfuerzo muscular de sus ocupantes.",
@@ -9310,7 +21579,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 664,
+"id": 1218,
 "enunciado": "Un 'ciclomotor de tres ruedas' o un 'cuadriciclo ligero' se conducen con el permiso:",
 "opciones": [
 "AM, obtenible a partir de los 15 años.",
@@ -9324,7 +21593,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 665,
+"id": 1219,
 "enunciado": "Una 'berma' es:",
 "opciones": [
 "La franja de terreno que hay entre el borde exterior de la explanación y el arcén o la cuneta.",
@@ -9338,7 +21607,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 666,
+"id": 1220,
 "enunciado": "Un 'obstáculo en la vía' es:",
 "opciones": [
 "Todo aquello que dificulta la libre circulación y puede generar peligro (carga caída, animal, avería).",
@@ -9352,7 +21621,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 667,
+"id": 1221,
 "enunciado": "Un 'vehículo de emergencia' o prioritario, cuando presta servicio urgente:",
 "opciones": [
 "Puede dejar de cumplir ciertas normas usando las señales luminosas y acústicas, sin poner en peligro a nadie.",
@@ -9366,7 +21635,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 668,
+"id": 1222,
 "enunciado": "El 'titular' de un vehículo es:",
 "opciones": [
 "La persona a cuyo nombre figura el vehículo en el Registro de la DGT.",
@@ -9380,7 +21649,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 669,
+"id": 1223,
 "enunciado": "Un 'paso para peatones' es:",
 "opciones": [
 "La parte de la calzada, debidamente señalizada, por donde deben cruzar los peatones.",
@@ -9394,7 +21663,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 670,
+"id": 1224,
 "enunciado": "Un 'vehículo para personas de movilidad reducida' es:",
 "opciones": [
 "Un vehículo pequeño, con velocidad limitada, concebido para personas con problemas de movilidad.",
@@ -9408,7 +21677,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 671,
+"id": 1225,
 "enunciado": "El concepto de 'poblado' (o zona urbana) es relevante porque:",
 "opciones": [
 "Dentro de él la vía se considera urbana y cambian los límites de velocidad y otras normas.",
@@ -9422,7 +21691,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 672,
+"id": 1226,
 "enunciado": "Una 'cuneta' es:",
 "opciones": [
 "La zanja a un lado de la calzada destinada a recoger y evacuar el agua.",
@@ -9436,7 +21705,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 673,
+"id": 1227,
 "enunciado": "El 'permiso de circulación' de un vehículo es el documento que:",
 "opciones": [
 "Acredita la autorización para que el vehículo circule y a nombre de quién está.",
@@ -9450,7 +21719,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 674,
+"id": 1228,
 "enunciado": "Un 'remolque' se diferencia de un semirremolque en que el remolque:",
 "opciones": [
 "Se apoya sobre sus propios ejes y no descarga peso sobre el vehículo tractor.",
@@ -9464,7 +21733,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 675,
+"id": 1229,
 "enunciado": "La 'calzada' de una autopista o autovía con dos calzadas separadas:",
 "opciones": [
 "Cada sentido de circulación tiene su propia calzada separada por una mediana.",
@@ -9478,7 +21747,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 676,
+"id": 1230,
 "enunciado": "Un 'ciclo de motor' o 'bicicleta con pedaleo asistido' se considera bicicleta si:",
 "opciones": [
 "El motor deja de asistir al alcanzar los 25 km/h y no supera cierta potencia.",
@@ -9492,7 +21761,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 677,
+"id": 1231,
 "enunciado": "Una 'zona de gran afluencia' o zona escolar señalizada implica:",
 "opciones": [
 "Extremar la precaución y, en su caso, respetar una velocidad reducida por la presencia de peatones.",
@@ -9506,7 +21775,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 678,
+"id": 1232,
 "enunciado": "Un 'punto kilométrico' (hito) sirve para:",
 "opciones": [
 "Indicar el kilómetro de la vía en que nos encontramos, útil para localizarnos.",
@@ -9520,7 +21789,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 679,
+"id": 1233,
 "enunciado": "La 'explanación' de una carretera es:",
 "opciones": [
 "La superficie de terreno preparada sobre la que se asienta la vía.",
@@ -9534,7 +21803,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 680,
+"id": 1234,
 "enunciado": "Un 'vehículo agrícola especial' (tractor, cosechadora) se caracteriza por:",
 "opciones": [
 "Estar concebido para labores agrícolas y circular a velocidad reducida.",
@@ -9548,7 +21817,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 681,
+"id": 1235,
 "enunciado": "Una 'vía ciclista' es:",
 "opciones": [
 "Una vía específicamente acondicionada y señalizada para la circulación de ciclos.",
@@ -9562,7 +21831,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 682,
+"id": 1236,
 "enunciado": "Un remolque se considera 'ligero' cuando su masa máxima autorizada no supera:",
 "opciones": [
 "750 kg.",
@@ -9576,7 +21845,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 683,
+"id": 1237,
 "enunciado": "Un cuadriciclo ligero tiene una masa en vacío (sin baterías, si es eléctrico) que no supera:",
 "opciones": [
 "425 kg.",
@@ -9590,7 +21859,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 684,
+"id": 1238,
 "enunciado": "La capacidad máxima de un turismo, incluido el conductor, es de:",
 "opciones": [
 "9 plazas.",
@@ -9604,7 +21873,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 685,
+"id": 1239,
 "enunciado": "La velocidad máxima a la que puede estar diseñado un vehículo de movilidad personal (VMP) es:",
 "opciones": [
 "25 km/h.",
@@ -9618,7 +21887,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 686,
+"id": 1240,
 "enunciado": "Para que un vehículo de mercancías sea un 'camión' y no una furgoneta, su MMA debe superar:",
 "opciones": [
 "3.500 kg.",
@@ -9632,7 +21901,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 687,
+"id": 1241,
 "enunciado": "La diferencia esencial entre una autopista y una autovía es que la autopista:",
 "opciones": [
 "No admite accesos a las propiedades colindantes ni cruces a nivel.",
@@ -9646,7 +21915,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 688,
+"id": 1242,
 "enunciado": "Un vehículo de movilidad personal (VMP) tiene prohibido circular por:",
 "opciones": [
 "Aceras, zonas peatonales, autopistas, autovías y travesías.",
@@ -9660,7 +21929,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 689,
+"id": 1243,
 "enunciado": "La 'masa máxima autorizada' (MMA) de un vehículo:",
 "opciones": [
 "Es fijada por la Administración para su circulación y no puede superar la masa máxima técnicamente admisible.",
@@ -9674,7 +21943,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 690,
+"id": 1244,
 "enunciado": "Un 'vehículo articulado' está compuesto por:",
 "opciones": [
 "Un automóvil (cabeza tractora) y un semirremolque.",
@@ -9688,7 +21957,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 691,
+"id": 1245,
 "enunciado": "El permiso B autoriza a arrastrar un remolque cuya MMA no supere, con carácter general:",
 "opciones": [
 "750 kg (o más si el conjunto no supera 3.500 kg de MMA).",
@@ -9702,7 +21971,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 692,
+"id": 1246,
 "enunciado": "Una 'travesía' se distingue de una vía urbana normal en que:",
 "opciones": [
 "Es el tramo de una carretera que discurre por poblado, sin tener la condición de vía urbana.",
@@ -9716,7 +21985,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 693,
+"id": 1247,
 "enunciado": "La cilindrada máxima de un ciclomotor de motor de combustión es de:",
 "opciones": [
 "50 cc.",
@@ -9730,7 +21999,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 694,
+"id": 1248,
 "enunciado": "La potencia máxima de un cuadriciclo ligero es de:",
 "opciones": [
 "4 kW.",
@@ -9744,7 +22013,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 695,
+"id": 1249,
 "enunciado": "Un ciclomotor es un vehículo de dos o tres ruedas cuya velocidad máxima por construcción no supera los...",
 "opciones": [
 "45 km/h y con cilindrada no superior a 50 cc.",
@@ -9758,7 +22027,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 696,
+"id": 1250,
 "enunciado": "El remolque ligero es aquel cuya masa máxima autorizada no excede de...",
 "opciones": [
 "750 kg.",
@@ -9772,7 +22041,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 697,
+"id": 1251,
 "enunciado": "El autobús es el automóvil concebido para el transporte de personas con capacidad de...",
 "opciones": [
 "más de 9 plazas, incluido el conductor.",
@@ -9786,7 +22055,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 698,
+"id": 1252,
 "enunciado": "La masa en orden de marcha se obtiene sumando a la tara del vehículo...",
 "opciones": [
 "la masa del conductor, valorada en 75 kg.",
@@ -9800,7 +22069,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 699,
+"id": 1253,
 "enunciado": "Un vehículo de movilidad personal (VMP) está diseñado para alcanzar una velocidad máxima comprendida entre...",
 "opciones": [
 "6 y 25 km/h.",
@@ -9814,7 +22083,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 700,
+"id": 1254,
 "enunciado": "El vehículo articulado se compone de un automóvil y...",
 "opciones": [
 "un semirremolque que apoya parte de su masa sobre el tractor.",
@@ -9828,7 +22097,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 701,
+"id": 1255,
 "enunciado": "La autopista se diferencia de la autovía en que, entre otros requisitos, la autopista...",
 "opciones": [
 "no da acceso a las propiedades colindantes.",
@@ -9842,7 +22111,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 702,
+"id": 1256,
 "enunciado": "El cuadriciclo ligero tiene una potencia máxima de 4 kW y una masa en vacío que no supera...",
 "opciones": [
 "425 kg.",
@@ -9856,7 +22125,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 703,
+"id": 1257,
 "enunciado": "Una vía interurbana es toda aquella que...",
 "opciones": [
 "discurre fuera de poblado.",
@@ -9870,7 +22139,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 704,
+"id": 1258,
 "enunciado": "La parada se diferencia del estacionamiento en que la parada no excede de...",
 "opciones": [
 "2 minutos y el conductor no se aleja del vehículo.",
@@ -9884,7 +22153,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 705,
+"id": 1259,
 "enunciado": "El permiso B permite arrastrar un remolque cuando la MMA del conjunto (vehículo + remolque) no supera...",
 "opciones": [
 "3.500 kg.",
@@ -9898,7 +22167,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 706,
+"id": 1260,
 "enunciado": "La bicicleta de pedaleo asistido conserva la consideración de ciclo si el motor deja de asistir cuando se alcanzan los...",
 "opciones": [
 "25 km/h.",
@@ -9912,7 +22181,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 707,
+"id": 1261,
 "enunciado": "La Dirección Electrónica Vial (DEV) sirve para:",
 "opciones": [
 "Recibir de forma electrónica las notificaciones de tráfico (multas, avisos).",
@@ -9926,7 +22195,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 708,
+"id": 1262,
 "enunciado": "El 'parte amistoso de accidente' es:",
 "opciones": [
 "Una declaración conjunta de los implicados para tramitar el siniestro con las aseguradoras.",
@@ -9940,7 +22209,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 709,
+"id": 1263,
 "enunciado": "La 'carta verde' del seguro:",
 "opciones": [
 "Acredita que el seguro tiene cobertura para circular por determinados países extranjeros.",
@@ -9954,7 +22223,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 710,
+"id": 1264,
 "enunciado": "El Impuesto de Vehículos de Tracción Mecánica (IVTM) es:",
 "opciones": [
 "Un impuesto municipal anual que se paga por tener el vehículo.",
@@ -9968,7 +22237,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 711,
+"id": 1265,
 "enunciado": "El distintivo ambiental 'ECO' corresponde, en general, a:",
 "opciones": [
 "Vehículos híbridos o de gas que cumplen ciertos requisitos, con prestaciones intermedias.",
@@ -9982,7 +22251,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 712,
+"id": 1266,
 "enunciado": "Los vehículos más antiguos y contaminantes, respecto al distintivo ambiental:",
 "opciones": [
 "No reciben etiqueta y suelen tener más restricciones en las Zonas de Bajas Emisiones.",
@@ -9996,7 +22265,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 713,
+"id": 1267,
 "enunciado": "El permiso de la clase A1 habilita para conducir:",
 "opciones": [
 "Motocicletas de hasta 125 cc y 11 kW, a partir de los 16 años.",
@@ -10010,7 +22279,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 714,
+"id": 1268,
 "enunciado": "El permiso de la clase A2 habilita para conducir:",
 "opciones": [
 "Motocicletas de hasta 35 kW, a partir de los 18 años.",
@@ -10024,7 +22293,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 715,
+"id": 1269,
 "enunciado": "El código 96 (o el permiso B+E) sirve para:",
 "opciones": [
 "Poder arrastrar remolques más pesados de lo que permite el permiso B ordinario.",
@@ -10038,7 +22307,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 716,
+"id": 1270,
 "enunciado": "Un permiso de conducción expedido en otro país de la Unión Europea, en España:",
 "opciones": [
 "Es válido para conducir, sin necesidad de canjearlo.",
@@ -10052,7 +22321,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 717,
+"id": 1271,
 "enunciado": "El permiso internacional de conducción:",
 "opciones": [
 "Es un documento que acompaña al permiso nacional para conducir en ciertos países fuera de la UE.",
@@ -10066,7 +22335,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 718,
+"id": 1272,
 "enunciado": "La 'baja temporal' de un vehículo permite:",
 "opciones": [
 "Que el vehículo deje de circular durante un tiempo sin darlo de baja definitiva.",
@@ -10080,7 +22349,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 719,
+"id": 1273,
 "enunciado": "Si la ITV resulta 'desfavorable' por un defecto grave, el vehículo:",
 "opciones": [
 "Solo puede circular para ir a repararlo y volver a pasar la inspección.",
@@ -10094,7 +22363,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 720,
+"id": 1274,
 "enunciado": "Si la ITV resulta 'negativa' por un defecto muy grave, el vehículo:",
 "opciones": [
 "No puede circular por sus propios medios (debe retirarse en grúa).",
@@ -10108,7 +22377,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 721,
+"id": 1275,
 "enunciado": "La inspección técnica (ITV) de las motocicletas se realiza, con carácter general:",
 "opciones": [
 "A partir de los 4 años de antigüedad, cada 2 años.",
@@ -10122,7 +22391,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 722,
+"id": 1276,
 "enunciado": "La ITV debe realizarse en:",
 "opciones": [
 "Estaciones de inspección técnica autorizadas.",
@@ -10136,7 +22405,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 723,
+"id": 1277,
 "enunciado": "El adhesivo (pegatina) de la ITV en el parabrisas indica:",
 "opciones": [
 "El mes y el año en que caduca la inspección y hay que volver a pasarla.",
@@ -10150,7 +22419,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 724,
+"id": 1278,
 "enunciado": "Una placa de matrícula temporal (verde) se utiliza:",
 "opciones": [
 "Para traslados o pruebas de vehículos aún sin matrícula definitiva.",
@@ -10164,7 +22433,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 725,
+"id": 1279,
 "enunciado": "Cuando un conductor comete una infracción GRAVE de las que restan puntos, puede perder:",
 "opciones": [
 "Entre 2 y 6 puntos según la infracción concreta.",
@@ -10178,7 +22447,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 726,
+"id": 1280,
 "enunciado": "Los cursos de sensibilización y reeducación vial sirven para:",
 "opciones": [
 "Recuperar parte de los puntos o poder volver a conducir tras perderlos todos.",
@@ -10192,7 +22461,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 727,
+"id": 1281,
 "enunciado": "Si un conductor pierde TODOS sus puntos:",
 "opciones": [
 "No puede conducir y, para reobtener el permiso, debe hacer un curso y superar una prueba.",
@@ -10206,7 +22475,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 728,
+"id": 1282,
 "enunciado": "El conductor novel tiene condiciones especiales durante:",
 "opciones": [
 "Los 2 primeros años desde que obtiene el permiso.",
@@ -10220,7 +22489,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 729,
+"id": 1283,
 "enunciado": "El plazo general para presentar alegaciones frente a una multa de tráfico es de:",
 "opciones": [
 "20 días naturales desde la notificación.",
@@ -10234,7 +22503,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 730,
+"id": 1284,
 "enunciado": "Una sanción económica de tráfico GRAVE puede ascender, con carácter general, hasta:",
 "opciones": [
 "200 €.",
@@ -10248,7 +22517,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 731,
+"id": 1285,
 "enunciado": "La franquicia de un seguro es:",
 "opciones": [
 "La cantidad de cada siniestro que asume el propio asegurado antes de que pague la compañía.",
@@ -10262,7 +22531,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 732,
+"id": 1286,
 "enunciado": "El seguro obligatorio de automóviles NO cubre:",
 "opciones": [
 "Los daños propios del conductor causante del accidente.",
@@ -10276,7 +22545,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 733,
+"id": 1287,
 "enunciado": "Antes de comprar un vehículo de segunda mano conviene:",
 "opciones": [
 "Comprobar en un informe de la DGT sus cargas, ITV y posibles deudas o embargos.",
@@ -10290,7 +22559,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 734,
+"id": 1288,
 "enunciado": "El permiso de CONDUCCIÓN y el permiso de CIRCULACIÓN se diferencian en que:",
 "opciones": [
 "El de conducción acredita la aptitud de la persona; el de circulación autoriza a circular al vehículo.",
@@ -10304,7 +22573,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 735,
+"id": 1289,
 "enunciado": "El número de bastidor de un vehículo:",
 "opciones": [
 "Es un identificador único grabado que sirve para identificar el vehículo.",
@@ -10318,7 +22587,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 736,
+"id": 1290,
 "enunciado": "Para poder circular, todo vehículo a motor debe llevar, como mínimo:",
 "opciones": [
 "El seguro obligatorio en vigor y la ITV al día cuando le corresponda.",
@@ -10332,7 +22601,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 737,
+"id": 1291,
 "enunciado": "Si vas a circular por una Zona de Bajas Emisiones (ZBE) con un vehículo sin distintivo ambiental:",
 "opciones": [
 "Puede estar restringido o prohibido según la ordenanza municipal de esa ciudad.",
@@ -10346,7 +22615,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 738,
+"id": 1292,
 "enunciado": "El 'seguro a todo riesgo' se caracteriza porque:",
 "opciones": [
 "Además de los daños a terceros, cubre los daños propios del vehículo asegurado.",
@@ -10360,7 +22629,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 739,
+"id": 1293,
 "enunciado": "El permiso de conducción digital de la app miDGT:",
 "opciones": [
 "Tiene validez para identificarte ante los agentes dentro de España.",
@@ -10374,7 +22643,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 740,
+"id": 1294,
 "enunciado": "Cuando cambias de domicilio, respecto a tu vehículo y permiso debes:",
 "opciones": [
 "Comunicar el cambio a la DGT para mantener actualizados tus datos.",
@@ -10388,7 +22657,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 741,
+"id": 1295,
 "enunciado": "El impuesto de matriculación de un vehículo:",
 "opciones": [
 "Es un tributo que puede pagarse al matricular según las emisiones de CO₂ del vehículo.",
@@ -10402,7 +22671,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 742,
+"id": 1296,
 "enunciado": "El titular que no desea recibir notificaciones en papel puede:",
 "opciones": [
 "Suscribirse a la Dirección Electrónica Vial (DEV) para recibirlas electrónicamente.",
@@ -10416,7 +22685,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 743,
+"id": 1297,
 "enunciado": "Para transferir un vehículo al comprarlo de segunda mano, se debe:",
 "opciones": [
 "Tramitar el cambio de titularidad en la DGT y pagar la tasa e impuestos correspondientes.",
@@ -10430,7 +22699,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 744,
+"id": 1298,
 "enunciado": "El Certificado de Aptitud Profesional (CAP) es necesario para:",
 "opciones": [
 "Los conductores profesionales de transporte de mercancías o de viajeros por carretera.",
@@ -10444,7 +22713,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 745,
+"id": 1299,
 "enunciado": "Un vehículo dado de BAJA DEFINITIVA (entregado al desguace):",
 "opciones": [
 "No puede volver a circular ni matricularse de nuevo.",
@@ -10458,7 +22727,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 746,
+"id": 1300,
 "enunciado": "El duplicado del permiso de circulación se solicita cuando:",
 "opciones": [
 "El documento se ha deteriorado, perdido o ha sido sustraído.",
@@ -10472,7 +22741,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 747,
+"id": 1301,
 "enunciado": "Un conductor que obtiene el permiso por primera vez (novel) parte con un saldo de puntos de:",
 "opciones": [
 "8 puntos.",
@@ -10486,7 +22755,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 748,
+"id": 1302,
 "enunciado": "El saldo máximo de puntos que puede llegar a tener un conductor sin sanciones es:",
 "opciones": [
 "15 puntos.",
@@ -10500,7 +22769,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 749,
+"id": 1303,
 "enunciado": "Un turismo particular pasa su PRIMERA ITV y, entre los 4 y los 10 años, la repite:",
 "opciones": [
 "A los 4 años y, de 4 a 10 años, cada 2 años.",
@@ -10514,7 +22783,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 750,
+"id": 1304,
 "enunciado": "Usar el teléfono móvil sosteniéndolo en la mano mientras se conduce supone la pérdida de:",
 "opciones": [
 "6 puntos.",
@@ -10528,7 +22797,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 751,
+"id": 1305,
 "enunciado": "No utilizar el cinturón de seguridad, el casco o el sistema de retención infantil supone la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -10542,7 +22811,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 752,
+"id": 1306,
 "enunciado": "Mediante un curso de recuperación, un conductor puede recuperar como máximo:",
 "opciones": [
 "6 puntos (una vez cada 2 años; los profesionales, una vez al año).",
@@ -10556,7 +22825,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 753,
+"id": 1307,
 "enunciado": "Para recuperar el saldo total de puntos sin hacer curso, hay que estar sin ser sancionado:",
 "opciones": [
 "2 años (si la última fue grave) o 3 años (si fue muy grave).",
@@ -10570,7 +22839,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 754,
+"id": 1308,
 "enunciado": "El permiso B, mediante el código 96, permite conducir conjuntos (vehículo + remolque) cuya MMA total esté entre:",
 "opciones": [
 "3.500 y 4.250 kg.",
@@ -10584,7 +22853,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 755,
+"id": 1309,
 "enunciado": "Una infracción muy grave de tráfico puede suponer una multa de hasta:",
 "opciones": [
 "500 € y la detracción de hasta 6 puntos.",
@@ -10598,7 +22867,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 756,
+"id": 1310,
 "enunciado": "El permiso A2 (motos de hasta 35 kW) se puede obtener a partir de los:",
 "opciones": [
 "18 años.",
@@ -10612,7 +22881,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 757,
+"id": 1311,
 "enunciado": "Pagar una multa dentro del periodo de pago con reducción (pronto pago) supone, normalmente:",
 "opciones": [
 "Una reducción del 50 % del importe, renunciando a alegar.",
@@ -10626,7 +22895,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 758,
+"id": 1312,
 "enunciado": "Un turismo particular con más de 10 años de antigüedad debe pasar la ITV:",
 "opciones": [
 "Todos los años.",
@@ -10640,7 +22909,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 759,
+"id": 1313,
 "enunciado": "Un turismo particular pasa su primera inspección técnica (ITV) a los...",
 "opciones": [
 "4 años de su matriculación.",
@@ -10654,7 +22923,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 760,
+"id": 1314,
 "enunciado": "El conductor novel parte con un saldo de...",
 "opciones": [
 "8 puntos.",
@@ -10668,7 +22937,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 761,
+"id": 1315,
 "enunciado": "Con carácter general, el permiso B se renueva, para menores de 65 años, cada...",
 "opciones": [
 "10 años.",
@@ -10682,7 +22951,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 762,
+"id": 1316,
 "enunciado": "Con carácter general, el permiso B para conductores de 65 años o más se renueva cada...",
 "opciones": [
 "5 años.",
@@ -10696,7 +22965,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 763,
+"id": 1317,
 "enunciado": "Sujetar el teléfono móvil con la mano mientras se conduce resta...",
 "opciones": [
 "6 puntos.",
@@ -10710,7 +22979,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 764,
+"id": 1318,
 "enunciado": "No usar el cinturón de seguridad, el casco o el sistema de retención infantil resta...",
 "opciones": [
 "4 puntos.",
@@ -10724,7 +22993,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 765,
+"id": 1319,
 "enunciado": "La edad mínima para obtener el permiso B es de...",
 "opciones": [
 "18 años.",
@@ -10738,7 +23007,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 766,
+"id": 1320,
 "enunciado": "Con el permiso B, sin autorización adicional, se puede arrastrar un remolque cuya MMA no supere...",
 "opciones": [
 "750 kg.",
@@ -10752,7 +23021,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 767,
+"id": 1321,
 "enunciado": "El saldo máximo de puntos que puede alcanzar un conductor es de...",
 "opciones": [
 "15 puntos.",
@@ -10766,7 +23035,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 768,
+"id": 1322,
 "enunciado": "Mediante un curso, un conductor puede recuperar como máximo...",
 "opciones": [
 "6 puntos.",
@@ -10780,7 +23049,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 769,
+"id": 1323,
 "enunciado": "El plazo general para alegar frente a una multa es de...",
 "opciones": [
 "20 días naturales.",
@@ -10794,7 +23063,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 770,
+"id": 1324,
 "enunciado": "Entre los 4 y los 10 años de antigüedad, un turismo particular pasa la ITV...",
 "opciones": [
 "cada 2 años.",
@@ -10808,7 +23077,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 771,
+"id": 1325,
 "enunciado": "El alcohol, respecto al sistema nervioso central, actúa como una sustancia:",
 "opciones": [
 "Estimulante que mejora los reflejos.",
@@ -10822,7 +23091,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 772,
+"id": 1326,
 "enunciado": "Una de las consecuencias del alcohol sobre la visión al conducir es:",
 "opciones": [
 "Que amplía el campo visual del conductor.",
@@ -10836,7 +23105,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 773,
+"id": 1327,
 "enunciado": "Tras beber alcohol, el tiempo de reacción del conductor:",
 "opciones": [
 "Aumenta, por lo que tarda más en responder ante un peligro.",
@@ -10850,7 +23119,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 774,
+"id": 1328,
 "enunciado": "El alcohol suele producir en el conductor una:",
 "opciones": [
 "Percepción realista y prudente del riesgo.",
@@ -10864,7 +23133,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 775,
+"id": 1329,
 "enunciado": "¿Cuál es la única forma real de eliminar el alcohol del organismo?",
 "opciones": [
 "Beber café cargado.",
@@ -10878,7 +23147,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 776,
+"id": 1330,
 "enunciado": "Tomar un café bien cargado después de beber alcohol:",
 "opciones": [
 "Elimina el alcohol de la sangre de inmediato.",
@@ -10892,7 +23161,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 777,
+"id": 1331,
 "enunciado": "Si se bebe alcohol con el estómago vacío (en ayunas):",
 "opciones": [
 "Se absorbe más lentamente que con el estómago lleno.",
@@ -10906,7 +23175,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 778,
+"id": 1332,
 "enunciado": "La prueba que se utiliza habitualmente para detectar drogas en un control de tráfico es:",
 "opciones": [
 "Una prueba de saliva (test salival).",
@@ -10920,7 +23189,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 779,
+"id": 1333,
 "enunciado": "Negarse a someterse a las pruebas de detección de alcohol o drogas:",
 "opciones": [
 "No tiene consecuencias si el conductor lo pide por escrito.",
@@ -10934,7 +23203,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 780,
+"id": 1334,
 "enunciado": "Antes de tomar un medicamento y ponerse al volante conviene:",
 "opciones": [
 "Consultar el prospecto y fijarse en el pictograma de conducción.",
@@ -10948,7 +23217,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 781,
+"id": 1335,
 "enunciado": "Algunos medicamentos, como ciertos antihistamínicos o ansiolíticos, pueden producir:",
 "opciones": [
 "Somnolencia y disminución de los reflejos.",
@@ -10962,7 +23231,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 782,
+"id": 1336,
 "enunciado": "El pictograma que advierte de que un medicamento puede afectar a la conducción es:",
 "opciones": [
 "Un triángulo rojo con un coche negro.",
@@ -10976,7 +23245,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 783,
+"id": 1337,
 "enunciado": "Mezclar alcohol con determinados fármacos:",
 "opciones": [
 "Neutraliza los efectos de ambos.",
@@ -10990,7 +23259,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 784,
+"id": 1338,
 "enunciado": "La fatiga y la falta de sueño al conducir pueden provocar:",
 "opciones": [
 "Microsueños, pérdidas breves de conciencia de pocos segundos.",
@@ -11004,7 +23273,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 785,
+"id": 1339,
 "enunciado": "En un viaje largo, para prevenir la fatiga se recomienda descansar:",
 "opciones": [
 "Solo al llegar al destino.",
@@ -11018,7 +23287,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 786,
+"id": 1340,
 "enunciado": "Si mientras conduces notas los primeros síntomas de sueño (parpadeo, bostezos), lo correcto es:",
 "opciones": [
 "Detenerte en un lugar seguro y descansar.",
@@ -11032,7 +23301,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 787,
+"id": 1341,
 "enunciado": "El alcohol afecta a la coordinación de movimientos, lo que dificulta:",
 "opciones": [
 "Maniobras precisas como frenar, girar el volante o cambiar de marcha.",
@@ -11046,7 +23315,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 788,
+"id": 1342,
 "enunciado": "Aunque un conductor se sienta capaz tras beber una copa, el alcohol:",
 "opciones": [
 "No produce ningún efecto en dosis bajas.",
@@ -11060,7 +23329,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 789,
+"id": 1343,
 "enunciado": "El alcoholímetro utilizado por los agentes en un control mide la tasa de alcohol en:",
 "opciones": [
 "El aire espirado.",
@@ -11074,7 +23343,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 790,
+"id": 1344,
 "enunciado": "Si en un control te realizan una primera prueba de alcoholemia positiva, tienes derecho a:",
 "opciones": [
 "Marcharte sin más trámites.",
@@ -11088,7 +23357,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 791,
+"id": 1345,
 "enunciado": "Los efectos del alcohol sobre la conducción aparecen:",
 "opciones": [
 "Solo cuando el conductor está visiblemente borracho.",
@@ -11102,7 +23371,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 792,
+"id": 1346,
 "enunciado": "La cantidad de alcohol que llega a la sangre depende, entre otros factores, de:",
 "opciones": [
 "El peso, el sexo, la comida ingerida y la rapidez con que se bebe.",
@@ -11116,7 +23385,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 793,
+"id": 1347,
 "enunciado": "Los conductores profesionales (camiones, autobuses, taxis) tienen una tasa de alcohol permitida:",
 "opciones": [
 "Más alta que la del resto de conductores.",
@@ -11130,7 +23399,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 794,
+"id": 1348,
 "enunciado": "Un conductor novel se considera aquel que:",
 "opciones": [
 "Lleva menos de dos años con el permiso de conducir.",
@@ -11144,7 +23413,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 795,
+"id": 1349,
 "enunciado": "El consumo de drogas estimulantes (cocaína, anfetaminas) al volante:",
 "opciones": [
 "Hace conducir de forma más segura.",
@@ -11158,7 +23427,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 796,
+"id": 1350,
 "enunciado": "El cannabis (marihuana, hachís) al conducir produce, entre otros efectos:",
 "opciones": [
 "Mayor rapidez de reacción.",
@@ -11172,7 +23441,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 797,
+"id": 1351,
 "enunciado": "Ventilar el habitáculo y bajar la ventanilla durante un viaje largo sirve para:",
 "opciones": [
 "Eliminar el alcohol de la sangre.",
@@ -11186,7 +23455,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 798,
+"id": 1352,
 "enunciado": "Una cena copiosa y pesada antes de conducir puede:",
 "opciones": [
 "Aumentar la somnolencia y la sensación de fatiga.",
@@ -11200,7 +23469,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 799,
+"id": 1353,
 "enunciado": "Si un conductor toma un medicamento por prescripción médica que puede afectar a la conducción, debe:",
 "opciones": [
 "Ignorar la advertencia porque es un fármaco recetado.",
@@ -11214,7 +23483,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 800,
+"id": 1354,
 "enunciado": "El alcohol, sobre la capacidad de atención del conductor:",
 "opciones": [
 "La aumenta y ayuda a concentrarse.",
@@ -11228,7 +23497,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 801,
+"id": 1355,
 "enunciado": "Conducir con resaca al día siguiente de haber bebido:",
 "opciones": [
 "Es seguro porque la tasa ya es cero.",
@@ -11242,7 +23511,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 802,
+"id": 1356,
 "enunciado": "Los agentes de tráfico pueden realizar pruebas de alcoholemia:",
 "opciones": [
 "Solo tras un accidente grave.",
@@ -11256,7 +23525,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 803,
+"id": 1357,
 "enunciado": "La graduación de una bebida indica:",
 "opciones": [
 "El porcentaje de alcohol que contiene.",
@@ -11270,7 +23539,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 804,
+"id": 1358,
 "enunciado": "El plan más seguro si se va a beber alcohol en una celebración es:",
 "opciones": [
 "Beber poco y esperar media hora antes de conducir.",
@@ -11284,7 +23553,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 805,
+"id": 1359,
 "enunciado": "El alcohol influye especialmente de forma negativa en la conducción:",
 "opciones": [
 "Nocturna, porque se suma a la peor visibilidad y a la fatiga.",
@@ -11298,7 +23567,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 806,
+"id": 1360,
 "enunciado": "Respecto a los efectos del alcohol, es correcto afirmar que:",
 "opciones": [
 "Afectan a todas las personas exactamente igual.",
@@ -11312,7 +23581,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 807,
+"id": 1361,
 "enunciado": "El sueño al volante es peligroso porque:",
 "opciones": [
 "Aparece siempre con mucho aviso previo.",
@@ -11326,7 +23595,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 808,
+"id": 1362,
 "enunciado": "La mejor medida frente al sueño en un viaje largo es:",
 "opciones": [
 "Dormir lo suficiente antes de salir y planificar paradas.",
@@ -11340,7 +23609,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 809,
+"id": 1363,
 "enunciado": "Si un pasajero se niega a que el conductor beba y coja el coche, lo más sensato es:",
 "opciones": [
 "Insistir en conducir para demostrar que se controla.",
@@ -11354,7 +23623,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 810,
+"id": 1364,
 "enunciado": "El alcohol y las drogas están implicados en los accidentes de tráfico:",
 "opciones": [
 "En un porcentaje muy pequeño e irrelevante.",
@@ -11368,7 +23637,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 811,
+"id": 1365,
 "enunciado": "Una bebida 'sin alcohol' (0,0) para el conductor:",
 "opciones": [
 "Aporta la misma tasa que una cerveza normal.",
@@ -11382,7 +23651,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 812,
+"id": 1366,
 "enunciado": "El efecto de las drogas alucinógenas sobre la conducción incluye:",
 "opciones": [
 "Alteraciones de la percepción que impiden conducir con seguridad.",
@@ -11396,7 +23665,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 813,
+"id": 1367,
 "enunciado": "El deber de someterse a las pruebas de alcohol o drogas alcanza a:",
 "opciones": [
 "Solo al conductor implicado en un accidente.",
@@ -11410,7 +23679,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 814,
+"id": 1368,
 "enunciado": "Frente a la fatiga, las bebidas energéticas o estimulantes:",
 "opciones": [
 "Sustituyen por completo al descanso.",
@@ -11424,7 +23693,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 815,
+"id": 1369,
 "enunciado": "¿Cuál es la tasa máxima de alcohol en aire espirado para un conductor general con más de dos años de permiso?",
 "opciones": [
 "0,15 mg/l.",
@@ -11438,7 +23707,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 816,
+"id": 1370,
 "enunciado": "La tasa de alcohol en sangre que no pueden superar los conductores noveles y profesionales es:",
 "opciones": [
 "0,3 g/l.",
@@ -11452,7 +23721,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 817,
+"id": 1371,
 "enunciado": "A partir de qué tasa de alcohol en aire espirado conducir constituye siempre delito contra la seguridad vial (art. 379 CP):",
 "opciones": [
 "Más de 0,25 mg/l.",
@@ -11466,7 +23735,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 818,
+"id": 1372,
 "enunciado": "El límite penal de 0,60 mg/l en aire espirado equivale en sangre a:",
 "opciones": [
 "0,5 g/l.",
@@ -11480,7 +23749,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 819,
+"id": 1373,
 "enunciado": "Un conductor con una tasa de 0,30 mg/l en aire espirado (dentro del rango 0,25-0,50) pierde:",
 "opciones": [
 "2 puntos.",
@@ -11494,7 +23763,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 820,
+"id": 1374,
 "enunciado": "Un conductor con una tasa de 0,55 mg/l en aire espirado (superior a 0,50) pierde:",
 "opciones": [
 "4 puntos.",
@@ -11508,7 +23777,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 821,
+"id": 1375,
 "enunciado": "La detección de presencia de drogas en el organismo del conductor supone la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -11522,7 +23791,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 822,
+"id": 1376,
 "enunciado": "Para los conductores noveles y profesionales, la tasa máxima de alcohol en aire espirado es:",
 "opciones": [
 "0,15 mg/l.",
@@ -11536,7 +23805,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 823,
+"id": 1377,
 "enunciado": "El delito de conducir bajo influencia de bebidas alcohólicas o drogas se recoge en el Código Penal en el artículo:",
 "opciones": [
 "379.",
@@ -11550,7 +23819,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 824,
+"id": 1378,
 "enunciado": "La negativa a someterse a las pruebas de alcohol o drogas se castiga en el Código Penal en el artículo:",
 "opciones": [
 "379.",
@@ -11564,7 +23833,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 825,
+"id": 1379,
 "enunciado": "El límite penal de alcohol expresado en sangre, según el art. 379 CP, es superar:",
 "opciones": [
 "0,5 g/l.",
@@ -11578,7 +23847,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 826,
+"id": 1380,
 "enunciado": "La tasa reducida de los noveles se aplica durante:",
 "opciones": [
 "El primer año de permiso.",
@@ -11592,7 +23861,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 827,
+"id": 1381,
 "enunciado": "Un conductor general que da 0,45 mg/l en aire espirado:",
 "opciones": [
 "No supera la tasa administrativa general.",
@@ -11606,7 +23875,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 828,
+"id": 1382,
 "enunciado": "La tasa máxima general de alcohol en aire espirado para un conductor con más de dos años de permiso es de:",
 "opciones": [
 "0,25 mg/l.",
@@ -11620,7 +23889,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 829,
+"id": 1383,
 "enunciado": "La tasa reducida en aire espirado para conductores noveles y profesionales es de:",
 "opciones": [
 "0,15 mg/l.",
@@ -11634,7 +23903,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 830,
+"id": 1384,
 "enunciado": "Conducir con una tasa de alcohol en aire espirado superior a este valor constituye delito del art. 379 CP:",
 "opciones": [
 "0,50 mg/l.",
@@ -11648,7 +23917,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 831,
+"id": 1385,
 "enunciado": "El límite del delito de alcoholemia expresado en gramos de alcohol por litro de sangre es superar:",
 "opciones": [
 "1,0 g/l.",
@@ -11662,7 +23931,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 832,
+"id": 1386,
 "enunciado": "La tasa general de 0,25 mg/l en aire espirado equivale en sangre a:",
 "opciones": [
 "0,3 g/l.",
@@ -11676,7 +23945,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 833,
+"id": 1387,
 "enunciado": "La tasa reducida de 0,15 mg/l en aire espirado equivale en sangre a:",
 "opciones": [
 "0,3 g/l.",
@@ -11690,7 +23959,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 834,
+"id": 1388,
 "enunciado": "Una tasa en aire espirado dentro del rango 0,25-0,50 mg/l conlleva la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -11704,7 +23973,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 835,
+"id": 1389,
 "enunciado": "Una tasa en aire espirado superior a 0,50 mg/l conlleva la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -11718,7 +23987,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 836,
+"id": 1390,
 "enunciado": "Dar positivo por presencia de drogas en la prueba salival conlleva la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -11732,7 +24001,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 837,
+"id": 1391,
 "enunciado": "El artículo del Código Penal que castiga la NEGATIVA a someterse a las pruebas de alcohol o drogas es el:",
 "opciones": [
 "379.",
@@ -11746,7 +24015,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 838,
+"id": 1392,
 "enunciado": "El artículo del Código Penal que tipifica CONDUCIR bajo la influencia de alcohol o drogas es el:",
 "opciones": [
 "379.",
@@ -11760,7 +24029,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 839,
+"id": 1393,
 "enunciado": "La tasa reducida de alcohol se aplica a los conductores durante:",
 "opciones": [
 "Los dos primeros años de permiso.",
@@ -11774,7 +24043,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 840,
+"id": 1394,
 "enunciado": "Circulando por una autopista, ¿cuál es la velocidad máxima genérica de un turismo si ninguna señal indica otra cosa?",
 "opciones": [
 "100 km/h",
@@ -11788,7 +24057,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 841,
+"id": 1395,
 "enunciado": "En una autovía sin señalización específica de velocidad, una motocicleta puede circular como máximo a:",
 "opciones": [
 "120 km/h",
@@ -11802,7 +24071,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 842,
+"id": 1396,
 "enunciado": "Un turismo circula por una carretera convencional fuera de poblado. Sin otra indicación, su velocidad máxima es:",
 "opciones": [
 "90 km/h",
@@ -11816,7 +24085,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 843,
+"id": 1397,
 "enunciado": "¿A qué velocidad máxima debe circular un turismo en una vía urbana con dos carriles por sentido de circulación?",
 "opciones": [
 "30 km/h",
@@ -11830,7 +24099,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 844,
+"id": 1398,
 "enunciado": "En una calle urbana con un solo carril por sentido, ¿cuál es la velocidad máxima genérica?",
 "opciones": [
 "30 km/h",
@@ -11844,7 +24113,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 845,
+"id": 1399,
 "enunciado": "En una calle donde la acera y la calzada están al mismo nivel (plataforma única), la velocidad máxima es:",
 "opciones": [
 "20 km/h",
@@ -11858,7 +24127,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 846,
+"id": 1400,
 "enunciado": "La señal S-28 indica una zona residencial. En ella, la velocidad máxima permitida es:",
 "opciones": [
 "30 km/h",
@@ -11872,7 +24141,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 847,
+"id": 1401,
 "enunciado": "La velocidad mínima permitida en una vía es, con carácter general:",
 "opciones": [
 "La mitad de la velocidad máxima genérica de esa vía",
@@ -11886,7 +24155,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 848,
+"id": 1402,
 "enunciado": "Al adelantar a otro vehículo en una carretera convencional, respecto al límite de velocidad de la vía:",
 "opciones": [
 "Se puede superar en 20 km/h",
@@ -11900,7 +24169,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 849,
+"id": 1403,
 "enunciado": "La distancia de seguridad con el vehículo que circula delante debe ser:",
 "opciones": [
 "Siempre de 50 metros",
@@ -11914,7 +24183,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 850,
+"id": 1404,
 "enunciado": "Ante la presencia de peatones que van a cruzar la calzada, el conductor debe:",
 "opciones": [
 "Mantener la velocidad y tocar el claxon",
@@ -11928,7 +24197,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 851,
+"id": 1405,
 "enunciado": "Un ciclomotor tiene, por construcción, una velocidad máxima de:",
 "opciones": [
 "45 km/h",
@@ -11942,7 +24211,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 852,
+"id": 1406,
 "enunciado": "Un cuadriciclo ligero tiene como velocidad máxima:",
 "opciones": [
 "60 km/h",
@@ -11956,7 +24225,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 853,
+"id": 1407,
 "enunciado": "Cuando llueve intensamente, la distancia de seguridad respecto al vehículo de delante debe:",
 "opciones": [
 "Reducirse",
@@ -11970,7 +24239,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 854,
+"id": 1408,
 "enunciado": "Si un conductor circula anormalmente despacio sin causa justificada:",
 "opciones": [
 "No pasa nada, es más seguro ir despacio",
@@ -11984,7 +24253,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 855,
+"id": 1409,
 "enunciado": "Al aproximarse a una obra en la carretera, el conductor debe:",
 "opciones": [
 "Mantener la velocidad de crucero",
@@ -11998,7 +24267,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 856,
+"id": 1410,
 "enunciado": "Un autobús que circula por una autopista tiene como velocidad máxima genérica:",
 "opciones": [
 "120 km/h",
@@ -12012,7 +24281,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 857,
+"id": 1411,
 "enunciado": "Sobre pavimento deslizante o con firme en mal estado, el conductor debe:",
 "opciones": [
 "Aumentar la velocidad",
@@ -12026,7 +24295,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 858,
+"id": 1412,
 "enunciado": "La distancia de frenado de un vehículo aumenta con:",
 "opciones": [
 "El aumento de la velocidad",
@@ -12040,7 +24309,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 859,
+"id": 1413,
 "enunciado": "Al acercarse a un paso de peatones, aunque no haya nadie cruzando, el conductor debe:",
 "opciones": [
 "Moderar la velocidad para poder detenerse si aparece un peatón",
@@ -12054,7 +24323,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 860,
+"id": 1414,
 "enunciado": "Ante la presencia de animales cerca de la calzada, la conducta correcta es:",
 "opciones": [
 "Acelerar para alejarse cuanto antes",
@@ -12068,7 +24337,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 861,
+"id": 1415,
 "enunciado": "Cuando la visibilidad es escasa por niebla o humo, respecto a la velocidad el conductor debe:",
 "opciones": [
 "Moderarla",
@@ -12082,7 +24351,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 862,
+"id": 1416,
 "enunciado": "Un camión de más de 3.500 kg de MMA tiene en autopista una velocidad máxima genérica de:",
 "opciones": [
 "120 km/h",
@@ -12096,7 +24365,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 863,
+"id": 1417,
 "enunciado": "La energía cinética de un vehículo, y por tanto la gravedad de un impacto, depende sobre todo de:",
 "opciones": [
 "El color de la carrocería",
@@ -12110,7 +24379,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 864,
+"id": 1418,
 "enunciado": "Cuando una señal fija un límite de velocidad distinto al genérico de la vía, el conductor:",
 "opciones": [
 "Puede elegir el que prefiera",
@@ -12124,7 +24393,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 865,
+"id": 1419,
 "enunciado": "Al aproximarse a un centro escolar en horario de entrada o salida, el conductor debe:",
 "opciones": [
 "Extremar la precaución y moderar la velocidad",
@@ -12138,7 +24407,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 866,
+"id": 1420,
 "enunciado": "Circular a una velocidad adecuada a las condiciones de la vía permite principalmente:",
 "opciones": [
 "Consumir siempre más combustible",
@@ -12152,7 +24421,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 867,
+"id": 1421,
 "enunciado": "En autovía, ¿pueden un turismo y una motocicleta circular al mismo límite máximo genérico?",
 "opciones": [
 "Sí, ambos a 120 km/h",
@@ -12166,7 +24435,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 868,
+"id": 1422,
 "enunciado": "Reducir la velocidad ante un pavimento mojado es recomendable porque:",
 "opciones": [
 "El vehículo consume menos",
@@ -12180,7 +24449,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 869,
+"id": 1423,
 "enunciado": "Adaptar la velocidad significa, sobre todo, tener en cuenta:",
 "opciones": [
 "Solo el límite señalizado",
@@ -12194,7 +24463,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 870,
+"id": 1424,
 "enunciado": "En una vía urbana de plataforma única, la prioridad de la señalización de 20 km/h responde a que:",
 "opciones": [
 "Los peatones comparten el espacio con los vehículos",
@@ -12208,7 +24477,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 871,
+"id": 1425,
 "enunciado": "Ante un ciclista al que vamos a rebasar en una carretera estrecha, debemos:",
 "opciones": [
 "Moderar la velocidad y dejar al menos 1,5 m de separación lateral",
@@ -12222,7 +24491,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 872,
+"id": 1426,
 "enunciado": "Al circular por un tramo de vía con hielo, la conducta correcta respecto a la velocidad es:",
 "opciones": [
 "Aumentarla para no perder el control",
@@ -12236,7 +24505,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 873,
+"id": 1427,
 "enunciado": "Un vehículo circula despacio y molesta a los que van detrás en una carretera estrecha. Lo correcto es:",
 "opciones": [
 "Seguir a su ritmo sin más",
@@ -12250,7 +24519,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 874,
+"id": 1428,
 "enunciado": "La velocidad excesiva es una de las principales causas de accidente porque:",
 "opciones": [
 "Reduce el tiempo y el espacio disponibles para reaccionar",
@@ -12264,7 +24533,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 875,
+"id": 1429,
 "enunciado": "Al circular por un túnel, respecto a la velocidad conviene:",
 "opciones": [
 "Adaptarla y mantener la distancia de seguridad",
@@ -12278,7 +24547,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 876,
+"id": 1430,
 "enunciado": "Para un turismo, el límite genérico en carretera convencional coincide con el de:",
 "opciones": [
 "Una motocicleta en la misma vía (90 km/h)",
@@ -12292,7 +24561,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 877,
+"id": 1431,
 "enunciado": "En una zona con la señal de zona residencial (S-28), además de la velocidad, se debe tener en cuenta que:",
 "opciones": [
 "Los peatones tienen prioridad",
@@ -12306,7 +24575,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 878,
+"id": 1432,
 "enunciado": "Circular a una velocidad demasiado baja en una vía rápida puede:",
 "opciones": [
 "Ser tan peligroso como circular demasiado deprisa",
@@ -12320,7 +24589,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 879,
+"id": 1433,
 "enunciado": "Antes de entrar en una curva cerrada, lo correcto es:",
 "opciones": [
 "Frenar dentro de la curva",
@@ -12334,7 +24603,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 880,
+"id": 1434,
 "enunciado": "En una vía urbana, la velocidad genérica de 30 km/h se aplica a las vías que tienen:",
 "opciones": [
 "Un único carril por sentido de circulación",
@@ -12348,7 +24617,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 881,
+"id": 1435,
 "enunciado": "El conductor debe moderar especialmente la velocidad cuando circula:",
 "opciones": [
 "Por autopista con buen tiempo",
@@ -12362,7 +24631,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 882,
+"id": 1436,
 "enunciado": "Respetar el límite de velocidad y la distancia de seguridad contribuye principalmente a:",
 "opciones": [
 "Reducir el riesgo de accidente y sus consecuencias",
@@ -12376,7 +24645,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 883,
+"id": 1437,
 "enunciado": "En autovía, la velocidad máxima genérica de un autobús es de 100 km/h, mientras que la de un turismo es de:",
 "opciones": [
 "100 km/h",
@@ -12390,7 +24659,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 884,
+"id": 1438,
 "enunciado": "Si un turismo circula a 90 km/h por una carretera convencional, su velocidad mínima genérica sería:",
 "opciones": [
 "45 km/h",
@@ -12404,7 +24673,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 885,
+"id": 1439,
 "enunciado": "En autovía (máximo genérico 120 km/h para turismos), la velocidad mínima genérica es de:",
 "opciones": [
 "60 km/h",
@@ -12418,7 +24687,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 886,
+"id": 1440,
 "enunciado": "Si duplicamos la velocidad de un vehículo, la distancia de frenado aproximadamente:",
 "opciones": [
 "Se duplica",
@@ -12432,7 +24701,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 887,
+"id": 1441,
 "enunciado": "Un camión de más de 3.500 kg tiene en carretera convencional un límite genérico de:",
 "opciones": [
 "80 km/h",
@@ -12446,7 +24715,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 888,
+"id": 1442,
 "enunciado": "La velocidad máxima por construcción de un ciclomotor, según su definición legal, es de:",
 "opciones": [
 "45 km/h",
@@ -12460,7 +24729,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 889,
+"id": 1443,
 "enunciado": "Antes de la reforma de 2019, la velocidad máxima en algunas carreteras convencionales era de 100 km/h. Actualmente el máximo genérico es de:",
 "opciones": [
 "100 km/h",
@@ -12474,7 +24743,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 890,
+"id": 1444,
 "enunciado": "En una zona residencial señalizada con la S-28, la velocidad máxima es exactamente:",
 "opciones": [
 "20 km/h",
@@ -12488,7 +24757,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 891,
+"id": 1445,
 "enunciado": "Al triplicar la velocidad, la energía cinética del vehículo se multiplica aproximadamente por:",
 "opciones": [
 "3",
@@ -12502,7 +24771,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 892,
+"id": 1446,
 "enunciado": "Un turismo que arrastra un remolque ligero por carretera convencional ve su velocidad máxima reducida a:",
 "opciones": [
 "80 km/h",
@@ -12516,7 +24785,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 893,
+"id": 1447,
 "enunciado": "En una vía urbana de un único carril por sentido, la velocidad genérica es la mitad que en una autovía dividida entre dos. En concreto es:",
 "opciones": [
 "30 km/h",
@@ -12530,7 +24799,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 894,
+"id": 1448,
 "enunciado": "Un autobús circula por carretera convencional. Su velocidad máxima genérica es de:",
 "opciones": [
 "80 km/h",
@@ -12544,7 +24813,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 895,
+"id": 1449,
 "enunciado": "En autopista, un turismo puede circular a 120 km/h. En esa misma vía, el límite máximo genérico de un camión de más de 3.500 kg es de:",
 "opciones": [
 "90 km/h",
@@ -12558,7 +24827,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 896,
+"id": 1450,
 "enunciado": "En una autovía cuyo límite máximo genérico para turismos es de 120 km/h, ninguna señal indica otra cosa. La velocidad máxima permitida para un turismo es de:",
 "opciones": [
 "120 km/h",
@@ -12572,7 +24841,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 897,
+"id": 1451,
 "enunciado": "Para un turismo sin remolque, y salvo señalización, la velocidad máxima genérica en carretera convencional fuera de poblado es de:",
 "opciones": [
 "80 km/h",
@@ -12586,7 +24855,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 898,
+"id": 1452,
 "enunciado": "En una vía urbana con un único carril por sentido de circulación, la velocidad máxima genérica es de:",
 "opciones": [
 "20 km/h",
@@ -12600,7 +24869,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 899,
+"id": 1453,
 "enunciado": "En una vía urbana de plataforma única, con calzada y acera al mismo nivel, la velocidad máxima es de:",
 "opciones": [
 "20 km/h",
@@ -12614,7 +24883,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 900,
+"id": 1454,
 "enunciado": "Al adelantar en una carretera convencional cuyo límite es de 90 km/h, un turismo puede alcanzar como máximo:",
 "opciones": [
 "110 km/h",
@@ -12628,7 +24897,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 901,
+"id": 1455,
 "enunciado": "Si la velocidad máxima genérica de una vía es de 120 km/h, la velocidad mínima genérica en esa vía es de:",
 "opciones": [
 "50 km/h",
@@ -12642,7 +24911,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 902,
+"id": 1456,
 "enunciado": "La velocidad máxima por construcción de un ciclomotor o cuadriciclo ligero es de:",
 "opciones": [
 "40 km/h",
@@ -12656,7 +24925,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 903,
+"id": 1457,
 "enunciado": "Si un vehículo pasa de 50 a 100 km/h (dobla su velocidad), su distancia de frenado aproximadamente se multiplica por:",
 "opciones": [
 "2",
@@ -12670,7 +24939,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 904,
+"id": 1458,
 "enunciado": "Un turismo que arrastra un remolque circula por autovía. Su velocidad máxima genérica se ve reducida a:",
 "opciones": [
 "90 km/h",
@@ -12684,7 +24953,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 905,
+"id": 1459,
 "enunciado": "En una zona residencial señalizada con la S-28, la velocidad máxima permitida es de:",
 "opciones": [
 "30 km/h",
@@ -12698,7 +24967,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 906,
+"id": 1460,
 "enunciado": "En autovía o autopista, la velocidad máxima genérica de un autobús es de:",
 "opciones": [
 "100 km/h",
@@ -12712,7 +24981,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 907,
+"id": 1461,
 "enunciado": "Un camión de más de 3.500 kg de MMA circula por carretera convencional. Su velocidad máxima genérica es de:",
 "opciones": [
 "90 km/h",
@@ -12726,7 +24995,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 908,
+"id": 1462,
 "enunciado": "En un cruce sin semáforos, un agente de la autoridad te indica con el brazo extendido horizontalmente que te detengas, pero una señal vertical de la vía te da prioridad de paso. ¿Cómo debes actuar?",
 "opciones": [
 "Elegir libremente, porque tienen el mismo rango",
@@ -12740,7 +25009,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 909,
+"id": 1463,
 "enunciado": "Circulas por una calle donde un semáforo está en verde, pero unas balizas y conos naranjas de una obra desvían el tráfico hacia el carril contrario. ¿Qué prevalece?",
 "opciones": [
 "El semáforo en verde, porque la luz siempre manda sobre las obras",
@@ -12754,7 +25023,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 910,
+"id": 1464,
 "enunciado": "Encuentras una señal triangular con borde rojo que muestra una bocacalle incorporándose por la derecha. ¿Qué te está indicando exactamente?",
 "opciones": [
 "Que estás obligado a ceder el paso a los que salen de esa bocacalle",
@@ -12768,7 +25037,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 911,
+"id": 1465,
 "enunciado": "Ante un STOP, la calzada tiene pintada una línea transversal continua. Si por nieve esa línea no es visible, ¿qué debes hacer?",
 "opciones": [
 "Puedo pasar sin detenerme, porque sin la marca vial la obligación desaparece",
@@ -12782,7 +25051,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 912,
+"id": 1466,
 "enunciado": "En el centro de la calzada ves dos líneas longitudinales paralelas: una continua en tu lado y una discontinua en el lado contrario. ¿Qué significa para ti?",
 "opciones": [
 "Puedo rebasarla para adelantar, porque hay una discontinua",
@@ -12796,7 +25065,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 913,
+"id": 1467,
 "enunciado": "Ves una señal circular de fondo azul con la silueta blanca de una bicicleta y otra, también circular pero con borde rojo, con una bicicleta y una barra roja. ¿En qué se diferencian?",
 "opciones": [
 "La azul obliga a circular por la vía ciclista; la de borde rojo prohíbe la entrada a bicicletas",
@@ -12810,7 +25079,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 914,
+"id": 1468,
 "enunciado": "Una marca vial amarilla en zigzag pintada junto al bordillo, ¿qué te comunica?",
 "opciones": [
 "Que es una zona reservada para estacionar solo residentes",
@@ -12824,7 +25093,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 915,
+"id": 1469,
 "enunciado": "Debajo de una señal de peligro por curva ves un panel rectangular con la inscripción '500 m'. ¿Qué te indica ese panel complementario?",
 "opciones": [
 "La longitud del tramo peligroso, que dura 500 m",
@@ -12838,7 +25107,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 916,
+"id": 1470,
 "enunciado": "Llegas a una intersección con un semáforo apagado (sin ninguna luz encendida) y ves una señal de STOP en tu vía. ¿Qué haces?",
 "opciones": [
 "Paso con precaución sin detenerme, porque el semáforo apagado da prioridad",
@@ -12852,7 +25121,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 917,
+"id": 1471,
 "enunciado": "Distingue entre la señal de 'Ceda el paso' y la de 'STOP' en cuanto a la obligación de parar.",
 "opciones": [
 "Ambas obligan siempre a detener totalmente el vehículo",
@@ -12866,7 +25135,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 918,
+"id": 1472,
 "enunciado": "Ves una señal rectangular azul con una flecha blanca y, sobre otra vía distinta, una señal cuadrada blanca con flecha negra. ¿Qué diferencia hay en su naturaleza?",
 "opciones": [
 "La azul es de indicación de sentido/dirección; la blanca suele ser de orientación en itinerarios",
@@ -12880,7 +25149,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 919,
+"id": 1473,
 "enunciado": "Una señal cuadrada azul con una flecha blanca hacia arriba, ¿qué indica y en qué se diferencia de la circular azul con la misma flecha?",
 "opciones": [
 "La cuadrada indica una calle de sentido único; la circular obliga a seguir de frente",
@@ -12894,7 +25163,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 920,
+"id": 1474,
 "enunciado": "En un paso a nivel el semáforo muestra una luz roja intermitente y no hay barreras bajadas. ¿Qué te obliga a hacer?",
 "opciones": [
 "Pasar con precaución porque intermitente significa solo precaución",
@@ -12908,7 +25177,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 921,
+"id": 1475,
 "enunciado": "Hay una contradicción: una señal vertical prohíbe girar a la izquierda, pero en el suelo una flecha pintada (marca vial) indica giro a la izquierda. ¿Qué obedeces?",
 "opciones": [
 "La marca vial del suelo, porque está más cerca del vehículo",
@@ -12922,7 +25191,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 922,
+"id": 1476,
 "enunciado": "Circulas y ves una señal circular con fondo blanco, borde rojo y una cifra '40' en negro; poco después, una señal cuadrada azul con un '40' blanco. ¿Qué diferencia hay?",
 "opciones": [
 "La circular fija una velocidad máxima de 40; la cuadrada azul recomienda o indica una velocidad de 40",
@@ -12936,7 +25205,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 923,
+"id": 1477,
 "enunciado": "Una señal circular de fondo azul con un número blanco '60' rodeado, ¿qué te obliga a hacer?",
 "opciones": [
 "A no superar los 60 km/h como velocidad máxima",
@@ -12950,7 +25219,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 924,
+"id": 1478,
 "enunciado": "Una señal triangular con borde rojo que muestra la silueta de la calzada estrechándose por ambos lados, ¿qué anuncia?",
 "opciones": [
 "Estrechamiento de la calzada por ambos lados",
@@ -12964,7 +25233,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 925,
+"id": 1479,
 "enunciado": "Un semáforo muestra la luz ámbar fija cuando ya estás muy cerca de la línea de detención y no puedes parar con seguridad. ¿Qué debes hacer?",
 "opciones": [
 "Detenerte bruscamente en cualquier caso ante la línea",
@@ -12978,7 +25247,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 926,
+"id": 1480,
 "enunciado": "Un semáforo circular muestra una luz ámbar intermitente en un cruce. ¿Qué te indica?",
 "opciones": [
 "Que debes detenerte por completo antes del cruce",
@@ -12992,7 +25261,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 927,
+"id": 1481,
 "enunciado": "Una línea longitudinal continua pintada en el centro de la calzada. Selecciona la afirmación correcta.",
 "opciones": [
 "No puede ser rebasada ni pisada por los vehículos",
@@ -13006,7 +25275,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 928,
+"id": 1482,
 "enunciado": "Un semáforo en verde para tu sentido de marcha en un cruce, ¿qué te permite exactamente?",
 "opciones": [
 "Pasar siempre, tengas o no la vía despejada",
@@ -13020,7 +25289,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 929,
+"id": 1483,
 "enunciado": "Un panel complementario colocado bajo una señal indica, entre otras cosas:",
 "opciones": [
 "Únicamente la velocidad máxima del tramo",
@@ -13034,7 +25303,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 930,
+"id": 1484,
 "enunciado": "Una señal de STOP (R-2), ¿qué obliga a hacer al conductor?",
 "opciones": [
 "A ceder el paso deteniéndose solo si viene otro vehículo",
@@ -13048,7 +25317,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 931,
+"id": 1485,
 "enunciado": "Encuentras una señal de 'Calzada con prioridad' (rombo amarillo con borde blanco). ¿Qué te indica?",
 "opciones": [
 "Que tienes prioridad de paso en las intersecciones de la vía por la que circulas",
@@ -13062,7 +25331,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 932,
+"id": 1486,
 "enunciado": "Una señal de 'Prioridad respecto al sentido contrario' se coloca en un tramo estrecho. ¿Qué significa?",
 "opciones": [
 "Que tienes prioridad de paso frente a los vehículos que vienen de frente por ese tramo estrecho",
@@ -13076,7 +25345,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 933,
+"id": 1487,
 "enunciado": "Una línea longitudinal discontinua en la calzada, ¿qué permite?",
 "opciones": [
 "Rebasarla con precaución cuando la maniobra sea segura",
@@ -13090,7 +25359,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 934,
+"id": 1488,
 "enunciado": "En el orden de prioridad entre señales, las órdenes de los agentes ocupan el lugar:",
 "opciones": [
 "Segundo, por debajo del balizamiento de obras",
@@ -13104,7 +25373,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 935,
+"id": 1489,
 "enunciado": "Entre un semáforo y una señal vertical que se contradicen, ¿cuál prevalece?",
 "opciones": [
 "El semáforo, porque está por encima de las señales verticales",
@@ -13118,7 +25387,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 936,
+"id": 1490,
 "enunciado": "Una marca vial de una línea de detención transversal continua unida a la señal de STOP indica al conductor:",
 "opciones": [
 "El punto exacto donde debe detener por completo el vehículo",
@@ -13132,7 +25401,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 937,
+"id": 1491,
 "enunciado": "Circula por una vía sin señales ni semáforos y llega a un cruce al mismo tiempo que otro vehículo que aparece por su derecha. ¿Quién pasa primero?",
 "opciones": [
 "El vehículo que viene por la derecha.",
@@ -13146,7 +25415,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 938,
+"id": 1492,
 "enunciado": "¿Qué vehículos tienen preferencia de paso en cualquier caso frente al resto de la circulación?",
 "opciones": [
 "Los que transportan mercancías peligrosas.",
@@ -13160,7 +25429,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 939,
+"id": 1493,
 "enunciado": "¿Qué obligación impone la señal de STOP al conductor que la encuentra?",
 "opciones": [
 "Reducir la velocidad y continuar si no viene nadie.",
@@ -13174,7 +25443,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 940,
+"id": 1494,
 "enunciado": "En una glorieta o rotonda, salvo señal que indique lo contrario, ¿quién tiene la preferencia de paso?",
 "opciones": [
 "Quien va a entrar en la glorieta.",
@@ -13188,7 +25457,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 941,
+"id": 1495,
 "enunciado": "Como norma general, ¿por qué lado se realiza el adelantamiento?",
 "opciones": [
 "Por el arcén.",
@@ -13202,7 +25471,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 942,
+"id": 1496,
 "enunciado": "¿Qué debe hacer antes de incorporarse a la circulación desde un estacionamiento?",
 "opciones": [
 "Ceder el paso a los vehículos que ya circulan.",
@@ -13216,7 +25485,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 943,
+"id": 1497,
 "enunciado": "La maniobra de marcha atrás está permitida:",
 "opciones": [
 "Como maniobra habitual en cualquier vía.",
@@ -13230,7 +25499,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 944,
+"id": 1498,
 "enunciado": "¿Con qué debe señalizar las maniobras como girar o cambiar de carril?",
 "opciones": [
 "Con los intermitentes, con la suficiente antelación.",
@@ -13244,7 +25513,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 945,
+"id": 1499,
 "enunciado": "Ante un vehículo de emergencia en servicio urgente con las señales luminosas y acústicas conectadas, usted debe:",
 "opciones": [
 "Mantener su velocidad sin variar la trayectoria.",
@@ -13258,7 +25527,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 946,
+"id": 1500,
 "enunciado": "¿Cuándo puede adelantarse por la derecha?",
 "opciones": [
 "Nunca, en ninguna circunstancia.",
@@ -13272,7 +25541,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 947,
+"id": 1501,
 "enunciado": "¿Dónde está prohibido cambiar el sentido de la marcha?",
 "opciones": [
 "En una calle ancha de doble sentido.",
@@ -13286,7 +25555,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 948,
+"id": 1502,
 "enunciado": "Al llegar a un paso de peatones señalizado y ver personas cruzando, el conductor debe:",
 "opciones": [
 "Detenerse y cederles el paso.",
@@ -13300,7 +25569,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 949,
+"id": 1503,
 "enunciado": "¿Está permitido parar o estacionar sobre un paso de peatones?",
 "opciones": [
 "Sí, si es solo un momento.",
@@ -13314,7 +25583,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 950,
+"id": 1504,
 "enunciado": "Al terminar un adelantamiento y volver a su carril, usted debe:",
 "opciones": [
 "Cerrarle el paso rápidamente al adelantado.",
@@ -13328,7 +25597,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 951,
+"id": 1505,
 "enunciado": "¿Está permitido estacionar delante de un vado debidamente señalizado?",
 "opciones": [
 "Sí, durante el día.",
@@ -13342,7 +25611,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 952,
+"id": 1506,
 "enunciado": "Al realizar marcha atrás, el conductor:",
 "opciones": [
 "Tiene siempre preferencia sobre los peatones.",
@@ -13356,7 +25625,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 953,
+"id": 1507,
 "enunciado": "En un paso a nivel con las barreras bajando, el conductor debe:",
 "opciones": [
 "Cruzar rápido antes de que cierren del todo.",
@@ -13370,7 +25639,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 954,
+"id": 1508,
 "enunciado": "El cambio de sentido de la marcha solo puede efectuarse:",
 "opciones": [
 "Donde esté permitido y sin crear peligro ni obstáculo a la circulación.",
@@ -13384,7 +25653,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 955,
+"id": 1509,
 "enunciado": "Un vehículo que va a girar a la izquierda en una intersección, antes de hacerlo, debe:",
 "opciones": [
 "Acelerar para completar el giro rápido.",
@@ -13398,7 +25667,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 956,
+"id": 1510,
 "enunciado": "Al girar para entrar en otra vía y coincidir con peatones que cruzan por el paso de la calle a la que accede, usted debe:",
 "opciones": [
 "Cederles el paso.",
@@ -13412,7 +25681,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 957,
+"id": 1511,
 "enunciado": "El adelantamiento por la derecha en ciudad está permitido:",
 "opciones": [
 "En calzadas con varios carriles en el mismo sentido señalizados con marcas.",
@@ -13426,7 +25695,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 958,
+"id": 1512,
 "enunciado": "Ante una señal de 'ceda el paso' con la vía libre, el conductor:",
 "opciones": [
 "Debe detenerse siempre por completo.",
@@ -13440,7 +25709,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 959,
+"id": 1513,
 "enunciado": "Antes de abrir la puerta al bajar del vehículo estacionado, el conductor debe:",
 "opciones": [
 "Abrir sin más, la vía es suya.",
@@ -13454,7 +25723,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 960,
+"id": 1514,
 "enunciado": "Un tranvía que se aproxima a un cruce respecto al resto de vehículos:",
 "opciones": [
 "Debe ceder el paso siempre.",
@@ -13468,7 +25737,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 961,
+"id": 1515,
 "enunciado": "¿Está permitido adelantar en una curva de visibilidad reducida?",
 "opciones": [
 "Sí, con precaución.",
@@ -13482,7 +25751,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 962,
+"id": 1516,
 "enunciado": "En un semáforo en verde para usted, pero con la salida bloqueada por una retención al otro lado del cruce:",
 "opciones": [
 "No debe entrar en el cruce hasta poder salir de él.",
@@ -13496,7 +25765,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 963,
+"id": 1517,
 "enunciado": "¿Está permitida la marcha atrás en autopista?",
 "opciones": [
 "Sí, un tramo muy corto.",
@@ -13510,7 +25779,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 964,
+"id": 1518,
 "enunciado": "En un carril-bici, parar o estacionar el turismo está:",
 "opciones": [
 "Prohibido.",
@@ -13524,7 +25793,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 965,
+"id": 1519,
 "enunciado": "Un vehículo prioritario en servicio urgente, ¿puede rebasar un semáforo en rojo?",
 "opciones": [
 "No, nunca puede saltarse un semáforo.",
@@ -13538,7 +25807,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 966,
+"id": 1520,
 "enunciado": "Cuando una ambulancia con prioridad se aproxima por detrás mientras usted circula, debe:",
 "opciones": [
 "Frenar en seco en su carril.",
@@ -13552,7 +25821,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 967,
+"id": 1521,
 "enunciado": "Antes de cambiar de carril, el conductor debe:",
 "opciones": [
 "Comprobar que no molesta a otros, señalizar y ceder el paso a quien circula por ese carril.",
@@ -13566,7 +25835,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 968,
+"id": 1522,
 "enunciado": "Ante un STOP, si detiene el vehículo pero no cede el paso a quien tiene preferencia, comete:",
 "opciones": [
 "Nada, con detenerse es suficiente.",
@@ -13580,7 +25849,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 969,
+"id": 1523,
 "enunciado": "En una glorieta, para salir de ella el conductor debe:",
 "opciones": [
 "Salir bruscamente desde el carril interior sin avisar.",
@@ -13594,7 +25863,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 970,
+"id": 1524,
 "enunciado": "El estacionamiento debe realizarse de forma que el vehículo:",
 "opciones": [
 "No obstaculice la circulación ni constituya un peligro para los demás.",
@@ -13608,7 +25877,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 971,
+"id": 1525,
 "enunciado": "En un cruce regulado por un agente de tráfico, ¿qué prevalece?",
 "opciones": [
 "Las indicaciones del agente sobre las señales y semáforos.",
@@ -13622,7 +25891,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 972,
+"id": 1526,
 "enunciado": "Para dejar o recoger pasajeros en la vía, la parada debe hacerse:",
 "opciones": [
 "En doble fila si es rápido.",
@@ -13636,7 +25905,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 973,
+"id": 1527,
 "enunciado": "Adelantar utilizando el arcén está:",
 "opciones": [
 "Prohibido, salvo excepciones muy concretas.",
@@ -13650,7 +25919,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 974,
+"id": 1528,
 "enunciado": "Al aproximarse a un paso de peatones sin semáforo, con carácter general el conductor debe:",
 "opciones": [
 "Mantener la velocidad si tiene prisa.",
@@ -13664,7 +25933,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 975,
+"id": 1529,
 "enunciado": "La incorporación desde una vía secundaria a una principal implica:",
 "opciones": [
 "Tener preferencia por acceder desde una vía nueva.",
@@ -13678,7 +25947,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 976,
+"id": 1530,
 "enunciado": "Va a adelantar a un ciclista en una carretera convencional estrecha con línea continua. ¿Qué es lo correcto?",
 "opciones": [
 "Esperar a poder dejar la separación de seguridad, aunque implique invadir en parte el otro sentido si es seguro y no hay tráfico de frente.",
@@ -13692,7 +25961,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 977,
+"id": 1531,
 "enunciado": "En una intersección con STOP, después de detenerse ve que se aproxima un vehículo por la vía preferente aún algo lejos. ¿Qué hace?",
 "opciones": [
 "Salgo de inmediato porque ya me he detenido.",
@@ -13706,7 +25975,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 978,
+"id": 1532,
 "enunciado": "Un vehículo prioritario en servicio urgente circula por detrás y usted está detenido en un semáforo en rojo, con espacio a la derecha. Debe:",
 "opciones": [
 "Facilitarle el paso apartándose, aunque tenga el semáforo en rojo, cuando pueda hacerlo con seguridad.",
@@ -13720,7 +25989,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 979,
+"id": 1533,
 "enunciado": "Desea cambiar de sentido en una vía urbana de doble sentido con línea discontinua y sin prohibición. ¿Es correcto?",
 "opciones": [
 "No, el cambio de sentido está siempre prohibido en ciudad.",
@@ -13734,7 +26003,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 980,
+"id": 1534,
 "enunciado": "Al incorporarse a una autovía, el carril de aceleración termina y no ha encontrado hueco. Lo correcto es:",
 "opciones": [
 "Ajustar la velocidad y buscar un hueco sin detenerse, cediendo el paso a los que circulan.",
@@ -13748,7 +26017,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 981,
+"id": 1535,
 "enunciado": "Estaciona en una calle con pendiente pronunciada. Además del freno de estacionamiento, conviene:",
 "opciones": [
 "Dejar el vehículo en punto muerto sin más.",
@@ -13762,7 +26031,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 982,
+"id": 1536,
 "enunciado": "Circula por una vía con tranvía y llega a un cruce a la vez que él, sin semáforos. ¿Quién pasa?",
 "opciones": [
 "El tranvía, que tiene preferencia por circular sobre raíles.",
@@ -13776,7 +26045,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 983,
+"id": 1537,
 "enunciado": "En una vía de tres carriles en el mismo sentido en ciudad, un vehículo de su carril central circula más lento. ¿Puede rebasarlo por el carril de la derecha?",
 "opciones": [
 "No, siempre hay que adelantar por la izquierda.",
@@ -13790,7 +26059,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 984,
+"id": 1538,
 "enunciado": "Tiene una avería y detiene el vehículo en el arcén de una vía interurbana. Antes de bajarse, lo prioritario es:",
 "opciones": [
 "Señalizar la presencia del vehículo y ponerse el chaleco reflectante antes de salir a la calzada.",
@@ -13804,7 +26073,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 985,
+"id": 1539,
 "enunciado": "Se aproxima a un cruce sin señalizar por el que también llega un vehículo por su izquierda. ¿Debe usted cederle el paso?",
 "opciones": [
 "No; usted tiene preferencia por venir por la derecha respecto a él.",
@@ -13818,7 +26087,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 986,
+"id": 1540,
 "enunciado": "Al terminar un adelantamiento en carretera, ¿cuándo debe volver a su carril?",
 "opciones": [
 "Cuando pueda ver al vehículo adelantado en el retrovisor y regresar sin obligarle a frenar.",
@@ -13832,7 +26101,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 987,
+"id": 1541,
 "enunciado": "En una intersección va a girar a la izquierda y de frente viene un vehículo que sigue recto. ¿Quién tiene preferencia?",
 "opciones": [
 "Usted, porque va a girar y lo ha señalizado.",
@@ -13846,7 +26115,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 988,
+"id": 1542,
 "enunciado": "Circula por una glorieta y otro vehículo espera para entrar en su misma salida. ¿Quién tiene preferencia?",
 "opciones": [
 "Usted, que ya circula por la glorieta.",
@@ -13860,7 +26129,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 989,
+"id": 1543,
 "enunciado": "Sin señalización, ¿qué prioridad hay entre un vehículo que gira y un peatón que cruza por la prolongación de la acera de la vía a la que se accede?",
 "opciones": [
 "El peatón tiene prioridad; el conductor que gira debe cederle el paso.",
@@ -13874,7 +26143,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 990,
+"id": 1544,
 "enunciado": "Está prohibido adelantar en las intersecciones y en sus proximidades, salvo cuando:",
 "opciones": [
 "La intersección esté regulada por semáforos o la vía sea de sentido único.",
@@ -13888,7 +26157,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 991,
+"id": 1545,
 "enunciado": "El adelantamiento a un vehículo se realiza por la izquierda, salvo que el vehículo precedente:",
 "opciones": [
 "Circule por el centro de la calzada.",
@@ -13902,7 +26171,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 992,
+"id": 1546,
 "enunciado": "La señal de STOP obliga a detención total, mientras que la de 'ceda el paso' obliga a:",
 "opciones": [
 "Ceder el paso, deteniéndose solo si es necesario para no estorbar a los preferentes.",
@@ -13916,7 +26185,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 993,
+"id": 1547,
 "enunciado": "En una glorieta, tiene preferencia quien circula por ella respecto a quien va a entrar, salvo que:",
 "opciones": [
 "El que entra circule más deprisa.",
@@ -13930,7 +26199,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 994,
+"id": 1548,
 "enunciado": "La marcha atrás está permitida como maniobra auxiliar, y debe realizarse:",
 "opciones": [
 "Durante un recorrido de hasta cincuenta metros en cualquier vía.",
@@ -13944,7 +26213,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 995,
+"id": 1549,
 "enunciado": "El cambio de sentido de la marcha está prohibido, entre otros lugares, en:",
 "opciones": [
 "Cambios de rasante, curvas, pasos a nivel, túneles y autopistas o autovías.",
@@ -13958,7 +26227,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 996,
+"id": 1550,
 "enunciado": "El adelantamiento está prohibido en los pasos a nivel y, además:",
 "opciones": [
 "En sus alrededores hasta trescientos metros después.",
@@ -13972,7 +26241,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 997,
+"id": 1551,
 "enunciado": "Los vehículos prioritarios en servicio urgente tienen preferencia cuando circulan:",
 "opciones": [
 "Con las señales luminosas y acústicas especiales en funcionamiento.",
@@ -13986,7 +26255,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 998,
+"id": 1552,
 "enunciado": "Antes de adelantar, además de disponer de espacio y visibilidad, el conductor debe cerciorarse de que:",
 "opciones": [
 "Ningún conductor que le sigue haya iniciado el adelantamiento sobre él.",
@@ -14000,7 +26269,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 999,
+"id": 1553,
 "enunciado": "Además de en los pasos de peatones, está prohibido parar y estacionar:",
 "opciones": [
 "En cualquier vía urbana con línea blanca discontinua.",
@@ -14014,7 +26283,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1000,
+"id": 1554,
 "enunciado": "En una incorporación a la circulación, el conductor debe ceder el paso, salvo que:",
 "opciones": [
 "Un agente o señal le concedan expresamente la preferencia.",
@@ -14028,7 +26297,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1001,
+"id": 1555,
 "enunciado": "¿En qué plazas del vehículo es obligatorio abrocharse el cinturón de seguridad?",
 "opciones": [
 "Solo en las plazas delanteras.",
@@ -14042,7 +26311,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1002,
+"id": 1556,
 "enunciado": "Con carácter general, ¿en qué asientos deben viajar los niños de estatura igual o inferior a 135 cm?",
 "opciones": [
 "En los asientos traseros, con un sistema de retención infantil adecuado.",
@@ -14056,7 +26325,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1003,
+"id": 1557,
 "enunciado": "¿Quién está obligado a llevar casco homologado al circular en motocicleta?",
 "opciones": [
 "Únicamente el conductor.",
@@ -14070,7 +26339,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1004,
+"id": 1558,
 "enunciado": "Respecto al cinturón de seguridad, el airbag frontal es un sistema que:",
 "opciones": [
 "Sustituye al cinturón y permite no usarlo.",
@@ -14084,7 +26353,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1005,
+"id": 1559,
 "enunciado": "¿Qué luz debe utilizarse de noche al circular por una vía urbana suficientemente iluminada?",
 "opciones": [
 "La luz de carretera (larga).",
@@ -14098,7 +26367,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1006,
+"id": 1560,
 "enunciado": "¿Cuándo puede usarse la luz de carretera (larga)?",
 "opciones": [
 "Fuera de poblado y en vías sin iluminación, sin deslumbrar a otros usuarios.",
@@ -14112,7 +26381,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1007,
+"id": 1561,
 "enunciado": "¿Cuál es la profundidad mínima legal del dibujo de la banda de rodadura de los neumáticos?",
 "opciones": [
 "0,8 milímetros.",
@@ -14126,7 +26395,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1008,
+"id": 1562,
 "enunciado": "¿En qué estado deben estar los neumáticos para comprobar correctamente su presión?",
 "opciones": [
 "En caliente, después de un largo recorrido.",
@@ -14140,7 +26409,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1009,
+"id": 1563,
 "enunciado": "¿Para qué sirve el sistema ABS?",
 "opciones": [
 "Para evitar el bloqueo de las ruedas durante una frenada.",
@@ -14154,7 +26423,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1010,
+"id": 1564,
 "enunciado": "¿Qué controla principalmente el sistema ESP de un vehículo?",
 "opciones": [
 "La temperatura del aceite del motor.",
@@ -14168,7 +26437,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1011,
+"id": 1565,
 "enunciado": "Ante una avería o accidente en la carretera, ¿qué prenda debe ponerse el conductor antes de salir del vehículo a la calzada?",
 "opciones": [
 "Un abrigo oscuro para no llamar la atención.",
@@ -14182,7 +26451,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1012,
+"id": 1566,
 "enunciado": "¿Qué significan las siglas del protocolo P.A.S. en caso de accidente?",
 "opciones": [
 "Proteger, Avisar y Socorrer.",
@@ -14196,7 +26465,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1013,
+"id": 1567,
 "enunciado": "¿A qué número de teléfono se debe llamar para avisar de un accidente de tráfico?",
 "opciones": [
 "Al taller mecánico más cercano.",
@@ -14210,7 +26479,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1014,
+"id": 1568,
 "enunciado": "En un accidente, ¿qué se debe hacer con un herido tumbado en la calzada?",
 "opciones": [
 "Trasladarlo siempre de inmediato a un lugar cerrado.",
@@ -14224,7 +26493,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1015,
+"id": 1569,
 "enunciado": "¿Cada cuánto tiempo, de forma aproximada, conviene hacer una parada de descanso en un viaje largo?",
 "opciones": [
 "Aproximadamente cada dos horas.",
@@ -14238,7 +26507,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1016,
+"id": 1570,
 "enunciado": "¿Qué es un microsueño al volante?",
 "opciones": [
 "Un método de descanso recomendado para conductores.",
@@ -14252,7 +26521,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1017,
+"id": 1571,
 "enunciado": "¿Cómo debe ir colocada la carga en un vehículo?",
 "opciones": [
 "Suelta, para poder redistribuirla durante la marcha.",
@@ -14266,7 +26535,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1018,
+"id": 1572,
 "enunciado": "¿Con qué señal se indica una carga que sobresale por la parte trasera del vehículo?",
 "opciones": [
 "Con la señal V-20 (panel a rayas rojas y blancas).",
@@ -14280,7 +26549,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1019,
+"id": 1573,
 "enunciado": "Para una conducción eficiente que ahorre combustible, conviene:",
 "opciones": [
 "Acelerar y frenar con frecuencia para mantener el ritmo.",
@@ -14294,7 +26563,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1020,
+"id": 1574,
 "enunciado": "¿Cuándo debe encenderse la luz antiniebla trasera?",
 "opciones": [
 "Siempre que se circule de noche por autopista.",
@@ -14308,7 +26577,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1021,
+"id": 1575,
 "enunciado": "¿Qué efecto tiene sobre la seguridad circular con los neumáticos poco hinchados?",
 "opciones": [
 "Mejora el agarre y reduce el consumo.",
@@ -14322,7 +26591,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1022,
+"id": 1576,
 "enunciado": "Al aumentar la velocidad de circulación, la distancia de frenado:",
 "opciones": [
 "Aumenta de forma proporcional al cuadrado de la velocidad.",
@@ -14336,7 +26605,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1023,
+"id": 1577,
 "enunciado": "¿Puede colocarse una silla infantil orientada hacia atrás (a contramarcha) en un asiento con airbag frontal activado?",
 "opciones": [
 "Sí, siempre que el niño lleve además el cinturón.",
@@ -14350,7 +26619,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1024,
+"id": 1578,
 "enunciado": "¿Para qué sirven las luces de posición del vehículo?",
 "opciones": [
 "Para iluminar la calzada a gran distancia.",
@@ -14364,7 +26633,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1025,
+"id": 1579,
 "enunciado": "¿Qué dispositivo, junto con el chaleco, sirve para señalizar una avería o accidente y es obligatorio desde 2026?",
 "opciones": [
 "La baliza luminosa V-16.",
@@ -14378,7 +26647,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1026,
+"id": 1580,
 "enunciado": "El líquido de frenos es importante porque:",
 "opciones": [
 "Sirve para lubricar el motor.",
@@ -14392,7 +26661,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1027,
+"id": 1581,
 "enunciado": "¿Qué indica normalmente un testigo de color rojo encendido en el cuadro de instrumentos?",
 "opciones": [
 "Una avería o situación que requiere detenerse y comprobar.",
@@ -14406,7 +26675,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1028,
+"id": 1582,
 "enunciado": "¿Qué debe hacerse si durante la marcha se enciende el testigo rojo de presión de aceite?",
 "opciones": [
 "Seguir circulando hasta llegar a casa.",
@@ -14420,7 +26689,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1029,
+"id": 1583,
 "enunciado": "¿Qué luz debe utilizarse al entrar en un túnel iluminado?",
 "opciones": [
 "Únicamente la luz de posición.",
@@ -14434,7 +26703,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1030,
+"id": 1584,
 "enunciado": "El uso del cinturón de seguridad reduce las lesiones porque:",
 "opciones": [
 "Retiene el cuerpo evitando que salga despedido o golpee el interior.",
@@ -14448,7 +26717,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1031,
+"id": 1585,
 "enunciado": "¿Cuál de estos elementos forma parte de una revisión básica antes de un viaje largo?",
 "opciones": [
 "Cambiar siempre el motor completo.",
@@ -14462,7 +26731,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1032,
+"id": 1586,
 "enunciado": "La sobrecarga de un vehículo (superar su MMA):",
 "opciones": [
 "Mejora el agarre y acorta la distancia de frenado.",
@@ -14476,7 +26745,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1033,
+"id": 1587,
 "enunciado": "¿Por qué es importante mantener limpio el parabrisas y en buen estado las escobillas?",
 "opciones": [
 "Porque reducen el consumo de combustible.",
@@ -14490,7 +26759,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1034,
+"id": 1588,
 "enunciado": "¿Qué ventaja aporta el ABS al frenar sobre un pavimento deslizante?",
 "opciones": [
 "Elimina por completo la distancia de frenado.",
@@ -14504,7 +26773,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1035,
+"id": 1589,
 "enunciado": "¿Dónde debe colocarse la baliza luminosa V-16 para señalizar el vehículo?",
 "opciones": [
 "En el punto más alto del vehículo, como el techo.",
@@ -14518,7 +26787,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1036,
+"id": 1590,
 "enunciado": "Una ventaja de la baliza V-16 frente a los triángulos de emergencia es que:",
 "opciones": [
 "Se coloca sin salir a la calzada, reduciendo el riesgo de atropello.",
@@ -14532,7 +26801,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1037,
+"id": 1591,
 "enunciado": "El aire acondicionado y otros consumos eléctricos del vehículo:",
 "opciones": [
 "No influyen en el consumo del motor.",
@@ -14546,7 +26815,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1038,
+"id": 1592,
 "enunciado": "¿Qué se debe comprobar en los neumáticos además de la presión?",
 "opciones": [
 "La profundidad del dibujo y la ausencia de cortes o deformaciones.",
@@ -14560,7 +26829,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1039,
+"id": 1593,
 "enunciado": "Circular con niebla densa por la carretera exige, entre otras precauciones:",
 "opciones": [
 "Encender la luz de carretera para ver mejor.",
@@ -14574,7 +26843,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1040,
+"id": 1594,
 "enunciado": "¿Qué conviene hacer para conducir con seguridad y anticiparse a los peligros?",
 "opciones": [
 "Fijar la vista únicamente en el capó del vehículo.",
@@ -14588,7 +26857,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1041,
+"id": 1595,
 "enunciado": "Frente a un charco o zona con agua en la calzada, el conductor debe temer un fenómeno llamado:",
 "opciones": [
 "Sobrealimentación del motor.",
@@ -14602,7 +26871,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1042,
+"id": 1596,
 "enunciado": "¿Qué elemento del vehículo transmite el giro del volante a las ruedas?",
 "opciones": [
 "El sistema de escape.",
@@ -14616,7 +26885,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1043,
+"id": 1597,
 "enunciado": "Si el sistema ABS se activa en una frenada de emergencia, el conductor notará:",
 "opciones": [
 "Una vibración o pulsaciones en el pedal, que debe mantener pisado.",
@@ -14630,7 +26899,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1044,
+"id": 1598,
 "enunciado": "Un conductor duplica su velocidad de 40 a 80 km/h. ¿Cómo varía aproximadamente la distancia de frenado?",
 "opciones": [
 "Se mantiene prácticamente igual.",
@@ -14644,7 +26913,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1045,
+"id": 1599,
 "enunciado": "Si un niño mide 130 cm, ¿qué requisito debe cumplir para viajar en el coche?",
 "opciones": [
 "Puede usar solo el cinturón del adulto en cualquier asiento.",
@@ -14658,7 +26927,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1046,
+"id": 1600,
 "enunciado": "En un vehículo con airbag frontal en el copiloto que no se puede desactivar, ¿cómo debe viajar un bebé en silla a contramarcha?",
 "opciones": [
 "En una plaza trasera, nunca delante con el airbag activado.",
@@ -14672,7 +26941,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1047,
+"id": 1601,
 "enunciado": "Ante el reventón de un neumático delantero a velocidad de crucero, lo correcto es:",
 "opciones": [
 "Frenar a fondo de inmediato y girar el volante con fuerza.",
@@ -14686,7 +26955,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1048,
+"id": 1602,
 "enunciado": "¿Qué diferencia hay entre el ABS y el ESP?",
 "opciones": [
 "El ABS evita el bloqueo de las ruedas al frenar; el ESP corrige la pérdida de estabilidad.",
@@ -14700,7 +26969,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1049,
+"id": 1603,
 "enunciado": "Circular con una carga sin distribuir correctamente afecta a la conducción porque:",
 "opciones": [
 "Mejora la adherencia de todos los neumáticos.",
@@ -14714,7 +26983,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1050,
+"id": 1604,
 "enunciado": "Si durante la marcha el indicador de temperatura del refrigerante entra en la zona roja, se debe:",
 "opciones": [
 "Detenerse en un lugar seguro y dejar enfriar el motor antes de comprobar niveles.",
@@ -14728,7 +26997,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1051,
+"id": 1605,
 "enunciado": "¿Por qué una silla infantil correctamente instalada es más segura que sujetar al niño con el cinturón del adulto?",
 "opciones": [
 "Porque el cinturón del adulto no se ajusta al cuerpo del niño y puede lesionarlo.",
@@ -14742,7 +27011,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1052,
+"id": 1606,
 "enunciado": "En una frenada de emergencia con un vehículo sin ABS, para no perder el control conviene:",
 "opciones": [
 "Bloquear las ruedas para detenerse antes.",
@@ -14756,7 +27025,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1053,
+"id": 1607,
 "enunciado": "Un conductor nota que el volante vibra a cierta velocidad. ¿Qué revisión es la más adecuada?",
 "opciones": [
 "El equilibrado y estado de los neumáticos y la dirección.",
@@ -14770,7 +27039,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1054,
+"id": 1608,
 "enunciado": "Al circular fuera de poblado por una vía sin iluminación con la luz de carretera y aparecer un vehículo de frente, se debe:",
 "opciones": [
 "Cambiar a la luz de cruce con antelación suficiente para no deslumbrar.",
@@ -14784,7 +27053,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1055,
+"id": 1609,
 "enunciado": "¿Cuál de estas conductas contribuye a alargar la vida de los frenos y ahorrar combustible?",
 "opciones": [
 "Circular con el pie apoyado permanentemente sobre el freno.",
@@ -14798,7 +27067,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1056,
+"id": 1610,
 "enunciado": "La profundidad mínima legal del dibujo de los neumáticos de un turismo es de:",
 "opciones": [
 "1,6 milímetros.",
@@ -14812,7 +27081,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1057,
+"id": 1611,
 "enunciado": "Los sistemas de retención infantil son obligatorios, con carácter general, para los menores cuya estatura sea igual o inferior a:",
 "opciones": [
 "125 centímetros.",
@@ -14826,7 +27095,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1058,
+"id": 1612,
 "enunciado": "La baliza luminosa de señalización de emergencia se denomina:",
 "opciones": [
 "V-16.",
@@ -14840,7 +27109,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1059,
+"id": 1613,
 "enunciado": "El dispositivo que se coloca para señalizar una carga que sobresale por la parte trasera del vehículo es:",
 "opciones": [
 "La señal V-16.",
@@ -14854,7 +27123,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1060,
+"id": 1614,
 "enunciado": "Un conductor pasa de circular a 50 km/h a hacerlo a 100 km/h. La distancia de frenado, aproximadamente:",
 "opciones": [
 "Se multiplica por dos.",
@@ -14868,7 +27137,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1061,
+"id": 1615,
 "enunciado": "En viajes largos, la recomendación general de descanso es realizar una parada cada, aproximadamente:",
 "opciones": [
 "Dos horas de conducción.",
@@ -14882,7 +27151,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1062,
+"id": 1616,
 "enunciado": "La distancia de frenado de un vehículo aumenta en proporción:",
 "opciones": [
 "Al doble de la velocidad.",
@@ -14896,7 +27165,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1063,
+"id": 1617,
 "enunciado": "El sistema electrónico que evita el bloqueo de las ruedas durante la frenada es el:",
 "opciones": [
 "ABS.",
@@ -14910,7 +27179,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1064,
+"id": 1618,
 "enunciado": "El sistema electrónico que corrige la pérdida de estabilidad y ayuda a evitar derrapes es el:",
 "opciones": [
 "TPMS.",
@@ -14924,7 +27193,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1065,
+"id": 1619,
 "enunciado": "La presión de los neumáticos debe comprobarse siempre con las ruedas:",
 "opciones": [
 "En frío.",
@@ -14938,7 +27207,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1066,
+"id": 1620,
 "enunciado": "La luz que debe utilizarse de noche al circular por una vía interurbana correctamente iluminada es la luz de:",
 "opciones": [
 "Carretera.",
@@ -14952,7 +27221,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1067,
+"id": 1621,
 "enunciado": "La baliza luminosa V-16 pasa a ser obligatoria, en sustitución de los triángulos, a partir del año:",
 "opciones": [
 "2024.",

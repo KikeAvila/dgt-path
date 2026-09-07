@@ -1,6 +1,6 @@
 /* Service worker — cachea la app para uso OFFLINE.
    Sube CACHE cada vez que cambies ficheros para forzar la actualización. */
-const CACHE = "dgt-path-v11";
+const CACHE = "dgt-path-v15";
 const ASSETS = [
   "./",
   "index.html",
@@ -10,6 +10,7 @@ const ASSETS = [
   "data.js",
   "teoria.js",
   "catalogo.js",
+  "examenes.js",
   "manifest.webmanifest",
   "icon-180.png",
   "icon-192.png",
@@ -39,7 +40,7 @@ self.addEventListener("activate", (e) => {
 // El código y los datos van "red primero" para que las actualizaciones se
 // apliquen en cuanto haya conexión; las imágenes/iconos van "caché primero"
 // (no cambian y así cargan al instante y funcionan offline).
-const NETWORK_FIRST = /(index\.html|app\.js|firebase-config\.js|data\.js|teoria\.js|catalogo\.js|styles\.css|manifest\.webmanifest)(\?|$)/;
+const NETWORK_FIRST = /(index\.html|app\.js|firebase-config\.js|data\.js|teoria\.js|catalogo\.js|examenes\.js|styles\.css|manifest\.webmanifest)(\?|$)/;
 
 self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET") return;
