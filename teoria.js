@@ -32,12 +32,21 @@ window.DGT_TEORIA = {
 ]
 },
 {
-"h": "Masas y remolques",
+"h": "Masas",
 "puntos": [
-"Tara: masa del vehículo vacío. MMA: masa máxima autorizada para circular.",
+"Tara: masa del vehículo vacío. MMA (masa máxima autorizada): la máxima con la que se permite circular.",
 "Masa en orden de marcha: tara + conductor (75 kg).",
-"Remolque: se apoya en sus ejes. Semirremolque: apoya parte del peso en el tractor.",
-"Remolque ligero: MMA ≤ 750 kg."
+"Carga útil: lo que se puede cargar = MMA − tara."
+]
+},
+{
+"h": "Remolques y ejes",
+"puntos": [
+"Remolque: vehículo arrastrado que se apoya sobre SUS PROPIOS ejes (puede tener uno o varios).",
+"Semirremolque: parte de su peso descansa sobre el vehículo tractor.",
+"Remolque LIGERO: MMA ≤ 750 kg.",
+"Un remolque puede tener 1, 2 o 3 ejes; algunas señales distinguen los de UN SOLO eje (p. ej. la R-112 no afecta a los de un solo eje).",
+"Permiso B: remolque ≤ 750 kg, o remolque mayor si el conjunto no supera 3.500 kg (con el código B96, hasta 4.250 kg; para más, permiso B+E)."
 ]
 },
 {
@@ -153,6 +162,30 @@ window.DGT_TEORIA = {
 ]
 },
 {
+"h": "Otros vehículos (fuera de poblado)",
+"puntos": [
+"Motocicletas: igual que el turismo (120 en autopista/autovía, 90 en convencional).",
+"Autobús: 100 en autopista/autovía, 80 en convencional.",
+"Camión (MMA > 3.500 kg): 90 en autopista/autovía, 80 en convencional.",
+"Ciclomotor: 45 km/h como máximo en cualquier vía."
+]
+},
+{
+"h": "Con remolque",
+"puntos": [
+"Turismo con remolque LIGERO (≤ 750 kg): 90 en autopista/autovía, 80 en convencional.",
+"Turismo con remolque de MÁS de 750 kg: 80 en autopista/autovía y 80 en convencional.",
+"Aunque la señal marque más, no puedes superar el límite de tu tipo de vehículo."
+]
+},
+{
+"h": "Velocidad mínima y adelantar",
+"puntos": [
+"La velocidad MÍNIMA genérica es la mitad del máximo de la vía (p. ej. 60 en autopista de 120).",
+"Desde 2022 NO se puede rebasar el límite de la vía NI para adelantar (se eliminó el antiguo margen de +20 km/h)."
+]
+},
+{
 "h": "Distancia y velocidad adecuada",
 "puntos": [
 "Mantén distancia de seguridad para poder detenerte a tiempo.",
@@ -189,6 +222,24 @@ window.DGT_TEORIA = {
 "Rojo: detente antes de la línea. Ámbar fijo: detente si puedes con seguridad.",
 "Línea continua: no se puede pisar ni rebasar. Línea discontinua: se puede rebasar con precaución.",
 "Las marcas amarillas prohíben o restringen la parada y el estacionamiento."
+]
+},
+{
+"h": "Señales que afectan a remolques y cargas",
+"puntos": [
+"R-112: entrada prohibida a vehículos con remolque, EXCEPTO los de un solo eje.",
+"R-201 / R-202: limitación de masa total y de masa por eje.",
+"V-20: panel de franjas rojas y blancas (50×50 cm) que señaliza la carga que sobresale por detrás.",
+"En un turismo la carga solo puede sobresalir por detrás (10 % de la longitud, o 15 % si es indivisible)."
+]
+},
+{
+"h": "Detalles útiles de las señales",
+"puntos": [
+"Fuera de poblado, las señales de peligro se colocan 150–250 m antes del riesgo.",
+"Señales de FIN de prohibición: circulares, blancas/grises con una banda oblicua.",
+"Las señales de OBRAS (fondo amarillo) prevalecen sobre las mismas de fondo blanco.",
+"El catálogo oficial (RD 465/2025) tiene 15 categorías y 447 señales; puedes verlas todas en «🚦 Todas las señales»."
 ]
 }
 ]
