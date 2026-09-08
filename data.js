@@ -1771,8 +1771,8 @@ window.DGT_QUESTIONS = [
 "80 kilómetros por hora.",
 "100 kilómetros por hora."
 ],
-"correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017). Actualizada (RD 29-ene-2019): en carretera convencional el máximo para motos y turismos es 90 km/h; se eliminó el antiguo 100 con arcén ancho.",
 "tema_id": 4,
 "imagen": "dgt_e239_p12.jpg",
 "dificultad": 4,
@@ -3407,10 +3407,10 @@ window.DGT_QUESTIONS = [
 "opciones": [
 "No; solo están obligados los conductores de camiones y autobuses.",
 "Fuera de poblado sí es obligatorio, siendo opcional en vías urbanas.",
-"Sí, y se emplearán los triángulos de preseñalización de peligro."
+"Sí; debe señalizarlo con la luz de emergencia y la baliza V-16 (que desde 2026 sustituye a los triángulos)."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018). Actualizada (2026): la obligación de advertir se mantiene, pero se señaliza con la baliza V-16 conectada, no con triángulos.",
 "tema_id": 7,
 "imagen": "dgt_e246_p08.jpg",
 "dificultad": 5,
@@ -3739,14 +3739,14 @@ window.DGT_QUESTIONS = [
 },
 {
 "id": 179,
-"enunciado": "Como norma general, en vías urbanas, ¿cual es la velocidad máxima permitida para motocicletas?",
+"enunciado": "En vías urbanas de dos o más carriles por sentido de circulación, ¿cuál es la velocidad máxima permitida para motocicletas?",
 "opciones": [
 "50 km/h.",
 "60 km/h.",
 "45 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "Pregunta del test oficial de la DGT (Julio 2018). Actualizada (2021): en vías urbanas el límite depende de los carriles (30 km/h con un solo carril por sentido; 50 con dos o más; 20 en plataforma única).",
 "tema_id": 4,
 "imagen": "dgt_e247_p09.jpg",
 "dificultad": 4,
@@ -4311,8 +4311,8 @@ window.DGT_QUESTIONS = [
 "Sí, en carreteras convencionales interurbanas.",
 "Sí, en todo tipo de vías interurbanas."
 ],
-"correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Abril 2019). Actualizada (Ley de Tráfico 21-mar-2022): se eliminó el margen de +20 km/h para adelantar; no se puede rebasar el límite en ningún caso.",
 "tema_id": 4,
 "imagen": "dgt_e249_p07.jpg",
 "dificultad": 4,
@@ -5082,15 +5082,15 @@ window.DGT_QUESTIONS = [
 },
 {
 "id": 243,
-"enunciado": "En un turismo, ¿es obligatorio llevar triángulos de preseñalización de peligro?",
+"enunciado": "En vía interurbana, ¿con qué dispositivo debe señalizarse, con carácter obligatorio desde 2026, un turismo inmovilizado?",
 "opciones": [
-"No es obligatorio, pero es aconsejable llevar, al menos, un triángulo.",
-"Sí, es obligatorio llevar dos triángulos homologados.",
-"Solo es obligatorio cuando se circule por vías interurbanas."
+"Con la baliza luminosa V-16 conectada, que sustituye a los triángulos.",
+"Con dos triángulos de preseñalización homologados.",
+"No es necesario señalizarlo si se enciende la luz de emergencia."
 ],
-"correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
-"tema_id": 5,
+"correcta_idx": 0,
+"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019). Actualizada (2026): desde el 1-ene-2026 la baliza V-16 conectada es el dispositivo obligatorio y sustituye a los triángulos de preseñalización.",
+"tema_id": 7,
 "imagen": "dgt_e252_p02.jpg",
 "dificultad": 5,
 "origen": "examen_oficial_dgt",
@@ -5380,11 +5380,11 @@ window.DGT_QUESTIONS = [
 "opciones": [
 "No, excepto si la inmovilización se produce en una vía fuera de poblado.",
 "Solo debe encender la luz de emergencia y, si procede, las luces de posición.",
-"Sí, aunque haya encendido la luz de emergencia, la de posición o ambas."
+"Sí; debe señalizarlo, y desde 2026 se hace con la baliza V-16 conectada (sin salir del vehículo), no con triángulos."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
-"tema_id": 1,
+"explicacion": "Pregunta del test oficial de la DGT (Junio 2020). Actualizada (2026): la señalización del vehículo inmovilizado se realiza con la baliza V-16, no colocando triángulos.",
+"tema_id": 7,
 "imagen": "dgt_e253_p01.jpg",
 "dificultad": 5,
 "origen": "examen_oficial_dgt",
@@ -7230,8 +7230,8 @@ window.DGT_QUESTIONS = [
 "110 km/h.",
 "90 km/h."
 ],
-"correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"correcta_idx": 2,
+"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021). Actualizada (2022): sin el margen +20, la velocidad máxima al adelantar en convencional es la genérica, 90 km/h.",
 "tema_id": 4,
 "imagen": "dgt_e259_p03.jpg",
 "dificultad": 4,
