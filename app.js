@@ -5,8 +5,9 @@
 
    NUEVO (mejora septiembre 2026):
    - El camino de cada unidad recorre TODAS sus preguntas en subbloques de 5.
-   - En TODAS las sesiones la explicación se muestra SIEMPRE tras responder
-     (acierto o fallo) y se continúa a mano, para poder leerla con calma.
+   - Al acertar se avanza solo (sin pulsar "Continuar"); la explicación queda
+     disponible con el botón "💡 Explicación" (pausa el avance) o volviendo
+     atrás. Al fallar la explicación se muestra y se continúa a mano.
    - Se puede volver atrás ("◀ Anterior") a las preguntas ya respondidas de la
      sesión (como en los exámenes) para revisarlas, y "Siguiente ▶" para volver.
    - Al terminar los subbloques de una unidad se desbloquea un "Examen de unidad"
@@ -23,6 +24,7 @@ const CFG = {
   XP_ACIERTO: 10, XP_NODO: 20, XP_EXAMEN: 50, XP_EXAMEN_UNIDAD: 30,
   EXAM_SIZE: 30, EXAM_MIN: 30, EXAM_MAX_FAILS: 3,
   UNIT_EXAM_SIZE: 30,
+  AUTO_ADVANCE_MS: 1100, // pausa tras acertar antes de pasar a la siguiente
 };
 const TEMAS = {
   1: "Definiciones", 2: "Documentación e ITV", 3: "Alcohol, drogas y fármacos",
@@ -672,18 +674,44 @@ function showFeedback(correcto, explicacion, sinVidas) {
   fb.className = "feedback " + (correcto ? "ok" : "err");
   document.getElementById("feedback-icon").textContent = correcto ? "✅" : "❌";
   document.getElementById("feedback-title").textContent = correcto ? "¡Correcto!" : "Respuesta incorrecta";
-  document.getElementById("feedback-text").textContent = explicacion || "";
   fb._sinVidas = sinVidas;
-  // La explicación se muestra SIEMPRE (acierto o fallo) y se continúa a mano.
-  document.getElementById("feedback-continue").classList.remove("hidden");
+  const txt = document.getElementById("feedback-text");
+  const btnCont = document.getElementById("feedback-continue");
+  const btnExp = document.getElementById("feedback-explica");
   // "◀ Anterior" en el panel: revisar preguntas anteriores de la sesión.
   document.getElementById("feedback-prev")
     .classList.toggle("hidden", !(quiz && quiz.index > 0 && !sinVidas));
   fb.classList.remove("hidden");
+
+  if (correcto && !sinVidas) {
+    // Acierto: se avanza solo. La explicación queda a un toque ("💡 Explicación",
+    // que pausa el avance) o volviendo con "◀ Anterior".
+    txt.textContent = ""; txt.classList.add("hidden");
+    btnCont.classList.add("hidden");
+    btnExp.classList.toggle("hidden", !explicacion);
+    if (quiz) { clearTimeout(quiz.advTimer); quiz.advTimer = setTimeout(advanceQuiz, CFG.AUTO_ADVANCE_MS); }
+  } else {
+    // Fallo (o sin vidas): hay que leer la explicación y continuar a mano.
+    txt.textContent = explicacion || ""; txt.classList.remove("hidden");
+    btnCont.classList.remove("hidden");
+    btnExp.classList.add("hidden");
+  }
+}
+
+function verExplicacion() {
+  // Pausa el auto-avance y muestra la explicación de la pregunta acertada.
+  const q = quiz; if (!q) return;
+  clearTimeout(q.advTimer);
+  const txt = document.getElementById("feedback-text");
+  txt.textContent = q.questions[q.index].explicacion || "";
+  txt.classList.remove("hidden");
+  document.getElementById("feedback-explica").classList.add("hidden");
+  document.getElementById("feedback-continue").classList.remove("hidden");
 }
 
 function advanceQuiz() {
   if (!quiz) return;
+  clearTimeout(quiz.advTimer);
   quiz.review = null;
   const fb = document.getElementById("feedback"); fb.classList.add("hidden");
   if (fb._sinVidas) { finishQuiz(false); return; }
@@ -734,6 +762,7 @@ function quizGoPrev() {
   const q = quiz; if (!q || !q.history) return;
   const cur = q.review === null ? q.index : q.review;
   if (cur === 0 || !q.history[cur - 1]) return;
+  clearTimeout(q.advTimer); // si había auto-avance en marcha, se pausa
   document.getElementById("feedback").classList.add("hidden");
   q.review = cur - 1;
   renderQuizReview();
@@ -1311,11 +1340,12 @@ function init() {
   if (S.perfil && S.perfil.nombre && /^\d{4}$/.test(S.perfil.pin || "")) cloudLogin(S.perfil.nombre, S.perfil.pin);
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => switchView(t.dataset.view)));
   document.getElementById("quiz-check").addEventListener("click", checkAnswer);
-  document.getElementById("quiz-close").addEventListener("click", () => { document.getElementById("feedback").classList.add("hidden"); closeModal("quiz-modal"); });
+  document.getElementById("quiz-close").addEventListener("click", () => { if (quiz) clearTimeout(quiz.advTimer); document.getElementById("feedback").classList.add("hidden"); closeModal("quiz-modal"); });
   document.getElementById("feedback-continue").addEventListener("click", advanceQuiz);
   document.getElementById("quiz-prev").addEventListener("click", quizGoPrev);
   document.getElementById("quiz-next").addEventListener("click", quizGoNext);
   document.getElementById("feedback-prev").addEventListener("click", quizGoPrev);
+  document.getElementById("feedback-explica").addEventListener("click", verExplicacion);
   document.getElementById("quiz-study-btn").addEventListener("click", startTestPhase);
   document.getElementById("result-close").addEventListener("click", () => closeModal("result-modal"));
   document.getElementById("btn-start-review").addEventListener("click", startReview);
