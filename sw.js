@@ -1,6 +1,6 @@
 /* Service worker — cachea la app para uso OFFLINE.
    Sube CACHE cada vez que cambies ficheros para forzar la actualización. */
-const CACHE = "dgt-path-v20";
+const CACHE = "dgt-path-v21";
 const ASSETS = [
   "./",
   "index.html",

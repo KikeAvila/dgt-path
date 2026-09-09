@@ -5,8 +5,10 @@
 
    NUEVO (mejora septiembre 2026):
    - El camino de cada unidad recorre TODAS sus preguntas en subbloques de 5.
-   - Al acertar se avanza solo (sin pulsar "Continuar"); solo al fallar se
-     muestra la explicación y hay que continuar manualmente.
+   - En TODAS las sesiones la explicación se muestra SIEMPRE tras responder
+     (acierto o fallo) y se continúa a mano, para poder leerla con calma.
+   - Se puede volver atrás ("◀ Anterior") a las preguntas ya respondidas de la
+     sesión (como en los exámenes) para revisarlas, y "Siguiente ▶" para volver.
    - Al terminar los subbloques de una unidad se desbloquea un "Examen de unidad"
      (30 preguntas de ese tema, estilo examen).
    - 3 niveles de dificultad (1 normal, 2 difícil, 3 muy difícil). El nivel 2 se
@@ -21,7 +23,6 @@ const CFG = {
   XP_ACIERTO: 10, XP_NODO: 20, XP_EXAMEN: 50, XP_EXAMEN_UNIDAD: 30,
   EXAM_SIZE: 30, EXAM_MIN: 30, EXAM_MAX_FAILS: 3,
   UNIT_EXAM_SIZE: 30,
-  AUTO_ADVANCE_MS: 1100, // pausa tras acertar antes de pasar a la siguiente
 };
 const TEMAS = {
   1: "Definiciones", 2: "Documentación e ITV", 3: "Alcohol, drogas y fármacos",
@@ -366,7 +367,7 @@ function startCategoria(tema) {
   quiz = {
     mode: "categoria", titulo: "Categoría · " + TEMAS[tema],
     questions: sample(pool, Math.min(15, pool.length)),
-    index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null, studyPhase: false,
+    index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, history: [], review: null, studyPhase: false,
   };
   openModal("quiz-modal"); renderQuizQuestion();
 }
@@ -378,7 +379,7 @@ function startMenosVistas() {
   quiz = {
     mode: "categoria", titulo: "Menos vistas",
     questions: sample(arr, arr.length),
-    index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null, studyPhase: false,
+    index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, history: [], review: null, studyPhase: false,
   };
   openModal("quiz-modal"); renderQuizQuestion();
 }
@@ -491,7 +492,7 @@ function startPractice(niv, tema, nodeIndex, titulo) {
   quiz = {
     mode: "practice", niv, tema, nodeIndex, titulo,
     questions: sample(bloque, bloque.length), // mismo bloque, orden variado
-    index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null,
+    index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, history: [], review: null,
   };
   openModal("quiz-modal"); renderQuizQuestion();
 }
@@ -505,7 +506,7 @@ function startReview() {
     .slice(0, 15)
     .map((x) => BY_ID[x.qid]);
   if (!pend.length) { toast("🎉 ¡No tienes preguntas pendientes de repaso!"); return; }
-  quiz = { mode: "review", titulo: "Repaso inteligente", questions: pend, index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, advTimer: null, studyPhase: true };
+  quiz = { mode: "review", titulo: "Repaso inteligente", questions: pend, index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, history: [], review: null, studyPhase: true };
   openModal("quiz-modal"); renderQuizQuestion();
 }
 
@@ -551,7 +552,7 @@ function startSenales(modo) {
   quiz = {
     mode: "senales", titulo: modo === "B" ? "Señales · variantes" : "Señales",
     questions: qs, index: 0, aciertos: 0, fallos: 0, answered: false,
-    shuffle: null, selected: null, advTimer: null, noVidas: true, noSrs: true, studyPhase: false,
+    shuffle: null, selected: null, history: [], review: null, noVidas: true, noSrs: true, studyPhase: false,
   };
   openModal("quiz-modal"); renderQuizQuestion();
 }
@@ -565,9 +566,10 @@ function setImagen(imgEl, question) {
   else imgEl.classList.add("hidden");
 }
 
-function renderQuizQuestion() {
+function renderQuizQuestion(keepShuffle) {
   const q = quiz, question = q.questions[q.index];
-  q.answered = false; q.selected = null; q.shuffle = shuffleOptions(question);
+  q.review = null; q.answered = false; q.selected = null;
+  if (!(keepShuffle && q.shuffle)) q.shuffle = shuffleOptions(question);
   // En el repaso, cada pregunta se muestra primero como LECTURA y luego como test.
   const studyMode = q.mode === "review" && q.studyPhase;
 
@@ -621,6 +623,12 @@ function renderQuizQuestion() {
     checkBtn.disabled = true;
   }
 
+  // Navegación: "◀ Anterior" para revisar las preguntas ya respondidas.
+  const prevBtn = document.getElementById("quiz-prev");
+  prevBtn.classList.toggle("hidden", !(q.history && q.index > 0 && q.history[q.index - 1]));
+  prevBtn.disabled = false;
+  document.getElementById("quiz-next").classList.add("hidden");
+
   document.getElementById("quiz-progress").style.width = (q.index / q.questions.length) * 100 + "%";
   document.getElementById("quiz-hearts").textContent = "❤️".repeat(S.vidas) + "🤍".repeat(Math.max(0, CFG.MAX_VIDAS - S.vidas));
 }
@@ -651,6 +659,11 @@ function checkAnswer() {
   if (!correcto) q.selected.el.classList.add("wrong");
 
   if (correcto) { Audio.correct(); if (subioNivel) Audio.levelup(); } else Audio.wrong();
+
+  // Historial de la sesión: permite volver atrás a revisar esta pregunta.
+  q.history = q.history || [];
+  q.history[q.index] = { shuffle: q.shuffle, sel: q.selected.canonical, correcto, sinVidas };
+
   showFeedback(correcto, question.explicacion, sinVidas);
 }
 
@@ -661,27 +674,81 @@ function showFeedback(correcto, explicacion, sinVidas) {
   document.getElementById("feedback-title").textContent = correcto ? "¡Correcto!" : "Respuesta incorrecta";
   document.getElementById("feedback-text").textContent = explicacion || "";
   fb._sinVidas = sinVidas;
-  const btn = document.getElementById("feedback-continue");
+  // La explicación se muestra SIEMPRE (acierto o fallo) y se continúa a mano.
+  document.getElementById("feedback-continue").classList.remove("hidden");
+  // "◀ Anterior" en el panel: revisar preguntas anteriores de la sesión.
+  document.getElementById("feedback-prev")
+    .classList.toggle("hidden", !(quiz && quiz.index > 0 && !sinVidas));
   fb.classList.remove("hidden");
-
-  if (correcto && !sinVidas) {
-    // Acierto: se avanza solo, sin pulsar "Continuar".
-    btn.classList.add("hidden");
-    if (quiz) { clearTimeout(quiz.advTimer); quiz.advTimer = setTimeout(() => advanceQuiz(), CFG.AUTO_ADVANCE_MS); }
-  } else {
-    // Fallo (o sin vidas): hay que leer la explicación y continuar a mano.
-    btn.classList.remove("hidden");
-  }
 }
 
 function advanceQuiz() {
   if (!quiz) return;
-  clearTimeout(quiz.advTimer);
+  quiz.review = null;
   const fb = document.getElementById("feedback"); fb.classList.add("hidden");
   if (fb._sinVidas) { finishQuiz(false); return; }
   quiz.index++;
   if (quiz.index >= quiz.questions.length) finishQuiz(true);
   else { if (quiz.mode === "review") quiz.studyPhase = true; renderQuizQuestion(); }
+}
+
+// -------- Revisión: volver atrás a preguntas ya respondidas (como en examen) --------
+function renderQuizReview() {
+  const q = quiz, i = q.review, question = q.questions[i], h = q.history[i];
+  const nivTxt = q.mode === "practice" ? ` · ${NIVELES[q.niv].split(" · ")[1] || ""}` : "";
+  document.getElementById("quiz-tema").textContent = q.titulo + " · " + (TEMAS[question.tema_id] || "") + nivTxt;
+  setReforma("quiz-reforma", question);
+  document.getElementById("quiz-enunciado").textContent = question.enunciado;
+  setImagen(document.getElementById("quiz-imagen"), question);
+
+  // Opciones en solo lectura, con la correcta (y tu fallo, si lo hubo) marcados.
+  const cont = document.getElementById("quiz-opciones"); cont.innerHTML = "";
+  const letras = ["A", "B", "C"];
+  h.shuffle.forEach((opt, idx) => {
+    const b = document.createElement("button"); b.className = "opcion disabled";
+    b.innerHTML = `<span class="letra">${letras[idx]}</span>${opt.text}`;
+    if (opt.canonical === question.correcta_idx) b.classList.add("correct");
+    if (!h.correcto && opt.canonical === h.sel) b.classList.add("wrong");
+    cont.appendChild(b);
+  });
+
+  const note = document.getElementById("quiz-study-note");
+  note.innerHTML =
+    `<span class="study-tag">🔎 Revisión · pregunta ${i + 1}</span>` +
+    `<div>${h.correcto ? "✅ La acertaste." : "❌ La fallaste."} Respuesta correcta: ` +
+    `<span class="study-ok">${question.opciones[question.correcta_idx]}</span></div>` +
+    (question.explicacion ? `<div style="margin-top:6px">${question.explicacion}</div>` : "");
+  note.classList.remove("hidden");
+
+  document.getElementById("quiz-study-btn").classList.add("hidden");
+  document.getElementById("quiz-check").classList.add("hidden");
+  const prevBtn = document.getElementById("quiz-prev");
+  prevBtn.classList.remove("hidden");
+  prevBtn.disabled = i === 0;
+  document.getElementById("quiz-next").classList.remove("hidden");
+
+  document.getElementById("quiz-progress").style.width = (i / q.questions.length) * 100 + "%";
+  document.getElementById("quiz-hearts").textContent = "❤️".repeat(S.vidas) + "🤍".repeat(Math.max(0, CFG.MAX_VIDAS - S.vidas));
+}
+function quizGoPrev() {
+  const q = quiz; if (!q || !q.history) return;
+  const cur = q.review === null ? q.index : q.review;
+  if (cur === 0 || !q.history[cur - 1]) return;
+  document.getElementById("feedback").classList.add("hidden");
+  q.review = cur - 1;
+  renderQuizReview();
+}
+function quizGoNext() {
+  const q = quiz; if (!q || q.review === null) return;
+  const next = q.review + 1;
+  if (next < q.index) { q.review = next; renderQuizReview(); return; }
+  if (next === q.index && q.answered) {
+    // Última respondida = la actual: revisarla también; otro "Siguiente" continúa.
+    q.review = next; renderQuizReview(); return;
+  }
+  if (q.answered) { advanceQuiz(); return; } // ya revisada la actual: continuar
+  q.review = null;
+  renderQuizQuestion(true); // vuelta a la pregunta en curso sin rebarajar
 }
 
 function finishQuiz(completo) {
@@ -1244,8 +1311,11 @@ function init() {
   if (S.perfil && S.perfil.nombre && /^\d{4}$/.test(S.perfil.pin || "")) cloudLogin(S.perfil.nombre, S.perfil.pin);
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => switchView(t.dataset.view)));
   document.getElementById("quiz-check").addEventListener("click", checkAnswer);
-  document.getElementById("quiz-close").addEventListener("click", () => { if (quiz) clearTimeout(quiz.advTimer); closeModal("quiz-modal"); });
+  document.getElementById("quiz-close").addEventListener("click", () => { document.getElementById("feedback").classList.add("hidden"); closeModal("quiz-modal"); });
   document.getElementById("feedback-continue").addEventListener("click", advanceQuiz);
+  document.getElementById("quiz-prev").addEventListener("click", quizGoPrev);
+  document.getElementById("quiz-next").addEventListener("click", quizGoNext);
+  document.getElementById("feedback-prev").addEventListener("click", quizGoPrev);
   document.getElementById("quiz-study-btn").addEventListener("click", startTestPhase);
   document.getElementById("result-close").addEventListener("click", () => closeModal("result-modal"));
   document.getElementById("btn-start-review").addEventListener("click", startReview);

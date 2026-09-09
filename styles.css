@@ -166,8 +166,10 @@ main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
   border-radius: 8px; background: var(--gray); margin-right: 10px; font-weight: 800;
 }
 
-.quiz-foot { margin-top: 22px; display: flex; justify-content: flex-end; }
+.quiz-foot { margin-top: 22px; display: flex; justify-content: flex-end; gap: 8px; }
 .quiz-foot .btn { min-width: 160px; }
+#quiz-prev { margin-right: auto; min-width: 0; }
+#quiz-next { min-width: 0; }
 .exam-foot { justify-content: space-between; gap: 8px; }
 
 /* ---------------- Feedback ---------------- */
@@ -184,6 +186,8 @@ main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
 .feedback.err .feedback-head { color: var(--red-dark); }
 .feedback-text { font-size: 15px; line-height: 1.45; margin-bottom: 12px; }
 .feedback .btn { background: #fff; }
+.feedback-btns { display: flex; justify-content: flex-end; gap: 10px; }
+#feedback-prev { margin-right: auto; }
 @keyframes slideup { from { transform: translateY(100%); } to { transform: translateY(0); } }
 
 /* ---------------- Resultados ---------------- */

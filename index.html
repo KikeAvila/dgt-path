@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
   <title>DGT Path — Permiso B</title>
-  <link rel="stylesheet" href="styles.css?v=20" />
+  <link rel="stylesheet" href="styles.css?v=21" />
   <link rel="manifest" href="manifest.webmanifest" />
   <meta name="theme-color" content="#58cc02" />
   <!-- iOS: instalable en pantalla de inicio -->
@@ -126,8 +126,10 @@
         <div class="opciones" id="quiz-opciones"></div>
       </div>
       <div class="quiz-foot">
+        <button class="btn hidden" id="quiz-prev">◀ Anterior</button>
         <button class="btn btn-primary hidden" id="quiz-study-btn">Ponerme a prueba ▸</button>
         <button class="btn btn-primary" id="quiz-check" disabled>Comprobar</button>
+        <button class="btn btn-primary hidden" id="quiz-next">Siguiente ▶</button>
       </div>
     </div>
   </div>
@@ -136,7 +138,10 @@
     <div class="feedback-inner">
       <div class="feedback-head"><span id="feedback-icon">✅</span><span id="feedback-title">¡Correcto!</span></div>
       <p id="feedback-text" class="feedback-text"></p>
-      <button class="btn" id="feedback-continue">Continuar</button>
+      <div class="feedback-btns">
+        <button class="btn hidden" id="feedback-prev">◀ Anterior</button>
+        <button class="btn" id="feedback-continue">Continuar</button>
+      </div>
     </div>
   </div>
 
@@ -237,12 +242,12 @@
   <!-- SDK de Firebase (nube). Si no hay internet, la app funciona igual en local. -->
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
-  <script src="firebase-config.js?v=20"></script>
-  <script src="data.js?v=20"></script>
-  <script src="teoria.js?v=20"></script>
-  <script src="catalogo.js?v=20"></script>
-  <script src="examenes.js?v=20"></script>
-  <script src="app.js?v=20"></script>
+  <script src="firebase-config.js?v=21"></script>
+  <script src="data.js?v=21"></script>
+  <script src="teoria.js?v=21"></script>
+  <script src="catalogo.js?v=21"></script>
+  <script src="examenes.js?v=21"></script>
+  <script src="app.js?v=21"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
