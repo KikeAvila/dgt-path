@@ -740,12 +740,26 @@ function renderQuizReview() {
     cont.appendChild(b);
   });
 
+  // Nota de revisión. Si la falló: explicación SIEMPRE visible. Si la acertó:
+  // la explicación es opcional, tras el botón "💡 Ver explicación".
   const note = document.getElementById("quiz-study-note");
-  note.innerHTML =
+  const cab =
     `<span class="study-tag">🔎 Revisión · pregunta ${i + 1}</span>` +
     `<div>${h.correcto ? "✅ La acertaste." : "❌ La fallaste."} Respuesta correcta: ` +
-    `<span class="study-ok">${question.opciones[question.correcta_idx]}</span></div>` +
-    (question.explicacion ? `<div style="margin-top:6px">${question.explicacion}</div>` : "");
+    `<span class="study-ok">${question.opciones[question.correcta_idx]}</span></div>`;
+  const exp = question.explicacion || "";
+  if (h.correcto && exp) {
+    note.innerHTML = cab +
+      `<button class="btn" id="rev-exp-btn" style="margin-top:8px">💡 Ver explicación</button>` +
+      `<div id="rev-exp" class="hidden" style="margin-top:6px">${exp}</div>`;
+    const eb = note.querySelector("#rev-exp-btn");
+    eb.addEventListener("click", () => {
+      note.querySelector("#rev-exp").classList.remove("hidden");
+      eb.classList.add("hidden");
+    });
+  } else {
+    note.innerHTML = cab + (exp ? `<div style="margin-top:6px">${exp}</div>` : "");
+  }
   note.classList.remove("hidden");
 
   document.getElementById("quiz-study-btn").classList.add("hidden");

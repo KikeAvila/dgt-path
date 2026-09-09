@@ -8,7 +8,7 @@ window.DGT_QUESTIONS = [
 "0,15 mg/l en aire espirado = 0,3 g/l en sangre."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "Durante los dos primeros años de permiso rige la tasa reducida de los noveles: 0,3 g/l en sangre, equivalente a 0,15 mg/l en aire espirado, la misma que se exige a los conductores profesionales.",
 "tema_id": 3,
 "imagen": "dgt_e234_p01.jpg",
 "dificultad": 4,
@@ -29,7 +29,7 @@ window.DGT_QUESTIONS = [
 "Sí, cuando la línea es discontinua; no, cuando es continua."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "La línea de borde solo delimita la calzada, no es una línea continua de prohibición: puede atravesarse cuando sea necesario (por ejemplo, para detenerse en el arcén) siempre que las circunstancias lo permitan.",
 "tema_id": 1,
 "imagen": "dgt_e234_p02.jpg",
 "dificultad": 5,
@@ -50,7 +50,7 @@ window.DGT_QUESTIONS = [
 "Sí, ya que aumenta la seguridad de circulación y así se evitan los derrapes."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "La presión correcta es siempre la recomendada por el fabricante. Inflar de más reduce la superficie de contacto del neumático con el asfalto, por lo que no mejora la adherencia ni la seguridad, tampoco con la calzada mojada.",
 "tema_id": 7,
 "imagen": "dgt_e234_p03.jpg",
 "dificultad": 5,
@@ -71,7 +71,7 @@ window.DGT_QUESTIONS = [
 "Únicamente con la luz de emergencia."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "El Reglamento obliga a hacer visible el vehículo inmovilizado en autopista: se enciende la luz de emergencia si se dispone de ella y, cuando la visibilidad lo exija, también las luces de posición.",
 "tema_id": 5,
 "imagen": "dgt_e234_p04.jpg",
 "dificultad": 5,
@@ -92,7 +92,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque se trata de una vía interurbana."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "El carril de aceleración existe precisamente para tomar velocidad e incorporarse: avanzar por él más deprisa que los vehículos de la calzada principal no se considera adelantamiento según el Reglamento General de Circulación.",
 "tema_id": 6,
 "imagen": "dgt_e234_p05.jpg",
 "dificultad": 4,
@@ -113,7 +113,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero es aconsejable encender la luz de cruce."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "De día la luz de carretera no deslumbra, así que no está prohibida con niebla o lluvia intensa; sin embargo, lo aconsejable es el alumbrado de cruce, porque el largo alcance rebota en las gotas y reduce la visibilidad.",
 "tema_id": 6,
 "imagen": "dgt_e234_p06.jpg",
 "dificultad": 5,
@@ -134,7 +134,7 @@ window.DGT_QUESTIONS = [
 "0,25 metros"
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "En vehículos de anchura inferior a un metro el límite es más estricto: la carga no puede sobresalir más de 0,25 metros por delante ni por detrás, para no comprometer su estabilidad ni sorprender a otros usuarios.",
 "tema_id": 6,
 "imagen": "dgt_e234_p07.jpg",
 "dificultad": 4,
@@ -155,7 +155,7 @@ window.DGT_QUESTIONS = [
 "Estacionamiento prohibido."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "El disco de estacionamiento prohibido dentro de un recuadro blanco es una señal de zona: indica que en toda esa zona el estacionamiento está limitado (por tiempo o condiciones), no una prohibición puntual ni un vado.",
 "tema_id": 5,
 "imagen": "dgt_e234_p08.jpg",
 "dificultad": 5,
@@ -176,7 +176,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "El airbag está diseñado para funcionar junto con el cinturón: sin él, el cuerpo se desplaza y golpea la bolsa cuando aún se está inflando a gran velocidad, lo que puede causar lesiones graves.",
 "tema_id": 7,
 "imagen": "dgt_e234_p09.jpg",
 "dificultad": 5,
@@ -197,7 +197,7 @@ window.DGT_QUESTIONS = [
 "Parar el motor y poner el freno de estacionamiento, únicamente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "En bajada se para el motor, se pone el freno de estacionamiento y se deja engranada la marcha atrás: es la marcha contraria al sentido de la pendiente y actúa de freno si falla el de mano.",
 "tema_id": 6,
 "imagen": "dgt_e234_p10.jpg",
 "dificultad": 5,
@@ -218,7 +218,7 @@ window.DGT_QUESTIONS = [
 "Sólo en los viajes largos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "Conducir con lluvia, niebla o viento exige mayor atención y tensión muscular constantes, lo que agota antes al conductor; por eso conviene aumentar la frecuencia de los descansos.",
 "tema_id": 1,
 "imagen": "dgt_e234_p11.jpg",
 "dificultad": 5,
@@ -239,7 +239,7 @@ window.DGT_QUESTIONS = [
 "Sí."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "Los amortiguadores mantienen las ruedas en contacto con el suelo, asegurando estabilidad, dirección y frenada eficaces: son un elemento de seguridad activa que ayuda a evitar accidentes, no solo confort.",
 "tema_id": 6,
 "imagen": "dgt_e234_p12.jpg",
 "dificultad": 5,
@@ -260,7 +260,7 @@ window.DGT_QUESTIONS = [
 "La capacidad del conductor para anticiparse a las circunstancias del tráfico."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "Circular deprisa exige un esfuerzo continuo de atención y anticipación que agota antes: la velocidad elevada favorece la aparición de fatiga, además de estrechar el campo visual y reducir el margen de reacción.",
 "tema_id": 4,
 "imagen": "dgt_e234_p13.jpg",
 "dificultad": 4,
@@ -281,7 +281,7 @@ window.DGT_QUESTIONS = [
 "La circulación sea nocturna."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero-2016).",
+"explicacion": "Fuera de poblado los peatones van por la izquierda, pero hay excepciones que obligan a ir por la derecha: entre ellas, las personas que se desplazan en silla de ruedas, que circulan como los vehículos.",
 "tema_id": 1,
 "imagen": "dgt_e234_p14.jpg",
 "dificultad": 5,
@@ -302,7 +302,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero sólo cuando se conduce a poca velocidad."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "El cinturón es el sistema de seguridad pasiva más eficaz: reduce en torno a la mitad el riesgo de muerte o lesión grave. Protege a cualquier velocidad, también en ciudad y en impactos a baja velocidad.",
 "tema_id": 4,
 "imagen": "dgt_e235_p01.jpg",
 "dificultad": 4,
@@ -323,7 +323,7 @@ window.DGT_QUESTIONS = [
 "Sí. Debo comunicar la venta en el plazo de 10 días, indicando los datos del nuevo titular."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "El Reglamento General de Vehículos obliga al vendedor a notificar la transmisión a la Jefatura de Tráfico en 10 días, aportando los datos del comprador. Así deja de figurar como titular y evita responder de multas o impuestos posteriores.",
 "tema_id": 6,
 "imagen": "dgt_e235_p02.jpg",
 "dificultad": 5,
@@ -344,7 +344,7 @@ window.DGT_QUESTIONS = [
 "Por ambos lados."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "Como norma general se debe bajar por el lado más próximo al borde de la vía y solo cuando pueda hacerse sin peligro: así se evita abrir la puerta hacia la calzada e invadir la zona por donde circulan otros vehículos.",
 "tema_id": 1,
 "imagen": "dgt_e235_p03.jpg",
 "dificultad": 5,
@@ -365,7 +365,7 @@ window.DGT_QUESTIONS = [
 "A detenerse a los usuarios de la vía hacia los que dirige la luz."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "Una luz roja o amarilla balanceada por un agente es una señal de detención obligatoria para los usuarios hacia los que se dirige, según el Reglamento General de Circulación. Las órdenes de los agentes prevalecen sobre cualquier otra señal.",
 "tema_id": 4,
 "imagen": "dgt_e235_p04.jpg",
 "dificultad": 4,
@@ -386,7 +386,7 @@ window.DGT_QUESTIONS = [
 "Siempre, parar detrás del vehículo hasta que reanude la marcha."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "La señal V-10 identifica un transporte escolar. Cuando está parado recogiendo o dejando pasajeros pueden cruzar niños de forma imprevista, por lo que hay que reducir la velocidad y detenerse solo si es necesario, no siempre.",
 "tema_id": 4,
 "imagen": "dgt_e235_p05.jpg",
 "dificultad": 4,
@@ -407,7 +407,7 @@ window.DGT_QUESTIONS = [
 "Un tramo de vía donde no se ve el ancho total de la calzada."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "Por definición legal, el cambio de rasante es el punto donde se encuentran dos tramos de vía con distinta inclinación. Es una zona de visibilidad reducida donde se prohíben maniobras como el adelantamiento con invasión del sentido contrario.",
 "tema_id": 1,
 "imagen": "dgt_e235_p06.jpg",
 "dificultad": 5,
@@ -428,7 +428,7 @@ window.DGT_QUESTIONS = [
 "Una carretera con un paso elevado."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "Es la señal S-1, comienzo de autopista: fondo azul con dos calzadas separadas y un paso elevado. Desde ese punto rigen las normas propias de autopista, como la prohibición de circular a peatones, ciclos y ciclomotores.",
 "tema_id": 1,
 "imagen": "dgt_e235_p07.jpg",
 "dificultad": 5,
@@ -449,7 +449,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque la señal sólo prohíbe el paso a automóviles, y no a ciclomotores."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "El círculo rojo con fondo blanco es la señal R-100, circulación prohibida: veta el paso a toda clase de vehículos en ambos sentidos, incluidos los ciclomotores, aunque estos no sean vehículos de motor a efectos legales.",
 "tema_id": 5,
 "imagen": "dgt_e235_p08.jpg",
 "dificultad": 5,
@@ -470,7 +470,7 @@ window.DGT_QUESTIONS = [
 "A los vehículos que se aproximen por mi derecha."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "El triángulo con un aspa advierte de una intersección donde rige la norma general de prioridad: ninguna vía es preferente, por lo que debe ceder el paso a los vehículos que se aproximen por su derecha.",
 "tema_id": 6,
 "imagen": "dgt_e235_p09.jpg",
 "dificultad": 4,
@@ -491,7 +491,7 @@ window.DGT_QUESTIONS = [
 "No, pero llamaré inmediatamente a los servicios policiales y de urgencia."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "Existe el deber legal de socorro: si no ha llegado ayuda, hay que detenerse y auxiliar a las víctimas en la medida de lo posible, además de avisar a emergencias. No detenerse puede constituir delito de omisión del deber de socorro.",
 "tema_id": 6,
 "imagen": "dgt_e235_p10.jpg",
 "dificultad": 5,
@@ -512,7 +512,7 @@ window.DGT_QUESTIONS = [
 "Camiones de M.M.A mayor de 3.500 kg ni vehículos articulados."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "El panel amarillo con la señal de prohibición de camiones indica una restricción de itinerario: no pueden pasar los camiones de más de 3.500 kg de MMA ni los vehículos articulados. Un turismo puede continuar sin problema.",
 "tema_id": 5,
 "imagen": "dgt_e235_p11.jpg",
 "dificultad": 5,
@@ -533,7 +533,7 @@ window.DGT_QUESTIONS = [
 "No, porque en autopistas no es obligatorio."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "En autopista se pueden encadenar varios adelantamientos sin volver al carril derecho, siempre que no se obstaculice a nadie. Solo debe regresar antes si por detrás se acercan vehículos a mayor velocidad a los que estorbaría.",
 "tema_id": 6,
 "imagen": "dgt_e235_p12.jpg",
 "dificultad": 4,
@@ -554,7 +554,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero sólo cuando la calzada está mojada."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "La goma envejecida y endurecida pierde elasticidad y agarre sobre el asfalto, en seco y en mojado: el vehículo puede derrapar y aumenta la distancia de frenado. Por eso conviene revisar los neumáticos aunque tengan dibujo suficiente.",
 "tema_id": 7,
 "imagen": "dgt_e235_p13.jpg",
 "dificultad": 5,
@@ -575,7 +575,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque no hay señales que lo prohíben."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "Fuera de poblado la parada y el estacionamiento deben hacerse fuera de la calzada, dejando libre la parte transitable del arcén. Ocuparlo solo se justifica por emergencia o avería, no para contemplar el paisaje.",
 "tema_id": 5,
 "imagen": "dgt_e235_p14.jpg",
 "dificultad": 5,
@@ -596,7 +596,7 @@ window.DGT_QUESTIONS = [
 "Prohíbe hacer parada solamente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2016).",
+"explicacion": "La marca vial amarilla longitudinal continua en el bordillo o junto al borde de la calzada prohíbe tanto la parada como el estacionamiento en toda su longitud y en el lado en que está dispuesta.",
 "tema_id": 6,
 "imagen": "dgt_e235_p15.jpg",
 "dificultad": 5,
@@ -617,7 +617,7 @@ window.DGT_QUESTIONS = [
 "Las de posición y las de emergencia."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "De noche, todo vehículo inmovilizado en la calzada o el arcén debe llevar encendidas las luces de posición para ser visto, y la avería se advierte además con las luces de emergencia. Por eso deben usarse ambas a la vez.",
 "tema_id": 7,
 "imagen": "dgt_e236_p01.jpg",
 "dificultad": 5,
@@ -638,7 +638,7 @@ window.DGT_QUESTIONS = [
 "Cuando llevo las piernas dobladas y el cuerpo hacia adelante."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "La postura correcta es con las piernas ligeramente flexionadas y la espalda recta apoyada en el respaldo: así se accionan los pedales con fuerza suficiente y se reacciona con rapidez sin fatigar la musculatura.",
 "tema_id": 6,
 "imagen": "dgt_e236_p02.jpg",
 "dificultad": 4,
@@ -659,7 +659,7 @@ window.DGT_QUESTIONS = [
 "A los dos años de antigüedad."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "Los vehículos de hasta 9 plazas incluido el conductor siguen el calendario de los turismos: primera ITV a los 4 años de antigüedad y después cada 2 años hasta cumplir 10.",
 "tema_id": 2,
 "imagen": "dgt_e236_p03.jpg",
 "dificultad": 5,
@@ -680,7 +680,7 @@ window.DGT_QUESTIONS = [
 "Tiempo de detención."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "Se llama tiempo de reacción al que transcurre entre percibir el peligro y empezar a actuar (por ejemplo, pisar el freno). Sumado al tiempo de frenado da el tiempo total de detención.",
 "tema_id": 6,
 "imagen": "dgt_e236_p04.jpg",
 "dificultad": 5,
@@ -701,7 +701,7 @@ window.DGT_QUESTIONS = [
 "El factor vehículo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "El factor humano interviene en alrededor del 90% de los accidentes (distracciones, velocidad inadecuada, alcohol, fatiga), muy por encima de los fallos del vehículo o del estado de la vía.",
 "tema_id": 1,
 "imagen": "dgt_e236_p05.jpg",
 "dificultad": 5,
@@ -722,7 +722,7 @@ window.DGT_QUESTIONS = [
 "No, porque no es un ruido que pueda distraer al conductor."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "Aunque no se use, un móvil encendido puede sonar de forma inesperada y sorprender al conductor, como cualquier ruido súbito: esa distracción momentánea ya supone un riesgo.",
 "tema_id": 7,
 "imagen": "dgt_e236_p06.jpg",
 "dificultad": 5,
@@ -743,7 +743,7 @@ window.DGT_QUESTIONS = [
 "trazado monótono."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "Los trazados monótonos (rectas largas, poco estímulo visual, tipo autopista) reducen el nivel de activación y favorecen la somnolencia; las curvas o el tráfico denso obligan a mantener la atención.",
 "tema_id": 1,
 "imagen": "dgt_e236_p07.jpg",
 "dificultad": 5,
@@ -764,7 +764,7 @@ window.DGT_QUESTIONS = [
 "La realizada con el brazo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "Las advertencias hechas con el brazo prevalecen sobre las luminosas: sirven precisamente para corregir o anular un intermitente encendido por error, según el Reglamento General de Circulación.",
 "tema_id": 5,
 "imagen": "dgt_e236_p08.jpg",
 "dificultad": 5,
@@ -785,7 +785,7 @@ window.DGT_QUESTIONS = [
 "Sólo en vía urbana."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "En una caída, las manos suelen ser lo primero que apoya el motorista: los guantes evitan abrasiones y fracturas, además de mejorar el agarre. Son aconsejables siempre, en cualquier vía.",
 "tema_id": 1,
 "imagen": "dgt_e236_p09.jpg",
 "dificultad": 5,
@@ -806,7 +806,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "El Reglamento General de Vehículos prohíbe circular emitiendo humos por encima de los límites reglamentarios: contamina y suele delatar una avería. La ITV controla precisamente estas emisiones.",
 "tema_id": 6,
 "imagen": "dgt_e236_p10.jpg",
 "dificultad": 5,
@@ -827,7 +827,7 @@ window.DGT_QUESTIONS = [
 "A la derecha, fuera de la calzada si es posible, e iniciarlo desde ese lugar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "En vías interurbanas, ciclos y ciclomotores de dos ruedas giran a la izquierda situándose a la derecha, fuera de la calzada si es posible, e iniciando el giro desde allí: así evitan cruzarse con el tráfico rápido en mitad de la vía.",
 "tema_id": 1,
 "imagen": "dgt_e236_p11.jpg",
 "dificultad": 5,
@@ -848,7 +848,7 @@ window.DGT_QUESTIONS = [
 "No, porque esta recomendación carece de sentido circulando."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "Buena parte de los accidentes de moto en ciudad son alcances: mantener la distancia de seguridad da margen para frenar sin golpear a la motocicleta, que puede detenerse en muy poco espacio.",
 "tema_id": 4,
 "imagen": "dgt_e236_p12.jpg",
 "dificultad": 4,
@@ -869,7 +869,7 @@ window.DGT_QUESTIONS = [
 "es más agresivo y menos competitivo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "La cocaína es un estimulante que provoca sobrevaloración de las propias capacidades, impulsividad y conducción más competitiva y agresiva, aumentando mucho el riesgo de accidente.",
 "tema_id": 3,
 "imagen": "dgt_e236_p13.jpg",
 "dificultad": 4,
@@ -890,7 +890,7 @@ window.DGT_QUESTIONS = [
 "Porque suelen estorbar el tráfico."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2016).",
+"explicacion": "Con lluvia o viento el ciclista pierde estabilidad y adherencia y puede sufrir desplazamientos laterales bruscos: la probabilidad de caída aumenta, por lo que conviene ampliar la separación al adelantarlo.",
 "tema_id": 1,
 "imagen": "dgt_e236_p14.jpg",
 "dificultad": 5,
@@ -911,7 +911,7 @@ window.DGT_QUESTIONS = [
 "No, sólo se debe utilizar en los casos de inmovilización del vehículo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "El freno de mano es un freno de estacionamiento: sirve para inmovilizar el vehículo detenido. Usarlo en marcha puede bloquear las ruedas traseras y provocar un derrape, porque actúa solo sobre un eje y sin la dosificación del freno de servicio.",
 "tema_id": 7,
 "imagen": "dgt_e237_p01.jpg",
 "dificultad": 5,
@@ -932,7 +932,7 @@ window.DGT_QUESTIONS = [
 "Los vehículos cuya anchura sea mayor de 2,10 metros."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "El Reglamento General de Vehículos exige luces de gálibo a los vehículos cuya anchura supera los 2,10 metros: señalizan el contorno del vehículo para que los demás perciban sus dimensiones, sobre todo de noche.",
 "tema_id": 7,
 "imagen": "dgt_e237_p02.jpg",
 "dificultad": 4,
@@ -953,7 +953,7 @@ window.DGT_QUESTIONS = [
 "Motocicletas de más de 125 cc."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "El permiso B autoriza a conducir turismos y también ciclomotores de dos, tres y cuatro ruedas. No habilita para motocicletas: eso requiere permisos de la clase A (salvo la excepción de motos hasta 125 cc con 3 años de antigüedad del B, solo en España).",
 "tema_id": 7,
 "imagen": "dgt_e237_p03.jpg",
 "dificultad": 5,
@@ -974,7 +974,7 @@ window.DGT_QUESTIONS = [
 "Los turismos sin remolque y las motocicletas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "Por un carril habilitado en sentido contrario al habitual solo pueden circular turismos sin remolque y motocicletas, con el alumbrado de cruce encendido y a velocidad reducida: son los vehículos más ágiles y con menos riesgo en un carril excepcional.",
 "tema_id": 4,
 "imagen": "dgt_e237_p04.jpg",
 "dificultad": 4,
@@ -995,7 +995,7 @@ window.DGT_QUESTIONS = [
 "Sí."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "Siempre hay que ceder el paso a una fila de escolares que cruza la calzada, lleven o no acompañante con señal. Los peatones que ya están cruzando tienen prioridad y los niños son usuarios especialmente vulnerables.",
 "tema_id": 1,
 "imagen": "dgt_e237_p05.jpg",
 "dificultad": 5,
@@ -1016,7 +1016,7 @@ window.DGT_QUESTIONS = [
 "Obliga a continuar por donde indica la flecha."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "La flecha negra sobre la luz roja limita la prohibición al movimiento que indica: no se puede circular en la dirección de la flecha mientras la luz esté encendida, aunque otros movimientos puedan estar permitidos.",
 "tema_id": 5,
 "imagen": "dgt_e237_p06.jpg",
 "dificultad": 5,
@@ -1037,7 +1037,7 @@ window.DGT_QUESTIONS = [
 "No, en autovía nunca se debe circular a menos de la velocidad mínima permitida."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "Con niebla intensa se debe moderar la velocidad para poder detenerse dentro del campo de visión. La velocidad mínima de autovía (60 km/h) puede rebajarse cuando las condiciones meteorológicas o del tráfico lo exijan.",
 "tema_id": 4,
 "imagen": "dgt_e237_p07.jpg",
 "dificultad": 4,
@@ -1058,7 +1058,7 @@ window.DGT_QUESTIONS = [
 "Del factor humano."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "El alcohol, la fatiga y la velocidad excesiva dependen del estado y las decisiones del conductor: son factor humano, presente en alrededor del 90% de los accidentes, muy por encima de los factores vehículo y vía.",
 "tema_id": 3,
 "imagen": "dgt_e237_p08.jpg",
 "dificultad": 4,
@@ -1079,7 +1079,7 @@ window.DGT_QUESTIONS = [
 "Una sola placa en la parte delantera."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "Las motocicletas llevan una única placa de matrícula, colocada en la parte posterior en posición vertical. A diferencia de los turismos, no llevan placa delantera.",
 "tema_id": 2,
 "imagen": "dgt_e237_p09.jpg",
 "dificultad": 5,
@@ -1100,7 +1100,7 @@ window.DGT_QUESTIONS = [
 "Que se puede parar y estacionar."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "La marca longitudinal amarilla continua junto al borde de la calzada prohíbe tanto la parada como el estacionamiento en todo el tramo que abarca, porque en él la detención obstaculizaría la circulación.",
 "tema_id": 5,
 "imagen": "dgt_e237_p10.jpg",
 "dificultad": 5,
@@ -1121,7 +1121,7 @@ window.DGT_QUESTIONS = [
 "Aplicar sobre el parabrisas el líquido que recomienda el fabricante para facilitar el desplazamiento de las escobillas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "Las escobillas se desgastan y cristalizan con el sol y el uso: hay que revisarlas periódicamente para que barran bien el agua y no reduzcan la visibilidad. Tener el depósito lleno no sirve de nada si las gomas están deterioradas.",
 "tema_id": 6,
 "imagen": "dgt_e237_p11.jpg",
 "dificultad": 5,
@@ -1142,7 +1142,7 @@ window.DGT_QUESTIONS = [
 "Mayor, para así disponer de más tiempo y espacio para reaccionar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "Con lluvia, niebla o hielo aumenta la distancia de frenado y disminuye la visibilidad, así que la separación con el vehículo de delante debe ser mayor: se gana tiempo y espacio para reaccionar ante cualquier imprevisto.",
 "tema_id": 6,
 "imagen": "dgt_e237_p12.jpg",
 "dificultad": 5,
@@ -1163,7 +1163,7 @@ window.DGT_QUESTIONS = [
 "Sólo los conductores de vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "La Ley de Seguridad Vial obliga a someterse a las pruebas de alcoholemia a todos los conductores y a cualquier usuario de la vía implicado en un accidente como posible responsable, incluidos los peatones. Negarse es delito.",
 "tema_id": 3,
 "imagen": "dgt_e237_p13.jpg",
 "dificultad": 4,
@@ -1184,7 +1184,7 @@ window.DGT_QUESTIONS = [
 "Sólo de noche."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "Los vehículos de conservación de carreteras circulan a velocidad muy reducida, un peligro en autopista: por eso deben llevar encendida la luz amarilla V-2 desde que entran en la vía, no solo al llegar al tajo, para advertir al resto de usuarios.",
 "tema_id": 1,
 "imagen": "dgt_e237_p14.jpg",
 "dificultad": 5,
@@ -1205,7 +1205,7 @@ window.DGT_QUESTIONS = [
 "Es obligatorio."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2016).",
+"explicacion": "Es la señal circular azul de velocidad mínima: obliga a circular al menos a 30 km/h desde ese punto, salvo que las circunstancias del tráfico o de la vía exijan ir más despacio. Las señales azules circulares imponen obligaciones, no recomendaciones.",
 "tema_id": 5,
 "imagen": "dgt_e237_p15.jpg",
 "dificultad": 4,
@@ -1226,7 +1226,7 @@ window.DGT_QUESTIONS = [
 "no reduce su eficacia en caso de accidente."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "Un cinturón con holguras o cintas retorcidas no retiene el cuerpo desde el primer instante del impacto: permite que se desplace y concentra la presión en zonas pequeñas, por lo que pierde eficacia y puede causar lesiones.",
 "tema_id": 7,
 "imagen": "dgt_e238_p01.jpg",
 "dificultad": 5,
@@ -1247,7 +1247,7 @@ window.DGT_QUESTIONS = [
 "Que por el carril derecho se llega a una senda ciclable."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "Es una señal de carriles: el carril derecho lleva el símbolo de ciclo, así que queda reservado exclusivamente para ciclos. Los ciclomotores no son ciclos y no pueden usarlo.",
 "tema_id": 5,
 "imagen": "dgt_e238_p02.jpg",
 "dificultad": 5,
@@ -1268,7 +1268,7 @@ window.DGT_QUESTIONS = [
 "Sí; ya que la adherencia es menor y, por consiguiente, la distancia de frenado aumenta."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "Con lluvia intensa la adherencia neumático-asfalto disminuye y la distancia de frenado aumenta, por lo que hay que reducir la velocidad y ampliar la distancia de seguridad. Además existe riesgo de acuaplaning.",
 "tema_id": 4,
 "imagen": "dgt_e238_p03.jpg",
 "dificultad": 4,
@@ -1289,7 +1289,7 @@ window.DGT_QUESTIONS = [
 "Incorporándose al carril de forma gradual sin obstaculizar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "El Reglamento de Circulación obliga a terminar el adelantamiento volviendo al carril de forma gradual, sin obligar al adelantado a frenar ni a modificar su trayectoria.",
 "tema_id": 6,
 "imagen": "dgt_e238_p04.jpg",
 "dificultad": 4,
@@ -1310,7 +1310,7 @@ window.DGT_QUESTIONS = [
 "A mayor velocidad, mayor campo visual."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "A medida que aumenta la velocidad el campo visual se estrecha (efecto túnel): a 130 km/h se reduce a unos 30 grados, lo que dificulta percibir lo que ocurre a los lados.",
 "tema_id": 4,
 "imagen": "dgt_e238_p05.jpg",
 "dificultad": 4,
@@ -1331,7 +1331,7 @@ window.DGT_QUESTIONS = [
 "Sí, para adelantar cuando los carriles estén ocupados."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "La mediana no es zona de circulación, pero en una emergencia, si es imposible inmovilizar el vehículo en el arcén derecho, se permite hacerlo en ella como último recurso. Nunca sirve para adelantar.",
 "tema_id": 6,
 "imagen": "dgt_e238_p06.jpg",
 "dificultad": 4,
@@ -1352,7 +1352,7 @@ window.DGT_QUESTIONS = [
 "Que se inmovilice el vehículo fuera de la calzada."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "En las señales de los agentes, los toques de silbato cortos y frecuentes ordenan detenerse a quienes se dirigen; un toque largo ordena reanudar la marcha.",
 "tema_id": 1,
 "imagen": "dgt_e238_p07.jpg",
 "dificultad": 5,
@@ -1373,7 +1373,7 @@ window.DGT_QUESTIONS = [
 "Impulsividad."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "El resfriado, y a menudo los medicamentos que se toman para tratarlo, producen somnolencia y pérdida de concentración, lo que aumenta el tiempo de reacción al volante.",
 "tema_id": 6,
 "imagen": "dgt_e238_p08.jpg",
 "dificultad": 5,
@@ -1394,7 +1394,7 @@ window.DGT_QUESTIONS = [
 "No, sólo debe dejar accionado el freno de mano."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "Si el conductor abandona el puesto de conducción, la norma exige parar el motor y desconectar el sistema de arranque, además de asegurar la inmovilización del vehículo.",
 "tema_id": 7,
 "imagen": "dgt_e238_p09.jpg",
 "dificultad": 5,
@@ -1415,7 +1415,7 @@ window.DGT_QUESTIONS = [
 "La menor percepción del riesgo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "Los conductores jóvenes tienden a infravalorar el peligro y a sobrevalorar sus capacidades; esa menor percepción del riesgo es uno de los factores clave de sus accidentes.",
 "tema_id": 7,
 "imagen": "dgt_e238_p10.jpg",
 "dificultad": 5,
@@ -1436,7 +1436,7 @@ window.DGT_QUESTIONS = [
 "Salir de la calzada por la derecha, si fuera posible, y esperar hasta que las condiciones de la circulación le permitan hacer la maniobra."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "El cambio de sentido no puede obstaculizar a otros usuarios: si estorba a los que vienen detrás, debe salir de la calzada por la derecha, si es posible, y esperar a que la circulación permita la maniobra con seguridad.",
 "tema_id": 5,
 "imagen": "dgt_e238_p11.jpg",
 "dificultad": 5,
@@ -1457,7 +1457,7 @@ window.DGT_QUESTIONS = [
 "Sí, siempre."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "Al repostar es obligatorio apagar siempre el motor: los vapores del combustible son inflamables y cualquier chispa podría provocar un incendio, sin importar quién llene el depósito.",
 "tema_id": 7,
 "imagen": "dgt_e238_p12.jpg",
 "dificultad": 5,
@@ -1478,7 +1478,7 @@ window.DGT_QUESTIONS = [
 "Ser resistente a los golpes y a la abrasión en caso de caída."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "El equipamiento del motorista busca protección: el traje debe resistir golpes y abrasión en caso de caída y deslizamiento. Los colores llamativos, no oscuros, mejoran además la visibilidad.",
 "tema_id": 6,
 "imagen": "dgt_e238_p13.jpg",
 "dificultad": 5,
@@ -1499,7 +1499,7 @@ window.DGT_QUESTIONS = [
 "Es la principal causa de distracción durante la conducción."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "Fumar obliga a soltar una mano del volante y el humo o la caída de ceniza pueden distraer, por lo que puede interferir en la conducción y provocar un accidente. No es, sin embargo, la principal causa de distracción.",
 "tema_id": 6,
 "imagen": "dgt_e238_p14.jpg",
 "dificultad": 5,
@@ -1520,7 +1520,7 @@ window.DGT_QUESTIONS = [
 "Indistintamente, por la derecha o por la izquierda siempre que haya un arcén."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2016).",
+"explicacion": "Fuera de poblado los peatones deben circular por la izquierda como norma general: así ven de frente a los vehículos que se aproximan y pueden reaccionar a tiempo.",
 "tema_id": 1,
 "imagen": "dgt_e238_p15.jpg",
 "dificultad": 5,
@@ -1541,7 +1541,7 @@ window.DGT_QUESTIONS = [
 "No, porque es de día."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Cuando el humo, la niebla o el polvo reducen la visibilidad, el Reglamento obliga a encender la luz antiniebla delantera o la de corto o largo alcance, incluso de día: se trata de ver y de ser visto.",
 "tema_id": 7,
 "imagen": "dgt_e239_p01.jpg",
 "dificultad": 5,
@@ -1562,7 +1562,7 @@ window.DGT_QUESTIONS = [
 "La proximidad de un tramo de la vía con desprendimientos frecuentes y la presencia de obstáculos en la calzada."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Es la señal de peligro por visibilidad reducida: anuncia un tramo donde la niebla, la lluvia, la nieve o el humo pueden dificultar la visión, por lo que conviene moderar la velocidad y aumentar la distancia.",
 "tema_id": 5,
 "imagen": "dgt_e239_p02.jpg",
 "dificultad": 5,
@@ -1583,7 +1583,7 @@ window.DGT_QUESTIONS = [
 "La prohibición de rebasar la línea imaginaria que los une."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Los conos son elementos de balizamiento: prohíben rebasar la línea imaginaria que los une, con el mismo efecto que una línea continua, para delimitar zonas de la calzada.",
 "tema_id": 5,
 "imagen": "dgt_e239_p03.jpg",
 "dificultad": 5,
@@ -1604,7 +1604,7 @@ window.DGT_QUESTIONS = [
 "Siempre los turismos sobre el resto de vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Cambiar de carril es una maniobra y quien la realiza debe cederla: la prioridad corresponde al vehículo que ya circula por el carril que se pretende ocupar. El intermitente avisa, pero no otorga preferencia.",
 "tema_id": 6,
 "imagen": "dgt_e239_p04.jpg",
 "dificultad": 4,
@@ -1625,7 +1625,7 @@ window.DGT_QUESTIONS = [
 "Sí, para descongestionar el tráfico."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "El arcén no es un carril de circulación para turismos: usarlo para esquivar retenciones o por prisa está prohibido; solo pueden ocuparlo determinados vehículos lentos y en situaciones de emergencia.",
 "tema_id": 6,
 "imagen": "dgt_e239_p05.jpg",
 "dificultad": 5,
@@ -1646,7 +1646,7 @@ window.DGT_QUESTIONS = [
 "Que los vehículos que circulan detrás mantienen la distancia de seguridad."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Antes de adelantar hay que mirar los retrovisores y asegurarse de que ningún conductor de detrás ha iniciado ya el adelantamiento; si lo hubiera hecho, invadir su trayectoria provocaría un riesgo grave de colisión.",
 "tema_id": 6,
 "imagen": "dgt_e239_p06.jpg",
 "dificultad": 4,
@@ -1667,7 +1667,7 @@ window.DGT_QUESTIONS = [
 "La del intermitente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Cuando ambas señales se contradicen prevalece la del brazo: refleja la intención actual del conductor, mientras que el intermitente puede haberse quedado encendido por error.",
 "tema_id": 5,
 "imagen": "dgt_e239_p07.jpg",
 "dificultad": 5,
@@ -1688,7 +1688,7 @@ window.DGT_QUESTIONS = [
 "Estacionar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "El Reglamento prohíbe estacionar en doble fila en todo caso; la parada (máximo 2 minutos y sin abandonar el vehículo) puede admitirse excepcionalmente si no obstaculiza la circulación.",
 "tema_id": 6,
 "imagen": "dgt_e239_p08.jpg",
 "dificultad": 5,
@@ -1709,7 +1709,7 @@ window.DGT_QUESTIONS = [
 "A todos los vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Si el semáforo está fuera de servicio y no hay otra señalización de prioridad, rige la norma general: hay que ceder el paso a los vehículos que se aproximan por la derecha.",
 "tema_id": 6,
 "imagen": "dgt_e239_p09.jpg",
 "dificultad": 5,
@@ -1730,7 +1730,7 @@ window.DGT_QUESTIONS = [
 "No; está prohibido el uso de este alumbrado en vías urbanas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "La luz de emergencia también se usa en marcha para advertir de que se circula a velocidad anormalmente reducida, por ejemplo por avería; así se alerta al resto de conductores del riesgo de alcance.",
 "tema_id": 7,
 "imagen": "dgt_e239_p10.jpg",
 "dificultad": 4,
@@ -1751,7 +1751,7 @@ window.DGT_QUESTIONS = [
 "A baja velocidad con la marcha más larga que se pueda, evitando frenadas bruscas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Con placas de hielo conviene bajar con la marcha más corta posible: el freno motor retiene el vehículo sin apenas pisar el freno, evitando bloquear las ruedas y deslizar. El freno de mano en curva provocaría un derrape.",
 "tema_id": 4,
 "imagen": "dgt_e239_p11.jpg",
 "dificultad": 4,
@@ -1772,7 +1772,7 @@ window.DGT_QUESTIONS = [
 "100 kilómetros por hora."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017). Actualizada (RD 29-ene-2019): en carretera convencional el máximo para motos y turismos es 90 km/h; se eliminó el antiguo 100 con arcén ancho.",
+"explicacion": "La velocidad máxima genérica de las motocicletas en carretera convencional es de 90 km/h; desde 2021 ese límite es además el general para turismos y motos, con independencia del ancho del arcén.",
 "tema_id": 4,
 "imagen": "dgt_e239_p12.jpg",
 "dificultad": 4,
@@ -1793,7 +1793,7 @@ window.DGT_QUESTIONS = [
 "No es necesario descansar."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "La lluvia, la niebla o el viento exigen más atención y tensión al volante, por lo que la fatiga aparece antes: en condiciones adversas hay que descansar con mayor frecuencia.",
 "tema_id": 6,
 "imagen": "dgt_e239_p13.jpg",
 "dificultad": 5,
@@ -1814,7 +1814,7 @@ window.DGT_QUESTIONS = [
 "Sí, mientras no se pueda continuar la marcha sin obligar a detenerse a los vehículos que circulen en sentido contrario."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Es la señal de prioridad al sentido contrario: obliga a ceder el paso en el estrechamiento y a detenerse si es necesario, mientras no se pueda pasar sin obligar a parar a los vehículos que vienen de frente.",
 "tema_id": 6,
 "imagen": "dgt_e239_p14.jpg",
 "dificultad": 4,
@@ -1835,7 +1835,7 @@ window.DGT_QUESTIONS = [
 "termina la recomendación de circular a más de 30 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Febrero 2017).",
+"explicacion": "Es el fin de la velocidad mínima: a partir de la señal deja de ser obligatorio circular al menos a 30 km/h. Las señales de obligación terminan con el mismo símbolo tachado en rojo.",
 "tema_id": 5,
 "imagen": "dgt_e239_p15.jpg",
 "dificultad": 4,
@@ -1856,7 +1856,7 @@ window.DGT_QUESTIONS = [
 "Ninguno, no es una situación de riesgo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "El autobús detenido crea una pantalla que oculta a los viajeros que acaban de bajar y pueden cruzar por delante o por detrás. Por eso hay que rebasarlo moderando la velocidad y preparados para detenerse.",
 "tema_id": 1,
 "imagen": "dgt_e241_p01.jpg",
 "dificultad": 5,
@@ -1877,7 +1877,7 @@ window.DGT_QUESTIONS = [
 "reservado para parada de autobús, no pudiendo parar otros vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "La marca amarilla en zig-zag prohíbe estacionar porque ese tramo se reserva a un uso especial, como la parada de autobuses. La parada (detención de menos de 2 minutos sin abandonar el vehículo) sí está permitida.",
 "tema_id": 6,
 "imagen": "dgt_e241_p02.jpg",
 "dificultad": 5,
@@ -1898,7 +1898,7 @@ window.DGT_QUESTIONS = [
 "tienen el mismo significado que las usadas en tramos sin obras."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "Las señales de obras solo cambian el fondo, que es amarillo para advertir de la situación temporal; su símbolo y su significado son idénticos a los de las señales usadas en tramos sin obras, y obligan igual.",
 "tema_id": 4,
 "imagen": "dgt_e241_p03.jpg",
 "dificultad": 4,
@@ -1919,7 +1919,7 @@ window.DGT_QUESTIONS = [
 "después de una fuerte discusión."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "Los estados emocionales intensos, como el enfado tras una discusión, distraen la atención y ralentizan la respuesta ante un imprevisto, por lo que aumentan el tiempo de reacción. Ni una comida ligera ni usar gafas graduadas lo empeoran.",
 "tema_id": 6,
 "imagen": "dgt_e241_p04.jpg",
 "dificultad": 5,
@@ -1940,7 +1940,7 @@ window.DGT_QUESTIONS = [
 "no es recomendable, porque puede afectar a la atención en la conducción."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "Fumar al volante no está prohibido expresamente, pero es desaconsejable: encender y manipular el cigarrillo aparta una mano del volante y desvía la atención de la conducción.",
 "tema_id": 6,
 "imagen": "dgt_e241_p05.jpg",
 "dificultad": 5,
@@ -1961,7 +1961,7 @@ window.DGT_QUESTIONS = [
 "propicia la aparición de la fatiga."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "La conducción prolongada sin pausas favorece la aparición de fatiga, que reduce la atención y multiplica los errores. Por eso se recomienda descansar cada 2 horas o cada 200 kilómetros aproximadamente.",
 "tema_id": 1,
 "imagen": "dgt_e241_p06.jpg",
 "dificultad": 5,
@@ -1982,7 +1982,7 @@ window.DGT_QUESTIONS = [
 "A la altura de la cabeza."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "El reposacabezas debe quedar a la altura de la cabeza, con su centro aproximadamente a la altura de los ojos y cerca de la nuca: así frena el desplazamiento del cuello en un alcance y evita el latigazo cervical.",
 "tema_id": 7,
 "imagen": "dgt_e241_p07.jpg",
 "dificultad": 5,
@@ -2003,7 +2003,7 @@ window.DGT_QUESTIONS = [
 "Circular pisando el freno intermitentemente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "Sobre hielo la adherencia es mínima: lo seguro es circular muy despacio y con suavidad para no tener que frenar. Pisar el freno o el embrague sobre hielo facilita el bloqueo de las ruedas y la pérdida de control.",
 "tema_id": 4,
 "imagen": "dgt_e241_p08.jpg",
 "dificultad": 4,
@@ -2024,7 +2024,7 @@ window.DGT_QUESTIONS = [
 "Para comprobar la presión del aceite."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "La varilla sirve para comprobar el nivel de aceite del motor, que debe situarse entre las marcas de mínimo y máximo. La comprobación se hace con el motor frío y el vehículo en llano para que la medida sea fiable.",
 "tema_id": 7,
 "imagen": "dgt_e241_p09.jpg",
 "dificultad": 5,
@@ -2045,7 +2045,7 @@ window.DGT_QUESTIONS = [
 "No hay limitación de kilómetros porque se trata de una situación excepcional."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "La rueda de uso temporal es una solución provisional: solo permite recorrer los kilómetros que fije el fabricante y sin superar la velocidad indicada en la propia rueda (habitualmente 80 km/h), hasta montar un neumático normal.",
 "tema_id": 4,
 "imagen": "dgt_e241_p10.jpg",
 "dificultad": 4,
@@ -2066,7 +2066,7 @@ window.DGT_QUESTIONS = [
 "Las de posición solamente."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "De noche en una travesía es obligatorio llevar encendidas la luz de posición y la de cruce (corta). La luz de carretera (larga) no debe usarse en tramos urbanos porque deslumbraría a los demás usuarios.",
 "tema_id": 7,
 "imagen": "dgt_e241_p11.jpg",
 "dificultad": 5,
@@ -2087,7 +2087,7 @@ window.DGT_QUESTIONS = [
 "A los vehículos que tienen más de 3,5 metros de altura."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2017).",
+"explicacion": "Es la señal de limitación de altura: los triángulos apuntando a la cifra desde arriba y abajo indican gálibo vertical. Prohíbe el paso a los vehículos cuya altura, incluida la carga, supere los 3,5 metros.",
 "tema_id": 5,
 "imagen": "dgt_e241_p12.jpg",
 "dificultad": 4,
@@ -2108,7 +2108,7 @@ window.DGT_QUESTIONS = [
 "Cambiar la luz de largo alcance por la luz de cruce."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "Al terminar el adelantamiento nocturno, el adelantado debe cambiar la luz de largo alcance por la de cruce para no deslumbrar por los retrovisores al vehículo que acaba de pasarle y ya circula delante.",
 "tema_id": 4,
 "imagen": "dgt_e242_p01.jpg",
 "dificultad": 4,
@@ -2129,7 +2129,7 @@ window.DGT_QUESTIONS = [
 "75 km/h"
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "La imagen muestra una autopista/autovía, con velocidad genérica de 120 km/h; la velocidad mínima es la mitad de la genérica de la vía, es decir, 60 km/h para los turismos.",
 "tema_id": 4,
 "imagen": "dgt_e242_p02.jpg",
 "dificultad": 4,
@@ -2150,7 +2150,7 @@ window.DGT_QUESTIONS = [
 "De un muelle."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "Es una señal triangular de advertencia de peligro que anuncia la proximidad de un puente móvil, que puede interrumpir el paso: conviene reducir la velocidad y extremar la atención.",
 "tema_id": 5,
 "imagen": "dgt_e242_p03.jpg",
 "dificultad": 5,
@@ -2171,7 +2171,7 @@ window.DGT_QUESTIONS = [
 "No está permitido que sobresalga la carga del vehículo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "El Reglamento permite que la carga sobresalga por la parte posterior hasta un 10% de la longitud del vehículo y, si es indivisible, hasta un 15%, señalizándola con el panel V-20.",
 "tema_id": 6,
 "imagen": "dgt_e242_p04.jpg",
 "dificultad": 5,
@@ -2192,7 +2192,7 @@ window.DGT_QUESTIONS = [
 "No realizar movimientos en el asiento, ni cambios de postura."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "La fatiga se delata con parpadeos más frecuentes y prolongados, visión borrosa, picor de ojos e inquietud postural: son avisos claros de que hay que parar y descansar.",
 "tema_id": 6,
 "imagen": "dgt_e242_p05.jpg",
 "dificultad": 5,
@@ -2213,7 +2213,7 @@ window.DGT_QUESTIONS = [
 "Cuando se estacione el vehículo en doble fila."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "La señal de emergencia es obligatoria cuando el vehículo queda inmovilizado en autopista o autovía: un coche detenido donde se circula a gran velocidad es un peligro que hay que advertir.",
 "tema_id": 4,
 "imagen": "dgt_e242_p06.jpg",
 "dificultad": 4,
@@ -2234,7 +2234,7 @@ window.DGT_QUESTIONS = [
 "No importa la distancia porque circula por el arcén."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "Para adelantar a ciclistas es obligatoria una separación lateral mínima de 1,5 metros, también cuando circulan por el arcén, por el grave riesgo que corren en caso de rozamiento.",
 "tema_id": 6,
 "imagen": "dgt_e242_p07.jpg",
 "dificultad": 4,
@@ -2255,7 +2255,7 @@ window.DGT_QUESTIONS = [
 "Circular a la velocidad mínima de la vía."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "Con niebla la visibilidad se reduce y el asfalto pierde adherencia: aumentar la distancia de seguridad da más margen de frenado ante cualquier imprevisto que aparezca de repente.",
 "tema_id": 4,
 "imagen": "dgt_e242_p08.jpg",
 "dificultad": 4,
@@ -2276,7 +2276,7 @@ window.DGT_QUESTIONS = [
 "Que me acerco a una línea continua."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "Es la flecha de retorno: marca vial que avisa de que se aproxima una línea continua, por lo que quien esté adelantando debe volver cuanto antes a su carril.",
 "tema_id": 5,
 "imagen": "dgt_e242_p09.jpg",
 "dificultad": 5,
@@ -2297,7 +2297,7 @@ window.DGT_QUESTIONS = [
 "Solo si no hay señal que lo prohíba expresamente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "Está prohibido parar ocupando la acera, aunque sea parcialmente: es un espacio reservado a los peatones y invadirlo les obliga a bajar a la calzada, con riesgo de atropello.",
 "tema_id": 5,
 "imagen": "dgt_e242_p10.jpg",
 "dificultad": 5,
@@ -2318,7 +2318,7 @@ window.DGT_QUESTIONS = [
 "El conductor."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "Cada ocupante mayor de edad responde de sus propias infracciones: si un pasajero adulto no lleva el cinturón, el denunciado es él; el conductor solo responde por los menores.",
 "tema_id": 7,
 "imagen": "dgt_e242_p11.jpg",
 "dificultad": 5,
@@ -2339,7 +2339,7 @@ window.DGT_QUESTIONS = [
 "Cuando la profundidad del dibujo sea menor de 3 mm."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "La profundidad mínima legal del dibujo del neumático es 1,6 mm; por debajo, el neumático no evacua bien el agua, pierde adherencia y debe sustituirse.",
 "tema_id": 7,
 "imagen": "dgt_e242_p12.jpg",
 "dificultad": 5,
@@ -2360,7 +2360,7 @@ window.DGT_QUESTIONS = [
 "El tiempo que pasa desde que se ve un peligro hasta que se toma una decisión."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "El tiempo de reacción va desde que se percibe el peligro hasta que se toma la decisión de actuar; durante ese intervalo el vehículo sigue avanzando sin frenar, y crece con la fatiga o el alcohol.",
 "tema_id": 6,
 "imagen": "dgt_e242_p13.jpg",
 "dificultad": 5,
@@ -2381,7 +2381,7 @@ window.DGT_QUESTIONS = [
 "Del factor vía y entorno."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "Hielo, nieve, calzada mojada y obras son condiciones de la carretera y su entorno: pertenecen al factor vía-entorno, uno de los tres factores de riesgo junto al humano y al vehículo.",
 "tema_id": 1,
 "imagen": "dgt_e242_p14.jpg",
 "dificultad": 5,
@@ -2402,7 +2402,7 @@ window.DGT_QUESTIONS = [
 "No, porque no afecta a la conducción."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre-2017).",
+"explicacion": "El estrés sí altera las capacidades: dispersa la atención, aumenta la agresividad y lleva a decisiones precipitadas, elevando el riesgo de accidente.",
 "tema_id": 6,
 "imagen": "dgt_e242_p15.jpg",
 "dificultad": 5,
@@ -2423,7 +2423,7 @@ window.DGT_QUESTIONS = [
 "Circular al anochecer por una vía sin arcén."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "La luz antiniebla trasera es muy intensa y deslumbra al que circula detrás, por lo que solo debe encenderse con niebla espesa, lluvia muy intensa o fuerte nevada; en condiciones normales está prohibida.",
 "tema_id": 6,
 "imagen": "dgt_e243_p01.jpg",
 "dificultad": 5,
@@ -2444,7 +2444,7 @@ window.DGT_QUESTIONS = [
 "A todos los camiones de menos de 3.500 kg. de M.M.A."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "La señal muestra la silueta de un camión a la izquierda: prohíbe adelantar a los camiones con masa máxima autorizada superior a 3.500 kg. Los turismos y demás vehículos pueden seguir adelantando.",
 "tema_id": 5,
 "imagen": "dgt_e243_p02.jpg",
 "dificultad": 4,
@@ -2465,7 +2465,7 @@ window.DGT_QUESTIONS = [
 "Sí; deberá colocarse en la parte posterior de la carga."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "Toda carga que sobresalga por detrás debe señalizarse en su extremo con el panel V-20, sea cual sea el vehículo, también un turismo. Su función es hacer visible el saliente a los demás conductores.",
 "tema_id": 5,
 "imagen": "dgt_e243_p03.jpg",
 "dificultad": 5,
@@ -2486,7 +2486,7 @@ window.DGT_QUESTIONS = [
 "La calzada o el arcén de todo tipo de vías, tanto urbanas como interurbanas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "El chaleco reflectante de alta visibilidad es obligatorio cuando el conductor sale del vehículo y ocupa la calzada o el arcén de una vía interurbana: permite ser visto a distancia y reduce el riesgo de atropello.",
 "tema_id": 1,
 "imagen": "dgt_e243_p04.jpg",
 "dificultad": 5,
@@ -2507,7 +2507,7 @@ window.DGT_QUESTIONS = [
 "Fríos o calientes, es igual."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "La presión se comprueba con los neumáticos fríos: al rodar, el aire se calienta y se dilata, por lo que en caliente la medición saldría falseada al alza y se dejaría el neumático con menos presión de la debida.",
 "tema_id": 7,
 "imagen": "dgt_e243_p05.jpg",
 "dificultad": 5,
@@ -2528,7 +2528,7 @@ window.DGT_QUESTIONS = [
 "Por el derecho."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "Fuera de poblado rige la norma general de utilización de carriles: se circula por el carril derecho, y los demás se usan solo para adelantar o cuando las circunstancias del tráfico lo aconsejen.",
 "tema_id": 6,
 "imagen": "dgt_e243_p06.jpg",
 "dificultad": 5,
@@ -2549,7 +2549,7 @@ window.DGT_QUESTIONS = [
 "Los daños que se produzcan en el vehículo contrario."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "El seguro obligatorio cubre a los terceros perjudicados, incluidos los ocupantes del vehículo causante, pero nunca los daños personales del conductor responsable del accidente, que queda fuera de esa cobertura.",
 "tema_id": 2,
 "imagen": "dgt_e243_p07.jpg",
 "dificultad": 5,
@@ -2570,7 +2570,7 @@ window.DGT_QUESTIONS = [
 "No, porque hay acera."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "La línea amarilla continua pintada junto al bordillo prohíbe la parada y el estacionamiento en toda su longitud y en ese lado de la calzada, de modo que no se puede estacionar en ese carril.",
 "tema_id": 6,
 "imagen": "dgt_e243_p08.jpg",
 "dificultad": 5,
@@ -2591,7 +2591,7 @@ window.DGT_QUESTIONS = [
 "A una intersección con circulación giratoria."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "Es la señal de peligro por proximidad de una intersección con circulación giratoria (glorieta): las flechas en círculo advierten de que habrá que ceder el paso a quienes ya circulan dentro de ella.",
 "tema_id": 6,
 "imagen": "dgt_e243_p09.jpg",
 "dificultad": 4,
@@ -2612,7 +2612,7 @@ window.DGT_QUESTIONS = [
 "Solo cuando se utilicen en poblado."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "Las señales con el brazo sustituyen o complementan a los indicadores de dirección y son válidas siempre que resulten perceptibles, es decir, que los demás usuarios puedan verlas bien, de día o de noche.",
 "tema_id": 5,
 "imagen": "dgt_e243_p10.jpg",
 "dificultad": 5,
@@ -2633,7 +2633,7 @@ window.DGT_QUESTIONS = [
 "No, si el vehículo dispone de todos los sistemas de seguridad más avanzados."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "El Reglamento obliga a adecuar la velocidad a las condiciones meteorológicas o ambientales adversas y, si es preciso, a detenerse en un lugar seguro sin crear riesgo para la circulación.",
 "tema_id": 4,
 "imagen": "dgt_e243_p11.jpg",
 "dificultad": 4,
@@ -2654,7 +2654,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero debo hacer la maniobra rápidamente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "El intermitente solo advierte de la intención de maniobrar, pero no otorga preferencia: la maniobra únicamente puede iniciarse cuando no suponga peligro ni entorpezca a los demás usuarios.",
 "tema_id": 6,
 "imagen": "dgt_e243_p12.jpg",
 "dificultad": 4,
@@ -2675,7 +2675,7 @@ window.DGT_QUESTIONS = [
 "Cuando conduzca por una calzada con más de dos carriles."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "En carretera solo se permite adelantar por la derecha cuando el vehículo de delante ha señalizado claramente su giro a la izquierda y queda espacio suficiente en la calzada para pasar con seguridad.",
 "tema_id": 6,
 "imagen": "dgt_e243_p13.jpg",
 "dificultad": 4,
@@ -2696,7 +2696,7 @@ window.DGT_QUESTIONS = [
 "Por razones de emergencia."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "El arcén transitable debe quedar libre para peatones, ciclos y vehículos lentos que están obligados a usarlo; por eso solo una emergencia justifica detener el vehículo en él, señalizándolo debidamente.",
 "tema_id": 6,
 "imagen": "dgt_e243_p14.jpg",
 "dificultad": 5,
@@ -2717,7 +2717,7 @@ window.DGT_QUESTIONS = [
 "Están permitidos todos los sistemas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2017).",
+"explicacion": "Durante la conducción solo se permite el teléfono con sistema de manos libres. El uso manual y los auriculares están prohibidos porque restan atención y aíslan de los sonidos del tráfico.",
 "tema_id": 6,
 "imagen": "dgt_e243_p15.jpg",
 "dificultad": 5,
@@ -2738,7 +2738,7 @@ window.DGT_QUESTIONS = [
 "60 km/h"
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "En autovías y autopistas la velocidad mínima es la mitad de la máxima genérica: como el turismo puede circular a 120 km/h, no debe bajar de 60 km/h salvo causa justificada.",
 "tema_id": 4,
 "imagen": "dgt_e244_p01.jpg",
 "dificultad": 4,
@@ -2759,7 +2759,7 @@ window.DGT_QUESTIONS = [
 "Esperar unos minutos antes de iniciar la marcha para que el motor se caliente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "En los motores actuales lo correcto es arrancar e iniciar la marcha suavemente enseguida: el motor alcanza antes su temperatura rodando, mientras que calentarlo en vacío desperdicia combustible y contamina.",
 "tema_id": 7,
 "imagen": "dgt_e244_p02.jpg",
 "dificultad": 4,
@@ -2780,7 +2780,7 @@ window.DGT_QUESTIONS = [
 "El abdomen"
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "La banda abdominal debe apoyarse sobre los huesos de la cadera, una zona ósea resistente. Colocada sobre el abdomen puede dañar órganos internos en un impacto y favorece el efecto submarino.",
 "tema_id": 7,
 "imagen": "dgt_e244_p03.jpg",
 "dificultad": 5,
@@ -2801,7 +2801,7 @@ window.DGT_QUESTIONS = [
 "Aplicar las normas generales de prioridad de paso de los vehículos que se acerquen por la derecha."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "Las órdenes de los agentes que regulan el tráfico ocupan el primer lugar en el orden de prioridad de las señales: prevalecen sobre semáforos, señales verticales y marcas viales.",
 "tema_id": 5,
 "imagen": "dgt_e244_p04.jpg",
 "dificultad": 4,
@@ -2822,7 +2822,7 @@ window.DGT_QUESTIONS = [
 "El vehículo que tenga que dar marcha atrás mayor distancia."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "Cuando un estrechamiento no está señalizado, la norma general da la preferencia al vehículo que entró primero en él; el otro debe facilitar la maniobra, sin que importe el tipo de vehículo.",
 "tema_id": 6,
 "imagen": "dgt_e244_p05.jpg",
 "dificultad": 4,
@@ -2843,7 +2843,7 @@ window.DGT_QUESTIONS = [
 "A horcajadas entre la persona que conduce y el manillar de dirección."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "El Reglamento exige que el pasajero de motocicleta viaje a horcajadas, detrás del conductor y con los pies en los reposapiés laterales: así no interfiere en la conducción ni desestabiliza el vehículo.",
 "tema_id": 6,
 "imagen": "dgt_e244_p06.jpg",
 "dificultad": 5,
@@ -2864,7 +2864,7 @@ window.DGT_QUESTIONS = [
 "Su conductor sea sancionado dos veces en el mismo día."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "La ley permite inmovilizar el vehículo que supera los niveles reglamentarios de gases, humos o ruido, por el riesgo ambiental que supone. No llevar el permiso de circulación original o acumular sanciones no son causas de inmovilización.",
 "tema_id": 2,
 "imagen": "dgt_e244_p07.jpg",
 "dificultad": 5,
@@ -2885,7 +2885,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero solo si su cilindrada es igual o inferior a 125 c.c."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "El arcén está reservado a peatones, ciclos, ciclomotores y vehículos que no alcanzan la velocidad mínima; una motocicleta debe circular siempre por la calzada, sea cual sea su cilindrada.",
 "tema_id": 6,
 "imagen": "dgt_e244_p08.jpg",
 "dificultad": 5,
@@ -2906,7 +2906,7 @@ window.DGT_QUESTIONS = [
 "Sí, si su vehículo cuenta con los últimos avances de seguridad."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "Aunque el conductor no pueda modificar la vía, sí puede neutralizar sus riesgos adaptando velocidad, distancia y trayectoria al estado del firme, el trazado y el entorno: esa adaptación reduce la probabilidad de accidente.",
 "tema_id": 1,
 "imagen": "dgt_e244_p09.jpg",
 "dificultad": 5,
@@ -2927,7 +2927,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "Circular anormalmente despacio también es peligroso: si la velocidad no se adapta al ritmo del tráfico se convierte en un obstáculo y provoca alcances y adelantamientos arriesgados. Por eso el Reglamento prohíbe entorpecer la marcha sin causa.",
 "tema_id": 4,
 "imagen": "dgt_e244_p10.jpg",
 "dificultad": 4,
@@ -2948,7 +2948,7 @@ window.DGT_QUESTIONS = [
 "Sujeta de forma que no interfiera en el conductor para evitar perder el control del vehículo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "La norma exige que el animal viaje sujeto (transportín, rejilla o arnés homologado) de modo que no pueda interferir en el conductor: un animal suelto es una distracción y puede provocar la pérdida de control.",
 "tema_id": 7,
 "imagen": "dgt_e244_p11.jpg",
 "dificultad": 5,
@@ -2969,7 +2969,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero solamente con tasas de alcohol por encima de las permitidas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "El alcohol deteriora la visión ya desde tasas bajas: reduce el campo visual periférico provocando la llamada visión túnel, además de empeorar el cálculo de distancias y la recuperación ante deslumbramientos.",
 "tema_id": 3,
 "imagen": "dgt_e244_p12.jpg",
 "dificultad": 4,
@@ -2990,7 +2990,7 @@ window.DGT_QUESTIONS = [
 "No, en ningún caso."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "La obligación de avisar a la autoridad existe cuando hay heridos graves o la circulación no está restablecida. Con solo heridos leves y la vía ya segura, no es exigible salvo que lo solicite algún implicado.",
 "tema_id": 6,
 "imagen": "dgt_e244_p13.jpg",
 "dificultad": 5,
@@ -3011,7 +3011,7 @@ window.DGT_QUESTIONS = [
 "Más segura."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "El estrés genera impaciencia y agresividad al volante: el conductor asume más riesgos, comete más errores y su conducción se vuelve más temeraria, no más prudente.",
 "tema_id": 6,
 "imagen": "dgt_e244_p14.jpg",
 "dificultad": 5,
@@ -3032,7 +3032,7 @@ window.DGT_QUESTIONS = [
 "las compañías aseguradoras en exclusiva."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Enero 2018).",
+"explicacion": "Los siniestros generan costes sanitarios, laborales, materiales y administrativos que se financian entre todos: su impacto económico alcanza, directa o indirectamente, al conjunto de los ciudadanos.",
 "tema_id": 1,
 "imagen": "dgt_e244_p15.jpg",
 "dificultad": 5,
@@ -3053,7 +3053,7 @@ window.DGT_QUESTIONS = [
 "El recomendado por el fabricante en cada caso."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "La presión correcta es siempre la que indica el fabricante (manual o etiqueta del vehículo) según la carga: tanto el exceso como el defecto de presión empeoran la adherencia, el desgaste y el consumo.",
 "tema_id": 7,
 "imagen": "dgt_e245_p01.jpg",
 "dificultad": 5,
@@ -3074,7 +3074,7 @@ window.DGT_QUESTIONS = [
 "Las señales de balizamiento."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "El orden de prioridad de las señales (art. 133 RGC) sitúa las verticales por encima de las marcas viales; por encima de las verticales están los semáforos, el balizamiento y los agentes.",
 "tema_id": 5,
 "imagen": "dgt_e245_p02.jpg",
 "dificultad": 5,
@@ -3095,7 +3095,7 @@ window.DGT_QUESTIONS = [
 "Llevará encendida, al menos, la luz de cruce."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "Quien circula por un carril adicional debe llevar encendida, al menos, la luz de cruce incluso de día: es un carril excepcional y hay que hacerse ver claramente por el resto de usuarios.",
 "tema_id": 6,
 "imagen": "dgt_e245_p03.jpg",
 "dificultad": 4,
@@ -3116,7 +3116,7 @@ window.DGT_QUESTIONS = [
 "Un cruce sin prioridad."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "Es un panel de aproximación con franjas rojas inclinadas: anuncia la proximidad de un paso a nivel, un puente móvil o un muelle. Cada franja representa aproximadamente un tercio de la distancia hasta él.",
 "tema_id": 5,
 "imagen": "dgt_e245_p04.jpg",
 "dificultad": 4,
@@ -3137,7 +3137,7 @@ window.DGT_QUESTIONS = [
 "Circular por el arcén."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "Con niebla espesa la visibilidad se reduce drásticamente: hay que moderar la velocidad para poder detenerse dentro del tramo que se ve. El arcén no es para circular y la antiniebla delantera sola no basta.",
 "tema_id": 4,
 "imagen": "dgt_e245_p05.jpg",
 "dificultad": 4,
@@ -3158,7 +3158,7 @@ window.DGT_QUESTIONS = [
 "0,3 miligramos de alcohol por litro de aire espirado."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "Los conductores noveles (2 primeros años de permiso) tienen tasa reducida: 0,15 mg/l en aire espirado, equivalente a 0,3 g/l en sangre, la misma que rige para los conductores profesionales.",
 "tema_id": 3,
 "imagen": "dgt_e245_p06.jpg",
 "dificultad": 4,
@@ -3179,7 +3179,7 @@ window.DGT_QUESTIONS = [
 "Por el lado del conductor, siempre."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "Como norma general se entra y se sale por el lado más próximo a la acera o al arcén: así se evita invadir la calzada y el riesgo de ser alcanzado por otro vehículo al abrir la puerta.",
 "tema_id": 1,
 "imagen": "dgt_e245_p07.jpg",
 "dificultad": 5,
@@ -3200,7 +3200,7 @@ window.DGT_QUESTIONS = [
 "Mantenga bien ventilado el interior del vehículo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "Un habitáculo bien ventilado y a temperatura moderada retrasa la fatiga; el calor excesivo y el aire viciado producen somnolencia. Reducir la velocidad no elimina la fatiga: hay que descansar.",
 "tema_id": 4,
 "imagen": "dgt_e245_p08.jpg",
 "dificultad": 4,
@@ -3221,7 +3221,7 @@ window.DGT_QUESTIONS = [
 "Reducir la velocidad para facilitarle el retorno al carril."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "El conductor que va a ser rebasado debe facilitar la maniobra e incluso reducir la velocidad si el que adelanta necesita volver a su carril por un peligro (art. 83 RGC): la prioridad es evitar el accidente.",
 "tema_id": 4,
 "imagen": "dgt_e245_p10.jpg",
 "dificultad": 4,
@@ -3242,7 +3242,7 @@ window.DGT_QUESTIONS = [
 "No, si los neumáticos tienen la presión de inflado recomendada."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2018).",
+"explicacion": "Sobre nieve la adherencia es mínima: una frenada brusca bloquea las ruedas y el vehículo derrapa, con independencia de la alineación o la presión de los neumáticos. Hay que frenar suave y usar el freno motor.",
 "tema_id": 7,
 "imagen": "dgt_e245_p11.jpg",
 "dificultad": 5,
@@ -3263,7 +3263,7 @@ window.DGT_QUESTIONS = [
 "parar el motor y subir las ventanillas del vehículo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "Al repostar es obligatorio parar el motor y apagar las luces y otros sistemas eléctricos: el combustible desprende vapores inflamables y cualquier chispa podría provocar un incendio.",
 "tema_id": 7,
 "imagen": "dgt_e246_p01.jpg",
 "dificultad": 5,
@@ -3284,7 +3284,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero siempre que en dicho carril no exista tráfico."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "El Reglamento permite a las motocicletas usar los carriles VAO con normalidad, con independencia del número de ocupantes, igual que a los vehículos con la ocupación mínima señalada.",
 "tema_id": 6,
 "imagen": "dgt_e246_p02.jpg",
 "dificultad": 5,
@@ -3305,7 +3305,7 @@ window.DGT_QUESTIONS = [
 "14 años."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "La edad mínima general para viajar de pasajero en motocicleta es 12 años. Solo se rebaja a 7 años cuando conduce el padre, la madre, el tutor o una persona mayor de edad autorizada por ellos.",
 "tema_id": 1,
 "imagen": "dgt_e246_p03.jpg",
 "dificultad": 4,
@@ -3326,7 +3326,7 @@ window.DGT_QUESTIONS = [
 "Tomar un medicamento relajante."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "Las emociones intensas reducen la atención, alteran la percepción del riesgo y favorecen decisiones agresivas. Lo seguro es detenerse en un lugar permitido y no reanudar la marcha hasta recuperar la calma.",
 "tema_id": 3,
 "imagen": "dgt_e246_p04.jpg",
 "dificultad": 4,
@@ -3347,7 +3347,7 @@ window.DGT_QUESTIONS = [
 "Cuando el túnel no está iluminado."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "En los túneles y pasos inferiores está prohibido adelantar cuando solo hay un carril por sentido, porque obligaría a invadir el sentido contrario en un lugar cerrado, sin visibilidad lateral ni escapatoria.",
 "tema_id": 6,
 "imagen": "dgt_e246_p05.jpg",
 "dificultad": 4,
@@ -3368,7 +3368,7 @@ window.DGT_QUESTIONS = [
 "Continuar circulando, ya que tiene preferencia de paso."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "Cuando un vehículo cruza el arcén, los peatones que circulan por él tienen preferencia de paso. El conductor debe cederles el paso, igual que ocurre al atravesar una acera para entrar en un garaje.",
 "tema_id": 6,
 "imagen": "dgt_e246_p06.jpg",
 "dificultad": 4,
@@ -3389,7 +3389,7 @@ window.DGT_QUESTIONS = [
 "Parar y estacionar."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "La línea amarilla en zig-zag marca zonas reservadas, como paradas de autobús: prohíbe el estacionamiento, pero permite la parada momentánea, por ejemplo para tomar o dejar personas.",
 "tema_id": 6,
 "imagen": "dgt_e246_p07.jpg",
 "dificultad": 5,
@@ -3410,7 +3410,7 @@ window.DGT_QUESTIONS = [
 "Sí; debe señalizarlo con la luz de emergencia y la baliza V-16 (que desde 2026 sustituye a los triángulos)."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018). Actualizada (2026): la obligación de advertir se mantiene, pero se señaliza con la baliza V-16 conectada, no con triángulos.",
+"explicacion": "Todo conductor debe advertir la presencia de su vehículo inmovilizado por avería: se enciende la luz de emergencia y se señaliza con la baliza luminosa V-16, que desde 2026 sustituye a los triángulos de preseñalización.",
 "tema_id": 7,
 "imagen": "dgt_e246_p08.jpg",
 "dificultad": 5,
@@ -3431,7 +3431,7 @@ window.DGT_QUESTIONS = [
 "La inmovilización del vehículo, pero no supone sanción económica."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "Circular sin el seguro obligatorio conlleva sanción económica y, además, la posible inmovilización y depósito del vehículo, según la Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor.",
 "tema_id": 2,
 "imagen": "dgt_e246_p09.jpg",
 "dificultad": 5,
@@ -3452,7 +3452,7 @@ window.DGT_QUESTIONS = [
 "Las condiciones climatológicas y el tipo de vehículo que nos sigue."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "El Reglamento define la distancia de seguridad como la que permite detenerse ante un frenazo brusco teniendo en cuenta la velocidad y las condiciones de adherencia y frenado, no solo la velocidad.",
 "tema_id": 4,
 "imagen": "dgt_e246_p10.jpg",
 "dificultad": 4,
@@ -3473,7 +3473,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero solamente debe llevarlo puesto cuando existan condiciones meteorológicas que disminuyan sensiblemente la visibilidad."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "Entre el ocaso y la salida del sol, el peatón que circula por calzada o arcén fuera de poblado debe llevar un elemento luminoso o retrorreflectante que lo haga visible a los conductores desde al menos 150 metros.",
 "tema_id": 1,
 "imagen": "dgt_e246_p11.jpg",
 "dificultad": 4,
@@ -3494,7 +3494,7 @@ window.DGT_QUESTIONS = [
 "No, excepto si no puede detenerse en condiciones de seguridad suficiente."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "La luz amarilla fija obliga a detenerse como si fuera roja; solo se puede pasar cuando el vehículo está tan cerca del semáforo que ya no puede detenerse en condiciones de seguridad suficientes.",
 "tema_id": 5,
 "imagen": "dgt_e246_p12.jpg",
 "dificultad": 5,
@@ -3515,7 +3515,7 @@ window.DGT_QUESTIONS = [
 "Junto al eje de la calzada, sin invadir el sentido contrario."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "Si no hay marca que separe los sentidos, para girar a la izquierda hay que ceñirse al eje de la calzada, es decir, aproximarse todo lo posible al centro sin invadir el sentido contrario.",
 "tema_id": 6,
 "imagen": "dgt_e246_p13.jpg",
 "dificultad": 5,
@@ -3536,7 +3536,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "El carril bus está reservado a los vehículos indicados en la señalización, por lo que un turismo no puede circular por él ni realizar parada o estacionamiento: obstaculizaría el transporte público.",
 "tema_id": 6,
 "imagen": "dgt_e246_p14.jpg",
 "dificultad": 5,
@@ -3557,7 +3557,7 @@ window.DGT_QUESTIONS = [
 "puede llevarse desabrochada en vía urbana."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Mayo 2018).",
+"explicacion": "El casco solo protege si permanece en la cabeza durante el impacto: con la correa desabrochada o floja saldría despedido en la colisión. Por eso debe llevarse siempre correctamente abrochada, también en ciudad.",
 "tema_id": 7,
 "imagen": "dgt_e246_p15.jpg",
 "dificultad": 5,
@@ -3578,7 +3578,7 @@ window.DGT_QUESTIONS = [
 "No; siempre se debe dejar inmovilizado el vehículo en el arcén derecho"
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "La regla general es llevar el vehículo al arcén derecho, pero en una emergencia se admite, de forma excepcional, inmovilizarlo en la mediana si es imprescindible y así se evita obstaculizar la circulación.",
 "tema_id": 1,
 "imagen": "dgt_e247_p01.jpg",
 "dificultad": 5,
@@ -3599,7 +3599,7 @@ window.DGT_QUESTIONS = [
 "Que haya nieve o hielo en la calzada."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "La nieve o el hielo reducen mucho la adherencia entre el neumático y el asfalto, por lo que el vehículo necesita más metros para detenerse. La velocidad también influye, pero no es el único factor: estado de la vía, neumáticos y frenos cuentan.",
 "tema_id": 7,
 "imagen": "dgt_e247_p02.jpg",
 "dificultad": 4,
@@ -3620,7 +3620,7 @@ window.DGT_QUESTIONS = [
 "El cinturón de seguridad."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "El reposacabezas bien ajustado (su parte superior a la altura de la parte superior de la cabeza y cerca de ella) frena el desplazamiento del cuello en un alcance y evita el latigazo cervical. El cinturón protege el tronco, no el cuello.",
 "tema_id": 7,
 "imagen": "dgt_e247_p03.jpg",
 "dificultad": 5,
@@ -3641,7 +3641,7 @@ window.DGT_QUESTIONS = [
 "Se frena en menos espacio."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "Al mojarse, el agua reduce la fricción entre pastillas o zapatas y el disco o tambor, y los frenos pierden eficacia temporalmente. Se recupera frenando suave y repetidamente para secarlos; no es una avería permanente.",
 "tema_id": 7,
 "imagen": "dgt_e247_p04.jpg",
 "dificultad": 5,
@@ -3662,7 +3662,7 @@ window.DGT_QUESTIONS = [
 "Solamente los daños personales."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "El seguro obligatorio de responsabilidad civil cubre los daños que se causan a terceros: los personales y los materiales del vehículo no causante. Los daños del propio vehículo culpable solo los cubriría un seguro voluntario a todo riesgo.",
 "tema_id": 6,
 "imagen": "dgt_e247_p05.jpg",
 "dificultad": 5,
@@ -3683,7 +3683,7 @@ window.DGT_QUESTIONS = [
 "No se puede parar ni estacionar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "Las isletas canalizan y ordenan el tráfico: detenerse sobre ellas o junto a ellas obstaculiza los movimientos que regulan y crea peligro, por lo que el reglamento prohíbe tanto la parada como el estacionamiento en ellas.",
 "tema_id": 6,
 "imagen": "dgt_e247_p06.jpg",
 "dificultad": 5,
@@ -3704,7 +3704,7 @@ window.DGT_QUESTIONS = [
 "Solo cuando circulen en servicio de urgencia."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "Ambulancias, policía o bomberos solo gozan de prioridad cuando circulan en servicio de urgencia y lo advierten con las señales luminosas y acústicas. Fuera de servicio urgente deben cumplir las normas como cualquier otro vehículo.",
 "tema_id": 6,
 "imagen": "dgt_e247_p07.jpg",
 "dificultad": 4,
@@ -3725,7 +3725,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero solo si el conductor no lleva el equipamiento adecuado."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "La motocicleta solo se sostiene sobre dos ruedas: con lluvia, viento o hielo la adherencia y la estabilidad se reducen, y cualquier movimiento brusco (frenar, girar o acelerar de golpe) facilita la pérdida de control y la caída.",
 "tema_id": 1,
 "imagen": "dgt_e247_p08.jpg",
 "dificultad": 5,
@@ -3746,7 +3746,7 @@ window.DGT_QUESTIONS = [
 "45 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018). Actualizada (2021): en vías urbanas el límite depende de los carriles (30 km/h con un solo carril por sentido; 50 con dos o más; 20 en plataforma única).",
+"explicacion": "En vías urbanas de dos o más carriles por sentido el límite genérico es 50 km/h, y se aplica por igual a turismos y motocicletas. Los límites urbanos dependen del tipo de vía, no del tipo de vehículo.",
 "tema_id": 4,
 "imagen": "dgt_e247_p09.jpg",
 "dificultad": 4,
@@ -3767,7 +3767,7 @@ window.DGT_QUESTIONS = [
 "Únicamente en vía interurbana."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "Los accidentes también dañan el entorno: vertidos de combustible y aceite, restos de vehículos, incendios o daños a la vegetación. Ocurre en cualquier tipo de vía, urbana o interurbana.",
 "tema_id": 1,
 "imagen": "dgt_e247_p10.jpg",
 "dificultad": 5,
@@ -3788,7 +3788,7 @@ window.DGT_QUESTIONS = [
 "No, siempre que en el interior del vehículo no se alcancen temperaturas superiores a 20 grados."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "El calor intenso acelera la aparición de fatiga y somnolencia al volante. Por eso hay que extremar precauciones y respetar los descansos y paradas recomendados (parar cada 2 horas o 200 km aproximadamente).",
 "tema_id": 6,
 "imagen": "dgt_e247_p11.jpg",
 "dificultad": 5,
@@ -3809,7 +3809,7 @@ window.DGT_QUESTIONS = [
 "Ilusiones ópticas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "Muchas drogas distorsionan la percepción y pueden provocar ilusiones ópticas o alucinaciones: el conductor ve la realidad alterada. Lejos de aumentar la alerta, degradan las capacidades esenciales para conducir.",
 "tema_id": 3,
 "imagen": "dgt_e247_p12.jpg",
 "dificultad": 4,
@@ -3830,7 +3830,7 @@ window.DGT_QUESTIONS = [
 "Estacionan en la acera."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "Al circular marcha atrás la visibilidad es muy limitada y quedan ángulos muertos amplios: el conductor puede no ver a un peatón situado detrás, especialmente niños. Por eso es una maniobra excepcional que exige comprobar bien el entorno.",
 "tema_id": 1,
 "imagen": "dgt_e247_p13.jpg",
 "dificultad": 5,
@@ -3851,7 +3851,7 @@ window.DGT_QUESTIONS = [
 "Somnolencia."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "Fumar al volante obliga a soltar una mano (encender, sujetar, apurar el cigarrillo) y el humo o la ceniza pueden molestar a la vista: distracciones y pérdida momentánea de visión que aumentan el riesgo.",
 "tema_id": 6,
 "imagen": "dgt_e247_p14.jpg",
 "dificultad": 5,
@@ -3872,7 +3872,7 @@ window.DGT_QUESTIONS = [
 "En los tramos de vía en los que esté prohibid adelantar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2018).",
+"explicacion": "El cambio de sentido está prohibido, como norma general, en los tramos donde está prohibido adelantar: si la visibilidad no basta para adelantar con seguridad, tampoco basta para una maniobra que ocupa toda la calzada.",
 "tema_id": 6,
 "imagen": "dgt_e247_p15.jpg",
 "dificultad": 4,
@@ -3893,7 +3893,7 @@ window.DGT_QUESTIONS = [
 "no deben tomarse precauciones especiales."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "La calzada está mojada: al adelantar, las ruedas de la furgoneta levantan agua que puede salpicar el parabrisas e impedir la visibilidad unos instantes, por lo que hay que extremar la precaución y usar el limpiaparabrisas.",
 "tema_id": 6,
 "imagen": "dgt_e248_p01.jpg",
 "dificultad": 4,
@@ -3914,7 +3914,7 @@ window.DGT_QUESTIONS = [
 "los camiones de más de 3.500 kg de M.M.A."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "Los ciclomotores tienen prohibida la autopista y la autovía: su velocidad máxima (45 km/h) es incompatible con estas vías. Motocicletas y camiones sí pueden circular por ellas.",
 "tema_id": 1,
 "imagen": "dgt_e248_p03.jpg",
 "dificultad": 5,
@@ -3935,7 +3935,7 @@ window.DGT_QUESTIONS = [
 "la existencia de un carril que puede ser utilizado en sentido contrario al habitual."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "La marca vial de trazos discontinuos más anchos de lo normal delimita un carril especial: reservado a ciertos vehículos (como el bus), o de entrada o salida. No indica carril reversible, que se delimita con doble discontinua.",
 "tema_id": 5,
 "imagen": "dgt_e248_p04.jpg",
 "dificultad": 5,
@@ -3956,7 +3956,7 @@ window.DGT_QUESTIONS = [
 "apagar las luces y los sistemas eléctricos, como la radio."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "Al cargar combustible es obligatorio parar el motor y apagar las luces y los sistemas eléctricos, como la radio: cualquier chispa eléctrica podría inflamar los vapores del combustible.",
 "tema_id": 7,
 "imagen": "dgt_e248_p05.jpg",
 "dificultad": 5,
@@ -3977,7 +3977,7 @@ window.DGT_QUESTIONS = [
 "Solo cuando los peatones hayan iniciado el cruce."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "En los pasos para peatones no regulados por semáforo la preferencia es siempre del peatón: el conductor debe moderar la velocidad y detenerse si es necesario para cederle el paso.",
 "tema_id": 1,
 "imagen": "dgt_e248_p06.jpg",
 "dificultad": 4,
@@ -3998,7 +3998,7 @@ window.DGT_QUESTIONS = [
 "Solo si la parada tiene una duración igual o inferior a 1 minuto."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "La parada en doble fila solo se admite con carácter excepcional: cuando no exista otro lugar disponible, sin obstaculizar la circulación y cumpliendo el resto de normas sobre paradas.",
 "tema_id": 6,
 "imagen": "dgt_e248_p07.jpg",
 "dificultad": 5,
@@ -4019,7 +4019,7 @@ window.DGT_QUESTIONS = [
 "Sí, a cualquier vehículo que se incorpore, en la medida de lo posible."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "Aunque la preferencia es de quien ya circula por la autovía, la norma pide facilitar en lo posible la incorporación de cualquier vehículo desde el carril de aceleración: es la llamada conducción cooperativa.",
 "tema_id": 1,
 "imagen": "dgt_e248_p08.jpg",
 "dificultad": 5,
@@ -4040,7 +4040,7 @@ window.DGT_QUESTIONS = [
 "Dar media vuelta con cuidado."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "En un túnel, si la detención va a superar los dos minutos, debe apagarse el motor para no acumular gases tóxicos en un espacio cerrado; las luces de posición se mantienen encendidas.",
 "tema_id": 7,
 "imagen": "dgt_e248_p09.jpg",
 "dificultad": 5,
@@ -4061,7 +4061,7 @@ window.DGT_QUESTIONS = [
 "No, porque evita deslumbramiento."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "La luz interior encendida de noche crea reflejos en el parabrisas y dificulta la adaptación de los ojos a la oscuridad, por lo que se ve peor el exterior y resulta peligroso.",
 "tema_id": 7,
 "imagen": "dgt_e248_p10.jpg",
 "dificultad": 5,
@@ -4082,7 +4082,7 @@ window.DGT_QUESTIONS = [
 "La adherencia de los neumáticos al suelo es mayor."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "La eficacia del frenado depende de la adherencia de los neumáticos al suelo: a mayor adherencia, mejor frenada. Más masa alarga la distancia de frenado, y pisar el embrague elimina la retención del motor.",
 "tema_id": 7,
 "imagen": "dgt_e248_p11.jpg",
 "dificultad": 5,
@@ -4103,7 +4103,7 @@ window.DGT_QUESTIONS = [
 "Tres horas después de tomarlo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "La alcoholemia sigue una curva: la concentración máxima en sangre se alcanza entre 30 y 90 minutos después de beber, momento en que sus efectos son mayores.",
 "tema_id": 3,
 "imagen": "dgt_e248_p12.jpg",
 "dificultad": 4,
@@ -4124,7 +4124,7 @@ window.DGT_QUESTIONS = [
 "De la velocidad, del tiempo de reacción y de la distancia de frenado."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "La distancia de detención suma la recorrida durante el tiempo de reacción más la distancia de frenado, y ambas dependen de la velocidad: a más velocidad, más metros hasta detenerse.",
 "tema_id": 4,
 "imagen": "dgt_e248_p13.jpg",
 "dificultad": 4,
@@ -4144,7 +4144,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "Como norma general los adelantamientos se efectúan por la izquierda. Adelantar por la derecha a quien circula delante en el mismo carril solo se admite en supuestos concretos, como cuando el otro va a girar a la izquierda.",
 "tema_id": 6,
 "imagen": "dgt_e248_p14.jpg",
 "dificultad": 4,
@@ -4165,7 +4165,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2018).",
+"explicacion": "La fatiga deteriora la atención y la coordinación, por lo que el tiempo de reacción aumenta: se tarda más en responder ante un imprevisto y crece la distancia de detención.",
 "tema_id": 1,
 "imagen": "dgt_e248_p15.jpg",
 "dificultad": 5,
@@ -4186,7 +4186,7 @@ window.DGT_QUESTIONS = [
 "Sí; es un elemento de seguridad que puede evitar lesiones cervicales."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "El reposacabezas es un elemento de seguridad: bien regulado a la altura de cada ocupante frena el desplazamiento de la cabeza en un alcance y previene el latigazo cervical.",
 "tema_id": 7,
 "imagen": "dgt_e249_p01.jpg",
 "dificultad": 5,
@@ -4207,7 +4207,7 @@ window.DGT_QUESTIONS = [
 "Solo si la calzada dispone de arcén practicable."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "El Reglamento prohíbe adelantar en túneles y pasos inferiores con un solo carril para cada sentido, porque la maniobra exigiría invadir el sentido contrario en un lugar cerrado y sin escapatoria.",
 "tema_id": 6,
 "imagen": "dgt_e249_p02.jpg",
 "dificultad": 4,
@@ -4228,7 +4228,7 @@ window.DGT_QUESTIONS = [
 "La parada los días indicados en la señal."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "Es la señal de estacionamiento prohibido la primera quincena: rige desde las 9 horas del día 1 hasta las 9 horas del día 16, en el lado de la vía donde está colocada.",
 "tema_id": 5,
 "imagen": "dgt_e249_p03.jpg",
 "dificultad": 5,
@@ -4249,7 +4249,7 @@ window.DGT_QUESTIONS = [
 "No, está prohibido."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "El cebreado es una marca vial que delimita una zona excluida de la circulación: está prohibido pisarlo o atravesarlo, también durante la incorporación a la autopista.",
 "tema_id": 4,
 "imagen": "dgt_e249_p04.jpg",
 "dificultad": 4,
@@ -4270,7 +4270,7 @@ window.DGT_QUESTIONS = [
 "Un carril adicional circunstancial."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "Los conos delimitan un carril adicional circunstancial: se habilita en el mismo sentido de la marcha para aumentar la capacidad de la vía en momentos puntuales de tráfico intenso, sin invertir ningún sentido.",
 "tema_id": 6,
 "imagen": "dgt_e249_p05.jpg",
 "dificultad": 5,
@@ -4291,7 +4291,7 @@ window.DGT_QUESTIONS = [
 "Acciona el freno hasta que el vehículo se detiene."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "La distancia de frenado va desde que se acciona el freno hasta la detención total. El tramo entre ver el obstáculo y pisar el freno es la distancia de reacción, y la suma de ambas es la distancia de detención.",
 "tema_id": 7,
 "imagen": "dgt_e249_p06.jpg",
 "dificultad": 5,
@@ -4312,7 +4312,7 @@ window.DGT_QUESTIONS = [
 "Sí, en todo tipo de vías interurbanas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019). Actualizada (Ley de Tráfico 21-mar-2022): se eliminó el margen de +20 km/h para adelantar; no se puede rebasar el límite en ningún caso.",
+"explicacion": "Ningún vehículo puede superar la velocidad máxima de la vía, tampoco para adelantar: el antiguo margen de 20 km/h en carreteras convencionales quedó suprimido en enero de 2021.",
 "tema_id": 4,
 "imagen": "dgt_e249_p07.jpg",
 "dificultad": 4,
@@ -4333,7 +4333,7 @@ window.DGT_QUESTIONS = [
 "Un cruce en el que tengo prioridad."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "Las flechas en círculo dentro del triángulo advierten de una intersección donde la circulación se efectúa de forma giratoria, como una glorieta: al ser señal de peligro, avisa pero no establece la prioridad.",
 "tema_id": 5,
 "imagen": "dgt_e249_p08.jpg",
 "dificultad": 4,
@@ -4354,7 +4354,7 @@ window.DGT_QUESTIONS = [
 "A conductores de bicicletas mayores de 14 años."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "El Reglamento permite a los ciclistas mayores de 14 años circular por el arcén de las autovías salvo señal que lo prohíba; peatones y vehículos de tracción animal tienen vetadas estas vías.",
 "tema_id": 1,
 "imagen": "dgt_e249_p09.jpg",
 "dificultad": 5,
@@ -4375,7 +4375,7 @@ window.DGT_QUESTIONS = [
 "Sí; vigilar el nivel de líquido lavaparabrisas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "Hay que vigilar y reponer el nivel del depósito del lavaparabrisas, que es independiente del circuito de refrigeración; sin líquido no se puede limpiar el cristal y se pierde visibilidad justo cuando más falta hace.",
 "tema_id": 7,
 "imagen": "dgt_e249_p10.jpg",
 "dificultad": 5,
@@ -4396,7 +4396,7 @@ window.DGT_QUESTIONS = [
 "No, solamente cuando tenga que someterse a la inspección técnica reglamentaria."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "Circular con un alumbrado deficiente aumenta la fatiga visual y el riesgo de accidente: conviene revisar y limpiar las luces con frecuencia, aunque no exista una revisión mensual obligatoria.",
 "tema_id": 7,
 "imagen": "dgt_e249_p11.jpg",
 "dificultad": 5,
@@ -4417,7 +4417,7 @@ window.DGT_QUESTIONS = [
 "Haciendo sonar el claxon y conectando la luz de emergencia."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "En un traslado urgente de un enfermo en vehículo particular, el Reglamento indica advertir la presencia con señales acústicas (claxon) y la luz de emergencia; los dispositivos luminosos especiales se reservan a los vehículos prioritarios.",
 "tema_id": 5,
 "imagen": "dgt_e249_p12.jpg",
 "dificultad": 5,
@@ -4438,7 +4438,7 @@ window.DGT_QUESTIONS = [
 "Debe acelerar para atravesarlos lo antes posible."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "Sobre los charcos el neumático puede perder el contacto con el asfalto (aquaplaning): moderar la velocidad permite al dibujo evacuar el agua y mantener el control de la dirección y de los frenos.",
 "tema_id": 4,
 "imagen": "dgt_e249_p13.jpg",
 "dificultad": 4,
@@ -4459,7 +4459,7 @@ window.DGT_QUESTIONS = [
 "Que se circula por una autopista."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "Es la señal de indicación S-1, de fondo azul con el pictograma de la calzada y un paso elevado: informa de que se circula por una autopista, con las normas y limitaciones propias de esa vía.",
 "tema_id": 5,
 "imagen": "dgt_e249_p14.jpg",
 "dificultad": 5,
@@ -4480,7 +4480,7 @@ window.DGT_QUESTIONS = [
 "Sí, si circula por el arcén."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2019).",
+"explicacion": "Los carriles VAO se reservan a motocicletas y automóviles con la ocupación mínima exigida: un ciclomotor no pertenece a esas categorías, por lo que no puede usarlos aunque viajen dos personas.",
 "tema_id": 6,
 "imagen": "dgt_e249_p15.jpg",
 "dificultad": 5,
@@ -4501,7 +4501,7 @@ window.DGT_QUESTIONS = [
 "Detener el vehículo en el lado derecho, delante del coche policial, sin provocar riesgos a los demás usuarios."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "El dispositivo del vehículo policial visto por el retrovisor es una orden de detención: hay que parar en el lado derecho, delante del coche policial, señalizando la maniobra y sin crear riesgo a los demás.",
 "tema_id": 4,
 "imagen": "dgt_e250_p01.jpg",
 "dificultad": 4,
@@ -4522,7 +4522,7 @@ window.DGT_QUESTIONS = [
 "No, está prohibido circular cuando existe hielo en la calzada."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "Sobre hielo o nieve se permite mejorar la adherencia con dispositivos antideslizantes: cadenas o neumáticos de clavos, que aumentan el agarre del neumático sobre la superficie helada.",
 "tema_id": 7,
 "imagen": "dgt_e250_p02.jpg",
 "dificultad": 5,
@@ -4543,7 +4543,7 @@ window.DGT_QUESTIONS = [
 "Mediante un dispositivo luminoso con una o varias luces de color azul."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "Los vehículos de obras y servicios se señalizan con luces amarillo auto (rotativo V-2); la luz azul está reservada a los vehículos prioritarios como policía, bomberos o ambulancias.",
 "tema_id": 7,
 "imagen": "dgt_e250_p03.jpg",
 "dificultad": 5,
@@ -4564,7 +4564,7 @@ window.DGT_QUESTIONS = [
 "Los vehículos de tracción animal."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "En un estrechamiento sin señalizar la preferencia es del vehículo que ha entrado primero; el otro debe esperar o facilitar el paso, con independencia del tipo o peso del vehículo.",
 "tema_id": 5,
 "imagen": "dgt_e250_p05.jpg",
 "dificultad": 4,
@@ -4585,7 +4585,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque lo ha señalizado convenientemente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "En un cambio de rasante de reducida visibilidad está prohibido adelantar si hay que ocupar el carril del sentido contrario, porque no puede comprobarse que esté libre en toda la distancia necesaria.",
 "tema_id": 5,
 "imagen": "dgt_e250_p07.jpg",
 "dificultad": 4,
@@ -4606,7 +4606,7 @@ window.DGT_QUESTIONS = [
 "Disminuye el tiempo de reacción."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "El alcohol reduce el campo visual (efecto túnel) y además alarga el tiempo de reacción y genera una falsa sensación de seguridad; por eso deteriora la conducción incluso en dosis bajas.",
 "tema_id": 3,
 "imagen": "dgt_e250_p08.jpg",
 "dificultad": 4,
@@ -4627,7 +4627,7 @@ window.DGT_QUESTIONS = [
 "Debemos tener en cuenta solo la línea más cercana al carril por el que circulamos."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "Cuando una línea continua va adosada a otra discontinua, cada conductor atiende solo a la más cercana a su carril: si es discontinua puede rebasarla y si es continua, no.",
 "tema_id": 5,
 "imagen": "dgt_e250_p09.jpg",
 "dificultad": 5,
@@ -4648,7 +4648,7 @@ window.DGT_QUESTIONS = [
 "200 metros o un intervalo de 10 segundos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "En túneles, si no se pretende adelantar, los vehículos de hasta 3.500 kg deben guardar al menos 100 metros o 4 segundos con el precedente, para poder detenerse con seguridad en un espacio cerrado.",
 "tema_id": 4,
 "imagen": "dgt_e250_p10.jpg",
 "dificultad": 4,
@@ -4669,7 +4669,7 @@ window.DGT_QUESTIONS = [
 "No, ya que es un filtro que se limpia automáticamente."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "El filtro del habitáculo retiene polen y partículas y acaba saturándose: conviene sustituirlo periódicamente, sobre todo al inicio de la primavera, cuando más polen hay en el aire.",
 "tema_id": 2,
 "imagen": "dgt_e250_p11.jpg",
 "dificultad": 5,
@@ -4690,7 +4690,7 @@ window.DGT_QUESTIONS = [
 "La inferior a 45 km/h"
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "Se considera velocidad anormalmente reducida la inferior a la mitad de la genérica de la vía: la mitad de 90 km/h son 45 km/h.",
 "tema_id": 4,
 "imagen": "dgt_e250_p12.jpg",
 "dificultad": 4,
@@ -4711,7 +4711,7 @@ window.DGT_QUESTIONS = [
 "No, salvo que se adelante a motocicletas de dos ruedas y no se invada el sentido contrario."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "La señal de adelantamiento prohibido admite una excepción: adelantar a motocicletas de dos ruedas siempre que la maniobra no obligue a invadir el sentido contrario.",
 "tema_id": 5,
 "imagen": "dgt_e250_p13.jpg",
 "dificultad": 4,
@@ -4732,7 +4732,7 @@ window.DGT_QUESTIONS = [
 "Cuando el agente entregue al conductor el boletín de denuncia."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "La inmovilización es una medida cautelar, no una sanción: se levanta en cuanto desaparece la causa que la motivó, por ejemplo cuando el conductor ya da tasa negativa o le sustituye otro habilitado.",
 "tema_id": 3,
 "imagen": "dgt_e250_p14.jpg",
 "dificultad": 4,
@@ -4753,7 +4753,7 @@ window.DGT_QUESTIONS = [
 "Que el vehículo está parado."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2019).",
+"explicacion": "La luz de posición sirve para ser visto: señala la presencia del vehículo, el lugar que ocupa en la calzada y su anchura, tanto en marcha como detenido.",
 "tema_id": 1,
 "imagen": "dgt_e250_p15.jpg",
 "dificultad": 5,
@@ -4774,7 +4774,7 @@ window.DGT_QUESTIONS = [
 "Solo si el reventón se produce en una de las ruedas delanteras."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "Tras un reventón hay que sujetar el volante con firmeza y frenar de forma suave y progresiva: un frenazo brusco desequilibra aún más el vehículo y puede provocar un derrape o la pérdida total de control.",
 "tema_id": 4,
 "imagen": "dgt_e251_p01.jpg",
 "dificultad": 4,
@@ -4795,7 +4795,7 @@ window.DGT_QUESTIONS = [
 "Solo mientras caen las primeras gotas, luego no es necesario tomar precauciones."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "El agua forma una película que reduce la adherencia de los neumáticos, especialmente con las primeras gotas, que mezclan el polvo y la grasa del asfalto. Exige más distancia de seguridad y menos velocidad.",
 "tema_id": 7,
 "imagen": "dgt_e251_p03.jpg",
 "dificultad": 5,
@@ -4816,7 +4816,7 @@ window.DGT_QUESTIONS = [
 "Señala que la vía se encuentra cortada por fuerte nevada."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "Al ser una señal redonda azul es de obligación: impone llevar cadenas u otros dispositivos antideslizantes autorizados, al menos en las ruedas motrices, desde el punto donde está colocada.",
 "tema_id": 5,
 "imagen": "dgt_e251_p04.jpg",
 "dificultad": 5,
@@ -4837,7 +4837,7 @@ window.DGT_QUESTIONS = [
 "Sí."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "El carril VAO está reservado a turismos y motocicletas sin remolque con la ocupación mínima indicada: al llevar enganchado un remolque, aunque sea ligero, el turismo no puede utilizarlo.",
 "tema_id": 6,
 "imagen": "dgt_e251_p05.jpg",
 "dificultad": 4,
@@ -4858,7 +4858,7 @@ window.DGT_QUESTIONS = [
 "Sí, ya que el vehículo está detenido."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "Detenido ante un stop se sigue siendo conductor en circulación: el móvil solo puede usarse mediante manos libres, sin cascos ni auriculares. El uso manual exige estar estacionado fuera de la calzada.",
 "tema_id": 5,
 "imagen": "dgt_e251_p06.jpg",
 "dificultad": 5,
@@ -4879,7 +4879,7 @@ window.DGT_QUESTIONS = [
 "Nada; solo podrá sobresalir por su parte trasera."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "En vehículos de mercancías de menos de 5 metros, la carga indivisible puede sobresalir hasta un tercio de la longitud del vehículo por cada extremo, delante y detrás (art. 15 RGC).",
 "tema_id": 6,
 "imagen": "dgt_e251_p07.jpg",
 "dificultad": 4,
@@ -4900,7 +4900,7 @@ window.DGT_QUESTIONS = [
 "Continuar circulando hasta salir del paso inferior, siempre que sea posible."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "Si la avería permite seguir, lo más seguro es salir del paso inferior antes de detenerse: dentro hay poca visibilidad y espacio, y un vehículo parado supone un grave riesgo de alcance.",
 "tema_id": 7,
 "imagen": "dgt_e251_p08.jpg",
 "dificultad": 5,
@@ -4921,7 +4921,7 @@ window.DGT_QUESTIONS = [
 "Que debe incorporarse cuanto antes al carril derecho."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "Es la flecha de retorno: avisa de que el carril por el que circula va a terminar o queda reservado, por lo que debe incorporarse cuanto antes al carril derecho, el que indica la flecha.",
 "tema_id": 6,
 "imagen": "dgt_e251_p09.jpg",
 "dificultad": 4,
@@ -4942,7 +4942,7 @@ window.DGT_QUESTIONS = [
 "cuando circule por un carril para vehículos de alta ocupación (VAO)."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "La obligación general de llevar el alumbrado encendido rige entre la puesta y la salida del sol, además de en túneles, pasos inferiores y tramos con poca visibilidad.",
 "tema_id": 7,
 "imagen": "dgt_e251_p10.jpg",
 "dificultad": 5,
@@ -4963,7 +4963,7 @@ window.DGT_QUESTIONS = [
 "No, siempre que estén compensadas las presiones entre todos los neumáticos del vehículo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "Con menos presión el neumático se aplasta, aumenta la superficie de contacto y el rozamiento con el asfalto, y el motor consume más. Además, el desgaste se concentra en los bordes de la banda, no en el centro.",
 "tema_id": 7,
 "imagen": "dgt_e251_p11.jpg",
 "dificultad": 5,
@@ -4984,7 +4984,7 @@ window.DGT_QUESTIONS = [
 "Los que circulen por la vía pavimentada."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "Es una excepción a la regla de la derecha: en un cruce entre una vía pavimentada y otra sin pavimentar, tienen preferencia los vehículos que circulan por la pavimentada.",
 "tema_id": 6,
 "imagen": "dgt_e251_p12.jpg",
 "dificultad": 4,
@@ -5005,7 +5005,7 @@ window.DGT_QUESTIONS = [
 "Cuando no tenga visibilidad suficiente de la parte delantera de la vía."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "Adelantar detrás de otro vehículo que ya adelanta solo es posible con visibilidad y espacio suficientes; si no se ve la parte delantera de la vía, la maniobra está prohibida por el riesgo de choque frontal.",
 "tema_id": 6,
 "imagen": "dgt_e251_p13.jpg",
 "dificultad": 4,
@@ -5026,7 +5026,7 @@ window.DGT_QUESTIONS = [
 "que hay un tramo de curvas peligrosas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "El triángulo con el vehículo derrapando es la señal de pavimento deslizante: advierte de un tramo donde la calzada puede perder adherencia (lluvia, hielo, gravilla), no de curvas ni escalones.",
 "tema_id": 5,
 "imagen": "dgt_e251_p14.jpg",
 "dificultad": 5,
@@ -5047,7 +5047,7 @@ window.DGT_QUESTIONS = [
 "Moderar la velocidad, e incluso detenerse si fuera necesario."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2019).",
+"explicacion": "Los niños pueden cruzar de forma imprevista al bajar del autobús: la norma exige moderar la velocidad e incluso detenerse si es necesario. No es obligatorio esperar a que el autobús arranque.",
 "tema_id": 4,
 "imagen": "dgt_e251_p15.jpg",
 "dificultad": 4,
@@ -5068,7 +5068,7 @@ window.DGT_QUESTIONS = [
 "circule con fuerte nevada."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "La antiniebla trasera se reserva a condiciones que reducen mucho la visibilidad: niebla espesa, lluvia muy intensa o fuerte nevada. Con buena visibilidad su gran intensidad deslumbraría a quien circula detrás.",
 "tema_id": 6,
 "imagen": "dgt_e252_p01.jpg",
 "dificultad": 5,
@@ -5089,7 +5089,7 @@ window.DGT_QUESTIONS = [
 "No es necesario señalizarlo si se enciende la luz de emergencia."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019). Actualizada (2026): desde el 1-ene-2026 la baliza V-16 conectada es el dispositivo obligatorio y sustituye a los triángulos de preseñalización.",
+"explicacion": "Desde el 1 de enero de 2026 la baliza luminosa V-16 conectada (con geolocalización a la plataforma DGT 3.0) sustituye a los triángulos para señalizar un vehículo inmovilizado en vía interurbana, evitando salir a la calzada.",
 "tema_id": 7,
 "imagen": "dgt_e252_p02.jpg",
 "dificultad": 5,
@@ -5110,7 +5110,7 @@ window.DGT_QUESTIONS = [
 "El Permiso de Circulación y la Tarjeta de Inspección Técnica."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "Para circular hay que llevar, además del permiso de conducción, el permiso de circulación y la tarjeta de inspección técnica del vehículo. El justificante del impuesto municipal no es exigible en los controles.",
 "tema_id": 2,
 "imagen": "dgt_e252_p03.jpg",
 "dificultad": 5,
@@ -5131,7 +5131,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero solo si sigue de frente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "Las marcas viales solo obligan a quienes circulan por el carril sobre el que están pintadas: el stop con flecha afecta únicamente al carril de giro a la izquierda, así que el turismo blanco, que no lo usa, no debe detenerse.",
 "tema_id": 5,
 "imagen": "dgt_e252_p04.jpg",
 "dificultad": 5,
@@ -5152,7 +5152,7 @@ window.DGT_QUESTIONS = [
 "A la genérica de la vía."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "En un carril adicional habilitado en sentido contrario al habitual la velocidad máxima es de 80 km/h (y la mínima de 60 km/h), tanto para quien circula por él como para quien va por el carril contiguo.",
 "tema_id": 4,
 "imagen": "dgt_e252_p05.jpg",
 "dificultad": 4,
@@ -5173,7 +5173,7 @@ window.DGT_QUESTIONS = [
 "Detener el vehículo rápidamente en cualquier lugar y abandonarlo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "Con una rueda pinchada el vehículo pierde estabilidad y capacidad de frenada, por lo que hay que inmovilizarlo cuanto antes fuera de la calzada o en un lugar seguro. Seguir rodando destroza el neumático y agrava el riesgo.",
 "tema_id": 1,
 "imagen": "dgt_e252_p06.jpg",
 "dificultad": 5,
@@ -5194,7 +5194,7 @@ window.DGT_QUESTIONS = [
 "el vehículo más ligero."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "En tramos estrechos de gran pendiente la preferencia es del vehículo que sube: debe ceder y, si es necesario, retroceder el que baja, porque la maniobra marcha atrás es más controlable cuesta abajo.",
 "tema_id": 6,
 "imagen": "dgt_e252_p07.jpg",
 "dificultad": 5,
@@ -5215,7 +5215,7 @@ window.DGT_QUESTIONS = [
 "hace que disminuyan los errores de forma considerable."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "La fatiga deteriora la atención y la percepción y alarga el tiempo de reacción, lo que hace que los errores del conductor aumenten de forma considerable. El único remedio eficaz es detenerse y descansar.",
 "tema_id": 5,
 "imagen": "dgt_e252_p08.jpg",
 "dificultad": 5,
@@ -5236,7 +5236,7 @@ window.DGT_QUESTIONS = [
 "permite girar a la derecha y a la izquierda a autobuses y tranvías."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "Los semáforos de franja blanca sobre fondo negro rigen para autobuses de líneas regulares y tranvías: la franja horizontal equivale a luz roja y les prohíbe el paso; la vertical se lo permite de frente.",
 "tema_id": 5,
 "imagen": "dgt_e252_p09.jpg",
 "dificultad": 5,
@@ -5257,7 +5257,7 @@ window.DGT_QUESTIONS = [
 "Solo para cargar o descargar mercancías."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "En autopistas y autovías está prohibido parar y estacionar salvo emergencia. La línea discontinua de borde solo facilita entrar o salir del arcén en incorporaciones; no autoriza a estacionar en él.",
 "tema_id": 6,
 "imagen": "dgt_e252_p10.jpg",
 "dificultad": 5,
@@ -5278,7 +5278,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque el vehículo puede experimentar una inclinación excesiva al tomar las curvas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "Los amortiguadores en mal estado dejan de controlar las oscilaciones de la carrocería: el vehículo se inclina en exceso en las curvas y puede perderse el control. Además, empeora la frenada porque las ruedas rebotan sobre el firme.",
 "tema_id": 6,
 "imagen": "dgt_e252_p11.jpg",
 "dificultad": 5,
@@ -5299,7 +5299,7 @@ window.DGT_QUESTIONS = [
 "Facilitarle la incorporación en la medida de lo posible."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "Quien circula por la vía principal conserva la prioridad, pero el Reglamento le pide facilitar en lo posible la incorporación de quien llega por el carril de aceleración, por ejemplo ajustando la velocidad o cambiando de carril.",
 "tema_id": 6,
 "imagen": "dgt_e252_p12.jpg",
 "dificultad": 4,
@@ -5320,7 +5320,7 @@ window.DGT_QUESTIONS = [
 "el vehículo de delante reduce su velocidad para facilitar la maniobra."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "Antes de adelantar hay que comprobar que se podrá volver al carril derecho al terminar, es decir, que existe hueco suficiente por delante del vehículo adelantado para reintegrarse sin obligarle a maniobrar.",
 "tema_id": 6,
 "imagen": "dgt_e252_p13.jpg",
 "dificultad": 4,
@@ -5341,7 +5341,7 @@ window.DGT_QUESTIONS = [
 "Evitar que la columna de dirección golpee al conductor."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "El airbag amortigua el impacto de la cabeza y la cara contra el volante, el salpicadero y los fragmentos de cristal del parabrisas. El efecto submarino lo evita el cinturón bien colocado, no el airbag.",
 "tema_id": 7,
 "imagen": "dgt_e252_p14.jpg",
 "dificultad": 5,
@@ -5362,7 +5362,7 @@ window.DGT_QUESTIONS = [
 "En todo tipo de vías."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2019).",
+"explicacion": "La distancia de seguridad es obligatoria en todo tipo de vías: debe permitir detenerse sin colisionar si el vehículo precedente frena bruscamente, sea cual sea el estado o el tipo de la calzada.",
 "tema_id": 1,
 "imagen": "dgt_e252_p15.jpg",
 "dificultad": 4,
@@ -5383,7 +5383,7 @@ window.DGT_QUESTIONS = [
 "Sí; debe señalizarlo, y desde 2026 se hace con la baliza V-16 conectada (sin salir del vehículo), no con triángulos."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020). Actualizada (2026): la señalización del vehículo inmovilizado se realiza con la baliza V-16, no colocando triángulos.",
+"explicacion": "El conductor está obligado a señalizar el vehículo inmovilizado en la calzada. Desde el 1 de enero de 2026 esa señalización se realiza con la baliza V-16 conectada, colocada sin necesidad de salir del vehículo, en sustitución de los triángulos.",
 "tema_id": 7,
 "imagen": "dgt_e253_p01.jpg",
 "dificultad": 5,
@@ -5404,7 +5404,7 @@ window.DGT_QUESTIONS = [
 "Peligro por la proximidad de un vehículo accidentado que obstruye la calzada."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "El triángulo con un vehículo volcado advierte del peligro por la proximidad de un accidente que obstruye total o parcialmente la calzada: hay que reducir la velocidad y extremar la atención.",
 "tema_id": 5,
 "imagen": "dgt_e253_p02.jpg",
 "dificultad": 5,
@@ -5425,7 +5425,7 @@ window.DGT_QUESTIONS = [
 "En sentido único, siempre que el tráfico sea fluido."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "En las vías con tres calzadas, las laterales se destinan como norma general a la circulación en sentido único, aunque la autoridad puede habilitar en ellas algún carril para el sentido contrario.",
 "tema_id": 1,
 "imagen": "dgt_e253_p03.jpg",
 "dificultad": 5,
@@ -5446,7 +5446,7 @@ window.DGT_QUESTIONS = [
 "Disminuye el riesgo de accidente, ya que el viento evita que el vehículo se desvíe de su trayectoria."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "El viento lateral empuja el vehículo fuera de su trayectoria: hay que reducir la velocidad, que disminuye ese efecto, y sujetar firme el volante corrigiendo con suavidad las pequeñas desviaciones.",
 "tema_id": 4,
 "imagen": "dgt_e253_p04.jpg",
 "dificultad": 4,
@@ -5467,7 +5467,7 @@ window.DGT_QUESTIONS = [
 "Siempre antes de pasar la inspección técnica del vehículo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "No existe un plazo reglamentario: las escobillas se sustituyen cuando sus gomas están endurecidas o dañadas, porque entonces no barren bien el agua y reducen la visibilidad.",
 "tema_id": 2,
 "imagen": "dgt_e253_p05.jpg",
 "dificultad": 5,
@@ -5488,7 +5488,7 @@ window.DGT_QUESTIONS = [
 "No, solo me indica que la vía es de sentido único."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "La flecha blanca sobre fondo azul es de sentido obligatorio: impone continuar de frente, de modo que en la próxima intersección queda prohibido cambiar de dirección girando a uno u otro lado.",
 "tema_id": 5,
 "imagen": "dgt_e253_p06.jpg",
 "dificultad": 5,
@@ -5509,7 +5509,7 @@ window.DGT_QUESTIONS = [
 "Sí, tiene preferencia en todo tipo de vías."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "Los vehículos prioritarios solo tienen preferencia cuando circulan en servicio urgente y lo advierten con sus señales luminosas y acústicas; con la señalización apagada, la ambulancia se rige por las normas generales.",
 "tema_id": 5,
 "imagen": "dgt_e253_p07.jpg",
 "dificultad": 4,
@@ -5530,7 +5530,7 @@ window.DGT_QUESTIONS = [
 "Cuando entre en el carril de circulación desde el lado derecho, solamente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "Quien se incorpora a la circulación debe cederle el paso siempre a los vehículos que ya circulan por la vía, entre por el lado que entre, y asegurarse de no obligarles a frenar o desviarse.",
 "tema_id": 6,
 "imagen": "dgt_e253_p08.jpg",
 "dificultad": 5,
@@ -5551,7 +5551,7 @@ window.DGT_QUESTIONS = [
 "80 km/h"
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "Desde 2019 el límite genérico para turismos en carretera convencional es de 90 km/h, con independencia de la anchura del arcén, salvo señalización que indique otro valor.",
 "tema_id": 4,
 "imagen": "dgt_e253_p09.jpg",
 "dificultad": 4,
@@ -5572,7 +5572,7 @@ window.DGT_QUESTIONS = [
 "No, porque solamente está permitido estacionar."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "La marca que separa su carril del de la derecha es una línea continua, y las líneas continuas no deben ser atravesadas: ese carril queda vedado para el cambio.",
 "tema_id": 6,
 "imagen": "dgt_e253_p10.jpg",
 "dificultad": 5,
@@ -5593,7 +5593,7 @@ window.DGT_QUESTIONS = [
 "Porque el aceite con el uso y pasado un tiempo pierde excesiva cantidad de volumen y hay que reponerlo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "Con el uso el aceite se degrada y pierde sus propiedades lubricantes; renovarlo periódicamente mantiene el motor en buen estado más tiempo y reduce el desgaste y el rozamiento entre las piezas.",
 "tema_id": 7,
 "imagen": "dgt_e253_p11.jpg",
 "dificultad": 5,
@@ -5614,7 +5614,7 @@ window.DGT_QUESTIONS = [
 "Solamente las luces de posición."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "Entre la puesta y la salida del sol el alumbrado es obligatorio aunque la vía esté iluminada: en una travesía deben llevarse encendidas las luces de posición y las de cruce o corto alcance.",
 "tema_id": 7,
 "imagen": "dgt_e253_p12.jpg",
 "dificultad": 5,
@@ -5635,7 +5635,7 @@ window.DGT_QUESTIONS = [
 "Obedecer al semáforo, pero debo ceder el paso."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "En el orden de prioridad de la señalización, los semáforos prevalecen sobre las señales verticales de prioridad: con el semáforo en verde se pasa sin necesidad de detenerse en el stop.",
 "tema_id": 5,
 "imagen": "dgt_e253_p13.jpg",
 "dificultad": 4,
@@ -5656,7 +5656,7 @@ window.DGT_QUESTIONS = [
 "Basta con poner el freno de estacionamiento."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "En subida se deja engranada la primera velocidad, la del sentido de la marcha en pendiente ascendente, además del freno de estacionamiento: si este falla, la compresión del motor retiene el vehículo.",
 "tema_id": 6,
 "imagen": "dgt_e253_p14.jpg",
 "dificultad": 4,
@@ -5677,7 +5677,7 @@ window.DGT_QUESTIONS = [
 "En el carril izquierdo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2020).",
+"explicacion": "En calzadas de doble sentido con tres carriles, el central se reserva para adelantar y para girar a la izquierda: es donde debe situarse con antelación quien vaya a efectuar ese giro.",
 "tema_id": 6,
 "imagen": "dgt_e253_p15.jpg",
 "dificultad": 5,
@@ -5698,7 +5698,7 @@ window.DGT_QUESTIONS = [
 "A los de más de 3.500 kg. de M.M.A., con carga o sin carga."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "La señal prohíbe el paso a los vehículos de transporte de mercancías cuya MMA supera los 3.500 kg. La MMA es un dato técnico fijo del vehículo, así que la prohibición rige tanto si circula cargado como vacío.",
 "tema_id": 5,
 "imagen": "dgt_e254_p01.jpg",
 "dificultad": 5,
@@ -5719,7 +5719,7 @@ window.DGT_QUESTIONS = [
 "No, porque en este tramo de vía está prohibido el adelantamiento."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "Para adelantar a ciclistas se permite rebasar la línea continua e invadir el sentido contrario si hay visibilidad y espacio suficientes, guardando una separación lateral mínima de 1,5 metros. Es una excepción pensada para proteger a los ciclistas.",
 "tema_id": 5,
 "imagen": "dgt_e254_p02.jpg",
 "dificultad": 4,
@@ -5740,7 +5740,7 @@ window.DGT_QUESTIONS = [
 "Al ocupar la calzada en vías urbanas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "El chaleco reflectante es obligatorio siempre que se ocupe la calzada o el arcén de una vía interurbana, no solo en autopistas y autovías: hace visible al conductor y reduce el riesgo de atropello.",
 "tema_id": 1,
 "imagen": "dgt_e254_p03.jpg",
 "dificultad": 5,
@@ -5761,7 +5761,7 @@ window.DGT_QUESTIONS = [
 "No; la fuerza centrífuga no afecta a la trayectoria del vehículo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "La fuerza centrífuga empuja el vehículo hacia el exterior de la curva: en una curva a la izquierda, hacia la derecha de la calzada. Crece con la velocidad, por eso hay que reducir antes de entrar en la curva.",
 "tema_id": 4,
 "imagen": "dgt_e254_p04.jpg",
 "dificultad": 4,
@@ -5782,7 +5782,7 @@ window.DGT_QUESTIONS = [
 "Costes humanos."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "Los costes humanos engloban la pérdida de vidas, la merma de capacidad productiva y el sufrimiento físico y psicológico de víctimas y allegados; se distinguen de los costes materiales y sanitarios.",
 "tema_id": 6,
 "imagen": "dgt_e254_p05.jpg",
 "dificultad": 5,
@@ -5803,7 +5803,7 @@ window.DGT_QUESTIONS = [
 "El cinturón de seguridad."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "El cinturón de seguridad, con la banda ventral bien colocada sobre la cadera, impide que el cuerpo se deslice por debajo de ella en un choque: eso es precisamente el efecto submarino que evita.",
 "tema_id": 7,
 "imagen": "dgt_e254_p06.jpg",
 "dificultad": 5,
@@ -5824,7 +5824,7 @@ window.DGT_QUESTIONS = [
 "que circula con una bicicleta."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "Legalmente, peatón es la persona que, sin ser conductor, transita a pie por las vías públicas. Quien conduce una bicicleta o está a cargo de animales se considera conductor, no peatón.",
 "tema_id": 1,
 "imagen": "dgt_e254_p07.jpg",
 "dificultad": 5,
@@ -5845,7 +5845,7 @@ window.DGT_QUESTIONS = [
 "Solo si el conductor no está habituado a consumirlas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "Las drogas alteran de forma importante la percepción, la atención, el tiempo de reacción y la toma de decisiones, con independencia del hábito de consumo. Por eso conducir bajo sus efectos está prohibido y multiplica el riesgo de accidente.",
 "tema_id": 3,
 "imagen": "dgt_e254_p08.jpg",
 "dificultad": 4,
@@ -5866,7 +5866,7 @@ window.DGT_QUESTIONS = [
 "Las últimas horas de la tarde y las primeras de la mañana."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "Por el ritmo circadiano, la somnolencia al volante aumenta en las horas de la madrugada y en las primeras horas de la tarde, tras la comida. Conviene evitar conducir en esas franjas o descansar antes.",
 "tema_id": 6,
 "imagen": "dgt_e254_p09.jpg",
 "dificultad": 5,
@@ -5887,7 +5887,7 @@ window.DGT_QUESTIONS = [
 "Solo cuando al menos uno de los ocupantes sea menor de edad."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "No se puede transportar más personas que plazas autorizadas figuran en la documentación del vehículo: cada ocupante debe disponer de asiento y sistema de retención propios. Superar las plazas es infracción sancionable.",
 "tema_id": 1,
 "imagen": "dgt_e254_p10.jpg",
 "dificultad": 5,
@@ -5908,7 +5908,7 @@ window.DGT_QUESTIONS = [
 "Sí, cuando un tercio de los ocupantes del vehículo sea mayor de 70 años."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "En la 'nueva normalidad' de 2020 la mascarilla no era exigible si el conductor viajaba solo (sin más ocupantes no hay riesgo de contagio). Actualizada: esa normativa COVID está derogada y hoy NO es obligatorio usar mascarilla en el vehículo en ningún caso.",
 "tema_id": 1,
 "imagen": "dgt_e254_p11.jpg",
 "dificultad": 5,
@@ -5929,7 +5929,7 @@ window.DGT_QUESTIONS = [
 "circular a paso de persona por las aceras."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "Quienes circulan con patines o monopatines tienen la consideración de peatones y en ningún caso pueden ser arrastrados o remolcados por otros vehículos: perderían el control con gran riesgo de caída y atropello.",
 "tema_id": 1,
 "imagen": "dgt_e254_p12.jpg",
 "dificultad": 5,
@@ -5950,7 +5950,7 @@ window.DGT_QUESTIONS = [
 "No; pueden variar por diversos factores, como la edad o el estado físico del conductor."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "Los efectos secundarios de un mismo medicamento varían según factores individuales como la edad, el estado físico, la fatiga o la combinación con otras sustancias. De ahí la importancia de leer el prospecto y consultar al médico.",
 "tema_id": 3,
 "imagen": "dgt_e254_p13.jpg",
 "dificultad": 4,
@@ -5971,7 +5971,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "La obligación de llevar y usar chaleco reflectante afecta a los conductores de turismos, camiones y autobuses cuando ocupan la calzada o el arcén en vías interurbanas; los motoristas están exentos de esta obligación.",
 "tema_id": 1,
 "imagen": "dgt_e254_p14.jpg",
 "dificultad": 5,
@@ -5992,7 +5992,7 @@ window.DGT_QUESTIONS = [
 "Sí, ya que distrae al conductor."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Julio 2020).",
+"explicacion": "Manipular el navegador en marcha aparta la vista y la atención de la vía durante varios segundos: es una distracción peligrosa. La ruta debe programarse antes de salir o con el vehículo detenido en lugar seguro.",
 "tema_id": 1,
 "imagen": "dgt_e254_p15.jpg",
 "dificultad": 5,
@@ -6013,7 +6013,7 @@ window.DGT_QUESTIONS = [
 "las condiciones meteorológicas sean especialmente desfavorables."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "La luz antiniebla trasera es muy intensa y deslumbra a quien circula detrás, por eso solo debe usarse cuando las condiciones sean especialmente desfavorables: niebla espesa, lluvia muy fuerte o nevada intensa.",
 "tema_id": 4,
 "imagen": "dgt_e255_p01.jpg",
 "dificultad": 4,
@@ -6034,7 +6034,7 @@ window.DGT_QUESTIONS = [
 "Me autoriza a circular en sentido contrario, extremando la precaución, en caso de desprendimientos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Es la señal de peligro por desprendimientos: advierte de que pueden caer piedras a la calzada o haber obstáculos ya caídos. Lo correcto es aumentar la atención y adecuar la velocidad, no acelerar ni invadir el sentido contrario.",
 "tema_id": 5,
 "imagen": "dgt_e255_p02.jpg",
 "dificultad": 5,
@@ -6055,7 +6055,7 @@ window.DGT_QUESTIONS = [
 "Solo puede adelantar a vehículos de dos ruedas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Esta señal prohíbe adelantar únicamente a los camiones cuya masa máxima autorizada supera los 3.500 kg. Un camión de menos de 3.500 kg de M.M.A. no está afectado y puede adelantar con normalidad.",
 "tema_id": 5,
 "imagen": "dgt_e255_p03.jpg",
 "dificultad": 4,
@@ -6076,7 +6076,7 @@ window.DGT_QUESTIONS = [
 "indica que ningún conductor puede entrar con su vehículo o animal en esta zona."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Las bandas blancas anchas y paralelas al eje de la calzada son la marca de paso para peatones. Obligan a ceder el paso a los peatones que crucen o vayan a cruzar, pero no a detenerse siempre si el paso está libre.",
 "tema_id": 1,
 "imagen": "dgt_e255_p04.jpg",
 "dificultad": 5,
@@ -6097,7 +6097,7 @@ window.DGT_QUESTIONS = [
 "Solo cuando los ciclistas circulen en grupo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Cuando un vehículo atraviesa un carril bici debidamente señalizado, los ciclistas que circulan por él tienen prioridad de paso, circulen solos o en grupo. El turismo debe esperar a que el carril esté libre para incorporarse.",
 "tema_id": 6,
 "imagen": "dgt_e255_p05.jpg",
 "dificultad": 4,
@@ -6118,7 +6118,7 @@ window.DGT_QUESTIONS = [
 "No es necesario, basta con revisarlo antes de pasar la inspección técnica."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Conviene revisar el nivel del lavaparabrisas con cierta frecuencia: quedarse sin líquido justo cuando se ensucia el cristal (barro, insectos, salpicaduras) deja al conductor sin visibilidad en plena marcha.",
 "tema_id": 2,
 "imagen": "dgt_e255_p06.jpg",
 "dificultad": 5,
@@ -6139,7 +6139,7 @@ window.DGT_QUESTIONS = [
 "Por cualquiera de los dos carriles si no vienen vehículos en sentido contrario."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Rige la norma general de circulación por la derecha: aunque los carriles no estén marcados, hay que circular por el carril de la derecha, dejando el resto de la calzada libre para el sentido contrario y los adelantamientos.",
 "tema_id": 1,
 "imagen": "dgt_e255_p07.jpg",
 "dificultad": 5,
@@ -6160,7 +6160,7 @@ window.DGT_QUESTIONS = [
 "Solo en vías rápidas, pero no en vías urbanas ni en carreteras convencionales"
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Con el asfalto mojado la adherencia disminuye y la distancia de frenado aumenta en cualquier tipo de vía. Por eso conviene ampliar la separación con el vehículo de delante: da más margen para detenerse sin alcanzarlo.",
 "tema_id": 4,
 "imagen": "dgt_e255_p08.jpg",
 "dificultad": 4,
@@ -6181,7 +6181,7 @@ window.DGT_QUESTIONS = [
 "exista un carril para cada sentido, siempre que el túnel esté bien iluminado."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "En un túnel se puede adelantar cuando existe más de un carril para el propio sentido de circulación: así la maniobra se hace sin invadir el sentido contrario, algo especialmente peligroso en un espacio cerrado.",
 "tema_id": 6,
 "imagen": "dgt_e255_p09.jpg",
 "dificultad": 4,
@@ -6202,7 +6202,7 @@ window.DGT_QUESTIONS = [
 "Que es obligatorio circular por el arcén izquierdo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "El panel azul muestra el estado de los carriles del tramo siguiente: la flecha que se curva indica que el carril de la izquierda se desvía próximamente, para que sus ocupantes se preparen o cambien de carril con antelación.",
 "tema_id": 6,
 "imagen": "dgt_e255_p10.jpg",
 "dificultad": 5,
@@ -6223,7 +6223,7 @@ window.DGT_QUESTIONS = [
 "Deberán bajar del vehículo por la puerta más alejada del borde de la vía."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Los niños no deben abrir las puertas ni apearse hasta que el vehículo esté completamente inmovilizado: bajarse en marcha o con el coche moviéndose provoca caídas y atropellos. Además conviene que salgan por el lado de la acera.",
 "tema_id": 1,
 "imagen": "dgt_e255_p11.jpg",
 "dificultad": 5,
@@ -6244,7 +6244,7 @@ window.DGT_QUESTIONS = [
 "A 120 km/h."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "En autovía la velocidad máxima de un turismo es 120 km/h, y adelantar no autoriza a superarla: el margen para rebasar límites en adelantamientos solo existe en carreteras convencionales para otros supuestos ya suprimidos; aquí rige el límite genérico.",
 "tema_id": 4,
 "imagen": "dgt_e255_p12.jpg",
 "dificultad": 4,
@@ -6265,7 +6265,7 @@ window.DGT_QUESTIONS = [
 "Girar a la derecha porque lo permite el semáforo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Cada semáforo regula los movimientos de su dirección: el de la derecha está en verde, así que el turismo amarillo puede girar a la derecha. El semáforo en rojo de la izquierda afecta a otro movimiento, no a su giro.",
 "tema_id": 5,
 "imagen": "dgt_e255_p13.jpg",
 "dificultad": 5,
@@ -6286,7 +6286,7 @@ window.DGT_QUESTIONS = [
 "Pedir ayuda al vehículo que estoy adelantando."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "Si surge peligro durante un adelantamiento hay que desistir de la maniobra: reducir la velocidad, señalizar y regresar al propio carril detrás del vehículo. Acelerar para terminar rápido aumenta el riesgo de colisión frontal.",
 "tema_id": 4,
 "imagen": "dgt_e255_p14.jpg",
 "dificultad": 4,
@@ -6307,7 +6307,7 @@ window.DGT_QUESTIONS = [
 "En el lado izquierdo solamente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2020).",
+"explicacion": "En las calles urbanas de sentido único se permite estacionar a ambos lados de la calzada, siempre que no lo prohíban señales o marcas: al no haber tráfico en sentido contrario, el lado izquierdo también queda disponible.",
 "tema_id": 5,
 "imagen": "dgt_e255_p15.jpg",
 "dificultad": 5,
@@ -6328,7 +6328,7 @@ window.DGT_QUESTIONS = [
 "Solo cuando circulan por vías interurbanas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "De noche los ciclistas deben llevar el alumbrado encendido para ver y ser vistos; en vía interurbana, además, una prenda reflectante que los haga visibles a 150 metros. La prenda no sustituye a las luces.",
 "tema_id": 1,
 "imagen": "dgt_e256_p01.jpg",
 "dificultad": 5,
@@ -6349,7 +6349,7 @@ window.DGT_QUESTIONS = [
 "Comprometer su estabilidad."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "La carga debe disponerse de forma que no comprometa la estabilidad del vehículo ni pueda caer o desplazarse: un reparto inadecuado altera la dirección y la frenada.",
 "tema_id": 1,
 "imagen": "dgt_e256_p02.jpg",
 "dificultad": 5,
@@ -6370,7 +6370,7 @@ window.DGT_QUESTIONS = [
 "Tanto con el sistema de frenado como con el motor."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "La velocidad puede reducirse con el sistema de frenos y también con el freno motor, soltando el acelerador y bajando de marcha. Combinar ambos da una conducción más segura y eficiente.",
 "tema_id": 4,
 "imagen": "dgt_e256_p03.jpg",
 "dificultad": 4,
@@ -6391,7 +6391,7 @@ window.DGT_QUESTIONS = [
 "A la derecha, fuera de la calzada siempre que sea posible."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "Para girar a la izquierda en una vía de doble sentido, el vehículo debe colocarse junto a la marca longitudinal que separa los sentidos, pero sin invadir la parte destinada al sentido contrario.",
 "tema_id": 1,
 "imagen": "dgt_e256_p04.jpg",
 "dificultad": 5,
@@ -6412,7 +6412,7 @@ window.DGT_QUESTIONS = [
 "para ciclistas y ciclomotores."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "La marca formada por dos líneas discontinuas de trazos cuadrados (aquí con el símbolo de la bicicleta) es un paso para ciclistas. No ampara a los ciclomotores, que no son ciclos.",
 "tema_id": 1,
 "imagen": "dgt_e256_p05.jpg",
 "dificultad": 5,
@@ -6433,7 +6433,7 @@ window.DGT_QUESTIONS = [
 "Solo si el conductor novel ha consumido alcohol o drogas ilegales."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "La inexperiencia hace que el conductor novel tarde más en detectar y valorar los peligros, por lo que es una de las causas reconocidas de los accidentes protagonizados por jóvenes.",
 "tema_id": 3,
 "imagen": "dgt_e256_p06.jpg",
 "dificultad": 4,
@@ -6454,7 +6454,7 @@ window.DGT_QUESTIONS = [
 "En las ruedas traseras siempre."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "Con un solo juego de cadenas, estas se montan siempre en las ruedas motrices, que son las que transmiten la fuerza del motor al suelo y necesitan la tracción sobre la nieve.",
 "tema_id": 7,
 "imagen": "dgt_e256_p07.jpg",
 "dificultad": 5,
@@ -6475,7 +6475,7 @@ window.DGT_QUESTIONS = [
 "Solo si hay una señal que permita expresamente el estacionamiento."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "Fuera de poblado hay que parar o estacionar fuera de la calzada siempre que sea posible: al situar el vehículo completamente fuera de la vía, a la derecha, el estacionamiento está permitido.",
 "tema_id": 6,
 "imagen": "dgt_e256_p08.jpg",
 "dificultad": 5,
@@ -6496,7 +6496,7 @@ window.DGT_QUESTIONS = [
 "colocar el triángulo de preseñalización de peligro en la vía."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "En un paso a nivel el riesgo inmediato es el arrollamiento por el tren: lo primero es que todos los ocupantes abandonen el vehículo y se alejen; después se intentará despejar el paso y señalizar.",
 "tema_id": 7,
 "imagen": "dgt_e256_p09.jpg",
 "dificultad": 5,
@@ -6517,7 +6517,7 @@ window.DGT_QUESTIONS = [
 "encender la luz de largo alcance, incluso dentro de poblado."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "En moto la lluvia intensa reduce mucho la adherencia y la visibilidad, y el riesgo de caída es alto: hay que moderar la velocidad e incluso detenerse si las condiciones lo exigen.",
 "tema_id": 4,
 "imagen": "dgt_e256_p10.jpg",
 "dificultad": 4,
@@ -6538,7 +6538,7 @@ window.DGT_QUESTIONS = [
 "Sí, puede producirse el efecto pantalla y aproximarse de forma brusca al vehículo pesado."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "Al ponerse a la altura del vehículo pesado se produce el efecto pantalla: el camión bloquea el viento lateral izquierdo y la autocaravana, al dejar de recibir el empuje, puede desviarse bruscamente hacia él.",
 "tema_id": 6,
 "imagen": "dgt_e256_p11.jpg",
 "dificultad": 4,
@@ -6559,7 +6559,7 @@ window.DGT_QUESTIONS = [
 "No; el consumo de alcohol no afecta al tiempo de reacción."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "El alcohol deprime el sistema nervioso: la información se procesa más despacio y el tiempo de reacción aumenta, incluso con tasas bajas, alargando la distancia de detención.",
 "tema_id": 3,
 "imagen": "dgt_e256_p12.jpg",
 "dificultad": 4,
@@ -6580,7 +6580,7 @@ window.DGT_QUESTIONS = [
 "Solo cuando circule por vías interurbanas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "Al enganchar un remolque, el turismo circula como conjunto de vehículos y el Reglamento General de Vehículos exige llevar un equipo homologado de extinción de incendios en condiciones de uso.",
 "tema_id": 1,
 "imagen": "dgt_e256_p13.jpg",
 "dificultad": 4,
@@ -6601,7 +6601,7 @@ window.DGT_QUESTIONS = [
 "Sí."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2020).",
+"explicacion": "El estilo de conducción influye directamente en el consumo: acelerones, frenazos y regímenes altos gastan más combustible que una conducción suave y anticipada, también en moto.",
 "tema_id": 7,
 "imagen": "dgt_e256_p14.jpg",
 "dificultad": 5,
@@ -6622,7 +6622,7 @@ window.DGT_QUESTIONS = [
 "Un dispositivo de alumbrado del vehículo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "Un catadióptrico no emite luz propia: es un dispositivo que refleja la que recibe de otras fuentes, como los faros de otro vehículo, para hacer visible al vehículo o remolque que lo lleva.",
 "tema_id": 2,
 "imagen": "dgt_e257_p01.jpg",
 "dificultad": 5,
@@ -6643,7 +6643,7 @@ window.DGT_QUESTIONS = [
 "Solo está permitida su circulación por vías urbanas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "Está prohibido circular con un nivel de emisión de ruidos superior a los límites reglamentarios: es una condición técnica del vehículo exigible en todo tipo de vías, también urbanas.",
 "tema_id": 7,
 "imagen": "dgt_e257_p02.jpg",
 "dificultad": 4,
@@ -6664,7 +6664,7 @@ window.DGT_QUESTIONS = [
 "Fuera de la vía, en el lado derecho."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "Fuera de poblado, la norma general obliga a estacionar fuera de la calzada y de la vía, en el lado derecho: detenerse dentro de la vía entorpece la circulación y crea peligro de alcance.",
 "tema_id": 6,
 "imagen": "dgt_e257_p03.jpg",
 "dificultad": 5,
@@ -6685,7 +6685,7 @@ window.DGT_QUESTIONS = [
 "Sí, lo que aumenta la posibilidad de sufrir un accidente de tráfico."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "Los conductores jóvenes tienden a infravalorar los peligros y a sobrevalorar sus propias capacidades; esa peor evaluación del riesgo aumenta la probabilidad de verse implicados en un accidente.",
 "tema_id": 1,
 "imagen": "dgt_e257_p04.jpg",
 "dificultad": 5,
@@ -6706,7 +6706,7 @@ window.DGT_QUESTIONS = [
 "aumenta el campo visual."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "Los somníferos e hipnóticos deprimen el sistema nervioso: producen sueño y lentitud de respuesta, con lo que el tiempo de reacción aumenta y conducir bajo sus efectos resulta peligroso.",
 "tema_id": 3,
 "imagen": "dgt_e257_p05.jpg",
 "dificultad": 4,
@@ -6727,7 +6727,7 @@ window.DGT_QUESTIONS = [
 "cuando las condiciones climatológicas sean adversas, solamente."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "Las motocicletas deben circular siempre, también de día y en cualquier vía, con la luz de cruce encendida: al ser vehículos estrechos, esa luz las hace mucho más visibles para el resto de usuarios.",
 "tema_id": 6,
 "imagen": "dgt_e257_p06.jpg",
 "dificultad": 5,
@@ -6748,7 +6748,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero solo si el conductor está implicado en el accidente."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "La omisión del deber de socorro es un delito del Código Penal: obliga a cualquier persona, esté o no implicada en el accidente, a auxiliar a una víctima desamparada cuando puede hacerlo sin riesgo propio ni de terceros.",
 "tema_id": 6,
 "imagen": "dgt_e257_p07.jpg",
 "dificultad": 5,
@@ -6769,7 +6769,7 @@ window.DGT_QUESTIONS = [
 "En un pedal, con el pie izquierdo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "En las motocicletas con mandos independientes, la maneta derecha del manillar acciona el freno delantero, junto al puño del acelerador; el trasero se acciona normalmente con el pedal del pie derecho.",
 "tema_id": 7,
 "imagen": "dgt_e257_p08.jpg",
 "dificultad": 5,
@@ -6785,12 +6785,12 @@ window.DGT_QUESTIONS = [
 "id": 324,
 "enunciado": "¿Puede perder puntos de su saldo si pone en peligro a un grupo de ciclistas durante un adelantamiento?",
 "opciones": [
-"Sí, es una infracción que supone la pérdida de 4 puntos.",
+"Sí, es una infracción que supone la pérdida de 6 puntos.",
 "No; es una infracción que no supone la pérdida de puntos.",
 "No, porque es un delito contra la seguridad vial no una infracción administrativa."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "Poner en peligro a ciclistas al adelantar (o no respetar la separación mínima de 1,5 m) es infracción muy grave con pérdida de puntos. Actualizada (reforma de la Ley de Tráfico, 21/3/2022): ahora supone la pérdida de 6 puntos (antes eran 4).",
 "tema_id": 1,
 "imagen": "dgt_e257_p09.jpg",
 "dificultad": 4,
@@ -6811,7 +6811,7 @@ window.DGT_QUESTIONS = [
 "A la mitad de la genérica señalada para cada categoría de vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "En los carriles adicionales circunstanciales rige una velocidad mínima de 60 km/h, o la inferior que establezca la señalización específica, y una máxima de 80 km/h: son carriles estrechos y provisionales.",
 "tema_id": 4,
 "imagen": "dgt_e257_p10.jpg",
 "dificultad": 4,
@@ -6832,7 +6832,7 @@ window.DGT_QUESTIONS = [
 "Debe circular sobre las líneas o marcas blancas longitudinales de la carretera para mantener la trayectoria adecuada."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "Con lluvia fuerte se ve menos y el asfalto agarra menos: hay que reducir la velocidad y aumentar la distancia de seguridad, porque la distancia de frenado crece notablemente sobre mojado.",
 "tema_id": 4,
 "imagen": "dgt_e257_p11.jpg",
 "dificultad": 4,
@@ -6853,7 +6853,7 @@ window.DGT_QUESTIONS = [
 "En los asientos traseros sujeta con el cinturón de seguridad como un pasajero más."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "La mascota debe viajar sujeta con un dispositivo de retención adecuado y en un lugar donde no comprometa la seguridad de nadie: suelta puede distraer al conductor o salir despedida en una frenada.",
 "tema_id": 7,
 "imagen": "dgt_e257_p12.jpg",
 "dificultad": 5,
@@ -6874,7 +6874,7 @@ window.DGT_QUESTIONS = [
 "Qué el vehículo no podrá circular a una velocidad superior a 90 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "La placa amarilla reflectante con borde rojo fluorescente es la señal V-6 de vehículo largo: identifica a los vehículos o conjuntos de más de 12 metros, cuyo adelantamiento requiere más espacio y tiempo.",
 "tema_id": 4,
 "imagen": "dgt_e257_p13.jpg",
 "dificultad": 4,
@@ -6895,7 +6895,7 @@ window.DGT_QUESTIONS = [
 "un tramo de vía con pendientes ascendentes y descendentes."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "El símbolo del resalto en el triángulo advierte de un badén, resalto o pavimento en mal estado: conviene reducir la velocidad para no perder el control del vehículo ni dañar la suspensión.",
 "tema_id": 5,
 "imagen": "dgt_e257_p14.jpg",
 "dificultad": 5,
@@ -6916,7 +6916,7 @@ window.DGT_QUESTIONS = [
 "debe seguir una de las direcciones y sentidos que señalan las flechas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2021).",
+"explicacion": "Es una señal de obligación, círculo azul: las flechas fijan las únicas direcciones y sentidos permitidos, en este caso seguir de frente o girar a la derecha. No es una recomendación, es un mandato.",
 "tema_id": 5,
 "imagen": "dgt_e257_p15.jpg",
 "dificultad": 5,
@@ -6937,7 +6937,7 @@ window.DGT_QUESTIONS = [
 "Solo si el vehículo lleva dos espejos retrovisores exteriores."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "Las láminas o cortinillas en las ventanillas traseras solo se permiten si el vehículo lleva dos espejos retrovisores exteriores, que compensan la pérdida de visibilidad hacia atrás.",
 "tema_id": 6,
 "imagen": "dgt_e258_p01.jpg",
 "dificultad": 5,
@@ -6958,7 +6958,7 @@ window.DGT_QUESTIONS = [
 "Nunca."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "En los túneles está siempre prohibido estacionar: un vehículo detenido en un espacio cerrado multiplica el riesgo de alcance e incendio y entorpece una posible evacuación.",
 "tema_id": 6,
 "imagen": "dgt_e258_p02.jpg",
 "dificultad": 5,
@@ -6979,7 +6979,7 @@ window.DGT_QUESTIONS = [
 "Detenerse siempre ante la línea transversal."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "El STOP obliga a detenerse siempre ante la línea de detención, aunque la visibilidad sea buena y no venga nadie; después se cede el paso a quien tenga preferencia.",
 "tema_id": 6,
 "imagen": "dgt_e258_p03.jpg",
 "dificultad": 5,
@@ -7000,7 +7000,7 @@ window.DGT_QUESTIONS = [
 "el eje imaginario de la calzada."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "Sin carriles delimitados rige la norma general de circulación por la derecha: hay que ceñirse lo más posible al borde derecho de la calzada, dejando libre el sentido contrario.",
 "tema_id": 6,
 "imagen": "dgt_e258_p04.jpg",
 "dificultad": 5,
@@ -7021,7 +7021,7 @@ window.DGT_QUESTIONS = [
 "50 km/h."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "Dentro de poblado, las autopistas y autovías tienen un límite genérico propio de 80 km/h, superior al urbano general de 50 km/h, por ser vías con sentidos separados y sin cruces al mismo nivel.",
 "tema_id": 4,
 "imagen": "dgt_e258_p05.jpg",
 "dificultad": 4,
@@ -7042,7 +7042,7 @@ window.DGT_QUESTIONS = [
 "Sí, especialmente si circula a velocidad elevada."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "El aquaplaning afecta a cualquier vehículo, también a las motocicletas: si el neumático no evacua el agua pierde contacto con el asfalto, y la velocidad elevada es el principal desencadenante.",
 "tema_id": 4,
 "imagen": "dgt_e258_p06.jpg",
 "dificultad": 4,
@@ -7063,7 +7063,7 @@ window.DGT_QUESTIONS = [
 "un tramo de vía especialmente peligroso."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "El fondo amarillo en las señales de orientación identifica la señalización temporal de obras, que sustituye provisionalmente a la señalización habitual del tramo.",
 "tema_id": 5,
 "imagen": "dgt_e258_p07.jpg",
 "dificultad": 5,
@@ -7084,7 +7084,7 @@ window.DGT_QUESTIONS = [
 "No, solo pueden usarse para advertir de posibles peligros."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "Los paneles de mensaje variable son señalización oficial de pleno derecho: además de informar y advertir peligros, pueden imponer obligaciones o prohibiciones de obligado cumplimiento.",
 "tema_id": 5,
 "imagen": "dgt_e258_p08.jpg",
 "dificultad": 5,
@@ -7105,7 +7105,7 @@ window.DGT_QUESTIONS = [
 "por el lado del vehículo más alejado del borde de la calzada."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "En vía urbana, la carga y descarga se somete a las disposiciones de las autoridades municipales (horarios, zonas reservadas), realizándose sin crear peligro ni depositar mercancía en la calzada.",
 "tema_id": 1,
 "imagen": "dgt_e258_p10.jpg",
 "dificultad": 5,
@@ -7126,7 +7126,7 @@ window.DGT_QUESTIONS = [
 "Sí, ya que puede verse alterada la capacidad para conducir con seguridad."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "Los síntomas de la alergia (estornudos, lagrimeo, congestión) y los efectos sedantes de algunos antihistamínicos alteran la atención y la visión, aumentando el riesgo en cualquier época del año.",
 "tema_id": 1,
 "imagen": "dgt_e258_p11.jpg",
 "dificultad": 5,
@@ -7147,7 +7147,7 @@ window.DGT_QUESTIONS = [
 "No, siempre que garanticen la seguridad vial de los usuarios y especialmente de los ciclistas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "Los resaltos de los pasos de peatones son moderadores de velocidad legales, no obstáculos, siempre que estén señalizados y garanticen la seguridad de los usuarios, en especial de los ciclistas.",
 "tema_id": 1,
 "imagen": "dgt_e258_p12.jpg",
 "dificultad": 5,
@@ -7168,7 +7168,7 @@ window.DGT_QUESTIONS = [
 "Sí, en cualquier lugar de la vía."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "En las calles residenciales el espacio se comparte con peatones y juegos: solo se permite estacionar en los lugares expresamente señalizados para ello.",
 "tema_id": 5,
 "imagen": "dgt_e258_p13.jpg",
 "dificultad": 5,
@@ -7189,7 +7189,7 @@ window.DGT_QUESTIONS = [
 "Dejará arrancado el motor de su vehículo y abandonará el túnel."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "Ante un incendio en un túnel hay que apartar el vehículo a la derecha para no bloquear el paso de los servicios de emergencia, apagar el motor y dirigirse a las salidas de evacuación.",
 "tema_id": 7,
 "imagen": "dgt_e258_p14.jpg",
 "dificultad": 5,
@@ -7210,7 +7210,7 @@ window.DGT_QUESTIONS = [
 "Sí, aunque su uso es opcional."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2021).",
+"explicacion": "La luz antiniebla trasera se usa con niebla densa y también con otras condiciones muy desfavorables, como lluvia muy intensa o nevada fuerte; su gran intensidad la reserva a esos casos.",
 "tema_id": 1,
 "imagen": "dgt_e258_p15.jpg",
 "dificultad": 5,
@@ -7231,7 +7231,7 @@ window.DGT_QUESTIONS = [
 "90 km/h."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021). Actualizada (2022): sin el margen +20, la velocidad máxima al adelantar en convencional es la genérica, 90 km/h.",
+"explicacion": "Desde 2021 desapareció el margen de 20 km/h para adelantar en carretera convencional: el turismo no puede superar en ningún caso su límite genérico de 90 km/h, tampoco durante el adelantamiento.",
 "tema_id": 4,
 "imagen": "dgt_e259_p03.jpg",
 "dificultad": 4,
@@ -7252,7 +7252,7 @@ window.DGT_QUESTIONS = [
 "pueden circular por autovía."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "Si no hay vía o parte destinada a ellos, los vehículos para personas con movilidad reducida deben circular por el arcén, siempre que sea transitable y suficiente; tienen prohibido el acceso a autopistas y autovías.",
 "tema_id": 1,
 "imagen": "dgt_e259_p04.jpg",
 "dificultad": 5,
@@ -7273,7 +7273,7 @@ window.DGT_QUESTIONS = [
 "No, porque la vía no tiene arcén."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "La línea longitudinal continua no puede atravesarse ni pisarse: prohíbe cualquier adelantamiento que exija invadir el sentido contrario, aunque el vehículo de delante circule despacio.",
 "tema_id": 6,
 "imagen": "dgt_e259_p06.jpg",
 "dificultad": 4,
@@ -7294,7 +7294,7 @@ window.DGT_QUESTIONS = [
 "En el maletero o en la baca, es indistinto."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "La carga en la baca aumenta la resistencia aerodinámica y con ello el consumo de carburante, además de elevar el centro de gravedad. En el maletero apenas afecta a la aerodinámica.",
 "tema_id": 6,
 "imagen": "dgt_e259_p07.jpg",
 "dificultad": 5,
@@ -7315,7 +7315,7 @@ window.DGT_QUESTIONS = [
 "tanto el conductor como el vehículo deben estar en perfecto estado."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "La seguridad depende de todos los factores a la vez: un conductor en plenas condiciones y un vehículo con buen mantenimiento. El fallo de cualquiera de los dos eleva el riesgo de accidente.",
 "tema_id": 1,
 "imagen": "dgt_e259_p08.jpg",
 "dificultad": 5,
@@ -7336,7 +7336,7 @@ window.DGT_QUESTIONS = [
 "Las luces antiniebla, las de posición y las de corto alcance."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "Con niebla espesa se circula con las luces antiniebla, las de posición y las de corto alcance (cruce). Las de emergencia no son para circular y la antiniebla sola es insuficiente.",
 "tema_id": 7,
 "imagen": "dgt_e259_p09.jpg",
 "dificultad": 5,
@@ -7357,7 +7357,7 @@ window.DGT_QUESTIONS = [
 "A los que están girando alrededor de la isleta."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "Al no ser una glorieta, no rige la preferencia de quien circula por el anillo: se aplica la norma general de prioridad y hay que ceder el paso a los vehículos que se aproximan por la derecha.",
 "tema_id": 6,
 "imagen": "dgt_e259_p10.jpg",
 "dificultad": 4,
@@ -7378,7 +7378,7 @@ window.DGT_QUESTIONS = [
 "Se dilatan y ejercen mayor presión sobre el cristal."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "El calor prolongado reseca las gomas de las escobillas: se endurecen y se agrietan, dejan de adaptarse al cristal y limpian mal, reduciendo la visibilidad con lluvia.",
 "tema_id": 7,
 "imagen": "dgt_e259_p11.jpg",
 "dificultad": 5,
@@ -7399,7 +7399,7 @@ window.DGT_QUESTIONS = [
 "Reducir la velocidad del vehículo cuando circule por una vía con una pendiente prolongada."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "El freno de mano es el freno de estacionamiento: su función es mantener inmovilizado el vehículo estacionado. En marcha solo se usaría como recurso de emergencia si falla el freno de servicio.",
 "tema_id": 4,
 "imagen": "dgt_e259_p12.jpg",
 "dificultad": 4,
@@ -7420,7 +7420,7 @@ window.DGT_QUESTIONS = [
 "Pisar varias veces el pedal de freno."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "Pisar el pedal de freno varias veces hace parpadear las luces de frenado y advierte a los que vienen detrás de una reducción considerable de velocidad, como prevé el art. 109 del RGC.",
 "tema_id": 7,
 "imagen": "dgt_e259_p13.jpg",
 "dificultad": 4,
@@ -7441,7 +7441,7 @@ window.DGT_QUESTIONS = [
 "La más próxima."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2021).",
+"explicacion": "Cuando dos señales del mismo tipo parecen contradecirse, el Reglamento establece que prevalece la más restrictiva: es el criterio que garantiza la mayor seguridad.",
 "tema_id": 5,
 "imagen": "dgt_e259_p14.jpg",
 "dificultad": 4,
@@ -7462,7 +7462,7 @@ window.DGT_QUESTIONS = [
 "Detenerse lo más cerca posible del vehículo de delante."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "En el interior de un túnel, si la circulación obliga a detenerse, hay que hacerlo dejando la máxima separación posible con el vehículo de delante: ese espacio facilita la evacuación y la maniobra en caso de incendio o emergencia.",
 "tema_id": 5,
 "imagen": "dgt_e260_p01.jpg",
 "dificultad": 5,
@@ -7483,7 +7483,7 @@ window.DGT_QUESTIONS = [
 "Ajustado al cuerpo, ni muy apretado ni flojo, y sin que esté retorcido."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "El cinturón debe ir ajustado al cuerpo, sin holguras y sin retorcer: solo así reparte las fuerzas del impacto sobre las zonas fuertes del cuerpo. Flojo o retorcido pierde eficacia y puede causar lesiones.",
 "tema_id": 7,
 "imagen": "dgt_e260_p02.jpg",
 "dificultad": 5,
@@ -7504,7 +7504,7 @@ window.DGT_QUESTIONS = [
 "Para garantizar la máxima seguridad, aunque disminuya la fluidez"
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "Los límites de velocidad buscan el equilibrio entre la máxima seguridad y la máxima fluidez del tráfico: velocidades homogéneas y adecuadas reducen los accidentes sin entorpecer la circulación.",
 "tema_id": 4,
 "imagen": "dgt_e260_p03.jpg",
 "dificultad": 4,
@@ -7525,7 +7525,7 @@ window.DGT_QUESTIONS = [
 "No; el consumo de drogas no altera la percepción del riesgo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "Las drogas alteran el sistema nervioso y reducen la percepción del riesgo: el conductor infravalora los peligros y se cree más capaz de lo que realmente está, lo que multiplica las conductas peligrosas.",
 "tema_id": 3,
 "imagen": "dgt_e260_p04.jpg",
 "dificultad": 4,
@@ -7546,7 +7546,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero solo en vías urbanas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "La marcha atrás está permitida como maniobra complementaria de la parada, el estacionamiento y la incorporación a la circulación, recorriendo el espacio mínimo indispensable y con precaución.",
 "tema_id": 6,
 "imagen": "dgt_e260_p05.jpg",
 "dificultad": 5,
@@ -7567,7 +7567,7 @@ window.DGT_QUESTIONS = [
 "Reducir la velocidad y regresar a su carril sin obstaculizar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "Si surgen circunstancias que impiden completar el adelantamiento con seguridad, el conductor debe desistir: reducir la velocidad y regresar a su carril sin obstaculizar a nadie. Acelerar para forzar la maniobra aumenta el riesgo.",
 "tema_id": 6,
 "imagen": "dgt_e260_p06.jpg",
 "dificultad": 4,
@@ -7588,7 +7588,7 @@ window.DGT_QUESTIONS = [
 "parar y estacionar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "El Reglamento prohíbe tanto la parada como el estacionamiento en los lugares donde el vehículo detenido impida ver la señalización a los usuarios a quienes afecta, porque les obligaría a incumplirla sin saberlo.",
 "tema_id": 5,
 "imagen": "dgt_e260_p07.jpg",
 "dificultad": 5,
@@ -7609,7 +7609,7 @@ window.DGT_QUESTIONS = [
 "tarda más tiempo en reaccionar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "El sueño deprime la atención y las capacidades psicofísicas: el conductor somnoliento tarda más en reaccionar y procesa peor las situaciones de tráfico, con riesgo añadido de microsueños.",
 "tema_id": 1,
 "imagen": "dgt_e260_p08.jpg",
 "dificultad": 5,
@@ -7630,7 +7630,7 @@ window.DGT_QUESTIONS = [
 "Sí, aunque la principal fuente de información debe de ser siempre el velocímetro."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "Los navegadores pueden avisar de los límites y de la velocidad a la que se circula, y en eso ayudan; pero la referencia válida debe ser siempre el velocímetro del vehículo, que es el instrumento homologado.",
 "tema_id": 4,
 "imagen": "dgt_e260_p09.jpg",
 "dificultad": 4,
@@ -7651,7 +7651,7 @@ window.DGT_QUESTIONS = [
 "Uno por cada plaza autorizada de que disponga el vehículo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "En un turismo es obligatorio llevar un solo chaleco reflectante: lo debe usar el conductor cuando salga del vehículo y ocupe la calzada o el arcén de una vía interurbana.",
 "tema_id": 7,
 "imagen": "dgt_e260_p10.jpg",
 "dificultad": 4,
@@ -7672,7 +7672,7 @@ window.DGT_QUESTIONS = [
 "Empujar el vehículo por uno de los laterales hacia una mejor superficie con adherencia."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "Lo adecuado es dar adherencia a las ruedas motrices colocando material estable (ramas, arena, alfombrillas) delante de ellas. Acelerar a fondo solo hace patinar las ruedas y hundir más el vehículo en el barro.",
 "tema_id": 6,
 "imagen": "dgt_e260_p11.jpg",
 "dificultad": 5,
@@ -7693,7 +7693,7 @@ window.DGT_QUESTIONS = [
 "titular del vehículo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "El conductor es el responsable de que sus pasajeros utilicen los elementos de protección obligatorios; si el pasajero de la motocicleta viaja sin casco, la infracción se imputa al conductor.",
 "tema_id": 2,
 "imagen": "dgt_e260_p12.jpg",
 "dificultad": 5,
@@ -7714,7 +7714,7 @@ window.DGT_QUESTIONS = [
 "No hacer señales acústicas cerca de ellos."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "Cerca de los ciclistas deben evitarse las señales acústicas: el claxon puede sobresaltarles y provocar una caída o un desvío brusco de su trayectoria, justo lo contrario de lo que se pretende.",
 "tema_id": 5,
 "imagen": "dgt_e260_p13.jpg",
 "dificultad": 4,
@@ -7735,7 +7735,7 @@ window.DGT_QUESTIONS = [
 "No, ni los daños personales ni los materiales."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "El seguro obligatorio del vehículo culpable indemniza al conductor no responsable como tercero perjudicado: cubre tanto sus daños personales como los materiales de su vehículo.",
 "tema_id": 1,
 "imagen": "dgt_e260_p14.jpg",
 "dificultad": 5,
@@ -7756,7 +7756,7 @@ window.DGT_QUESTIONS = [
 "0,15 miligramos por litro de aire espirado."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2021).",
+"explicacion": "Durante los dos primeros años de permiso rige la tasa reducida de los conductores noveles: 0,15 mg/l de alcohol en aire espirado, equivalente a 0,3 g/l en sangre, la misma que para los profesionales.",
 "tema_id": 3,
 "imagen": "dgt_e260_p15.jpg",
 "dificultad": 4,
@@ -7777,7 +7777,7 @@ window.DGT_QUESTIONS = [
 "Con un vía estrecha."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "En esta señal de peligro el trazo grueso representa la vía por la que circula: advierte de una intersección en la que usted tiene preferencia de paso sobre la vía secundaria que se incorpora.",
 "tema_id": 5,
 "imagen": "dgt_e261_p01.jpg",
 "dificultad": 4,
@@ -7798,7 +7798,7 @@ window.DGT_QUESTIONS = [
 "Sí; el campo visual se amplía al aumentar la velocidad."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "El campo visual se estrecha a medida que aumenta la velocidad (efecto túnel): a velocidades altas el conductor percibe cada vez menos información lateral, por eso conviene moderarla en entornos complejos.",
 "tema_id": 4,
 "imagen": "dgt_e261_p02.jpg",
 "dificultad": 4,
@@ -7819,7 +7819,7 @@ window.DGT_QUESTIONS = [
 "Motocicletas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "El círculo rojo con una bicicleta prohíbe la entrada a ciclos: las bicicletas no pueden acceder a la vía así señalizada, mientras que turismos y motocicletas sí.",
 "tema_id": 5,
 "imagen": "dgt_e261_p03.jpg",
 "dificultad": 5,
@@ -7840,7 +7840,7 @@ window.DGT_QUESTIONS = [
 "No, pero masticar café en grano sí reduce la tasa de alcoholemia."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "El alcohol solo se elimina cuando el hígado lo metaboliza, y eso requiere tiempo: ni el café, ni el té, ni otros remedios caseros aceleran el proceso ni reducen la tasa de alcoholemia.",
 "tema_id": 3,
 "imagen": "dgt_e261_p04.jpg",
 "dificultad": 4,
@@ -7861,7 +7861,7 @@ window.DGT_QUESTIONS = [
 "Al alcance."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "Manipular el móvil aparta la vista y la atención de la carretera, y el vehículo deriva sin corrección: por eso la salida de la vía es el accidente más frecuente asociado a su uso.",
 "tema_id": 1,
 "imagen": "dgt_e261_p05.jpg",
 "dificultad": 5,
@@ -7882,7 +7882,7 @@ window.DGT_QUESTIONS = [
 "Porque la mayoría de los atropellos con muerte del peatón se producen en vías urbanas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "La mayoría de los atropellos mortales ocurren en vías urbanas, donde conviven vehículos y peatones: respetar el límite de cada tramo da margen para detenerse y reduce la letalidad del impacto.",
 "tema_id": 7,
 "imagen": "dgt_e261_p06.jpg",
 "dificultad": 4,
@@ -7903,7 +7903,7 @@ window.DGT_QUESTIONS = [
 "Un consumo excesivo de alcohol, medicamentos o drogas de abuso."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "El efecto submarino se produce por un mal uso del cinturón: si la banda abdominal va alta o floja, o el asiento muy reclinado, el cuerpo se desliza por debajo de ella en el impacto y sufre lesiones graves.",
 "tema_id": 3,
 "imagen": "dgt_e261_p07.jpg",
 "dificultad": 4,
@@ -7924,7 +7924,7 @@ window.DGT_QUESTIONS = [
 "Luminosa."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "Las señales y órdenes de los agentes de la circulación, incluidas las realizadas con el brazo, están en lo más alto del orden de prioridad y prevalecen sobre semáforos y cualquier otra señal que las contradiga.",
 "tema_id": 5,
 "imagen": "dgt_e261_p08.jpg",
 "dificultad": 5,
@@ -7945,7 +7945,7 @@ window.DGT_QUESTIONS = [
 "Derecho o izquierdo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "En las vías urbanas de un solo sentido está permitido estacionar a ambos lados, derecho e izquierdo, siempre que no se entorpezca la circulación y se respeten las demás normas de estacionamiento.",
 "tema_id": 6,
 "imagen": "dgt_e261_p09.jpg",
 "dificultad": 5,
@@ -7966,7 +7966,7 @@ window.DGT_QUESTIONS = [
 "El alumbrado de posición, únicamente."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "La obligación de alumbrado rige entre la puesta y la salida del sol, con independencia de la claridad: antes del amanecer, en vía interurbana, deben llevarse las luces de posición y las de cruce.",
 "tema_id": 7,
 "imagen": "dgt_e261_p10.jpg",
 "dificultad": 5,
@@ -7987,7 +7987,7 @@ window.DGT_QUESTIONS = [
 "Sí, debido a que la niebla humedece la calzada haciéndola más deslizante."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "La niebla espesa deposita una fina capa de humedad sobre el pavimento que lo vuelve deslizante: además de quitar visibilidad, reduce la adherencia de los neumáticos en todo momento, no solo al frenar.",
 "tema_id": 7,
 "imagen": "dgt_e261_p11.jpg",
 "dificultad": 5,
@@ -8008,7 +8008,7 @@ window.DGT_QUESTIONS = [
 "Hacer señales acústicas al llegar a su altura para advertir de nuestra presencia."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "Una bicicleta con pasajero es más inestable y puede oscilar durante el adelantamiento: hay que extremar la precaución, dejar la separación lateral reglamentaria y no sorprender al ciclista con el claxon.",
 "tema_id": 5,
 "imagen": "dgt_e261_p12.jpg",
 "dificultad": 4,
@@ -8029,7 +8029,7 @@ window.DGT_QUESTIONS = [
 "En el lado izquierdo de la calzada, delante del veh culo policial."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "Ante la orden de detención emitida desde el vehículo policial, debe parar donde no cree riesgos ni molestias al resto de usuarios, siguiendo en su caso las indicaciones de los agentes.",
 "tema_id": 6,
 "imagen": "dgt_e261_p13.jpg",
 "dificultad": 5,
@@ -8050,7 +8050,7 @@ window.DGT_QUESTIONS = [
 "Viajar al atardecer o al amanecer, ya que hay menos polen en el aire."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "Muchos antihistamínicos clásicos producen somnolencia y merman la capacidad de reacción; para quien conduce a menudo, lo indicado son los de nueva generación no sedantes, y jamás combinarlos con alcohol.",
 "tema_id": 3,
 "imagen": "dgt_e261_p14.jpg",
 "dificultad": 4,
@@ -8071,7 +8071,7 @@ window.DGT_QUESTIONS = [
 "Su clasificación ambiental en función de su nivel de contaminación acústica."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo2022).",
+"explicacion": "El distintivo V-25 refleja la clasificación ambiental del vehículo (0 emisiones, ECO, C o B), asignada según su nivel de emisiones y el combustible que emplea; es la base de las restricciones en zonas de bajas emisiones.",
 "tema_id": 7,
 "imagen": "dgt_e261_p15.jpg",
 "dificultad": 5,
@@ -8092,7 +8092,7 @@ window.DGT_QUESTIONS = [
 "Las de posición."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "Quien se ve obligado a un servicio de urgencia, como trasladar a un enfermo, debe advertirlo a los demás encendiendo la luz de emergencia, y así solicitar paso sin adquirir por ello prioridad absoluta.",
 "tema_id": 7,
 "imagen": "dgt_e262_p01.jpg",
 "dificultad": 5,
@@ -8113,7 +8113,7 @@ window.DGT_QUESTIONS = [
 "Detenerse solo si se aproximan vehículos por la izquierda."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "La señal de STOP obliga a detenerse siempre ante la línea de detención y a ceder el paso a todos los vehículos que circulen por la vía preferente, se aproximen por el lado que se aproximen.",
 "tema_id": 6,
 "imagen": "dgt_e262_p02.jpg",
 "dificultad": 5,
@@ -8134,7 +8134,7 @@ window.DGT_QUESTIONS = [
 "A 80 km/h."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "En los tramos con un carril habilitado en sentido contrario al habitual, la velocidad máxima queda limitada a 80 km/h tanto en ese carril como en el contiguo, y es obligatorio llevar encendida la luz de cruce.",
 "tema_id": 4,
 "imagen": "dgt_e262_p03.jpg",
 "dificultad": 4,
@@ -8155,7 +8155,7 @@ window.DGT_QUESTIONS = [
 "Solo si no se entorpece la marcha normal de otros vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "Circular por debajo de la velocidad mínima sin causa justificada supone una velocidad anormalmente reducida que entorpece y crea riesgo. En autovía la mínima es 60 km/h, y el arcén no es para circular.",
 "tema_id": 1,
 "imagen": "dgt_e262_p04.jpg",
 "dificultad": 4,
@@ -8176,7 +8176,7 @@ window.DGT_QUESTIONS = [
 "que el estacionamiento está prohibido."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "La cuadrícula amarilla marca una zona de intersección que debe quedar libre: prohíbe entrar en el cruce si, por la circulación, el vehículo puede quedar detenido dentro obstaculizando los movimientos transversales.",
 "tema_id": 6,
 "imagen": "dgt_e262_p05.jpg",
 "dificultad": 5,
@@ -8197,7 +8197,7 @@ window.DGT_QUESTIONS = [
 "Que tiene intención de inmovilizar el vehículo o de frenar su marcha de modo considerable."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "El brazo extendido horizontalmente con la palma hacia atrás es la señal óptica que advierte la intención de dar marcha atrás. Para indicar frenada, en cambio, el brazo se mueve alternativamente de arriba abajo.",
 "tema_id": 6,
 "imagen": "dgt_e262_p06.jpg",
 "dificultad": 5,
@@ -8218,7 +8218,7 @@ window.DGT_QUESTIONS = [
 "los de rehabilitación en centros de salud."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "Los gastos sanitarios de un accidente incluyen la asistencia médica, hospitalaria y la rehabilitación en centros de salud de los heridos; la pérdida de producción se computa como coste humano y los daños al entorno, como materiales o medioambientales.",
 "tema_id": 6,
 "imagen": "dgt_e262_p07.jpg",
 "dificultad": 5,
@@ -8239,7 +8239,7 @@ window.DGT_QUESTIONS = [
 "presta mayor atención al entorno y tarda más en tomar decisiones."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "El estrés reduce la capacidad de concentración y hace que el conductor se distraiga con mayor facilidad, además de favorecer reacciones impulsivas o agresivas al volante.",
 "tema_id": 1,
 "imagen": "dgt_e262_p08.jpg",
 "dificultad": 5,
@@ -8260,7 +8260,7 @@ window.DGT_QUESTIONS = [
 "Ninguna de las señales."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "El Reglamento establece que, si dos señales del mismo tipo se contradicen, prevalece la más restrictiva: es el criterio que garantiza la opción más segura para todos los usuarios.",
 "tema_id": 5,
 "imagen": "dgt_e262_p09.jpg",
 "dificultad": 5,
@@ -8281,7 +8281,7 @@ window.DGT_QUESTIONS = [
 "Únicamente fuera de poblado."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "El Reglamento exime del cinturón a quien acredite mediante certificado médico una causa grave que desaconseje su uso; el certificado debe llevarse en el vehículo y indicar su plazo de validez.",
 "tema_id": 7,
 "imagen": "dgt_e262_p10.jpg",
 "dificultad": 5,
@@ -8302,7 +8302,7 @@ window.DGT_QUESTIONS = [
 "No, está prohibido hacer advertencias, ya que pueden crear confusión."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "Para advertir una reducción considerable de velocidad, el Reglamento prevé el empleo reiterado de las luces de frenado o, en su defecto, mover el brazo alternativamente de arriba abajo con movimientos cortos y rápidos.",
 "tema_id": 4,
 "imagen": "dgt_e262_p11.jpg",
 "dificultad": 4,
@@ -8323,7 +8323,7 @@ window.DGT_QUESTIONS = [
 "En el lado derecho de la calzada en el sentido de la marcha."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "En vías urbanas de doble sentido solo se puede estacionar en el lado derecho según el sentido de la marcha: estacionar a la izquierda obligaría a cruzar el sentido contrario y dejaría el vehículo a contramano.",
 "tema_id": 1,
 "imagen": "dgt_e262_p12.jpg",
 "dificultad": 5,
@@ -8344,7 +8344,7 @@ window.DGT_QUESTIONS = [
 "Sí, salvo que la ayuda ya esté organizada."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "La ley obliga a todo usuario, esté o no implicado, a auxiliar a las víctimas o pedir ayuda; solo queda dispensado si el auxilio ya está organizado por otras personas o los servicios de emergencia.",
 "tema_id": 6,
 "imagen": "dgt_e262_p13.jpg",
 "dificultad": 5,
@@ -8365,7 +8365,7 @@ window.DGT_QUESTIONS = [
 "100 km/h."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "En autopistas y autovías el límite genérico de motocicletas y turismos es 120 km/h. Desde 2021 no existe el margen de 20 km/h para adelantar, que además nunca se aplicó en este tipo de vías.",
 "tema_id": 4,
 "imagen": "dgt_e262_p14.jpg",
 "dificultad": 4,
@@ -8386,7 +8386,7 @@ window.DGT_QUESTIONS = [
 "Sí, y por eso debe ser la adecuada en cada momento."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2022).",
+"explicacion": "La velocidad excesiva o inadecuada es uno de los principales factores de riesgo: reduce el tiempo de reacción, alarga la frenada y agrava las lesiones. Por eso debe adaptarse siempre a las circunstancias de la vía y del tráfico.",
 "tema_id": 4,
 "imagen": "dgt_e262_p15.jpg",
 "dificultad": 4,
@@ -8407,7 +8407,7 @@ window.DGT_QUESTIONS = [
 "Las luces de posición, que podrá sustituir por las de estacionamiento."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "En una travesía insuficientemente iluminada, el vehículo estacionado de noche debe mantener encendidas las luces de posición, que puede sustituir por las de estacionamiento: así resulta visible sin deslumbrar a nadie.",
 "tema_id": 7,
 "imagen": "dgt_e263_p01.jpg",
 "dificultad": 5,
@@ -8428,7 +8428,7 @@ window.DGT_QUESTIONS = [
 "Los peatones y los conductores de bicicletas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "El pictograma rojo con forma de ciclo indica que ese semáforo va dirigido a bicicletas y ciclomotores: solo esos usuarios deben obedecerlo. Los peatones y el resto de vehículos se rigen por sus propios semáforos.",
 "tema_id": 1,
 "imagen": "dgt_e263_p02.jpg",
 "dificultad": 5,
@@ -8449,7 +8449,7 @@ window.DGT_QUESTIONS = [
 "La presión aconsejada por el fabricante."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "Los neumáticos deben llevar siempre la presión que aconseja el fabricante, también con lluvia: es la que garantiza que el dibujo apoye y evacúe el agua correctamente. Subirla o bajarla reduce la superficie de contacto útil y la adherencia.",
 "tema_id": 7,
 "imagen": "dgt_e263_p03.jpg",
 "dificultad": 5,
@@ -8470,7 +8470,7 @@ window.DGT_QUESTIONS = [
 "No; la conducción es más segura cuando se consumen drogas de abuso."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "Existe una relación directa: las drogas alteran gravemente la atención, la percepción, el tiempo de reacción y la toma de decisiones, capacidades imprescindibles para conducir, con o sin alcohol de por medio.",
 "tema_id": 3,
 "imagen": "dgt_e263_p04.jpg",
 "dificultad": 4,
@@ -8491,7 +8491,7 @@ window.DGT_QUESTIONS = [
 "Sí, siempre."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "Los carriles VAO están reservados a motocicletas y a turismos con la ocupación mínima indicada, sin remolque. Un turismo que arrastra remolque, aunque sea ligero, no puede utilizarlos en ningún momento.",
 "tema_id": 6,
 "imagen": "dgt_e263_p05.jpg",
 "dificultad": 4,
@@ -8512,7 +8512,7 @@ window.DGT_QUESTIONS = [
 "No, no es obligatorio."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "El cinturón es obligatorio también para las embarazadas, en todo tipo de vías: es la mejor protección para la madre y el feto. Debe colocarse con la banda inferior por debajo del abdomen, apoyada sobre las caderas.",
 "tema_id": 7,
 "imagen": "dgt_e263_p06.jpg",
 "dificultad": 5,
@@ -8533,7 +8533,7 @@ window.DGT_QUESTIONS = [
 "A 30 km/h, como recomendación, durante el tramo que dure el peligro."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "El panel azul cuadrado con el 30 es una velocidad aconsejada: recomienda no superar los 30 km/h mientras dure el peligro que anuncia el triángulo (proximidad de niños). Al ser recomendación, no impone mínimo ni obligación estricta.",
 "tema_id": 4,
 "imagen": "dgt_e263_p07.jpg",
 "dificultad": 4,
@@ -8554,7 +8554,7 @@ window.DGT_QUESTIONS = [
 "Las situaciones complejas, como incorporarse a una vía en la que se circula a alta velocidad."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "Con la edad se reducen la agilidad perceptiva y la velocidad de reacción, por lo que a las personas mayores les cuestan más las situaciones complejas que exigen decidir rápido, como incorporarse a una vía donde se circula a alta velocidad.",
 "tema_id": 6,
 "imagen": "dgt_e263_p08.jpg",
 "dificultad": 4,
@@ -8575,7 +8575,7 @@ window.DGT_QUESTIONS = [
 "Comprobar que todos los ocupantes del vehículo hacen uso del cinturón de seguridad."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "La ley impone al titular del vehículo el deber de identificar ante la Administración al conductor que lo llevaba cuando se cometió una infracción; incumplirlo es una infracción muy grave con multa agravada.",
 "tema_id": 2,
 "imagen": "dgt_e263_p09.jpg",
 "dificultad": 5,
@@ -8596,7 +8596,7 @@ window.DGT_QUESTIONS = [
 "Asegurarse de que puede hacerlo sin peligro para los demás usuarios."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "Quien se incorpora a la circulación debe cerciorarse antes de que puede hacerlo sin peligro para los demás usuarios, cediéndoles el paso: la prioridad es de quienes ya circulan por la vía. Señalizar la maniobra no basta por sí solo.",
 "tema_id": 6,
 "imagen": "dgt_e263_p10.jpg",
 "dificultad": 5,
@@ -8617,7 +8617,7 @@ window.DGT_QUESTIONS = [
 "No, solamente, cuando lleve sobrecarga porque podrían producirse cambios de inclinación del alcance luminoso."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "Conviene revisar periódicamente el alumbrado para comprobar que todas las luces funcionan y que su reglaje es correcto: unas luces mal orientadas iluminan mal la vía y deslumbran a los demás conductores.",
 "tema_id": 7,
 "imagen": "dgt_e263_p11.jpg",
 "dificultad": 5,
@@ -8638,7 +8638,7 @@ window.DGT_QUESTIONS = [
 "en vías urbanas con dos o más carriles delimitados por líneas longitudinales."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "En vías urbanas con dos o más carriles para el mismo sentido delimitados por marcas viales se permite adelantar por la derecha, con precaución y espacio suficiente: en ciudad los carriles funcionan como flujos independientes.",
 "tema_id": 6,
 "imagen": "dgt_e263_p12.jpg",
 "dificultad": 4,
@@ -8659,7 +8659,7 @@ window.DGT_QUESTIONS = [
 "Solo si hay fallecidos o heridos graves."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "Todo implicado en un accidente debe detenerse y colaborar, en la medida de lo posible, a restablecer la seguridad de la circulación: señalizar el peligro, apartar obstáculos y auxiliar. No es tarea exclusiva de los agentes.",
 "tema_id": 6,
 "imagen": "dgt_e263_p13.jpg",
 "dificultad": 5,
@@ -8680,7 +8680,7 @@ window.DGT_QUESTIONS = [
 "No, solo puede utilizar los carriles derecho y central."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "La norma general es circular por el carril derecho, pero los demás carriles, incluido el situado más a la izquierda, pueden usarse cuando las circunstancias del tráfico o de la vía lo aconsejen. No hay carriles vetados a las motocicletas.",
 "tema_id": 1,
 "imagen": "dgt_e263_p14.jpg",
 "dificultad": 5,
@@ -8701,7 +8701,7 @@ window.DGT_QUESTIONS = [
 "No, porque pueden dificultar la conducción."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2022).",
+"explicacion": "Los guantes no son obligatorios, pero sí muy aconsejables todo el año: en una caída las manos son el primer punto de apoyo instintivo y sin protección sufren abrasiones y fracturas incluso a baja velocidad.",
 "tema_id": 1,
 "imagen": "dgt_e263_p15.jpg",
 "dificultad": 5,
@@ -8722,7 +8722,7 @@ window.DGT_QUESTIONS = [
 "se aproxima a una elevación del terreno."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "El círculo rojo con la franja horizontal es la señal de prohibición de pasar sin detenerse: obliga a parar ante un control (aduana, policía o peaje) y a no continuar hasta estar autorizado.",
 "tema_id": 5,
 "imagen": "dgt_e264_p01.jpg",
 "dificultad": 5,
@@ -8743,7 +8743,7 @@ window.DGT_QUESTIONS = [
 "Para reducir la velocidad al salir de una autopista."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "El carril de deceleración permite abandonar la autopista reduciendo la velocidad ya fuera del carril principal, sin frenar bruscamente ni entorpecer a quienes siguen circulando por la vía.",
 "tema_id": 4,
 "imagen": "dgt_e264_p02.jpg",
 "dificultad": 4,
@@ -8764,7 +8764,7 @@ window.DGT_QUESTIONS = [
 "Solo cuando circule por una travesía."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "La luz de carretera solo es exigible fuera de poblado, en vías sin iluminación suficiente, al circular a más de 40 km/h. Por debajo de esa velocidad basta la luz de cruce, y puede usar la de carretera si no deslumbra.",
 "tema_id": 4,
 "imagen": "dgt_e264_p03.jpg",
 "dificultad": 4,
@@ -8785,7 +8785,7 @@ window.DGT_QUESTIONS = [
 "Una zona reservada para frenado de emergencia, donde no se puede parar ni estacionar."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "El damero blanco y rojo marca una zona reservada para frenado de emergencia (lecho de frenado para vehículos sin frenos): está prohibido parar y estacionar en ella para mantenerla siempre libre.",
 "tema_id": 6,
 "imagen": "dgt_e264_p04.jpg",
 "dificultad": 5,
@@ -8806,7 +8806,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque debido al esfuerzo y pedaleo pueden realizar cambios bruscos de trayectoria."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "En subidas prolongadas el ciclista pedalea de pie y con esfuerzo, lo que provoca zigzagueos y cambios bruscos de trayectoria: hay que adelantar con especial cuidado y respetando la separación mínima de 1,5 metros.",
 "tema_id": 6,
 "imagen": "dgt_e264_p05.jpg",
 "dificultad": 4,
@@ -8827,7 +8827,7 @@ window.DGT_QUESTIONS = [
 "Se está desarrollando en la calzada una actividad deportiva."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "La bandera verde portada por un agente en moto indica que, a partir de su paso, la calzada queda de nuevo abierta al tráfico: suele cerrar la marcha de una prueba deportiva o un evento.",
 "tema_id": 1,
 "imagen": "dgt_e264_p06.jpg",
 "dificultad": 4,
@@ -8848,7 +8848,7 @@ window.DGT_QUESTIONS = [
 "se percibe mejor el entorno y se toman decisiones más seguras."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "La cocaína genera una falsa sensación de seguridad y euforia, pero disminuye la capacidad de concentración y favorece decisiones arriesgadas al volante.",
 "tema_id": 3,
 "imagen": "dgt_e264_p07.jpg",
 "dificultad": 4,
@@ -8869,7 +8869,7 @@ window.DGT_QUESTIONS = [
 "Sí, para todo tipo de vehículos, pero solo cuando la carga sea indivisible."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "El panel de franjas rojas y blancas (V-20) es obligatorio cuando la carga sobresale por la parte posterior del vehículo, para advertir de ese saliente a quienes circulan detrás.",
 "tema_id": 5,
 "imagen": "dgt_e264_p08.jpg",
 "dificultad": 5,
@@ -8890,7 +8890,7 @@ window.DGT_QUESTIONS = [
 "Sí, aumentando el riesgo de accidente."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "Buscar emisoras o manipular el reproductor aparta la vista y la atención de la vía: es una distracción que aumenta el riesgo de accidente. Conviene hacerlo con el vehículo detenido.",
 "tema_id": 1,
 "imagen": "dgt_e264_p09.jpg",
 "dificultad": 5,
@@ -8911,7 +8911,7 @@ window.DGT_QUESTIONS = [
 "por el centro de la calzada, en tramos rectos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "En calzadas con un solo carril por sentido, también en ciudad, la norma general es circular lo más cerca posible del borde derecho, dejando libre el resto para adelantamientos y cruces.",
 "tema_id": 1,
 "imagen": "dgt_e264_p10.jpg",
 "dificultad": 5,
@@ -8932,7 +8932,7 @@ window.DGT_QUESTIONS = [
 "Al enfriamiento excesivo de los discos de freno."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "Que el pedal deba pisarse a fondo para frenar revela una pérdida de eficacia del circuito: un fallo del sistema de frenos. Ni el ABS ni el enfriamiento de los discos producen ese síntoma.",
 "tema_id": 7,
 "imagen": "dgt_e264_p11.jpg",
 "dificultad": 5,
@@ -8953,7 +8953,7 @@ window.DGT_QUESTIONS = [
 "Sí, cuando no sea obligatoria la detención."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "La línea de detención marca el lugar donde parar cuando la detención es obligatoria (stop, semáforo en rojo, agente). Si no existe esa obligación, puede franquearse sin detenerse.",
 "tema_id": 1,
 "imagen": "dgt_e264_p12.jpg",
 "dificultad": 5,
@@ -8974,7 +8974,7 @@ window.DGT_QUESTIONS = [
 "Tarda más tiempo en reaccionar ante una situación de riesgo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "La distracción aparta la atención de la vía: el conductor detecta más tarde el peligro y tarda más en reaccionar, lo que alarga la distancia de detención y multiplica el riesgo.",
 "tema_id": 7,
 "imagen": "dgt_e264_p13.jpg",
 "dificultad": 5,
@@ -8995,7 +8995,7 @@ window.DGT_QUESTIONS = [
 "Sí, siempre que adelante a vehículos de grandes dimensiones."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "Se permite adelantar a varios vehículos a la vez solo si, al aparecer tráfico de frente, el conductor puede volver al carril derecho sin peligro; si no hay hueco garantizado, debe adelantar de uno en uno.",
 "tema_id": 1,
 "imagen": "dgt_e264_p14.jpg",
 "dificultad": 4,
@@ -9016,7 +9016,7 @@ window.DGT_QUESTIONS = [
 "No, en ningún caso."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2022).",
+"explicacion": "La obligación de someterse a las pruebas de alcoholemia alcanza a todos los usuarios de la vía implicados en un accidente, incluidos los peatones cuando sean posibles responsables.",
 "tema_id": 3,
 "imagen": "dgt_e264_p15.jpg",
 "dificultad": 4,
@@ -9037,7 +9037,7 @@ window.DGT_QUESTIONS = [
 "debe ceder el paso a los vehículos que se acerquen tanto por la derecha como por la izquierda."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "El aspa dentro del triángulo advierte de una intersección sin prioridad señalizada: se aplica la regla general, es decir, ceder el paso a los vehículos que se aproximen por la derecha.",
 "tema_id": 6,
 "imagen": "dgt_e265_p01.jpg",
 "dificultad": 4,
@@ -9058,7 +9058,7 @@ window.DGT_QUESTIONS = [
 "cada 5 horas aproximadamente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "En los viajes largos se aconseja detenerse a descansar cada 2 horas aproximadamente (o cada 200 km): estirar las piernas y despejarse previene la fatiga y la somnolencia al volante.",
 "tema_id": 1,
 "imagen": "dgt_e265_p02.jpg",
 "dificultad": 5,
@@ -9079,7 +9079,7 @@ window.DGT_QUESTIONS = [
 "Prohibido circular a más de 60 kilómetros por hora para los vehículos que van a girar a la derecha."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "Las señales pintadas sobre un carril solo obligan dentro de ese carril: el 60 limita la velocidad únicamente a quienes circulan por él, no al resto de carriles de la calzada.",
 "tema_id": 4,
 "imagen": "dgt_e265_p03.jpg",
 "dificultad": 4,
@@ -9100,7 +9100,7 @@ window.DGT_QUESTIONS = [
 "En ningún caso; siempre debe utilizar el cinturón de seguridad."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "Es una de las exenciones reglamentarias del cinturón: los conductores de reparto de mercancías pueden prescindir de él en poblado cuando realizan sucesivas operaciones de carga y descarga en trayectos cortos.",
 "tema_id": 1,
 "imagen": "dgt_e265_p04.jpg",
 "dificultad": 5,
@@ -9121,7 +9121,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "Incorporarse a la circulación desde un estacionamiento es una maniobra: hay que ceder el paso a los vehículos que ya circulan. Señalizar con el intermitente advierte de la intención, pero no concede prioridad.",
 "tema_id": 6,
 "imagen": "dgt_e265_p05.jpg",
 "dificultad": 4,
@@ -9142,7 +9142,7 @@ window.DGT_QUESTIONS = [
 "apartar el vehículo en un túnel para dejar libre el paso."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "La señal indica un apartadero en túnel: un ensanche previsto para apartar el vehículo en caso de emergencia y dejar libre el paso, no un lugar de descanso ni de estacionamiento ordinario.",
 "tema_id": 5,
 "imagen": "dgt_e265_p06.jpg",
 "dificultad": 5,
@@ -9163,7 +9163,7 @@ window.DGT_QUESTIONS = [
 "Distancia de detención."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "Es la distancia de reacción: lo que recorre el vehículo durante el tiempo que el conductor tarda en percibir el estímulo y responder. Después comienza la de frenado, y la suma de ambas es la distancia de detención.",
 "tema_id": 1,
 "imagen": "dgt_e265_p07.jpg",
 "dificultad": 5,
@@ -9184,7 +9184,7 @@ window.DGT_QUESTIONS = [
 "90 km/h."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "Desde enero de 2021, la velocidad máxima genérica de los turismos en carreteras convencionales es de 90 km/h, sea cual sea la anchura del arcén o la separación de sentidos.",
 "tema_id": 4,
 "imagen": "dgt_e265_p08.jpg",
 "dificultad": 4,
@@ -9205,7 +9205,7 @@ window.DGT_QUESTIONS = [
 "El vehículo que tenga mayor longitud, anchura o masa máxima autorizada."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "Si ambos vehículos del mismo tipo están igual de adentrados en el estrechamiento, retrocede el que maniobra con más facilidad: tiene preferencia el de mayor longitud, anchura o MMA, al que dar marcha atrás le resulta más difícil.",
 "tema_id": 6,
 "imagen": "dgt_e265_p09.jpg",
 "dificultad": 4,
@@ -9226,7 +9226,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "Cuando es imposible avanzar o cambiar de sentido, se permite retroceder recorriendo solo el mínimo indispensable; el límite de 15 metros rige para la marcha atrás como maniobra complementaria (por ejemplo, al estacionar).",
 "tema_id": 6,
 "imagen": "dgt_e265_p10.jpg",
 "dificultad": 4,
@@ -9247,7 +9247,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque en tiempo cálido disminuye considerablemente la distancia de frenado."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "El compuesto de los neumáticos de invierno está diseñado para bajas temperaturas: con calor se ablanda y se desgasta mucho más deprisa, por lo que conviene sustituirlos al llegar el buen tiempo.",
 "tema_id": 7,
 "imagen": "dgt_e265_p11.jpg",
 "dificultad": 5,
@@ -9268,7 +9268,7 @@ window.DGT_QUESTIONS = [
 "Sólo si se circula a una velocidad superior a los 40 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "La luz de largo alcance (carretera) está prohibida en poblado, y la travesía es poblado a estos efectos: deslumbra al resto de usuarios, por lo que debe usarse la luz de cruce esté o no iluminada la vía.",
 "tema_id": 4,
 "imagen": "dgt_e265_p12.jpg",
 "dificultad": 4,
@@ -9289,7 +9289,7 @@ window.DGT_QUESTIONS = [
 "Sí."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "Las motocicletas pueden circular por los carriles VAO aunque solo viaje el conductor: la norma las admite expresamente junto a los automóviles que cumplen la ocupación mínima exigida.",
 "tema_id": 6,
 "imagen": "dgt_e265_p13.jpg",
 "dificultad": 5,
@@ -9310,7 +9310,7 @@ window.DGT_QUESTIONS = [
 "muy lentamente, eliminándose por completo varias horas después de su consumo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "El organismo elimina el alcohol muy despacio, a un ritmo aproximado de 0,1-0,15 g/l por hora que nada puede acelerar (ni café ni duchas): desaparece de la sangre varias horas después del consumo.",
 "tema_id": 3,
 "imagen": "dgt_e265_p14.jpg",
 "dificultad": 4,
@@ -9331,7 +9331,7 @@ window.DGT_QUESTIONS = [
 "Solo si se consumen acompañadas de alguna bebida alcohólica."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2023).",
+"explicacion": "Las anfetaminas son estimulantes, no relajantes: enmascaran la fatiga, generan falsa seguridad y conductas impulsivas, y al cesar su efecto el cansancio reaparece de golpe. Conducir bajo sus efectos nunca es seguro.",
 "tema_id": 3,
 "imagen": "dgt_e265_p15.jpg",
 "dificultad": 4,
@@ -9352,7 +9352,7 @@ window.DGT_QUESTIONS = [
 "Sí, es un repuesto obligatorio e insustituible que deben llevar todos los turismos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "La rueda de repuesto no es obligatoria si se lleva un sistema alternativo que permita continuar la marcha, como un kit antipinchazos o neumáticos de rodadura sin presión.",
 "tema_id": 1,
 "imagen": "dgt_e266_p01.jpg",
 "dificultad": 5,
@@ -9373,7 +9373,7 @@ window.DGT_QUESTIONS = [
 "No, está prohibido como norma general."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "Conducir con cascos o auriculares conectados a un teléfono o reproductor está prohibido con carácter general: aíslan de los sonidos del tráfico y restan atención a la conducción.",
 "tema_id": 7,
 "imagen": "dgt_e266_p02.jpg",
 "dificultad": 5,
@@ -9394,7 +9394,7 @@ window.DGT_QUESTIONS = [
 "No, solo suceden durante las horas nocturnas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "Los accidentes por sueño también ocurren de día, con un pico entre las dos y las cuatro de la tarde: tras la comida el ritmo circadiano produce somnolencia natural.",
 "tema_id": 1,
 "imagen": "dgt_e266_p03.jpg",
 "dificultad": 5,
@@ -9415,7 +9415,7 @@ window.DGT_QUESTIONS = [
 "en vías con un único carril para cada sentido."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "La obligación de facilitar el adelantamiento (ceñirse a la derecha y no acelerar) no se aplica donde la maniobra está prohibida, porque allí nadie debería estar adelantando.",
 "tema_id": 6,
 "imagen": "dgt_e266_p04.jpg",
 "dificultad": 4,
@@ -9436,7 +9436,7 @@ window.DGT_QUESTIONS = [
 "cuando circulen por un paso para ciclistas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "Los ciclistas tienen prioridad frente a los vehículos de motor cuando circulan por un paso para ciclistas debidamente señalizado, igual que el peatón la tiene en su paso.",
 "tema_id": 1,
 "imagen": "dgt_e266_p05.jpg",
 "dificultad": 4,
@@ -9457,7 +9457,7 @@ window.DGT_QUESTIONS = [
 "Un elemento luminoso o reflectante que sea visible a una distancia mínima de 150 metros."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "De noche, fuera de poblado, el peatón que transite por el arcén o la calzada debe llevar un elemento luminoso o retrorreflectante (chaleco, luz) visible a un mínimo de 150 metros.",
 "tema_id": 1,
 "imagen": "dgt_e266_p06.jpg",
 "dificultad": 4,
@@ -9478,7 +9478,7 @@ window.DGT_QUESTIONS = [
 "No; es un factor que no influye en la tasa de alcoholemia."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "Con el estómago lleno el alcohol pasa a la sangre más despacio, pero se absorbe igualmente: la tasa acaba subiendo y el riesgo de accidente no desaparece por haber comido.",
 "tema_id": 3,
 "imagen": "dgt_e266_p07.jpg",
 "dificultad": 4,
@@ -9499,7 +9499,7 @@ window.DGT_QUESTIONS = [
 "Superior a 10 centímetros."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "El reposacabezas protege del latigazo cervical si está a la altura correcta y lo más cerca posible de la cabeza, con una separación nunca superior a 4 centímetros.",
 "tema_id": 7,
 "imagen": "dgt_e266_p08.jpg",
 "dificultad": 4,
@@ -9520,7 +9520,7 @@ window.DGT_QUESTIONS = [
 "en el lado derecho y sobre la parte transitable del arcén."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "En vía interurbana de doble sentido se para fuera de la calzada, en el lado derecho, y dejando libre la parte transitable del arcén, que deben poder usar peatones y vehículos obligados a circular por él.",
 "tema_id": 1,
 "imagen": "dgt_e266_p09.jpg",
 "dificultad": 5,
@@ -9541,7 +9541,7 @@ window.DGT_QUESTIONS = [
 "Sí, para una mayor garantía y a efectos de contraste."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "Superada la tasa permitida (0,15 mg/l en aire para noveles), la primera prueba positiva se contrasta siempre con una segunda medición, transcurridos unos minutos, como garantía del resultado.",
 "tema_id": 3,
 "imagen": "dgt_e266_p10.jpg",
 "dificultad": 4,
@@ -9562,7 +9562,7 @@ window.DGT_QUESTIONS = [
 "Sí, debe situarse en la parte trasera del remolque para bajar el centro de gravedad y asegurar la estabilidad del vehículo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "Toda carga remolcada debe ir bien distribuida y sujeta: si se desplaza puede desestabilizar el conjunto, especialmente en curvas, frenadas y maniobras bruscas.",
 "tema_id": 6,
 "imagen": "dgt_e266_p11.jpg",
 "dificultad": 4,
@@ -9583,7 +9583,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "Con alergia respiratoria conviene circular con las ventanillas cerradas y apoyarse en el filtro del habitáculo, para impedir que entren polen y partículas que desencadenen los síntomas.",
 "tema_id": 6,
 "imagen": "dgt_e266_p12.jpg",
 "dificultad": 5,
@@ -9604,7 +9604,7 @@ window.DGT_QUESTIONS = [
 "Sí; forma parte del mantenimiento preventivo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "Revisar el alumbrado forma parte del mantenimiento preventivo: todas las luces deben funcionar y estar bien reguladas para ver y ser visto en cualquier condición.",
 "tema_id": 7,
 "imagen": "dgt_e266_p13.jpg",
 "dificultad": 5,
@@ -9625,7 +9625,7 @@ window.DGT_QUESTIONS = [
 "No obedecer las señales de los agentes."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2023).",
+"explicacion": "En vías interurbanas, la infracción más habitual de los peatones atropellados es estar o caminar por la calzada de forma antirreglamentaria, en lugar de usar el arcén o cruzar por lugares seguros.",
 "tema_id": 1,
 "imagen": "dgt_e266_p14.jpg",
 "dificultad": 5,
@@ -9646,7 +9646,7 @@ window.DGT_QUESTIONS = [
 "La señal más restrictiva."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "En el orden de prioridad de las señales (art. 133 RGC), la señalización de balizamiento y circunstancial está por encima de los semáforos; solo las órdenes de los agentes prevalecen sobre ella.",
 "tema_id": 5,
 "imagen": "dgt_e267_p01.jpg",
 "dificultad": 4,
@@ -9667,7 +9667,7 @@ window.DGT_QUESTIONS = [
 "Circular por el carril de deceleración lo antes posible."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "La velocidad debe reducirse dentro del carril de deceleración, no en la calzada principal: por eso hay que incorporarse a él lo antes posible al abandonar la autovía.",
 "tema_id": 4,
 "imagen": "dgt_e267_p02.jpg",
 "dificultad": 4,
@@ -9688,7 +9688,7 @@ window.DGT_QUESTIONS = [
 "Sobre las ruedas motrices."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "El freno de pie es el freno de servicio y actúa sobre las cuatro ruedas: por eso es el freno principal del vehículo, capaz de reducir la velocidad y detenerlo con eficacia.",
 "tema_id": 7,
 "imagen": "dgt_e267_p03.jpg",
 "dificultad": 5,
@@ -9709,7 +9709,7 @@ window.DGT_QUESTIONS = [
 "El derecho."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "La norma general obliga a circular por el carril derecho, aunque haya varios en el mismo sentido; los demás se utilizan para adelantar o cuando las circunstancias del tráfico lo aconsejen.",
 "tema_id": 6,
 "imagen": "dgt_e267_p04.jpg",
 "dificultad": 5,
@@ -9730,7 +9730,7 @@ window.DGT_QUESTIONS = [
 "Con el brazo o con el claxon."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "Los giros se advierten con el intermitente correspondiente o, si este falta o falla, con el brazo, con la antelación suficiente. Las luces largas o el claxon no señalizan giros.",
 "tema_id": 7,
 "imagen": "dgt_e267_p05.jpg",
 "dificultad": 5,
@@ -9751,7 +9751,7 @@ window.DGT_QUESTIONS = [
 "Sí, se agarran menos."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "El agua forma una película entre el neumático y el asfalto que reduce la fricción: las ruedas se agarran menos y aumenta la distancia de frenado, con riesgo incluso de aquaplaning.",
 "tema_id": 1,
 "imagen": "dgt_e267_p06.jpg",
 "dificultad": 5,
@@ -9772,7 +9772,7 @@ window.DGT_QUESTIONS = [
 "los camiones de más de 3.500 kg."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "La señal muestra en rojo la silueta de un camión: prohíbe adelantar a los camiones de más de 3.500 kg de MMA. Los turismos y vehículos ligeros pueden seguir adelantando.",
 "tema_id": 5,
 "imagen": "dgt_e267_p07.jpg",
 "dificultad": 4,
@@ -9793,7 +9793,7 @@ window.DGT_QUESTIONS = [
 "Los carriles para ir a otras carreteras o poblaciones."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "En autopista, los paneles azules de indicación señalan las direcciones y los carriles que hay que tomar para salir hacia otras carreteras o poblaciones.",
 "tema_id": 5,
 "imagen": "dgt_e267_p08.jpg",
 "dificultad": 5,
@@ -9814,7 +9814,7 @@ window.DGT_QUESTIONS = [
 "Detenerse, excepto si un semáforo le da preferencia de paso, en cuyo caso debe cruzar."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "El brazo levantado verticalmente de un agente obliga a detenerse a todos los usuarios de la vía, también a los peatones; las órdenes de los agentes prevalecen sobre los semáforos y cualquier otra señal.",
 "tema_id": 5,
 "imagen": "dgt_e267_p09.jpg",
 "dificultad": 4,
@@ -9835,7 +9835,7 @@ window.DGT_QUESTIONS = [
 "El incremento de la agudeza visual."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "Un conductor fatigado corrige menos la trayectoria: hace menos movimientos de volante y más lentos. La fatiga también reduce la agudeza visual y la capacidad de filtrar la información relevante.",
 "tema_id": 6,
 "imagen": "dgt_e267_p10.jpg",
 "dificultad": 5,
@@ -9856,7 +9856,7 @@ window.DGT_QUESTIONS = [
 "Sí, salvo en los vehículos de poca antigüedad."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "El calor intenso y prolongado puede opacar o deteriorar los materiales plásticos y las juntas de faros y pilotos: conviene comprobar visualmente su estado y su capacidad de iluminación, sea cual sea la edad del vehículo.",
 "tema_id": 6,
 "imagen": "dgt_e267_p11.jpg",
 "dificultad": 5,
@@ -9877,7 +9877,7 @@ window.DGT_QUESTIONS = [
 "0,3 gramos por litro."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "Cualquier cantidad de alcohol deteriora la conducción: la única tasa realmente segura es 0,0 g/l. Los límites legales (0,5 g/l general, 0,3 g/l noveles y profesionales) son máximos, no valores seguros.",
 "tema_id": 3,
 "imagen": "dgt_e267_p12.jpg",
 "dificultad": 4,
@@ -9898,7 +9898,7 @@ window.DGT_QUESTIONS = [
 "sean más prudentes al volante"
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "Sobrevalorar la propia destreza y percibir menos el riesgo lleva a asumir situaciones más peligrosas (velocidad, distancias cortas), lo que explica la mayor siniestralidad de los conductores jóvenes.",
 "tema_id": 1,
 "imagen": "dgt_e267_p13.jpg",
 "dificultad": 5,
@@ -9919,7 +9919,7 @@ window.DGT_QUESTIONS = [
 "Sólo en vías urbanas; en vías interurbanas deben usar siempre la señal acústica"
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2023).",
+"explicacion": "Los vehículos prioritarios en servicio urgente utilizan la señal luminosa y la acústica, pero pueden prescindir de la acústica y llevar solo la luminosa cuando ello no suponga peligro para los demás usuarios.",
 "tema_id": 5,
 "imagen": "dgt_e267_p14.jpg",
 "dificultad": 5,
@@ -9940,7 +9940,7 @@ window.DGT_QUESTIONS = [
 "es el mismo para todos los conductores."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "El tiempo de reacción no es fijo: depende del estado psicofísico del conductor. La fatiga, el sueño, el alcohol, las drogas o las emociones intensas lo alargan aunque la situación de tráfico sea idéntica.",
 "tema_id": 1,
 "imagen": "dgt_e268_p02.jpg",
 "dificultad": 5,
@@ -9961,7 +9961,7 @@ window.DGT_QUESTIONS = [
 "Sí; los de colores oscuros absorben mejor los impactos."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "Los cascos de colores claros o brillantes hacen al motorista más visible para el resto de conductores, de día y de noche, y ser visto a tiempo reduce el riesgo de colisión. El color no influye en la absorción de impactos.",
 "tema_id": 7,
 "imagen": "dgt_e268_p03.jpg",
 "dificultad": 5,
@@ -9982,7 +9982,7 @@ window.DGT_QUESTIONS = [
 "cambiar el sentido de la marcha."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "Es la señal de media vuelta prohibida: impide girar 180 grados para cambiar el sentido de la marcha, pero no prohíbe el giro a la izquierda, que se representa con otra señal distinta.",
 "tema_id": 5,
 "imagen": "dgt_e268_p04.jpg",
 "dificultad": 5,
@@ -10003,7 +10003,7 @@ window.DGT_QUESTIONS = [
 "se ha puesto el chaleco reflectante."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "El Reglamento prohíbe abrir las puertas antes de la completa inmovilización y sin haber comprobado que no se crea peligro: un ciclista o una moto que se acerque puede chocar contra la puerta abierta.",
 "tema_id": 7,
 "imagen": "dgt_e268_p05.jpg",
 "dificultad": 5,
@@ -10024,7 +10024,7 @@ window.DGT_QUESTIONS = [
 "Abstenerse del cumplimiento de la señalización."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "En las intersecciones señalizadas prevalece lo que indica la señal, que está por encima de la norma general de prioridad. La regla de ceder el paso a la derecha solo se aplica cuando no hay señalización.",
 "tema_id": 6,
 "imagen": "dgt_e268_p06.jpg",
 "dificultad": 5,
@@ -10045,7 +10045,7 @@ window.DGT_QUESTIONS = [
 "no conducir durante el tratamiento."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "Los analgésicos narcóticos provocan somnolencia y merman la atención, los reflejos y la coordinación, por lo que lo aconsejable es no conducir mientras dure el tratamiento y consultar al médico.",
 "tema_id": 6,
 "imagen": "dgt_e268_p07.jpg",
 "dificultad": 5,
@@ -10066,7 +10066,7 @@ window.DGT_QUESTIONS = [
 "70 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "La velocidad mínima en cualquier vía es la mitad de la máxima genérica. En autovía, donde el máximo genérico de un pick-up asimilado a turismo es 120 km/h, no se debe circular a menos de 60 km/h salvo causa justificada.",
 "tema_id": 4,
 "imagen": "dgt_e268_p08.jpg",
 "dificultad": 4,
@@ -10087,7 +10087,7 @@ window.DGT_QUESTIONS = [
 "tiene prioridad sobre los peatones."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "La marcha atrás exige extremar la precaución porque la visibilidad es reducida y pueden pasar peatones por detrás del vehículo, en la zona de ángulo muerto. Debe hacerse lentamente y recorriendo lo mínimo indispensable.",
 "tema_id": 6,
 "imagen": "dgt_e268_p09.jpg",
 "dificultad": 4,
@@ -10108,7 +10108,7 @@ window.DGT_QUESTIONS = [
 "Sí, y además está cometiendo un delito."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "Negarse a las pruebas de detección de alcohol es un delito contra la seguridad vial tipificado en el Código Penal y, además, los agentes pueden inmovilizar el vehículo para impedir que siga circulando.",
 "tema_id": 3,
 "imagen": "dgt_e268_p10.jpg",
 "dificultad": 4,
@@ -10129,7 +10129,7 @@ window.DGT_QUESTIONS = [
 "Sí, siempre que no sobresalga más de 0,50 metros por cada lado de su eje longitudinal."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "El Reglamento permite que una carga indivisible sobresalga lateralmente en una motocicleta hasta 0,50 metros por cada lado de su eje longitudinal, límite pensado para no comprometer la estabilidad ni invadir espacio ajeno.",
 "tema_id": 6,
 "imagen": "dgt_e268_p11.jpg",
 "dificultad": 4,
@@ -10150,7 +10150,7 @@ window.DGT_QUESTIONS = [
 "La luz antiniebla trasera, si la lleva, y la luz de largo alcance."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "Con niebla ligera basta la luz antiniebla delantera, si el vehículo la lleva, o en su defecto la de corto o largo alcance. La antiniebla trasera se reserva para niebla espesa u otras condiciones que reduzcan mucho la visibilidad.",
 "tema_id": 7,
 "imagen": "dgt_e268_p12.jpg",
 "dificultad": 5,
@@ -10171,7 +10171,7 @@ window.DGT_QUESTIONS = [
 "Un carril reversible."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "La línea discontinua más ancha de lo normal delimita un carril especial, como uno de deceleración, aceleración o reservado; su mayor anchura la distingue de la línea que separa carriles convencionales.",
 "tema_id": 5,
 "imagen": "dgt_e268_p13.jpg",
 "dificultad": 5,
@@ -10192,7 +10192,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque el conductor se distrae."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2023).",
+"explicacion": "Manipular el navegador en marcha es una distracción: aparta la vista, las manos y la atención de la conducción durante varios segundos. Las direcciones deben introducirse antes de salir o con el vehículo detenido en lugar seguro.",
 "tema_id": 1,
 "imagen": "dgt_e268_p14.jpg",
 "dificultad": 5,
@@ -10213,7 +10213,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque en autopista se puede circular por cualquier carril."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "La norma general obliga a circular por el carril derecho: el izquierdo se usa para adelantar u otras maniobras y, una vez completado el adelantamiento, hay que regresar al carril derecho cuanto antes.",
 "tema_id": 6,
 "imagen": "dgt_e269_p01.jpg",
 "dificultad": 4,
@@ -10234,7 +10234,7 @@ window.DGT_QUESTIONS = [
 "es más inseguro al volante."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "El trastorno depresivo genera indecisión, lentitud de respuesta y falta de confianza: el conductor se muestra más inseguro al volante y le cuesta más tomar decisiones en el tráfico.",
 "tema_id": 1,
 "imagen": "dgt_e269_p02.jpg",
 "dificultad": 5,
@@ -10255,7 +10255,7 @@ window.DGT_QUESTIONS = [
 "No; la gravedad de las lesiones depende sólo de los sistemas de seguridad pasiva."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "La energía que se libera en un impacto crece con el cuadrado de la velocidad: a mayor velocidad de circulación, mayor violencia del choque y mayor probabilidad de lesiones graves o mortales.",
 "tema_id": 4,
 "imagen": "dgt_e269_p03.jpg",
 "dificultad": 4,
@@ -10276,7 +10276,7 @@ window.DGT_QUESTIONS = [
 "No, está obligado a girar a la derecha."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "Las flechas de selección de carril pintadas en la calzada son obligatorias: quien circula por el carril derecho, marcado con flecha de giro a la derecha, está obligado a girar en ese sentido.",
 "tema_id": 5,
 "imagen": "dgt_e269_p04.jpg",
 "dificultad": 5,
@@ -10297,7 +10297,7 @@ window.DGT_QUESTIONS = [
 "Sólo si uno de los ocupantes, al menos, es menor de 14 años."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "El número de personas transportadas no puede superar el de plazas autorizadas en el permiso de circulación: en un turismo de cinco plazas viajar seis personas está prohibido, sin excepciones por edad o peso.",
 "tema_id": 6,
 "imagen": "dgt_e269_p05.jpg",
 "dificultad": 5,
@@ -10318,7 +10318,7 @@ window.DGT_QUESTIONS = [
 "Aumentan la distancia de reacción."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "El sueño y la fatiga alargan el tiempo que se tarda en reaccionar; durante ese tiempo extra el vehículo sigue avanzando, de modo que la distancia de reacción, y con ella la de detención, aumenta.",
 "tema_id": 6,
 "imagen": "dgt_e269_p06.jpg",
 "dificultad": 5,
@@ -10339,7 +10339,7 @@ window.DGT_QUESTIONS = [
 "Detenerse, borrar las huellas del accidente y cambiar de sitio a los heridos y vehículos."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "El implicado en un accidente debe detenerse sin crear nuevos peligros, avisar a la autoridad o sus agentes y auxiliar a los heridos; nunca debe borrar huellas ni mover a las víctimas salvo riesgo inminente.",
 "tema_id": 6,
 "imagen": "dgt_e269_p07.jpg",
 "dificultad": 5,
@@ -10360,7 +10360,7 @@ window.DGT_QUESTIONS = [
 "las manos."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "En los atropellos a ciclistas las lesiones más graves, y con frecuencia mortales, se concentran en la cabeza: de ahí la importancia del casco como protección esencial.",
 "tema_id": 1,
 "imagen": "dgt_e269_p08.jpg",
 "dificultad": 5,
@@ -10381,7 +10381,7 @@ window.DGT_QUESTIONS = [
 "Por el arcén de la derecha."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "Los ciclomotores deben circular por el arcén de su derecha cuando sea transitable y suficiente; solo si no lo es pueden utilizar la calzada, aproximándose todo lo posible a su borde derecho.",
 "tema_id": 1,
 "imagen": "dgt_e269_p09.jpg",
 "dificultad": 5,
@@ -10402,7 +10402,7 @@ window.DGT_QUESTIONS = [
 "No; es una prueba que sólo se puede realizar en un centro médico."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "La ley faculta a los agentes para realizar pruebas de detección de estupefacientes (test salival) a cualquier conductor, también en controles preventivos, sin necesidad de accidente ni infracción previa.",
 "tema_id": 3,
 "imagen": "dgt_e269_p10.jpg",
 "dificultad": 4,
@@ -10423,7 +10423,7 @@ window.DGT_QUESTIONS = [
 "Igual que cuando la calzada está seca, ya que los neumáticos no pierden adherencia."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "Sobre pavimento húmedo y resbaladizo los neumáticos pierden adherencia: la conducción debe ser suave, sin acelerones ni frenazos, reduciendo la velocidad y ampliando la distancia de seguridad.",
 "tema_id": 4,
 "imagen": "dgt_e269_p11.jpg",
 "dificultad": 4,
@@ -10444,7 +10444,7 @@ window.DGT_QUESTIONS = [
 "No, no pueden ni circular ni pararse sobre ella."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "El cebreado enmarcado por línea continua delimita una zona excluida de la circulación: los conductores no pueden ni circular ni detenerse sobre esas franjas oblicuas.",
 "tema_id": 1,
 "imagen": "dgt_e269_p12.jpg",
 "dificultad": 5,
@@ -10465,7 +10465,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "En poblado el claxon solo puede usarse de forma excepcional: para evitar un posible accidente o para advertir, por los vehículos prioritarios, de que se presta un servicio de urgencia.",
 "tema_id": 6,
 "imagen": "dgt_e269_p13.jpg",
 "dificultad": 5,
@@ -10486,7 +10486,7 @@ window.DGT_QUESTIONS = [
 "No, salvo que la M.M.A. del remolque supere la cifra indicada en la señal."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo 2024).",
+"explicacion": "Esta señal prohíbe la entrada a vehículos de motor con remolque que no sea de un solo eje o semirremolque; como su remolque tiene un único eje, la prohibición no le afecta, con independencia de la cifra de tonelaje.",
 "tema_id": 5,
 "imagen": "dgt_e269_p14.jpg",
 "dificultad": 4,
@@ -10507,7 +10507,7 @@ window.DGT_QUESTIONS = [
 "deteriora la capacidad para conducir sólo si se mezcla con alguna droga ilegal."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "No existe una cantidad de alcohol segura al volante: desde la primera copa se deterioran la atención, la percepción y el tiempo de reacción, aunque la tasa sea baja.",
 "tema_id": 3,
 "imagen": "dgt_e270_p01.jpg",
 "dificultad": 4,
@@ -10528,7 +10528,7 @@ window.DGT_QUESTIONS = [
 "No, está prohibido."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "Un conductor mayor de edad puede llevar en bicicleta a un menor de hasta siete años en un asiento adicional homologado; es la excepción legal al límite de plazas por construcción.",
 "tema_id": 1,
 "imagen": "dgt_e270_p02.jpg",
 "dificultad": 5,
@@ -10549,7 +10549,7 @@ window.DGT_QUESTIONS = [
 "solamente el estacionamiento."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "La señal de estacionamiento prohibido ante el vado impide únicamente estacionar; la parada (detención breve, sin abandonar el vehículo) sigue estando permitida.",
 "tema_id": 5,
 "imagen": "dgt_e270_p03.jpg",
 "dificultad": 5,
@@ -10570,7 +10570,7 @@ window.DGT_QUESTIONS = [
 "90 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "En autopistas y autovías que discurren dentro de poblado el límite genérico es de 80 km/h, aplicable a la furgoneta por ser inferior a su máximo propio en esas vías.",
 "tema_id": 4,
 "imagen": "dgt_e270_p04.jpg",
 "dificultad": 4,
@@ -10591,7 +10591,7 @@ window.DGT_QUESTIONS = [
 "su talla y peso."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "Los menores de estatura igual o inferior a 135 cm deben usar sistemas de retención infantil homologados y adaptados a su talla y peso, para que el dispositivo sujete el cuerpo correctamente en un impacto.",
 "tema_id": 6,
 "imagen": "dgt_e270_p05.jpg",
 "dificultad": 4,
@@ -10612,7 +10612,7 @@ window.DGT_QUESTIONS = [
 "Sí, se puede parar y estacionar."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "Los carriles reservados al transporte público urbano deben quedar siempre expeditos: los demás vehículos no pueden circular, parar ni estacionar en ellos.",
 "tema_id": 6,
 "imagen": "dgt_e270_p06.jpg",
 "dificultad": 5,
@@ -10633,7 +10633,7 @@ window.DGT_QUESTIONS = [
 "Sí, es fundamental porque el cuerpo está directamente expuesto a las inclemencias del tiempo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "En moto el cuerpo está directamente expuesto: un vestuario adecuado (guantes, chaqueta con protecciones, botas) protege de las inclemencias y reduce las lesiones por abrasión e impacto en una caída.",
 "tema_id": 7,
 "imagen": "dgt_e270_p07.jpg",
 "dificultad": 5,
@@ -10654,7 +10654,7 @@ window.DGT_QUESTIONS = [
 "Depende de si el vehículo tiene motor diésel o de gasolina."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "La conducción eficiente ahorra combustible: circular en marchas largas y evitar cambios innecesarios mantiene el motor en regímenes bajos y reduce consumo y emisiones.",
 "tema_id": 7,
 "imagen": "dgt_e270_p08.jpg",
 "dificultad": 5,
@@ -10675,7 +10675,7 @@ window.DGT_QUESTIONS = [
 "Detenerse en el lado izquierdo, detrás del vehículo policial."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "La señal V-1 encendida con la orden del agente exige detenerse en el lado derecho, delante del vehículo policial, para que el agente pueda dirigirse al conductor con seguridad.",
 "tema_id": 5,
 "imagen": "dgt_e270_p09.jpg",
 "dificultad": 5,
@@ -10696,7 +10696,7 @@ window.DGT_QUESTIONS = [
 "el conductor recibe un impacto directo y fuerte del airbag en la cara."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "El efecto submarino ocurre cuando el cuerpo se desliza por debajo de la banda abdominal del cinturón, por llevarlo holgado o el respaldo muy reclinado, y causa graves lesiones internas.",
 "tema_id": 7,
 "imagen": "dgt_e270_p10.jpg",
 "dificultad": 5,
@@ -10717,7 +10717,7 @@ window.DGT_QUESTIONS = [
 "Circular con cambios frecuentes de dirección para evitar que se produzca “aquaplaning”."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "El granizo reduce bruscamente la adherencia: hay que disminuir la velocidad de forma suave, evitando pisar el freno, y aumentar la distancia de seguridad para prevenir deslizamientos.",
 "tema_id": 4,
 "imagen": "dgt_e270_p11.jpg",
 "dificultad": 4,
@@ -10738,7 +10738,7 @@ window.DGT_QUESTIONS = [
 "La distancia al inicio de un tramo con curvas peligrosas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "El panel complementario de distancia indica los metros que faltan desde la señal hasta el punto donde comienza el peligro: aquí, el inicio del tramo de curvas peligrosas.",
 "tema_id": 5,
 "imagen": "dgt_e270_p12.jpg",
 "dificultad": 5,
@@ -10759,7 +10759,7 @@ window.DGT_QUESTIONS = [
 "la oscuridad impide la aparición del sueño, pero favorece la aparición de la fatiga."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "De noche el organismo está programado para dormir: el sueño y la somnolencia aparecen con mayor facilidad, agravados por la monotonía y la oscuridad, aunque haya menos tráfico.",
 "tema_id": 6,
 "imagen": "dgt_e270_p13.jpg",
 "dificultad": 5,
@@ -10780,7 +10780,7 @@ window.DGT_QUESTIONS = [
 "Desconectando los bornes de la batería."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2024).",
+"explicacion": "Tras un accidente, el vehículo se inmoviliza cortando el contacto, lo que reduce el riesgo de incendio, y echando el freno de mano para evitar que se desplace.",
 "tema_id": 7,
 "imagen": "dgt_e270_p14.jpg",
 "dificultad": 5,
@@ -10801,7 +10801,7 @@ window.DGT_QUESTIONS = [
 "Sólo si va a adelantar a un vehículo de grandes dimensiones."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Señalizar una maniobra no otorga prioridad: quien cambia de carril debe cederla a los vehículos que ya circulan por el carril de destino y realizar el desplazamiento solo cuando no les obligue a modificar su marcha.",
 "tema_id": 6,
 "imagen": "dgt_e271_p01.jpg",
 "dificultad": 4,
@@ -10822,7 +10822,7 @@ window.DGT_QUESTIONS = [
 "Solicitar auxilio a través del poste de socorro más próximo, si existiese."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "En túneles y pasos inferiores, ante una inmovilización de emergencia hay que pedir ayuda desde el poste de socorro más próximo si existe: permite localizar el punto exacto y activar los medios del propio túnel.",
 "tema_id": 1,
 "imagen": "dgt_e271_p02.jpg",
 "dificultad": 5,
@@ -10843,7 +10843,7 @@ window.DGT_QUESTIONS = [
 "No, porque la señalización prohíbe el adelantamiento."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Aunque haya línea continua, está permitido invadir el sentido contrario para adelantar a un ciclista si hay visibilidad y espacio suficientes y se guarda una separación lateral mínima de 1,5 metros.",
 "tema_id": 6,
 "imagen": "dgt_e271_p03.jpg",
 "dificultad": 4,
@@ -10864,7 +10864,7 @@ window.DGT_QUESTIONS = [
 "acelera la aparición de la fatiga y hace que aumente la agresividad."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Mantener velocidades altas durante mucho tiempo exige un esfuerzo continuo de atención que acelera la fatiga y, además, aumenta la agresividad y la impaciencia del conductor.",
 "tema_id": 4,
 "imagen": "dgt_e271_p04.jpg",
 "dificultad": 4,
@@ -10885,7 +10885,7 @@ window.DGT_QUESTIONS = [
 "Sólo si durante el tratamiento no se siguen los consejos del médico."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Los efectos secundarios de los medicamentos no son iguales para todos: varían con la edad, la fatiga, el estado físico o la interacción con otras sustancias, incluso siguiendo correctamente el tratamiento.",
 "tema_id": 3,
 "imagen": "dgt_e271_p05.jpg",
 "dificultad": 4,
@@ -10906,7 +10906,7 @@ window.DGT_QUESTIONS = [
 "el criterio del conductor debe prevalecer sobre las indicaciones del navegador."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "El navegador es solo una ayuda: sus indicaciones pueden estar desactualizadas o no ajustarse a la situación real, por lo que siempre prevalecen el criterio del conductor y la señalización de la vía.",
 "tema_id": 1,
 "imagen": "dgt_e271_p06.jpg",
 "dificultad": 5,
@@ -10927,7 +10927,7 @@ window.DGT_QUESTIONS = [
 "se instale un dispositivo de retención infantil orientado hacia delante."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Si se instala una sillita infantil a contramarcha en el asiento del copiloto, el airbag frontal debe desactivarse: su despliegue golpearía con violencia el respaldo de la silla y podría causar lesiones muy graves al menor.",
 "tema_id": 7,
 "imagen": "dgt_e271_p07.jpg",
 "dificultad": 5,
@@ -10948,7 +10948,7 @@ window.DGT_QUESTIONS = [
 "A 100 km/h."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "En autopistas y autovías que discurren dentro de poblado, la velocidad máxima genérica es de 80 km/h para todos los vehículos, salvo que la señalización establezca otro límite.",
 "tema_id": 4,
 "imagen": "dgt_e271_p08.jpg",
 "dificultad": 4,
@@ -10969,7 +10969,7 @@ window.DGT_QUESTIONS = [
 "Sí, mientras lo permitan las circunstancias."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Los límites señalizados no pueden rebasarse en ningún caso: desde 2022 se eliminó el margen de 20 km/h que permitía a turismos y motos superar el límite para adelantar en carreteras convencionales.",
 "tema_id": 4,
 "imagen": "dgt_e271_p09.jpg",
 "dificultad": 4,
@@ -10990,7 +10990,7 @@ window.DGT_QUESTIONS = [
 "Sólo se puede encender la luz de cruce y la antiniebla delantera."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Una vía se considera insuficientemente iluminada cuando no se distingue un vehículo oscuro a 50 metros; fuera de poblado, en esas condiciones puede usarse la luz de carretera, siempre que no se deslumbre a otros conductores.",
 "tema_id": 7,
 "imagen": "dgt_e271_p10.jpg",
 "dificultad": 4,
@@ -11011,7 +11011,7 @@ window.DGT_QUESTIONS = [
 "No; no es necesario sustituirlo ya que siempre se puede reparar en un taller especializado."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Un bulto en el flanco delata daños en la estructura interna del neumático y multiplica el riesgo de reventón repentino. No es reparable, así que debe sustituirse lo antes posible.",
 "tema_id": 7,
 "imagen": "dgt_e271_p11.jpg",
 "dificultad": 5,
@@ -11032,7 +11032,7 @@ window.DGT_QUESTIONS = [
 "Obliga a detenerse a los conductores hacia los que dirige la luz."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Una luz amarilla (o roja) balanceada por un agente obliga a detenerse a los conductores hacia los que se dirige; las indicaciones de los agentes prevalecen sobre semáforos y señales.",
 "tema_id": 6,
 "imagen": "dgt_e271_p12.jpg",
 "dificultad": 5,
@@ -11053,7 +11053,7 @@ window.DGT_QUESTIONS = [
 "dobles discontinuas a ambos lados."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Los carriles reversibles se delimitan con marcas longitudinales dobles discontinuas a ambos lados; solo se puede circular por ellos cuando el semáforo de carril lo autoriza y, además, con la luz de cruce encendida.",
 "tema_id": 6,
 "imagen": "dgt_e271_p13.jpg",
 "dificultad": 5,
@@ -11074,7 +11074,7 @@ window.DGT_QUESTIONS = [
 "disminuye el número de accidentes con víctimas mortales."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "En vacaciones y fines de semana aumentan los desplazamientos largos por vías interurbanas, a menudo con fatiga u horarios nocturnos, y con ello crece el número de accidentes con víctimas mortales.",
 "tema_id": 6,
 "imagen": "dgt_e271_p14.jpg",
 "dificultad": 5,
@@ -11095,7 +11095,7 @@ window.DGT_QUESTIONS = [
 "Al año siguiente."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2024).",
+"explicacion": "Los turismos pasan la primera ITV a los 4 años de matriculación y después cada 2 años hasta cumplir los 10; a partir de esa edad la inspección es anual. Por eso la siguiente toca dentro de 2 años.",
 "tema_id": 2,
 "imagen": "dgt_e271_p15.jpg",
 "dificultad": 5,
@@ -11116,7 +11116,7 @@ window.DGT_QUESTIONS = [
 "En una calzada de un solo sentido no se puede cambiar de dirección."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "En una calzada de sentido único, para girar a la izquierda hay que ceñirse con antelación al borde izquierdo: al no haber tráfico en sentido contrario, esa posición acorta la trayectoria y no cruza la línea de otros vehículos.",
 "tema_id": 1,
 "imagen": "dgt_e272_p01.jpg",
 "dificultad": 5,
@@ -11137,7 +11137,7 @@ window.DGT_QUESTIONS = [
 "No, excepto en las zonas habilitadas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "En autopistas y autovías está prohibido parar y estacionar salvo en las zonas habilitadas al efecto (áreas de descanso o de servicio): son vías de alta velocidad donde cualquier vehículo detenido supone un grave peligro.",
 "tema_id": 1,
 "imagen": "dgt_e272_p02.jpg",
 "dificultad": 4,
@@ -11158,7 +11158,7 @@ window.DGT_QUESTIONS = [
 "No, aunque tenga prioridad de paso."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "Aunque se tenga prioridad, está prohibido entrar en una intersección si la situación del tráfico obliga a quedar detenido dentro y bloquear la circulación transversal: la prioridad no autoriza a obstruir el cruce.",
 "tema_id": 6,
 "imagen": "dgt_e272_p03.jpg",
 "dificultad": 4,
@@ -11179,7 +11179,7 @@ window.DGT_QUESTIONS = [
 "Sólo si está implicado en un accidente."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "Aunque la tasa no se supere, si el conductor muestra signos evidentes de estar bajo la influencia del alcohol el agente puede someterle a una segunda prueba o a un reconocimiento: conducir bajo sus efectos está prohibido con independencia de la tasa.",
 "tema_id": 3,
 "imagen": "dgt_e272_p04.jpg",
 "dificultad": 4,
@@ -11200,7 +11200,7 @@ window.DGT_QUESTIONS = [
 "Aumentar la velocidad para llegar antes al destino."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "Con lluvia intensa la adherencia y la visibilidad de la motocicleta se reducen drásticamente: hay que moderar la velocidad y, si la situación lo exige, detenerse en lugar seguro. Pegarse a vehículos pesados o acelerar multiplica el riesgo.",
 "tema_id": 4,
 "imagen": "dgt_e272_p05.jpg",
 "dificultad": 4,
@@ -11221,7 +11221,7 @@ window.DGT_QUESTIONS = [
 "percibe mejor los laterales de la vía que el centro de la calzada."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "A medida que aumenta la velocidad, el campo visual del conductor se estrecha: es el efecto túnel, en el que solo se percibe el centro de la calzada y se deja de ver lo que ocurre en los laterales, donde pueden surgir peligros.",
 "tema_id": 1,
 "imagen": "dgt_e272_p07.jpg",
 "dificultad": 4,
@@ -11242,7 +11242,7 @@ window.DGT_QUESTIONS = [
 "Donde no entorpezca ni la visión ni el despliegue del airbag"
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "El navegador portátil debe fijarse donde no reste campo de visión ni interfiera el despliegue de los airbags: un aparato mal colocado tapa la vía o puede salir despedido y causar lesiones en un accidente.",
 "tema_id": 7,
 "imagen": "dgt_e272_p08.jpg",
 "dificultad": 5,
@@ -11263,7 +11263,7 @@ window.DGT_QUESTIONS = [
 "Una mejor percepción y análisis de los riesgos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "Con el envejecimiento se deterioran las capacidades psicomotoras (visión, audición, coordinación y tiempo de reacción), y ese deterioro es una de las principales causas de los accidentes de las personas mayores.",
 "tema_id": 7,
 "imagen": "dgt_e272_p09.jpg",
 "dificultad": 5,
@@ -11284,7 +11284,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "Todo conductor implicado en un accidente está obligado a detenerse para colaborar en el esclarecimiento de los hechos, sea o no culpable, pero situando el vehículo de forma que no genere un nuevo peligro para la circulación.",
 "tema_id": 6,
 "imagen": "dgt_e272_p10.jpg",
 "dificultad": 5,
@@ -11305,7 +11305,7 @@ window.DGT_QUESTIONS = [
 "No, porque aumenta el área de contacto del neumático con la calzada y facilita el rodaje."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "Con presiones descompensadas cada rueda agarra de forma distinta: la frenada resulta irregular, el vehículo pierde estabilidad y tiende a desviarse, aumentando el riesgo de perder el control, sobre todo en curva o con firme deslizante.",
 "tema_id": 7,
 "imagen": "dgt_e272_p11.jpg",
 "dificultad": 5,
@@ -11326,7 +11326,7 @@ window.DGT_QUESTIONS = [
 "es conveniente no soltar el acelerador y accionar sólo el freno trasero."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "El peso del pasajero carga la parte trasera de la moto, y en la frenada esa rueda conserva más apoyo y adherencia: por eso es más difícil que la rueda trasera se bloquee. Aun así, las distancias de frenado aumentan con más carga.",
 "tema_id": 7,
 "imagen": "dgt_e272_p12.jpg",
 "dificultad": 5,
@@ -11347,7 +11347,7 @@ window.DGT_QUESTIONS = [
 "Ninguna, ya que las circunstancias de la vía son idénticas para todos los usuarios."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "Sobre pavimento deslizante la adherencia cae y el vehículo responde peor: hay que moderar la velocidad y, si es preciso, llegar a detenerse. El reglamento obliga a adecuar la velocidad al estado de la vía, no solo a las señales.",
 "tema_id": 4,
 "imagen": "dgt_e272_p14.jpg",
 "dificultad": 4,
@@ -11368,7 +11368,7 @@ window.DGT_QUESTIONS = [
 "El factor vehículo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2024).",
+"explicacion": "El factor vehículo es el que menos accidentes origina: la mejora técnica y las inspecciones lo han reducido. El factor humano interviene en la gran mayoría de los siniestros (en torno al 90%), seguido del factor vía y entorno.",
 "tema_id": 1,
 "imagen": "dgt_e272_p15.jpg",
 "dificultad": 5,
@@ -11389,7 +11389,7 @@ window.DGT_QUESTIONS = [
 "Sí, siempre que el vehículo solo circule por vías urbanas y travesías."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "Las placas de matrícula deben mantenerse siempre visibles y legibles: identifican al vehículo. Circular con ellas ocultas o ilegibles está prohibido, y el conductor debe comprobarlo antes de circular.",
 "tema_id": 1,
 "imagen": "dgt_e273_p01.jpg",
 "dificultad": 5,
@@ -11410,7 +11410,7 @@ window.DGT_QUESTIONS = [
 "llevarlo puesto y correctamente abrochado."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "El cinturón es obligatorio para todos los ocupantes, no solo el conductor, y debe llevarse puesto y correctamente abrochado en todas las vías: mal colocado pierde su capacidad de retención.",
 "tema_id": 1,
 "imagen": "dgt_e273_p02.jpg",
 "dificultad": 5,
@@ -11431,7 +11431,7 @@ window.DGT_QUESTIONS = [
 "No, en ningún caso."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "La obligación de circular por el carril derecho en vías de tres o más carriles afecta a camiones de más de 3.500 kg y a conjuntos de más de 7 metros; si el turismo con remolque no supera esa longitud, puede usar el izquierdo.",
 "tema_id": 6,
 "imagen": "dgt_e273_p03.jpg",
 "dificultad": 4,
@@ -11452,7 +11452,7 @@ window.DGT_QUESTIONS = [
 "frenar."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "El conductor lleva el brazo izquierdo extendido y doblado hacia arriba: esa señal indica un desplazamiento o giro hacia la derecha cuando no pueden usarse (o no se usan) los intermitentes.",
 "tema_id": 1,
 "imagen": "dgt_e273_p04.jpg",
 "dificultad": 5,
@@ -11473,7 +11473,7 @@ window.DGT_QUESTIONS = [
 "debe ser siempre proporcional a la anchura y características de la vía."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "Fuera de poblado, al adelantar a vehículos de tracción animal, ciclos, ciclomotores, peatones o animales, la separación lateral mínima obligatoria es de 1,5 metros.",
 "tema_id": 1,
 "imagen": "dgt_e273_p05.jpg",
 "dificultad": 4,
@@ -11494,7 +11494,7 @@ window.DGT_QUESTIONS = [
 "Las luces de posición."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "Entre la puesta y la salida del sol, un vehículo inmovilizado en vía o travesía insuficientemente iluminada debe mantener encendidas las luces de posición para ser visto por los demás.",
 "tema_id": 7,
 "imagen": "dgt_e273_p06.jpg",
 "dificultad": 5,
@@ -11515,7 +11515,7 @@ window.DGT_QUESTIONS = [
 "Proximidad de una zona de la calzada cuyo pavimento puede resultar muy deslizante."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "El triángulo con el coche derrapando advierte de la proximidad de una zona de calzada cuyo pavimento puede resultar muy deslizante, por cualquier causa, y exige adecuar la velocidad.",
 "tema_id": 5,
 "imagen": "dgt_e273_p07.jpg",
 "dificultad": 5,
@@ -11536,7 +11536,7 @@ window.DGT_QUESTIONS = [
 "Sí, a no ser que disponga de otros dispositivos autorizados, igual de eficaces."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "La señal de cadenas obliga a no continuar sin dispositivos antideslizantes: cadenas u otros autorizados igual de eficaces, como fundas textiles homologadas o neumáticos de invierno.",
 "tema_id": 5,
 "imagen": "dgt_e273_p08.jpg",
 "dificultad": 5,
@@ -11557,7 +11557,7 @@ window.DGT_QUESTIONS = [
 "Mayor facilidad para percibir los semáforos y las señales luminosas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "El alcohol desinhibe: la alteración más frecuente es la aparición de respuestas impulsivas y agresivas hacia otros conductores. Además, el tiempo de reacción aumenta, nunca disminuye.",
 "tema_id": 5,
 "imagen": "dgt_e273_p09.jpg",
 "dificultad": 4,
@@ -11578,7 +11578,7 @@ window.DGT_QUESTIONS = [
 "Que es un vehículo lento y no puede superar la velocidad de 40 km/h."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "Ese panel colocado en la parte trasera identifica a un vehículo lento: por sus características no puede superar los 40 km/h, lo que conviene prever antes de aproximarse o adelantar.",
 "tema_id": 4,
 "imagen": "dgt_e273_p10.jpg",
 "dificultad": 4,
@@ -11599,7 +11599,7 @@ window.DGT_QUESTIONS = [
 "una taza de café elimina la fatiga y le ayuda a concentrarse."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "La falta de sueño merma la atención y los reflejos: no se está en condiciones de conducir. El café solo enmascara la fatiga un tiempo; únicamente el descanso la elimina, y la monotonía de la autovía favorece el sueño.",
 "tema_id": 1,
 "imagen": "dgt_e273_p11.jpg",
 "dificultad": 5,
@@ -11620,7 +11620,7 @@ window.DGT_QUESTIONS = [
 "Con la velocidad excesiva y una adecuada percepción del riesgo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "Los accidentes más graves de los conductores jóvenes se asocian sobre todo a la combinación de falta de experiencia al volante con el consumo de alcohol y otras drogas.",
 "tema_id": 3,
 "imagen": "dgt_e273_p12.jpg",
 "dificultad": 4,
@@ -11641,7 +11641,7 @@ window.DGT_QUESTIONS = [
 "Circular con unos neumáticos que carezcan de dibujo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "A más carga, más masa hay que mover y frenar, y el consumo aumenta. Las ventanillas subidas mejoran la aerodinámica y ahorran combustible; los neumáticos sin dibujo son un grave riesgo, pero no elevan el consumo.",
 "tema_id": 7,
 "imagen": "dgt_e273_p13.jpg",
 "dificultad": 5,
@@ -11662,7 +11662,7 @@ window.DGT_QUESTIONS = [
 "A que en los últimos 20 años, los kilómetros recorridos han disminuido año tras año."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "El vehículo aparece en menor grado como causa principal de accidentes gracias a las importantes mejoras técnicas en su diseño y construcción: sistemas de seguridad activa y pasiva cada vez más eficaces.",
 "tema_id": 6,
 "imagen": "dgt_e273_p14.jpg",
 "dificultad": 4,
@@ -11683,7 +11683,7 @@ window.DGT_QUESTIONS = [
 "El filtro del aire, la dirección y los retrovisores."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Abril 2025).",
+"explicacion": "Neumáticos, frenos y amortiguadores son los elementos de seguridad que más se desgastan con el uso y de los que depende directamente la adherencia y la distancia de frenado: exigen revisiones más frecuentes.",
 "tema_id": 7,
 "imagen": "dgt_e273_p15.jpg",
 "dificultad": 5,
@@ -11704,7 +11704,7 @@ window.DGT_QUESTIONS = [
 "por pasos inferiores o tramos de vía afectados por la señal \"Túnel\"."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "El Reglamento obliga a circular con alumbrado también de día por los túneles, pasos inferiores y tramos afectados por la señal de túnel; en puentes móviles o carriles VAO no existe esa obligación específica.",
 "tema_id": 5,
 "imagen": "dgt_e274_p01.jpg",
 "dificultad": 5,
@@ -11725,7 +11725,7 @@ window.DGT_QUESTIONS = [
 "Semáforos, agentes y señales verticales."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "El orden de prioridad de la señalización sitúa primero a los agentes de circulación, después a los semáforos y por último a las señales verticales; las órdenes del agente prevalecen sobre cualquier otra señal.",
 "tema_id": 5,
 "imagen": "dgt_e274_p02.jpg",
 "dificultad": 4,
@@ -11746,7 +11746,7 @@ window.DGT_QUESTIONS = [
 "todos los vehículos de dos ruedas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "El pictograma es una bicicleta: la señal prohíbe la entrada únicamente a los ciclos. Para prohibir el paso a los ciclomotores existe otra señal con su propio símbolo.",
 "tema_id": 5,
 "imagen": "dgt_e274_p03.jpg",
 "dificultad": 5,
@@ -11767,7 +11767,7 @@ window.DGT_QUESTIONS = [
 "es competitivo e impulsivo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "La cocaína es un estimulante que vuelve al conductor competitivo, impulsivo y agresivo, y le hace sobrevalorar sus capacidades: lleva a decisiones más arriesgadas, no más seguras.",
 "tema_id": 3,
 "imagen": "dgt_e274_p04.jpg",
 "dificultad": 4,
@@ -11788,7 +11788,7 @@ window.DGT_QUESTIONS = [
 "Solo si no les dificulta los movimientos para conducir."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "Las embarazadas deben usar el cinturón como norma general, con la banda inferior por debajo del abdomen: bien colocado protege a la madre y al feto. Solo cabe la exención mediante certificado médico.",
 "tema_id": 7,
 "imagen": "dgt_e274_p05.jpg",
 "dificultad": 5,
@@ -11809,7 +11809,7 @@ window.DGT_QUESTIONS = [
 "Tarda menos en reaccionar y es más agresivo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "El calor deteriora las capacidades del conductor: alarga el tiempo de reacción y a la vez aumenta la irritabilidad y la agresividad al volante, por lo que conviene ventilar el habitáculo y descansar más a menudo.",
 "tema_id": 1,
 "imagen": "dgt_e274_p06.jpg",
 "dificultad": 5,
@@ -11830,7 +11830,7 @@ window.DGT_QUESTIONS = [
 "Advirtiéndolo con el claxon."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "Si la luz de marcha atrás está averiada, la maniobra se advierte con el brazo extendido y la palma de la mano hacia atrás: las señales con el brazo sustituyen a las luminosas cuando estas fallan.",
 "tema_id": 7,
 "imagen": "dgt_e274_p07.jpg",
 "dificultad": 5,
@@ -11851,7 +11851,7 @@ window.DGT_QUESTIONS = [
 "A la derecha, fuera de la calzada siempre que sea posible."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "Los ciclomotores no pueden situarse en el eje de la calzada para girar: en vía interurbana de un carril por sentido deben apartarse a la derecha, fuera de la calzada si es posible, y girar desde allí cuando no haya tráfico.",
 "tema_id": 1,
 "imagen": "dgt_e274_p08.jpg",
 "dificultad": 5,
@@ -11872,7 +11872,7 @@ window.DGT_QUESTIONS = [
 "No, salvo que sea necesario para ceder el paso."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "La línea transversal discontinua es la marca de ceda el paso: solo obliga a detenerse cuando sea necesario para dejar pasar a los vehículos con prioridad; si la vía está libre, puede franquearse sin parar.",
 "tema_id": 6,
 "imagen": "dgt_e274_p09.jpg",
 "dificultad": 5,
@@ -11893,7 +11893,7 @@ window.DGT_QUESTIONS = [
 "las horas suficientes para estar descansado, que para la mayoría de las personas son entre 7 y 9 horas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "Dormir lo suficiente —entre 7 y 9 horas para la mayoría de las personas— es la mejor prevención de la somnolencia al volante; dormir menos acumula deuda de sueño y multiplica el riesgo de accidente.",
 "tema_id": 6,
 "imagen": "dgt_e274_p10.jpg",
 "dificultad": 5,
@@ -11914,7 +11914,7 @@ window.DGT_QUESTIONS = [
 "Debe reducir o incluso eliminar la distancia de seguridad."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "Las motos y ciclomotores quedan fácilmente ocultos en los ángulos muertos: mirar los retrovisores con frecuencia, sobre todo en ciudad, permite detectarlos a tiempo antes de cambiar de carril o girar.",
 "tema_id": 1,
 "imagen": "dgt_e274_p11.jpg",
 "dificultad": 4,
@@ -11935,7 +11935,7 @@ window.DGT_QUESTIONS = [
 "Automóviles que no superen los 3.500 kg de M.M.A. y motocicletas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "Cuando por obras se habilita un carril en sentido contrario al habitual, pueden utilizarlo todos los vehículos autorizados a circular por esa vía; no se establece ninguna restricción adicional por tipo de vehículo.",
 "tema_id": 1,
 "imagen": "dgt_e274_p12.jpg",
 "dificultad": 5,
@@ -11956,7 +11956,7 @@ window.DGT_QUESTIONS = [
 "Solo si ambos sentidos están separados por línea blanca discontinua."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "Para adelantar a ciclistas hay que dejar al menos 1,5 metros de separación lateral, y la norma permite ocupar el carril contrario, incluso rebasando línea continua, siempre que la maniobra se realice con seguridad.",
 "tema_id": 6,
 "imagen": "dgt_e274_p13.jpg",
 "dificultad": 4,
@@ -11977,7 +11977,7 @@ window.DGT_QUESTIONS = [
 "Sí; negarse a realizarla es un delito incluido en el Código Penal."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "Todo conductor requerido por los agentes está obligado a someterse a las pruebas de alcoholemia: negarse es un delito tipificado en el Código Penal, castigado incluso con pena de prisión.",
 "tema_id": 3,
 "imagen": "dgt_e274_p14.jpg",
 "dificultad": 4,
@@ -11998,7 +11998,7 @@ window.DGT_QUESTIONS = [
 "Solo si el motor se calienta en exceso, ya que engrasa mejor y ayuda a bajar su temperatura."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2025).",
+"explicacion": "Un aceite que se vuelve demasiado fluido en caliente pierde la película lubricante y deja de proteger las piezas del motor: hay que usar la viscosidad indicada por el fabricante para asegurar el engrase a cualquier temperatura.",
 "tema_id": 7,
 "imagen": "dgt_e274_p15.jpg",
 "dificultad": 4,
@@ -12019,7 +12019,7 @@ window.DGT_QUESTIONS = [
 "Al situado inmediatamente a su izquierda."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "Cuando hay semáforos con indicaciones distintas a cada lado, el de la derecha rige para quienes giran a ese lado; los que pretenden seguir de frente deben obedecer al situado inmediatamente a su izquierda (art. 146 RGC).",
 "tema_id": 5,
 "imagen": "dgt_e275_p01.jpg",
 "dificultad": 5,
@@ -12040,7 +12040,7 @@ window.DGT_QUESTIONS = [
 "Que no se puede atravesar, ni pisar la línea."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "La doble línea continua funciona como un muro imaginario: no se puede atravesar ni circular sobre ella, en ninguno de los dos sentidos, por lo que impide adelantar y girar cruzándola.",
 "tema_id": 5,
 "imagen": "dgt_e275_p02.jpg",
 "dificultad": 5,
@@ -12061,7 +12061,7 @@ window.DGT_QUESTIONS = [
 "Cederles el paso si no disponen de zona peatonal."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "Si los peatones no disponen de zona peatonal, el arcén es su espacio de tránsito: el conductor que vaya a cruzarlo (por ejemplo, para entrar o salir de la vía) debe cederles el paso.",
 "tema_id": 5,
 "imagen": "dgt_e275_p03.jpg",
 "dificultad": 5,
@@ -12082,7 +12082,7 @@ window.DGT_QUESTIONS = [
 "Sí; prohíbe realizar cualquier giro."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "Es la señal de media vuelta prohibida: solo impide el cambio de sentido (giro en U). El giro a la izquierda para tomar otra vía sigue estando permitido; por eso la respuesta es no.",
 "tema_id": 5,
 "imagen": "dgt_e275_p04.jpg",
 "dificultad": 5,
@@ -12103,7 +12103,7 @@ window.DGT_QUESTIONS = [
 "Sí."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "Los carriles reversibles pueden ser utilizados por cualquier vehículo, incluido un furgón, siempre que circule con la luz de cruce encendida y respete la señalización que abre el carril a su sentido.",
 "tema_id": 6,
 "imagen": "dgt_e275_p05.jpg",
 "dificultad": 5,
@@ -12124,7 +12124,7 @@ window.DGT_QUESTIONS = [
 "Está permitida tanto la parada como el estacionamiento."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "En vías interurbanas hay que parar o estacionar fuera de la calzada, pero dejando libre la parte transitable del arcén (art. 90 RGC): sobre ella están prohibidos, como norma general, tanto la parada como el estacionamiento.",
 "tema_id": 6,
 "imagen": "dgt_e275_p06.jpg",
 "dificultad": 5,
@@ -12145,7 +12145,7 @@ window.DGT_QUESTIONS = [
 "Sí, comprobando que no existe peligro para otros usuarios."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "En autopistas y autovías está prohibido circular marcha atrás, incluso para retroceder unos metros hasta una salida: hay que continuar hasta la siguiente. La marcha atrás solo se admite como maniobra complementaria.",
 "tema_id": 6,
 "imagen": "dgt_e275_p07.jpg",
 "dificultad": 4,
@@ -12166,7 +12166,7 @@ window.DGT_QUESTIONS = [
 "Solo si el retrovisor derecho es gran angular y el interior es panorámico."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "Si la carga anula la visión por el retrovisor interior, el turismo puede circular siempre que lleve dos retrovisores exteriores, uno a cada lado, que garanticen la visibilidad hacia atrás.",
 "tema_id": 1,
 "imagen": "dgt_e275_p08.jpg",
 "dificultad": 5,
@@ -12187,7 +12187,7 @@ window.DGT_QUESTIONS = [
 "Peligro por la proximidad de un cruce con una línea de tranvía."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "La señal con la valla indica peligro por la proximidad de un paso a nivel provisto de barreras o semibarreras; el paso sin barreras se anuncia con la señal de la locomotora o del aspa.",
 "tema_id": 5,
 "imagen": "dgt_e275_p09.jpg",
 "dificultad": 5,
@@ -12208,7 +12208,7 @@ window.DGT_QUESTIONS = [
 "tarda menos en reaccionar ante un suceso imprevisto."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "El sueño reduce la percepción del peligro y la autocrítica: el conductor somnoliento acepta más riesgo, reacciona más tarde y puede sufrir microsueños de varios segundos.",
 "tema_id": 1,
 "imagen": "dgt_e275_p10.jpg",
 "dificultad": 5,
@@ -12229,7 +12229,7 @@ window.DGT_QUESTIONS = [
 "Grupos en riesgo de exclusión social."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "Se denominan grupos de riesgo o usuarios vulnerables: peatones, ciclistas, motoristas, niños y personas mayores, que tienen mayor probabilidad de verse implicados en un accidente o de sufrir lesiones graves.",
 "tema_id": 6,
 "imagen": "dgt_e275_p11.jpg",
 "dificultad": 5,
@@ -12250,7 +12250,7 @@ window.DGT_QUESTIONS = [
 "Sí, un máximo de hasta el 15% de la longitud del vehículo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "En un turismo, la carga indivisible puede sobresalir por detrás hasta un 15% de la longitud del vehículo (si fuera divisible, un 10%), y debe señalizarse con el panel V-20.",
 "tema_id": 6,
 "imagen": "dgt_e275_p12.jpg",
 "dificultad": 5,
@@ -12271,7 +12271,7 @@ window.DGT_QUESTIONS = [
 "Zona de estacionamiento de duración limitada."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "Las marcas azules en la calzada delimitan la zona azul: estacionamiento de duración limitada, normalmente con ticket o distintivo horario durante el horario regulado.",
 "tema_id": 6,
 "imagen": "dgt_e275_p13.jpg",
 "dificultad": 5,
@@ -12292,7 +12292,7 @@ window.DGT_QUESTIONS = [
 "Dos o tres metros para no golpear al vehículo de delante en caso de alcance trasero."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "Dejar dos o tres metros en un atasco crea un colchón de seguridad: si otro vehículo le golpea por detrás, evita ser proyectado contra el de delante y además permite maniobrar para salir.",
 "tema_id": 6,
 "imagen": "dgt_e275_p14.jpg",
 "dificultad": 4,
@@ -12313,7 +12313,7 @@ window.DGT_QUESTIONS = [
 "No deben presentar ampollas, deformaciones anormales o roturas."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Octubre 2025).",
+"explicacion": "Los neumáticos de motocicleta no pueden presentar ampollas, deformaciones anormales ni roturas: cualquier daño visible compromete la estabilidad. El mínimo de 1,6 mm de dibujo rige para turismos, no para motocicletas.",
 "tema_id": 7,
 "imagen": "dgt_e275_p15.jpg",
 "dificultad": 4,
@@ -12334,7 +12334,7 @@ window.DGT_QUESTIONS = [
 "No, cuando el conductor no pueda ver la circulación por detrás del vehículo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Los retrovisores obligatorios deben garantizar al conductor la visión de la circulación por detrás; si el espejo roto le impide esa visión, el vehículo no está en condiciones reglamentarias y no puede circular.",
 "tema_id": 1,
 "imagen": "dgt_e276_p01.jpg",
 "dificultad": 5,
@@ -12355,7 +12355,7 @@ window.DGT_QUESTIONS = [
 "Un periodo corto de descanso que el conductor realiza cuando siente fatiga."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "El microsueño es un episodio de pocos segundos en los que el conductor se queda dormido sin darse cuenta, típico de la fatiga y la somnolencia. En ese lapso el vehículo recorre decenas de metros sin control alguno.",
 "tema_id": 1,
 "imagen": "dgt_e276_p02.jpg",
 "dificultad": 5,
@@ -12376,7 +12376,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque el vehículo no está en movimiento."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Detenido en una retención se sigue siendo conductor en circulación, por lo que rige la norma general: solo cabe usar el teléfono mediante manos libres y sin auriculares; el uso manual está prohibido aunque el vehículo no se mueva.",
 "tema_id": 1,
 "imagen": "dgt_e276_p03.jpg",
 "dificultad": 5,
@@ -12397,7 +12397,7 @@ window.DGT_QUESTIONS = [
 "No exime de tener que cumplir las normas generales sobre prioridad de paso."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "La flecha verde hacia abajo autoriza a circular por ese carril, pero no exime de cumplir las normas generales de prioridad de paso ni de obedecer las señales que regulen la intersección.",
 "tema_id": 6,
 "imagen": "dgt_e276_p04.jpg",
 "dificultad": 4,
@@ -12418,7 +12418,7 @@ window.DGT_QUESTIONS = [
 "No, está prohibido."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Entre la puesta y la salida del sol rige el alumbrado nocturno: fuera de poblado puede usarse la luz de largo alcance también con niebla, con la única condición de no deslumbrar a los demás usuarios de la vía.",
 "tema_id": 6,
 "imagen": "dgt_e276_p05.jpg",
 "dificultad": 5,
@@ -12439,7 +12439,7 @@ window.DGT_QUESTIONS = [
 "Sólo si quien intenta cruzar es una fila de escolares."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Si el semáforo no funciona, el paso para peatones sigue rigiendo: en los pasos debidamente señalizados los peatones tienen prioridad y los conductores están obligados a cederles el paso.",
 "tema_id": 6,
 "imagen": "dgt_e276_p06.jpg",
 "dificultad": 4,
@@ -12460,7 +12460,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "El Reglamento exime del casco a quienes viajan en vehículos que, según su ficha de inspección técnica, cuentan con estructura de autoprotección y cinturones de seguridad, ya que estos elementos cumplen la función protectora.",
 "tema_id": 7,
 "imagen": "dgt_e276_p07.jpg",
 "dificultad": 5,
@@ -12481,7 +12481,7 @@ window.DGT_QUESTIONS = [
 "Lo más tarde posible."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Para abandonar la autovía hay que entrar en el carril de deceleración lo antes posible y reducir la velocidad ya dentro de él: así se evita frenar en la calzada principal y entorpecer a quienes circulan a mayor velocidad.",
 "tema_id": 1,
 "imagen": "dgt_e276_p08.jpg",
 "dificultad": 5,
@@ -12502,7 +12502,7 @@ window.DGT_QUESTIONS = [
 "Sólo cuando la duración del estacionamiento sea inferior a dos minutos."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Estacionar en doble fila está prohibido en todo caso, porque el vehículo obstaculiza la circulación e impide salir al que está correctamente estacionado; ni la brevedad ni permanecer dentro del coche lo permiten.",
 "tema_id": 6,
 "imagen": "dgt_e276_p09.jpg",
 "dificultad": 5,
@@ -12523,7 +12523,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Fuera de poblado, si no hay zona peatonal ni arcén practicable, el peatón puede circular por la calzada tomando las debidas precauciones, como norma general por su izquierda, para ver de frente a los vehículos.",
 "tema_id": 1,
 "imagen": "dgt_e276_p10.jpg",
 "dificultad": 5,
@@ -12544,7 +12544,7 @@ window.DGT_QUESTIONS = [
 "Los bordillos de las aceras están al mismo nivel que la calzada."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Con la edad se deterioran la vista y la capacidad de procesar la información, por lo que muchas personas mayores no aprecian bien la velocidad ni la distancia a la que se acercan los vehículos al cruzar.",
 "tema_id": 1,
 "imagen": "dgt_e276_p11.jpg",
 "dificultad": 4,
@@ -12565,7 +12565,7 @@ window.DGT_QUESTIONS = [
 "A los cuatro años, a contar desde la fecha de matriculación."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Los turismos pasan su primera ITV a los cuatro años contados desde la fecha de matriculación, no desde la compra; después la inspección es bienal hasta los diez años y anual a partir de entonces.",
 "tema_id": 2,
 "imagen": "dgt_e276_p12.jpg",
 "dificultad": 5,
@@ -12586,7 +12586,7 @@ window.DGT_QUESTIONS = [
 "Mantener la velocidad y estar atento al cumplimiento de la señalización vertical."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "En las proximidades de vías de uso exclusivo de ciclos el Reglamento obliga a moderar la velocidad y, si fuera preciso, a detener el vehículo, por la posible presencia de ciclistas entrando o saliendo de ellas.",
 "tema_id": 4,
 "imagen": "dgt_e276_p13.jpg",
 "dificultad": 4,
@@ -12607,7 +12607,7 @@ window.DGT_QUESTIONS = [
 "Sí, porque es una vía permitida para todos los vehículos, excepto ciclos."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "La señal azul con una bicicleta blanca indica vía reservada para ciclos o vía ciclista: solo pueden usarla los ciclos, de modo que un turismo tiene prohibido circular por ella.",
 "tema_id": 5,
 "imagen": "dgt_e276_p14.jpg",
 "dificultad": 5,
@@ -12628,7 +12628,7 @@ window.DGT_QUESTIONS = [
 "Sí, aunque no lleve el distintivo adhesivo en el parabrisas."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Diciembre 2025).",
+"explicacion": "Los carriles VAO exigen una ocupación mínima. El distintivo ECO no exime de ese requisito (solo el Cero emisiones lo hace), así que con el conductor como único ocupante no puede usarlo salvo que los paneles de mensaje variable lo autoricen.",
 "tema_id": 5,
 "imagen": "dgt_e276_p15.jpg",
 "dificultad": 5,
@@ -12649,7 +12649,7 @@ window.DGT_QUESTIONS = [
 "Está permitido parar, pero no estacionar."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "Los carriles reservados solo pueden ser utilizados por los vehículos a los que se destinan: parar una motocicleta en un carril bus está prohibido, porque entorpece un servicio con circulación preferente.",
 "tema_id": 6,
 "imagen": "dgt_e277_p02.jpg",
 "dificultad": 5,
@@ -12670,7 +12670,7 @@ window.DGT_QUESTIONS = [
 "Sí, aunque el recorrido sea superior a 20 metros."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "La marcha atrás se admite como maniobra complementaria de la salida de un estacionamiento: recorriendo el mínimo indispensable (nunca más de 15 metros) y sin invadir un cruce de vías.",
 "tema_id": 6,
 "imagen": "dgt_e277_p03.jpg",
 "dificultad": 4,
@@ -12691,7 +12691,7 @@ window.DGT_QUESTIONS = [
 "un único factor, el estado del vehículo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "La distancia de frenado no depende de un solo elemento: influyen la velocidad, el estado y adherencia de la vía, los neumáticos y frenos del vehículo, su carga y hasta las condiciones meteorológicas.",
 "tema_id": 4,
 "imagen": "dgt_e277_p04.jpg",
 "dificultad": 4,
@@ -12712,7 +12712,7 @@ window.DGT_QUESTIONS = [
 "todas las plazas del vehículo."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "Según los datos de la DGT, viajar sin cinturón casi duplica el riesgo de morir en un siniestro en cualquier plaza del vehículo: también en las traseras, cuyos ocupantes salen despedidos o aplastan a los delanteros.",
 "tema_id": 7,
 "imagen": "dgt_e277_p05.jpg",
 "dificultad": 5,
@@ -12733,7 +12733,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "La norma obliga a usar el chaleco reflectante al salir del vehículo y ocupar la calzada o el arcén en vías interurbanas, pero no exige llevar en el turismo un chaleco por cada ocupante.",
 "tema_id": 7,
 "imagen": "dgt_e277_p06.jpg",
 "dificultad": 5,
@@ -12754,7 +12754,7 @@ window.DGT_QUESTIONS = [
 "No entrar en la intersección."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "Aunque se tenga prioridad, está prohibido entrar en una intersección si la situación del tráfico hace previsible quedar detenido dentro y bloquear la circulación transversal.",
 "tema_id": 6,
 "imagen": "dgt_e277_p07.jpg",
 "dificultad": 4,
@@ -12775,7 +12775,7 @@ window.DGT_QUESTIONS = [
 "obligan a moderar la velocidad antes de pasar."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "La luz roja intermitente, o dos rojas alternas, prohíbe temporalmente el paso: nadie debe rebasar el semáforo mientras funcione. Es habitual en pasos a nivel, puentes móviles o accesos a túneles.",
 "tema_id": 4,
 "imagen": "dgt_e277_p08.jpg",
 "dificultad": 4,
@@ -12796,7 +12796,7 @@ window.DGT_QUESTIONS = [
 "Los turismos."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "Fuera de poblado, los conjuntos de vehículos de más de 10 metros y los transportes especiales deben dejar al menos 50 metros con el vehículo precedente, para que quien adelante pueda intercalarse sin peligro.",
 "tema_id": 6,
 "imagen": "dgt_e277_p10.jpg",
 "dificultad": 4,
@@ -12817,7 +12817,7 @@ window.DGT_QUESTIONS = [
 "Sí, siempre que el conductor sea su padre, madre o tutor."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "Nunca pueden viajar más personas que plazas autorizadas figuran en la documentación del vehículo; la minoría de edad de los ocupantes o el parentesco con el conductor no constituyen excepción.",
 "tema_id": 1,
 "imagen": "dgt_e277_p11.jpg",
 "dificultad": 5,
@@ -12838,7 +12838,7 @@ window.DGT_QUESTIONS = [
 "La visibilidad del vehículo."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "El carenado canaliza el aire alrededor de la motocicleta: modificarlo altera su aerodinámica y, con ella, la penetración en el aire, la estabilidad a alta velocidad y el consumo de combustible.",
 "tema_id": 6,
 "imagen": "dgt_e277_p12.jpg",
 "dificultad": 5,
@@ -12859,7 +12859,7 @@ window.DGT_QUESTIONS = [
 "Sí, hay cierto riesgo porque disminuye la atención."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "El manos libres elimina la manipulación, pero no la distracción cognitiva: la conversación desvía parte de la atención de la conducción, alarga el tiempo de reacción y mantiene cierto riesgo de accidente.",
 "tema_id": 1,
 "imagen": "dgt_e277_p13.jpg",
 "dificultad": 5,
@@ -12880,7 +12880,7 @@ window.DGT_QUESTIONS = [
 "El factor vehículo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "El factor humano está presente en alrededor del 90 % de los accidentes: distracciones, velocidad inadecuada, alcohol o fatiga superan con mucho a los fallos del vehículo o a los defectos de la vía.",
 "tema_id": 1,
 "imagen": "dgt_e277_p14.jpg",
 "dificultad": 5,
@@ -12901,7 +12901,7 @@ window.DGT_QUESTIONS = [
 "Autovía."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Marzo de 2026).",
+"explicacion": "El tramo de carretera que atraviesa un poblado se denomina travesía: sigue siendo carretera, pero al discurrir por zona urbana se le aplican los límites y normas propios del poblado.",
 "tema_id": 1,
 "imagen": "dgt_e277_p15.jpg",
 "dificultad": 5,
@@ -12922,7 +12922,7 @@ window.DGT_QUESTIONS = [
 "Sí, con cualquier conjunto de vehículos."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "Esta señal prohíbe la entrada a vehículos de motor con remolque, salvo que se trate de un semirremolque o de un remolque de un solo eje: con un remolque de un eje sí puede entrar.",
 "tema_id": 5,
 "imagen": "dgt_e278_p01.jpg",
 "dificultad": 4,
@@ -12943,7 +12943,7 @@ window.DGT_QUESTIONS = [
 "disminuye la somnolencia."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "El cannabis aumenta el tiempo de reacción y provoca somnolencia y pérdida de atención, además de distorsionar la percepción de distancias y velocidades.",
 "tema_id": 3,
 "imagen": "dgt_e278_p02.jpg",
 "dificultad": 4,
@@ -12964,7 +12964,7 @@ window.DGT_QUESTIONS = [
 "No; en los túneles siempre está prohibido adelantar."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "Está prohibido adelantar en túneles con un solo carril por sentido: la maniobra exigiría invadir el sentido contrario en un espacio cerrado y sin escapatoria. Con dos o más carriles por sentido sí se permite.",
 "tema_id": 6,
 "imagen": "dgt_e278_p03.jpg",
 "dificultad": 4,
@@ -12985,7 +12985,7 @@ window.DGT_QUESTIONS = [
 "Que su presión debe ser superior a la de las otras tres ruedas."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "Las ruedas de uso temporal tienen limitaciones propias de velocidad, distancia y presión: deben seguirse las indicaciones del fabricante y sustituirla por una normal cuanto antes.",
 "tema_id": 7,
 "imagen": "dgt_e278_p04.jpg",
 "dificultad": 5,
@@ -13006,7 +13006,7 @@ window.DGT_QUESTIONS = [
 "que está prohibido estacionar."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "Las marcas viales azules delimitan la zona de estacionamiento regulado: en determinados períodos del día la duración del estacionamiento está limitada y suele exigir tique o distintivo.",
 "tema_id": 6,
 "imagen": "dgt_e278_p05.jpg",
 "dificultad": 5,
@@ -13027,7 +13027,7 @@ window.DGT_QUESTIONS = [
 "Sí."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "La respuesta a estos factores es individual: la misma falta de sueño, medicamento o monotonía puede afectar mucho a una persona y poco a otra, según su estado y sensibilidad.",
 "tema_id": 3,
 "imagen": "dgt_e278_p06.jpg",
 "dificultad": 4,
@@ -13048,7 +13048,7 @@ window.DGT_QUESTIONS = [
 "Sí, pero sólo para cambiar de dirección."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "El carril elegido puede abandonarse cuando la maniobra lo requiere: prepararse para cambiar de dirección, adelantar, parar o estacionar, siempre señalizándolo con antelación.",
 "tema_id": 6,
 "imagen": "dgt_e278_p07.jpg",
 "dificultad": 4,
@@ -13069,7 +13069,7 @@ window.DGT_QUESTIONS = [
 "No."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "En vía urbana las señales acústicas están prohibidas salvo peligro inminente de accidente: el adelantamiento se anuncia con los indicadores de dirección, no con el claxon.",
 "tema_id": 6,
 "imagen": "dgt_e278_p08.jpg",
 "dificultad": 4,
@@ -13090,7 +13090,7 @@ window.DGT_QUESTIONS = [
 "Solo si no tiene intención de adelantar."
 ],
 "correcta_idx": 1,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "Al aproximarse por detrás a otro vehículo hay que sustituir la luz de carretera por la de cruce: el haz largo deslumbraría al conductor de delante a través de sus espejos retrovisores.",
 "tema_id": 4,
 "imagen": "dgt_e278_p09.jpg",
 "dificultad": 4,
@@ -13111,7 +13111,7 @@ window.DGT_QUESTIONS = [
 "debe acelerar y terminar la maniobra, aunque genere una situación de riesgo."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "Si surgen circunstancias que dificultan terminar el adelantamiento, lo seguro es desistir: regresar al carril propio y advertirlo a los vehículos que circulan detrás, nunca forzar la maniobra.",
 "tema_id": 6,
 "imagen": "dgt_e278_p10.jpg",
 "dificultad": 4,
@@ -13132,7 +13132,7 @@ window.DGT_QUESTIONS = [
 "60 kilómetros por hora."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "Los ciclomotores están limitados por construcción a 45 km/h, y ese es su máximo en cualquier vía, incluida la carretera convencional, aunque el límite genérico de la vía sea superior.",
 "tema_id": 4,
 "imagen": "dgt_e278_p11.jpg",
 "dificultad": 4,
@@ -13153,7 +13153,7 @@ window.DGT_QUESTIONS = [
 "No mantener la distancia de seguridad con el vehículo que circula delante."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "No respetar la prioridad en los pasos para peatones es de las infracciones con mayor riesgo de atropello: es justamente el lugar donde el peatón confía en poder cruzar con seguridad.",
 "tema_id": 1,
 "imagen": "dgt_e278_p12.jpg",
 "dificultad": 4,
@@ -13174,7 +13174,7 @@ window.DGT_QUESTIONS = [
 "El conductor."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "El conductor es el responsable de la seguridad a bordo: debe cuidar que los pasajeros mantengan la posición adecuada y utilicen correctamente los sistemas de retención.",
 "tema_id": 1,
 "imagen": "dgt_e278_p13.jpg",
 "dificultad": 5,
@@ -13195,7 +13195,7 @@ window.DGT_QUESTIONS = [
 "Detenerse en el lado izquierdo de la calzada, delante del vehículo policial."
 ],
 "correcta_idx": 0,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "La luz roja destelleante hacia delante de un vehículo policial situado detrás es una orden de detención: debe parar en un lugar seguro y, en su caso, seguir las instrucciones del agente.",
 "tema_id": 4,
 "imagen": "dgt_e278_p14.jpg",
 "dificultad": 4,
@@ -13216,7 +13216,7 @@ window.DGT_QUESTIONS = [
 "Sí, la visión se ve afectada y es difícil distinguir lo que ocurre alrededor."
 ],
 "correcta_idx": 2,
-"explicacion": "Pregunta del test oficial de la DGT (Junio 2026).",
+"explicacion": "El sol de frente deslumbra y reduce la visión, dificultando distinguir peatones, señales y otros vehículos; hay que usar el parasol o gafas adecuadas y aumentar la precaución.",
 "tema_id": 1,
 "imagen": "dgt_e278_p15.jpg",
 "dificultad": 5,
