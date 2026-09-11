@@ -512,7 +512,7 @@ window.DGT_QUESTIONS = [
 "Camiones de M.M.A mayor de 3.500 kg ni vehículos articulados."
 ],
 "correcta_idx": 2,
-"explicacion": "El panel amarillo con la señal de prohibición de camiones indica una restricción de itinerario: no pueden pasar los camiones de más de 3.500 kg de MMA ni los vehículos articulados. Un turismo puede continuar sin problema.",
+"explicacion": "El panel amarillo indica que las restricciones rigen en el TRAMO entre las dos poblaciones rotuladas (Pajares–Busdongo), no en un punto concreto: en ese itinerario no pueden circular camiones de más de 3.500 kg de MMA ni vehículos articulados, y el disco «60» limita la velocidad a 60 km/h en el tramo. Un turismo puede continuar respetando ese límite.",
 "tema_id": 5,
 "imagen": "dgt_e235_p11.jpg",
 "dificultad": 5,
@@ -5740,7 +5740,7 @@ window.DGT_QUESTIONS = [
 "Al ocupar la calzada en vías urbanas."
 ],
 "correcta_idx": 0,
-"explicacion": "El chaleco reflectante es obligatorio siempre que se ocupe la calzada o el arcén de una vía interurbana, no solo en autopistas y autovías: hace visible al conductor y reduce el riesgo de atropello.",
+"explicacion": "El chaleco reflectante es obligatorio siempre que se salga del vehículo y se ocupe la calzada o el arcén de una vía INTERURBANA (cualquier carretera, no solo autopistas y autovías): hace visible al conductor y reduce el riesgo de atropello. Nota: en vías urbanas no es obligatorio (aunque sí recomendable), y si permaneces dentro del vehículo tampoco se exige.",
 "tema_id": 1,
 "imagen": "dgt_e254_p03.jpg",
 "dificultad": 5,
@@ -7245,14 +7245,14 @@ window.DGT_QUESTIONS = [
 },
 {
 "id": 346,
-"enunciado": "Los vehículos para personas con movilidad reducida, si no existe 4 vía o parte de ella que les está especialmente destinada...",
+"enunciado": "Los vehículos para personas con movilidad reducida, si no existe vía o parte de ella que les está especialmente destinada...",
 "opciones": [
 "deben circular por el arcén, siempre que sea transitable y suficiente.",
 "pueden circular por autopista.",
 "pueden circular por autovía."
 ],
 "correcta_idx": 0,
-"explicacion": "Si no hay vía o parte destinada a ellos, los vehículos para personas con movilidad reducida deben circular por el arcén, siempre que sea transitable y suficiente; tienen prohibido el acceso a autopistas y autovías.",
+"explicacion": "Si no hay vía o parte destinada a ellos, los vehículos para personas con movilidad reducida deben circular por el arcén, siempre que sea transitable y suficiente (art. 36 del Reglamento General de Circulación); si no lo es, usarán la parte imprescindible de la calzada. Tienen prohibido el acceso a autopistas y autovías.",
 "tema_id": 1,
 "imagen": "dgt_e259_p04.jpg",
 "dificultad": 5,
@@ -9100,10 +9100,12 @@ window.DGT_QUESTIONS = [
 "En ningún caso; siempre debe utilizar el cinturón de seguridad."
 ],
 "correcta_idx": 0,
-"explicacion": "Es una de las exenciones reglamentarias del cinturón: los conductores de reparto de mercancías pueden prescindir de él en poblado cuando realizan sucesivas operaciones de carga y descarga en trayectos cortos.",
+"explicacion": "Respuesta oficial del examen (marzo 2023): es una de las exenciones reglamentarias del cinturón — los conductores de reparto de mercancías pueden prescindir de él en poblado cuando realizan sucesivas operaciones de carga y descarga en trayectos cortos. ⚠️ Actualizada (Reglamento 2026): desde el 1 de octubre de 2026 esa exención DESAPARECE (taxistas, repartidores y profesores de autoescuela dejan de estar exentos); a partir de esa fecha la respuesta correcta pasa a ser «en ningún caso; siempre debe utilizar el cinturón».",
 "tema_id": 1,
 "imagen": "dgt_e265_p04.jpg",
 "dificultad": 5,
+"reforma_tipo": "modificado",
+"reforma_nota": "Reglamento 2026 (en vigor el 1-10-2026): desaparecen las exenciones del cinturón de taxistas, repartidores y profesores de autoescuela; desde esa fecha deben usarlo siempre, también en poblado.",
 "origen": "examen_oficial_dgt",
 "examen_num": 265,
 "examen_fecha": "Marzo 2023",
@@ -11452,7 +11454,7 @@ window.DGT_QUESTIONS = [
 "frenar."
 ],
 "correcta_idx": 0,
-"explicacion": "El conductor lleva el brazo izquierdo extendido y doblado hacia arriba: esa señal indica un desplazamiento o giro hacia la derecha cuando no pueden usarse (o no se usan) los intermitentes.",
+"explicacion": "El conductor lleva el brazo izquierdo doblado hacia arriba en ángulo recto: esa señal indica un desplazamiento o giro hacia la DERECHA cuando no pueden usarse (o no se usan) los intermitentes. También puede indicarse extendiendo el brazo derecho en horizontal. (Truco: brazo izquierdo horizontal = izquierda; brazo izquierdo doblado hacia arriba = derecha).",
 "tema_id": 1,
 "imagen": "dgt_e273_p04.jpg",
 "dificultad": 5,
