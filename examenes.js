@@ -6,6 +6,81 @@ window.DGT_EXAMENES = [
 "mes": 6,
 "trimestre": "T2",
 "ids": [
+657,
+658,
+659,
+660,
+661,
+662,
+663,
+664,
+665,
+666,
+667,
+668,
+669,
+670,
+671
+],
+"n_dificiles": 11
+},
+{
+"num": 277,
+"fecha": "Marzo de 2026",
+"anio": 2026,
+"mes": 3,
+"trimestre": "T1",
+"ids": [
+644,
+645,
+646,
+647,
+648,
+649,
+650,
+651,
+652,
+653,
+654,
+655,
+656
+],
+"n_dificiles": 5
+},
+{
+"num": 276,
+"fecha": "Diciembre 2025",
+"anio": 2025,
+"mes": 12,
+"trimestre": "T4",
+"ids": [
+629,
+630,
+631,
+632,
+633,
+634,
+635,
+636,
+637,
+638,
+639,
+640,
+641,
+642,
+643
+],
+"n_dificiles": 4
+},
+{
+"num": 275,
+"fecha": "Octubre 2025",
+"anio": 2025,
+"mes": 10,
+"trimestre": "T4",
+"ids": [
+614,
+615,
 616,
 617,
 618,
@@ -18,82 +93,7 @@ window.DGT_EXAMENES = [
 625,
 626,
 627,
-628,
-629,
-630
-],
-"n_dificiles": 11
-},
-{
-"num": 277,
-"fecha": "Marzo de 2026",
-"anio": 2026,
-"mes": 3,
-"trimestre": "T1",
-"ids": [
-603,
-604,
-605,
-606,
-607,
-608,
-609,
-610,
-611,
-612,
-613,
-614,
-615
-],
-"n_dificiles": 5
-},
-{
-"num": 276,
-"fecha": "Diciembre 2025",
-"anio": 2025,
-"mes": 12,
-"trimestre": "T4",
-"ids": [
-588,
-589,
-590,
-591,
-592,
-593,
-594,
-595,
-596,
-597,
-598,
-599,
-600,
-601,
-602
-],
-"n_dificiles": 4
-},
-{
-"num": 275,
-"fecha": "Octubre 2025",
-"anio": 2025,
-"mes": 10,
-"trimestre": "T4",
-"ids": [
-573,
-574,
-575,
-576,
-577,
-578,
-579,
-580,
-581,
-582,
-583,
-584,
-585,
-586,
-587
+628
 ],
 "n_dificiles": 3
 },
@@ -104,6 +104,81 @@ window.DGT_EXAMENES = [
 "mes": 6,
 "trimestre": "T2",
 "ids": [
+599,
+600,
+601,
+602,
+603,
+604,
+605,
+606,
+607,
+608,
+609,
+610,
+611,
+612,
+613
+],
+"n_dificiles": 6
+},
+{
+"num": 273,
+"fecha": "Abril 2025",
+"anio": 2025,
+"mes": 4,
+"trimestre": "T2",
+"ids": [
+584,
+585,
+586,
+587,
+588,
+589,
+590,
+591,
+592,
+593,
+594,
+595,
+596,
+597,
+598
+],
+"n_dificiles": 6
+},
+{
+"num": 272,
+"fecha": "Diciembre 2024",
+"anio": 2024,
+"mes": 12,
+"trimestre": "T4",
+"ids": [
+571,
+572,
+573,
+574,
+575,
+576,
+577,
+578,
+579,
+580,
+581,
+582,
+583
+],
+"n_dificiles": 6
+},
+{
+"num": 271,
+"fecha": "Octubre 2024",
+"anio": 2024,
+"mes": 10,
+"trimestre": "T4",
+"ids": [
+556,
+557,
 558,
 559,
 560,
@@ -116,19 +191,18 @@ window.DGT_EXAMENES = [
 567,
 568,
 569,
-570,
-571,
-572
+570
 ],
-"n_dificiles": 6
+"n_dificiles": 7
 },
 {
-"num": 273,
-"fecha": "Abril 2025",
-"anio": 2025,
-"mes": 4,
+"num": 270,
+"fecha": "Junio 2024",
+"anio": 2024,
+"mes": 6,
 "trimestre": "T2",
 "ids": [
+542,
 543,
 544,
 545,
@@ -141,19 +215,19 @@ window.DGT_EXAMENES = [
 552,
 553,
 554,
-555,
-556,
-557
+555
 ],
-"n_dificiles": 6
+"n_dificiles": 4
 },
 {
-"num": 272,
-"fecha": "Diciembre 2024",
+"num": 269,
+"fecha": "Marzo 2024",
 "anio": 2024,
-"mes": 12,
-"trimestre": "T4",
+"mes": 3,
+"trimestre": "T1",
 "ids": [
+528,
+529,
 530,
 531,
 532,
@@ -165,16 +239,15 @@ window.DGT_EXAMENES = [
 538,
 539,
 540,
-541,
-542
+541
 ],
-"n_dificiles": 6
+"n_dificiles": 5
 },
 {
-"num": 271,
-"fecha": "Octubre 2024",
-"anio": 2024,
-"mes": 10,
+"num": 268,
+"fecha": "Diciembre 2023",
+"anio": 2023,
+"mes": 12,
 "trimestre": "T4",
 "ids": [
 515,
@@ -189,18 +262,16 @@ window.DGT_EXAMENES = [
 524,
 525,
 526,
-527,
-528,
-529
+527
 ],
-"n_dificiles": 7
+"n_dificiles": 4
 },
 {
-"num": 270,
-"fecha": "Junio 2024",
-"anio": 2024,
-"mes": 6,
-"trimestre": "T2",
+"num": 267,
+"fecha": "Octubre 2023",
+"anio": 2023,
+"mes": 10,
+"trimestre": "T4",
 "ids": [
 501,
 502,
@@ -217,14 +288,14 @@ window.DGT_EXAMENES = [
 513,
 514
 ],
-"n_dificiles": 4
+"n_dificiles": 5
 },
 {
-"num": 269,
-"fecha": "Marzo 2024",
-"anio": 2024,
-"mes": 3,
-"trimestre": "T1",
+"num": 266,
+"fecha": "Junio 2023",
+"anio": 2023,
+"mes": 6,
+"trimestre": "T2",
 "ids": [
 487,
 488,
@@ -241,15 +312,17 @@ window.DGT_EXAMENES = [
 499,
 500
 ],
-"n_dificiles": 5
+"n_dificiles": 7
 },
 {
-"num": 268,
-"fecha": "Diciembre 2023",
+"num": 265,
+"fecha": "Marzo 2023",
 "anio": 2023,
-"mes": 12,
-"trimestre": "T4",
+"mes": 3,
+"trimestre": "T1",
 "ids": [
+472,
+473,
 474,
 475,
 476,
@@ -264,15 +337,18 @@ window.DGT_EXAMENES = [
 485,
 486
 ],
-"n_dificiles": 4
+"n_dificiles": 9
 },
 {
-"num": 267,
-"fecha": "Octubre 2023",
-"anio": 2023,
-"mes": 10,
+"num": 264,
+"fecha": "Diciembre 2022",
+"anio": 2022,
+"mes": 12,
 "trimestre": "T4",
 "ids": [
+457,
+458,
+459,
 460,
 461,
 462,
@@ -284,83 +360,7 @@ window.DGT_EXAMENES = [
 468,
 469,
 470,
-471,
-472,
-473
-],
-"n_dificiles": 5
-},
-{
-"num": 266,
-"fecha": "Junio 2023",
-"anio": 2023,
-"mes": 6,
-"trimestre": "T2",
-"ids": [
-446,
-447,
-448,
-449,
-450,
-451,
-452,
-453,
-454,
-455,
-456,
-457,
-458,
-459
-],
-"n_dificiles": 7
-},
-{
-"num": 265,
-"fecha": "Marzo 2023",
-"anio": 2023,
-"mes": 3,
-"trimestre": "T1",
-"ids": [
-431,
-432,
-433,
-434,
-435,
-436,
-437,
-438,
-439,
-440,
-441,
-442,
-443,
-444,
-445
-],
-"n_dificiles": 9
-},
-{
-"num": 264,
-"fecha": "Diciembre 2022",
-"anio": 2022,
-"mes": 12,
-"trimestre": "T4",
-"ids": [
-416,
-417,
-418,
-419,
-420,
-421,
-422,
-423,
-424,
-425,
-426,
-427,
-428,
-429,
-430
+471
 ],
 "n_dificiles": 7
 },
@@ -371,6 +371,85 @@ window.DGT_EXAMENES = [
 "mes": 10,
 "trimestre": "T4",
 "ids": [
+442,
+443,
+444,
+445,
+446,
+447,
+448,
+449,
+450,
+451,
+452,
+453,
+454,
+455,
+456
+],
+"n_dificiles": 5
+},
+{
+"num": 262,
+"fecha": "Junio 2022",
+"anio": 2022,
+"mes": 6,
+"trimestre": "T2",
+"ids": [
+427,
+428,
+429,
+430,
+431,
+432,
+433,
+434,
+435,
+436,
+437,
+438,
+439,
+440,
+441
+],
+"n_dificiles": 5
+},
+{
+"num": 261,
+"fecha": "Marzo2022",
+"anio": 2022,
+"mes": 3,
+"trimestre": "T1",
+"ids": [
+412,
+413,
+414,
+415,
+416,
+417,
+418,
+419,
+420,
+421,
+422,
+423,
+424,
+425,
+426
+],
+"n_dificiles": 7
+},
+{
+"num": 260,
+"fecha": "Diciembre 2021",
+"anio": 2021,
+"mes": 12,
+"trimestre": "T4",
+"ids": [
+397,
+398,
+399,
+400,
 401,
 402,
 403,
@@ -381,20 +460,16 @@ window.DGT_EXAMENES = [
 408,
 409,
 410,
-411,
-412,
-413,
-414,
-415
+411
 ],
-"n_dificiles": 5
+"n_dificiles": 7
 },
 {
-"num": 262,
-"fecha": "Junio 2022",
-"anio": 2022,
-"mes": 6,
-"trimestre": "T2",
+"num": 259,
+"fecha": "Octubre 2021",
+"anio": 2021,
+"mes": 10,
+"trimestre": "T4",
 "ids": [
 386,
 387,
@@ -406,22 +481,17 @@ window.DGT_EXAMENES = [
 393,
 394,
 395,
-396,
-397,
-398,
-399,
-400
+396
 ],
-"n_dificiles": 5
+"n_dificiles": 6
 },
 {
-"num": 261,
-"fecha": "Marzo2022",
-"anio": 2022,
-"mes": 3,
-"trimestre": "T1",
+"num": 258,
+"fecha": "Junio 2021",
+"anio": 2021,
+"mes": 6,
+"trimestre": "T2",
 "ids": [
-371,
 372,
 373,
 374,
@@ -437,16 +507,15 @@ window.DGT_EXAMENES = [
 384,
 385
 ],
-"n_dificiles": 7
+"n_dificiles": 2
 },
 {
-"num": 260,
-"fecha": "Diciembre 2021",
+"num": 257,
+"fecha": "Marzo 2021",
 "anio": 2021,
-"mes": 12,
-"trimestre": "T4",
+"mes": 3,
+"trimestre": "T1",
 "ids": [
-356,
 357,
 358,
 359,
@@ -460,17 +529,20 @@ window.DGT_EXAMENES = [
 367,
 368,
 369,
-370
+370,
+371
 ],
-"n_dificiles": 7
+"n_dificiles": 6
 },
 {
-"num": 259,
-"fecha": "Octubre 2021",
-"anio": 2021,
-"mes": 10,
+"num": 256,
+"fecha": "Diciembre 2020",
+"anio": 2020,
+"mes": 12,
 "trimestre": "T4",
 "ids": [
+343,
+344,
 345,
 346,
 347,
@@ -481,17 +553,21 @@ window.DGT_EXAMENES = [
 352,
 353,
 354,
-355
+355,
+356
 ],
 "n_dificiles": 6
 },
 {
-"num": 258,
-"fecha": "Junio 2021",
-"anio": 2021,
-"mes": 6,
-"trimestre": "T2",
+"num": 255,
+"fecha": "Octubre 2020",
+"anio": 2020,
+"mes": 10,
+"trimestre": "T4",
 "ids": [
+328,
+329,
+330,
 331,
 332,
 333,
@@ -503,19 +579,20 @@ window.DGT_EXAMENES = [
 339,
 340,
 341,
-342,
-343,
-344
+342
 ],
-"n_dificiles": 2
+"n_dificiles": 7
 },
 {
-"num": 257,
-"fecha": "Marzo 2021",
-"anio": 2021,
-"mes": 3,
-"trimestre": "T1",
+"num": 254,
+"fecha": "Julio 2020",
+"anio": 2020,
+"mes": 7,
+"trimestre": "T3",
 "ids": [
+313,
+314,
+315,
 316,
 317,
 318,
@@ -527,84 +604,7 @@ window.DGT_EXAMENES = [
 324,
 325,
 326,
-327,
-328,
-329,
-330
-],
-"n_dificiles": 6
-},
-{
-"num": 256,
-"fecha": "Diciembre 2020",
-"anio": 2020,
-"mes": 12,
-"trimestre": "T4",
-"ids": [
-302,
-303,
-304,
-305,
-306,
-307,
-308,
-309,
-310,
-311,
-312,
-313,
-314,
-315
-],
-"n_dificiles": 6
-},
-{
-"num": 255,
-"fecha": "Octubre 2020",
-"anio": 2020,
-"mes": 10,
-"trimestre": "T4",
-"ids": [
-287,
-288,
-289,
-290,
-291,
-292,
-293,
-294,
-295,
-296,
-297,
-298,
-299,
-300,
-301
-],
-"n_dificiles": 7
-},
-{
-"num": 254,
-"fecha": "Julio 2020",
-"anio": 2020,
-"mes": 7,
-"trimestre": "T3",
-"ids": [
-272,
-273,
-274,
-275,
-276,
-277,
-278,
-279,
-280,
-281,
-282,
-283,
-284,
-285,
-286
+327
 ],
 "n_dificiles": 4
 },
@@ -615,6 +615,81 @@ window.DGT_EXAMENES = [
 "mes": 6,
 "trimestre": "T2",
 "ids": [
+298,
+299,
+300,
+301,
+302,
+303,
+304,
+305,
+306,
+307,
+308,
+309,
+310,
+311,
+312
+],
+"n_dificiles": 5
+},
+{
+"num": 252,
+"fecha": "Diciembre 2019",
+"anio": 2019,
+"mes": 12,
+"trimestre": "T4",
+"ids": [
+283,
+284,
+285,
+286,
+287,
+288,
+289,
+290,
+291,
+292,
+293,
+294,
+295,
+296,
+297
+],
+"n_dificiles": 4
+},
+{
+"num": 251,
+"fecha": "Octubre 2019",
+"anio": 2019,
+"mes": 10,
+"trimestre": "T4",
+"ids": [
+269,
+270,
+271,
+272,
+273,
+274,
+275,
+276,
+277,
+278,
+279,
+280,
+281,
+282
+],
+"n_dificiles": 7
+},
+{
+"num": 250,
+"fecha": "Julio 2019",
+"anio": 2019,
+"mes": 7,
+"trimestre": "T3",
+"ids": [
+256,
 257,
 258,
 259,
@@ -626,20 +701,18 @@ window.DGT_EXAMENES = [
 265,
 266,
 267,
-268,
-269,
-270,
-271
+268
 ],
-"n_dificiles": 5
+"n_dificiles": 8
 },
 {
-"num": 252,
-"fecha": "Diciembre 2019",
+"num": 249,
+"fecha": "Abril 2019",
 "anio": 2019,
-"mes": 12,
-"trimestre": "T4",
+"mes": 4,
+"trimestre": "T2",
 "ids": [
+241,
 242,
 243,
 244,
@@ -653,18 +726,18 @@ window.DGT_EXAMENES = [
 252,
 253,
 254,
-255,
-256
+255
 ],
-"n_dificiles": 4
+"n_dificiles": 5
 },
 {
-"num": 251,
-"fecha": "Octubre 2019",
-"anio": 2019,
-"mes": 10,
+"num": 248,
+"fecha": "Diciembre 2018",
+"anio": 2018,
+"mes": 12,
 "trimestre": "T4",
 "ids": [
+227,
 228,
 229,
 230,
@@ -677,18 +750,20 @@ window.DGT_EXAMENES = [
 237,
 238,
 239,
-240,
-241
+240
 ],
-"n_dificiles": 7
+"n_dificiles": 5
 },
 {
-"num": 250,
-"fecha": "Julio 2019",
-"anio": 2019,
+"num": 247,
+"fecha": "Julio 2018",
+"anio": 2018,
 "mes": 7,
 "trimestre": "T3",
 "ids": [
+212,
+213,
+214,
 215,
 216,
 217,
@@ -700,18 +775,20 @@ window.DGT_EXAMENES = [
 223,
 224,
 225,
-226,
-227
+226
 ],
-"n_dificiles": 8
+"n_dificiles": 5
 },
 {
-"num": 249,
-"fecha": "Abril 2019",
-"anio": 2019,
-"mes": 4,
+"num": 246,
+"fecha": "Mayo 2018",
+"anio": 2018,
+"mes": 5,
 "trimestre": "T2",
 "ids": [
+197,
+198,
+199,
 200,
 201,
 202,
@@ -723,21 +800,17 @@ window.DGT_EXAMENES = [
 208,
 209,
 210,
-211,
-212,
-213,
-214
+211
 ],
-"n_dificiles": 5
+"n_dificiles": 6
 },
 {
-"num": 248,
-"fecha": "Diciembre 2018",
+"num": 245,
+"fecha": "Marzo 2018",
 "anio": 2018,
-"mes": 12,
-"trimestre": "T4",
+"mes": 3,
+"trimestre": "T1",
 "ids": [
-186,
 187,
 188,
 189,
@@ -747,21 +820,17 @@ window.DGT_EXAMENES = [
 193,
 194,
 195,
-196,
-197,
-198,
-199
+196
 ],
-"n_dificiles": 5
+"n_dificiles": 6
 },
 {
-"num": 247,
-"fecha": "Julio 2018",
+"num": 244,
+"fecha": "Enero 2018",
 "anio": 2018,
-"mes": 7,
-"trimestre": "T3",
+"mes": 1,
+"trimestre": "T1",
 "ids": [
-171,
 172,
 173,
 174,
@@ -775,18 +844,18 @@ window.DGT_EXAMENES = [
 182,
 183,
 184,
-185
+185,
+186
 ],
-"n_dificiles": 5
+"n_dificiles": 6
 },
 {
-"num": 246,
-"fecha": "Mayo 2018",
-"anio": 2018,
-"mes": 5,
-"trimestre": "T2",
+"num": 243,
+"fecha": "Diciembre 2017",
+"anio": 2017,
+"mes": 12,
+"trimestre": "T4",
 "ids": [
-156,
 157,
 158,
 159,
@@ -800,17 +869,22 @@ window.DGT_EXAMENES = [
 167,
 168,
 169,
-170
+170,
+171
 ],
-"n_dificiles": 6
+"n_dificiles": 5
 },
 {
-"num": 245,
-"fecha": "Marzo 2018",
-"anio": 2018,
-"mes": 3,
-"trimestre": "T1",
+"num": 242,
+"fecha": "Octubre-2017",
+"anio": 2017,
+"mes": 10,
+"trimestre": "T4",
 "ids": [
+142,
+143,
+144,
+145,
 146,
 147,
 148,
@@ -820,17 +894,19 @@ window.DGT_EXAMENES = [
 152,
 153,
 154,
-155
+155,
+156
 ],
-"n_dificiles": 6
+"n_dificiles": 5
 },
 {
-"num": 244,
-"fecha": "Enero 2018",
-"anio": 2018,
-"mes": 1,
-"trimestre": "T1",
+"num": 241,
+"fecha": "Julio 2017",
+"anio": 2017,
+"mes": 7,
+"trimestre": "T3",
 "ids": [
+130,
 131,
 132,
 133,
@@ -841,21 +917,18 @@ window.DGT_EXAMENES = [
 138,
 139,
 140,
-141,
-142,
-143,
-144,
-145
+141
 ],
-"n_dificiles": 6
+"n_dificiles": 4
 },
 {
-"num": 243,
-"fecha": "Diciembre 2017",
+"num": 239,
+"fecha": "Febrero 2017",
 "anio": 2017,
-"mes": 12,
-"trimestre": "T4",
+"mes": 2,
+"trimestre": "T1",
 "ids": [
+115,
 116,
 117,
 118,
@@ -869,18 +942,18 @@ window.DGT_EXAMENES = [
 126,
 127,
 128,
-129,
-130
+129
 ],
-"n_dificiles": 5
+"n_dificiles": 7
 },
 {
-"num": 242,
-"fecha": "Octubre-2017",
-"anio": 2017,
-"mes": 10,
+"num": 238,
+"fecha": "Diciembre 2016",
+"anio": 2016,
+"mes": 12,
 "trimestre": "T4",
 "ids": [
+100,
 101,
 102,
 103,
@@ -894,18 +967,21 @@ window.DGT_EXAMENES = [
 111,
 112,
 113,
-114,
-115
+114
 ],
-"n_dificiles": 5
+"n_dificiles": 4
 },
 {
-"num": 241,
-"fecha": "Julio 2017",
-"anio": 2017,
-"mes": 7,
-"trimestre": "T3",
+"num": 237,
+"fecha": "Octubre 2016",
+"anio": 2016,
+"mes": 10,
+"trimestre": "T4",
 "ids": [
+85,
+86,
+87,
+88,
 89,
 90,
 91,
@@ -916,18 +992,20 @@ window.DGT_EXAMENES = [
 96,
 97,
 98,
-99,
-100
+99
 ],
-"n_dificiles": 4
+"n_dificiles": 6
 },
 {
-"num": 239,
-"fecha": "Febrero 2017",
-"anio": 2017,
-"mes": 2,
-"trimestre": "T1",
+"num": 236,
+"fecha": "Julio 2016",
+"anio": 2016,
+"mes": 7,
+"trimestre": "T3",
 "ids": [
+71,
+72,
+73,
 74,
 75,
 76,
@@ -938,21 +1016,20 @@ window.DGT_EXAMENES = [
 81,
 82,
 83,
-84,
-85,
-86,
-87,
-88
+84
 ],
-"n_dificiles": 7
+"n_dificiles": 3
 },
 {
-"num": 238,
-"fecha": "Diciembre 2016",
+"num": 235,
+"fecha": "Abril 2016",
 "anio": 2016,
-"mes": 12,
-"trimestre": "T4",
+"mes": 4,
+"trimestre": "T2",
 "ids": [
+56,
+57,
+58,
 59,
 60,
 61,
@@ -964,20 +1041,19 @@ window.DGT_EXAMENES = [
 67,
 68,
 69,
-70,
-71,
-72,
-73
+70
 ],
-"n_dificiles": 4
+"n_dificiles": 5
 },
 {
-"num": 237,
-"fecha": "Octubre 2016",
+"num": 234,
+"fecha": "Febrero-2016",
 "anio": 2016,
-"mes": 10,
-"trimestre": "T4",
+"mes": 2,
+"trimestre": "T1",
 "ids": [
+42,
+43,
 44,
 45,
 46,
@@ -989,83 +1065,7 @@ window.DGT_EXAMENES = [
 52,
 53,
 54,
-55,
-56,
-57,
-58
-],
-"n_dificiles": 6
-},
-{
-"num": 236,
-"fecha": "Julio 2016",
-"anio": 2016,
-"mes": 7,
-"trimestre": "T3",
-"ids": [
-30,
-31,
-32,
-33,
-34,
-35,
-36,
-37,
-38,
-39,
-40,
-41,
-42,
-43
-],
-"n_dificiles": 3
-},
-{
-"num": 235,
-"fecha": "Abril 2016",
-"anio": 2016,
-"mes": 4,
-"trimestre": "T2",
-"ids": [
-15,
-16,
-17,
-18,
-19,
-20,
-21,
-22,
-23,
-24,
-25,
-26,
-27,
-28,
-29
-],
-"n_dificiles": 5
-},
-{
-"num": 234,
-"fecha": "Febrero-2016",
-"anio": 2016,
-"mes": 2,
-"trimestre": "T1",
-"ids": [
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10,
-11,
-12,
-13,
-14
+55
 ],
 "n_dificiles": 4
 }

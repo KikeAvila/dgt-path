@@ -122,7 +122,7 @@ window.DGT_CATALOGO = {
 "nombre": "Aproximación a un paso a nivel, puente móvil o muelle",
 "descripcion": "(200 m, lado derecho) Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 200 m. Esta baliza se sitúa en el lado derecho de la calzada y va siempre acompañada de la señal P-5, P-7, P-8 o P-27.",
 "categoria": "Señales De Advertencia De Peligro",
-"img": null,
+"img": "P-9a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -131,7 +131,7 @@ window.DGT_CATALOGO = {
 "nombre": "Aproximación a un paso a nivel, puente móvil o muelle",
 "descripcion": "(150 m, lado derecho) Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 150 m. Esta baliza se sitúa en el lado derecho de la calzada.",
 "categoria": "Señales De Advertencia De Peligro",
-"img": null,
+"img": "P-9b.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -140,7 +140,7 @@ window.DGT_CATALOGO = {
 "nombre": "Aproximación a un paso a nivel, puente móvil o muelle",
 "descripcion": "(100 m, lado derecho) Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 100 m. Esta baliza se sitúa en el lado derecho de la calzada.",
 "categoria": "Señales De Advertencia De Peligro",
-"img": null,
+"img": "P-9c.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -149,7 +149,7 @@ window.DGT_CATALOGO = {
 "nombre": "Aproximación a un paso a nivel, puente móvil o muelle",
 "descripcion": "(200 m, lado izquierdo) Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 200 m. Esta baliza se sitúa en el lado izquierdo de la calzada y va siempre acompañada de la señal P-5, P-7, P-8 o P-27.",
 "categoria": "Señales De Advertencia De Peligro",
-"img": null,
+"img": "P-10a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -158,7 +158,7 @@ window.DGT_CATALOGO = {
 "nombre": "Aproximación a un paso a nivel, puente móvil o muelle",
 "descripcion": "(150 m, lado izquierdo) Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 150 m. Esta baliza se sitúa en el lado izquierdo de la calzada.",
 "categoria": "Señales De Advertencia De Peligro",
-"img": null,
+"img": "P-10b.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -167,7 +167,7 @@ window.DGT_CATALOGO = {
 "nombre": "Aproximación a un paso a nivel, puente móvil o muelle",
 "descripcion": "(100 m, lado izquierdo) Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 100 m. Esta baliza se sitúa en el lado izquierdo de la calzada.",
 "categoria": "Señales De Advertencia De Peligro",
-"img": null,
+"img": "P-10c.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -833,7 +833,7 @@ window.DGT_CATALOGO = {
 "nombre": "Velocidad máxima",
 "descripcion": "Prohibición de circular a velocidad superior, expresada en kilómetros por hora, a la indicada en la señal. Obliga desde el lugar en que esté situada hasta la próxima señal «Fin de limitación de velocidad», de «Fin de prohibiciones» u otra de «Velocidad máxima», salvo que esté colocada en el mismo poste que una señal de advertencia de peligro o en el mismo panel que esta, en cuyo caso la prohibición finaliza cuando termine el peligro señalado. Situada en una vía sin prioridad, deja de tener vigencia al salir de una intersección con una vía con prioridad. Si el límite indicado por la señal coincide con la velocidad máxima permitida para el tipo de vía, recuerda de forma genérica la prohibición de superarla.",
 "categoria": "Señales De Restricción De Paso",
-"img": null,
+"img": "R-301.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -869,7 +869,7 @@ window.DGT_CATALOGO = {
 "nombre": "Adelantamiento prohibido",
 "descripcion": "Por añadidura a los principios generales sobre adelantamiento, indica la prohibición a todos los vehículos de adelantar a los vehículos a motor que circulen por la calzada cuando dicha maniobra implique invadir la zona reservada al sentido contrario de circulación. La prohibición se aplica desde el lugar en que esté situada la señal hasta la siguiente señal de “Fin de prohibición de adelantamiento” o “Fin de prohibiciones”. Colocada en aquellos lugares donde por norma esté prohibido el adelantamiento, recuerda de forma genérica la prohibición de efectuar esta maniobra.",
 "categoria": "Señales De Restricción De Paso",
-"img": null,
+"img": "R-305.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -1814,7 +1814,7 @@ window.DGT_CATALOGO = {
 "nombre": "Panel de aproximación a salida (300 m)",
 "descripcion": "Indica, en una autopista o en una autovía, que la próxima salida está situada aproximadamente a 300 m. Si la salida fuera por la izquierda la diagonal sería descendente de izquierda a derecha y la señal se situaría a la izquierda de la calzada.",
 "categoria": "Señales De Indicaciones Generales",
-"img": null,
+"img": "S-26a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -1823,7 +1823,7 @@ window.DGT_CATALOGO = {
 "nombre": "Panel de aproximación a salida (200 m)",
 "descripcion": "Indica, en una autopista o en una autovía, que la próxima salida está situada aproximadamente a 200 m. Si la salida fuera por la izquierda la diagonal sería descendente de izquierda a derecha y la señal se situaría a la izquierda de la calzada.",
 "categoria": "Señales De Indicaciones Generales",
-"img": null,
+"img": "S-26b.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -1832,7 +1832,7 @@ window.DGT_CATALOGO = {
 "nombre": "Panel de aproximación a salida (100 m)",
 "descripcion": "Indica, en una autopista o en una autovía, que la próxima salida está situada aproximadamente a 100 m. Si la salida fuera por la izquierda la diagonal sería descendente de izquierda a derecha y la señal se situaría a la izquierda de la calzada.",
 "categoria": "Señales De Indicaciones Generales",
-"img": null,
+"img": "S-26c.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -1850,7 +1850,7 @@ window.DGT_CATALOGO = {
 "nombre": "Zona de estancia y juego",
 "descripcion": "Indica las zonas de circulación que están destinadas en primer lugar a los peatones y en las que se aplican las normas especiales de circulación siguientes: la velocidad máxima de los vehículos está fijada en 10 kilómetros por hora y los conductores deben conceder prioridad a los peatones; los vehículos pueden estacionarse únicamente en los lugares designados por señales o por marcas; los ciclos y, en su caso, los VMP, pueden circular en ambos sentidos, salvo que la autoridad competente establezca lo contrario; los peatones pueden utilizar toda la zona de circulación y por tanto no se señalizan los pasos peatonales; los juegos y los deportes están autorizados en ella. Irá siempre acompañada de la señal R-301 que limitará la velocidad a 10 km/h.",
 "categoria": "Señales De Indicaciones Generales",
-"img": null,
+"img": "S-28.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -1895,7 +1895,7 @@ window.DGT_CATALOGO = {
 "nombre": "Senda ciclopeatonal",
 "descripcion": "Indica la existencia de una vía para peatones, ciclos y, en su caso, VMP, segregada del tráfico motorizado, y que discurre habitualmente por espacios abiertos, parques, jardines o bosques, si bien fuera de poblado puede discurrir también paralela a la carretera. En presencia de personas caminando, los ciclos y, en su caso, los VMP deberán reducir su velocidad para garantizar la seguridad y la convivencia. Asimismo, las personas viandantes facilitarán el paso de los ciclos y, en su caso, los VMP.",
 "categoria": "Señales De Indicaciones Generales",
-"img": null,
+"img": "S-33.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2030,7 +2030,7 @@ window.DGT_CATALOGO = {
 "nombre": "Zona de coexistencia",
 "descripcion": "Indica una zona de circulación que está destinada en primer lugar a los peatones y en las que se aplican las normas especiales de circulación siguientes: la velocidad máxima de los vehículos será de 20 km/h; la circulación está compartida entre vehículos, ciclistas y peatones; los peatones tienen prioridad, pueden usar toda la zona de circulación y por tanto no se señalizan pasos peatonales; los ciclos y, en su caso, los VMP pueden circular en ambos sentidos, salvo que la autoridad competente establezca lo contrario; los vehículos pueden estacionarse únicamente en los lugares designados por señales o por marcas; los juegos y los deportes no están autorizados.",
 "categoria": "Señales De Indicaciones Generales",
-"img": null,
+"img": "S-47.jpeg",
 "nuevo2025": true,
 "cambio_diseno": false
 },
@@ -2057,7 +2057,7 @@ window.DGT_CATALOGO = {
 "nombre": "Carriles reservados en función de la velocidad señalizada",
 "descripcion": "Indica, en una calzada de doble sentido de circulación, la ampliación de un carril por la izquierda que solo puede ser utilizado por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
 "categoria": "Señales De Carriles",
-"img": null,
+"img": "S-50a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2066,7 +2066,7 @@ window.DGT_CATALOGO = {
 "nombre": "Carriles reservados en función de la velocidad señalizada",
 "descripcion": "Indica, en una calzada de doble sentido de circulación, la ampliación de un carril por la derecha. El carril sobre el que está situada la señal de velocidad mínima solo podrá ser utilizado por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
 "categoria": "Señales De Carriles",
-"img": null,
+"img": "S-50b.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2075,7 +2075,7 @@ window.DGT_CATALOGO = {
 "nombre": "Carriles reservados en función de la velocidad señalizada",
 "descripcion": "Indica, en una calzada de un único sentido de circulación, la ampliación de un carril por la derecha. Los carriles sobre los que está situada la señal de velocidad mínima solo podrán ser utilizados por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
 "categoria": "Señales De Carriles",
-"img": null,
+"img": "S-50c.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2084,7 +2084,7 @@ window.DGT_CATALOGO = {
 "nombre": "Carriles reservados en función de la velocidad señalizada",
 "descripcion": "Indica, en una calzada de doble sentido de circulación, que el carril sobre el que está situada la señal de velocidad mínima solo puede ser utilizado por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
 "categoria": "Señales De Carriles",
-"img": null,
+"img": "S-50d.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2093,7 +2093,7 @@ window.DGT_CATALOGO = {
 "nombre": "Carriles reservados en función de la velocidad señalizada",
 "descripcion": "Indica, en una calzada de un único sentido de circulación, que los carriles sobre los que están situadas las señales de velocidad mínima solo pueden ser utilizados por los vehículos que circulen a velocidad igual o superior a la indicada, aunque si las circunstancias lo permiten deben circular por el carril de la derecha. El final de la obligatoriedad de velocidad mínima vendrá establecido por la señal R-506 o el tipo de señal S-52 correspondiente.",
 "categoria": "Señales De Carriles",
-"img": null,
+"img": "S-50e.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2102,7 +2102,7 @@ window.DGT_CATALOGO = {
 "nombre": "Carril reservado para tipos específicos de vehículos",
 "descripcion": "Indica un carril destinado exclusivamente a la circulación de cierto o ciertos tipos de vehículos determinados (autobuses, motocicletas, vehículos de tres ruedas asimilados a motocicletas, taxis, ciclos, etc.). Se incluirá en la señal el pictograma representativo del tipo o tipos de vehículos autorizados. En tramos en que la marca vial longitudinal delimitadora del carril esté constituida por una línea discontinua, se permite su utilización al resto de vehículos únicamente para realizar alguna maniobra que no sea la de parar, estacionar, cambiar el sentido de la marcha o adelantar, dejando siempre preferencia a los vehículos autorizados a circular por este carril.",
 "categoria": "Señales De Carriles",
-"img": null,
+"img": "S-51a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": true
 },
@@ -2111,7 +2111,7 @@ window.DGT_CATALOGO = {
 "nombre": "Carril reservado para vehículos con alta ocupación",
 "descripcion": "(VAO) Indica uno o varios carriles destinados exclusivamente a la circulación de vehículos con alta ocupación. En la imagen figurará el número de personas a partir de las cuales se considera alta ocupación, lo que será determinado por el órgano gestor competente en cada caso. Si el carril o carriles está reservado no solo a VAO sino también a otro u otros tipos específicos de vehículos, se podrán combinar las imágenes correspondientes del mismo modo que en la señal S-51a.",
 "categoria": "Señales De Carriles",
-"img": null,
+"img": "S-51b.jpeg",
 "nuevo2025": true,
 "cambio_diseno": false
 },
@@ -2795,7 +2795,7 @@ window.DGT_CATALOGO = {
 "nombre": "Preseñalización, con cartel lateral, en",
 "descripcion": "carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril Indica, en una carretera convencional o una carretera multicarril, los destinos de las salidas del próximo nudo cuando estas dirigen hacia una carretera convencional o una carretera multicarril, así como la distancia a la que se encuentran dichas salidas.",
 "categoria": "Señales De Preseñalización",
-"img": null,
+"img": "S-220.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2804,7 +2804,7 @@ window.DGT_CATALOGO = {
 "nombre": "Preseñalización, con cartel lateral, en",
 "descripcion": "carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril y dirección propia Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de las salidas del próximo nudo cuando estas dirigen hacia una carretera convencional o una carretera multicarril, así como la distancia a la que se encuentran dichas salidas.",
 "categoria": "Señales De Preseñalización",
-"img": null,
+"img": "S-220a.jpeg",
 "nuevo2025": true,
 "cambio_diseno": false
 },
@@ -2822,7 +2822,7 @@ window.DGT_CATALOGO = {
 "nombre": "Preseñalización, con cartel lateral, en",
 "descripcion": "carretera convencional o carretera multicarril hacia autopista o autovía y dirección propia Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de las salidas del próximo nudo cuando estas dirigen hacia una autopista o una autovía, así como la distancia a la que se encuentran dichas salidas.",
 "categoria": "Señales De Preseñalización",
-"img": null,
+"img": "S-222a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2849,7 +2849,7 @@ window.DGT_CATALOGO = {
 "nombre": "Preseñalización, con carteles sobre la",
 "descripcion": "calzada, en carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril y dirección propia. Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo nudo cuando esta dirige hacia una carretera convencional o una carretera multicarril, así como la distancia a la que se encuentra dicha salida.",
 "categoria": "Señales De Preseñalización",
-"img": null,
+"img": "S-230a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2867,7 +2867,7 @@ window.DGT_CATALOGO = {
 "nombre": "Preseñalización, con carteles sobre la",
 "descripcion": "calzada, en carretera convencional o carretera multicarril hacia autopista o autovía y dirección propia Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo nudo cuando esta dirige hacia una autopista o una autovía, así como la distancia a la que se encuentra dicha salida.",
 "categoria": "Señales De Preseñalización",
-"img": null,
+"img": "S-232a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2903,7 +2903,7 @@ window.DGT_CATALOGO = {
 "nombre": "Preseñalización, con carteles sobre la",
 "descripcion": "calzada en autopista o autovía, de dos salidas muy próximas hacia cualquier tipo de carretera y dirección propia Indica, en una autopista o una autovía, la dirección propia de la carretera por la que se circula y las direcciones de los ramales de dos salidas consecutivas. También indica la distancia a dichas salidas, los números o el número y letras de cada una de ellas.",
 "categoria": "Señales De Preseñalización",
-"img": null,
+"img": "S-242a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -2948,7 +2948,7 @@ window.DGT_CATALOGO = {
 "nombre": "Preseñalización de carriles",
 "descripcion": "Indica las únicas direcciones permitidas en el próximo nudo a los usuarios que circulan por los carriles señalizados. Sobre las flechas que indican los carriles de permanencia en la carretera por la que se circula se dispondrá el cajetín indicativo de la misma. Se limitará su uso a situaciones excepcionales donde la línea continua de separación de carriles no implique la divergencia respecto de los carriles situados a la izquierda, o a enlaces o bifurcaciones entre dos autovías o autopistas con alta intensidad de tráfico en ambas.",
 "categoria": "Señales De Preseñalización",
-"img": null,
+"img": "S-260.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -3101,7 +3101,7 @@ window.DGT_CATALOGO = {
 "nombre": "Señalización de salida inmediata, con",
 "descripcion": "carteles sobre la calzada, en carretera convencional o carretera multicarril hacia carretera convencional o carretera multicarril y dirección propia. Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo nudo cuando esta dirige hacia una carretera convencional o una carretera multicarril.",
 "categoria": "Señales De Dirección",
-"img": null,
+"img": "S-350a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -3119,7 +3119,7 @@ window.DGT_CATALOGO = {
 "nombre": "Señalización de salida inmediata, con",
 "descripcion": "carteles sobre la calzada, en carretera convencional o carretera multicarril hacia autopista o autovía y dirección propia. Indica, en una carretera convencional o una carretera multicarril, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo nudo cuando esta dirige hacia una autopista o una autovía.",
 "categoria": "Señales De Dirección",
-"img": null,
+"img": "S-351a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -3137,7 +3137,7 @@ window.DGT_CATALOGO = {
 "nombre": "Señalización de salida inmediata, con",
 "descripcion": "carteles sobre la calzada, en autopista o autovía hacia carretera convencional o carretera multicarril y dirección propia Indica, en una autopista o una autovía, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo enlace cuando esta dirige hacia una carretera convencional o una carretera multicarril. También indica el número de salida y en su caso la letra.",
 "categoria": "Señales De Dirección",
-"img": null,
+"img": "S-352a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -3146,7 +3146,7 @@ window.DGT_CATALOGO = {
 "nombre": "Señalización de salida inmediata,",
 "descripcion": "con carteles sobre la calzada, en autopista o autovía hacia autopista o autovía y dirección propia Indica, en una autopista o una autovía, la dirección propia de la carretera por la que se circula y los destinos de la salida del próximo enlace cuando esta dirige hacia una autopista o una autovía. También indica el número de salida y en su caso la letra.",
 "categoria": "Señales De Dirección",
-"img": null,
+"img": "S-353a.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -3155,7 +3155,7 @@ window.DGT_CATALOGO = {
 "nombre": "Señalización de la primera salida",
 "descripcion": "inmediata de dos muy próximas, con carteles sobre la calzada, en autopista o autovía hacia carretera convencional o carretera multicarril, destinos de la segunda salida y dirección propia Indica, en la primera salida de dos muy próximas en una autopista o una autovía, la dirección propia de la carretera por la que se circula (cartel izquierdo y central), los destinos de la segunda salida (cartel central) y los destinos de la primera salida cuando esta dirige hacia una carretera convencional o una carretera multicarril (cartel derecho). También indica el número de salida y en su caso la letra.",
 "categoria": "Señales De Dirección",
-"img": null,
+"img": "S-373.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -3227,7 +3227,7 @@ window.DGT_CATALOGO = {
 "nombre": "Autopista y autovía",
 "descripcion": "Identifica una autopista o una autovía. Cuando esta pertenezca a una administración autonómica, además de la letra A y a continuación del número correspondiente o bien encima de la señal con un panel complementario, pueden incluirse las siglas de identificación de la comunidad autónoma. Ninguna carretera que no tenga características de autopista o autovía podrá ser identificada con la letra A. Cuando la autopista o autovía sea una ronda o circunvalación, la letra A podrá sustituirse por las letras indicativas de la ciudad, de acuerdo con el código establecido al efecto por el Ministerio de Fomento.",
 "categoria": "Señales De Identificación De Carreteras",
-"img": null,
+"img": "S-410.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -3272,7 +3272,7 @@ window.DGT_CATALOGO = {
 "nombre": "Entrada a poblado",
 "descripcion": "Indica el nombre de la población a la que se accede, así como el lugar a partir del cual rigen las normas de circulación en poblado. El subcartel superior refuerza el mensaje de que debe adaptarse la conducción ante la presencia de peatones, ciclistas u otras personas usuarias vulnerables. Además, podrá incluirse la velocidad máxima permitida en esa vía a partir de ese punto, con independencia de que en otras vías del poblado puedan existir límites diferentes.",
 "categoria": "Señales De Localización",
-"img": null,
+"img": "S-500.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -3443,7 +3443,7 @@ window.DGT_CATALOGO = {
 "nombre": "Hito miriamétrico en autopista de peaje",
 "descripcion": "Indica el punto kilométrico de una autopista de peaje cuando aquel es múltiplo de diez.",
 "categoria": "Señales De Localización",
-"img": null,
+"img": "S-574b.jpeg",
 "nuevo2025": false,
 "cambio_diseno": false
 },
@@ -3497,7 +3497,7 @@ window.DGT_CATALOGO = {
 "nombre": "Confirmación complementaria con preseñalización de salida",
 "descripcion": "Indica en una autopista o una autovía los nombres de capitales de provincia no adyacentes a la autopista o a la autovía por la que se circula y las correspondientes distancias en kilómetros. Asimismo, figurarán los cajetines identificativos de las autovías o las autopistas por las que se accede a dichas poblaciones. En los subcarteles superiores figurará además el número de salida correspondiente y la distancia existente a dicha salida.",
 "categoria": "Señales De Confirmación",
-"img": null,
+"img": "S-603.jpeg",
 "nuevo2025": true,
 "cambio_diseno": false
 },

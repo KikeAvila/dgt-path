@@ -1,6 +1,621 @@
 window.DGT_QUESTIONS = [
 {
 "id": 1,
+"enunciado": "Circula usted por una carretera convencional de un solo carril por sentido, con marcas viales pero sin arcén practicable. ¿Cuál es la velocidad máxima genérica que no debe rebasar con su turismo?",
+"opciones": [
+"100 km/h.",
+"90 km/h.",
+"80 km/h."
+],
+"correcta_idx": 1,
+"explicacion": "Desde 2019 el límite genérico en TODAS las carreteras convencionales es 90 km/h para turismos y motocicletas, exista o no arcén. El antiguo 100 km/h para carreteras con arcén ancho desapareció. La trampa es el detalle del arcén, que ya no cambia el límite.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 2,
+"enunciado": "En una vía urbana de un único carril por cada sentido de circulación, sin que sea plataforma única, ¿cuál es la velocidad máxima genérica salvo señal en contra?",
+"opciones": [
+"50 km/h.",
+"30 km/h.",
+"20 km/h."
+],
+"correcta_idx": 1,
+"explicacion": "Desde 2021 en ciudad: 20 km/h en vías de plataforma única (calzada y acera al mismo nivel), 30 km/h en vías de un único carril por sentido, y 50 km/h en vías de dos o más carriles por sentido. Aquí, un único carril por sentido = 30 km/h.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 3,
+"enunciado": "Un conductor con el permiso B obtenido hace 14 meses da positivo con 0,20 mg/l de alcohol en aire espirado. ¿Se le sanciona?",
+"opciones": [
+"No, porque no supera los 0,25 mg/l generales.",
+"Sí, porque siendo conductor novel su tasa máxima es 0,15 mg/l en aire.",
+"No, porque el límite solo cuenta en sangre."
+],
+"correcta_idx": 1,
+"explicacion": "Durante los primeros 2 años el conductor es novel y su tasa máxima es 0,15 mg/l en aire espirado (0,3 g/l en sangre), no la general de 0,25 mg/l. Con 0,20 mg/l ya está por encima de su límite y se le sanciona.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 4,
+"enunciado": "La ficha técnica de su turismo indica: masa en vacío con líquidos y herramientas 1.150 kg; masa máxima autorizada 1.700 kg. ¿Cuál es su carga útil aproximada?",
+"opciones": [
+"1.700 kg.",
+"1.150 kg.",
+"550 kg."
+],
+"correcta_idx": 2,
+"explicacion": "La carga útil es la diferencia entre la MMA y la masa en orden de marcha (tara): 1.700 − 1.150 = 550 kg. La trampa es confundir la carga útil con la MMA o con la propia tara.",
+"tema_id": 1,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 5,
+"enunciado": "Se aproxima a una glorieta (rotonda) por la que ya circulan vehículos. Salvo señalización que indique otra cosa, ¿quién tiene prioridad?",
+"opciones": [
+"El que va a entrar, porque viene por la derecha.",
+"El que ya circula por el anillo de la glorieta.",
+"El vehículo de mayor tamaño."
+],
+"correcta_idx": 1,
+"explicacion": "En las glorietas tiene prioridad quien ya circula por la calzada anular; el que va a acceder debe ceder el paso. La regla de 'prioridad por la derecha' no se aplica aquí, esa es la trampa habitual.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 6,
+"enunciado": "¿A qué velocidad mínima puede circular un turismo por una autopista con límite genérico de 120 km/h, si no hay señal específica?",
+"opciones": [
+"A ninguna velocidad mínima, no existe mínimo.",
+"60 km/h, la mitad del límite genérico.",
+"45 km/h."
+],
+"correcta_idx": 1,
+"explicacion": "En autopistas y autovías la velocidad no puede ser inferior a la mitad del límite genérico de la vía. Con 120 km/h de máxima, el mínimo es 60 km/h (salvo señal expresa distinta).",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 7,
+"enunciado": "Va a estacionar y ve un paso de peatones. Respecto a él, la norma establece que:",
+"opciones": [
+"Puede pararse para dejar/recoger pasajeros, pero no estacionar sobre él ni justo antes reduciendo la visibilidad.",
+"Puede estacionar sobre el paso si no hay peatones.",
+"Puede parar y estacionar libremente sobre él de noche."
+],
+"correcta_idx": 0,
+"explicacion": "Parar (detención breve para subir/bajar) puede estar permitido, pero estacionar sobre un paso de peatones o de forma que reste visibilidad al mismo está prohibido. La trampa es no distinguir 'parada' de 'estacionamiento'.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 8,
+"enunciado": "Un turismo de 6 años desde su primera matriculación. ¿Con qué periodicidad debe pasar la ITV?",
+"opciones": [
+"Está exento hasta los 10 años.",
+"Cada 2 años (bienal).",
+"Todos los años."
+],
+"correcta_idx": 1,
+"explicacion": "Los turismos están exentos los 4 primeros años; de 4 a 10 años la ITV es cada 2 años; a partir de los 10 años, anual. Con 6 años le corresponde la revisión bienal.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 9,
+"enunciado": "¿Cuál es la profundidad mínima legal del dibujo de las ranuras principales de los neumáticos de su turismo?",
+"opciones": [
+"1,6 mm.",
+"3 mm.",
+"1 mm."
+],
+"correcta_idx": 0,
+"explicacion": "La profundidad mínima legal del dibujo en las ranuras principales de la banda de rodadura es de 1,6 mm. Por debajo, el neumático no es apto para circular.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 10,
+"enunciado": "Circula de día por un túnel suficientemente iluminado. ¿Debe encender algún alumbrado?",
+"opciones": [
+"No, si el túnel está bien iluminado no es necesario.",
+"Sí, al menos la luz de cruce (corta), aunque el túnel esté iluminado.",
+"Solo las luces de posición."
+],
+"correcta_idx": 1,
+"explicacion": "En túneles y pasos inferiores es obligatorio circular con la luz de cruce encendida (como mínimo), esté o no iluminado el túnel, tanto de día como de noche.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 11,
+"enunciado": "Un niño mide 130 cm de estatura. ¿Cómo debe viajar en su turismo?",
+"opciones": [
+"Con el cinturón normal, ya puede prescindir de la silla.",
+"Con un sistema de retención infantil homologado adecuado a su talla y peso.",
+"En el asiento delantero obligatoriamente."
+],
+"correcta_idx": 1,
+"explicacion": "Los menores de estatura igual o inferior a 135 cm deben usar un sistema de retención infantil homologado adaptado a su talla y peso. Con 130 cm todavía necesita SRI; el cinturón del vehículo solo no basta.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 12,
+"enunciado": "¿En cuál de estas situaciones está permitido adelantar por la derecha en una vía interurbana?",
+"opciones": [
+"Cuando el vehículo precedente ha indicado que va a girar a la izquierda y hay espacio para hacerlo con seguridad.",
+"Siempre que el otro conductor circule despacio.",
+"Nunca, el adelantamiento por la derecha está prohibido en todo caso."
+],
+"correcta_idx": 0,
+"explicacion": "Con carácter general se adelanta por la izquierda, pero se permite por la derecha cuando el conductor de delante ha indicado claramente que va a girar a la izquierda o detenerse a ese lado, siempre con seguridad.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 13,
+"enunciado": "Distancia de detención de un vehículo. ¿Qué la compone exactamente?",
+"opciones": [
+"Solo la distancia recorrida mientras frena.",
+"La distancia de reacción más la distancia de frenado.",
+"Solo la distancia recorrida durante el tiempo de reacción."
+],
+"correcta_idx": 1,
+"explicacion": "La distancia de detención = distancia de reacción (lo que recorre el vehículo mientras el conductor reacciona) + distancia de frenado (desde que actúan los frenos hasta parar). Olvidar la parte de reacción es la trampa.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 14,
+"enunciado": "Se encuentra un semáforo con la luz amarilla fija encendida. ¿Qué debe hacer?",
+"opciones": [
+"Acelerar para cruzar antes del rojo.",
+"Detenerse, salvo que al encenderse esté tan cerca que no pueda parar con seguridad.",
+"Continuar siempre, el amarillo no obliga a nada."
+],
+"correcta_idx": 1,
+"explicacion": "El amarillo fijo obliga a detenerse en las mismas condiciones que el rojo, salvo que el vehículo, al encenderse, esté tan cerca de la línea de detención que no pueda pararse con seguridad. Nunca autoriza a acelerar.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 15,
+"enunciado": "Un camión con MMA superior a 3.500 kg circula por una carretera convencional. ¿Cuál es su velocidad máxima genérica?",
+"opciones": [
+"90 km/h.",
+"80 km/h.",
+"70 km/h."
+],
+"correcta_idx": 1,
+"explicacion": "Para camiones y vehículos de más de 3.500 kg de MMA, el límite genérico en carretera convencional es 80 km/h (y 90 en autopista/autovía). La trampa es aplicar el 90 de los turismos.",
+"tema_id": 4,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 16,
+"enunciado": "¿Cuántos puntos tiene inicialmente el permiso de un conductor novel (menos de 3 años de antigüedad)?",
+"opciones": [
+"12 puntos.",
+"8 puntos.",
+"15 puntos."
+],
+"correcta_idx": 1,
+"explicacion": "El conductor novel parte de 8 puntos; a los 3 años sin perder puntos pasa a tener 12. Quien recupera el permiso tras perderlo todo también parte de 8. La trampa es responder 12 por defecto.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 17,
+"enunciado": "Va a adelantar a un ciclista en una carretera convencional. ¿Cuál de estas afirmaciones es correcta?",
+"opciones": [
+"Debe dejar al menos 1,5 m de separación lateral y puede ocupar parte del carril contrario aunque haya línea continua, si es seguro.",
+"Basta con dejar 1 m si va despacio.",
+"No puede invadir nunca el carril contrario para adelantarle."
+],
+"correcta_idx": 0,
+"explicacion": "Al adelantar a ciclistas hay que dejar como mínimo 1,5 m de separación lateral, y se permite rebasar la línea longitudinal continua ocupando parte del sentido contrario cuando sea necesario y seguro para respetar esa distancia.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 18,
+"enunciado": "En un cruce sin señales ni semáforos, dos vehículos llegan a la vez. Uno va a seguir de frente y el otro, que viene por su izquierda, va a girar. ¿Quién tiene preferencia?",
+"opciones": [
+"El que viene por la izquierda, porque va a girar.",
+"El que aparece por la derecha de cada conductor.",
+"Siempre el que va de frente."
+],
+"correcta_idx": 1,
+"explicacion": "En una intersección sin señalizar rige la norma general: cede el paso quien tiene a otro vehículo aproximándose por su derecha. La maniobra que vaya a hacer cada uno no altera esa preferencia por la derecha.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 19,
+"enunciado": "Circula con niebla densa de día. ¿Qué luces NO debe utilizar?",
+"opciones": [
+"La luz de cruce (corta).",
+"La luz de carretera (larga), porque la niebla la refleja y deslumbra.",
+"La luz antiniebla trasera si la visibilidad es muy reducida."
+],
+"correcta_idx": 1,
+"explicacion": "Con niebla no debe usarse la luz de carretera (larga): la niebla refleja su luz y produce un efecto pantalla que deslumbra al propio conductor. Se usa la de cruce y, si procede, las antiniebla.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 20,
+"enunciado": "Una señal triangular con borde rojo y un dibujo en su interior indica, con carácter general:",
+"opciones": [
+"Una prohibición.",
+"Un peligro o advertencia.",
+"Una obligación."
+],
+"correcta_idx": 1,
+"explicacion": "Las señales triangulares con borde rojo son de advertencia de peligro. Las de prohibición y restricción son circulares con borde rojo, y las de obligación circulares azules. Confundir el triángulo con prohibición es la trampa.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 21,
+"enunciado": "¿Cuándo puede detenerse o estacionar en el carril destinado a bicicletas (carril bici)?",
+"opciones": [
+"Para una parada breve de carga y descarga.",
+"Nunca; parar o estacionar en un carril bici está prohibido.",
+"Solo si deja las luces de emergencia puestas."
+],
+"correcta_idx": 1,
+"explicacion": "Está prohibido parar y estacionar en los carriles o partes de la vía reservados a ciclos y bicicletas. Ni las luces de emergencia ni una parada 'breve' lo autorizan.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 22,
+"enunciado": "Detecta que el testigo (luz) de presión de aceite se enciende en rojo mientras conduce. Lo correcto es:",
+"opciones": [
+"Seguir hasta el taller más próximo aunque esté a 50 km.",
+"Detener el vehículo cuanto antes de forma segura y parar el motor.",
+"Acelerar para que suba la presión."
+],
+"correcta_idx": 1,
+"explicacion": "El testigo rojo de presión de aceite avisa de un fallo grave de lubricación: hay que detenerse en un lugar seguro lo antes posible y apagar el motor para evitar que se gripe. Seguir circulando puede destruirlo.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 23,
+"enunciado": "Un vehículo prioritario en servicio de urgencia se aproxima con las señales luminosas y acústicas conectadas. Usted está detenido en un semáforo en rojo y él necesita pasar. ¿Qué debe hacer?",
+"opciones": [
+"No moverse bajo ningún concepto, el rojo se lo impide.",
+"Facilitarle el paso, pudiendo incluso rebasar la línea de detención si es imprescindible y seguro para dejarle sitio.",
+"Salir a toda velocidad para no estorbar."
+],
+"correcta_idx": 1,
+"explicacion": "Debe facilitar el paso a los vehículos prioritarios. Si es imprescindible para dejarles sitio, puede desplazarse con precaución rebasando la línea, extremando la seguridad. No se trata de arrancar a toda velocidad ni de quedarse bloqueando el paso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 24,
+"enunciado": "En una vía de doble sentido con una línea longitudinal continua junto a su carril, ¿qué le está permitido?",
+"opciones": [
+"Rebasarla para adelantar si no viene nadie de frente.",
+"No rebasarla ni circular sobre ella; solo puede cruzarla para acceder a una propiedad o cambiar de sentido donde esté permitido y con seguridad.",
+"Cambiar de carril libremente."
+],
+"correcta_idx": 1,
+"explicacion": "La línea continua no debe ser rebasada ni pisada. La excepción es cruzarla, cuando sea seguro, para entrar o salir a una vía, propiedad o zona colindante situada al otro lado, no para adelantar.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 25,
+"enunciado": "Un ciclomotor y un turismo llegan a la vez a una intersección regulada por la norma general (prioridad por la derecha), correspondiendo la preferencia al ciclomotor. ¿Qué es correcto?",
+"opciones": [
+"El turismo tiene prioridad por ser un vehículo de mayor tamaño y velocidad.",
+"El ciclomotor conserva su preferencia; el tamaño del vehículo no altera las normas de prioridad.",
+"Ninguno tiene prioridad; pasa el más rápido."
+],
+"correcta_idx": 1,
+"explicacion": "Las normas de prioridad no dependen del tamaño ni de la potencia del vehículo. Si por la regla de la derecha la preferencia es del ciclomotor, el turismo debe cederle el paso.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 26,
+"enunciado": "Acaba de tomar un jarabe que, según el prospecto, puede producir somnolencia. ¿Qué debe tener en cuenta antes de conducir?",
+"opciones": [
+"Nada, solo importan el alcohol y las drogas.",
+"Que ciertos medicamentos afectan a la capacidad de conducir y debe seguir el consejo del médico o farmacéutico.",
+"Que puede conducir con normalidad si no ha bebido."
+],
+"correcta_idx": 1,
+"explicacion": "Muchos fármacos (para la alergia, ansiedad, tos, etc.) reducen la atención o provocan somnolencia. Hay que atender a las advertencias del prospecto y al consejo sanitario; no solo cuentan el alcohol y las drogas.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 27,
+"enunciado": "Va a girar a la izquierda en una intersección para entrar en otra vía. Con carácter general, ¿desde dónde debe iniciar el giro?",
+"opciones": [
+"Ciñéndose lo más a la derecha posible.",
+"Situándose con antelación lo más cerca posible del centro/eje de la calzada (o del carril izquierdo si los hay varios).",
+"Por el carril que quede libre en ese momento."
+],
+"correcta_idx": 1,
+"explicacion": "Para girar a la izquierda hay que colocarse con la debida antelación lo más próximo posible al eje de la calzada (o al carril izquierdo en vías de varios carriles), sin invadir el sentido contrario. Ceñirse a la derecha es para girar a la derecha.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 28,
+"enunciado": "¿Qué documento acredita que un vehículo ha superado favorablemente la inspección técnica y hasta cuándo es válido circular?",
+"opciones": [
+"El permiso de circulación; no caduca.",
+"La tarjeta de ITV con el distintivo/certificado; es válido hasta la fecha de la próxima inspección.",
+"La ficha técnica reducida; vale de por vida."
+],
+"correcta_idx": 1,
+"explicacion": "La inspección favorable se acredita con el certificado/tarjeta de ITV y el distintivo, válidos hasta la fecha de la siguiente inspección. El permiso de circulación acredita la titularidad y matriculación, no la ITV.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 29,
+"enunciado": "Circula por una autovía y ve la señal de 'velocidad máxima 100'. Más adelante no hay ninguna señal que la anule ni cruces. ¿Hasta cuándo rige ese límite de 100?",
+"opciones": [
+"Solo durante los primeros 100 metros.",
+"Hasta que otra señal indique otra cosa o cambien las características de la vía.",
+"Solo hasta la siguiente curva."
+],
+"correcta_idx": 1,
+"explicacion": "Una señal de velocidad máxima mantiene su efecto hasta que otra señal la modifique o anule, o cambien las circunstancias de la vía. No caduca a los pocos metros ni en la siguiente curva.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 30,
+"enunciado": "En caso de accidente con heridos, usted es el primero en llegar. Según el protocolo PAS, el orden de actuación es:",
+"opciones": [
+"Socorrer, avisar y luego proteger.",
+"Proteger el lugar, avisar a los servicios de emergencia y socorrer a las víctimas.",
+"Avisar, socorrer y por último proteger."
+],
+"correcta_idx": 1,
+"explicacion": "PAS = Proteger, Avisar, Socorrer. Primero se protege el lugar (para evitar más accidentes), después se avisa al 112, y por último se socorre a los heridos sin moverlos salvo peligro.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 31,
+"enunciado": "Va a incorporarse a la circulación desde un estacionamiento a la derecha de la calzada. ¿Qué es cierto?",
+"opciones": [
+"Los vehículos que ya circulan deben frenar para dejarle salir.",
+"Debe ceder el paso a los que ya circulan y señalizar la maniobra, incorporándose sin obligarles a frenar bruscamente.",
+"Tiene prioridad por venir de la derecha."
+],
+"correcta_idx": 1,
+"explicacion": "Quien se incorpora a la circulación desde un estacionamiento, camino o inmueble carece de preferencia: debe ceder el paso a los que ya circulan y señalizar. La 'prioridad por la derecha' no se aplica a las incorporaciones.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 32,
+"enunciado": "El limpiaparabrisas deja de funcionar bajo una lluvia intensa que le impide ver. ¿Cómo debe actuar?",
+"opciones": [
+"Seguir despacio con las luces de emergencia hasta llegar a destino.",
+"Abandonar la calzada en cuanto sea posible con seguridad y detenerse hasta poder repararlo o cesar la lluvia.",
+"Sacar la cabeza por la ventanilla para ver."
+],
+"correcta_idx": 1,
+"explicacion": "Sin visibilidad no se puede circular con seguridad. Lo correcto es salir de la calzada y detenerse en lugar seguro, señalizándolo, hasta poder reparar el limpiaparabrisas o hasta que amaine la lluvia.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 33,
+"enunciado": "En una calzada con tres carriles para su sentido, ¿por cuál debe circular normalmente un turismo que no está adelantando?",
+"opciones": [
+"Por el central, para tener margen a ambos lados.",
+"Por el situado más a la derecha; los demás se reservan para adelantar o cuando el derecho está ocupado.",
+"Por el que prefiera, no está regulado."
+],
+"correcta_idx": 1,
+"explicacion": "La norma general es circular por el carril de la derecha, utilizando los de la izquierda solo para adelantar o cuando el de la derecha esté ocupado. Ocupar el central o izquierdo sin motivo es incorrecto.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 34,
+"enunciado": "Transporta a un adulto y varios niños. Un menor de 135 cm, ¿puede viajar en el asiento delantero?",
+"opciones": [
+"Sí, siempre, si va con su sistema de retención.",
+"Solo excepcionalmente (p. ej. no hay plazas traseras, están ya ocupadas por otros menores o el vehículo carece de asientos traseros), y con su sistema de retención adecuado.",
+"No, en ningún caso."
+],
+"correcta_idx": 1,
+"explicacion": "Por regla general los menores de 135 cm viajan detrás con su sistema de retención. Solo excepcionalmente pueden ir delante: sin plazas traseras, con esas plazas ya ocupadas por otros menores o si el coche no tiene asientos traseros, siempre con SRI adecuado.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 35,
+"enunciado": "Circula por una carretera convencional y encuentra la señal P-1 (dos flechas: intersección con prioridad). ¿Qué le indica?",
+"opciones": [
+"Que debe detenerse obligatoriamente.",
+"Que se aproxima a una intersección donde usted tiene la prioridad, pero debe extremar la precaución.",
+"Que tiene prohibido el paso."
+],
+"correcta_idx": 1,
+"explicacion": "Es una señal de advertencia de peligro que anuncia una intersección en la que se tiene preferencia. No exime de la precaución: hay que vigilar a quien pudiera no respetar el ceda o el stop.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 36,
+"enunciado": "¿Qué efecto tiene el alcohol sobre la conducción incluso en tasas bajas?",
+"opciones": [
+"Mejora los reflejos y la concentración.",
+"Aumenta el tiempo de reacción y crea una falsa sensación de seguridad.",
+"No tiene ningún efecto por debajo de la tasa legal."
+],
+"correcta_idx": 1,
+"explicacion": "El alcohol, aun por debajo de la tasa sancionable, alarga el tiempo de reacción, reduce el campo visual y provoca euforia y falsa sensación de control. Nunca mejora la conducción.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 37,
+"enunciado": "Se dispone a arrancar en cuesta ascendente con el coche estacionado. Para no dañar la transmisión y arrancar con seguridad, lo indicado con un cambio manual es:",
+"opciones": [
+"Quitar el freno de mano antes de dar gas y controlar el embrague.",
+"Soltar el freno de mano progresivamente a la vez que da gas y suelta el embrague hasta el punto de arrastre.",
+"Arrancar en segunda con el freno de mano puesto del todo."
+],
+"correcta_idx": 1,
+"explicacion": "En pendiente ascendente se coordina el embrague (hasta el punto de arrastre) con el acelerador y se suelta el freno de mano de forma progresiva, evitando que el coche recule. Quitarlo antes de tiempo hace que ruede hacia atrás.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 38,
+"enunciado": "Una línea longitudinal discontinua en el centro de la calzada le permite:",
+"opciones": [
+"Rebasarla para adelantar o cambiar de sentido cuando sea seguro y no lo prohíba otra norma.",
+"Nada, tiene el mismo valor que la continua.",
+"Estacionar sobre ella."
+],
+"correcta_idx": 0,
+"explicacion": "La línea discontinua puede rebasarse cuando la maniobra (adelantar, cambiar de sentido, girar) sea segura y no esté prohibida por otra señal. No equivale a la continua ni sirve para estacionar sobre ella.",
+"tema_id": 5,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 39,
+"enunciado": "Va a remolcar con su turismo un pequeño remolque cuya masa hace que el conjunto supere lo que autoriza el permiso B ordinario. ¿Qué necesita?",
+"opciones": [
+"Nada, el permiso B permite arrastrar cualquier remolque.",
+"El permiso B con el código 96 o el permiso BE, según la masa del conjunto.",
+"El permiso C."
+],
+"correcta_idx": 1,
+"explicacion": "El B permite remolques ligeros (hasta 750 kg) y conjuntos hasta 3.500 kg. Para masas superiores se necesita la ampliación B-96 o el permiso BE. El C es para camiones, no para este caso.",
+"tema_id": 2,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 40,
+"enunciado": "En una rotonda de dos carriles quiere tomar la tercera salida (la que queda casi enfrente). Lo más correcto es:",
+"opciones": [
+"Entrar por el carril exterior (derecho) y quedarse en él dando toda la vuelta.",
+"Entrar y circular por el carril interior si es preciso, y señalizar a la derecha para salir situándose a tiempo en el exterior.",
+"Entrar por el izquierdo y salir cruzando el exterior sin señalizar."
+],
+"correcta_idx": 1,
+"explicacion": "Para salidas alejadas suele usarse el carril interior, indicando y desplazándose con antelación al exterior para salir, señalizando a la derecha. Hay que salir con seguridad y sin cortar la trayectoria de otros; salir sin señalizar es incorrecto.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 41,
+"enunciado": "El testigo (luz) del sistema de frenos ABS permanece encendido tras arrancar. ¿Qué significa?",
+"opciones": [
+"Que el coche se ha quedado sin frenos y no puede circular.",
+"Que el sistema ABS puede no estar operativo; el freno normal sigue funcionando, pero conviene revisarlo.",
+"Que hay que echar líquido de frenos inmediatamente en marcha."
+],
+"correcta_idx": 1,
+"explicacion": "El testigo de ABS encendido indica un posible fallo del antibloqueo. El frenado convencional sigue actuando, pero sin la asistencia del ABS, por lo que hay que conducir con más cautela y revisar el sistema pronto.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 4,
+"origen": "ia_generada"
+},
+{
+"id": 42,
 "enunciado": "Los dos primeros años con permiso, ¿cuál es la tasa máxima de alcohol?",
 "opciones": [
 "0,10 mg/l en aire espirado = 0,2 g/l en sangre.",
@@ -21,7 +636,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 2,
+"id": 43,
 "enunciado": "La línea de borde de la calzada, ¿se puede atravesar?",
 "opciones": [
 "Sí, cuando sea necesario y las circunstancias lo permitan.",
@@ -42,7 +657,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 3,
+"id": 44,
 "enunciado": "Si conduce una motocicleta y la calzada está mojada, ¿es necesario incrementar la presión de inflado de los neumáticos por encima de la recomendada por el fabricante?",
 "opciones": [
 "No, ya que una mayor presión de inflado no contribuye a aumentar la seguridad de circulación.",
@@ -63,7 +678,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 4,
+"id": 45,
 "enunciado": "Al inmovilizar un vehículo en una autopista es obligatorio señalizar la presencia del mismo...",
 "opciones": [
 "Con la luz de posición, siempre.",
@@ -84,7 +699,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 5,
+"id": 46,
 "enunciado": "En un tramo de vía con un carril de aceleración, ¿se considera adelantamiento que un vehículo avance más rápidamente que otro que lo hace por el carril normal?",
 "opciones": [
 "No.",
@@ -105,7 +720,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 6,
+"id": 47,
 "enunciado": "Durante el día, con niebla densa o lluvia intensa, ¿se puede circular con la luz de largo alcance encendida?",
 "opciones": [
 "No, sólo puede encenderse la luz de corto alcance.",
@@ -126,7 +741,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 7,
+"id": 48,
 "enunciado": "En los vehículos de anchura inferior a un metro, la carga no debe sobresalir por la parte posterior más de...",
 "opciones": [
 "0,40 metros.",
@@ -147,7 +762,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 8,
+"id": 49,
 "enunciado": "Esta señal vertical, ¿qué significa?",
 "opciones": [
 "Zona de estacionamiento limitado.",
@@ -168,7 +783,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 9,
+"id": 50,
 "enunciado": "El funcionamiento del airbag, ¿puede llegar a ser peligroso en un accidente?",
 "opciones": [
 "Sí, si no se lleva puesto el cinturón de seguridad.",
@@ -189,7 +804,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 10,
+"id": 51,
 "enunciado": "Al estacionar en una pendiente descendente, ¿qué precauciones debe adoptar?",
 "opciones": [
 "Dejar colocada la primera marcha.",
@@ -210,7 +825,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 11,
+"id": 52,
 "enunciado": "Conducir con mal tiempo, ¿puede favorecer la fatiga?",
 "opciones": [
 "Sí, por ello se debe descansar con mayor frecuencia.",
@@ -231,7 +846,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 12,
+"id": 53,
 "enunciado": "La amortiguación, ¿contribuye a prevenir los accidentes?",
 "opciones": [
 "No, en ningún caso.",
@@ -252,7 +867,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 13,
+"id": 54,
 "enunciado": "A mayor velocidad aumenta...",
 "opciones": [
 "La eficacia de los elementos de seguridad del vehículo.",
@@ -273,7 +888,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 14,
+"id": 55,
 "enunciado": "Fuera de poblado, los peatones deberán circular siempre por su derecha cuando...",
 "opciones": [
 "La vía sea de sentido único, solamente.",
@@ -294,7 +909,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 15,
+"id": 56,
 "enunciado": "Los cinturones de seguridad, ¿son eficaces para prevenir lesiones?",
 "opciones": [
 "Sí.",
@@ -315,7 +930,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 16,
+"id": 57,
 "enunciado": "Si vende su vehículo, ¿debe comunicarlo a la Jefatura de Tráfico?",
 "opciones": [
 "No. El nuevo titular es el que tiene que comunicar la compra.",
@@ -336,7 +951,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 17,
+"id": 58,
 "enunciado": "Los ocupantes del vehículo van a bajarse, ¿por qué lado deben hacerlo?",
 "opciones": [
 "Por el lado más próximo al borde de la vía, como norma general.",
@@ -357,7 +972,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 18,
+"id": 59,
 "enunciado": "El agente balancea una luz roja o amarilla, ¿a qué obliga?",
 "opciones": [
 "A disminuir la velocidad.",
@@ -378,7 +993,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 19,
+"id": 60,
 "enunciado": "Al aproximarnos a un autobús con esta señal en su parte posterior y que se encuentra parado recogiendo pasajeros, se deberá...",
 "opciones": [
 "Reducir la velocidad y si fuera preciso detener el vehículo.",
@@ -399,7 +1014,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 20,
+"id": 61,
 "enunciado": "Un cambio de rasante es:",
 "opciones": [
 "Un tramo de vía donde hay un cambio de dirección.",
@@ -420,7 +1035,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 21,
+"id": 62,
 "enunciado": "Esta señal indica que empieza...",
 "opciones": [
 "Una autovía.",
@@ -441,7 +1056,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 22,
+"id": 63,
 "enunciado": "A la vista de esta señal, ¿puede pasar conduciendo un ciclomotor?",
 "opciones": [
 "Sí, porque no es un vehículo a motor.",
@@ -462,7 +1077,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 23,
+"id": 64,
 "enunciado": "En una intersección regulada por esta señal, ¿a quién debe ceder el paso?",
 "opciones": [
 "A ningún vehículo, porque esta señal me indica que circulo por la vía con prioridad.",
@@ -483,7 +1098,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 24,
+"id": 65,
 "enunciado": "Si presencia un accidente con víctimas y no ha llegado ayuda, ¿debe detenerse para prestar auxilio?",
 "opciones": [
 "No, puesto que puedo provocar otro accidente.",
@@ -504,7 +1119,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 25,
+"id": 66,
 "enunciado": "Circula con su turismo por una carretera en la que aparece esta señal de restricción con un panel de color amarillo que nos indica que no se permite circular a....",
 "opciones": [
 "Camiones de M.M.A menor de 3.500 kg ni conjuntos de vehículos.",
@@ -525,7 +1140,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 26,
+"id": 67,
 "enunciado": "Después de adelantar al turismo y al camión el turismo verde desea seguir adelantando a otros vehículos. ¿Debe regresar antes al carril derecho?",
 "opciones": [
 "Sí, siempre.",
@@ -546,7 +1161,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 27,
+"id": 68,
 "enunciado": "Cuando la goma de un neumático se endurece por envejecimiento, ¿es peligroso?",
 "opciones": [
 "Sí, porque el vehículo puede derrapar por falta de agarre.",
@@ -567,7 +1182,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 28,
+"id": 69,
 "enunciado": "En el arcén de esta vía, ¿puede inmovilizar su vehículo para ver el paisaje?",
 "opciones": [
 "Sí, porque el arcén es ancho.",
@@ -588,7 +1203,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 29,
+"id": 70,
 "enunciado": "La marca vial amarilla continua, ¿qué indica?",
 "opciones": [
 "Prohíbe estacionar solamente.",
@@ -609,7 +1224,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 30,
+"id": 71,
 "enunciado": "Es de noche y necesita inmovilizar su vehículo en el arcén de una carretera por avería. ¿Qué luces debe encender?",
 "opciones": [
 "Sólo las luces de posición.",
@@ -630,7 +1245,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 31,
+"id": 72,
 "enunciado": "¿Cuándo está bien colocado en el asiento para conducir?",
 "opciones": [
 "Cuando llevo las piernas un poco dobladas y el cuerpo recto.",
@@ -651,7 +1266,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 32,
+"id": 73,
 "enunciado": "Una furgoneta de uso privado dedicada al transporte de personas, con capacidad para nueve plazas, incluido el conductor, ¿cuándo debe pasar la primera ITV?",
 "opciones": [
 "A los tres años de antigüedad.",
@@ -672,7 +1287,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 33,
+"id": 74,
 "enunciado": "El tiempo desde que ve un peligro hasta que actúa, ¿cómo se llama?",
 "opciones": [
 "Tiempo de frenado.",
@@ -693,7 +1308,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 34,
+"id": 75,
 "enunciado": "El factor de riesgo que influye en la mayor parte de los accidentes, ¿cuál es?",
 "opciones": [
 "El factor vía y entorno.",
@@ -714,7 +1329,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 35,
+"id": 76,
 "enunciado": "Llevar encendido el teléfono móvil en el vehículo, ¿puede resultar peligroso?",
 "opciones": [
 "No, si no se va a utilizar.",
@@ -735,7 +1350,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 36,
+"id": 77,
 "enunciado": "Existe un mayor riesgo de somnolencia en vías con...",
 "opciones": [
 "muchas curvas.",
@@ -756,7 +1371,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 37,
+"id": 78,
 "enunciado": "Si un vehículo tiene el intermitente derecho encendido, pero su conductor señaliza con el brazo que va a girar a la izquierda, ¿qué señal prevalece?",
 "opciones": [
 "Depende de la circulación.",
@@ -777,7 +1392,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 38,
+"id": 79,
 "enunciado": "¿Es aconsejable que los conductores de motocicletas lleven guantes?",
 "opciones": [
 "No.",
@@ -798,7 +1413,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 39,
+"id": 80,
 "enunciado": "¿Puede circular un turismo que expulsa por el tubo de escape más humo de lo permitido?",
 "opciones": [
 "Sí, mientras no sean gases nocivos.",
@@ -819,7 +1434,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 40,
+"id": 81,
 "enunciado": "En vías interurbanas, los ciclos y ciclomotores de dos ruedas, ¿dónde deben situarse para girar a la izquierda?",
 "opciones": [
 "En el carril izquierdo.",
@@ -840,7 +1455,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 41,
+"id": 82,
 "enunciado": "Mantener la distancia de seguridad adecuada, sobre todo en ciudad, ¿es una recomendación válida para evitar accidentes con las motocicletas?",
 "opciones": [
 "Sí, porque se pueden evitar alcances.",
@@ -861,7 +1476,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 42,
+"id": 83,
 "enunciado": "El conductor que consume cocaína...",
 "opciones": [
 "puede volverse más competitivo y agresivo.",
@@ -882,7 +1497,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 43,
+"id": 84,
 "enunciado": "Cuando llueve o hay viento, ¿por qué hay que tener más precaución con los ciclistas?",
 "opciones": [
 "Porque tienen más probabilidad de caerse.",
@@ -903,7 +1518,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 44,
+"id": 85,
 "enunciado": "¿Es correcto el uso frecuente del freno de mano cuando se conduce?",
 "opciones": [
 "Sí, se debe utilizar en curvas cerradas.",
@@ -924,7 +1539,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 45,
+"id": 86,
 "enunciado": "El alumbrado de gálibo es obligatorio para...",
 "opciones": [
 "Los vehículos que transporten mercancías peligrosas.",
@@ -945,7 +1560,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 46,
+"id": 87,
 "enunciado": "Con el permiso de la clase B, ¿qué otros vehículos se pueden conducir, además de turismos?",
 "opciones": [
 "Todos los vehículos que se pueden conducir con el permiso A.",
@@ -966,7 +1581,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 47,
+"id": 88,
 "enunciado": "Para aumentar la fluidez del tráfico, se ha abierto un carril para circular en sentido contrario al habitual, ¿qué vehículos pueden circular por este carril?",
 "opciones": [
 "Todos los autorizados a circular por la vía.",
@@ -987,7 +1602,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 48,
+"id": 89,
 "enunciado": "Una fila de escolares está cruzando la calzada. ¿Debe cederles el paso?",
 "opciones": [
 "Solamente en los pasos para peatones.",
@@ -1008,7 +1623,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 49,
+"id": 90,
 "enunciado": "Un semáforo con una flecha negra sobre una luz roja fija...",
 "opciones": [
 "Prohíbe circular por donde indica la flecha.",
@@ -1029,7 +1644,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 50,
+"id": 91,
 "enunciado": "En esta autovía hay mucha niebla. ¿Se puede circular a menos de 60 km/h?",
 "opciones": [
 "No, porque es una vía para circulación rápida.",
@@ -1050,7 +1665,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 51,
+"id": 92,
 "enunciado": "El alcohol, la fatiga y la velocidad excesiva, ¿de qué factor de riesgo forman parte?",
 "opciones": [
 "Del factor vehículo.",
@@ -1071,7 +1686,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 52,
+"id": 93,
 "enunciado": "¿Cuántas placas de matrícula llevan las motocicletas?",
 "opciones": [
 "Una sola placa en la parte posterior, en posición vertical.",
@@ -1092,7 +1707,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 53,
+"id": 94,
 "enunciado": "¿Qué indica la línea longitudinal amarilla?",
 "opciones": [
 "Que se puede parar pero no estacionar.",
@@ -1113,7 +1728,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 54,
+"id": 95,
 "enunciado": "Los limpiaparabrisas deben mantenerse en buen estado para circular con seguridad. Para ello se debe...",
 "opciones": [
 "Comprobar que el depósito que contiene el líquido limpiaparabrisas esté siempre al máximo nivel.",
@@ -1134,7 +1749,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 55,
+"id": 96,
 "enunciado": "En condiciones meteorológicas o ambientales desfavorables, ¿cómo debe ser la separación con los vehículos que circulan delante?",
 "opciones": [
 "Igual que cuando son favorables.",
@@ -1155,7 +1770,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 56,
+"id": 97,
 "enunciado": "¿Quiénes están obligados a someterse a las pruebas de alcoholemia?",
 "opciones": [
 "Todos los conductores de vehículos y cualquier usuario implicado directamente como posible responsable en un accidente de circulación.",
@@ -1176,7 +1791,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 57,
+"id": 98,
 "enunciado": "Un vehículo especial de reparación o conservación de vías, al entrar en una autopista, debe utilizar la luz de señalización V-2...",
 "opciones": [
 "Sólo cuando llegue al lugar de trabajo.",
@@ -1197,7 +1812,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 58,
+"id": 99,
 "enunciado": "A partir de esta señal, circular como mínimo a 30 kilómetros por hora...",
 "opciones": [
 "Es recomendable.",
@@ -1218,7 +1833,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 59,
+"id": 100,
 "enunciado": "Cuando las cintas no quedan bien estiradas, el cinturón de seguridad...",
 "opciones": [
 "pierde eficacia y puede provocar lesiones durante el accidente.",
@@ -1239,7 +1854,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 60,
+"id": 101,
 "enunciado": "¿Qué indica la señal?",
 "opciones": [
 "Que el carril derecho sólo puede ser utilizado por ciclos.",
@@ -1260,7 +1875,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 61,
+"id": 102,
 "enunciado": "En caso de lluvia intensa, ¿es recomendable aumentar la distancia de seguridad y reducir la velocidad?",
 "opciones": [
 "Sí; mejora el agarre de los neumáticos, pero no es recomendable reducir la velocidad.",
@@ -1281,7 +1896,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 62,
+"id": 103,
 "enunciado": "Es obligatorio finalizar un adelantamiento...",
 "opciones": [
 "Incorporándose al carril derecho a la mayor velocidad posible.",
@@ -1302,7 +1917,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 63,
+"id": 104,
 "enunciado": "¿Qué relación existe entre la velocidad y el campo de visión del conductor?",
 "opciones": [
 "A mayor velocidad, menor campo visual.",
@@ -1323,7 +1938,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 64,
+"id": 105,
 "enunciado": "En una autopista o autovía, ¿se puede utilizar la mediana en algún caso?",
 "opciones": [
 "No, nunca.",
@@ -1344,7 +1959,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 65,
+"id": 106,
 "enunciado": "Un agente, con toques de silbato cortos y frecuentes, ordena...",
 "opciones": [
 "Que se reanude la marcha.",
@@ -1365,7 +1980,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 66,
+"id": 107,
 "enunciado": "¿Qué efectos puede producir un resfriado en la conducción?",
 "opciones": [
 "Desorientación.",
@@ -1386,7 +2001,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 67,
+"id": 108,
 "enunciado": "Cuando tenga que bajar del vehículo para descargar el equipaje, ¿debe apagar el motor?",
 "opciones": [
 "No, no es necesario si se trata de una parada breve.",
@@ -1407,7 +2022,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 68,
+"id": 109,
 "enunciado": "¿Qué factor se relaciona con los accidentes juveniles?",
 "opciones": [
 "La falta de reflejos.",
@@ -1428,7 +2043,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 69,
+"id": 110,
 "enunciado": "Cuando para realizar un cambio de sentido obstaculiza la marcha de los vehículos que circulan detrás, deberá...",
 "opciones": [
 "Hacer señales con la luz de freno para advertir su maniobra.",
@@ -1449,7 +2064,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 70,
+"id": 111,
 "enunciado": "¿Es obligatorio apagar el motor cuando está cargando combustible?",
 "opciones": [
 "No.",
@@ -1470,7 +2085,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 71,
+"id": 112,
 "enunciado": "Un traje adecuado para conducir una motocicleta, debe...",
 "opciones": [
 "Estar muy ajustado al cuerpo para mejorar la estética.",
@@ -1491,7 +2106,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 72,
+"id": 113,
 "enunciado": "Fumar al volante...",
 "opciones": [
 "Es una conducta que puede interferir en la conducción y provocar un accidente.",
@@ -1512,7 +2127,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 73,
+"id": 114,
 "enunciado": "Fuera de poblado, como norma general , ¿por qué lado de la vía deberán circular los peatones?",
 "opciones": [
 "Por la derecha en casos de poca visibilidad.",
@@ -1533,7 +2148,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 74,
+"id": 115,
 "enunciado": "Hay una nube de humo. ¿Debe utilizarse algún tipo de alumbrado?",
 "opciones": [
 "Sólo si viene algún vehículo en sentido contrario.",
@@ -1554,7 +2169,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 75,
+"id": 116,
 "enunciado": "Esta señal indica peligro por...",
 "opciones": [
 "Pavimento deslizante por nieve.",
@@ -1575,7 +2190,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 76,
+"id": 117,
 "enunciado": "¿Qué indican los conos en la calzada?",
 "opciones": [
 "Refuerzan el significado de las líneas discontinuas del carril.",
@@ -1596,7 +2211,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 77,
+"id": 118,
 "enunciado": "En los cambios de carril en un mismo sentido, ¿quién tiene prioridad?",
 "opciones": [
 "El vehículo que circula por el carril que se pretende ocupar.",
@@ -1617,7 +2232,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 78,
+"id": 119,
 "enunciado": "En esta situación de aglomeración, ¿podrá circular por el arcén?",
 "opciones": [
 "No, está prohibido.",
@@ -1638,7 +2253,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 79,
+"id": 120,
 "enunciado": "Antes de iniciar un adelantamiento, ¿qué debe comprobar?",
 "opciones": [
 "Que los vehículos que circulan por el mismo carril no llevan encendidos los intermitentes.",
@@ -1659,7 +2274,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 80,
+"id": 121,
 "enunciado": "El conductor indica con el brazo que va a girar a la izquierda y lleva encendido el intermitente derecho; ¿qué señal tiene validez?",
 "opciones": [
 "Ninguna.",
@@ -1680,7 +2295,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 81,
+"id": 122,
 "enunciado": "En doble fila, ¿qué está prohibido?",
 "opciones": [
 "Parar.",
@@ -1701,7 +2316,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 82,
+"id": 123,
 "enunciado": "El semáforo de la fotografía está estropeado. ¿A quién debe ceder el paso en la intersección?",
 "opciones": [
 "A los vehículos que entran por la derecha.",
@@ -1722,7 +2337,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 83,
+"id": 124,
 "enunciado": "Este vehículo está averiado y circula a velocidad anormalmente reducida con la luz de emergencia encendida; ¿es correcto su comportamiento?",
 "opciones": [
 "Sí, porque el vehículo está averiado.",
@@ -1743,7 +2358,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 84,
+"id": 125,
 "enunciado": "Por seguridad, ¿cuál es la forma más aconsejable de bajar un puerto de montaña cuando en la calzada existan placas de hielo?",
 "opciones": [
 "Con la marcha más corta que se pueda para evitar deslizamientos",
@@ -1764,7 +2379,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 85,
+"id": 126,
 "enunciado": "La velocidad máxima genérica para una motocicleta en una carretera convencional con arcén pavimentado de más de 1,50 metros de ancho es de...",
 "opciones": [
 "90 kilómetros por hora.",
@@ -1785,7 +2400,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 86,
+"id": 127,
 "enunciado": "Al conducir bajo condiciones climatológicas adversas...",
 "opciones": [
 "Es necesario descansar con más frecuencia.",
@@ -1806,7 +2421,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 87,
+"id": 128,
 "enunciado": "A la vista de la señal, ¿es obligatorio detenerse para dejar pasar a un vehículo que circula en sentido contrario?",
 "opciones": [
 "No, porque la señal otorga prioridad de paso.",
@@ -1827,7 +2442,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 88,
+"id": 129,
 "enunciado": "Esta señal indica el lugar a partir del cual...",
 "opciones": [
 "termina la obligación de circular, al menos, a 30 km/h.",
@@ -1848,7 +2463,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 89,
+"id": 130,
 "enunciado": "Al rebasar al autobús, ¿qué peligro debe preverse?",
 "opciones": [
 "Que puedan cruzar peatones ocultos por el propio autobús.",
@@ -1869,7 +2484,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 90,
+"id": 131,
 "enunciado": "La marca amarilla en zig-zag indica el lugar de la calzada...",
 "opciones": [
 "donde no se puede estacionar, pero sí se puede parar.",
@@ -1890,7 +2505,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 91,
+"id": 132,
 "enunciado": "Las señales de obras...",
 "opciones": [
 "establecen para los tramos de obras una reducción de la velocidad máxima en 10 km/h.",
@@ -1911,7 +2526,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 92,
+"id": 133,
 "enunciado": "El tiempo de reacción puede aumentar...",
 "opciones": [
 "después de una comida ligera.",
@@ -1932,7 +2547,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 93,
+"id": 134,
 "enunciado": "Fumar mientras se conduce...",
 "opciones": [
 "está prohibido.",
@@ -1953,7 +2568,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 94,
+"id": 135,
 "enunciado": "Conducir durante mucho tiempo sin descansar...",
 "opciones": [
 "mantiene al conductor más atento ante cualquier peligro.",
@@ -1974,7 +2589,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 95,
+"id": 136,
 "enunciado": "El reposacabezas, ¿cómo debe colocarse?",
 "opciones": [
 "A la altura de cuello.",
@@ -1995,7 +2610,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 96,
+"id": 137,
 "enunciado": "Hay hielo en la vía. ¿Qué debe hacer?",
 "opciones": [
 "Circular con el pie en el embrague.",
@@ -2016,7 +2631,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 97,
+"id": 138,
 "enunciado": "La varilla del aceite del motor, ¿para qué sirve?",
 "opciones": [
 "Para comprobar la temperatura del aceite.",
@@ -2037,7 +2652,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 98,
+"id": 139,
 "enunciado": "Debido a un pinchazo sustituye una de las ruedas de su vehículo por la de uso temporal. ¿Cuántos kilómetros podrá circular en esas condiciones?",
 "opciones": [
 "Tantos como sean necesarios siempre que dicha rueda no haya sido utilizada anteriormente.",
@@ -2058,7 +2673,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 99,
+"id": 140,
 "enunciado": "Para circular de noche por una travesía. ¿Qué luces son obligatorias?",
 "opciones": [
 "Las de posición y las cortas.",
@@ -2079,7 +2694,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 100,
+"id": 141,
 "enunciado": "¿A qué vehículos prohíbe pasar esta señal?",
 "opciones": [
 "A los vehículos que tienen más de 3,5 metros de anchura.",
@@ -2100,7 +2715,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 101,
+"id": 142,
 "enunciado": "Cuando termine el adelantamiento, el vehículo adelantado deberá...",
 "opciones": [
 "Circular igual que lo está haciendo, con la luz de largo alcance encendida.",
@@ -2121,7 +2736,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 102,
+"id": 143,
 "enunciado": "En esta vía, la velocidad mínima permitida a los turismos es de...",
 "opciones": [
 "90 km/h",
@@ -2142,7 +2757,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 103,
+"id": 144,
 "enunciado": "Esta señal indica peligro ante la proximidad...",
 "opciones": [
 "De un resalto o badén en el pavimento.",
@@ -2163,7 +2778,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 104,
+"id": 145,
 "enunciado": "En un turismo, la carga puede sobresalir por su parte posterior...",
 "opciones": [
 "Hasta un 5 por 100 de su longitud.",
@@ -2184,7 +2799,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 105,
+"id": 146,
 "enunciado": "¿Qué síntomas nos avisan de que estamos fatigados?",
 "opciones": [
 "La sensación de euforia.",
@@ -2205,7 +2820,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 106,
+"id": 147,
 "enunciado": "¿Cuándo es obligatorio utilizar la luz de emergencia?",
 "opciones": [
 "Cuando se inmovilice el vehículo en una autopista.",
@@ -2226,7 +2841,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 107,
+"id": 148,
 "enunciado": "Quiere adelantar a un ciclista que circula por el arcén; ¿qué distancia lateral debe dejar?",
 "opciones": [
 "Un metro, al menos.",
@@ -2247,7 +2862,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 108,
+"id": 149,
 "enunciado": "Hay poca visibilidad por niebla. ¿Qué debe hacer?",
 "opciones": [
 "Dejar más distancia de seguridad con el vehículo de delante.",
@@ -2268,7 +2883,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 109,
+"id": 150,
 "enunciado": "¿Qué indica la flecha?",
 "opciones": [
 "Que hay una curva a la derecha.",
@@ -2289,7 +2904,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 110,
+"id": 151,
 "enunciado": "Necesita hacer una parada en una calle estrecha; ¿puede ocupar parte de la acera con su vehículo?",
 "opciones": [
 "Sí.",
@@ -2310,7 +2925,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 111,
+"id": 152,
 "enunciado": "Uno de los pasajeros del turismo que Vd. conduce no lleva puesto el cinturón de seguridad. Si un agente de la autoridad denuncia la infracción, ¿quién es el responsable?",
 "opciones": [
 "El tomador del seguro.",
@@ -2331,7 +2946,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 112,
+"id": 153,
 "enunciado": "Los neumáticos, ¿cuándo hay que cambiarlos?",
 "opciones": [
 "Cuando la profundidad del dibujo sea menor de 1,6 mm.",
@@ -2352,7 +2967,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 113,
+"id": 154,
 "enunciado": "¿Qué es el tiempo de reacción?",
 "opciones": [
 "El tiempo que pasa desde que se empieza una maniobra hasta que se termina.",
@@ -2373,7 +2988,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 114,
+"id": 155,
 "enunciado": "El hielo, la nieve, la calzada mojada y las obras, ¿de qué factor de riesgo forman parte?",
 "opciones": [
 "Del factor humano.",
@@ -2394,7 +3009,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 115,
+"id": 156,
 "enunciado": "¿El estrés puede alterar las capacidades para conducir con seguridad?",
 "opciones": [
 "No, en ningún caso.",
@@ -2415,7 +3030,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 116,
+"id": 157,
 "enunciado": "La luz antiniebla trasera deberá utilizarse en caso de...",
 "opciones": [
 "Niebla espesa.",
@@ -2436,7 +3051,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 117,
+"id": 158,
 "enunciado": "¿A qué vehículos prohíbe el adelantamiento esta señal?",
 "opciones": [
 "A los camiones de más de 3.500 kg. de M.M.A.",
@@ -2457,7 +3072,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 118,
+"id": 159,
 "enunciado": "Si circula con un turismo en el que sobresale la carga por su parte trasera, ¿está obligado a colocar la señal de la imagen?",
 "opciones": [
 "No, porque un turismo no transporta exclusivamente mercancías.",
@@ -2478,7 +3093,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 119,
+"id": 160,
 "enunciado": "El conductor de un turismo utilizará un chaleco reflectante de alta visibilidad cuando salga del vehículo y ocupe...",
 "opciones": [
 "La calzada o el arcén de las vías interurbanas.",
@@ -2499,7 +3114,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 120,
+"id": 161,
 "enunciado": "Para comprobar la presión de inflado, ¿cómo deben estar los neumáticos?",
 "opciones": [
 "Fríos.",
@@ -2520,7 +3135,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 121,
+"id": 162,
 "enunciado": "En una autopista con tres carriles para cada sentido, ¿por cuál se debe circular normalmente?",
 "opciones": [
 "Por cualquiera de ellos.",
@@ -2541,7 +3156,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 122,
+"id": 163,
 "enunciado": "¿Cuáles son los daños no cubiertos por el seguro obligatorio al causante de un accidente?",
 "opciones": [
 "Los daños personales que sufran los ocupantes del vehículo causante del accidente.",
@@ -2562,7 +3177,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 123,
+"id": 164,
 "enunciado": "En el carril de circulación de la derecha, ¿se puede estacionar?",
 "opciones": [
 "Sí, porque es una vía con poca circulación.",
@@ -2583,7 +3198,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 124,
+"id": 165,
 "enunciado": "La señal indica que se aproxima...",
 "opciones": [
 "A una intersección en la que tengo prioridad.",
@@ -2604,7 +3219,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 125,
+"id": 166,
 "enunciado": "Las señales realizadas con el brazo por los conductores, ¿son válidas?",
 "opciones": [
 "Solo cuando se vean bien.",
@@ -2625,7 +3240,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 126,
+"id": 167,
 "enunciado": "¿Está obligado a circular a una velocidad adecuada si las condiciones meteorológicas o ambientales son adversas?",
 "opciones": [
 "Sí, y si fuera preciso, debe detenerse sin riesgo para la circulación.",
@@ -2646,7 +3261,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 127,
+"id": 168,
 "enunciado": "Encender el intermitente, ¿da preferencia siempre para hacer maniobras?",
 "opciones": [
 "Sí, porque he avisado.",
@@ -2667,7 +3282,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 128,
+"id": 169,
 "enunciado": "En carretera, ¿cuándo puede adelantar por la derecha?",
 "opciones": [
 "Cuando esté libre el carril de la derecha.",
@@ -2688,7 +3303,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 129,
+"id": 170,
 "enunciado": "En esta vía interurbana, podrá parar su vehículo en la parte transitable del arcén...",
 "opciones": [
 "Para subir o bajar personas.",
@@ -2709,7 +3324,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 130,
+"id": 171,
 "enunciado": "Mientras conduce, ¿qué teléfonos está permitido utilizar?",
 "opciones": [
 "Los sistemas de “manos libres”.",
@@ -2730,7 +3345,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 131,
+"id": 172,
 "enunciado": "En las autovías, ¿cuál es la velocidad mínima permitida para turismos?",
 "opciones": [
 "40 km/h",
@@ -2751,7 +3366,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 132,
+"id": 173,
 "enunciado": "Al poner en marcha un motor de gasolina, es conveniente...",
 "opciones": [
 "Acelerar en vacío para que se caliente cuanto antes.",
@@ -2772,7 +3387,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 133,
+"id": 174,
 "enunciado": "La cinta abdominal del cinturón de seguridad debe colocarse sobre...",
 "opciones": [
 "Los huesos de la cadera",
@@ -2793,7 +3408,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 134,
+"id": 175,
 "enunciado": "En una intersección señalizada en la que se encuentra un agente regulando el tráfico, ¿qué debe hacer?",
 "opciones": [
 "Obedecer las señales del agente.",
@@ -2814,7 +3429,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 135,
+"id": 176,
 "enunciado": "Como norma general, ¿qué vehículo tendrá preferencia de paso en este estrechamiento cuando la prioridad no esté expresamente señalizada?",
 "opciones": [
 "El vehículo que haya entrado primero al estrechamiento.",
@@ -2835,7 +3450,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 136,
+"id": 177,
 "enunciado": "¿Cómo debe sentarse el pasajero de una motocicleta?",
 "opciones": [
 "De cualquier forma, siempre que vaya cómodo.",
@@ -2856,7 +3471,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 137,
+"id": 178,
 "enunciado": "Los agentes de la autoridad encargados de la vigilancia del tráfico podrán inmovilizar un vehículo cuando...",
 "opciones": [
 "Supere los niveles de gases, humos y ruidos permitidos reglamentariamente.",
@@ -2877,7 +3492,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 138,
+"id": 179,
 "enunciado": "Como norma general, una motocicleta, ¿puede circular por el arcén?",
 "opciones": [
 "No, debe circular por la calzada.",
@@ -2898,7 +3513,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 139,
+"id": 180,
 "enunciado": "¿Puede el conductor reducir la probabilidad de accidente debida al “factor vía”?",
 "opciones": [
 "Sí, adaptando su conducción a las condiciones del medio.",
@@ -2919,7 +3534,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 140,
+"id": 181,
 "enunciado": "Circular por debajo del límite máximo de velocidad, ¿puede causar accidentes?",
 "opciones": [
 "Sí, cuando la velocidad no se adapte a las circunstancias del tráfico.",
@@ -2940,7 +3555,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 141,
+"id": 182,
 "enunciado": "Para transportar una mascota, salvo que exista en el vehículo un lugar destinado para su transporte, debe estar...",
 "opciones": [
 "Controlada obligatoriamente por un pasajero.",
@@ -2961,7 +3576,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 142,
+"id": 183,
 "enunciado": "Cuando se consume alcohol, ¿se producen alteraciones en la visión?",
 "opciones": [
 "Sí, puede aparecer la visión túnel.",
@@ -2982,7 +3597,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 143,
+"id": 184,
 "enunciado": "Si presencia un accidente de circulación, ¿tiene obligación de avisar a la Autoridad o a sus agentes si solo hay heridos leves y la seguridad de la circulación está restablecida?",
 "opciones": [
 "No, salvo que alguna de las personas implicadas en el accidente lo solicite.",
@@ -3003,7 +3618,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 144,
+"id": 185,
 "enunciado": "Bajo los efectos del estrés la conducción se vuelve...",
 "opciones": [
 "Menos temeraria.",
@@ -3024,7 +3639,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 145,
+"id": 186,
 "enunciado": "El impacto económico de los accidentes de tráfico afecta a...",
 "opciones": [
 "todos los ciudadanos, directa o indirectamente.",
@@ -3045,7 +3660,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 146,
+"id": 187,
 "enunciado": "El inflado correcto de los neumáticos es...",
 "opciones": [
 "El superior al recomendado en un 10%.",
@@ -3066,7 +3681,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 147,
+"id": 188,
 "enunciado": "La señalización vertical prevalece sobre...",
 "opciones": [
 "Los semáforos.",
@@ -3087,7 +3702,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 148,
+"id": 189,
 "enunciado": "El conductor del vehículo que utiliza el carril adicional...",
 "opciones": [
 "Circulará, como máximo, a 100 km/h.",
@@ -3108,7 +3723,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 149,
+"id": 190,
 "enunciado": "Esta señal indica la proximidad de...",
 "opciones": [
 "Un cruce con una línea de tranvía.",
@@ -3129,7 +3744,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 150,
+"id": 191,
 "enunciado": "En condiciones de niebla espesa deberá...",
 "opciones": [
 "Llevar encendida la luz antiniebla delantera solamente.",
@@ -3150,7 +3765,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 151,
+"id": 192,
 "enunciado": "Si la antigüedad de su primer permiso de conducción es menor de 2 años, la tasa máxima de alcohol permitida para poder conducir es de...",
 "opciones": [
 "0,25 miligramos de alcohol por litro de aire espirado.",
@@ -3171,7 +3786,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 152,
+"id": 193,
 "enunciado": "Una vez inmovilizado el vehículo, los usuarios deberán entrar o salir...",
 "opciones": [
 "Por cualquier lado del vehículo, tomando las debidas precauciones.",
@@ -3192,7 +3807,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 153,
+"id": 194,
 "enunciado": "Para evitar o retrasar la aparición de la fatiga, es aconsejable que el conductor...",
 "opciones": [
 "Circule a menor velocidad para disminuir los efectos de la fatiga.",
@@ -3213,7 +3828,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 154,
+"id": 195,
 "enunciado": "El conductor del vehículo blanco quiere volver rápidamente al carril derecho porque ve un peligro. ¿Qué debe hacer el conductor del vehículo verde?",
 "opciones": [
 "Aumentar la velocidad para que desista de realizar la maniobra.",
@@ -3234,7 +3849,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 155,
+"id": 196,
 "enunciado": "En una calzada con nieve, ¿el uso brusco e inadecuado de los frenos puede ser causa de derrape?",
 "opciones": [
 "Sí, si se frena bruscamente, los neumáticos pueden perder la adherencia sobre el pavimento.",
@@ -3255,7 +3870,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 156,
+"id": 197,
 "enunciado": "Al cargar combustible es obligatorio...",
 "opciones": [
 "parar el motor y apagar las luces del vehículo.",
@@ -3276,7 +3891,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 157,
+"id": 198,
 "enunciado": "Una motocicleta, ¿puede utilizar normalmente un carril VAO?",
 "opciones": [
 "Sí.",
@@ -3297,7 +3912,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 158,
+"id": 199,
 "enunciado": "¿Cuál es la edad mínima para viajar como acompañante en una motocicleta conducida por alguien distinto a los padres o al tutor del menor, o por una persona mayor de edad autorizada?",
 "opciones": [
 "7 años.",
@@ -3318,7 +3933,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 159,
+"id": 200,
 "enunciado": "Si mientras conducimos tenemos una fuerte discusión y nos alteramos, es recomendable...",
 "opciones": [
 "Acelerar y procurar llegar lo antes posible a nuestro destino.",
@@ -3339,7 +3954,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 160,
+"id": 201,
 "enunciado": "¿Cuándo está prohibido adelantar en los túneles?",
 "opciones": [
 "Cuando solo existe un carril para cada sentido.",
@@ -3360,7 +3975,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 161,
+"id": 202,
 "enunciado": "Al cruzar un arcén por el que circulan peatones en una zona en la que no existe zona peatonal, ¿qué debe hacer?",
 "opciones": [
 "Ceder el paso a los peatones, pues tienen preferencia.",
@@ -3381,7 +3996,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 162,
+"id": 203,
 "enunciado": "En esta zona con línea amarilla en zig-zag, ¿qué está prohibido?",
 "opciones": [
 "Estacionar.",
@@ -3402,7 +4017,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 163,
+"id": 204,
 "enunciado": "Este vehículo está inmovilizado por avería. Su conductor, ¿debe advertir de su presencia a los demás usuarios de la vía?",
 "opciones": [
 "No; solo están obligados los conductores de camiones y autobuses.",
@@ -3423,7 +4038,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 164,
+"id": 205,
 "enunciado": "¿Cuál es la sanción por no tener el seguro obligatorio del vehículo?",
 "opciones": [
 "Una multa, pero sin inmovilización del vehículo.",
@@ -3444,7 +4059,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 165,
+"id": 206,
 "enunciado": "¿Qué debe tener especialmente en cuenta para dejar con el vehículo de delante una distancia que le permita, en caso de frenada brusca, detenerse con seguridad?",
 "opciones": [
 "La velocidad de circulación, únicamente.",
@@ -3465,7 +4080,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 166,
+"id": 207,
 "enunciado": "Todo peatón que circule por el arcén de una vía fuera de poblado, entre el ocaso y la salida del sol, ¿debe ir provisto de un elemento luminoso o retrorreflectante?",
 "opciones": [
 "No, si circula lo más próximo posible al borde de la calzada.",
@@ -3486,7 +4101,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 167,
+"id": 208,
 "enunciado": "En un semáforo se apaga la luz verde y se enciende la luz amarilla fija; ¿puede pasar?",
 "opciones": [
 "Sí, en todo caso.",
@@ -3507,7 +4122,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 168,
+"id": 209,
 "enunciado": "Para girar a la izquierda en una vía en la que no hay marca que separe los dos sentidos de circulación, ¿dónde debe situarse?",
 "opciones": [
 "Obligatoriamente en el arcén, para realizar la maniobra desde allí.",
@@ -3528,7 +4143,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 169,
+"id": 210,
 "enunciado": "En un carril bus, ¿puede un turismo realizar una parada?",
 "opciones": [
 "Solo cuando no obstaculice la circulación de autobuses.",
@@ -3549,7 +4164,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 170,
+"id": 211,
 "enunciado": "El uso adecuado del casco implica que la correa de sujeción...",
 "opciones": [
 "no debe abrocharse.",
@@ -3570,7 +4185,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 171,
+"id": 212,
 "enunciado": "Si debido a una emergencia, un conductor se ve obligado a inmovilizar su vehículo en una autopista, ¿puede hacerlo en la mediana?",
 "opciones": [
 "No, en ningún caso se debe dejar inmovilizado el vehículo en la mediana.",
@@ -3591,7 +4206,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 172,
+"id": 213,
 "enunciado": "¿Qué puede aumentar la distancia de frenado?",
 "opciones": [
 "Únicamente la velocidad.",
@@ -3612,7 +4227,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 173,
+"id": 214,
 "enunciado": "En un automóvil, ¿cuál de los siguientes elementos reduce el riesgo de lesiones de cuello en una colisión?",
 "opciones": [
 "Los frenos ABS.",
@@ -3633,7 +4248,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 174,
+"id": 215,
 "enunciado": "Si los frenos se mojan...",
 "opciones": [
 "Pueden dejar de frenar, perdiendo temporalmente su eficacia.",
@@ -3654,7 +4269,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 175,
+"id": 216,
 "enunciado": "En un accidente entre dos vehículos, ¿qué tipo de daños cubre el seguro de responsabilidad civil de suscripción obligatoria?",
 "opciones": [
 "Solamente los daños materiales.",
@@ -3675,7 +4290,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 176,
+"id": 217,
 "enunciado": "En las isletas de canalización del tráfico situadas en la calzada, ¿se puede parar o estacionar?",
 "opciones": [
 "Se puede parar.",
@@ -3696,7 +4311,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 177,
+"id": 218,
 "enunciado": "Los vehículos prioritarios, ¿tienen prioridad de paso sobre el resto de los usuarios de la vía?",
 "opciones": [
 "Sí, siempre.",
@@ -3717,7 +4332,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 178,
+"id": 219,
 "enunciado": "Las malas condiciones meteorológicas, como lluvia, viento o hielo, ¿aumentan la probabilidad de sufrir un accidente con una motocicleta?",
 "opciones": [
 "No; el mal tiempo no influye en la conducción de motocicletas.",
@@ -3738,7 +4353,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 179,
+"id": 220,
 "enunciado": "En vías urbanas de dos o más carriles por sentido de circulación, ¿cuál es la velocidad máxima permitida para motocicletas?",
 "opciones": [
 "50 km/h.",
@@ -3759,7 +4374,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 180,
+"id": 221,
 "enunciado": "El medio ambiente, ¿se ve afectado por los accidentes de tráfico?",
 "opciones": [
 "No.",
@@ -3780,7 +4395,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 181,
+"id": 222,
 "enunciado": "Las altas temperaturas pueden suponer un riesgo para la seguridad durante la conducción. ¿Debe circular adoptando medidas preventivas?",
 "opciones": [
 "Sí, por lo que debe conducir durante la noche, ya que la temperatura al ser inferior permite al conductor un tiempo de reacción mayor.",
@@ -3801,7 +4416,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 182,
+"id": 223,
 "enunciado": "Conducir bajo los efectos de algunas drogas puede producir en el conductor...",
 "opciones": [
 "Una percepción mayor del campo visual.",
@@ -3822,7 +4437,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 183,
+"id": 224,
 "enunciado": "Muchos atropellos a peatones se producen cuando los vehículos...",
 "opciones": [
 "Circulan marcha atrás porque el conductor no ha visto al peatón.",
@@ -3843,7 +4458,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 184,
+"id": 225,
 "enunciado": "Fumar, mientras conduce, puede provocar...",
 "opciones": [
 "Distracciones y problemas de visión a causa del humo",
@@ -3864,7 +4479,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 185,
+"id": 226,
 "enunciado": "Como norma general se prohíbe cambiar el sentido de la marcha...",
 "opciones": [
 "En las calzadas con prioridad.",
@@ -3885,7 +4500,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 186,
+"id": 227,
 "enunciado": "Para adelantar a este vehículo...",
 "opciones": [
 "es obligatorio esperar a un tramo en el que la calzada esté seca.",
@@ -3906,7 +4521,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 187,
+"id": 228,
 "enunciado": "No pueden circular por autopista...",
 "opciones": [
 "las motocicletas.",
@@ -3927,7 +4542,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 188,
+"id": 229,
 "enunciado": "Una línea longitudinal discontinua con trazos más anchos que en el caso general, indica...",
 "opciones": [
 "la existencia de un carril reversible.",
@@ -3948,7 +4563,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 189,
+"id": 230,
 "enunciado": "Al cargar combustible en el vehículo es obligatorio...",
 "opciones": [
 "apagar las luces y subir las ventanillas.",
@@ -3969,7 +4584,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 190,
+"id": 231,
 "enunciado": "En un paso para peatones sin semáforos que lo regule, ¿cuándo tienen preferencia los peatones?",
 "opciones": [
 "Solo cuando el paso esté situado en una travesía.",
@@ -3990,7 +4605,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 191,
+"id": 232,
 "enunciado": "El conductor de la furgoneta, ¿puede hacer una parada en doble fila para descargar?",
 "opciones": [
 "No, está prohibido.",
@@ -4011,7 +4626,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 192,
+"id": 233,
 "enunciado": "Los vehículos que circulan por la autovía, ¿facilitarán el paso a los vehículos que se incorporan desde el carril de aceleración?",
 "opciones": [
 "No, salvo que se trate de vehículos de transporte colectivo.",
@@ -4032,7 +4647,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 193,
+"id": 234,
 "enunciado": "Cuando prevea que va a quedar detenido dentro del túnel más de dos minutos, ¿qué debe hacer?",
 "opciones": [
 "Apagar el motor.",
@@ -4053,7 +4668,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 194,
+"id": 235,
 "enunciado": "Circula de noche con el alumbrado interior encendido. ¿Es peligroso?",
 "opciones": [
 "No, porque descansa la vista.",
@@ -4074,7 +4689,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 195,
+"id": 236,
 "enunciado": "La eficacia del frenado aumenta, entre otras circunstancias, cuando...",
 "opciones": [
 "La masa del vehículo es mayor, ya que a mayor masa menor distancia de frenado.",
@@ -4095,7 +4710,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 196,
+"id": 237,
 "enunciado": "Como norma general, ¿cuándo es mayor el efecto del alcohol?",
 "opciones": [
 "Inmediatamente después de tomarlo.",
@@ -4116,7 +4731,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 197,
+"id": 238,
 "enunciado": "¿De qué depende la distancia de detención?",
 "opciones": [
 "De la velocidad, solamente.",
@@ -4137,7 +4752,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 198,
+"id": 239,
 "enunciado": "¿Puede adelantar por la derecha al vehículo que circula delante por su mismo carril?",
 "opciones": [
 "Sí.",
@@ -4157,7 +4772,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 199,
+"id": 240,
 "enunciado": "La fatiga, ¿puede alterar el tiempo de reacción del conductor?",
 "opciones": [
 "Sí, lo aumenta.",
@@ -4178,7 +4793,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 200,
+"id": 241,
 "enunciado": "¿Es recomendable regular los reposacabezas del vehículo a la altura de cada ocupante?",
 "opciones": [
 "No es necesario, es solo un elemento de confort.",
@@ -4199,7 +4814,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 201,
+"id": 242,
 "enunciado": "En un túnel con un solo carril para cada sentido, ¿está permitido el adelantamiento?",
 "opciones": [
 "No.",
@@ -4220,7 +4835,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 202,
+"id": 243,
 "enunciado": "Esta señal prohíbe…",
 "opciones": [
 "El estacionamiento entre la 1 y las 15 horas.",
@@ -4241,7 +4856,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 203,
+"id": 244,
 "enunciado": "Al incorporarse a una autopista, ¿puede pisar la zona de cebreado?",
 "opciones": [
 "Sí, si ya ha alcanzado en ese punto la velocidad adecuada para incorporarse a la circulación.",
@@ -4262,7 +4877,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 204,
+"id": 245,
 "enunciado": "Los conos de la fotografía indican que se ha habilitado…",
 "opciones": [
 "Un carril reversible.",
@@ -4283,7 +4898,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 205,
+"id": 246,
 "enunciado": "La distancia de frenado es el espacio recorrido desde que el conductor…",
 "opciones": [
 "Ve el obstáculo hasta que se detiene el vehículo.",
@@ -4304,7 +4919,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 206,
+"id": 247,
 "enunciado": "En determinadas circunstancias, un turismo, ¿puede superar para adelantar la velocidad máxima fijada para el tipo de vía por la que circule?",
 "opciones": [
 "No, en ningún caso.",
@@ -4325,7 +4940,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 207,
+"id": 248,
 "enunciado": "Esta señal le indica peligro por la proximidad de…",
 "opciones": [
 "Un cruce con doble sentido de la circulación.",
@@ -4346,7 +4961,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 208,
+"id": 249,
 "enunciado": "Salvo que exista señal que lo prohíba, por los arcenes de las autovías se permite circular…",
 "opciones": [
 "A peatones.",
@@ -4367,7 +4982,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 209,
+"id": 250,
 "enunciado": "El sistema de lavaparabrisas del vehículo, ¿necesita mantenimiento?",
 "opciones": [
 "No.",
@@ -4388,7 +5003,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 210,
+"id": 251,
 "enunciado": "¿Es recomendable realizar un mantenimiento frecuente del sistema de alumbrado del vehículo?",
 "opciones": [
 "Sí, porque circular con una iluminación deficiente incrementa la fatiga visual del conductor y el riesgo de accidente.",
@@ -4409,7 +5024,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 211,
+"id": 252,
 "enunciado": "Si por circunstancias especialmente graves un conductor traslada en su vehículo particular a una persona enferma, ¿cómo advertirá de su presencia?",
 "opciones": [
 "Agitando el brazo de arriba abajo con movimientos cortos y rápidos.",
@@ -4430,7 +5045,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 212,
+"id": 253,
 "enunciado": "Si hay charcos de agua en la calzada…",
 "opciones": [
 "No es aconsejable tomar ninguna precaución.",
@@ -4451,7 +5066,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 213,
+"id": 254,
 "enunciado": "¿Qué indica esta señal?",
 "opciones": [
 "Que hay que circular con precaución por la proximidad a un puente.",
@@ -4472,7 +5087,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 214,
+"id": 255,
 "enunciado": "Un ciclomotor ocupado por dos personas, ¿puede utilizar normalmente un carril VAO?",
 "opciones": [
 "No.",
@@ -4493,7 +5108,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 215,
+"id": 256,
 "enunciado": "Si a través del espejo retrovisor observa al vehículo policial que se ve en la fotografía, ¿qué debe hacer?",
 "opciones": [
 "Aumentar la velocidad, ya que me está indicando que voy despacio.",
@@ -4514,7 +5129,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 216,
+"id": 257,
 "enunciado": "¿Se puede mejorar la adherencia del vehículo en una zona en la que exista hielo en la calzada?",
 "opciones": [
 "Sí, usando cadenas o neumáticos de clavos.",
@@ -4535,7 +5150,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 217,
+"id": 258,
 "enunciado": "Los vehículos destinados a obras y servicios, ¿cómo advertirán de su presencia cuando estén realizando obras de reparación en la calzada?",
 "opciones": [
 "Mediante un dispositivo luminoso con una luz rotativa de color azul o rojo.",
@@ -4556,7 +5171,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 218,
+"id": 259,
 "enunciado": "Como norma general, ¿quién tiene la preferencia en un estrechamiento sin señalizar?",
 "opciones": [
 "El vehículo que entre primero.",
@@ -4577,7 +5192,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 219,
+"id": 260,
 "enunciado": "En este cambio de rasante de reducida visibilidad, ¿puede adelantar el vehículo blanco al amarillo?",
 "opciones": [
 "Sí, porque no hay señalización expresa que lo prohíba.",
@@ -4598,7 +5213,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 220,
+"id": 261,
 "enunciado": "Cuando se toman bebidas alcohólicas…",
 "opciones": [
 "Aumenta el campo visual.",
@@ -4619,7 +5234,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 221,
+"id": 262,
 "enunciado": "Si en una vía existe una línea longitudinal continua adosada a otra discontinua…",
 "opciones": [
 "Ningún vehículo que circule por la vía podrá atravesar ninguna de las dos líneas.",
@@ -4640,7 +5255,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 222,
+"id": 263,
 "enunciado": "En un túnel, ¿qué distancia de seguridad mínima debe mantener el conductor de un turismo con el vehículo de delante si no pretende adelantar?",
 "opciones": [
 "100 metros o un intervalo de 4 segundos.",
@@ -4661,7 +5276,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 223,
+"id": 264,
 "enunciado": "La mayoría de los vehículos disponen de un filtro en el habitáculo. ¿Debe sustituirse?",
 "opciones": [
 "Sí, sobre todo al inicio de la primavera, ya que su capacidad de retención es limitada.",
@@ -4682,7 +5297,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 224,
+"id": 265,
 "enunciado": "En una carretera cuya velocidad genérica es de 90 km/h, ¿qué velocidad se considera anormalmente reducida para un turismo?",
 "opciones": [
 "La inferior a 55 km/h",
@@ -4703,7 +5318,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 225,
+"id": 266,
 "enunciado": "Esta señal, ¿permite realizar la maniobra de adelantamiento?",
 "opciones": [
 "No, en ningún caso.",
@@ -4724,7 +5339,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 226,
+"id": 267,
 "enunciado": "Los agentes de tráfico inmovilizan un vehículo cuando su conductor tiene un tasa de alcohol mayor de la permitida. ¿Cuándo se dejará sin efecto dicha inmovilización?",
 "opciones": [
 "Cuando desparezca la causa que la motivó.",
@@ -4745,7 +5360,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 227,
+"id": 268,
 "enunciado": "¿Qué indica la luz de posición de un vehículo?",
 "opciones": [
 "Que el vehículo está circulando.",
@@ -4766,7 +5381,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 228,
+"id": 269,
 "enunciado": "En caso de sufrir un reventón circulando por una vía a velocidad elevada, ¿es aconsejable pisar el pedal de freno con brusquedad?",
 "opciones": [
 "Sí, para mantener con mayor facilidad la trayectoria recta del vehículo.",
@@ -4787,7 +5402,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 229,
+"id": 270,
 "enunciado": "La lluvia, ¿exige al conductor tomar más precauciones de las habituales?",
 "opciones": [
 "Sí, ya que los neumáticos pueden perder su adherencia.",
@@ -4808,7 +5423,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 230,
+"id": 271,
 "enunciado": "¿Qué le indica esta señal?",
 "opciones": [
 "Recomienda llevar cadenas desde el punto en que se encuentra la señal.",
@@ -4829,7 +5444,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 231,
+"id": 272,
 "enunciado": "¿Podrá utilizar el carril VAO un turismo ocupado por cuatro personas si lleva enganchado un remolque ligero?",
 "opciones": [
 "No.",
@@ -4850,7 +5465,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 232,
+"id": 273,
 "enunciado": "Si se encuentra detenido ante una señal de stop, ¿puede utilizar su teléfono móvil?",
 "opciones": [
 "No, de ninguna manera.",
@@ -4871,7 +5486,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 233,
+"id": 274,
 "enunciado": "En un vehículo de menos de 5 metros de longitud destinado al transporte de mercancías, ¿cuánto podrá sobresalir una carga de longitud indivisible por su parte delantera?",
 "opciones": [
 "Un tercio de la longitud del vehículo.",
@@ -4892,7 +5507,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 234,
+"id": 275,
 "enunciado": "Circulando por un paso inferior, su vehículo sufre una avería que no le impide continuar la marcha; ¿qué debe hacer?",
 "opciones": [
 "Apagar el motor y conectar las luces de emergencia.",
@@ -4913,7 +5528,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 235,
+"id": 276,
 "enunciado": "Circula por el carril izquierdo; ¿qué le indica la flecha?",
 "opciones": [
 "Que está cerca la próxima salida.",
@@ -4934,7 +5549,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 236,
+"id": 277,
 "enunciado": "El conductor de un turismo debe circular con el alumbrado de su vehículo encendido...",
 "opciones": [
 "entre la puesta y la salida del sol.",
@@ -4955,7 +5570,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 237,
+"id": 278,
 "enunciado": "Si la presión de inflado en los neumáticos es inferior a la recomendada, ¿aumenta el consumo de combustible?",
 "opciones": [
 "Sí, porque existe mayor rozamiento con el pavimento.",
@@ -4976,7 +5591,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 238,
+"id": 279,
 "enunciado": "En la intersección de una vía pavimentada con otra sin pavimentar, ¿qué vehículos tienen preferencia de paso?",
 "opciones": [
 "Los que circulen por la vía más ancha.",
@@ -4997,7 +5612,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 239,
+"id": 280,
 "enunciado": "¿En qué caso no le está permitido adelantar detrás de otro vehículo que ya está adelantando?",
 "opciones": [
 "Nunca está permitido adelantar cuando otro vehículo ya esté adelantando.",
@@ -5018,7 +5633,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 240,
+"id": 281,
 "enunciado": "La señal triangular indica...",
 "opciones": [
 "que hay un escalón lateral en la calzada.",
@@ -5039,7 +5654,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 241,
+"id": 282,
 "enunciado": "¿Qué debe hacer siempre que se acerque a un autobús del que bajan niños?",
 "opciones": [
 "Detenerse hasta que el autobús reanude su marcha.",
@@ -5060,7 +5675,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 242,
+"id": 283,
 "enunciado": "La luz antiniebla trasera deberá utilizarse siempre que...",
 "opciones": [
 "circule por un puerto de montaña.",
@@ -5081,7 +5696,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 243,
+"id": 284,
 "enunciado": "En vía interurbana, ¿con qué dispositivo debe señalizarse, con carácter obligatorio desde 2026, un turismo inmovilizado?",
 "opciones": [
 "Con la baliza luminosa V-16 conectada, que sustituye a los triángulos.",
@@ -5102,7 +5717,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 244,
+"id": 285,
 "enunciado": "Para circular con un turismo, ¿qué documentos se necesitan en todo caso, además del permiso de conducción?",
 "opciones": [
 "El Impuesto de Vehículos de Tracción Mecánica (Impuesto Municipal de Circulación) del año en curso.",
@@ -5123,7 +5738,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 245,
+"id": 286,
 "enunciado": "¿Debe el conductor del turismo de color blanco respetar la señal de stop cuando llegue al cruce?",
 "opciones": [
 "Sí, debe respetar las marcas viales existentes.",
@@ -5144,7 +5759,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 246,
+"id": 287,
 "enunciado": "En esta vía se ha habilitado un carril adicional; ¿a qué velocidad como máximo circulará el vehículo naranja?",
 "opciones": [
 "A 80 kilómetros por hora.",
@@ -5165,7 +5780,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 247,
+"id": 288,
 "enunciado": "Si mientras circula se le pincha una rueda, ¿qué debe hacer?",
 "opciones": [
 "Continuar circulando hasta llegar al taller más próximo.",
@@ -5186,7 +5801,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 248,
+"id": 289,
 "enunciado": "Como norma general, en un tramo de vía estrecho de gran pendiente debe ceder el paso...",
 "opciones": [
 "el vehículo que sube.",
@@ -5207,7 +5822,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 249,
+"id": 290,
 "enunciado": "Durante la conducción, la fatiga...",
 "opciones": [
 "hace que aumenten los errores de forma considerable.",
@@ -5228,7 +5843,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 250,
+"id": 291,
 "enunciado": "Un semáforo con línea blanca horizontal sobre fondo negro...",
 "opciones": [
 "permite el paso a autobuses y tranvías.",
@@ -5249,7 +5864,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 251,
+"id": 292,
 "enunciado": "La línea de borde de la calzada es discontinua; ¿está permitido estacionar en la parte transitable del arcén?",
 "opciones": [
 "Sí, porque la línea es discontinua.",
@@ -5270,7 +5885,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 252,
+"id": 293,
 "enunciado": "¿Puede perder el control del vehículo si circula con los amortiguadores en mal estado?",
 "opciones": [
 "No, sin embargo, los cambios de marcha se realizarán con mayor dificultad debido a las oscilaciones del vehículo.",
@@ -5291,7 +5906,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 253,
+"id": 294,
 "enunciado": "Si observa que un vehículo quiere incorporarse por el carril de aceleración, ¿qué debe hacer?",
 "opciones": [
 "Nada, porque tengo preferencia.",
@@ -5312,7 +5927,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 254,
+"id": 295,
 "enunciado": "No deberá iniciar un adelantamiento sin comprobar previamente que...",
 "opciones": [
 "existe espacio suficiente para volver al carril derecho cuando termine la maniobra.",
@@ -5333,7 +5948,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 255,
+"id": 296,
 "enunciado": "¿Cuál de las siguientes es una de las principales funciones del airbag en caso de accidente?",
 "opciones": [
 "Evitar el efecto submarino.",
@@ -5354,7 +5969,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 256,
+"id": 297,
 "enunciado": "¿En qué tipo de vías se debe mantener la distancia de seguridad?",
 "opciones": [
 "Solo en calzadas con dos sentidos de circulación.",
@@ -5375,7 +5990,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 257,
+"id": 298,
 "enunciado": "Debido a una emergencia, un turismo queda inmovilizado en la calzada; su conductor ¿debe colocar los triángulos de preseñalización de peligro, como norma general?",
 "opciones": [
 "No, excepto si la inmovilización se produce en una vía fuera de poblado.",
@@ -5396,7 +6011,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 258,
+"id": 299,
 "enunciado": "Esta señal indica...",
 "opciones": [
 "Peligro por la proximidad de una zona donde sopla fuerte viento lateral.",
@@ -5417,7 +6032,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 259,
+"id": 300,
 "enunciado": "Como norma general, en vías de tres calzadas se utilizarán las de los laterales...",
 "opciones": [
 "En sentido único, si bien se podrá habilitar algún carril para el sentido contrario.",
@@ -5438,7 +6053,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 260,
+"id": 301,
 "enunciado": "Cuando se aprecia fuerte viento lateral...",
 "opciones": [
 "Se deberá reducir la velocidad y corregir las ligeras desviaciones de la dirección.",
@@ -5459,7 +6074,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 261,
+"id": 302,
 "enunciado": "¿Cuándo se deben cambiar las escobillas del limpiaparabrisas?",
 "opciones": [
 "Cada dos años obligatoriamente.",
@@ -5480,7 +6095,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 262,
+"id": 303,
 "enunciado": "Esta señal, ¿prohíbe el cambio de dirección en la próxima intersección?",
 "opciones": [
 "Sí, ya que debo seguir la dirección y sentido que señala la flecha.",
@@ -5501,7 +6116,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 263,
+"id": 304,
 "enunciado": "¿Tiene prioridad de paso una ambulancia que circule con las señales luminosas apagadas?",
 "opciones": [
 "No.",
@@ -5522,7 +6137,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 264,
+"id": 305,
 "enunciado": "Un vehículo va a incorporarse a la circulación; ¿cuándo debe ceder el paso?",
 "opciones": [
 "Cuando entre en el carril de circulación desde el lado izquierdo, solamente.",
@@ -5543,7 +6158,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 265,
+"id": 306,
 "enunciado": "Circula con su turismo por esta carretera convencional; ¿cuál es la velocidad máxima permitida?",
 "opciones": [
 "90 km/h",
@@ -5564,7 +6179,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 266,
+"id": 307,
 "enunciado": "¿Está permitido atravesar la marca vial de la derecha para cambiar de carril?",
 "opciones": [
 "Sí, pero con precaución.",
@@ -5585,7 +6200,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 267,
+"id": 308,
 "enunciado": "¿Por qué es aconsejable cambiar periódicamente el aceite lubricante?",
 "opciones": [
 "Porque, estando en buenas condiciones, mantiene el buen estado del motor más tiempo y el desgaste de las piezas es menor.",
@@ -5606,7 +6221,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 268,
+"id": 309,
 "enunciado": "Circula por una travesía; ya se ha puesto el sol y la vía está suficientemente iluminada. ¿Qué alumbrado debe encender?",
 "opciones": [
 "Ninguno, ya que la vía está suficientemente iluminada.",
@@ -5627,7 +6242,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 269,
+"id": 310,
 "enunciado": "Cuando el semáforo se ponga verde, ¿qué debe hacer?",
 "opciones": [
 "Obedecer la señal de stop.",
@@ -5648,7 +6263,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 270,
+"id": 311,
 "enunciado": "Si su vehículo está provisto de caja de cambios manual, en una calle con pendiente ascendente, ¿cómo debe estacionar?",
 "opciones": [
 "Poniendo el freno de estacionamiento y la primera velocidad.",
@@ -5669,7 +6284,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 271,
+"id": 312,
 "enunciado": "En las calzadas con dos sentidos y tres carriles, cuando quiera girar a la izquierda, ¿dónde debe colocarse?",
 "opciones": [
 "En el carril central.",
@@ -5690,7 +6305,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 272,
+"id": 313,
 "enunciado": "¿A qué vehículos de transporte de mercancías prohíbe pasar esta señal?",
 "opciones": [
 "A los de más de 3.500 kg. de M.M.A., solo cuando llevan carga.",
@@ -5711,7 +6326,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 273,
+"id": 314,
 "enunciado": "Para adelantar al grupo de ciclistas, el vehículo rebasa la línea continua y ocupa el carril destinado a la circulación en sentido contrario; ¿es correcto su comportamiento?",
 "opciones": [
 "Sí, y debe guardar una separación lateral de, al menos, 1,5 metros",
@@ -5732,7 +6347,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 274,
+"id": 315,
 "enunciado": "Si sufre una avería y tiene que salir de su vehículo, ¿en cuál de los siguientes casos debe utilizar el chaleco reflectante?",
 "opciones": [
 "Al ocupar el arcén en vías interurbanas.",
@@ -5753,7 +6368,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 275,
+"id": 316,
 "enunciado": "Si entra en una curva a la izquierda a velocidad excesiva, la fuerza centrífuga, ¿puede afectar a la trayectoria del vehículo?",
 "opciones": [
 "Sí; se desplazará hacia la izquierda de la calzada.",
@@ -5774,7 +6389,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 276,
+"id": 317,
 "enunciado": "¿Cómo se denominan los costes de pérdida de vidas, de capacidad productiva y el sufrimiento físico y psicológico que tienen lugar como consecuencia de un accidente de tráfico?",
 "opciones": [
 "Costes sanitarios.",
@@ -5795,7 +6410,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 277,
+"id": 318,
 "enunciado": "Si ningún elemento impide su funcionamiento eficaz, ¿qué sistema de seguridad pasiva evita que, en caso de accidente, se produzca el efecto submarino?",
 "opciones": [
 "El airbag.",
@@ -5816,7 +6431,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 278,
+"id": 319,
 "enunciado": "Se considera peatón a la persona...",
 "opciones": [
 "que, sin ser conductor, transita a pie por las vías públicas.",
@@ -5837,7 +6452,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 279,
+"id": 320,
 "enunciado": "El consumo de drogas de abuso o ilegales, ¿afecta a la seguridad vial?",
 "opciones": [
 "No, en absoluto.",
@@ -5858,7 +6473,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 280,
+"id": 321,
 "enunciado": "Durante la conducción, ¿qué horas son especialmente propicias para la aparición del sueño?",
 "opciones": [
 "Las últimas horas de la mañana.",
@@ -5879,7 +6494,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 281,
+"id": 322,
 "enunciado": "En un turismo con cinco plazas autorizadas, incluida la del conductor, ¿está permitido transportar a seis personas?",
 "opciones": [
 "No.",
@@ -5900,7 +6515,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 282,
+"id": 323,
 "enunciado": "Una vez finalizado el estado de alarma por el COVID-19 y restablecida la nueva normalidad, los ocupantes de un vehículo particular que esté circulando por vías públicas, ¿están obligados al uso de mascarillas?",
 "opciones": [
 "No, cuando el único ocupante del vehículo sea el conductor.",
@@ -5921,7 +6536,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 283,
+"id": 324,
 "enunciado": "A los peatones que utilicen monopatines o patines en ningún caso les está permitido...",
 "opciones": [
 "ser arrastrados por otros vehículos.",
@@ -5942,7 +6557,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 284,
+"id": 325,
 "enunciado": "Los efectos secundarios de los medicamentos que alteran la capacidad de conducción, ¿se manifiestan de la misma manera en todas las personas?",
 "opciones": [
 "Solo si el tratamiento médico se prolonga en el tiempo.",
@@ -5963,7 +6578,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 285,
+"id": 326,
 "enunciado": "¿Están obligados los conductores de motocicletas a llevar un chaleco reflectante de alta visibilidad?",
 "opciones": [
 "Sí.",
@@ -5984,7 +6599,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 286,
+"id": 327,
 "enunciado": "¿Es peligroso introducir una dirección en un navegador GPS mientras se conduce?",
 "opciones": [
 "Solo si el navegador no está integrado en el vehículo.",
@@ -6005,7 +6620,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 287,
+"id": 328,
 "enunciado": "La luz antiniebla trasera se utilizará siempre que...",
 "opciones": [
 "se circule a velocidad anormalmente reducida.",
@@ -6026,7 +6641,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 288,
+"id": 329,
 "enunciado": "¿Qué medidas deberá adoptar ante esta señal?",
 "opciones": [
 "Aumentaré la atención por posibles desprendimientos y obstáculos en la calzada.",
@@ -6047,7 +6662,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 289,
+"id": 330,
 "enunciado": "A partir de la señal, el conductor de un camión de menos de 3.500 kilos de M.M.A., ¿puede adelantar a otros vehículos?",
 "opciones": [
 "No; la señal le prohíbe adelantar a todo tipo de vehículos a motor.",
@@ -6068,7 +6683,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 290,
+"id": 331,
 "enunciado": "Este conjunto de marcas blancas pintadas en la calzada...",
 "opciones": [
 "obliga al vehículo a detenerse siempre.",
@@ -6089,7 +6704,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 291,
+"id": 332,
 "enunciado": "Para incorporarse a la vía principal, un turismo tiene que atravesar un carril bici debidamente señalizado; ¿deberá ceder el paso a los ciclistas que circulan por el mismo?",
 "opciones": [
 "Sí; los ciclistas tienen prioridad de paso.",
@@ -6110,7 +6725,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 292,
+"id": 333,
 "enunciado": "El nivel del depósito de líquido lavaparabrisas, ¿se debe revisar con cierta frecuencia?",
 "opciones": [
 "Sí, es conveniente para no quedarnos sin él cuando lo necesitemos.",
@@ -6131,7 +6746,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 293,
+"id": 334,
 "enunciado": "En calzadas con doble sentido de circulación y dos carriles sin delimitar por marcas viales, ¿por dónde se debe de circular?",
 "opciones": [
 "Por el centro de la calzada.",
@@ -6152,7 +6767,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 294,
+"id": 335,
 "enunciado": "En caso de lluvia, ¿es aconsejable aumentar la distancia de seguridad con el vehículo que circula delante?",
 "opciones": [
 "Sí, porque la distancia de frenado aumenta.",
@@ -6173,7 +6788,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 295,
+"id": 336,
 "enunciado": "El conductor de un vehículo podrá adelantar en un túnel cuando...",
 "opciones": [
 "exista más de un carril en el sentido contrario de su marcha.",
@@ -6194,7 +6809,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 296,
+"id": 337,
 "enunciado": "La flecha izquierda de la señal, ¿qué indica?",
 "opciones": [
 "Obliga a seguir la dirección de la flecha en la próxima intersección.",
@@ -6215,7 +6830,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 297,
+"id": 338,
 "enunciado": "A la entrada y salida del colegio, para evitar riesgos, ¿qué precauciones deberá tomar cuando los niños desciendan del vehículo, además de la previa vigilancia del entorno?",
 "opciones": [
 "No deberán abrir las puertas ni apearse antes de la completa inmovilización del vehículo.",
@@ -6236,7 +6851,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 298,
+"id": 339,
 "enunciado": "En esta vía, para adelantar al camión, ¿a qué velocidad puede circular como máximo el turismo?",
 "opciones": [
 "A 140 km/h.",
@@ -6257,7 +6872,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 299,
+"id": 340,
 "enunciado": "Si conduce el turismo amarillo y quiere girar a la derecha, ¿qué debe hacer?",
 "opciones": [
 "Continuar de frente.",
@@ -6278,7 +6893,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 300,
+"id": 341,
 "enunciado": "Está adelantando y ve que hay peligro; ¿qué debe hacer?",
 "opciones": [
 "Aumentar la velocidad y adelantar rápidamente.",
@@ -6299,7 +6914,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 301,
+"id": 342,
 "enunciado": "En esta calle de sentido único en la que no hay señalización que prohíba estacionar ni marcas viales en la calzada, ¿en qué lado está permitido el estacionamiento?",
 "opciones": [
 "En el lado derecho solamente.",
@@ -6320,7 +6935,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 302,
+"id": 343,
 "enunciado": "Los ciclistas, ¿están obligados a encender el alumbrado cuando circulan de noche?",
 "opciones": [
 "Sí.",
@@ -6341,7 +6956,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 303,
+"id": 344,
 "enunciado": "La carga transportada en un turismo no deberá...",
 "opciones": [
 "Descargarse por el lado del vehículo más próximo al borde de la calzada.",
@@ -6362,7 +6977,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 304,
+"id": 345,
 "enunciado": "¿Cómo puede reducir la velocidad de su vehículo?",
 "opciones": [
 "Solo con el sistema de frenado.",
@@ -6383,7 +6998,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 305,
+"id": 346,
 "enunciado": "En esta vía de doble sentido, el conductor del turismo blanco, ¿dónde situará su vehículo para girar a la izquierda?",
 "opciones": [
 "Sobre la línea discontinua, invadiendo ligeramente el sentido contrario.",
@@ -6404,7 +7019,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 306,
+"id": 347,
 "enunciado": "La marca indica un paso...",
 "opciones": [
 "para peatones.",
@@ -6425,7 +7040,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 307,
+"id": 348,
 "enunciado": "La falta de experiencia al volante, ¿puede ser una de las causas que expliquen los accidentes de tráfico que sufren los conductores noveles?",
 "opciones": [
 "Sí; es una de las causas de los accidentes protagonizados por jóvenes.",
@@ -6446,7 +7061,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 308,
+"id": 349,
 "enunciado": "Hay nieve y solo tiene cadenas para dos ruedas. ¿Dónde debe ponerlas?",
 "opciones": [
 "En las ruedas delanteras siempre.",
@@ -6467,7 +7082,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 309,
+"id": 350,
 "enunciado": "Esta carretera no tiene arcén; ¿puede estacionar a la derecha, fuera de la vía?",
 "opciones": [
 "Sí, porque estoy fuera de la calzada.",
@@ -6488,7 +7103,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 310,
+"id": 351,
 "enunciado": "Si un vehículo queda detenido por avería en un paso a nivel, el conductor debe adoptar en primer lugar las medidas necesarias para...",
 "opciones": [
 "que todos los ocupantes abandonen el vehículo.",
@@ -6509,7 +7124,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 311,
+"id": 352,
 "enunciado": "Circular en motocicleta bajo una lluvia intensa obliga a...",
 "opciones": [
 "circular lo más cerca posible del vehículo que va por delante.",
@@ -6530,7 +7145,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 312,
+"id": 353,
 "enunciado": "uera de poblado, una autocaravana va a adelantar a un vehículo pesado. ¿Puede producirse una situación de riesgo cuando circulen en paralelo si sopla fuerte viento lateral por la izquierda?",
 "opciones": [
 "No, si ambos vehículos tienen el mismo volumen y peso.",
@@ -6551,7 +7166,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 313,
+"id": 354,
 "enunciado": "El consumo de alcohol, ¿afecta al tiempo que tarda en reaccionar el conductor ante una situación de emergencia?",
 "opciones": [
 "Sí; el tiempo de reacción aumenta.",
@@ -6572,7 +7187,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 314,
+"id": 355,
 "enunciado": "Si arrastra con su turismo un remolque ligero, ¿está obligado a llevar entre sus accesorios un equipo homologado de extinción de incendios en condiciones de uso?",
 "opciones": [
 "No.",
@@ -6593,7 +7208,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 315,
+"id": 356,
 "enunciado": "El estilo de conducción de una motocicleta, ¿puede influir en el consumo de combustible?",
 "opciones": [
 "No, solo depende de la cilindrada de la motocicleta.",
@@ -6614,7 +7229,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 316,
+"id": 357,
 "enunciado": "¿Qué es un catadióptrico?",
 "opciones": [
 "Un dispositivo que refleja la luz procedente de una fuente luminosa.",
@@ -6635,7 +7250,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 317,
+"id": 358,
 "enunciado": "¿Está permitida la circulación de vehículos cuyo nivel de emisión de ruidos supere los límites establecidos?",
 "opciones": [
 "Sí.",
@@ -6656,7 +7271,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 318,
+"id": 359,
 "enunciado": "En esta carretera, ¿dónde se puede estacionar?",
 "opciones": [
 "Dentro de la vía, en el lado derecho.",
@@ -6677,7 +7292,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 319,
+"id": 360,
 "enunciado": "Los conductores jóvenes, en general, ¿evalúan peor los 4 riesgos de la circulación?",
 "opciones": [
 "No.",
@@ -6698,7 +7313,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 320,
+"id": 361,
 "enunciado": "Respecto a los efectos secundarios de los medicamentos y su influencia en la conducción, tras ingerir fármacos somníferos o hipnóticos normalmente...",
 "opciones": [
 "disminuye el tiempo de reacción.",
@@ -6719,7 +7334,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 321,
+"id": 362,
 "enunciado": "Durante el día, las motocicletas están obligadas a llevar encendida la luz de cruce...",
 "opciones": [
 "cuando circulen por cualquier tipo de vía.",
@@ -6740,7 +7355,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 322,
+"id": 363,
 "enunciado": "Un conductor que, pese a poder hacerlo sin riesgo, no se detiene a ayudar a una víctima grave de accidente que se encuentra desamparada, ¿podría estar cometiendo un delito?",
 "opciones": [
 "Sí, aunque el conductor no esté implicado en el accidente.",
@@ -6761,7 +7376,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 323,
+"id": 364,
 "enunciado": "En una motocicleta con mandos independientes para cada uno de los frenos, ¿dónde se acciona generalmente el freno delantero?",
 "opciones": [
 "En el manillar, con la mano derecha.",
@@ -6782,7 +7397,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 324,
+"id": 365,
 "enunciado": "¿Puede perder puntos de su saldo si pone en peligro a un grupo de ciclistas durante un adelantamiento?",
 "opciones": [
 "Sí, es una infracción que supone la pérdida de 6 puntos.",
@@ -6803,7 +7418,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 325,
+"id": 366,
 "enunciado": "En esta vía se ha habilitado un carril adicional circunstancial, ¿a qué velocidad, como mínimo, deberán circular por dicho carril?",
 "opciones": [
 "60 km/h o inferior si así estuviese señalizado.",
@@ -6824,7 +7439,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 326,
+"id": 367,
 "enunciado": "Cuando se circula con lluvia disminuye la visibilidad, sobre todo si la lluvia es fuerte. ¿Qué precauciones debe tomar?",
 "opciones": [
 "Debe aumentar la distancia de seguridad y reducir la velocidad.",
@@ -6845,7 +7460,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 327,
+"id": 368,
 "enunciado": "Cuando viaje con su mascota, ¿en qué lugar del vehículo podrá situarse para evitar que interfiera en la conducción?",
 "opciones": [
 "En el asiento delantero ya que si dispone de airbag frontal estará doblemente protegida.",
@@ -6866,7 +7481,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 328,
+"id": 369,
 "enunciado": "¿Qué indica la señal colocada en la parte trasera del vehículo compuesta por una lámina reflectante de color amarillo rodeada de una lámina fluorescente de color rojo?",
 "opciones": [
 "Que el vehículo o el conjunto de vehículos tiene una longitud superior a 12 metros.",
@@ -6887,7 +7502,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 329,
+"id": 370,
 "enunciado": "Esta señal indica peligro por la proximidad de...",
 "opciones": [
 "un tramo de vía con posible obstrucción en la calzada.",
@@ -6908,7 +7523,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 330,
+"id": 371,
 "enunciado": "Esta señal indica que...",
 "opciones": [
 "a su altura puede realizar un cambio de sentido de la marcha a la derecha.",
@@ -6929,7 +7544,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 331,
+"id": 372,
 "enunciado": "A un turismo, ¿le está permitido circular con láminas adhesivas o cortinillas contra el sol en las ventanillas traseras?",
 "opciones": [
 "No, en ningún caso.",
@@ -6950,7 +7565,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 332,
+"id": 373,
 "enunciado": "¿Cuándo está permitido estacionar en un túnel?",
 "opciones": [
 "Cuando el túnel está suficientemente iluminado.",
@@ -6971,7 +7586,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 333,
+"id": 374,
 "enunciado": "En esta intersección con señal de STOP y buena visibilidad, ¿qué debe hacer?",
 "opciones": [
 "Detenerse siempre una vez superada la línea transversal.",
@@ -6992,7 +7607,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 334,
+"id": 375,
 "enunciado": "En una calzada de doble sentido de circulación en la que no 4 están delimitados los carriles, está obligado a circular por...",
 "opciones": [
 "el lugar de la calzada que crea más seguro.",
@@ -7013,7 +7628,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 335,
+"id": 376,
 "enunciado": "En defecto de señalización, ¿cuál es la velocidad máxima que no deberán rebasar los vehículos en una autopista dentro de poblado?",
 "opciones": [
 "50 km/h, pudiéndola superar en 20 km/h. para adelantar.",
@@ -7034,7 +7649,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 336,
+"id": 377,
 "enunciado": "Con lluvia intensa, una motocicleta, ¿puede sufrir “aquaplaning”?",
 "opciones": [
 "No; solo los turismos pueden sufrir “aquaplaning”.",
@@ -7055,7 +7670,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 337,
+"id": 378,
 "enunciado": "Cuando el fondo de las señales de orientación es amarillo, indica que se circula por...",
 "opciones": [
 "un tramo de vía en obras.",
@@ -7076,7 +7691,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 338,
+"id": 379,
 "enunciado": "Los paneles de mensaje variable, ¿pueden utilizarse para dar instrucciones de obligado cumplimiento?",
 "opciones": [
 "No, son meramente informativos.",
@@ -7097,7 +7712,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 339,
+"id": 380,
 "enunciado": "En una vía urbana, las operaciones de carga y descarga se realizarán...",
 "opciones": [
 "depositando la mercancía en la calzada o en zonas peatonales.",
@@ -7118,7 +7733,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 340,
+"id": 381,
 "enunciado": "Conducir bajo los síntomas de una alergia respiratoria, ¿aumenta el riesgo de sufrir un accidente?",
 "opciones": [
 "Sí, pero solo durante la primavera debido a la mayor presencia de polen.",
@@ -7139,7 +7754,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 341,
+"id": 382,
 "enunciado": "Los resaltos en los pasos para peatones, ¿se consideran obstáculos en la calzada?",
 "opciones": [
 "Sí, cuando son metálicos.",
@@ -7160,7 +7775,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 342,
+"id": 383,
 "enunciado": "¿Está permitido estacionar en las calles residenciales?",
 "opciones": [
 "No, excepto en los lugares señalizados.",
@@ -7181,7 +7796,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 343,
+"id": 384,
 "enunciado": "En caso de producirse un incendio en el interior de un túnel, ¿qué medida de seguridad, entre otras, adoptará el conductor?",
 "opciones": [
 "Apartará su vehículo a la derecha para dejar paso a los servicios de emergencia.",
@@ -7202,7 +7817,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 344,
+"id": 385,
 "enunciado": "En caso de condiciones meteorológicas muy desfavorables, como lluvia muy intensa, ¿se puede circular con la luz antiniebla trasera encendida?",
 "opciones": [
 "No, solo puede utilizarse con niebla densa.",
@@ -7223,7 +7838,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 345,
+"id": 386,
 "enunciado": "En una carretera convencional que transcurre fuera de poblado, ¿cuál es la velocidad máxima que le está permitido alcanzar a un turismo para adelantar?",
 "opciones": [
 "120 km/h",
@@ -7244,7 +7859,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 346,
+"id": 387,
 "enunciado": "Los vehículos para personas con movilidad reducida, si no existe vía o parte de ella que les está especialmente destinada...",
 "opciones": [
 "deben circular por el arcén, siempre que sea transitable y suficiente.",
@@ -7265,7 +7880,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 347,
+"id": 388,
 "enunciado": "La marca vial es continua; ¿está permitido adelantar?",
 "opciones": [
 "Sí, porque el camión circula despacio.",
@@ -7286,7 +7901,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 348,
+"id": 389,
 "enunciado": "Para ahorrar carburante, ¿dónde se debe cargar el equipaje?",
 "opciones": [
 "En el maletero.",
@@ -7307,7 +7922,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 349,
+"id": 390,
 "enunciado": "Para circular con mayor seguridad...",
 "opciones": [
 "el vehículo debe estar en perfecto estado pero no es necesario que lo esté el conductor.",
@@ -7328,7 +7943,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 350,
+"id": 391,
 "enunciado": "En caso de niebla espesa, ¿qué luces debe utilizar el conductor de un turismo?",
 "opciones": [
 "Las luces antiniebla delanteras y las de emergencia.",
@@ -7349,7 +7964,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 351,
+"id": 392,
 "enunciado": "En esta intersección con “circulación giratoria”, que no es glorieta, ¿a qué vehículos debe ceder el paso?",
 "opciones": [
 "A los que entren por la izquierda.",
@@ -7370,7 +7985,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 352,
+"id": 393,
 "enunciado": "Una exposición continuada del vehículo a temperaturas elevadas, puede provocar un deterioro mayor de las gomas de las escobillas de los limpiaparabrisas. ¿Cuáles son los efectos más comunes?",
 "opciones": [
 "Se reblandecen y pierden elasticidad.",
@@ -7391,7 +8006,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 353,
+"id": 394,
 "enunciado": "¿Cuál es la función del freno de mano?",
 "opciones": [
 "Reducir la velocidad del vehículo en ciudad.",
@@ -7412,7 +8027,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 354,
+"id": 395,
 "enunciado": "¿Qué debe hacer para avisar de que va a disminuir la velocidad de su vehículo de modo considerable?",
 "opciones": [
 "Encender las luces de posición.",
@@ -7433,7 +8048,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 355,
+"id": 396,
 "enunciado": "En el supuesto en el que existan dos señales del mismo tipo con indicaciones que parezcan estar en contradicción, ¿cuál de ellas tendrá prioridad?",
 "opciones": [
 "La más restrictiva.",
@@ -7454,7 +8069,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 356,
+"id": 397,
 "enunciado": "¿Qué debe hacer si se ve obligado a detener su vehículo en el interior de un túnel por motivos de circulación?",
 "opciones": [
 "Encender la señal de emergencia y las luces de carretera.",
@@ -7475,7 +8090,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 357,
+"id": 398,
 "enunciado": "¿Cómo hay que colocarse el cinturón de seguridad?",
 "opciones": [
 "Muy ajustado, aunque apriete un poco, para que sujete mejor.",
@@ -7496,7 +8111,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 358,
+"id": 399,
 "enunciado": "¿Con qué objetivo se establecen los límites de velocidad?",
 "opciones": [
 "Para garantizar la máxima seguridad y fluidez.",
@@ -7517,7 +8132,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 359,
+"id": 400,
 "enunciado": "El consumo de drogas de abuso o ilegales, ¿puede alterar la percepción del riesgo?",
 "opciones": [
 "Sí, aumenta y el conductor percibe mejor las situaciones de riesgo.",
@@ -7538,7 +8153,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 360,
+"id": 401,
 "enunciado": "Para incorporarse a la circulación, ¿se puede dar marcha atrás?",
 "opciones": [
 "Sí, es una de las maniobras en las que está permitido.",
@@ -7559,7 +8174,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 361,
+"id": 402,
 "enunciado": "Una vez iniciado el adelantamiento, se producen circunstancias que hacen difícil su finalización sin provocar riesgos; ¿qué está obligado a hacer el conductor?",
 "opciones": [
 "Aumentar la velocidad para finalizar el adelantamiento.",
@@ -7580,7 +8195,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 362,
+"id": 403,
 "enunciado": "En los lugares donde se impida la visibilidad de la señalización a los usuarios a quienes les afecta está prohibido...",
 "opciones": [
 "parar, pero está permitido estacionar.",
@@ -7601,7 +8216,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 363,
+"id": 404,
 "enunciado": "Un conductor con sueño...",
 "opciones": [
 "tarda menos tiempo en reaccionar.",
@@ -7622,7 +8237,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 364,
+"id": 405,
 "enunciado": "Los sistemas de navegación, ¿pueden ayudarnos a controlar la velocidad de circulación?",
 "opciones": [
 "Solo cuando se circula a velocidades superiores a 100 km/h.",
@@ -7643,7 +8258,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 365,
+"id": 406,
 "enunciado": "En un turismo, ¿cuántos chalecos reflectantes es obligatorio llevar?",
 "opciones": [
 "Uno.",
@@ -7664,7 +8279,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 366,
+"id": 407,
 "enunciado": "Queda atascado con su turismo en una zona de barro donde patinan las ruedas motrices. ¿Cuál es la forma más adecuada de actuar para seguir circulando?",
 "opciones": [
 "Pisar a fondo el pedal acelerador para conseguir mayor tracción en las ruedas y así lograr mayor adherencia",
@@ -7685,7 +8300,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 367,
+"id": 408,
 "enunciado": "Si el pasajero de una motocicleta no utiliza el casco de protección, la responsabilidad es del...",
 "opciones": [
 "conductor.",
@@ -7706,7 +8321,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 368,
+"id": 409,
 "enunciado": "¿Qué precaución puede adoptar para evitar el riesgo de atropello a ciclistas?",
 "opciones": [
 "Iniciar un adelantamiento cuando se acerque un grupo de ciclistas en sentido contrario.",
@@ -7727,7 +8342,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 369,
+"id": 410,
 "enunciado": "El seguro de suscripción obligatoria, ¿cubre los daños causados al conductor no culpable de un accidente?",
 "opciones": [
 "Sí, los daños personales, pero no los materiales.",
@@ -7748,7 +8363,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 370,
+"id": 411,
 "enunciado": "Si su permiso de conducir tiene un año de antigüedad, ¿cuál es tasa máxima permitida de alcohol?",
 "opciones": [
 "0,25 miligramos por litro de aire espirado.",
@@ -7769,7 +8384,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 371,
+"id": 412,
 "enunciado": "Esta señal indica que se acerca a un cruce...",
 "opciones": [
 "Sin preferencia de paso.",
@@ -7790,7 +8405,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 372,
+"id": 413,
 "enunciado": "¿Influye la velocidad en el campo visual del conductor?",
 "opciones": [
 "Sí; el campo visual disminuye al aumentar la velocidad.",
@@ -7811,7 +8426,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 373,
+"id": 414,
 "enunciado": "A una vía así señalizada, ¿qué vehículos no pueden acceder?",
 "opciones": [
 "Turismos.",
@@ -7832,7 +8447,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 374,
+"id": 415,
 "enunciado": "Tomar un café o un té, ¿son estrategias eficaces para reducir la tasa de alcoholemia?",
 "opciones": [
 "No.",
@@ -7853,7 +8468,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 375,
+"id": 416,
 "enunciado": "El accidente más frecuente por el uso del teléfono móvil mientras se conduce es...",
 "opciones": [
 "La salida de la vía.",
@@ -7874,7 +8489,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 376,
+"id": 417,
 "enunciado": "¿Por qué es aconsejable circular en vías urbanas respetando en todo momento la velocidad establecida para cada tramo de vía?",
 "opciones": [
 "Porque el motor del vehículo consume menos combustible si trabaja a altas revoluciones.",
@@ -7895,7 +8510,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 377,
+"id": 418,
 "enunciado": "El efecto submarino, que en un accidente de tráfico puede provocar graves lesiones al conductor, está relacionado con...",
 "opciones": [
 "Una incorrecta presión de los neumáticos.",
@@ -7916,7 +8531,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 378,
+"id": 419,
 "enunciado": "En este caso en que la señalización se contradice, prevalece la señal...",
 "opciones": [
 "Más restrictiva.",
@@ -7937,7 +8552,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 379,
+"id": 420,
 "enunciado": "En una vía urbana de sentido único, está permitido estacionar en el lado...",
 "opciones": [
 "Derecho.",
@@ -7958,7 +8573,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 380,
+"id": 421,
 "enunciado": "Si aún no ha salido el sol pero existe buena visibilidad, ¿qué alumbrado debe utilizar si circula por una vía interurbana?",
 "opciones": [
 "El alumbrado de posición y el de corto alcance.",
@@ -7979,7 +8594,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 381,
+"id": 422,
 "enunciado": "En caso de existir niebla espesa, además de reducir la visibilidad, ¿puede disminuir la adherencia de los neumáticos sobre la calzada?",
 "opciones": [
 "Sí, pero solamente en caso de frenar bruscamente.",
@@ -8000,7 +8615,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 382,
+"id": 423,
 "enunciado": "¿Qué debe hacer cuando vaya a adelantar a un ciclista que lleva un pasajero?",
 "opciones": [
 "Aumentar la precaución ya que la bicicleta se puede desestabilizar con mayor facilidad.",
@@ -8021,7 +8636,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 383,
+"id": 424,
 "enunciado": "Si un agente de tráfico, desde su vehículo, le ordena detenerse mediante el encendido de un dispositivo con una luz amarilla intermitente hacia delante, ¿dónde deberá hacerlo?",
 "opciones": [
 "En el lado derecho de la calzada, detr s del veh culo policial.",
@@ -8042,7 +8657,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 384,
+"id": 425,
 "enunciado": "Si conduce con frecuencia y consume antihistamínicos para tratar una alergia respiratoria, es conveniente...",
 "opciones": [
 "Utilizar antihistamínicos no sedantes, que no producen somnolencia.",
@@ -8063,7 +8678,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 385,
+"id": 426,
 "enunciado": "Situado en un vehículo, ¿qué identifica la señal V-25 Distintivo ambiental?",
 "opciones": [
 "Su clasificación ambiental en función de su nivel de emisiones y combustible empleado.",
@@ -8084,7 +8699,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 386,
+"id": 427,
 "enunciado": "El conductor de un turismo se ve obligado a realizar el traslado de un enfermo en servicio de urgencia; ¿qué luces debe llevar encendidas?",
 "opciones": [
 "Las de emergencia.",
@@ -8105,7 +8720,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 387,
+"id": 428,
 "enunciado": "En este cruce, ¿qué se debe hacer?",
 "opciones": [
 "Detenerse solo si se aproximan vehículos por la derecha.",
@@ -8126,7 +8741,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 388,
+"id": 429,
 "enunciado": "El carril izquierdo está abierto en sentido contrario al habitual; ¿a qué velocidad máxima pueden circular los vehículos que circulan por el carril derecho?",
 "opciones": [
 "A la velocidad máxima de la vía, 120 km/h.",
@@ -8147,7 +8762,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 389,
+"id": 430,
 "enunciado": "¿Está permitido circular por una autovía por debajo del límite mínimo de velocidad establecido para dicha vía sin causa justificada",
 "opciones": [
 "No, porque es una velocidad anormalmente reducida.",
@@ -8168,7 +8783,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 390,
+"id": 431,
 "enunciado": "Una cuadrícula de marcas amarillas pintada en el suelo indica...",
 "opciones": [
 "que no se puede franquear la intersección.",
@@ -8189,7 +8804,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 391,
+"id": 432,
 "enunciado": "El conductor de un vehículo extiende el brazo horizontalmente con la palma de la mano hacia atrás, ¿qué indica?",
 "opciones": [
 "Que va a girar a la izquierda.",
@@ -8210,7 +8825,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 392,
+"id": 433,
 "enunciado": "Entre los gastos sanitarios derivados de los accidentes de tráfico con víctimas se encuentran...",
 "opciones": [
 "los derivados por la pérdida de producción de personas empleadas.",
@@ -8231,7 +8846,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 393,
+"id": 434,
 "enunciado": "En general, un conductor con estrés...",
 "opciones": [
 "se distrae con mayor facilidad.",
@@ -8252,7 +8867,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 394,
+"id": 435,
 "enunciado": "En caso de contradicción entre señales del mismo tipo, ¿cuál prevalecerá?",
 "opciones": [
 "La menos restrictiva.",
@@ -8273,7 +8888,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 395,
+"id": 436,
 "enunciado": "Una persona provista de un certificado médico que le exima de utilizar los sistemas de retención del vehículo, ¿está obligada a llevar abrochado el cinturón de seguridad?",
 "opciones": [
 "Sí.",
@@ -8294,7 +8909,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 396,
+"id": 437,
 "enunciado": "Debido a una retención de circulación tiene que reducir, de modo considerable, la velocidad de su vehículo. ¿Debe advertir, siempre que sea posible, a los vehículos que circulan detrás?",
 "opciones": [
 "Sí, con el empleo de la luz de emergencia.",
@@ -8315,7 +8930,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 397,
+"id": 438,
 "enunciado": "En vías urbanas de doble sentido de circulación, ¿en qué lado de la calzada puede estacionar un turismo?",
 "opciones": [
 "A ambos lados cuando la línea de separación de los sentidos sea discontinua.",
@@ -8336,7 +8951,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 398,
+"id": 439,
 "enunciado": "Si no está implicado en un accidente, ¿debe prestar auxilio a los heridos?",
 "opciones": [
 "Solo si lo solicita algún herido.",
@@ -8357,7 +8972,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 399,
+"id": 440,
 "enunciado": "En una autovía, el límite de velocidad para una motocicleta es de...",
 "opciones": [
 "120 km/h, pudiéndose superar en 20 km/h para adelantar.",
@@ -8378,7 +8993,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 400,
+"id": 441,
 "enunciado": "La velocidad, ¿es un factor de riesgo que produce accidentes?",
 "opciones": [
 "No, si el vehículo dispone de los últimos sistemas de seguridad.",
@@ -8399,7 +9014,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 401,
+"id": 442,
 "enunciado": "¿Qué alumbrado deberá mantener encendido un vehículo estacionado durante la noche en el arcén de una travesía insuficientemente iluminada?",
 "opciones": [
 "Ninguno, ya que es un estacionamiento dentro de poblado.",
@@ -8420,7 +9035,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 402,
+"id": 443,
 "enunciado": "¿Qué usuarios deben obedecer el semáforo de la fotografía?",
 "opciones": [
 "Los conductores de todos los vehículos de dos ruedas.",
@@ -8441,7 +9056,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 403,
+"id": 444,
 "enunciado": "Cuando está lloviendo, ¿qué presión deben tener los neumáticos?",
 "opciones": [
 "Mayor que la aconsejada por el fabricante.",
@@ -8462,7 +9077,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 404,
+"id": 445,
 "enunciado": "¿Existe relación entre consumo de drogas de abuso o ilegales y accidentes de tráfico?",
 "opciones": [
 "Sí; las drogas alteran gravemente las capacidades necesarias para conducir.",
@@ -8483,7 +9098,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 405,
+"id": 446,
 "enunciado": "En un carril VAO, ¿puede circular un turismo que arrastra un remolque de menos de 750 kg de M.M.A.?",
 "opciones": [
 "Sí, pero solo de día.",
@@ -8504,7 +9119,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 406,
+"id": 447,
 "enunciado": "Una embarazada, ¿debe llevar puesto el cinturón de seguridad?",
 "opciones": [
 "Sí, pero solo en vías interurbanas.",
@@ -8525,7 +9140,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 407,
+"id": 448,
 "enunciado": "Con esta señalización, ¿a qué velocidad debe circular?",
 "opciones": [
 "Al menos a 30 km/h.",
@@ -8546,7 +9161,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 408,
+"id": 449,
 "enunciado": "Debido al deterioro psicofísico consecuencia del envejecimiento, ¿qué situaciones de tráfico ofrecen más dificultades a las personas mayores?",
 "opciones": [
 "Los giros a la izquierda, especialmente en vías urbanas.",
@@ -8567,7 +9182,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 409,
+"id": 450,
 "enunciado": "De las siguientes, ¿cuál es una obligación que corresponde al titular del vehículo?",
 "opciones": [
 "Verificar que las placas de matrícula del vehículo no presentan obstáculos que impidan su lectura.",
@@ -8588,7 +9203,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 410,
+"id": 451,
 "enunciado": "El conductor de un turismo, ¿qué debe hacer para incorporarse a la circulación?",
 "opciones": [
 "Solo señalizar la maniobra, porque los demás tienen que ceder el paso.",
@@ -8609,7 +9224,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 411,
+"id": 452,
 "enunciado": "Como mantenimiento preventivo, ¿es conveniente realizar una revisión periódica del sistema de alumbrado del vehículo?",
 "opciones": [
 "Sí, para comprobar su correcto reglado y funcionamiento.",
@@ -8630,7 +9245,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 412,
+"id": 453,
 "enunciado": "Siempre que exista espacio suficiente y adoptando las máximas precauciones, está permitido adelantar por la derecha...",
 "opciones": [
 "en vías interurbanas, en las intersecciones y sus proximidades.",
@@ -8651,7 +9266,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 413,
+"id": 454,
 "enunciado": "En caso de estar implicado en un accidente, ¿debe detenerse para ayudar a restablecer la seguridad de la circulación?",
 "opciones": [
 "No, esa tarea corresponde a la policía de tráfico.",
@@ -8672,7 +9287,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 414,
+"id": 455,
 "enunciado": "Si conduce una motocicleta por una autovía con tres o más carriles, ¿le está permitido circular por el carril situado más a la izquierda?",
 "opciones": [
 "Sí, cuando las circunstancias del tráfico o la vía lo aconsejen.",
@@ -8693,7 +9308,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 415,
+"id": 456,
 "enunciado": "Si conduce una motocicleta, ¿es aconsejable utilizar guantes?",
 "opciones": [
 "Sí; su uso es obligatorio en todo tipo de vías.",
@@ -8714,7 +9329,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 416,
+"id": 457,
 "enunciado": "La señal indica que...",
 "opciones": [
 "está en un callejón sin salida y debe retroceder.",
@@ -8735,7 +9350,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 417,
+"id": 458,
 "enunciado": "¿Para qué sirve el carril de deceleración?",
 "opciones": [
 "Para que circulen los vehículos lentos.",
@@ -8756,7 +9371,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 418,
+"id": 459,
 "enunciado": "En una vía interurbana insuficientemente iluminada, un turismo circula a menos de 40 km/h; ¿puede circular utilizando solo la luz de posición y la de corto alcance?",
 "opciones": [
 "Sí, aunque puede encender la de largo alcance si no deslumbra a otros usuarios.",
@@ -8777,7 +9392,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 419,
+"id": 460,
 "enunciado": "Las marcas blancas y rojas de la calzada, ¿qué indican?",
 "opciones": [
 "Una zona reservada para la salida de competiciones de coches.",
@@ -8798,7 +9413,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 420,
+"id": 461,
 "enunciado": "¿Es recomendable tener especial cuidado al adelantar a un grupo de ciclistas en los ascensos prolongados?",
 "opciones": [
 "No; los adelantamientos a ciclistas no implican riesgo alguno.",
@@ -8819,7 +9434,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 421,
+"id": 462,
 "enunciado": "Un agente circula en una moto portando una bandera verde; ¿qué indica?",
 "opciones": [
 "La calzada está abierta, pero hay que extremar la atención.",
@@ -8840,7 +9455,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 422,
+"id": 463,
 "enunciado": "En general, bajo los efectos de la cocaína...",
 "opciones": [
 "aumenta la capacidad de concentración del conductor.",
@@ -8861,7 +9476,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 423,
+"id": 464,
 "enunciado": "Cuando la carga sobresale de un vehículo, ¿es obligatorio señalizarla con el panel de la imagen?",
 "opciones": [
 "No, excepto para los vehículos destinados al transporte de mercancías.",
@@ -8882,7 +9497,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 424,
+"id": 465,
 "enunciado": "Buscar una emisora de radio o manipular el reproductor de música, ¿pueden distraer al conductor?",
 "opciones": [
 "No.",
@@ -8903,7 +9518,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 425,
+"id": 466,
 "enunciado": "En una vía urbana con un carril en cada sentido, deberá circular...",
 "opciones": [
 "lo más cerca posible del borde derecho de la calzada.",
@@ -8924,7 +9539,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 426,
+"id": 467,
 "enunciado": "Un conductor circula por una calzada muy mojada; si para frenar necesita pisar a fondo el pedal de freno, ¿a qué puede ser debido, principalmente?",
 "opciones": [
 "A un fallo del sistema de frenos.",
@@ -8945,7 +9560,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 427,
+"id": 468,
 "enunciado": "Esta marca transversal continua, ¿está permitido franquearla sin detenerse antes?",
 "opciones": [
 "No, nunca.",
@@ -8966,7 +9581,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 428,
+"id": 469,
 "enunciado": "Normalmente, ¿qué ocurre cuando un conductor sufre una distracción al volante?",
 "opciones": [
 "Enciende las luces de emergencia o pisa el pedal de freno reiteradamente.",
@@ -8987,7 +9602,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 429,
+"id": 470,
 "enunciado": "En una vía con un carril para cada sentido de la marcha, ¿está permitido que un conductor adelante a varios vehículos a la vez?",
 "opciones": [
 "No, en ningún caso.",
@@ -9008,7 +9623,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 430,
+"id": 471,
 "enunciado": "Un peatón, ¿puede estar obligado a realizar una prueba de alcoholemia?",
 "opciones": [
 "Sí, cuando esté implicado directamente como posible responsable de un accidente.",
@@ -9029,7 +9644,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 431,
+"id": 472,
 "enunciado": "Si un conductor se encuentra esta señal, debe saber que en la próxima intersección...",
 "opciones": [
 "tiene prioridad sobre los vehículos que se acerquen tanto por la derecha como por la izquierda.",
@@ -9050,7 +9665,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 432,
+"id": 473,
 "enunciado": "En un viaje largo es aconsejable descansar...",
 "opciones": [
 "siempre que se encuentre un área de descanso.",
@@ -9071,7 +9686,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 433,
+"id": 474,
 "enunciado": "La señal de velocidad máxima pintada sobre un carril, ¿qué indica?",
 "opciones": [
 "Prohibido circular a más de 60 kilómetros por hora en todos los carriles.",
@@ -9092,7 +9707,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 434,
+"id": 475,
 "enunciado": "El conductor de un vehículo de distribución de mercancías ¿cuándo podrá circular por vía urbana sin utilizar el cinturón de seguridad?",
 "opciones": [
 "En trayectos cortos, cuando realice sucesivas operaciones de carga y descarga.",
@@ -9115,7 +9730,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 435,
+"id": 476,
 "enunciado": "Si un vehículo estacionado se incorpora a la circulación, ¿tiene prioridad para realizar la maniobra?",
 "opciones": [
 "Sí, en cualquier caso.",
@@ -9136,7 +9751,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 436,
+"id": 477,
 "enunciado": "Esta señal indica la situación de un lugar donde se puede...",
 "opciones": [
 "estacionar el vehículo cuando está averiado.",
@@ -9157,7 +9772,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 437,
+"id": 478,
 "enunciado": "¿Cómo se llama la distancia que recorre un vehículo desde que el conductor percibe un estímulo hasta que se responde al mismo?",
 "opciones": [
 "Distancia de frenado.",
@@ -9178,7 +9793,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 438,
+"id": 479,
 "enunciado": "¿Cuál es, como norma general, la velocidad máxima a la que le está permitido circular a un turismo por una carretera convencional?",
 "opciones": [
 "80 km/h.",
@@ -9199,7 +9814,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 439,
+"id": 480,
 "enunciado": "Dos vehículos del mismo tipo se encuentran justo en la mitad de este estrechamiento, en el que la prioridad no está señalizada. ¿Cuál de ellos tendrá preferencia de paso?",
 "opciones": [
 "El vehículo que tenga que dar marcha atrás una menor distancia.",
@@ -9220,7 +9835,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 440,
+"id": 481,
 "enunciado": "Cuando no se puede circular hacia adelante ni cambiar de dirección o sentido de la marcha, ¿se permite circular marcha atrás?",
 "opciones": [
 "Sí, pero solo con el recorrido mínimo indispensable.",
@@ -9241,7 +9856,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 441,
+"id": 482,
 "enunciado": "Si ha instalado en su vehículo neumáticos de invierno, ¿es conveniente sustituirlos cuando las temperaturas comiencen a ser más cálidas?",
 "opciones": [
 "Sí, porque cuando la temperatura es más cálida se desgastan con más rapidez.",
@@ -9262,7 +9877,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 442,
+"id": 483,
 "enunciado": "En una travesía, ¿está permitido circular con la luz de largo alcance encendida?",
 "opciones": [
 "No.",
@@ -9283,7 +9898,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 443,
+"id": 484,
 "enunciado": "¿Está permitido que las motocicletas circulen por un carril reservado para vehículos con alta ocupación (VAO)?",
 "opciones": [
 "No.",
@@ -9304,7 +9919,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 444,
+"id": 485,
 "enunciado": "El alcohol desaparece de la sangre...",
 "opciones": [
 "rápidamente, eliminándose por completo una hora después de su consumo.",
@@ -9325,7 +9940,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 445,
+"id": 486,
 "enunciado": "¿Es seguro conducir después de haber consumido anfetaminas?",
 "opciones": [
 "No.",
@@ -9346,7 +9961,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 446,
+"id": 487,
 "enunciado": "Los conductores de turismos, ¿están obligados a llevar en su vehículo una rueda de uso temporal y las herramientas indispensables para su cambio?",
 "opciones": [
 "No, ya que puede sustituirse por un sistema alternativo que permita la movilidad.",
@@ -9367,7 +9982,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 447,
+"id": 488,
 "enunciado": "Los conductores, ¿pueden llevar en los oídos cascos o auriculares conectados a un teléfono móvil mientras conducen?",
 "opciones": [
 "No, excepto los conductores de bicicletas y los de vehículos de movilidad personal.",
@@ -9388,7 +10003,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 448,
+"id": 489,
 "enunciado": "Los accidentes de tráfico en los que el sueño es el principal factor de riesgo, ¿pueden suceder durante las horas diurnas?",
 "opciones": [
 "Sí, especialmente entre las dos y las cuatro de la tarde.",
@@ -9409,7 +10024,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 449,
+"id": 490,
 "enunciado": "La obligación de dejar espacio suficiente para permitir el adelantamiento no será aplicable...",
 "opciones": [
 "donde esté prohibido el adelantamiento.",
@@ -9430,7 +10045,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 450,
+"id": 491,
 "enunciado": "Los conductores de bicicletas tienen prioridad de paso respecto a los vehículos de motor...",
 "opciones": [
 "en las zonas peatonales debidamente señalizadas.",
@@ -9451,7 +10066,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 451,
+"id": 492,
 "enunciado": "¿Qué debe llevar todo peatón que transite de noche por el arcén de una vía fuera de poblado?",
 "opciones": [
 "Un catadióptrico amarillo que pueda verse a una distancia mínima de 50 metros.",
@@ -9472,7 +10087,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 452,
+"id": 493,
 "enunciado": "Consumir alcohol con el estómago lleno, ¿influye en la tasa de alcoholemia?",
 "opciones": [
 "Sí; el alcohol se absorbe más lentamente, pero esto no evita el riesgo de accidente.",
@@ -9493,7 +10108,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 453,
+"id": 494,
 "enunciado": "Además de estar regulado a la altura idónea, ¿qué separación debe existir entre el reposacabezas y la cabeza para que sea eficaz?",
 "opciones": [
 "La mínima posible y nunca superior a 4 centímetros.",
@@ -9514,7 +10129,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 454,
+"id": 495,
 "enunciado": "Como norma general, en una vía interurbana de doble sentido de la circulación está permitido parar fuera de la calzada...",
 "opciones": [
 "en el lado izquierdo y dejando libre la parte transitable del arcén.",
@@ -9535,7 +10150,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 455,
+"id": 496,
 "enunciado": "Si un conductor novel presenta una tasa del alcohol en aire espirado de 0,20 miligramos por litro, el agente de tráfico, ¿le realizará una segunda prueba de alcoholemia?",
 "opciones": [
 "No; para ello debe tener una tasa superior a 0,25 miligramos por litro.",
@@ -9556,7 +10171,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 456,
+"id": 497,
 "enunciado": "Circula con un turismo que arrastra un remolque de menos de 750 kg. de M.M.A. en el que transporta mercancías. En cuanto a la distribución de la carga, ¿debe tomar precauciones especiales?",
 "opciones": [
 "Sí, la carga debe estar bien distribuida e ir bien sujeta para evitar que se desplace y pueda llegar a desestabilizar al vehículo.",
@@ -9577,7 +10192,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 457,
+"id": 498,
 "enunciado": "Si padece una alergia respiratoria, ¿es conveniente circular con las ventanas del vehículo abiertas?",
 "opciones": [
 "Sí, para llevar bien ventilado el interior del vehículo.",
@@ -9598,7 +10213,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 458,
+"id": 499,
 "enunciado": "¿Es necesario revisar el funcionamiento del sistema de alumbrado de un vehículo?",
 "opciones": [
 "Solo si el vehículo no lleva instaladas luces de xenón.",
@@ -9619,7 +10234,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 459,
+"id": 500,
 "enunciado": "En vías interurbanas, ¿cuál es la infracción más habitual que cometen los peatones víctimas de atropello?",
 "opciones": [
 "No respetar los semáforos.",
@@ -9640,7 +10255,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 460,
+"id": 501,
 "enunciado": "Cuando las indicaciones de un semáforo y una señal de balizamiento se contradicen, prevalece…",
 "opciones": [
 "La señal de balizamiento, por orden de prioridad.",
@@ -9661,7 +10276,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 461,
+"id": 502,
 "enunciado": "Al abandonar una autovía deberá…",
 "opciones": [
 "Reducir la velocidad de 60 km/h.",
@@ -9682,7 +10297,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 462,
+"id": 503,
 "enunciado": "El freno de pie, ¿sobre qué ruedas actúa?",
 "opciones": [
 "Sobre las ruedas delanteras.",
@@ -9703,7 +10318,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 463,
+"id": 504,
 "enunciado": "En una autopista con tres carriles para el mismo sentido, normalmente, ¿cuál debe utilizar?",
 "opciones": [
 "Cualquiera de ellos.",
@@ -9724,7 +10339,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 464,
+"id": 505,
 "enunciado": "Quiere girar a la derecha. ¿Cómo debe avisar a los demás conductores?",
 "opciones": [
 "Con las luces o con el claxon",
@@ -9745,7 +10360,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 465,
+"id": 506,
 "enunciado": "La lluvia, ¿afecta al agarre de las ruedas del vehículo a la calzada?",
 "opciones": [
 "No, el agarre es el mismo que cuando la calzada está seca.",
@@ -9766,7 +10381,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 466,
+"id": 507,
 "enunciado": "La señal a la izquierda de la fotografía indica que tienen prohibido adelantar…",
 "opciones": [
 "los turismos.",
@@ -9787,7 +10402,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 467,
+"id": 508,
 "enunciado": "Las señales azules, ¿qué indican?",
 "opciones": [
 "Que la autopista se termina.",
@@ -9808,7 +10423,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 468,
+"id": 509,
 "enunciado": "¿Qué debe hacer un peatón si, cuando va a cruzar una vía, se encuentra de frente a un agente con el brazo levantado verticalmente?",
 "opciones": [
 "Detenerse.",
@@ -9829,7 +10444,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 469,
+"id": 510,
 "enunciado": "De los siguientes, ¿cuál es un síntoma característico de la aparición de la fatiga durante la conducción?",
 "opciones": [
 "Se distingue mejor la información relevante de la irrelevante.",
@@ -9850,7 +10465,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 470,
+"id": 511,
 "enunciado": "Tras la exposición prolongada de un vehículo a altas temperaturas y al calor, ¿es conveniente revisar si sus faros y pilotos han sufrido algún deterioro?",
 "opciones": [
 "Sí, para comprobar de forma visual su estado y capacidad de iluminación.",
@@ -9871,7 +10486,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 471,
+"id": 512,
 "enunciado": "La tasa de alcoholemia en sangre más segura para circular es…",
 "opciones": [
 "0,0 gramos por litro.",
@@ -9892,7 +10507,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 472,
+"id": 513,
 "enunciado": "Sobrevalorar su capacidad de conducción o una menor percepción del riesgo son conductas que, en general, hacen que los conductores jóvenes…",
 "opciones": [
 "tengan menos probabilidad de sufrir un accidente.",
@@ -9913,7 +10528,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 473,
+"id": 514,
 "enunciado": "¿Está permitido que los vehículos prioritarios en servicio de urgencia utilicen únicamente la señal luminosa?",
 "opciones": [
 "Sí, cuando no suponga un peligro para los demás usuarios.",
@@ -9934,7 +10549,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 474,
+"id": 515,
 "enunciado": "En idénticas situaciones de tráfico, el tiempo de reacción…",
 "opciones": [
 "puede variar en función del estado psicofísico del conductor.",
@@ -9955,7 +10570,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 475,
+"id": 516,
 "enunciado": "El color del casco de protección de un motorista, ¿puede influir en su seguridad?",
 "opciones": [
 "No.",
@@ -9976,7 +10591,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 476,
+"id": 517,
 "enunciado": "La señal que se observa en la fotografía prohíbe…",
 "opciones": [
 "cambiar el sentido de la marcha y girar a la izquierda.",
@@ -9997,7 +10612,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 477,
+"id": 518,
 "enunciado": "Antes de abrir las puertas para bajar de un vehículo, debe cerciorarse siempre de que…",
 "opciones": [
 "no se ocasiona peligro a otros usuarios.",
@@ -10018,7 +10633,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 478,
+"id": 519,
 "enunciado": "En las intersecciones señalizadas, ¿cuál es la norma general que prevalece?",
 "opciones": [
 "Cumplir lo que la señal indica.",
@@ -10039,7 +10654,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 479,
+"id": 520,
 "enunciado": "Si toma analgésicos narcóticos para tratar algún dolor intenso, lo más aconsejable es…",
 "opciones": [
 "conducir con normalidad, ya que no tienen efectos secundarios.",
@@ -10060,7 +10675,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 480,
+"id": 521,
 "enunciado": "Respecto a la velocidad anormalmente reducida, ¿a qué velocidad mínima, salvo causa justificada, deberá circular una pick-up por una autovía?",
 "opciones": [
 "60 km/h.",
@@ -10081,7 +10696,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 481,
+"id": 522,
 "enunciado": "Al circular marcha atrás debe tener en cuenta que…",
 "opciones": [
 "no debe recorrer más de 10 metros.",
@@ -10102,7 +10717,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 482,
+"id": 523,
 "enunciado": "Si un conductor se niega a realizar las pruebas de detección alcohólica, los agentes de tráfico, ¿pueden inmovilizar su vehículo?",
 "opciones": [
 "Solo si presenta síntomas evidentes de haber consumido alcohol.",
@@ -10123,7 +10738,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 483,
+"id": 524,
 "enunciado": "¿Puede trasportar una carga indivisible que por sus dimensiones sobresalga lateralmente de la proyección en planta de una motocicleta?",
 "opciones": [
 "Sí, ya que, aunque sobresalga más de 1 metro no compromete su estabilidad.",
@@ -10144,7 +10759,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 484,
+"id": 525,
 "enunciado": "Si conduce una motocicleta y hay niebla ligera, ¿qué alumbrado debe utilizar, además del de posición?",
 "opciones": [
 "La luz antiniebla delantera, si la lleva, o la luz de corto o largo alcance.",
@@ -10165,7 +10780,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 485,
+"id": 526,
 "enunciado": "La línea discontinua, ¿qué indica?",
 "opciones": [
 "Un carril especial.",
@@ -10186,7 +10801,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 486,
+"id": 527,
 "enunciado": "Buscar una dirección en el navegador GPS durante la conducción, ¿puede ser peligroso?",
 "opciones": [
 "Solo si el navegador GPS se encuentra muy alejado del asiento del conductor.",
@@ -10207,7 +10822,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 487,
+"id": 528,
 "enunciado": "Una vez termine de adelantar el vehículo verde, ¿puede seguir circulando por el carril izquierdo?",
 "opciones": [
 "No, debe circular por el carril derecho.",
@@ -10228,7 +10843,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 488,
+"id": 529,
 "enunciado": "En general, un conductor que sufre un trastorno depresivo…",
 "opciones": [
 "sufre distracciones.",
@@ -10249,7 +10864,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 489,
+"id": 530,
 "enunciado": "En caso de accidente, ¿existe relación entre la velocidad de circulación y la gravedad de las lesiones de los ocupantes de un vehículo?",
 "opciones": [
 "Sí; a mayor velocidad menor es la probabilidad de sufrir lesiones graves.",
@@ -10270,7 +10885,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 490,
+"id": 531,
 "enunciado": "Un conductor se encuentra situado en el carril derecho de esta calzada, ¿puede seguir de frente?",
 "opciones": [
 "Sí; puede girar a la derecha o continuar de frente.",
@@ -10291,7 +10906,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 491,
+"id": 532,
 "enunciado": "En un turismo con cinco plazas autorizadas, ¿se puede transportar a seis personas?",
 "opciones": [
 "No, está prohibido.",
@@ -10312,7 +10927,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 492,
+"id": 533,
 "enunciado": "El sueño y la fatiga, ¿cómo influyen en la conducción?",
 "opciones": [
 "Disminuyen el tiempo de reacción.",
@@ -10333,7 +10948,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 493,
+"id": 534,
 "enunciado": "Si se ve implicado en un accidente de tráfico con posibilidad de muertos o heridos graves, ¿qué actuaciones, entre otras, debe llevar a cabo en la medida de lo posible?",
 "opciones": [
 "Seguir circulando, sin prestar ayuda a las víctimas ni avisar a la autoridad.",
@@ -10354,7 +10969,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 494,
+"id": 535,
 "enunciado": "Cuando son víctimas de atropello, las lesiones más graves en los ciclistas, que pueden incluso provocar la muerte, se localizan en…",
 "opciones": [
 "las piernas.",
@@ -10375,7 +10990,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 495,
+"id": 536,
 "enunciado": "En esta carretera convencional con arcén transitable, ¿por dónde debe circular un ciclomotor?",
 "opciones": [
 "Por el centro de la calzada o por el arcén de la derecha.",
@@ -10396,7 +11011,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 496,
+"id": 537,
 "enunciado": "En un control preventivo, ¿pueden los agentes someter a un conductor a una prueba de detección de estupefacientes?",
 "opciones": [
 "Sí.",
@@ -10417,7 +11032,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 497,
+"id": 538,
 "enunciado": "Circula por una calzada en la que debido a la niebla el pavimento está húmedo y resbaladizo. ¿Cómo debe ser la conducción?",
 "opciones": [
 "Dinámica y, a una velocidad alta para evitar que las ruedas patinen.",
@@ -10438,7 +11053,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 498,
+"id": 539,
 "enunciado": "En esta zona cebreada, ¿pueden los conductores circular o pararse sobre ella?",
 "opciones": [
 "Pararse sí pueden, pero circular está prohibido.",
@@ -10459,7 +11074,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 499,
+"id": 540,
 "enunciado": "En poblado, ¿está permitido usar las advertencias acústicas?",
 "opciones": [
 "Sí, para evitar un accidente o avisar a los demás usuarios de que se realiza un servicio de urgencia.",
@@ -10480,7 +11095,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 500,
+"id": 541,
 "enunciado": "Conduce un turismo con un remolque de un solo eje. ¿Le afecta esta señal?",
 "opciones": [
 "No.",
@@ -10501,7 +11116,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 501,
+"id": 542,
 "enunciado": "El consumo de alcohol, aunque sea en pequeñas cantidades...",
 "opciones": [
 "no deteriora la capacidad para conducir.",
@@ -10522,7 +11137,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 502,
+"id": 543,
 "enunciado": "Una persona mayor de edad, ¿puede transportar a un pasajero en una bicicleta que, por construcción, no pueda ser ocupada por más de una persona?",
 "opciones": [
 "Sólo si el conductor pedalea levantado y el pasajero va sentado en el sillín.",
@@ -10543,7 +11158,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 503,
+"id": 544,
 "enunciado": "Delante de un vado, esta señal prohíbe…",
 "opciones": [
 "la parada y el estacionamiento.",
@@ -10564,7 +11179,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 504,
+"id": 545,
 "enunciado": "A falta de señalización, ¿cuál es la velocidad máxima permitida para una furgoneta cuando circule por una autovía que discurra dentro de poblado?",
 "opciones": [
 "80 km/h.",
@@ -10585,7 +11200,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 505,
+"id": 546,
 "enunciado": "Los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil homologados debidamente adaptados a...",
 "opciones": [
 "su talla y edad.",
@@ -10606,7 +11221,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 506,
+"id": 547,
 "enunciado": "En un carril reservado para uso exclusivo del transporte público urbano, ¿se puede estacionar?",
 "opciones": [
 "Sólo fuera del horario de servicio.",
@@ -10627,7 +11242,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 507,
+"id": 548,
 "enunciado": "Para los conductores y pasajeros de motocicletas, ¿tiene importancia el vestuario a utilizar?",
 "opciones": [
 "No, es indiferente siempre que lleven el casco.",
@@ -10648,7 +11263,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 508,
+"id": 549,
 "enunciado": "¿Es posible ahorrar combustible evitando cambios de marcha innecesarios?",
 "opciones": [
 "Sí.",
@@ -10669,7 +11284,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 509,
+"id": 550,
 "enunciado": "¿Qué debe hacer el conductor del vehículo ante las indicaciones que le realiza el agente del vehículo policial con la señal V-1 encendida?",
 "opciones": [
 "Reducir la marcha.",
@@ -10690,7 +11305,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 510,
+"id": 551,
 "enunciado": "En un accidente de tráfico se produce el efecto submarino cuando...",
 "opciones": [
 "el cuerpo del ocupante del vehículo se desliza por debajo del cinturón de seguridad.",
@@ -10711,7 +11326,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 511,
+"id": 552,
 "enunciado": "En condiciones meteorológicas especialmente desfavorables, como en caso de fuerte granizada, ¿qué precauciones, entre otras, debe tomar?",
 "opciones": [
 "Disminuir la velocidad, evitando pisar el freno, y aumentar la distancia de seguridad.",
@@ -10732,7 +11347,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 512,
+"id": 553,
 "enunciado": "¿Qué indica el panel situado bajo la señal?",
 "opciones": [
 "La distancia al final de un tramo con curvas peligrosas.",
@@ -10753,7 +11368,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 513,
+"id": 554,
 "enunciado": "Si conducimos de noche para evitar los atascos debemos tener en cuenta que...",
 "opciones": [
 "el sueño o la somnolencia al volante aparecen con mayor facilidad.",
@@ -10774,7 +11389,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 514,
+"id": 555,
 "enunciado": "Siempre que sea posible, ¿cómo debe inmovilizar un vehículo que se ha visto implicado en un accidente?",
 "opciones": [
 "Con unos calzos o con cualquier elemento que sirva como tal.",
@@ -10795,7 +11410,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 515,
+"id": 556,
 "enunciado": "Un conductor que señaliza un cambio de carril, ¿tiene preferencia sobre los conductores de los vehículos que circulan por el carril al que se pretende desplazar?",
 "opciones": [
 "Sí.",
@@ -10816,7 +11431,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 516,
+"id": 557,
 "enunciado": "¿Qué debe hacer el conductor de un vehículo que, por motivos de emergencia, quede inmovilizado dentro de un paso inferior?",
 "opciones": [
 "Permanecer en el interior del vehículo.",
@@ -10837,7 +11452,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 517,
+"id": 558,
 "enunciado": "En esta situación, ¿está permitido adelantar al ciclista?",
 "opciones": [
 "Sí, aunque para ello haya que invadir el carril de sentido contrario.",
@@ -10858,7 +11473,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 518,
+"id": 559,
 "enunciado": "Conducir durante mucho tiempo a una velocidad elevada...",
 "opciones": [
 "disminuye la aparición de la fatiga pero aumenta la agresividad.",
@@ -10879,7 +11494,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 519,
+"id": 560,
 "enunciado": "Factores individuales como la edad, la fatiga o el estado físico del conductor, ¿pueden hacer que los efectos secundarios de los medicamentos sean diferentes en cada persona?",
 "opciones": [
 "No, los efectos secundarios son los mismos para todas las personas.",
@@ -10900,7 +11515,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 520,
+"id": 561,
 "enunciado": "Si se lleva instalado un navegador GPS hay que tener en cuenta que...",
 "opciones": [
 "mientras se conduce no es conveniente apartar la vista del navegador.",
@@ -10921,7 +11536,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 521,
+"id": 562,
 "enunciado": "Se debe desactivar el airbag frontal cuando en el asiento correspondiente al copiloto...",
 "opciones": [
 "viaje una mujer embarazada.",
@@ -10942,7 +11557,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 522,
+"id": 563,
 "enunciado": "En una autopista que transcurre por zona urbana, ¿a qué velocidad máxima puede circular un turismo si no existe señalización?",
 "opciones": [
 "A 80 km/h.",
@@ -10963,7 +11578,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 523,
+"id": 564,
 "enunciado": "¿Puede rebasar la velocidad máxima indicada en la señal?",
 "opciones": [
 "Sí, en 20 km/h para adelantar.",
@@ -10984,7 +11599,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 524,
+"id": 565,
 "enunciado": "Si debido a la lluvia intensa, en una vía interurbana no se distingue un vehículo de color negro a 50 metros de distancia, ¿es posible circular con el alumbrado de largo alcance encendido?",
 "opciones": [
 "No, está prohibido.",
@@ -11005,7 +11620,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 525,
+"id": 566,
 "enunciado": "La parte externa de uno de los neumáticos de su vehículo presenta una deformación en forma de bulto, ¿es recomendable sustituir el neumático lo antes posible?",
 "opciones": [
 "Sí, porque aumenta la posibilidad de sufrir un reventón.",
@@ -11026,7 +11641,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 526,
+"id": 567,
 "enunciado": "El agente balancea una luz amarilla; ¿qué indica?",
 "opciones": [
 "Precaución al circular.",
@@ -11047,7 +11662,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 527,
+"id": 568,
 "enunciado": "Los carriles reversibles están delimitados por marcas longitudinales…",
 "opciones": [
 "discontinuas con una separación sensiblemente más corta.",
@@ -11068,7 +11683,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 528,
+"id": 569,
 "enunciado": "Conforme a los datos de accidentalidad, en los períodos de vacaciones y los fines de semana...",
 "opciones": [
 "no varía de forma importante el número de accidentes con víctimas mortales.",
@@ -11089,7 +11704,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 529,
+"id": 570,
 "enunciado": "Si su turismo ha pasado favorablemente la primera ITV, ¿cuándo tiene que pasar la próxima inspección?",
 "opciones": [
 "Dentro de 2 años.",
@@ -11110,7 +11725,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 530,
+"id": 571,
 "enunciado": "En una calzada de un solo sentido de circulación, ¿dónde debe situarse para cambiar de dirección a la izquierda?",
 "opciones": [
 "Junto al borde izquierdo de la calzada.",
@@ -11131,7 +11746,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 531,
+"id": 572,
 "enunciado": "¿Está permitido realizar una parada en una autovía o autopista?",
 "opciones": [
 "Sí, en la mediana o en el arcén, indistintamente.",
@@ -11152,7 +11767,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 532,
+"id": 573,
 "enunciado": "¿Debe entrar en una intersección en una situación en la que el tráfico esté tan saturado que, al detenerse, posiblemente obstaculice la circulación transversal?",
 "opciones": [
 "Sólo si conduce un vehículo de servicio público, como un taxi.",
@@ -11173,7 +11788,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 533,
+"id": 574,
 "enunciado": "Cuando un conductor no supere la tasa máxima de alcohol permitida, el agente de tráfico, ¿puede realizarle una segunda prueba?",
 "opciones": [
 "No, en ningún caso.",
@@ -11194,7 +11809,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 534,
+"id": 575,
 "enunciado": "¿Qué debe hacer si empieza a llover con intensidad mientras conduce una motocicleta?",
 "opciones": [
 "Moderar la velocidad, e incluso detenerse si fuera necesario.",
@@ -11215,7 +11830,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 535,
+"id": 576,
 "enunciado": "Entre los efectos negativos de la velocidad se encuentra el efecto túnel, en el que el conductor...",
 "opciones": [
 "sólo percibe el centro de la calzada y deja de ver los laterales.",
@@ -11236,7 +11851,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 536,
+"id": 577,
 "enunciado": "¿Cómo debe colocar el navegador GPS portátil en el vehículo?",
 "opciones": [
 "Debajo del volante, tan cerca del suelo como sea posible.",
@@ -11257,7 +11872,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 537,
+"id": 578,
 "enunciado": "¿Cuál es una de las principales causas de los accidentes de las personas mayores?",
 "opciones": [
 "El deterioro de las capacidades psicomotoras.",
@@ -11278,7 +11893,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 538,
+"id": 579,
 "enunciado": "Todo conductor implicado en un accidente de tráfico, ¿está obligado a detenerse para esclarecer los hechos?",
 "opciones": [
 "Sólo si es culpable del accidente.",
@@ -11299,7 +11914,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 539,
+"id": 580,
 "enunciado": "Si circula con la presión de inflado de los neumáticos descompensada, ¿aumenta el riesgo de perder el control del vehículo?",
 "opciones": [
 "Sí, ya que la frenada es irregular y se reduce la estabilidad del vehículo.",
@@ -11320,7 +11935,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 540,
+"id": 581,
 "enunciado": "Si lleva a un pasajero en una motocicleta, al frenar...",
 "opciones": [
 "es más difícil que se bloquee la rueda trasera.",
@@ -11341,7 +11956,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 541,
+"id": 582,
 "enunciado": "Si, debido a la lluvia, el pavimento está deslizante, ¿qué precauciones se deben tomar?",
 "opciones": [
 "Moderar la velocidad y, si fuera preciso, detener el vehículo.",
@@ -11362,7 +11977,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 542,
+"id": 583,
 "enunciado": "¿Cuál de los tres factores de riesgo es el que está menos implicado entre las causas de los accidentes de tráfico?",
 "opciones": [
 "El factor vía y su entorno.",
@@ -11383,7 +11998,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 543,
+"id": 584,
 "enunciado": "¿Está permitido circular con un vehículo cuyas placas de matrícula presentan obstáculos que impiden o dificultan su lectura e identificación?",
 "opciones": [
 "No; el conductor debe verificar que las placas de matrícula se pueden leer correctamente.",
@@ -11404,7 +12019,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 544,
+"id": 585,
 "enunciado": "Respecto al uso del cinturón de seguridad, como norma general, el ocupante de un turismo distinto del conductor está obligado a...",
 "opciones": [
 "llevarlo puesto y sin abrochar, excepto si viaja en la plaza delantera.",
@@ -11425,7 +12040,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 545,
+"id": 586,
 "enunciado": "En vías interurbanas con tres carriles para el mismo sentido, ¿le está permitido circular por el carril izquierdo a un turismo con remolque?",
 "opciones": [
 "Sí, cuando la longitud del conjunto no supere los 7 metros.",
@@ -11446,7 +12061,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 546,
+"id": 587,
 "enunciado": "El conductor de este vehículo está indicando que va a...",
 "opciones": [
 "desplazarse a la derecha.",
@@ -11467,7 +12082,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 547,
+"id": 588,
 "enunciado": "Cuando se adelante a vehículos de tracción animal, fuera de poblado, la separación lateral...",
 "opciones": [
 "no debe ser inferior a 1,5 metros.",
@@ -11488,7 +12103,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 548,
+"id": 589,
 "enunciado": "¿Qué alumbrado deberá dejar encendido, como norma general, el conductor de un vehículo inmovilizado entre la puesta y la salida del sol en el arcén de una travesía insuficientemente iluminada?",
 "opciones": [
 "Ninguno.",
@@ -11509,7 +12124,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 549,
+"id": 590,
 "enunciado": "¿De qué peligro advierte esta señal?",
 "opciones": [
 "Proximidad de un escalón lateral o desnivel a lo largo de un tramo de vía.",
@@ -11530,7 +12145,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 550,
+"id": 591,
 "enunciado": "Esta señal, ¿prohíbe proseguir la marcha si no dispone de cadenas para nieve?",
 "opciones": [
 "Sí, en cualquier caso.",
@@ -11551,7 +12166,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 551,
+"id": 592,
 "enunciado": "¿Qué alteración provoca con mayor frecuencia el consumo de alcohol en el comportamiento del conductor?",
 "opciones": [
 "Respuestas impulsivas y agresivas ante los demás conductores.",
@@ -11572,7 +12187,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 552,
+"id": 593,
 "enunciado": "¿Qué indica esta señal situada en la parte posterior de un vehículo?",
 "opciones": [
 "Que transporta mercancías peligrosas.",
@@ -11593,7 +12208,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 553,
+"id": 594,
 "enunciado": "Si ha dormido mal o no ha dormido lo suficiente debe tener en cuenta que...",
 "opciones": [
 "conducir por una autovía durante horas impide la aparición del sueño.",
@@ -11614,7 +12229,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 554,
+"id": 595,
 "enunciado": "¿Con qué dos factores suelen relacionarse muchos de los accidentes más graves que sufren los jóvenes conductores?",
 "opciones": [
 "Con el consumo de alcohol y drogas y una actitud prudente al volante.",
@@ -11635,7 +12250,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 555,
+"id": 596,
 "enunciado": "¿Cuál de las siguientes circunstancias hace que aumente el consumo de combustible?",
 "opciones": [
 "Circular con las ventanillas del vehículo subidas.",
@@ -11656,7 +12271,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 556,
+"id": 597,
 "enunciado": "¿Cuál de las siguientes razones puede explicar que el vehículo sea el factor de riesgo que aparece en un grado menor como causa principal de los accidentes de tráfico?",
 "opciones": [
 "A las importantes mejoras técnicas introducidas en su diseño y construcción.",
@@ -11677,7 +12292,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 557,
+"id": 598,
 "enunciado": "Para mantener la seguridad, ¿qué elementos se deben revisar periódicamente y con mayor frecuencia que el resto de componentes del vehículo?",
 "opciones": [
 "Los neumáticos, el sistema de frenado y los amortiguadores.",
@@ -11698,7 +12313,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 558,
+"id": 599,
 "enunciado": "De día es obligatorio encender el alumbrado que corresponda cuando se circule...",
 "opciones": [
 "por un puente móvil.",
@@ -11719,7 +12334,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 559,
+"id": 600,
 "enunciado": "Entre los siguientes tipos de señales, ¿cuál es el orden de prioridad?",
 "opciones": [
 "Señales verticales, agentes y semáforos.",
@@ -11740,7 +12355,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 560,
+"id": 601,
 "enunciado": "Esta señal prohíbe la entrada a...",
 "opciones": [
 "ciclos y ciclomotores.",
@@ -11761,7 +12376,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 561,
+"id": 602,
 "enunciado": "En general, bajo los efectos de la cocaína el conductor...",
 "opciones": [
 "es inseguro e infravalora sus capacidades al volante.",
@@ -11782,7 +12397,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 562,
+"id": 603,
 "enunciado": "Las embarazadas, ¿están obligadas a utilizar el cinturón de seguridad?",
 "opciones": [
 "Sí, como norma general.",
@@ -11803,7 +12418,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 563,
+"id": 604,
 "enunciado": "El calor afecta negativamente a las capacidades para conducir con seguridad. Un conductor que se encuentra bajo sus efectos normalmente:",
 "opciones": [
 "Tarda más en reaccionar y es menos agresivo.",
@@ -11824,7 +12439,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 564,
+"id": 605,
 "enunciado": "Cuando la luz de marcha atrás esté averiada, ¿cómo debe indicar que va a dar marcha atrás?",
 "opciones": [
 "Moviendo el brazo de arriba abajo.",
@@ -11845,7 +12460,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 565,
+"id": 606,
 "enunciado": "En una vía interurbana con un carril por sentido, ¿dónde se colocará un ciclomotor para girar a la izquierda, si no existe carril específico para realizar el giro?",
 "opciones": [
 "En el eje de la calzada, sin invadir el carril de sentido contrario.",
@@ -11866,7 +12481,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 566,
+"id": 607,
 "enunciado": "Esta marca transversal discontinua, ¿obliga a detenerse antes de franquearla?",
 "opciones": [
 "Solo si hay visibilidad reducida.",
@@ -11887,7 +12502,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 567,
+"id": 608,
 "enunciado": "Para intentar evitar la aparición de la somnolencia durante la conducción es aconsejable dormir...",
 "opciones": [
 "entre 5 y 7 horas diarias.",
@@ -11908,7 +12523,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 568,
+"id": 609,
 "enunciado": "¿Cómo debe comportarse el conductor de un turismo, sobre todo en vías urbanas, para evitar un accidente con una motocicleta o un ciclomotor?",
 "opciones": [
 "Debe circular en paralelo y lo más cerca posible de los vehículos de dos ruedas.",
@@ -11929,7 +12544,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 569,
+"id": 610,
 "enunciado": "En un carril habilitado en sentido contrario al habitual por trabajos en la calzada, ¿qué vehículos tienen permitido utilizarlo?",
 "opciones": [
 "Todos los que estén autorizados a circular por la vía.",
@@ -11950,7 +12565,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 570,
+"id": 611,
 "enunciado": "En los adelantamientos a ciclistas en vías con un carril para cada sentido, ¿está permitido ocupar el carril de sentido contrario?",
 "opciones": [
 "Sí, siempre que el adelantamiento se pueda realizar con seguridad.",
@@ -11971,7 +12586,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 571,
+"id": 612,
 "enunciado": "Los conductores, ¿están obligados a realizar las pruebas para la comprobación de la tasa de alcoholemia cuando sean requeridos para ello por la policía de tráfico?",
 "opciones": [
 "No; pueden negarse a hacerla y seguir circulando.",
@@ -11992,7 +12607,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 572,
+"id": 613,
 "enunciado": "¿Es conveniente utilizar un aceite lubricante con un índice de viscosidad tan bajo que, al calentarse el motor, se vuelva excesivamente líquido?",
 "opciones": [
 "No, ya que el aceite no llega a engrasar bien las piezas del motor.",
@@ -12013,7 +12628,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 573,
+"id": 614,
 "enunciado": "Si existen semáforos con indicaciones distintas a la derecha y a la izquierda, ¿a cuál obedecerán los que pretendan seguir de frente?",
 "opciones": [
 "Al situado a su derecha.",
@@ -12034,7 +12649,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 574,
+"id": 615,
 "enunciado": "En el centro de la calzada hay doble línea continua; ¿qué indica?",
 "opciones": [
 "Que la calzada es peligrosa.",
@@ -12055,7 +12670,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 575,
+"id": 616,
 "enunciado": "Al cruzar un arcén por el que transitan peatones, ¿qué debe hacer?",
 "opciones": [
 "Avisarles mediante señales acústicas para que se aparten.",
@@ -12076,7 +12691,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 576,
+"id": 617,
 "enunciado": "Esta señal, ¿prohíbe cambiar de dirección a la izquierda?",
 "opciones": [
 "No.",
@@ -12097,7 +12712,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 577,
+"id": 618,
 "enunciado": "Un furgón, ¿puede utilizar un carril reversible?",
 "opciones": [
 "Solo si su M.M.A. no es superior a 3.500 kilogramos.",
@@ -12118,7 +12733,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 578,
+"id": 619,
 "enunciado": "Como norma general, en la parte transitable del arcén de una vía interurbana, ¿está permitida la parada o el estacionamiento?",
 "opciones": [
 "Está permitida la parada, pero no el estacionamiento.",
@@ -12139,7 +12754,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 579,
+"id": 620,
 "enunciado": "Circulando por una autopista observa que se ha pasado una salida, ¿puede volver a ella circulando marcha atrás?",
 "opciones": [
 "No.",
@@ -12160,7 +12775,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 580,
+"id": 621,
 "enunciado": "¿Puede circular con su turismo si el equipaje no permite una visión adecuada de la vía por el espejo retrovisor interior?",
 "opciones": [
 "No; en ningún caso la carga puede disminuir la visibilidad a través del espejo retrovisor.",
@@ -12181,7 +12796,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 581,
+"id": 622,
 "enunciado": "¿Qué significado tiene esta señal?",
 "opciones": [
 "Peligro por la proximidad de un paso a nivel provisto de barreras o semibarreras.",
@@ -12202,7 +12817,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 582,
+"id": 623,
 "enunciado": "En general, un conductor con sueño...",
 "opciones": [
 "acepta un mayor nivel de riesgo en la conducción.",
@@ -12223,7 +12838,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 583,
+"id": 624,
 "enunciado": "¿Cómo se conocen a los colectivos de personas que tienen una mayor probabilidad de verse implicados en un accidente de tráfico o de fallecer a consecuencia del mismo?",
 "opciones": [
 "Grupos de riesgo o vulnerables en el tráfico.",
@@ -12244,7 +12859,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 584,
+"id": 625,
 "enunciado": "¿Puede sobresalir por la parte trasera del vehículo la carga indivisible que transporta un turismo?",
 "opciones": [
 "Sí, un máximo de hasta el 10% de la longitud del vehículo.",
@@ -12265,7 +12880,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 585,
+"id": 626,
 "enunciado": "¿Qué indican estas marcas viales?",
 "opciones": [
 "Prohibición de estacionar.",
@@ -12286,7 +12901,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 586,
+"id": 627,
 "enunciado": "Si queda detenido en un atasco, ¿qué distancia es aconsejable mantener con el vehículo de delante?",
 "opciones": [
 "Un metro como máximo.",
@@ -12307,7 +12922,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 587,
+"id": 628,
 "enunciado": "¿Qué condiciones deben tener los neumáticos de una motocicleta?",
 "opciones": [
 "Las dos ruedas tienen que ser del mismo tamaño y características.",
@@ -12328,7 +12943,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 588,
+"id": 629,
 "enunciado": "A un turismo, ¿le está permitido circular si tiene roto el espejo retrovisor exterior izquierdo?",
 "opciones": [
 "Sí, porque el retrovisor exterior izquierdo no es obligatorio.",
@@ -12349,7 +12964,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 589,
+"id": 630,
 "enunciado": "¿Qué es un microsueño?",
 "opciones": [
 "Un periodo de unos segundos durante el cual el conductor sueña mientras conduce.",
@@ -12370,7 +12985,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 590,
+"id": 631,
 "enunciado": "En una retención en la que están los vehículos detenidos, ¿está permitido usar el teléfono móvil?",
 "opciones": [
 "No, excepto en vías urbanas.",
@@ -12391,7 +13006,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 591,
+"id": 632,
 "enunciado": "Una luz verde en forma de flecha apuntando hacia abajo en un semáforo de carril...",
 "opciones": [
 "obliga a no abandonar el carril sobre el que está colocada.",
@@ -12412,7 +13027,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 592,
+"id": 633,
 "enunciado": "Entre la puesta y la salida del sol, ¿puede encender la luz de largo alcance en caso de niebla?",
 "opciones": [
 "Sí, procurando no deslumbrar a otros usuarios de la vía.",
@@ -12433,7 +13048,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 593,
+"id": 634,
 "enunciado": "En este paso para peatones, si no funciona el semáforo, ¿es obligatorio ceder el paso a los peatones que intenten cruzar?",
 "opciones": [
 "Sí, porque los peatones tienen prioridad de paso.",
@@ -12454,7 +13069,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 594,
+"id": 635,
 "enunciado": "En la ficha de inspección técnica de esta motocicleta figura que tiene estructura de autoprotección y cinturón de seguridad. ¿Puede conducirla sin utilizar el casco de protección?",
 "opciones": [
 "Sólo cuando circule por vías urbanas.",
@@ -12475,7 +13090,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 595,
+"id": 636,
 "enunciado": "Si quiere abandonar una autovía, ¿en qué momento debe entrar en el carril de deceleración?",
 "opciones": [
 "Lo antes posible.",
@@ -12496,7 +13111,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 596,
+"id": 637,
 "enunciado": "¿Está permitido estacionar en doble fila?",
 "opciones": [
 "Sí, siempre que el conductor no abandone el vehículo.",
@@ -12517,7 +13132,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 597,
+"id": 638,
 "enunciado": "En una vía fuera de poblado en la que no exista zona peatonal ni arcén practicable, ¿está permitido que un peatón circule por la calzada?",
 "opciones": [
 "Sí, siempre que tome las debidas precauciones.",
@@ -12538,7 +13153,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 598,
+"id": 639,
 "enunciado": "¿Cuál es uno de los problemas que, debido al deterioro de las aptitudes psicofísicas, encuentran muchas personas mayores como peatones en las vías públicas?",
 "opciones": [
 "Tienen mayor capacidad de orientación, sobre todo en calles que no conocen bien.",
@@ -12559,7 +13174,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 599,
+"id": 640,
 "enunciado": "Acaba de comprar un turismo nuevo; ¿cuándo debe presentarlo a la primera inspección técnica reglamentaria?",
 "opciones": [
 "A los cuatro años, a contar desde la fecha de compra.",
@@ -12580,7 +13195,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 600,
+"id": 641,
 "enunciado": "En las proximidades de vías de uso exclusivo de ciclos, ¿qué precauciones se deben tomar?",
 "opciones": [
 "Hacer señales acústicas para indicar nuestra presencia.",
@@ -12601,7 +13216,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 601,
+"id": 642,
 "enunciado": "¿Está permitido circular con un turismo por una vía en cuyo acceso está situada esta señal?",
 "opciones": [
 "No, porque es una vía reservada para todos los vehículos de dos ruedas.",
@@ -12622,7 +13237,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 602,
+"id": 643,
 "enunciado": "Un turismo con el distintivo ambiental de la imagen, clasificado como ECO, ¿está autorizado a circular por el carril VAO si su único ocupante es el conductor?",
 "opciones": [
 "Sí, siempre que lleve el distintivo adhesivo en el parabrisas.",
@@ -12643,7 +13258,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 603,
+"id": 644,
 "enunciado": "El conductor de una motocicleta, ¿tiene permitido realizar una parada en un carril reservado para autobuses?",
 "opciones": [
 "Sí, mientras no obstaculice la circulación de autobuses.",
@@ -12664,7 +13279,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 604,
+"id": 645,
 "enunciado": "¿Puede incorporarse a la circulación desde un estacionamiento circulando marcha atrás?",
 "opciones": [
 "Sí, mientras no invada un cruce de vías.",
@@ -12685,7 +13300,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 605,
+"id": 646,
 "enunciado": "La distancia de frenado está determinada por...",
 "opciones": [
 "un único factor, la velocidad a la que se circula.",
@@ -12706,7 +13321,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 606,
+"id": 647,
 "enunciado": "Si tiene un accidente y no lleva puesto el cinturón de seguridad, las posibilidades de resultar muerto en el siniestro son casi el doble en...",
 "opciones": [
 "la plaza del conductor, únicamente.",
@@ -12727,7 +13342,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 607,
+"id": 648,
 "enunciado": "En un turismo, ¿es obligatorio llevar dos chalecos reflectantes, uno para el conductor del vehículo y otro para su acompañante?",
 "opciones": [
 "Sólo es obligatorio en motocicletas, pero no en turismos.",
@@ -12748,7 +13363,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 608,
+"id": 649,
 "enunciado": "Si una intersección con prioridad de paso está saturada y es previsible que se quede detenido sin terminar de atravesarla, impidiendo la circulación transversal, ¿qué debe hacer?",
 "opciones": [
 "Entrar en la intersección, porque tiene prioridad de paso.",
@@ -12769,7 +13384,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 609,
+"id": 650,
 "enunciado": "Una luz roja intermitente o dos luces rojas alternativamente intermitentes de un semáforo...",
 "opciones": [
 "permiten el paso con precaución.",
@@ -12790,7 +13405,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 610,
+"id": 651,
 "enunciado": "En esta vía de doble sentido, ¿qué vehículos deben guardar una separación mínima de 50 metros con el vehículo de delante cuando no pretendan adelantar?",
 "opciones": [
 "Todos los camiones, con independencia de su M.M.A.",
@@ -12811,7 +13426,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 611,
+"id": 652,
 "enunciado": "En un turismo de nueve plazas, incluida la del conductor, ¿pueden viajar nueve menores de edad?",
 "opciones": [
 "No, porque se supera el número de plazas autorizado.",
@@ -12832,7 +13447,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 612,
+"id": 653,
 "enunciado": "¿Qué puede verse afectado si cambia el carenado de una motocicleta?",
 "opciones": [
 "La estética, exclusivamente.",
@@ -12853,7 +13468,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 613,
+"id": 654,
 "enunciado": "¿Existe riesgo de accidente si un conductor utiliza un dispositivo de manos libres para hablar por teléfono mientras conduce?",
 "opciones": [
 "No; el dispositivo está pensado para que no exista ningún riesgo.",
@@ -12874,7 +13489,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 614,
+"id": 655,
 "enunciado": "¿Qué factor de riesgo ocasiona un mayor número de accidentes de tráfico?",
 "opciones": [
 "El factor humano.",
@@ -12895,7 +13510,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 615,
+"id": 656,
 "enunciado": "Como norma general, ¿cómo se denomina el tramo de carretera que discurre por poblado?",
 "opciones": [
 "Carretera convencional.",
@@ -12916,7 +13531,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 616,
+"id": 657,
 "enunciado": "Circula con un turismo con remolque; ¿puede entrar en una vía con esta señal?",
 "opciones": [
 "Sí, cuando el remolque tenga un solo eje.",
@@ -12937,7 +13552,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 1
 },
 {
-"id": 617,
+"id": 658,
 "enunciado": "El consumo de cannabis afecta al comportamiento del conductor porque...",
 "opciones": [
 "aumenta su nivel de atención.",
@@ -12958,7 +13573,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 2
 },
 {
-"id": 618,
+"id": 659,
 "enunciado": "¿Puede adelantar en un túnel con un solo carril para cada sentido?",
 "opciones": [
 "No, ya que su sentido de la marcha sólo dispone de un carril.",
@@ -12979,7 +13594,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 3
 },
 {
-"id": 619,
+"id": 660,
 "enunciado": "Si se ve obligado a circular con una rueda de repuesto de uso temporal o de emergencia, ¿qué debe tener en cuenta?",
 "opciones": [
 "Las indicaciones de los fabricantes de este tipo de repuestos.",
@@ -13000,7 +13615,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 4
 },
 {
-"id": 620,
+"id": 661,
 "enunciado": "Estas marcas viales azules indican...",
 "opciones": [
 "la zona en que se permite estacionar, al igual que las marcas blancas.",
@@ -13021,7 +13636,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 5
 },
 {
-"id": 621,
+"id": 662,
 "enunciado": "Factores variables como la cantidad y la calidad del sueño, el consumo de medicamentos sedantes o la monotonía en la conducción, ¿afectan por igual a todos los conductores?",
 "opciones": [
 "Sólo a los conductores que circulan principalmente de noche.",
@@ -13042,7 +13657,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 6
 },
 {
-"id": 622,
+"id": 663,
 "enunciado": "En vía urbana, cuando utilice el carril que más convenga a su destino, ¿puede abandonar dicho carril?",
 "opciones": [
 "Sí, para prepararse a cambiar de dirección, adelantar, parar o estacionar.",
@@ -13063,7 +13678,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 7
 },
 {
-"id": 623,
+"id": 664,
 "enunciado": "En una vía urbana, ¿debe tocar el claxon para advertir que va a realizar un adelantamiento?",
 "opciones": [
 "Sí, salvo que se encuentre cerca de un hospital.",
@@ -13084,7 +13699,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 8
 },
 {
-"id": 624,
+"id": 665,
 "enunciado": "Circula con la luz de largo alcance y se acerca a un vehículo que circula a menor velocidad en su mismo sentido de la marcha; ¿debe sustituir la luz de carretera por la de corto alcance?",
 "opciones": [
 "No, ya que no es necesario ni aconsejable.",
@@ -13105,7 +13720,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 9
 },
 {
-"id": 625,
+"id": 666,
 "enunciado": "Si un conductor inicia un adelantamiento y se producen circunstancias que hacen difícil finalizar la maniobra...",
 "opciones": [
 "debe regresar a su carril y advertirlo a los que circulen por detrás.",
@@ -13126,7 +13741,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 10
 },
 {
-"id": 626,
+"id": 667,
 "enunciado": "¿A qué velocidad máxima tiene permitido circular un ciclomotor por esta carretera convencional con un carril para cada sentido de la circulación?",
 "opciones": [
 "45 kilómetros por hora.",
@@ -13147,7 +13762,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 11
 },
 {
-"id": 627,
+"id": 668,
 "enunciado": "¿Cuál es una de las infracciones que cometen los conductores con mayor riesgo para los peatones?",
 "opciones": [
 "No respetar la prioridad en los pasos para peatones.",
@@ -13168,7 +13783,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 12
 },
 {
-"id": 628,
+"id": 669,
 "enunciado": "¿Quién está obligado a cuidar de que los pasajeros de un vehículo mantengan la posición adecuada para garantizar la seguridad?",
 "opciones": [
 "Los pasajeros mayores de edad.",
@@ -13189,7 +13804,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 13
 },
 {
-"id": 629,
+"id": 670,
 "enunciado": "Si un vehículo de la policía de tráfico se sitúa detrás de usted y enciende un dispositivo con una luz roja destelleante hacia delante, ¿qué debe hacer?",
 "opciones": [
 "Detenerse y, en su caso, seguir las instrucciones del agente.",
@@ -13210,7 +13825,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 14
 },
 {
-"id": 630,
+"id": 671,
 "enunciado": "¿Es peligroso conducir cuando los rayos de sol caen de forma directa sobre los ojos del conductor?",
 "opciones": [
 "Sí, pero encendiendo la luz de largo alcance se mejora la visibilidad.",
@@ -13231,7 +13846,7 @@ window.DGT_QUESTIONS = [
 "examen_pos": 15
 },
 {
-"id": 631,
+"id": 672,
 "enunciado": "Un turismo aparece en la ficha técnica con estos datos: peso del vehículo vacío con depósitos llenos y herramientas, 1.200 kg; y masa máxima que puede alcanzar cargado, 1.800 kg. ¿Qué representa el valor de 1.200 kg?",
 "opciones": [
 "La masa máxima autorizada (MMA) del vehículo.",
@@ -13246,7 +13861,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 632,
+"id": 673,
 "enunciado": "¿Cuál es la diferencia correcta entre la masa máxima autorizada (MMA) y la carga útil de un vehículo?",
 "opciones": [
 "La MMA es la masa del vehículo vacío y la carga útil es lo que puede transportar además del conductor.",
@@ -13261,7 +13876,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 633,
+"id": 674,
 "enunciado": "Circula usted por una vía de dos calzadas separadas, con más de un carril por sentido y sin acceso directo a las propiedades colindantes, pero permite la incorporación de tractores y ciclomotores y tiene algún cruce a nivel. ¿Ante qué tipo de vía se encuentra?",
 "opciones": [
 "Una autopista.",
@@ -13276,7 +13891,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 634,
+"id": 675,
 "enunciado": "¿Qué distingue esencialmente a una vía rápida de una autovía?",
 "opciones": [
 "La vía rápida tiene una sola calzada, aunque con limitación de acceso a las propiedades colindantes.",
@@ -13291,7 +13906,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 635,
+"id": 676,
 "enunciado": "En un vehículo en circulación, ¿quién tiene la consideración legal de conductor?",
 "opciones": [
 "Únicamente la persona que maneja el volante y los pedales del vehículo a motor.",
@@ -13306,7 +13921,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 636,
+"id": 677,
 "enunciado": "Se detiene su vehículo durante menos de dos minutos para que un pasajero suba, sin que usted abandone el puesto de conducción. Legalmente, ¿qué maniobra ha realizado?",
 "opciones": [
 "Una detención.",
@@ -13321,7 +13936,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 637,
+"id": 678,
 "enunciado": "Inmoviliza el vehículo más de dos minutos y baja a comprar el periódico. ¿Cómo se califica esta maniobra?",
 "opciones": [
 "Parada, porque ha sido breve.",
@@ -13336,7 +13951,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 638,
+"id": 679,
 "enunciado": "En una carretera con una banda longitudinal a la derecha, no destinada a la circulación normal de vehículos y delimitada por una línea, ¿qué parte de la vía es esa banda?",
 "opciones": [
 "Un carril adicional de circulación.",
@@ -13351,7 +13966,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 639,
+"id": 680,
 "enunciado": "¿Qué se entiende exactamente por calzada?",
 "opciones": [
 "Toda la superficie de la vía, incluidos arcenes y aceras.",
@@ -13366,7 +13981,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 640,
+"id": 681,
 "enunciado": "Va usted por el carril derecho y se desplaza al carril izquierdo para situarse detrás de otro vehículo que circula por él, sin llegar a rebasarlo. ¿Qué maniobra realiza?",
 "opciones": [
 "Un adelantamiento.",
@@ -13381,7 +13996,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 641,
+"id": 682,
 "enunciado": "Un vehículo de policía circula con su señal luminosa azul encendida pero SIN emitir la señal acústica especial. ¿Está prestando un servicio urgente que le confiere prioridad de paso sobre los demás?",
 "opciones": [
 "Sí; con la señal luminosa encendida ya tiene prioridad aunque no use la acústica.",
@@ -13396,7 +14011,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 642,
+"id": 683,
 "enunciado": "El permiso de la clase B, ¿qué vehículos autoriza a conducir en cuanto a su masa máxima autorizada?",
 "opciones": [
 "Automóviles con una MMA que no exceda de 3.500 kg y no más de 8 plazas además del conductor.",
@@ -13411,7 +14026,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 643,
+"id": 684,
 "enunciado": "¿Qué permiso se necesita, con carácter general, para conducir motocicletas de cualquier cilindrada y potencia?",
 "opciones": [
 "El permiso A2.",
@@ -13426,7 +14041,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 644,
+"id": 685,
 "enunciado": "Una zona peatonal de la vía, ¿qué característica define correctamente?",
 "opciones": [
 "Parte de la vía, elevada o delimitada de otra forma, reservada a la circulación de peatones, incluyendo la acera y el andén.",
@@ -13441,7 +14056,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 645,
+"id": 686,
 "enunciado": "Un turismo particular acaba de cumplir exactamente 4 años desde su primera matriculación. ¿Cuándo debe pasar su primera ITV y con qué periodicidad posterior?",
 "opciones": [
 "Está exento durante los 4 primeros años, así que la primera ITV es al cumplir 4 años y después cada 2 años hasta los 10.",
@@ -13456,7 +14071,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 646,
+"id": 687,
 "enunciado": "Un turismo tiene 11 años de antigüedad. ¿Cada cuánto tiempo debe someterse a la ITV?",
 "opciones": [
 "Cada 2 años, porque solo los vehículos de más de 15 años pasan ITV anual.",
@@ -13471,7 +14086,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 647,
+"id": 688,
 "enunciado": "Un turismo tiene 8 años de antigüedad. ¿Cuál es su periodicidad de ITV?",
 "opciones": [
 "Anual.",
@@ -13486,7 +14101,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 648,
+"id": 689,
 "enunciado": "Un conductor de 66 años renueva su permiso de la clase B. ¿Qué periodo de vigencia tendrá, salvo que un informe médico indique uno menor?",
 "opciones": [
 "10 años, igual que antes de cumplir los 65.",
@@ -13501,7 +14116,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 649,
+"id": 690,
 "enunciado": "Un conductor tiene 64 años y va a renovar su permiso B. Si no hay condiciones médicas restrictivas, ¿qué vigencia le corresponde?",
 "opciones": [
 "5 años, porque está cerca de los 65.",
@@ -13516,7 +14131,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 650,
+"id": 691,
 "enunciado": "¿Qué documento acredita la titularidad administrativa del vehículo y a nombre de quién está matriculado?",
 "opciones": [
 "La tarjeta de inspección técnica (ficha técnica / tarjeta ITV).",
@@ -13531,7 +14146,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 651,
+"id": 692,
 "enunciado": "¿En qué documento se anotan y sellan los resultados de cada inspección técnica periódica superada?",
 "opciones": [
 "En el permiso de circulación.",
@@ -13546,7 +14161,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 652,
+"id": 693,
 "enunciado": "Un conductor obtiene por primera vez el permiso B. ¿Con qué saldo inicial de puntos comienza?",
 "opciones": [
 "Con 12 puntos desde el primer día.",
@@ -13561,7 +14176,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 653,
+"id": 694,
 "enunciado": "¿Cuál es el máximo de puntos que puede acumular un conductor y qué requisito permite superar los 12?",
 "opciones": [
 "El máximo es 15 puntos, alcanzables tras 3 años sin ser sancionado con pérdida de puntos.",
@@ -13576,7 +14191,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 654,
+"id": 695,
 "enunciado": "Tras la reforma de la Ley de Tráfico de 2022, ¿qué ocurre con los puntos al recuperar el permiso después de haberlo perdido totalmente por saldo cero?",
 "opciones": [
 "Se recupera con 8 puntos, tanto la primera vez como en reincidencias dentro de los plazos.",
@@ -13591,7 +14206,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 655,
+"id": 696,
 "enunciado": "Un conductor con 12 puntos comete una infracción grave que detrae puntos. ¿Cuánto tiempo debe pasar sin sanciones detractoras para recuperar el saldo total de 12 puntos?",
 "opciones": [
 "3 años sin infracciones que detraigan puntos.",
@@ -13606,7 +14221,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 656,
+"id": 697,
 "enunciado": "¿Cuál es el plazo que debe transcurrir sin sanciones detractoras para recuperar el crédito total de puntos tras una infracción MUY GRAVE?",
 "opciones": [
 "2 años.",
@@ -13621,7 +14236,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 657,
+"id": 698,
 "enunciado": "¿Qué seguro es de suscripción obligatoria para poder poner en circulación un vehículo a motor?",
 "opciones": [
 "El seguro a todo riesgo con franquicia.",
@@ -13636,7 +14251,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 658,
+"id": 699,
 "enunciado": "Un conductor con permiso de otro país de la Unión Europea reside en España y desea equiparar su documento al español. ¿Qué trámite realiza y qué NO implica?",
 "opciones": [
 "Un canje del permiso, que no exige repetir el examen de conducir con carácter general.",
@@ -13651,7 +14266,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 659,
+"id": 700,
 "enunciado": "Un conductor con permiso B obtenido hace 5 años circula por una vía interurbana. En un control se le mide alcohol en aire espirado. ¿A partir de qué valor se considera que supera la tasa administrativa permitida?",
 "opciones": [
 "A partir de 0,15 mg/l de aire espirado.",
@@ -13666,7 +14281,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 660,
+"id": 701,
 "enunciado": "Una persona obtuvo el permiso B hace 14 meses. ¿Cuál es la tasa máxima de alcohol en aire espirado que puede presentar sin infringir la norma?",
 "opciones": [
 "0,25 mg/l de aire espirado.",
@@ -13681,7 +14296,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 661,
+"id": 702,
 "enunciado": "La tasa de alcohol reducida de 0,15 mg/l en aire espirado equivale en sangre a:",
 "opciones": [
 "0,3 g/l en sangre.",
@@ -13696,7 +14311,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 662,
+"id": 703,
 "enunciado": "Un conductor profesional que transporta viajeros da positivo con 0,20 mg/l de alcohol en aire espirado. ¿Ha cometido infracción?",
 "opciones": [
 "No, porque no llega a 0,25 mg/l.",
@@ -13711,7 +14326,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 663,
+"id": 704,
 "enunciado": "¿A partir de qué tasa de alcohol en aire espirado la conducción constituye delito contra la seguridad vial según el Código Penal?",
 "opciones": [
 "A partir de 0,60 mg/l en aire espirado.",
@@ -13726,7 +14341,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 664,
+"id": 705,
 "enunciado": "La tasa penal de 0,60 mg/l de alcohol en aire espirado corresponde en sangre a:",
 "opciones": [
 "1,2 g/l en sangre.",
@@ -13741,7 +14356,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 665,
+"id": 706,
 "enunciado": "En un control de drogas mediante saliva se detecta la presencia de cocaína en un conductor, aunque no muestra síntomas evidentes. ¿Qué determina la norma?",
 "opciones": [
 "No hay infracción si no se supera una tasa mínima establecida.",
@@ -13756,7 +14371,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 666,
+"id": 707,
 "enunciado": "¿Cuánto tiempo debe transcurrir desde la obtención del permiso para dejar de tener la consideración de conductor novel a efectos de la tasa de alcohol?",
 "opciones": [
 "1 año.",
@@ -13771,7 +14386,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 667,
+"id": 708,
 "enunciado": "Respecto a la sensación que produce el alcohol en el conductor, ¿qué afirmación es correcta?",
 "opciones": [
 "Produce una falsa sensación de seguridad y mejora real de reflejos.",
@@ -13786,7 +14401,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 668,
+"id": 709,
 "enunciado": "Un conductor se niega a someterse a las pruebas de detección de alcohol tras un requerimiento legítimo de los agentes. ¿Qué consecuencia tiene?",
 "opciones": [
 "Ninguna, someterse a la prueba es voluntario.",
@@ -13801,7 +14416,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 669,
+"id": 710,
 "enunciado": "Antes de conducir tomando un medicamento, ¿cuál es la referencia más fiable sobre si afecta a la conducción?",
 "opciones": [
 "El prospecto y el pictograma del triángulo con el coche del envase.",
@@ -13816,7 +14431,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 670,
+"id": 711,
 "enunciado": "Un conductor novel da 0,25 mg/l en aire espirado. ¿Cómo se califica su situación?",
 "opciones": [
 "Correcto, está justo en el límite general permitido.",
@@ -13831,7 +14446,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 671,
+"id": 712,
 "enunciado": "Sobre la eliminación del alcohol del organismo, ¿qué afirmación es correcta?",
 "opciones": [
 "Un café cargado y una ducha fría aceleran su eliminación.",
@@ -13846,7 +14461,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 672,
+"id": 713,
 "enunciado": "Se detecta en un conductor 0,30 g/l de alcohol en sangre. Se trata de un conductor con permiso desde hace 6 meses. ¿Qué se concluye?",
 "opciones": [
 "No infringe, porque su límite en sangre es 0,5 g/l.",
@@ -13861,7 +14476,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 673,
+"id": 714,
 "enunciado": "Circula usted con su turismo por una autovía. ¿Cuál es la velocidad máxima genérica que no debe rebasar?",
 "opciones": [
 "90 km/h",
@@ -13876,7 +14491,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 674,
+"id": 715,
 "enunciado": "Conduce su turismo por una carretera convencional (fuera de poblado, con un carril para cada sentido). ¿A qué velocidad máxima puede circular?",
 "opciones": [
 "90 km/h",
@@ -13891,7 +14506,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 675,
+"id": 716,
 "enunciado": "Va a adelantar a otro vehículo en una carretera convencional cuyo límite es 90 km/h. ¿Hasta qué velocidad puede llegar durante la maniobra de adelantamiento?",
 "opciones": [
 "110 km/h, porque se permite superar en 20 km/h el límite",
@@ -13906,7 +14521,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 676,
+"id": 717,
 "enunciado": "¿Cuál es la velocidad MÍNIMA genérica a la que puede circular un turismo en una autopista con límite máximo de 120 km/h, salvo circunstancias justificadas?",
 "opciones": [
 "45 km/h",
@@ -13921,7 +14536,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 677,
+"id": 718,
 "enunciado": "Circula por una vía urbana con un único carril para cada sentido de circulación. ¿Cuál es el límite máximo de velocidad?",
 "opciones": [
 "20 km/h",
@@ -13936,7 +14551,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 678,
+"id": 719,
 "enunciado": "Circula por una vía urbana de dos carriles por sentido de circulación. ¿Cuál es la velocidad máxima permitida?",
 "opciones": [
 "50 km/h",
@@ -13951,7 +14566,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 679,
+"id": 720,
 "enunciado": "Circula por una vía urbana de plataforma única, en la que la calzada y la acera están al mismo nivel. ¿Cuál es el límite de velocidad?",
 "opciones": [
 "30 km/h",
@@ -13966,7 +14581,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 680,
+"id": 721,
 "enunciado": "Conduce una motocicleta por una autopista. ¿Cuál es su velocidad máxima genérica?",
 "opciones": [
 "100 km/h",
@@ -13981,7 +14596,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 681,
+"id": 722,
 "enunciado": "Conduce un camión con una masa máxima autorizada superior a 3.500 kg por una autovía. ¿Cuál es su velocidad máxima genérica?",
 "opciones": [
 "120 km/h",
@@ -13996,7 +14611,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 682,
+"id": 723,
 "enunciado": "Conduce un autobús por una carretera convencional. ¿Cuál es la velocidad máxima genérica?",
 "opciones": [
 "100 km/h",
@@ -14011,7 +14626,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 683,
+"id": 724,
 "enunciado": "Conduce un turismo que arrastra un remolque de menos de 750 kg por una autovía. ¿Cuál es su velocidad máxima genérica?",
 "opciones": [
 "120 km/h",
@@ -14026,7 +14641,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 684,
+"id": 725,
 "enunciado": "Conduce un ciclomotor. ¿Cuál es su velocidad máxima por construcción y normativa en cualquier vía?",
 "opciones": [
 "45 km/h",
@@ -14041,7 +14656,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 685,
+"id": 726,
 "enunciado": "Circula a 100 km/h por una carretera convencional con su turismo. Detrás de usted otro vehículo mantiene una distancia de seguridad. En condiciones normales, ¿cuál es la regla básica de la distancia de seguridad respecto al vehículo que le precede?",
 "opciones": [
 "Mantener siempre exactamente 50 metros",
@@ -14056,7 +14671,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 686,
+"id": 727,
 "enunciado": "Conduce un turismo por un tramo de carretera convencional señalizado con una señal de límite de 70 km/h. ¿A qué velocidad máxima puede circular?",
 "opciones": [
 "90 km/h, el límite genérico de la vía",
@@ -14071,7 +14686,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 687,
+"id": 728,
 "enunciado": "Conduce un turismo con remolque ligero (menos de 750 kg) por una carretera convencional. ¿Cuál es su velocidad máxima genérica?",
 "opciones": [
 "90 km/h",
@@ -14086,7 +14701,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 688,
+"id": 729,
 "enunciado": "¿Cuál es la velocidad MÍNIMA genérica a la que debe circular un turismo en una carretera convencional cuyo máximo es 90 km/h, salvo justificación?",
 "opciones": [
 "30 km/h",
@@ -14101,7 +14716,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 689,
+"id": 730,
 "enunciado": "En un cruce, un agente de circulación indica con el brazo extendido horizontalmente que detengamos la marcha, pero el semáforo que tenemos enfrente está en verde. ¿Qué debemos hacer?",
 "opciones": [
 "Obedecer al semáforo, porque regula específicamente ese cruce",
@@ -14116,7 +14731,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 690,
+"id": 731,
 "enunciado": "Coincide en un mismo tramo una señal vertical que prohíbe adelantar y una marca vial longitudinal discontinua que, en principio, permitiría el adelantamiento. ¿Qué prevalece?",
 "opciones": [
 "La marca vial, porque está pintada sobre la propia calzada",
@@ -14131,7 +14746,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 691,
+"id": 732,
 "enunciado": "Respecto a la FORMA y COLOR, ¿cómo se caracterizan por lo general las señales de advertencia de peligro?",
 "opciones": [
 "Triangulares con el vértice hacia arriba, fondo blanco y borde rojo",
@@ -14146,7 +14761,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 692,
+"id": 733,
 "enunciado": "Una señal circular de fondo azul con una flecha blanca apuntando hacia la derecha, ¿qué tipo de señal es y qué significa?",
 "opciones": [
 "De peligro: advierte de una curva peligrosa a la derecha",
@@ -14161,7 +14776,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 693,
+"id": 734,
 "enunciado": "¿Qué característica define a las señales que indican el FIN de una prohibición o restricción anteriormente establecida?",
 "opciones": [
 "Son triangulares con una banda verde",
@@ -14176,7 +14791,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 694,
+"id": 735,
 "enunciado": "Con carácter general, en vías fuera de poblado, ¿a qué distancia antes del peligro se colocan las señales de advertencia de peligro?",
 "opciones": [
 "Entre 150 y 250 metros antes del peligro",
@@ -14191,7 +14806,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 695,
+"id": 736,
 "enunciado": "Una línea longitudinal continua blanca que separa dos sentidos de circulación, ¿qué está permitido respecto a ella?",
 "opciones": [
 "Rebasarla para adelantar siempre que no venga nadie de frente",
@@ -14206,7 +14821,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 696,
+"id": 737,
 "enunciado": "¿Qué diferencia esencial existe entre la señal de STOP y la de Ceda el paso en cuanto a la obligación que imponen?",
 "opciones": [
 "Ambas obligan siempre a detener completamente el vehículo",
@@ -14221,7 +14836,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 697,
+"id": 738,
 "enunciado": "¿Cuál es la diferencia entre la señal de 'Circulación prohibida en ambos sentidos' y la de 'Entrada prohibida'?",
 "opciones": [
 "La primera (círculo rojo con centro blanco) prohíbe la entrada a todo vehículo en ambos sentidos; la segunda (círculo rojo con banda blanca horizontal) prohíbe solo la entrada en ese sentido",
@@ -14236,7 +14851,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 698,
+"id": 739,
 "enunciado": "En una señal de peligro colocada bajo un panel complementario que indica '300 m', ¿qué expresa ese panel?",
 "opciones": [
 "La longitud total del tramo peligroso",
@@ -14251,7 +14866,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 699,
+"id": 740,
 "enunciado": "Las señales de balizamiento, como los paneles direccionales y los hitos de arista, ¿qué finalidad principal cumplen?",
 "opciones": [
 "Indicar límites de velocidad obligatorios",
@@ -14266,7 +14881,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 700,
+"id": 741,
 "enunciado": "En un estrechamiento de calzada señalizado con la señal de 'Prioridad al sentido contrario', ¿qué debe hacer el conductor?",
 "opciones": [
 "Tiene preferencia y puede pasar primero por el estrechamiento",
@@ -14281,7 +14896,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 701,
+"id": 742,
 "enunciado": "Una señal triangular con borde rojo y el dibujo de dos niños, ¿qué tipo de señal es y qué comunica?",
 "opciones": [
 "De prohibición: prohíbe el paso a menores de edad",
@@ -14296,7 +14911,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 702,
+"id": 743,
 "enunciado": "Si en una intersección coinciden una marca vial de STOP pintada en el suelo y una señal vertical de Ceda el paso, ¿cuál se obedece?",
 "opciones": [
 "La marca vial de STOP, porque está más cerca de las ruedas",
@@ -14311,7 +14926,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 703,
+"id": 744,
 "enunciado": "Circula por el interior de una glorieta y otro vehículo espera para acceder a ella por una de las entradas. En ausencia de señalización que indique lo contrario, ¿quién tiene la preferencia de paso?",
 "opciones": [
 "El vehículo que ya está circulando por la calzada anular de la glorieta.",
@@ -14326,7 +14941,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 704,
+"id": 745,
 "enunciado": "Va a abandonar una glorieta de dos carriles por una salida situada a su derecha. ¿Desde qué carril y con qué maniobra previa debe hacerlo correctamente?",
 "opciones": [
 "Desde el carril exterior (el de la derecha), habiéndose situado en él con antelación y señalizando la salida con el intermitente derecho.",
@@ -14341,7 +14956,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 705,
+"id": 746,
 "enunciado": "Se aproxima a una intersección sin señales ni semáforos, en la que confluye por su derecha un camino sin pavimentar mientras usted circula por una vía asfaltada. ¿Cómo se resuelve la preferencia?",
 "opciones": [
 "Cede el paso al vehículo del camino de tierra, porque se aproxima por su derecha.",
@@ -14356,7 +14971,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 706,
+"id": 747,
 "enunciado": "Sale de un aparcamiento y desea incorporarse a la circulación de una vía por la que ya vienen vehículos. ¿Qué obligación tiene?",
 "opciones": [
 "Ceder el paso a los vehículos que ya circulan, aunque tenga que detenerse por completo para hacerlo.",
@@ -14371,7 +14986,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 707,
+"id": 748,
 "enunciado": "Adelanta a un ciclista que circula por su mismo sentido en una carretera convencional. ¿Cómo debe realizar la maniobra conforme a la normativa vigente?",
 "opciones": [
 "Dejando al menos 1,5 metros de separación lateral y pudiendo ocupar parte o la totalidad del carril contrario si es necesario y está permitido adelantar.",
@@ -14386,7 +15001,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 708,
+"id": 749,
 "enunciado": "En una carretera convencional con línea longitudinal continua que separa los dos sentidos, un ciclista circula muy despacio delante de usted. ¿Puede adelantarlo invadiendo el carril contrario?",
 "opciones": [
 "No, la línea continua prohíbe invadir el sentido contrario en cualquier circunstancia.",
@@ -14401,7 +15016,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 709,
+"id": 750,
 "enunciado": "Circula por una vía de dos carriles por sentido y va a adelantar. ¿En cuál de estas situaciones está PROHIBIDO el adelantamiento?",
 "opciones": [
 "Inmediatamente antes y en los pasos para peatones señalizados.",
@@ -14416,7 +15031,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 710,
+"id": 751,
 "enunciado": "Desea estacionar su vehículo junto al bordillo, cerca de una intersección en zona urbana. ¿A qué distancia mínima de la esquina o intersección debe hacerlo para no cometer infracción?",
 "opciones": [
 "A no menos de 5 metros de la esquina o intersección, para no reducir la visibilidad en el cruce.",
@@ -14431,7 +15046,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 711,
+"id": 752,
 "enunciado": "Indique en cuál de los siguientes lugares está PROHIBIDO tanto parar como estacionar.",
 "opciones": [
 "En los pasos para peatones y sobre las marcas viales que los delimitan.",
@@ -14446,7 +15061,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 712,
+"id": 753,
 "enunciado": "Va a detener su vehículo brevemente en un cambio de rasante de visibilidad reducida en una carretera convencional. ¿Es correcto?",
 "opciones": [
 "No: está prohibido parar y estacionar en cambios de rasante de visibilidad reducida y en sus proximidades.",
@@ -14461,7 +15076,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 713,
+"id": 754,
 "enunciado": "Circula por una vía y un peatón se dispone a cruzar por un paso de peatones no regulado por semáforo. ¿Cómo debe actuar?",
 "opciones": [
 "Cederle el paso y detenerse si es preciso, porque el peatón tiene preferencia en el paso señalizado.",
@@ -14476,7 +15091,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 714,
+"id": 755,
 "enunciado": "Va a efectuar un cambio de sentido en una vía interurbana. ¿En cuál de estos lugares NO puede hacerlo?",
 "opciones": [
 "En un cambio de rasante, en una curva de visibilidad reducida o en un túnel.",
@@ -14491,7 +15106,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 715,
+"id": 756,
 "enunciado": "Necesita realizar la marcha atrás para completar una maniobra en la que se ha equivocado de calle. ¿Qué establece la norma?",
 "opciones": [
 "Solo puede usarse como maniobra complementaria de otra que la exija, recorriendo la menor distancia posible y sin invadir cruces.",
@@ -14506,7 +15121,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 716,
+"id": 757,
 "enunciado": "Se incorpora a una autovía a través de un carril de aceleración. ¿Quién tiene la preferencia respecto a los vehículos que circulan por el carril derecho de la autovía?",
 "opciones": [
 "Los que ya circulan por la autovía; usted debe adaptar su velocidad y ceder el paso al incorporarse.",
@@ -14521,7 +15136,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 717,
+"id": 758,
 "enunciado": "Circula por una vía urbana y, tras usted, se aproxima una ambulancia con las señales luminosas y acústicas de emergencia conectadas. ¿Cómo debe actuar?",
 "opciones": [
 "Facilitarle el paso apartándose y deteniéndose si es preciso, incluso arrimándose y dejando libre el espacio necesario para que pase.",
@@ -14536,7 +15151,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 718,
+"id": 759,
 "enunciado": "En una intersección sin señalizar confluyen su vía y otra por la que se acerca por su derecha un vehículo. Sin embargo, usted circula por una vía que tiene carácter de preferente y así está señalizado en la otra vía con un ceda el paso. ¿Quién pasa primero?",
 "opciones": [
 "Usted, porque la señalización de la otra vía (ceda el paso) le atribuye la preferencia pese a que el otro venga por la derecha.",
@@ -14551,7 +15166,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 719,
+"id": 760,
 "enunciado": "Circulas con tu vehículo particular por una vía interurbana y ves a un usuario de patinete eléctrico (VMP) circulando por el arcén de esa misma carretera. ¿Es correcta esa circulación?",
 "opciones": [
 "No, los VMP tienen prohibido circular por vías interurbanas, travesías, autopistas y autovías",
@@ -14566,7 +15181,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 720,
+"id": 761,
 "enunciado": "Un conductor de patinete eléctrico (VMP) da positivo en un control de alcoholemia con 0,30 mg/l en aire espirado. ¿Qué ocurre?",
 "opciones": [
 "Es sancionable, porque las tasas de alcohol y drogas se aplican también a los VMP",
@@ -14581,7 +15196,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 721,
+"id": 762,
 "enunciado": "¿Por dónde debe circular, con carácter general, un patinete eléctrico (VMP) en ciudad?",
 "opciones": [
 "Por la calzada o por los carriles y espacios habilitados por la ordenanza municipal, nunca por la acera",
@@ -14596,7 +15211,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 722,
+"id": 763,
 "enunciado": "Vas conduciendo tu coche y suena una llamada. ¿Cuál de estas conductas está permitida por la norma?",
 "opciones": [
 "Hablar mediante un sistema de manos libres que no requiera sostener ni manipular el teléfono",
@@ -14611,7 +15226,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 723,
+"id": 764,
 "enunciado": "Tu coche dispone de sistema de frenada automática de emergencia y mantenimiento de carril (sistemas ADAS). ¿Qué implica esto para tu forma de conducir?",
 "opciones": [
 "Nada cambia en tu responsabilidad: son ayudas que asisten, pero no sustituyen la atención y el control del conductor",
@@ -14626,7 +15241,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 724,
+"id": 765,
 "enunciado": "Viaja contigo un niño que mide 128 cm y pesa 30 kg. ¿Cómo debe ir en el vehículo?",
 "opciones": [
 "Con un sistema de retención infantil homologado y adecuado a su talla y peso, preferentemente en asiento trasero",
@@ -14641,7 +15256,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 725,
+"id": 766,
 "enunciado": "¿Qué relación existe entre el airbag y el cinturón de seguridad?",
 "opciones": [
 "El airbag es un complemento del cinturón; sin cinturón el airbag puede llegar a agravar las lesiones",
@@ -14656,7 +15271,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 726,
+"id": 767,
 "enunciado": "Circulas de día por una autovía con buena visibilidad. ¿Qué alumbrado debes llevar encendido?",
 "opciones": [
 "El alumbrado de cruce (luz corta), obligatorio también de día en autopistas y autovías",
@@ -14671,7 +15286,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 727,
+"id": 768,
 "enunciado": "¿Cuándo está permitido utilizar la luz antiniebla trasera?",
 "opciones": [
 "Solo cuando la visibilidad sea muy reducida por niebla densa, lluvia intensa, nieve o polvo",
@@ -14686,7 +15301,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 728,
+"id": 769,
 "enunciado": "¿Cuál es la profundidad mínima legal de las estrías (dibujo) de la banda de rodadura de los neumáticos?",
 "opciones": [
 "1,6 milímetros en toda la banda de rodadura",
@@ -14701,7 +15316,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 729,
+"id": 770,
 "enunciado": "Encuentras a un motorista accidentado, consciente y quejándose, tumbado en la calzada. Aplicando primeros auxilios, ¿qué debes hacer con el casco?",
 "opciones": [
 "No quitárselo salvo que sea imprescindible (parada respiratoria o vómito); esperar a los servicios sanitarios",
@@ -14716,7 +15331,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 730,
+"id": 771,
 "enunciado": "Ante un accidente de tráfico, ¿en qué orden se aplica el método PAS?",
 "opciones": [
 "Proteger, Avisar y Socorrer, en ese orden",
@@ -14731,7 +15346,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 731,
+"id": 772,
 "enunciado": "Salvo peligro inminente, ¿qué se debe hacer con una persona herida en un accidente de tráfico?",
 "opciones": [
 "No moverla y esperar a los servicios sanitarios, para no agravar posibles lesiones",
@@ -14746,7 +15361,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 732,
+"id": 773,
 "enunciado": "Aplicando una conducción eficiente para reducir consumo y emisiones, ¿cómo debes actuar?",
 "opciones": [
 "Circular en marchas largas a bajas revoluciones y evitar el ralentí prolongado apagando el motor en paradas largas",
@@ -14761,7 +15376,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 733,
+"id": 774,
 "enunciado": "A partir del 1 de enero de 2026, ¿qué dispositivo de preseñalización de peligro será obligatorio en caso de inmovilización del vehículo?",
 "opciones": [
 "La luz de emergencia V-16 conectada, que sustituye a los triángulos de preseñalización",
@@ -14776,7 +15391,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 734,
+"id": 775,
 "enunciado": "Vas a tomar un medicamento cuyo prospecto muestra el pictograma de un coche indicando precaución al conducir. ¿Qué debes tener en cuenta?",
 "opciones": [
 "Que ciertos fármacos afectan a la capacidad de conducir; debes seguir el prospecto y la indicación médica y, si procede, no conducir",
@@ -14791,7 +15406,7 @@ window.DGT_QUESTIONS = [
 "origen": "ia_generada"
 },
 {
-"id": 735,
+"id": 776,
 "enunciado": "¿Qué se entiende por 'calzada' de una vía?",
 "opciones": [
 "La parte de la vía destinada a la circulación de vehículos.",
@@ -14805,7 +15420,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 736,
+"id": 777,
 "enunciado": "El 'arcén' es:",
 "opciones": [
 "El carril central de una autopista.",
@@ -14819,7 +15434,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 737,
+"id": 778,
 "enunciado": "¿Qué diferencia principal existe entre autopista y autovía?",
 "opciones": [
 "La autopista permite mayor velocidad que la autovía en todos los casos.",
@@ -14833,7 +15448,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 738,
+"id": 779,
 "enunciado": "Una 'travesía' es:",
 "opciones": [
 "Cualquier carretera comarcal.",
@@ -14847,7 +15462,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 739,
+"id": 780,
 "enunciado": "El término 'conductor' se aplica a:",
 "opciones": [
 "Solo a quien maneja un vehículo de motor.",
@@ -14861,7 +15476,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 740,
+"id": 781,
 "enunciado": "¿Qué es un 'carril'?",
 "opciones": [
 "Toda la anchura de la calzada.",
@@ -14875,7 +15490,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 741,
+"id": 782,
 "enunciado": "¿Cada cuánto tiempo debe pasar la ITV un turismo de uso particular a partir de los 10 años de antigüedad?",
 "opciones": [
 "Cada dos años.",
@@ -14889,7 +15504,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 742,
+"id": 783,
 "enunciado": "¿Cuándo debe pasar un turismo particular su primera inspección técnica (ITV)?",
 "opciones": [
 "A los 4 años desde su primera matriculación.",
@@ -14903,7 +15518,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 743,
+"id": 784,
 "enunciado": "El seguro obligatorio de responsabilidad civil de un vehículo cubre:",
 "opciones": [
 "Solo los daños del propio conductor culpable.",
@@ -14917,7 +15532,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 744,
+"id": 785,
 "enunciado": "¿Qué documento acredita que un vehículo ha superado la inspección técnica?",
 "opciones": [
 "El permiso de circulación.",
@@ -14931,7 +15546,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 745,
+"id": 786,
 "enunciado": "¿Es obligatorio llevar el permiso de conducción original durante la conducción?",
 "opciones": [
 "Sí, debe llevarse y exhibirse a la autoridad cuando lo requiera.",
@@ -14945,7 +15560,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 746,
+"id": 787,
 "enunciado": "El permiso de circulación del vehículo identifica principalmente:",
 "opciones": [
 "Al titular del vehículo y al propio vehículo.",
@@ -14959,7 +15574,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 747,
+"id": 788,
 "enunciado": "¿Cuál es la tasa máxima de alcohol en aire espirado para un conductor con más de dos años de permiso (general)?",
 "opciones": [
 "0,15 mg/l.",
@@ -14973,7 +15588,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 748,
+"id": 789,
 "enunciado": "¿Qué tasa de alcohol en sangre no puede superar un conductor novel (menos de dos años de permiso)?",
 "opciones": [
 "0,3 g/l.",
@@ -14987,7 +15602,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 749,
+"id": 790,
 "enunciado": "Respecto a las drogas, ¿qué establece la normativa para conducir?",
 "opciones": [
 "Se permite un mínimo si no afecta a la conducción.",
@@ -15001,7 +15616,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 750,
+"id": 791,
 "enunciado": "¿Cómo afecta el alcohol a la capacidad de conducción?",
 "opciones": [
 "Aumenta los reflejos y la concentración.",
@@ -15015,7 +15630,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 751,
+"id": 792,
 "enunciado": "Un medicamento que produce somnolencia:",
 "opciones": [
 "Puede afectar a la conducción; debe consultarse el prospecto y al médico.",
@@ -15029,7 +15644,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 752,
+"id": 793,
 "enunciado": "Si un agente requiere una prueba de alcoholemia, el conductor:",
 "opciones": [
 "Puede negarse sin consecuencias.",
@@ -15043,7 +15658,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 753,
+"id": 794,
 "enunciado": "¿Cuál es la velocidad máxima genérica para turismos en autopista o autovía?",
 "opciones": [
 "100 km/h.",
@@ -15057,7 +15672,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 754,
+"id": 795,
 "enunciado": "En una vía convencional fuera de poblado, la velocidad máxima genérica para un turismo es:",
 "opciones": [
 "70 km/h.",
@@ -15071,7 +15686,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 755,
+"id": 796,
 "enunciado": "En vías urbanas con un único carril por sentido de circulación, la velocidad máxima genérica es:",
 "opciones": [
 "20 km/h.",
@@ -15085,7 +15700,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 756,
+"id": 797,
 "enunciado": "En vías urbanas de plataforma única (calzada y acera al mismo nivel), la velocidad máxima es:",
 "opciones": [
 "20 km/h.",
@@ -15099,7 +15714,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 757,
+"id": 798,
 "enunciado": "En vías urbanas con dos o más carriles por sentido, la velocidad máxima genérica es:",
 "opciones": [
 "30 km/h.",
@@ -15113,7 +15728,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 758,
+"id": 799,
 "enunciado": "¿Puede un turismo circular por debajo de los límites mínimos de velocidad de forma injustificada?",
 "opciones": [
 "Sí, siempre es más seguro ir despacio.",
@@ -15127,7 +15742,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 759,
+"id": 800,
 "enunciado": "Una señal triangular con borde rojo indica generalmente:",
 "opciones": [
 "Una prohibición.",
@@ -15141,7 +15756,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 760,
+"id": 801,
 "enunciado": "Una señal circular con fondo azul indica generalmente:",
 "opciones": [
 "Prohibición.",
@@ -15155,7 +15770,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 761,
+"id": 802,
 "enunciado": "La señal de STOP obliga a:",
 "opciones": [
 "Reducir la velocidad únicamente.",
@@ -15169,7 +15784,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 762,
+"id": 803,
 "enunciado": "En caso de contradicción entre una señal y una marca vial, ¿qué prevalece?",
 "opciones": [
 "La marca vial.",
@@ -15183,7 +15798,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 763,
+"id": 804,
 "enunciado": "Una línea longitudinal continua en el centro de la calzada significa que:",
 "opciones": [
 "Se puede adelantar con precaución.",
@@ -15197,7 +15812,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 764,
+"id": 805,
 "enunciado": "Un semáforo con luz amarilla fija indica:",
 "opciones": [
 "Que se debe acelerar para pasar.",
@@ -15211,7 +15826,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 765,
+"id": 806,
 "enunciado": "En una intersección sin señalizar, ¿quién tiene preferencia con carácter general?",
 "opciones": [
 "El que viene por la izquierda.",
@@ -15225,7 +15840,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 766,
+"id": 807,
 "enunciado": "Antes de iniciar un adelantamiento, el conductor debe asegurarse de que:",
 "opciones": [
 "Nadie le está adelantando a él y dispone de espacio y visibilidad suficientes.",
@@ -15239,7 +15854,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 767,
+"id": 808,
 "enunciado": "En una rotonda (glorieta), la preferencia de paso corresponde a:",
 "opciones": [
 "El vehículo que va a entrar en ella.",
@@ -15253,7 +15868,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 768,
+"id": 809,
 "enunciado": "Para cambiar de carril o girar, el conductor debe:",
 "opciones": [
 "Hacerlo rápidamente sin avisar.",
@@ -15267,7 +15882,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 769,
+"id": 810,
 "enunciado": "Al aproximarse a un paso de peatones señalizado sin semáforo con peatones esperando:",
 "opciones": [
 "El conductor tiene siempre preferencia.",
@@ -15281,7 +15896,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 770,
+"id": 811,
 "enunciado": "¿Está permitido detenerse o estacionar en un cambio de rasante o curva de visibilidad reducida?",
 "opciones": [
 "Sí, si se encienden las luces de emergencia.",
@@ -15295,7 +15910,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 771,
+"id": 812,
 "enunciado": "¿A qué distancia debe colocarse, con carácter general, respecto a un vehículo detenido en una parada de emergencia el conductor que se apea en vía interurbana?",
 "opciones": [
 "Debe abandonar el vehículo por el lado del tráfico rápidamente.",
@@ -15309,7 +15924,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 772,
+"id": 813,
 "enunciado": "¿Cuál es la finalidad principal del reposacabezas del asiento?",
 "opciones": [
 "Servir de apoyo para dormir en trayectos largos.",
@@ -15323,7 +15938,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 773,
+"id": 814,
 "enunciado": "Unos neumáticos con la presión más baja de la recomendada provocan:",
 "opciones": [
 "Menor consumo de combustible.",
@@ -15337,7 +15952,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 774,
+"id": 815,
 "enunciado": "El uso del cinturón de seguridad es:",
 "opciones": [
 "Obligatorio para todos los ocupantes, en vías urbanas e interurbanas.",
@@ -15351,7 +15966,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 775,
+"id": 816,
 "enunciado": "La profundidad mínima legal del dibujo de la banda de rodadura de los neumáticos es:",
 "opciones": [
 "1,6 mm.",
@@ -15365,7 +15980,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 776,
+"id": 817,
 "enunciado": "Si se enciende la luz roja de presión de aceite del motor durante la marcha, se debe:",
 "opciones": [
 "Continuar hasta el destino sin más.",
@@ -15379,7 +15994,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 777,
+"id": 818,
 "enunciado": "El sistema ABS de frenado sirve para:",
 "opciones": [
 "Frenar en menor distancia siempre, en cualquier superficie.",
@@ -15393,7 +16008,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 778,
+"id": 819,
 "enunciado": "Una conducción eficiente para reducir consumo y emisiones recomienda:",
 "opciones": [
 "Circular en marchas largas y a régimen de motor moderado, anticipando las frenadas.",
@@ -15407,7 +16022,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 779,
+"id": 820,
 "enunciado": "¿Qué es una vía interurbana?",
 "opciones": [
 "Cualquier calle situada dentro de una ciudad.",
@@ -15421,7 +16036,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 780,
+"id": 821,
 "enunciado": "La diferencia entre 'parada' y 'estacionamiento' es que la parada:",
 "opciones": [
 "No supera los dos minutos y el conductor no se aleja del vehículo.",
@@ -15435,7 +16050,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 781,
+"id": 822,
 "enunciado": "El 'adelantamiento' se define como la maniobra de:",
 "opciones": [
 "Cambiar de carril para estacionar.",
@@ -15449,7 +16064,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 782,
+"id": 823,
 "enunciado": "La 'tara' de un vehículo es:",
 "opciones": [
 "Su masa en vacío, sin ocupantes ni carga, pero con combustible y equipo fijo.",
@@ -15463,7 +16078,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 783,
+"id": 824,
 "enunciado": "Una 'isleta' en una vía es:",
 "opciones": [
 "Una zona elevada para el descanso de conductores.",
@@ -15477,7 +16092,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 784,
+"id": 825,
 "enunciado": "Se considera 'peatón', a efectos de circulación:",
 "opciones": [
 "Solo quien camina por la acera.",
@@ -15491,7 +16106,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 785,
+"id": 826,
 "enunciado": "El 'carril bus' está reservado a:",
 "opciones": [
 "Todos los vehículos en hora punta.",
@@ -15505,7 +16120,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 786,
+"id": 827,
 "enunciado": "Con carácter general, ¿cada cuánto se renueva el permiso B para menores de 65 años?",
 "opciones": [
 "Cada 10 años.",
@@ -15519,7 +16134,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 787,
+"id": 828,
 "enunciado": "¿Con cuántos puntos parte un conductor que obtiene el permiso por primera vez?",
 "opciones": [
 "12 puntos.",
@@ -15533,7 +16148,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 788,
+"id": 829,
 "enunciado": "¿Qué documentación relativa al vehículo debe poder mostrarse a los agentes?",
 "opciones": [
 "Solo el permiso de conducción.",
@@ -15547,7 +16162,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 789,
+"id": 830,
 "enunciado": "Si extravías tu permiso de conducción, debes:",
 "opciones": [
 "Dejar de conducir para siempre.",
@@ -15561,7 +16176,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 790,
+"id": 831,
 "enunciado": "El distintivo ambiental de la DGT (etiqueta) sirve para:",
 "opciones": [
 "Clasificar los vehículos según su impacto medioambiental.",
@@ -15575,7 +16190,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 791,
+"id": 832,
 "enunciado": "Las placas de matrícula del vehículo:",
 "opciones": [
 "Pueden retirarse si molestan estéticamente.",
@@ -15589,7 +16204,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 792,
+"id": 833,
 "enunciado": "Circular sin el seguro obligatorio en vigor:",
 "opciones": [
 "Es legal si el vehículo es nuevo.",
@@ -15603,7 +16218,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 793,
+"id": 834,
 "enunciado": "La única forma de reducir la tasa de alcohol en el organismo es:",
 "opciones": [
 "Beber café cargado.",
@@ -15617,7 +16232,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 794,
+"id": 835,
 "enunciado": "Conducir con una tasa de alcohol en aire espirado superior a 0,60 mg/l:",
 "opciones": [
 "Es solo una infracción administrativa leve.",
@@ -15631,7 +16246,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 795,
+"id": 836,
 "enunciado": "La tasa de alcohol en aire espirado para conductores profesionales y noveles es:",
 "opciones": [
 "0,15 mg/l.",
@@ -15645,7 +16260,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 796,
+"id": 837,
 "enunciado": "El consumo de cannabis antes de conducir:",
 "opciones": [
 "Mejora la concentración.",
@@ -15659,7 +16274,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 797,
+"id": 838,
 "enunciado": "Conducir con resaca (efecto residual del alcohol):",
 "opciones": [
 "Es totalmente seguro porque ya no se está bebido.",
@@ -15673,7 +16288,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 798,
+"id": 839,
 "enunciado": "Mezclar alcohol con medicamentos:",
 "opciones": [
 "Anula los efectos del alcohol.",
@@ -15687,7 +16302,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 799,
+"id": 840,
 "enunciado": "Ante la presencia de drogas en el organismo, el límite legal para conducir es:",
 "opciones": [
 "Tasa cero, salvo prescripción médica que no merme la capacidad.",
@@ -15701,7 +16316,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 800,
+"id": 841,
 "enunciado": "¿Cuál es la velocidad mínima genérica en autopista o autovía para turismos?",
 "opciones": [
 "40 km/h.",
@@ -15715,7 +16330,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 801,
+"id": 842,
 "enunciado": "Desde 2022, para adelantar en una carretera convencional, ¿se puede superar en 20 km/h el límite de velocidad?",
 "opciones": [
 "Sí, hasta 20 km/h por encima.",
@@ -15729,7 +16344,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 802,
+"id": 843,
 "enunciado": "La distancia de frenado de un vehículo, al circular sobre pavimento mojado:",
 "opciones": [
 "Disminuye.",
@@ -15743,7 +16358,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 803,
+"id": 844,
 "enunciado": "Si se duplica la velocidad, la energía cinética del vehículo:",
 "opciones": [
 "Se duplica.",
@@ -15757,7 +16372,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 804,
+"id": 845,
 "enunciado": "La distancia de seguridad con el vehículo que precede debe permitir:",
 "opciones": [
 "Detenerse sin colisionar ante una frenada imprevista del de delante.",
@@ -15771,7 +16386,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 805,
+"id": 846,
 "enunciado": "Circular muy por debajo del límite en el carril izquierdo de una autovía sin adelantar:",
 "opciones": [
 "Es lo más seguro.",
@@ -15785,7 +16400,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 806,
+"id": 847,
 "enunciado": "En una vía convencional con arcén de más de 1,5 m, un turismo:",
 "opciones": [
 "Debe circular por el arcén.",
@@ -15799,7 +16414,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 807,
+"id": 848,
 "enunciado": "La señal triangular con el vértice hacia abajo (invertida) significa:",
 "opciones": [
 "Stop.",
@@ -15813,7 +16428,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 808,
+"id": 849,
 "enunciado": "Una señal cuadrada o rectangular de fondo azul indica generalmente:",
 "opciones": [
 "Peligro inminente.",
@@ -15827,7 +16442,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 809,
+"id": 850,
 "enunciado": "Una línea longitudinal discontinua en la calzada permite:",
 "opciones": [
 "Traspasarla cuando la maniobra sea segura (por ejemplo, para adelantar).",
@@ -15841,7 +16456,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 810,
+"id": 851,
 "enunciado": "Un semáforo con luz amarilla intermitente indica:",
 "opciones": [
 "Vía cerrada.",
@@ -15855,7 +16470,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 811,
+"id": 852,
 "enunciado": "Una señal circular con borde rojo y fondo blanco indica normalmente:",
 "opciones": [
 "Obligación.",
@@ -15869,7 +16484,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 812,
+"id": 853,
 "enunciado": "Las marcas viales de color amarillo en el bordillo o la calzada suelen indicar:",
 "opciones": [
 "Zona de aparcamiento gratuito.",
@@ -15883,7 +16498,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 813,
+"id": 854,
 "enunciado": "Si un agente de tráfico ordena algo que contradice a un semáforo en verde:",
 "opciones": [
 "Se obedece al semáforo.",
@@ -15897,7 +16512,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 814,
+"id": 855,
 "enunciado": "Al incorporarse a la circulación desde un estacionamiento, el conductor:",
 "opciones": [
 "Tiene preferencia sobre los que ya circulan.",
@@ -15911,7 +16526,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 815,
+"id": 856,
 "enunciado": "¿Cuándo está permitido adelantar por la derecha?",
 "opciones": [
 "Nunca.",
@@ -15925,7 +16540,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 816,
+"id": 857,
 "enunciado": "Al adelantar a un ciclista en vía interurbana, la separación lateral mínima debe ser de:",
 "opciones": [
 "0,5 metros.",
@@ -15939,7 +16554,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 817,
+"id": 858,
 "enunciado": "Un vehículo prioritario (ambulancia, bomberos, policía) en servicio urgente:",
 "opciones": [
 "No tiene ninguna preferencia especial.",
@@ -15953,7 +16568,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 818,
+"id": 859,
 "enunciado": "La maniobra de marcha atrás:",
 "opciones": [
 "Puede hacerse durante largos recorridos si hay poco tráfico.",
@@ -15967,7 +16582,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 819,
+"id": 860,
 "enunciado": "¿Dónde está prohibido cambiar de sentido de la marcha?",
 "opciones": [
 "En cualquier cruce amplio.",
@@ -15981,7 +16596,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 820,
+"id": 861,
 "enunciado": "Al girar para entrar en otra vía y encontrar peatones cruzando por el paso al que te incorporas:",
 "opciones": [
 "El conductor mantiene la preferencia.",
@@ -15995,7 +16610,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 821,
+"id": 862,
 "enunciado": "Si se instala una silla infantil orientada hacia atrás en el asiento del copiloto, el airbag frontal:",
 "opciones": [
 "Debe permanecer activado.",
@@ -16009,7 +16624,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 822,
+"id": 863,
 "enunciado": "Los menores de estatura igual o inferior a 135 cm deben viajar:",
 "opciones": [
 "En el asiento delantero sin más.",
@@ -16023,7 +16638,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 823,
+"id": 864,
 "enunciado": "La señal luminosa de emergencia V16:",
 "opciones": [
 "Sustituye a los triángulos de preseñalización de peligro.",
@@ -16037,7 +16652,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 824,
+"id": 865,
 "enunciado": "Para prevenir la fatiga en viajes largos, es recomendable:",
 "opciones": [
 "No parar hasta llegar al destino.",
@@ -16051,7 +16666,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 825,
+"id": 866,
 "enunciado": "Al circular por un túnel, el conductor debe:",
 "opciones": [
 "Apagar todas las luces.",
@@ -16065,7 +16680,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 826,
+"id": 867,
 "enunciado": "El uso de la luz de carretera (larga) es incorrecto cuando:",
 "opciones": [
 "Se circula por vía interurbana sin iluminación y sin otros vehículos.",
@@ -16079,7 +16694,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 827,
+"id": 868,
 "enunciado": "El sistema de control de estabilidad (ESP) ayuda a:",
 "opciones": [
 "Aumentar la potencia del motor.",
@@ -16093,7 +16708,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 828,
+"id": 869,
 "enunciado": "Una autovía se caracteriza por:",
 "opciones": [
 "Tener un solo carril compartido para ambos sentidos.",
@@ -16107,7 +16722,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 829,
+"id": 870,
 "enunciado": "¿Qué es una carretera convencional?",
 "opciones": [
 "Toda vía interurbana que no reúne las características de autopista o autovía.",
@@ -16121,7 +16736,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 830,
+"id": 871,
 "enunciado": "En una calle residencial (señal S-28), la velocidad máxima es:",
 "opciones": [
 "50 km/h.",
@@ -16135,7 +16750,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 831,
+"id": 872,
 "enunciado": "Una glorieta (rotonda) es:",
 "opciones": [
 "Un tipo de aparcamiento.",
@@ -16149,7 +16764,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 832,
+"id": 873,
 "enunciado": "Un vehículo de movilidad personal (VMP), como un patinete eléctrico, a efectos de circulación es:",
 "opciones": [
 "Un peatón.",
@@ -16163,7 +16778,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 833,
+"id": 874,
 "enunciado": "¿Qué caracteriza a un ciclomotor?",
 "opciones": [
 "Cilindrada máxima de 50 cm³ y velocidad máxima por construcción de 45 km/h.",
@@ -16177,7 +16792,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 834,
+"id": 875,
 "enunciado": "La masa máxima autorizada (MMA) de un vehículo es:",
 "opciones": [
 "El peso del vehículo vacío.",
@@ -16191,7 +16806,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 835,
+"id": 876,
 "enunciado": "Un 'vehículo articulado' es:",
 "opciones": [
 "Un turismo con techo solar.",
@@ -16205,7 +16820,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 836,
+"id": 877,
 "enunciado": "Los 'usuarios vulnerables' de la vía son, entre otros:",
 "opciones": [
 "Los camiones y autobuses.",
@@ -16219,7 +16834,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 837,
+"id": 878,
 "enunciado": "Un 'vado' señalizado en el bordillo indica:",
 "opciones": [
 "Zona de carga y descarga.",
@@ -16233,7 +16848,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 838,
+"id": 879,
 "enunciado": "El carril VAO está reservado a:",
 "opciones": [
 "Vehículos de alta ocupación (con varios ocupantes) o los que indique la señalización.",
@@ -16247,7 +16862,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 839,
+"id": 880,
 "enunciado": "La diferencia entre un remolque y un semirremolque es que el semirremolque:",
 "opciones": [
 "No existe tal diferencia.",
@@ -16261,7 +16876,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 840,
+"id": 881,
 "enunciado": "El 'peso en carga' que realmente lleva un vehículo no debe superar:",
 "opciones": [
 "El doble de la tara.",
@@ -16275,7 +16890,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 841,
+"id": 882,
 "enunciado": "Una 'mediana' es:",
 "opciones": [
 "La línea pintada en el centro de la calzada.",
@@ -16289,7 +16904,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 842,
+"id": 883,
 "enunciado": "Un 'automóvil', según el reglamento, es:",
 "opciones": [
 "Cualquier vehículo, incluidos los ciclos.",
@@ -16303,7 +16918,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 843,
+"id": 884,
 "enunciado": "Un 'paso a nivel' es:",
 "opciones": [
 "Un cruce de la vía con una línea de ferrocarril a la misma altura.",
@@ -16317,7 +16932,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 844,
+"id": 885,
 "enunciado": "La 'zona de estacionamiento regulado' (zona azul, verde) es aquella en la que:",
 "opciones": [
 "Se puede aparcar gratis sin límite.",
@@ -16331,7 +16946,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 845,
+"id": 886,
 "enunciado": "El 'tranvía', a efectos de circulación:",
 "opciones": [
 "Es un automóvil más.",
@@ -16345,7 +16960,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 846,
+"id": 887,
 "enunciado": "Un 'área de descanso' en una autovía sirve para:",
 "opciones": [
 "Estacionar y descansar fuera de la calzada de circulación.",
@@ -16359,7 +16974,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 847,
+"id": 888,
 "enunciado": "La 'acera' es:",
 "opciones": [
 "Parte de la calzada para vehículos lentos.",
@@ -16373,7 +16988,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 848,
+"id": 889,
 "enunciado": "El permiso de la clase B autoriza a conducir, con carácter general:",
 "opciones": [
 "Cualquier vehículo, incluidos camiones y autobuses.",
@@ -16387,7 +17002,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 849,
+"id": 890,
 "enunciado": "¿Qué edad mínima se exige para obtener el permiso B?",
 "opciones": [
 "16 años.",
@@ -16401,7 +17016,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 850,
+"id": 891,
 "enunciado": "Con el permiso B se puede arrastrar un remolque cuya MMA no supere:",
 "opciones": [
 "750 kg (o más si el conjunto no excede de 3.500 kg).",
@@ -16415,7 +17030,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 851,
+"id": 892,
 "enunciado": "El saldo máximo de puntos que puede alcanzar un conductor con experiencia y sin sanciones es:",
 "opciones": [
 "12 puntos.",
@@ -16429,7 +17044,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 852,
+"id": 893,
 "enunciado": "Si un conductor pierde la totalidad de sus puntos:",
 "opciones": [
 "No puede conducir y deberá superar un curso y una prueba para recuperar el permiso.",
@@ -16443,7 +17058,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 853,
+"id": 894,
 "enunciado": "La tarjeta de inspección técnica (ficha técnica) del vehículo recoge:",
 "opciones": [
 "El saldo de puntos del conductor.",
@@ -16457,7 +17072,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 854,
+"id": 895,
 "enunciado": "Al vender un vehículo, el titular debe:",
 "opciones": [
 "No hacer nada.",
@@ -16471,7 +17086,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 855,
+"id": 896,
 "enunciado": "Un vehículo que no ha superado la ITV (resultado desfavorable):",
 "opciones": [
 "Puede circular con normalidad.",
@@ -16485,7 +17100,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 856,
+"id": 897,
 "enunciado": "El distintivo ambiental '0 emisiones' (azul) corresponde a:",
 "opciones": [
 "Vehículos diésel antiguos.",
@@ -16499,7 +17114,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 857,
+"id": 898,
 "enunciado": "Una Zona de Bajas Emisiones (ZBE) es:",
 "opciones": [
 "Un área donde se restringe la circulación de los vehículos más contaminantes.",
@@ -16513,7 +17128,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 858,
+"id": 899,
 "enunciado": "Para renovar el permiso de conducción es necesario:",
 "opciones": [
 "Superar de nuevo el examen teórico.",
@@ -16527,7 +17142,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 859,
+"id": 900,
 "enunciado": "Si cambias de domicilio, respecto a tu vehículo y permiso:",
 "opciones": [
 "No es necesario comunicar nada.",
@@ -16541,7 +17156,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 860,
+"id": 901,
 "enunciado": "El permiso B, para conductores de entre 65 años o más, se renueva, con carácter general, cada:",
 "opciones": [
 "10 años.",
@@ -16555,7 +17170,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 861,
+"id": 902,
 "enunciado": "El justificante del seguro obligatorio sirve para:",
 "opciones": [
 "Acreditar que el vehículo tiene cubierta la responsabilidad civil.",
@@ -16569,7 +17184,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 862,
+"id": 903,
 "enunciado": "Para arrastrar un remolque pesado que hace que el conjunto supere los 3.500 kg suele necesitarse:",
 "opciones": [
 "El permiso B+E (o la categoría superior correspondiente).",
@@ -16583,7 +17198,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 863,
+"id": 904,
 "enunciado": "Recuperar el saldo inicial de puntos tras haber sido sancionado requiere, con carácter general:",
 "opciones": [
 "Pasar un tiempo sin cometer infracciones que detraigan puntos.",
@@ -16597,7 +17212,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 864,
+"id": 905,
 "enunciado": "Las placas de matrícula de un turismo deben colocarse:",
 "opciones": [
 "Solo en la parte delantera.",
@@ -16611,7 +17226,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 865,
+"id": 906,
 "enunciado": "Conducir un vehículo cuya ITV ha caducado:",
 "opciones": [
 "Es una infracción.",
@@ -16625,7 +17240,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 866,
+"id": 907,
 "enunciado": "Negarse a someterse a las pruebas de detección de alcohol o drogas es:",
 "opciones": [
 "Un derecho del conductor sin consecuencias.",
@@ -16639,7 +17254,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 867,
+"id": 908,
 "enunciado": "Ante los primeros síntomas de sueño al volante, lo correcto es:",
 "opciones": [
 "Abrir la ventanilla y seguir conduciendo.",
@@ -16653,7 +17268,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 868,
+"id": 909,
 "enunciado": "El uso del teléfono móvil sujetándolo con la mano mientras se conduce:",
 "opciones": [
 "Está permitido a baja velocidad.",
@@ -16667,7 +17282,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 869,
+"id": 910,
 "enunciado": "Conducir utilizando auriculares conectados a un reproductor o teléfono:",
 "opciones": [
 "Está permitido si el volumen es bajo.",
@@ -16681,7 +17296,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 870,
+"id": 911,
 "enunciado": "El orden de actuación ante un accidente se resume en la conducta:",
 "opciones": [
 "P.A.S.: Proteger, Avisar y Socorrer.",
@@ -16695,7 +17310,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 871,
+"id": 912,
 "enunciado": "Ante un motorista herido en un accidente, respecto a su casco:",
 "opciones": [
 "Debe quitarse siempre de inmediato.",
@@ -16709,7 +17324,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 872,
+"id": 913,
 "enunciado": "¿Cuál es el número de teléfono único europeo de emergencias?",
 "opciones": [
 "091.",
@@ -16723,7 +17338,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 873,
+"id": 914,
 "enunciado": "A una persona inconsciente que respira con normalidad y sin sospecha de lesión grave de columna se le puede colocar en:",
 "opciones": [
 "Posición lateral de seguridad.",
@@ -16737,7 +17352,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 874,
+"id": 915,
 "enunciado": "Tomar una comida muy copiosa antes de conducir:",
 "opciones": [
 "Mejora los reflejos.",
@@ -16751,7 +17366,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 875,
+"id": 916,
 "enunciado": "Un estado de ira o fuerte estrés al volante:",
 "opciones": [
 "Ayuda a conducir con más precisión.",
@@ -16765,7 +17380,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 876,
+"id": 917,
 "enunciado": "Si el prospecto de un medicamento muestra el pictograma de un coche dentro de un triángulo rojo:",
 "opciones": [
 "Es obligatorio tomarlo antes de conducir.",
@@ -16779,7 +17394,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 877,
+"id": 918,
 "enunciado": "Si un conductor necesita gafas o lentillas para ver bien (así consta en su permiso):",
 "opciones": [
 "Puede conducir sin ellas si conoce el trayecto.",
@@ -16793,7 +17408,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 878,
+"id": 919,
 "enunciado": "La inhalación de gases de escape (monóxido de carbono) en un lugar cerrado:",
 "opciones": [
 "Es inofensiva.",
@@ -16807,7 +17422,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 879,
+"id": 920,
 "enunciado": "En viajes largos, para mantener la concentración conviene:",
 "opciones": [
 "Conducir muchas horas seguidas sin parar.",
@@ -16821,7 +17436,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 880,
+"id": 921,
 "enunciado": "El consumo de alcohol, aunque sea moderado, antes de conducir:",
 "opciones": [
 "No afecta si se está acostumbrado.",
@@ -16835,7 +17450,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 881,
+"id": 922,
 "enunciado": "Ante una hemorragia abundante en un herido, mientras llega la ayuda, lo indicado es:",
 "opciones": [
 "Aplicar presión directa sobre la herida.",
@@ -16849,7 +17464,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 882,
+"id": 923,
 "enunciado": "En una travesía (tramo de carretera que cruza un poblado), la velocidad máxima genérica es, salvo señal, de:",
 "opciones": [
 "90 km/h.",
@@ -16863,7 +17478,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 883,
+"id": 924,
 "enunciado": "La velocidad máxima genérica de un camión de más de 3.500 kg en autovía es:",
 "opciones": [
 "120 km/h.",
@@ -16877,7 +17492,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 884,
+"id": 925,
 "enunciado": "La velocidad máxima genérica de un autobús en autovía o autopista es:",
 "opciones": [
 "80 km/h.",
@@ -16891,7 +17506,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 885,
+"id": 926,
 "enunciado": "La distancia recorrida durante el tiempo de reacción del conductor:",
 "opciones": [
 "Es independiente de la velocidad.",
@@ -16905,7 +17520,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 886,
+"id": 927,
 "enunciado": "La distancia total de detención de un vehículo es la suma de:",
 "opciones": [
 "La distancia de reacción más la distancia de frenado.",
@@ -16919,7 +17534,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 887,
+"id": 928,
 "enunciado": "Ante niebla densa, la conducta correcta respecto a la velocidad es:",
 "opciones": [
 "Mantener la velocidad máxima permitida.",
@@ -16933,7 +17548,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 888,
+"id": 929,
 "enunciado": "Un turismo que arrastra un remolque ve reducida su velocidad máxima respecto a la de un turismo solo:",
 "opciones": [
 "No, circula al mismo límite.",
@@ -16947,7 +17562,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 889,
+"id": 930,
 "enunciado": "En una vía urbana, ante un paso de peatones con personas esperando, el conductor debe:",
 "opciones": [
 "Mantener la velocidad.",
@@ -16961,7 +17576,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 890,
+"id": 931,
 "enunciado": "Circular a una velocidad excesiva para las condiciones de la vía:",
 "opciones": [
 "Reduce el riesgo de accidente.",
@@ -16975,7 +17590,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 891,
+"id": 932,
 "enunciado": "En una carretera convencional con niños jugando cerca del arcén, el conductor debe:",
 "opciones": [
 "Extremar la precaución y reducir la velocidad.",
@@ -16989,7 +17604,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 892,
+"id": 933,
 "enunciado": "La velocidad máxima por construcción de un ciclomotor es:",
 "opciones": [
 "45 km/h.",
@@ -17003,7 +17618,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 893,
+"id": 934,
 "enunciado": "Sobre pavimento con hielo o nieve, la conducta correcta es:",
 "opciones": [
 "Frenar con fuerza y bruscamente.",
@@ -17017,7 +17632,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 894,
+"id": 935,
 "enunciado": "En una vía de dos o más carriles por sentido, un turismo que circula despacio debe hacerlo:",
 "opciones": [
 "Por el carril de la izquierda.",
@@ -17031,7 +17646,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 895,
+"id": 936,
 "enunciado": "La energía que hay que disipar al frenar y la gravedad de un impacto dependen sobre todo de:",
 "opciones": [
 "El color del vehículo.",
@@ -17045,7 +17660,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 896,
+"id": 937,
 "enunciado": "Al aproximarse a una curva de visibilidad reducida, la velocidad debe:",
 "opciones": [
 "Reducirse antes de entrar en la curva.",
@@ -17059,7 +17674,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 897,
+"id": 938,
 "enunciado": "Circular a velocidad anormalmente reducida sin causa justificada:",
 "opciones": [
 "Está siempre permitido por ser más seguro.",
@@ -17073,7 +17688,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 898,
+"id": 939,
 "enunciado": "Con lluvia intensa puede producirse 'aquaplaning', que consiste en:",
 "opciones": [
 "Que los neumáticos pierden contacto con el asfalto por una capa de agua.",
@@ -17087,7 +17702,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 899,
+"id": 940,
 "enunciado": "La señal octogonal (ocho lados) de color rojo corresponde a:",
 "opciones": [
 "Ceda el paso.",
@@ -17101,7 +17716,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 900,
+"id": 941,
 "enunciado": "Un semáforo circular en rojo obliga a:",
 "opciones": [
 "Pasar con precaución.",
@@ -17115,7 +17730,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 901,
+"id": 942,
 "enunciado": "Un semáforo en verde:",
 "opciones": [
 "Obliga a pasar aunque haya un obstáculo.",
@@ -17129,7 +17744,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 902,
+"id": 943,
 "enunciado": "Una flecha verde iluminada en un semáforo indica:",
 "opciones": [
 "Que se permite el movimiento en el sentido señalado por la flecha.",
@@ -17143,7 +17758,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 903,
+"id": 944,
 "enunciado": "Las señales de obras suelen tener fondo amarillo y, respecto a las demás señales:",
 "opciones": [
 "Tienen menos importancia.",
@@ -17157,7 +17772,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 904,
+"id": 945,
 "enunciado": "Una señal triangular con dos peatones (adultos o niños) advierte de:",
 "opciones": [
 "Zona de aparcamiento.",
@@ -17171,7 +17786,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 905,
+"id": 946,
 "enunciado": "La señal circular con dos coches (uno rojo y otro negro) significa:",
 "opciones": [
 "Adelantamiento obligatorio.",
@@ -17185,7 +17800,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 906,
+"id": 947,
 "enunciado": "Una marca vial de triángulos pintados en el suelo apuntando hacia el conductor indica:",
 "opciones": [
 "Obligación de detenerse siempre.",
@@ -17199,7 +17814,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 907,
+"id": 948,
 "enunciado": "Una señal circular blanca con una banda roja horizontal (dirección prohibida) indica:",
 "opciones": [
 "Que está prohibido el acceso a esa vía en ese sentido.",
@@ -17213,7 +17828,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 908,
+"id": 949,
 "enunciado": "Una señal azul cuadrada con una flecha blanca hacia arriba indica:",
 "opciones": [
 "Sentido obligatorio (hay que seguir en esa dirección).",
@@ -17227,7 +17842,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 909,
+"id": 950,
 "enunciado": "El orden de prioridad entre señales, de mayor a menor, es:",
 "opciones": [
 "Marcas viales, señales verticales, semáforos, agentes.",
@@ -17241,7 +17856,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 910,
+"id": 951,
 "enunciado": "Una señal triangular con un dibujo de la calzada y un coche derrapando advierte de:",
 "opciones": [
 "Pavimento deslizante.",
@@ -17255,7 +17870,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 911,
+"id": 952,
 "enunciado": "La señal de 'entrada prohibida a toda clase de vehículos' es:",
 "opciones": [
 "Un círculo rojo (disco) sin símbolos en su interior.",
@@ -17269,7 +17884,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 912,
+"id": 953,
 "enunciado": "Un panel de mensaje variable (pantalla electrónica) en autovía:",
 "opciones": [
 "Puede ignorarse.",
@@ -17283,7 +17898,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 913,
+"id": 954,
 "enunciado": "Una señal cuadrada azul con la letra 'P' blanca indica:",
 "opciones": [
 "Prohibido aparcar.",
@@ -17297,7 +17912,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 914,
+"id": 955,
 "enunciado": "Una señal triangular con la silueta de una bicicleta advierte de:",
 "opciones": [
 "Prohibido el paso a bicicletas.",
@@ -17311,7 +17926,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 915,
+"id": 956,
 "enunciado": "La línea transversal continua pintada ante un STOP indica:",
 "opciones": [
 "El lugar donde hay que detenerse por completo.",
@@ -17325,7 +17940,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 916,
+"id": 957,
 "enunciado": "Una señal de fin de limitación de velocidad (círculo con banda diagonal):",
 "opciones": [
 "Aumenta la limitación anterior.",
@@ -17339,7 +17954,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 917,
+"id": 958,
 "enunciado": "Una señal triangular con un tren o una valla advierte de:",
 "opciones": [
 "Proximidad de un paso a nivel.",
@@ -17353,7 +17968,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 918,
+"id": 959,
 "enunciado": "En un tramo estrecho con pendiente, sin señalización específica, tiene preferencia:",
 "opciones": [
 "El vehículo que desciende.",
@@ -17367,7 +17982,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 919,
+"id": 960,
 "enunciado": "¿Dónde está prohibido adelantar?",
 "opciones": [
 "En rectas con buena visibilidad.",
@@ -17381,7 +17996,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 920,
+"id": 961,
 "enunciado": "Al adelantar a un ciclista en una carretera convencional:",
 "opciones": [
 "Debe dejarse al menos 1,5 m de separación lateral, pudiendo ocupar parte del sentido contrario si es seguro.",
@@ -17395,7 +18010,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 921,
+"id": 962,
 "enunciado": "¿Dónde está prohibido parar y estacionar?",
 "opciones": [
 "En intersecciones, pasos de peatones, carriles bici y sobre la acera.",
@@ -17409,7 +18024,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 922,
+"id": 963,
 "enunciado": "El uso del claxon (avisador acústico) en vía urbana:",
 "opciones": [
 "Está permitido libremente.",
@@ -17423,7 +18038,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 923,
+"id": 964,
 "enunciado": "Al incorporarse a una autovía por un carril de aceleración, el conductor debe:",
 "opciones": [
 "Detenerse al final del carril y esperar.",
@@ -17437,7 +18052,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 924,
+"id": 965,
 "enunciado": "Ante un paso a nivel con las barreras bajando o bajadas:",
 "opciones": [
 "Puede cruzarse rápidamente si no se ve el tren.",
@@ -17451,7 +18066,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 925,
+"id": 966,
 "enunciado": "Cuando se aproxima un vehículo prioritario (ambulancia) con las señales luminosas y acústicas conectadas:",
 "opciones": [
 "Se debe facilitar su paso, apartándose y deteniéndose si es preciso.",
@@ -17465,7 +18080,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 926,
+"id": 967,
 "enunciado": "Antes de cambiar de carril en una vía de varios carriles, el conductor debe:",
 "opciones": [
 "Señalizar con el intermitente, comprobar el ángulo muerto y ceder al que circula por el carril de destino.",
@@ -17479,7 +18094,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 927,
+"id": 968,
 "enunciado": "En una glorieta con varios carriles, para salir de ella se debe:",
 "opciones": [
 "Salir desde el carril interior directamente.",
@@ -17493,7 +18108,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 928,
+"id": 969,
 "enunciado": "Al efectuar un giro a la izquierda en una intersección, el conductor debe:",
 "opciones": [
 "Ceñirse a la izquierda, señalizar y ceder el paso a los que vienen de frente.",
@@ -17507,7 +18122,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 929,
+"id": 970,
 "enunciado": "Un autobús o vehículo de transporte escolar detenido, del que pueden bajar niños:",
 "opciones": [
 "Obliga a extremar la precaución por si aparecen peatones.",
@@ -17521,7 +18136,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 930,
+"id": 971,
 "enunciado": "En una calle residencial (S-28), la prioridad entre vehículos y peatones es:",
 "opciones": [
 "De los vehículos.",
@@ -17535,7 +18150,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 931,
+"id": 972,
 "enunciado": "La maniobra de estacionamiento debe realizarse de modo que el vehículo:",
 "opciones": [
 "Quede lo más alejado posible del bordillo.",
@@ -17549,7 +18164,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 932,
+"id": 973,
 "enunciado": "En una intersección regulada por semáforo en verde para ti, pero con retención al otro lado:",
 "opciones": [
 "Debes entrar igualmente.",
@@ -17563,7 +18178,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 933,
+"id": 974,
 "enunciado": "La marcha atrás en una vía está permitida:",
 "opciones": [
 "Como maniobra complementaria de otra que la exija, en el menor recorrido posible.",
@@ -17577,7 +18192,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 934,
+"id": 975,
 "enunciado": "Al salir de tu vehículo tras detenerte en el arcén de una vía interurbana por avería:",
 "opciones": [
 "Debes ponerte el chaleco reflectante antes de salir a la calzada.",
@@ -17591,7 +18206,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 935,
+"id": 976,
 "enunciado": "La función principal del cinturón de seguridad es:",
 "opciones": [
 "Evitar multas.",
@@ -17605,7 +18220,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 936,
+"id": 977,
 "enunciado": "Ante el reventón de un neumático en marcha, la conducta correcta es:",
 "opciones": [
 "Frenar bruscamente y girar con fuerza.",
@@ -17619,7 +18234,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 937,
+"id": 978,
 "enunciado": "El casco de protección homologado, en motocicletas y ciclomotores:",
 "opciones": [
 "Es obligatorio para conductor y pasajero.",
@@ -17633,7 +18248,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 938,
+"id": 979,
 "enunciado": "Un testigo (luz de aviso) de color rojo encendido en el cuadro de mandos indica normalmente:",
 "opciones": [
 "Una anomalía leve que puede esperar.",
@@ -17647,7 +18262,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 939,
+"id": 980,
 "enunciado": "La luz antiniebla trasera debe utilizarse:",
 "opciones": [
 "Siempre que se circule de noche.",
@@ -17661,7 +18276,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 940,
+"id": 981,
 "enunciado": "Unos amortiguadores en mal estado afectan a:",
 "opciones": [
 "Solo a la comodidad.",
@@ -17675,7 +18290,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 941,
+"id": 982,
 "enunciado": "Cuando es obligatorio el uso de cadenas por nieve, estas se montan:",
 "opciones": [
 "En las ruedas motrices (las que transmiten la tracción).",
@@ -17689,7 +18304,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 942,
+"id": 983,
 "enunciado": "Una rueda de repuesto de uso temporal ('galleta'):",
 "opciones": [
 "Permite circular a cualquier velocidad.",
@@ -17703,7 +18318,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 943,
+"id": 984,
 "enunciado": "Circular con una carga que sobresale por la parte trasera del vehículo exige:",
 "opciones": [
 "Señalizarla debidamente (por ejemplo, con el panel V-20).",
@@ -17717,7 +18332,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 944,
+"id": 985,
 "enunciado": "Llevar los neumáticos con una presión inferior a la recomendada:",
 "opciones": [
 "Reduce el consumo y el desgaste.",
@@ -17731,7 +18346,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 945,
+"id": 986,
 "enunciado": "El sistema ESP (control de estabilidad) actúa:",
 "opciones": [
 "Frenando ruedas de forma selectiva para corregir derrapes y mantener la trayectoria.",
@@ -17745,7 +18360,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 946,
+"id": 987,
 "enunciado": "Para una conducción eficiente y menos contaminante conviene:",
 "opciones": [
 "Circular a altas revoluciones en marchas cortas.",
@@ -17759,7 +18374,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 947,
+"id": 988,
 "enunciado": "El líquido de frenos debe revisarse porque:",
 "opciones": [
 "Si su nivel o estado es deficiente, puede fallar la frenada.",
@@ -17773,7 +18388,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 948,
+"id": 989,
 "enunciado": "El airbag es un sistema de seguridad que:",
 "opciones": [
 "Sustituye al cinturón de seguridad.",
@@ -17787,7 +18402,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 949,
+"id": 990,
 "enunciado": "Si el indicador de temperatura del motor entra en la zona roja:",
 "opciones": [
 "Hay que seguir circulando a mayor velocidad.",
@@ -17801,7 +18416,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 950,
+"id": 991,
 "enunciado": "La sobrecarga de un vehículo (llevar más peso que su MMA):",
 "opciones": [
 "Mejora la estabilidad.",
@@ -17815,7 +18430,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 951,
+"id": 992,
 "enunciado": "El reposacabezas debe ajustarse de modo que:",
 "opciones": [
 "Quede lo más bajo posible.",
@@ -17829,7 +18444,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 952,
+"id": 993,
 "enunciado": "El alumbrado de posición (luces de gálibo/posición) sirve principalmente para:",
 "opciones": [
 "Iluminar la calzada a gran distancia.",
@@ -17843,7 +18458,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 953,
+"id": 994,
 "enunciado": "Un 'vehículo mixto adaptable' es aquel que:",
 "opciones": [
 "Solo puede transportar personas.",
@@ -17857,7 +18472,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 954,
+"id": 995,
 "enunciado": "Un 'vehículo especial' es, por ejemplo:",
 "opciones": [
 "Un turismo deportivo.",
@@ -17871,7 +18486,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 955,
+"id": 996,
 "enunciado": "Una bicicleta, a efectos de la normativa, es:",
 "opciones": [
 "Un peatón.",
@@ -17885,7 +18500,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 956,
+"id": 997,
 "enunciado": "Un remolque se considera 'ligero' cuando su MMA no supera:",
 "opciones": [
 "750 kg.",
@@ -17899,7 +18514,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 957,
+"id": 998,
 "enunciado": "El 'gálibo' de un vehículo o de una vía hace referencia a:",
 "opciones": [
 "Su color.",
@@ -17913,7 +18528,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 958,
+"id": 999,
 "enunciado": "Un 'apartadero' en una vía estrecha sirve para:",
 "opciones": [
 "Ensanchar la calzada y permitir el cruce o el paso de vehículos.",
@@ -17927,7 +18542,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 959,
+"id": 1000,
 "enunciado": "El 'carril de deceleración' de una autovía es:",
 "opciones": [
 "El carril para reducir la velocidad antes de abandonar la vía por una salida.",
@@ -17941,7 +18556,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 960,
+"id": 1001,
 "enunciado": "Un 'vehículo histórico' es aquel que:",
 "opciones": [
 "Simplemente es de segunda mano.",
@@ -17955,7 +18570,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 961,
+"id": 1002,
 "enunciado": "El 'ramal' de un enlace es:",
 "opciones": [
 "La vía que conecta dos carreteras permitiendo pasar de una a otra.",
@@ -17969,7 +18584,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 962,
+"id": 1003,
 "enunciado": "Una zona peatonal es:",
 "opciones": [
 "Una vía reservada, de forma permanente o temporal, a la circulación de peatones.",
@@ -17983,7 +18598,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 963,
+"id": 1004,
 "enunciado": "Una autocaravana, a efectos de circulación, se rige:",
 "opciones": [
 "Por normas mágicas propias.",
@@ -17997,7 +18612,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 964,
+"id": 1005,
 "enunciado": "El distintivo ambiental 'C' (verde) corresponde a:",
 "opciones": [
 "Vehículos eléctricos puros.",
@@ -18011,7 +18626,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 965,
+"id": 1006,
 "enunciado": "Con el permiso B y una antigüedad mínima de 3 años, en territorio nacional se puede conducir además:",
 "opciones": [
 "Camiones de más de 3.500 kg.",
@@ -18025,7 +18640,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 966,
+"id": 1007,
 "enunciado": "Una infracción MUY GRAVE puede suponer la detracción de:",
 "opciones": [
 "Hasta 6 puntos del permiso.",
@@ -18039,7 +18654,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 967,
+"id": 1008,
 "enunciado": "Pagar una multa dentro del periodo de pago reducido (pronto pago) suele suponer:",
 "opciones": [
 "Un recargo del 50%.",
@@ -18053,7 +18668,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 968,
+"id": 1009,
 "enunciado": "La inspección técnica de vehículos (ITV) comprueba, entre otras cosas:",
 "opciones": [
 "El estado del conductor.",
@@ -18067,7 +18682,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 969,
+"id": 1010,
 "enunciado": "El permiso de conducir en formato digital (por ejemplo, en la app miDGT):",
 "opciones": [
 "No tiene ninguna validez.",
@@ -18081,7 +18696,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 970,
+"id": 1011,
 "enunciado": "La edad mínima para obtener el permiso AM (ciclomotores) es:",
 "opciones": [
 "15 años.",
@@ -18095,7 +18710,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 971,
+"id": 1012,
 "enunciado": "Si compras un vehículo, para poder circular con él a tu nombre debes:",
 "opciones": [
 "Tramitar el cambio de titularidad (transferencia) en la DGT.",
@@ -18109,7 +18724,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 972,
+"id": 1013,
 "enunciado": "Un conductor con permiso extranjero no comunitario que reside en España, pasado cierto tiempo, generalmente debe:",
 "opciones": [
 "Canjear u obtener el permiso español según los acuerdos vigentes.",
@@ -18123,7 +18738,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 973,
+"id": 1014,
 "enunciado": "La periodicidad del reconocimiento psicofísico se acorta:",
 "opciones": [
 "A medida que aumenta la edad del conductor.",
@@ -18137,7 +18752,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 974,
+"id": 1015,
 "enunciado": "Tomar café o bebidas con cafeína cuando se tiene sueño al conducir:",
 "opciones": [
 "Elimina por completo el sueño.",
@@ -18151,7 +18766,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 975,
+"id": 1016,
 "enunciado": "A una persona herida y consciente tras un accidente, mientras llega la ayuda:",
 "opciones": [
 "Se le debe dar de comer y beber.",
@@ -18165,7 +18780,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 976,
+"id": 1017,
 "enunciado": "Si una persona no respira tras un accidente y estás formado para ello, procede:",
 "opciones": [
 "Iniciar la reanimación cardiopulmonar (compresiones torácicas) tras avisar al 112.",
@@ -18179,7 +18794,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 977,
+"id": 1018,
 "enunciado": "Encender un cigarrillo mientras se conduce:",
 "opciones": [
 "Mejora la concentración.",
@@ -18193,7 +18808,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 978,
+"id": 1019,
 "enunciado": "Las drogas estimulantes (como la cocaína o las anfetaminas) al volante:",
 "opciones": [
 "Hacen conducir mejor.",
@@ -18207,7 +18822,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 979,
+"id": 1020,
 "enunciado": "El deslumbramiento por los faros de un vehículo que viene de frente de noche:",
 "opciones": [
 "No afecta a la visión.",
@@ -18221,7 +18836,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 980,
+"id": 1021,
 "enunciado": "La vista necesita un tiempo para adaptarse al entrar en un túnel oscuro desde el exterior soleado; por ello:",
 "opciones": [
 "Conviene reducir la velocidad al acceder al túnel.",
@@ -18235,7 +18850,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 981,
+"id": 1022,
 "enunciado": "En una mujer embarazada, el cinturón de seguridad:",
 "opciones": [
 "No debe usarse.",
@@ -18249,7 +18864,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 982,
+"id": 1023,
 "enunciado": "Conducir con prisa o estrés por llegar tarde:",
 "opciones": [
 "Mejora la eficiencia.",
@@ -18263,7 +18878,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 983,
+"id": 1024,
 "enunciado": "Ante una quemadura leve por el líquido caliente del motor, una primera medida es:",
 "opciones": [
 "Aplicar hielo directamente y reventar las ampollas.",
@@ -18277,7 +18892,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 984,
+"id": 1025,
 "enunciado": "La velocidad máxima genérica de un camión de más de 3.500 kg en carretera convencional es:",
 "opciones": [
 "90 km/h.",
@@ -18291,7 +18906,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 985,
+"id": 1026,
 "enunciado": "La velocidad máxima genérica de un autobús en carretera convencional es:",
 "opciones": [
 "80 km/h.",
@@ -18305,7 +18920,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 986,
+"id": 1027,
 "enunciado": "Cuando otro vehículo nos está adelantando, debemos:",
 "opciones": [
 "Acelerar para no dejarnos adelantar.",
@@ -18319,7 +18934,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 987,
+"id": 1028,
 "enunciado": "La regla básica de velocidad dice que se debe poder detener el vehículo:",
 "opciones": [
 "Dentro del espacio de vía libre y visible que se tiene delante.",
@@ -18333,7 +18948,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 988,
+"id": 1029,
 "enunciado": "Una 'Zona 30' es un área urbana donde:",
 "opciones": [
 "La velocidad máxima es de 30 km/h para pacificar el tráfico.",
@@ -18347,7 +18962,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 989,
+"id": 1030,
 "enunciado": "Un turismo que arrastra un remolque circula por una carretera convencional a un máximo genérico de:",
 "opciones": [
 "90 km/h.",
@@ -18361,7 +18976,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 990,
+"id": 1031,
 "enunciado": "En un descenso prolongado y con pendiente pronunciada, para no sobrecalentar los frenos conviene:",
 "opciones": [
 "Ir en punto muerto.",
@@ -18375,7 +18990,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 991,
+"id": 1032,
 "enunciado": "El exceso de velocidad, además de sancionarse, puede conllevar:",
 "opciones": [
 "La detracción de puntos del permiso.",
@@ -18389,7 +19004,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 992,
+"id": 1033,
 "enunciado": "Al aproximarse a un grupo de ciclistas por detrás en una carretera estrecha, el conductor debe:",
 "opciones": [
 "Reducir la velocidad y adelantar solo cuando pueda dejar 1,5 m con seguridad.",
@@ -18403,7 +19018,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 993,
+"id": 1034,
 "enunciado": "Las motocicletas, en autovía, tienen como velocidad máxima genérica:",
 "opciones": [
 "100 km/h.",
@@ -18417,7 +19032,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 994,
+"id": 1035,
 "enunciado": "Después de atravesar un tramo con agua (charco profundo), los frenos pueden:",
 "opciones": [
 "Funcionar mejor.",
@@ -18431,7 +19046,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 995,
+"id": 1036,
 "enunciado": "Una señal cuadrada azul con un número en blanco (por ejemplo, '60') indica:",
 "opciones": [
 "Velocidad máxima obligatoria.",
@@ -18445,7 +19060,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 996,
+"id": 1037,
 "enunciado": "Una señal triangular con un símbolo de un badén o resalto advierte de:",
 "opciones": [
 "Un resalto en la calzada; conviene reducir la velocidad.",
@@ -18459,7 +19074,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 997,
+"id": 1038,
 "enunciado": "Una señal triangular con dos flechas verticales opuestas (una arriba y otra abajo) indica:",
 "opciones": [
 "Sentido único.",
@@ -18473,7 +19088,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 998,
+"id": 1039,
 "enunciado": "Una señal circular con una flecha de giro tachada en rojo significa:",
 "opciones": [
 "Giro obligatorio en ese sentido.",
@@ -18487,7 +19102,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 999,
+"id": 1040,
 "enunciado": "Un semáforo con una sola luz roja intermitente (por ejemplo, en un paso a nivel) obliga a:",
 "opciones": [
 "Pasar con precaución sin detenerse.",
@@ -18501,7 +19116,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1000,
+"id": 1041,
 "enunciado": "Las franjas anchas blancas paralelas pintadas a lo ancho de la calzada (paso de cebra) indican:",
 "opciones": [
 "Zona de estacionamiento.",
@@ -18515,7 +19130,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1001,
+"id": 1042,
 "enunciado": "Una señal cuadrada azul con una 'H' blanca indica:",
 "opciones": [
 "Un hospital o centro sanitario cercano.",
@@ -18529,7 +19144,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1002,
+"id": 1043,
 "enunciado": "Una señal triangular con una curva dibujada advierte de:",
 "opciones": [
 "Una curva peligrosa; conviene reducir la velocidad.",
@@ -18543,7 +19158,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1003,
+"id": 1044,
 "enunciado": "Una señal triangular que muestra la calzada estrechándose indica:",
 "opciones": [
 "Estrechamiento de la calzada.",
@@ -18557,7 +19172,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1004,
+"id": 1045,
 "enunciado": "Una señal azul rectangular con la silueta de un peatón sobre un paso de cebra indica:",
 "opciones": [
 "Prohibido el paso a peatones.",
@@ -18571,7 +19186,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1005,
+"id": 1046,
 "enunciado": "Una señal triangular con el dibujo de un animal doméstico (por ejemplo, una vaca) advierte de:",
 "opciones": [
 "Prohibido el paso de animales.",
@@ -18585,7 +19200,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1006,
+"id": 1047,
 "enunciado": "Un peatón que cruza por un paso regulado por semáforo con su luz verde peatonal:",
 "opciones": [
 "Debe ceder el paso a los coches.",
@@ -18599,7 +19214,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1007,
+"id": 1048,
 "enunciado": "Adelantar utilizando el arcén:",
 "opciones": [
 "Está permitido si hay prisa.",
@@ -18613,7 +19228,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1008,
+"id": 1049,
 "enunciado": "Tras completar un adelantamiento, para volver a tu carril debes:",
 "opciones": [
 "Reincorporarte cuanto antes cortando al adelantado.",
@@ -18627,7 +19242,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1009,
+"id": 1050,
 "enunciado": "En una vía interurbana sin acera ni arcén transitable, los peatones deben circular:",
 "opciones": [
 "Por su derecha.",
@@ -18641,7 +19256,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1010,
+"id": 1051,
 "enunciado": "Está prohibido detenerse o estacionar en doble fila porque:",
 "opciones": [
 "Obstaculiza la circulación y reduce la visibilidad.",
@@ -18655,7 +19270,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1011,
+"id": 1052,
 "enunciado": "Ante un estrechamiento señalizado con una señal que da prioridad al sentido contrario:",
 "opciones": [
 "Debes ceder el paso a los vehículos que vienen de frente.",
@@ -18669,7 +19284,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1012,
+"id": 1053,
 "enunciado": "Guiar animales (por ejemplo, un rebaño) por una vía debe hacerse, como norma general:",
 "opciones": [
 "Por el centro de la calzada.",
@@ -18683,7 +19298,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1013,
+"id": 1054,
 "enunciado": "Detenerse dentro de una intersección para esperar un hueco:",
 "opciones": [
 "Está permitido siempre.",
@@ -18697,7 +19312,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1014,
+"id": 1055,
 "enunciado": "Para girar a la derecha en una intersección, con carácter general el conductor debe:",
 "opciones": [
 "Ceñirse al borde derecho y señalizar la maniobra.",
@@ -18711,7 +19326,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1015,
+"id": 1056,
 "enunciado": "Un carril reversible es aquel que:",
 "opciones": [
 "Solo se usa en un sentido para siempre.",
@@ -18725,7 +19340,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1016,
+"id": 1057,
 "enunciado": "Cuando circulas y una ambulancia con prioridad se aproxima por detrás en un atasco:",
 "opciones": [
 "Debes intentar dejarle un pasillo, arrimándote a los lados con precaución.",
@@ -18739,7 +19354,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1017,
+"id": 1058,
 "enunciado": "Transportar un animal de compañía suelto en el habitáculo:",
 "opciones": [
 "Es lo más cómodo y seguro.",
@@ -18753,7 +19368,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1018,
+"id": 1059,
 "enunciado": "El líquido limpiaparabrisas y las escobillas en buen estado son importantes porque:",
 "opciones": [
 "No influyen en la seguridad.",
@@ -18767,7 +19382,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1019,
+"id": 1060,
 "enunciado": "Si se funde una bombilla de una luz obligatoria (por ejemplo, una luz de cruce):",
 "opciones": [
 "Puede seguirse circulando indefinidamente.",
@@ -18781,7 +19396,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1020,
+"id": 1061,
 "enunciado": "Si la correa de distribución del motor se rompe en marcha:",
 "opciones": [
 "No pasa nada.",
@@ -18795,7 +19410,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1021,
+"id": 1062,
 "enunciado": "El catalizador de un vehículo sirve para:",
 "opciones": [
 "Aumentar la potencia.",
@@ -18809,7 +19424,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1022,
+"id": 1063,
 "enunciado": "Llevar carga sobre la baca del techo:",
 "opciones": [
 "No afecta a nada.",
@@ -18823,7 +19438,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1023,
+"id": 1064,
 "enunciado": "Un desgaste irregular de los neumáticos (más por un lado que por otro) puede indicar:",
 "opciones": [
 "Que todo está perfecto.",
@@ -18837,7 +19452,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1024,
+"id": 1065,
 "enunciado": "El sistema de refrigeración del motor (con líquido anticongelante):",
 "opciones": [
 "Mantiene el motor a la temperatura adecuada de funcionamiento.",
@@ -18851,7 +19466,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1025,
+"id": 1066,
 "enunciado": "Holguras o ruidos anormales en la dirección del vehículo:",
 "opciones": [
 "Deben revisarse, pues comprometen el control del vehículo.",
@@ -18865,7 +19480,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1026,
+"id": 1067,
 "enunciado": "El chaleco reflectante de alta visibilidad debe:",
 "opciones": [
 "Guardarse en el maletero y ponerse solo al llegar a casa.",
@@ -18879,7 +19494,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1027,
+"id": 1068,
 "enunciado": "Circular con los neumáticos a la presión recomendada por el fabricante:",
 "opciones": [
 "Aumenta el consumo.",
@@ -18893,7 +19508,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1028,
+"id": 1069,
 "enunciado": "Una vía urbana es:",
 "opciones": [
 "Toda vía situada dentro de poblado, excepto las travesías.",
@@ -18907,7 +19522,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1029,
+"id": 1070,
 "enunciado": "Un ciclocarril (o ciclocalle) es:",
 "opciones": [
 "Un carril exclusivo para camiones.",
@@ -18921,7 +19536,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1030,
+"id": 1071,
 "enunciado": "Un 'vehículo de motor' es:",
 "opciones": [
 "Cualquier vehículo, incluidas las bicicletas.",
@@ -18935,7 +19550,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1031,
+"id": 1072,
 "enunciado": "Los paneles rectangulares de color naranja en un vehículo indican que transporta:",
 "opciones": [
 "Mercancías peligrosas.",
@@ -18949,7 +19564,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1032,
+"id": 1073,
 "enunciado": "Una persona que se desplaza en silla de ruedas por la vía se considera:",
 "opciones": [
 "Un vehículo de motor.",
@@ -18963,7 +19578,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1033,
+"id": 1074,
 "enunciado": "Una calzada de sentido único es aquella en la que:",
 "opciones": [
 "Se circula en un solo sentido de la marcha.",
@@ -18977,7 +19592,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1034,
+"id": 1075,
 "enunciado": "Un carril adicional de circulación en una subida sirve normalmente para:",
 "opciones": [
 "Que los vehículos lentos no entorpezcan a los demás.",
@@ -18991,7 +19606,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1035,
+"id": 1076,
 "enunciado": "Un vehículo aparentemente abandonado en la vía:",
 "opciones": [
 "Puede ser retirado por la autoridad y llevado a depósito.",
@@ -19005,7 +19620,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1036,
+"id": 1077,
 "enunciado": "La 'calzada' puede estar dividida en:",
 "opciones": [
 "Uno o varios carriles.",
@@ -19019,7 +19634,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1037,
+"id": 1078,
 "enunciado": "Un refugio o isleta peatonal en el centro de una calzada ancha sirve para:",
 "opciones": [
 "Que los peatones puedan cruzar en dos fases con seguridad.",
@@ -19033,7 +19648,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1038,
+"id": 1079,
 "enunciado": "Una parada de transporte público (autobús) señalizada:",
 "opciones": [
 "Es un lugar donde está prohibido parar y estacionar a los demás vehículos.",
@@ -19047,7 +19662,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1039,
+"id": 1080,
 "enunciado": "Un tractor o máquina agrícola es, a efectos de circulación:",
 "opciones": [
 "Un turismo.",
@@ -19061,7 +19676,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1040,
+"id": 1081,
 "enunciado": "Una calzada de doble sentido es aquella en la que:",
 "opciones": [
 "Se circula en los dos sentidos de la marcha.",
@@ -19075,7 +19690,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1041,
+"id": 1082,
 "enunciado": "El seguro 'a todo riesgo', frente al obligatorio:",
 "opciones": [
 "Cubre también daños propios del vehículo asegurado, además de la responsabilidad civil.",
@@ -19089,7 +19704,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1042,
+"id": 1083,
 "enunciado": "Conducir con el permiso de conducción caducado:",
 "opciones": [
 "Es una infracción; debe renovarse para seguir conduciendo.",
@@ -19103,7 +19718,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1043,
+"id": 1084,
 "enunciado": "El distintivo ambiental 'B' (amarillo) corresponde, en general, a:",
 "opciones": [
 "Vehículos eléctricos.",
@@ -19117,7 +19732,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1044,
+"id": 1085,
 "enunciado": "Para dar de baja definitiva un vehículo que va al desguace, este debe entregarse en:",
 "opciones": [
 "Un Centro Autorizado de Tratamiento (CAT / desguace autorizado).",
@@ -19131,7 +19746,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1045,
+"id": 1086,
 "enunciado": "Las reformas de importancia en un vehículo:",
 "opciones": [
 "Deben legalizarse y anotarse en la documentación del vehículo.",
@@ -19145,7 +19760,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1046,
+"id": 1087,
 "enunciado": "Para conducir en algunos países fuera de la UE puede ser necesario:",
 "opciones": [
 "El permiso internacional de conducción.",
@@ -19159,7 +19774,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1047,
+"id": 1088,
 "enunciado": "La placa de matrícula española con la banda azul y la 'E' indica:",
 "opciones": [
 "Que el vehículo está matriculado en España (formato europeo).",
@@ -19173,7 +19788,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1048,
+"id": 1089,
 "enunciado": "Si pierdes la tarjeta de inspección técnica (ficha técnica) del vehículo:",
 "opciones": [
 "Debes solicitar un duplicado.",
@@ -19187,7 +19802,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1049,
+"id": 1090,
 "enunciado": "El permiso de la clase B, ¿habilita para conducir un autobús?",
 "opciones": [
 "Sí, si tiene menos de 20 plazas.",
@@ -19201,7 +19816,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1050,
+"id": 1091,
 "enunciado": "El impago continuado del seguro obligatorio del vehículo:",
 "opciones": [
 "Deja el vehículo sin cobertura y su circulación pasa a ser infracción.",
@@ -19215,7 +19830,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1051,
+"id": 1092,
 "enunciado": "La renovación del permiso de conducción se puede realizar:",
 "opciones": [
 "Con cierta antelación a su caducidad.",
@@ -19229,7 +19844,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1052,
+"id": 1093,
 "enunciado": "El permiso de circulación de un vehículo acredita, sobre todo:",
 "opciones": [
 "La titularidad administrativa del vehículo.",
@@ -19243,7 +19858,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1053,
+"id": 1094,
 "enunciado": "Ir 'con la mente en otra cosa' mientras se conduce (distracción cognitiva):",
 "opciones": [
 "No afecta si las manos están en el volante.",
@@ -19257,7 +19872,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1054,
+"id": 1095,
 "enunciado": "Manipular el navegador (GPS) o la pantalla táctil con el vehículo en marcha:",
 "opciones": [
 "Es seguro si se hace rápido.",
@@ -19271,7 +19886,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1055,
+"id": 1096,
 "enunciado": "Una temperatura demasiado alta dentro del habitáculo durante un viaje largo:",
 "opciones": [
 "Favorece la somnolencia y la fatiga.",
@@ -19285,7 +19900,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1056,
+"id": 1097,
 "enunciado": "Al llamar al 112 tras un accidente conviene indicar:",
 "opciones": [
 "El lugar exacto, el número de heridos y su estado.",
@@ -19299,7 +19914,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1057,
+"id": 1098,
 "enunciado": "Los 'microsueños' (dormirse unos segundos sin darse cuenta) al volante:",
 "opciones": [
 "Son inofensivos.",
@@ -19313,7 +19928,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1058,
+"id": 1099,
 "enunciado": "Usar gafas de sol al conducir de noche o en un túnel:",
 "opciones": [
 "Es recomendable para descansar la vista.",
@@ -19327,7 +19942,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1059,
+"id": 1100,
 "enunciado": "Un herido tras un accidente solo debe moverse:",
 "opciones": [
 "Siempre, para sacarlo de la carretera.",
@@ -19341,7 +19956,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1060,
+"id": 1101,
 "enunciado": "Un medicamento común para el resfriado o la alergia:",
 "opciones": [
 "Nunca afecta a la conducción.",
@@ -19355,7 +19970,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1061,
+"id": 1102,
 "enunciado": "La conducción defensiva consiste, principalmente, en:",
 "opciones": [
 "Anticiparse a los posibles errores de los demás y prever situaciones de riesgo.",
@@ -19369,7 +19984,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1062,
+"id": 1103,
 "enunciado": "El consumo de alcohol en conductores jóvenes y noveles:",
 "opciones": [
 "Es menos peligroso por su edad.",
@@ -19383,7 +19998,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1063,
+"id": 1104,
 "enunciado": "Ante una persona en estado de shock (pálida, sudorosa, con pulso débil), mientras llega la ayuda:",
 "opciones": [
 "Se la mantiene tumbada y abrigada, sin darle de beber.",
@@ -19397,7 +20012,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1064,
+"id": 1105,
 "enunciado": "La deshidratación durante un viaje largo:",
 "opciones": [
 "No afecta a la conducción.",
@@ -19411,7 +20026,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1065,
+"id": 1106,
 "enunciado": "Si tu vehículo empieza a arder, lo prioritario es:",
 "opciones": [
 "Detenerse, salir con los ocupantes y alejarse, avisando al 112.",
@@ -19425,7 +20040,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1066,
+"id": 1107,
 "enunciado": "Un vehículo destinado al transporte de mercancías de MMA no superior a 3.500 kg (furgoneta) circula por carretera convencional a un máximo genérico de:",
 "opciones": [
 "90 km/h.",
@@ -19439,7 +20054,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1067,
+"id": 1108,
 "enunciado": "La 'regla de los 3 segundos' sirve para:",
 "opciones": [
 "Calcular una distancia de seguridad adecuada respecto al vehículo de delante.",
@@ -19453,7 +20068,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1068,
+"id": 1109,
 "enunciado": "La velocidad máxima genérica de una motocicleta en carretera convencional es:",
 "opciones": [
 "90 km/h.",
@@ -19467,7 +20082,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1069,
+"id": 1110,
 "enunciado": "En una zona peatonal o residencial en la que se permite el paso de vehículos, la velocidad máxima es:",
 "opciones": [
 "50 km/h.",
@@ -19481,7 +20096,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1070,
+"id": 1111,
 "enunciado": "Cuando una señal fija un límite de velocidad concreto y difiere del genérico de la vía:",
 "opciones": [
 "Prevalece el límite de la señal.",
@@ -19495,7 +20110,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1071,
+"id": 1112,
 "enunciado": "Entrar en una curva a velocidad excesiva puede provocar:",
 "opciones": [
 "Mejor agarre.",
@@ -19509,7 +20124,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1072,
+"id": 1113,
 "enunciado": "Antes de iniciar un adelantamiento hay que asegurarse de disponer de:",
 "opciones": [
 "Espacio y visibilidad libres suficientes para completarlo sin peligro.",
@@ -19523,7 +20138,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1073,
+"id": 1114,
 "enunciado": "Un vehículo especial (por ejemplo, una cosechadora) suele circular:",
 "opciones": [
 "A la misma velocidad que un turismo.",
@@ -19537,7 +20152,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1074,
+"id": 1115,
 "enunciado": "Con lluvia intensa, además de reducir la velocidad, la distancia de seguridad se debe:",
 "opciones": [
 "Reducir.",
@@ -19551,7 +20166,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1075,
+"id": 1116,
 "enunciado": "La velocidad inadecuada a las condiciones de la vía:",
 "opciones": [
 "Es uno de los principales factores en los accidentes de tráfico.",
@@ -19565,7 +20180,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1076,
+"id": 1117,
 "enunciado": "En un aparcamiento o zona de estacionamiento con peatones circulando, conviene circular:",
 "opciones": [
 "A muy baja velocidad y con máxima atención.",
@@ -19579,7 +20194,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1077,
+"id": 1118,
 "enunciado": "Si un vehículo te sigue demasiado cerca (poca distancia de seguridad), lo recomendable es:",
 "opciones": [
 "Frenar bruscamente para asustarlo.",
@@ -19593,7 +20208,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1078,
+"id": 1119,
 "enunciado": "Con niebla, además de reducir la velocidad, es aconsejable:",
 "opciones": [
 "Usar la luz de carretera (larga).",
@@ -19607,7 +20222,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1079,
+"id": 1120,
 "enunciado": "Una señal circular con varias barras que anula prohibiciones anteriores indica:",
 "opciones": [
 "Fin de las prohibiciones señaladas previamente.",
@@ -19621,7 +20236,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1080,
+"id": 1121,
 "enunciado": "Un rombo (cuadrado sobre un vértice) amarillo indica:",
 "opciones": [
 "Calzada con prioridad.",
@@ -19635,7 +20250,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1081,
+"id": 1122,
 "enunciado": "Una señal triangular con la palabra o el símbolo de viento lateral (manga de aire) advierte de:",
 "opciones": [
 "Peligro por fuertes vientos laterales.",
@@ -19649,7 +20264,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1082,
+"id": 1123,
 "enunciado": "Una señal triangular con el dibujo de un semáforo advierte de:",
 "opciones": [
 "La proximidad de un semáforo.",
@@ -19663,7 +20278,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1083,
+"id": 1124,
 "enunciado": "Una señal circular blanca con borde rojo, sin ningún símbolo en su interior, indica:",
 "opciones": [
 "Circulación prohibida para toda clase de vehículos (en ambos sentidos).",
@@ -19677,7 +20292,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1084,
+"id": 1125,
 "enunciado": "Una señal triangular con un signo de exclamación indica:",
 "opciones": [
 "Un peligro no recogido en otras señales (otros peligros).",
@@ -19691,7 +20306,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1085,
+"id": 1126,
 "enunciado": "Las aspas en forma de X (aspa de San Andrés) en un cruce ferroviario señalan:",
 "opciones": [
 "Un paso a nivel sin barreras.",
@@ -19705,7 +20320,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1086,
+"id": 1127,
 "enunciado": "Un panel rectangular con fondo azul en una autovía suele ofrecer:",
 "opciones": [
 "Información u orientación (direcciones, servicios, destinos).",
@@ -19719,7 +20334,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1087,
+"id": 1128,
 "enunciado": "La línea longitudinal pintada en el borde exterior de la calzada sirve para:",
 "opciones": [
 "Delimitar el borde de la calzada y separarla del arcén.",
@@ -19733,7 +20348,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1088,
+"id": 1129,
 "enunciado": "Una señal que anuncia el fin de una zona residencial (fin de S-28) significa que:",
 "opciones": [
 "Dejan de aplicarse las normas especiales de esa zona (prioridad peatonal, 20 km/h).",
@@ -19747,7 +20362,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1089,
+"id": 1130,
 "enunciado": "En una zona de obras, los conos, paneles direccionales y balizas de color amarillo/naranja:",
 "opciones": [
 "Deben respetarse y prevalecen sobre la señalización permanente.",
@@ -19761,7 +20376,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1090,
+"id": 1131,
 "enunciado": "Un panel complementario colocado debajo de una señal:",
 "opciones": [
 "Precisa o amplía el significado de la señal principal (distancia, horario, tipo de vehículo...).",
@@ -19775,7 +20390,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1091,
+"id": 1132,
 "enunciado": "Una señal triangular con dos niños advierte de:",
 "opciones": [
 "La proximidad de un lugar frecuentado por niños (por ejemplo, un colegio).",
@@ -19789,7 +20404,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1092,
+"id": 1133,
 "enunciado": "Al estacionar en una pendiente pronunciada, además del freno de mano conviene:",
 "opciones": [
 "Dejar el vehículo en punto muerto.",
@@ -19803,7 +20418,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1093,
+"id": 1134,
 "enunciado": "Al salir de un garaje o propiedad colindante a la vía, el conductor:",
 "opciones": [
 "Tiene preferencia sobre los que circulan.",
@@ -19817,7 +20432,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1094,
+"id": 1135,
 "enunciado": "El adelantamiento, como norma general, se realiza:",
 "opciones": [
 "Por la izquierda del vehículo al que se adelanta.",
@@ -19831,7 +20446,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1095,
+"id": 1136,
 "enunciado": "Está prohibido parar y estacionar en el interior de un túnel porque:",
 "opciones": [
 "Supone un grave peligro y dificulta la evacuación.",
@@ -19845,7 +20460,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1096,
+"id": 1137,
 "enunciado": "En una curva de visibilidad reducida, invadir parcialmente el carril contrario:",
 "opciones": [
 "Está permitido si hay prisa.",
@@ -19859,7 +20474,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1097,
+"id": 1138,
 "enunciado": "Ante una señal de STOP al incorporarse a una vía, el conductor:",
 "opciones": [
 "Debe detener el vehículo por completo y ceder el paso.",
@@ -19873,7 +20488,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1098,
+"id": 1139,
 "enunciado": "Respecto a los vehículos de emergencia en servicio urgente que circulan delante de ti:",
 "opciones": [
 "Debes seguirlos de cerca para aprovechar el hueco.",
@@ -19887,7 +20502,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1099,
+"id": 1140,
 "enunciado": "Para detenerse a recoger o dejar pasajeros en ciudad, el conductor debe:",
 "opciones": [
 "Hacerlo donde esté permitido, sin obstaculizar la circulación y por el menor tiempo posible.",
@@ -19901,7 +20516,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1100,
+"id": 1141,
 "enunciado": "En una intersección, cerca de ella no se debe adelantar porque:",
 "opciones": [
 "Aumenta el riesgo de colisión con vehículos que entran o salen.",
@@ -19915,7 +20530,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1101,
+"id": 1142,
 "enunciado": "Al circular por una vía con tranvía, si este se aproxima a un cruce:",
 "opciones": [
 "El tranvía suele tener preferencia, salvo señalización en contra.",
@@ -19929,7 +20544,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1102,
+"id": 1143,
 "enunciado": "Cuando dos vehículos coinciden en un cruce y uno tiene señal de 'ceda el paso':",
 "opciones": [
 "El que tiene el 'ceda el paso' debe dejar pasar al otro.",
@@ -19943,7 +20558,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1103,
+"id": 1144,
 "enunciado": "Los peatones que circulan por el arcén o la calzada de una vía interurbana de noche:",
 "opciones": [
 "Deben ser visibles (prenda reflectante) y circular por su izquierda.",
@@ -19957,7 +20572,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1104,
+"id": 1145,
 "enunciado": "Antes de abrir la puerta del vehículo tras estacionar en la calle:",
 "opciones": [
 "Hay que asegurarse de no poner en peligro a ciclistas u otros usuarios que se aproximen.",
@@ -19971,7 +20586,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1105,
+"id": 1146,
 "enunciado": "En un vehículo con varias plazas traseras ocupadas, el cinturón de seguridad:",
 "opciones": [
 "Solo lo usa el del centro.",
@@ -19985,7 +20600,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1106,
+"id": 1147,
 "enunciado": "La luz de emergencia (warning / intermitentes simultáneos) debe usarse:",
 "opciones": [
 "Para avisar de un peligro, avería o retención imprevista.",
@@ -19999,7 +20614,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1107,
+"id": 1148,
 "enunciado": "La luz antiniebla delantera:",
 "opciones": [
 "Puede usarse en condiciones de niebla, lluvia intensa o nevada.",
@@ -20013,7 +20628,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1108,
+"id": 1149,
 "enunciado": "Si se enciende el testigo del sistema ABS:",
 "opciones": [
 "Conviene revisar el sistema; el ABS podría no actuar en una frenada de emergencia.",
@@ -20027,7 +20642,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1109,
+"id": 1150,
 "enunciado": "Un humo de escape muy negro, azulado o excesivo puede indicar:",
 "opciones": [
 "Que el motor funciona perfectamente.",
@@ -20041,7 +20656,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1110,
+"id": 1151,
 "enunciado": "La presión de los neumáticos debe comprobarse:",
 "opciones": [
 "Preferiblemente en frío (antes de rodar o tras poco recorrido).",
@@ -20055,7 +20670,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1111,
+"id": 1152,
 "enunciado": "Colocar objetos duros sobre la bandeja trasera o el salpicadero:",
 "opciones": [
 "Es seguro.",
@@ -20069,7 +20684,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1112,
+"id": 1153,
 "enunciado": "En un descenso largo, dejar el vehículo en punto muerto (desembragado) para ahorrar:",
 "opciones": [
 "Es recomendable.",
@@ -20083,7 +20698,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1113,
+"id": 1154,
 "enunciado": "El uso del cinturón de seguridad en trayectos urbanos muy cortos:",
 "opciones": [
 "No es necesario.",
@@ -20097,7 +20712,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1114,
+"id": 1155,
 "enunciado": "Los neumáticos de invierno, frente a las cadenas:",
 "opciones": [
 "Ofrecen mejor agarre en frío/nieve ligera y permiten circular con normalidad.",
@@ -20111,7 +20726,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1115,
+"id": 1156,
 "enunciado": "Circular con el indicador de combustible en la reserva:",
 "opciones": [
 "Obliga a planificar el repostaje pronto para no quedarse parado en un lugar peligroso.",
@@ -20125,7 +20740,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1116,
+"id": 1157,
 "enunciado": "Un chirrido metálico al frenar suele indicar:",
 "opciones": [
 "Que las pastillas de freno están desgastadas y conviene revisarlas.",
@@ -20139,7 +20754,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1117,
+"id": 1158,
 "enunciado": "Para conducir con seguridad conviene dirigir la mirada:",
 "opciones": [
 "Solo al vehículo de delante.",
@@ -20153,7 +20768,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1118,
+"id": 1159,
 "enunciado": "¿Qué obliga a hacer la señal de la imagen?",
 "opciones": [
 "Reducir la velocidad sin más.",
@@ -20167,7 +20782,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1119,
+"id": 1160,
 "enunciado": "¿Qué indica la señal de la imagen?",
 "opciones": [
 "Ceda el paso a los vehículos de la vía preferente.",
@@ -20181,7 +20796,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1120,
+"id": 1161,
 "enunciado": "¿Qué prohíbe la señal de la imagen?",
 "opciones": [
 "Circular a más de 100 km/h.",
@@ -20195,7 +20810,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1121,
+"id": 1162,
 "enunciado": "¿Qué significa la señal de la imagen?",
 "opciones": [
 "Velocidad aconsejada de 50 km/h.",
@@ -20209,7 +20824,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1122,
+"id": 1163,
 "enunciado": "La señal de la imagen indica que la velocidad máxima permitida es:",
 "opciones": [
 "120 km/h.",
@@ -20223,7 +20838,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1123,
+"id": 1164,
 "enunciado": "¿De qué advierte la señal de la imagen?",
 "opciones": [
 "De una curva peligrosa próxima.",
@@ -20237,7 +20852,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1124,
+"id": 1165,
 "enunciado": "¿Qué advierte la señal de la imagen?",
 "opciones": [
 "Prohibido el paso a peatones.",
@@ -20251,7 +20866,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1125,
+"id": 1166,
 "enunciado": "¿Qué prohibición indica la señal de la imagen?",
 "opciones": [
 "El estacionamiento en ese lado de la vía.",
@@ -20265,7 +20880,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1126,
+"id": 1167,
 "enunciado": "¿Qué significado tiene la señal mostrada en la imagen?",
 "opciones": [
 "Dirección prohibida: no se puede entrar en ese sentido.",
@@ -20279,7 +20894,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1127,
+"id": 1168,
 "enunciado": "¿Qué obliga la señal de la imagen?",
 "opciones": [
 "A seguir de frente (sentido obligatorio).",
@@ -20293,7 +20908,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1128,
+"id": 1169,
 "enunciado": "¿Qué dispositivo es obligatorio desde 2026 para señalizar una avería o un accidente en la carretera?",
 "opciones": [
 "La baliza luminosa V-16 conectada.",
@@ -20309,7 +20924,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Antes: dos triángulos. Ahora: baliza V-16 conectada (desde el 1 de enero de 2026)."
 },
 {
-"id": 1129,
+"id": 1170,
 "enunciado": "Una ventaja principal de la baliza V-16 frente a los triángulos es que:",
 "opciones": [
 "Se coloca en el techo del vehículo sin necesidad de bajarse a la calzada.",
@@ -20325,7 +20940,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Antes: había que salir a colocar los triángulos. Ahora: la V-16 se coloca desde el propio vehículo."
 },
 {
-"id": 1130,
+"id": 1171,
 "enunciado": "La baliza V-16 obligatoria desde 2026 debe estar:",
 "opciones": [
 "Conectada a la plataforma DGT 3.0 para transmitir su ubicación.",
@@ -20341,7 +20956,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Novedad 2026: la baliza debe estar conectada a la DGT 3.0 (las no conectadas ya no valen)."
 },
 {
-"id": 1131,
+"id": 1172,
 "enunciado": "Al adelantar a un ciclista en una vía interurbana, además de dejar 1,5 m de separación debes:",
 "opciones": [
 "Reducir la velocidad al menos 20 km/h respecto al límite de la vía.",
@@ -20357,7 +20972,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Se mantiene el 1,5 m; NUEVO: reducir al menos 20 km/h (desde el 1 de octubre de 2026)."
 },
 {
-"id": 1132,
+"id": 1173,
 "enunciado": "Según la reforma que entra en vigor el 1 de octubre de 2026, los ciclistas deben usar casco:",
 "opciones": [
 "Obligatoriamente en las vías interurbanas.",
@@ -20373,7 +20988,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: casco obligatorio para ciclistas en vías interurbanas."
 },
 {
-"id": 1133,
+"id": 1174,
 "enunciado": "Con la reforma de 2026, la edad mínima para circular con un patinete eléctrico (VMP) es de:",
 "opciones": [
 "15 años.",
@@ -20389,7 +21004,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: edad mínima de 15 años para los VMP."
 },
 {
-"id": 1134,
+"id": 1175,
 "enunciado": "Con la reforma de 2026, quien circula con un patinete eléctrico (VMP) debe llevar:",
 "opciones": [
 "Chaleco o elemento reflectante.",
@@ -20405,7 +21020,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: chaleco/elemento reflectante obligatorio en VMP."
 },
 {
-"id": 1135,
+"id": 1176,
 "enunciado": "Respecto al seguro, la reforma de 2026 establece para determinados patinetes (VMP):",
 "opciones": [
 "La obligación de tener un seguro de responsabilidad civil.",
@@ -20421,7 +21036,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde 2026: seguro de responsabilidad civil obligatorio para ciertos VMP."
 },
 {
-"id": 1136,
+"id": 1177,
 "enunciado": "Desde 2026, para poder circular por un carril Bus-VAO un turismo debe llevar:",
 "opciones": [
 "Al menos 2 ocupantes.",
@@ -20437,7 +21052,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Antes: algunos turismos con etiqueta podían ir solos. Ahora: se exige un mínimo de 2 ocupantes."
 },
 {
-"id": 1137,
+"id": 1178,
 "enunciado": "Con la reforma de 2026, respecto al cinturón de seguridad, los taxistas y repartidores:",
 "opciones": [
 "Dejan de estar exentos y deben usarlo siempre.",
@@ -20453,7 +21068,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "Antes: taxistas/repartidores/autoescuela estaban exentos en ciudad. Ahora: cinturón obligatorio siempre."
 },
 {
-"id": 1138,
+"id": 1179,
 "enunciado": "Con la reforma de 2026 queda prohibido adelantar cuando:",
 "opciones": [
 "Haya nieve o hielo en la calzada.",
@@ -20469,7 +21084,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: prohibido adelantar con nieve o hielo en la calzada."
 },
 {
-"id": 1139,
+"id": 1180,
 "enunciado": "En una retención o atasco, la reforma de 2026 obliga a los conductores a:",
 "opciones": [
 "Dejar un pasillo de emergencia central apartándose cada uno hacia su lado.",
@@ -20485,7 +21100,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: obligación de dejar un pasillo de emergencia en los atascos."
 },
 {
-"id": 1140,
+"id": 1181,
 "enunciado": "Con la reforma de 2026, respecto al equipamiento del motorista:",
 "opciones": [
 "Será obligatorio el uso de calzado cerrado y guantes.",
@@ -20501,7 +21116,7 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: calzado cerrado y guantes obligatorios para motoristas."
 },
 {
-"id": 1141,
+"id": 1182,
 "enunciado": "Con la reforma de 2026, las motocicletas podrán, en determinadas condiciones:",
 "opciones": [
 "Utilizar el arcén de forma puntual y con restricciones.",
@@ -20517,7 +21132,103 @@ window.DGT_QUESTIONS = [
 "reforma_nota": "NUEVO desde el 1 de octubre de 2026: uso puntual del arcén por motos, con restricciones."
 },
 {
-"id": 1142,
+"id": 1183,
+"enunciado": "Con la reforma que entra en vigor el 1 de octubre de 2026, al adelantar a un ciclista en vía interurbana usted debe:",
+"opciones": [
+"Dejar 1,5 m de separación y, además, reducir la velocidad al menos 20 km/h respecto al límite de la vía.",
+"Dejar solo 1 m si circula despacio.",
+"Mantener la velocidad y pegarse para adelantar rápido."
+],
+"correcta_idx": 0,
+"explicacion": "Se mantiene la separación mínima de 1,5 m y se refuerza con la obligación de reducir la velocidad al menos 20 km/h por debajo del límite de la vía durante el adelantamiento a ciclistas.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2,
+"reforma_tipo": "actualizado",
+"reforma_nota": "Sigue el 1,5 m; NUEVO: reducir al menos 20 km/h al adelantar ciclistas (desde el 1 de octubre de 2026)."
+},
+{
+"id": 1184,
+"enunciado": "Según la reforma del 1 de octubre de 2026, ¿qué está prohibido hacer al volante que antes solo se sancionaba de forma menos estricta?",
+"opciones": [
+"Sujetar el teléfono móvil con la mano mientras se conduce.",
+"Llevar encendida la radio.",
+"Hablar con el copiloto."
+],
+"correcta_idx": 0,
+"explicacion": "La reforma endurece el uso del móvil: está prohibido sujetarlo con la mano mientras se conduce. El uso manual del teléfono es una de las conductas más penalizadas por su relación con los accidentes.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "modificado",
+"reforma_nota": "Se refuerza la prohibición de usar el móvil sujetándolo con la mano al conducir."
+},
+{
+"id": 1185,
+"enunciado": "Con la normativa que entra en vigor el 1 de octubre de 2026, un patinete eléctrico (VMP) tiene prohibido circular por:",
+"opciones": [
+"Aceras, travesías, autopistas, autovías y túneles urbanos no autorizados.",
+"Cualquier calle de la ciudad.",
+"Los carriles bici."
+],
+"correcta_idx": 0,
+"explicacion": "Los VMP no pueden circular por aceras ni por vías interurbanas, autopistas, autovías ni túneles urbanos. Su sitio son las vías urbanas autorizadas y los carriles bici cuando se permita.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2,
+"reforma_tipo": "nuevo",
+"reforma_nota": "Se concretan las vías prohibidas para los VMP (aceras, interurbanas, autovías, túneles)."
+},
+{
+"id": 1186,
+"enunciado": "Tras la reforma del 1 de octubre de 2026, ¿qué tasa de alcohol se aplica a los conductores de patinetes eléctricos (VMP)?",
+"opciones": [
+"Ninguna, los VMP no están sujetos a control de alcohol.",
+"Están sujetos a control y sanción por conducir bajo los efectos del alcohol y las drogas.",
+"Solo si el patinete supera los 30 km/h."
+],
+"correcta_idx": 1,
+"explicacion": "Los usuarios de VMP están obligados a someterse a las pruebas de alcohol y drogas y son sancionables igual que otros conductores; conducir un patinete bebido o drogado está prohibido.",
+"tema_id": 3,
+"imagen": null,
+"dificultad": 2,
+"reforma_tipo": "nuevo",
+"reforma_nota": "Se aclara que los VMP están sujetos a control de alcohol y drogas."
+},
+{
+"id": 1187,
+"enunciado": "En una autopista o autovía, la reforma del 1 de octubre de 2026 obliga, en caso de retención, a:",
+"opciones": [
+"Formar un pasillo de emergencia: los del carril izquierdo se apartan a la izquierda y los demás a la derecha.",
+"Detenerse todos en el arcén derecho.",
+"Circular en zigzag para avanzar."
+],
+"correcta_idx": 0,
+"explicacion": "Se establece la obligación de dejar un pasillo de emergencia central: los vehículos del carril de la izquierda se arriman a la izquierda y el resto a la derecha, para que puedan pasar los servicios de emergencia.",
+"tema_id": 6,
+"imagen": null,
+"dificultad": 2,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde el 1 de octubre de 2026: pasillo de emergencia obligatorio en retenciones."
+},
+{
+"id": 1188,
+"enunciado": "Con la reforma del 1 de octubre de 2026, un conductor de motocicleta debe llevar, además del casco homologado:",
+"opciones": [
+"Guantes de protección y calzado cerrado.",
+"Solo unas gafas de sol.",
+"Nada más, basta con el casco."
+],
+"correcta_idx": 0,
+"explicacion": "La reforma incorpora la obligación de que los motoristas usen guantes de protección y calzado cerrado, además del casco, para reducir la gravedad de las lesiones en caso de caída.",
+"tema_id": 7,
+"imagen": null,
+"dificultad": 1,
+"reforma_tipo": "nuevo",
+"reforma_nota": "NUEVO desde el 1 de octubre de 2026: guantes y calzado cerrado obligatorios en moto."
+},
+{
+"id": 1189,
 "enunciado": "¿Qué se entiende por 'parada'?",
 "opciones": [
 "La inmovilización del vehículo por más de dos minutos.",
@@ -20531,7 +21242,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1143,
+"id": 1190,
 "enunciado": "¿Qué es el 'estacionamiento'?",
 "opciones": [
 "Cualquier inmovilización que no sea parada ni impuesta por el tráfico.",
@@ -20545,7 +21256,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1144,
+"id": 1191,
 "enunciado": "La 'masa máxima autorizada' (MMA) es:",
 "opciones": [
 "El peso del vehículo vacío.",
@@ -20559,7 +21270,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1145,
+"id": 1192,
 "enunciado": "Una 'isleta' es:",
 "opciones": [
 "Un tipo de rotonda pequeña.",
@@ -20573,7 +21284,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1146,
+"id": 1193,
 "enunciado": "La 'mediana' de una vía es:",
 "opciones": [
 "La línea central discontinua.",
@@ -20587,7 +21298,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1147,
+"id": 1194,
 "enunciado": "A efectos de tráfico, un 'peatón' incluye:",
 "opciones": [
 "Solo a quien camina sin nada en las manos.",
@@ -20601,7 +21312,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1148,
+"id": 1195,
 "enunciado": "Un 'ciclomotor' se caracteriza por:",
 "opciones": [
 "Cilindrada hasta 50 cm³ y velocidad máxima por construcción de 45 km/h.",
@@ -20615,7 +21326,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1149,
+"id": 1196,
 "enunciado": "¿Qué es una 'glorieta' (rotonda)?",
 "opciones": [
 "Un cruce con semáforos.",
@@ -20629,7 +21340,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1150,
+"id": 1197,
 "enunciado": "La 'plataforma' de una vía comprende:",
 "opciones": [
 "Solo la calzada.",
@@ -20643,7 +21354,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1151,
+"id": 1198,
 "enunciado": "Un 'vehículo prioritario' es aquel que:",
 "opciones": [
 "Circula siempre por el carril izquierdo.",
@@ -20657,7 +21368,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1152,
+"id": 1199,
 "enunciado": "Un turismo particular con una antigüedad entre 4 y 10 años debe pasar la ITV:",
 "opciones": [
 "Cada año.",
@@ -20671,7 +21382,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1153,
+"id": 1200,
 "enunciado": "¿A qué edad mínima se puede obtener el permiso B?",
 "opciones": [
 "A los 16 años.",
@@ -20685,7 +21396,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1154,
+"id": 1201,
 "enunciado": "El permiso B autoriza a conducir turismos con una MMA no superior a:",
 "opciones": [
 "2.000 kg.",
@@ -20699,7 +21410,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1155,
+"id": 1202,
 "enunciado": "Con el permiso B, ¿qué remolque se puede arrastrar sin permiso adicional?",
 "opciones": [
 "Cualquier remolque.",
@@ -20713,7 +21424,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1156,
+"id": 1203,
 "enunciado": "¿Con cuántos puntos parte un conductor con el permiso recién obtenido (novel)?",
 "opciones": [
 "Con 12 puntos.",
@@ -20727,7 +21438,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1157,
+"id": 1204,
 "enunciado": "¿Cada cuánto se renueva el permiso B para un conductor menor de 65 años?",
 "opciones": [
 "Cada 10 años.",
@@ -20741,7 +21452,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1158,
+"id": 1205,
 "enunciado": "¿Qué documentación relativa al vehículo conviene poder acreditar al circular?",
 "opciones": [
 "Solo el permiso de conducir.",
@@ -20755,7 +21466,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1159,
+"id": 1206,
 "enunciado": "Si vendes tu vehículo, ¿qué trámite corresponde principalmente?",
 "opciones": [
 "Nada, basta con entregar las llaves.",
@@ -20769,7 +21480,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1160,
+"id": 1207,
 "enunciado": "El seguro obligatorio del automóvil cubre, como mínimo:",
 "opciones": [
 "Los daños del propio vehículo del asegurado.",
@@ -20783,7 +21494,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1161,
+"id": 1208,
 "enunciado": "¿Se puede acelerar la eliminación del alcohol tomando café o una ducha fría?",
 "opciones": [
 "Sí, el café lo elimina rápidamente.",
@@ -20797,7 +21508,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1162,
+"id": 1209,
 "enunciado": "Respecto al consumo de drogas y la conducción, la normativa establece:",
 "opciones": [
 "Una tasa tolerada similar a la del alcohol.",
@@ -20811,7 +21522,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1163,
+"id": 1210,
 "enunciado": "Negarse a realizar las pruebas de alcohol o drogas requeridas por un agente:",
 "opciones": [
 "No tiene consecuencias si el conductor está sobrio.",
@@ -20825,7 +21536,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1164,
+"id": 1211,
 "enunciado": "Uno de los primeros efectos del alcohol sobre la conducción es:",
 "opciones": [
 "Mejora de los reflejos.",
@@ -20839,7 +21550,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1165,
+"id": 1212,
 "enunciado": "Los medicamentos que pueden afectar a la conducción suelen advertirlo con:",
 "opciones": [
 "Un círculo verde en la caja.",
@@ -20853,7 +21564,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1166,
+"id": 1213,
 "enunciado": "La tasa máxima de alcohol en aire espirado para un conductor no novel es:",
 "opciones": [
 "0,25 mg/l.",
@@ -20867,7 +21578,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1167,
+"id": 1214,
 "enunciado": "La conducción con una tasa de alcohol muy elevada (superior a 0,60 mg/l en aire):",
 "opciones": [
 "Es solo una infracción administrativa grave.",
@@ -20881,7 +21592,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1168,
+"id": 1215,
 "enunciado": "La fatiga y la somnolencia al volante:",
 "opciones": [
 "No afectan si se lleva las ventanillas abiertas.",
@@ -20895,7 +21606,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1169,
+"id": 1216,
 "enunciado": "Conviene hacer un descanso en viajes largos aproximadamente cada:",
 "opciones": [
 "6 horas de conducción continuada.",
@@ -20909,7 +21620,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1170,
+"id": 1217,
 "enunciado": "Una tasa de alcohol por debajo del límite legal:",
 "opciones": [
 "Garantiza que la conducción no se ve afectada.",
@@ -20923,7 +21634,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1171,
+"id": 1218,
 "enunciado": "La velocidad máxima de un ciclomotor es, con carácter general:",
 "opciones": [
 "45 km/h.",
@@ -20937,7 +21648,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1172,
+"id": 1219,
 "enunciado": "Al circular, la velocidad debe permitir:",
 "opciones": [
 "Apurar siempre el límite máximo señalizado.",
@@ -20951,7 +21662,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1173,
+"id": 1220,
 "enunciado": "Si se duplica la velocidad, la distancia de frenado aproximadamente:",
 "opciones": [
 "Se duplica.",
@@ -20965,7 +21676,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1174,
+"id": 1221,
 "enunciado": "La 'distancia de detención' es la suma de:",
 "opciones": [
 "Distancia de seguridad y distancia de adelantamiento.",
@@ -20979,7 +21690,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1175,
+"id": 1222,
 "enunciado": "Una forma sencilla de mantener la distancia de seguridad es:",
 "opciones": [
 "Ir siempre a 3 metros del de delante.",
@@ -20993,7 +21704,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1176,
+"id": 1223,
 "enunciado": "Circular injustificadamente muy por debajo de los límites mínimos:",
 "opciones": [
 "Está siempre permitido, nunca se sanciona.",
@@ -21007,7 +21718,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1177,
+"id": 1224,
 "enunciado": "Con lluvia intensa y agua en la calzada puede producirse 'aquaplaning', que consiste en:",
 "opciones": [
 "Que el motor se cale por el agua.",
@@ -21021,7 +21732,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1178,
+"id": 1225,
 "enunciado": "En una vía convencional, si una señal no indica otra cosa, un turismo no debe superar:",
 "opciones": [
 "100 km/h.",
@@ -21035,7 +21746,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1179,
+"id": 1226,
 "enunciado": "Al aproximarse a una zona con presencia de peatones o escolar, el conductor debe:",
 "opciones": [
 "Mantener la velocidad máxima permitida.",
@@ -21049,7 +21760,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1180,
+"id": 1227,
 "enunciado": "La velocidad, por sí sola, en caso de accidente influye en que:",
 "opciones": [
 "No tiene relación con la gravedad.",
@@ -21063,7 +21774,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1181,
+"id": 1228,
 "enunciado": "Como regla general, el adelantamiento se efectúa:",
 "opciones": [
 "Por la derecha.",
@@ -21077,7 +21788,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1182,
+"id": 1229,
 "enunciado": "¿En cuál de estos lugares está prohibido adelantar?",
 "opciones": [
 "En una recta con buena visibilidad.",
@@ -21091,7 +21802,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1183,
+"id": 1230,
 "enunciado": "La marcha atrás:",
 "opciones": [
 "Se puede usar libremente para recorrer largos tramos.",
@@ -21105,7 +21816,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1184,
+"id": 1231,
 "enunciado": "Los vehículos prioritarios en servicio de urgencia (con señales activadas):",
 "opciones": [
 "Deben respetar todos los semáforos igual que los demás.",
@@ -21119,7 +21830,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1185,
+"id": 1232,
 "enunciado": "Al incorporarse a la circulación desde un estacionamiento o vía secundaria:",
 "opciones": [
 "Tiene preferencia quien se incorpora.",
@@ -21133,7 +21844,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1186,
+"id": 1233,
 "enunciado": "Ante un paso a nivel o la presencia de un tren:",
 "opciones": [
 "El vehículo tiene preferencia si va rápido.",
@@ -21147,7 +21858,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1187,
+"id": 1234,
 "enunciado": "Para estacionar en una vía de doble sentido, con carácter general se hace:",
 "opciones": [
 "En cualquier lado indistintamente.",
@@ -21161,7 +21872,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1188,
+"id": 1235,
 "enunciado": "Antes de cualquier maniobra (girar, cambiar de carril, adelantar) el conductor debe:",
 "opciones": [
 "Acelerar para hacerla rápido.",
@@ -21175,7 +21886,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1189,
+"id": 1236,
 "enunciado": "En un tramo estrecho de montaña donde no pueden cruzarse dos vehículos, tiene preferencia:",
 "opciones": [
 "El que desciende.",
@@ -21189,7 +21900,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1190,
+"id": 1237,
 "enunciado": "El tranvía, respecto al resto de vehículos:",
 "opciones": [
 "Cede siempre el paso.",
@@ -21203,7 +21914,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1191,
+"id": 1238,
 "enunciado": "El airbag (SRS) es un sistema de seguridad que:",
 "opciones": [
 "Sustituye al cinturón de seguridad.",
@@ -21217,7 +21928,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1192,
+"id": 1239,
 "enunciado": "El sistema de control de estabilidad (ESP/ESC) ayuda a:",
 "opciones": [
 "Reducir el consumo de combustible.",
@@ -21231,7 +21942,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1193,
+"id": 1240,
 "enunciado": "Si durante la marcha se enciende la luz roja de temperatura del refrigerante, se debe:",
 "opciones": [
 "Seguir circulando con normalidad.",
@@ -21245,7 +21956,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1194,
+"id": 1241,
 "enunciado": "Los niños de estatura igual o inferior a 135 cm deben viajar:",
 "opciones": [
 "En el asiento delantero sin más.",
@@ -21259,7 +21970,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1195,
+"id": 1242,
 "enunciado": "El chaleco reflectante de alta visibilidad:",
 "opciones": [
 "Debe usarse al bajar del vehículo en la calzada o el arcén de vías interurbanas.",
@@ -21273,7 +21984,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1196,
+"id": 1243,
 "enunciado": "Frenar bruscamente en mitad de una curva:",
 "opciones": [
 "Es lo más seguro siempre.",
@@ -21287,7 +21998,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1197,
+"id": 1244,
 "enunciado": "Una conducción eficiente (que ahorra combustible y emisiones) recomienda:",
 "opciones": [
 "Acelerar y frenar con frecuencia.",
@@ -21301,7 +22012,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1198,
+"id": 1245,
 "enunciado": "Una presión de neumáticos inferior a la recomendada provoca, entre otros efectos:",
 "opciones": [
 "Menor consumo de combustible.",
@@ -21315,7 +22026,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1199,
+"id": 1246,
 "enunciado": "La luz de emergencia V-16 (baliza luminosa):",
 "opciones": [
 "Se coloca dentro del vehículo, en el salpicadero.",
@@ -21329,7 +22040,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1200,
+"id": 1247,
 "enunciado": "Si un neumático presenta un desgaste irregular (más gastado por un lado):",
 "opciones": [
 "No tiene importancia mientras tenga dibujo.",
@@ -21343,7 +22054,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1201,
+"id": 1248,
 "enunciado": "¿Qué es una 'intersección'?",
 "opciones": [
 "El cruce o unión de dos o más vías a un mismo nivel.",
@@ -21357,7 +22068,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1202,
+"id": 1249,
 "enunciado": "El 'firme' de una vía es:",
 "opciones": [
 "La capa superior de la calzada sobre la que ruedan los vehículos.",
@@ -21371,7 +22082,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1203,
+"id": 1250,
 "enunciado": "Un 'tren de carretera' es:",
 "opciones": [
 "Un automóvil unido a uno o varios remolques.",
@@ -21385,7 +22096,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1204,
+"id": 1251,
 "enunciado": "Un 'automóvil' se diferencia de un ciclomotor principalmente en que:",
 "opciones": [
 "El automóvil está concebido para circular sin carriles ni raíles y por sus características no es ciclomotor.",
@@ -21399,7 +22110,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1205,
+"id": 1252,
 "enunciado": "¿Qué es un 'turismo'?",
 "opciones": [
 "Un automóvil destinado al transporte de personas con capacidad hasta 9 plazas, incluido el conductor.",
@@ -21413,7 +22124,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1206,
+"id": 1253,
 "enunciado": "¿Qué es un 'autobús' o autocar?",
 "opciones": [
 "Un automóvil para transporte de personas con más de 9 plazas, incluido el conductor.",
@@ -21427,7 +22138,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1207,
+"id": 1254,
 "enunciado": "Un 'camión' es un vehículo de motor destinado a:",
 "opciones": [
 "El transporte de mercancías, con más de 3.500 kg de MMA.",
@@ -21441,7 +22152,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1208,
+"id": 1255,
 "enunciado": "Una 'furgoneta' es:",
 "opciones": [
 "Un vehículo destinado al transporte de mercancías cuya MMA no supera los 3.500 kg.",
@@ -21455,7 +22166,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1209,
+"id": 1256,
 "enunciado": "Una 'motocicleta' es:",
 "opciones": [
 "Un vehículo de dos ruedas (o con sidecar) que supera los 50 cc o los 45 km/h.",
@@ -21469,7 +22180,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1210,
+"id": 1257,
 "enunciado": "El 'peso en orden de marcha' (masa en orden de marcha) de un vehículo incluye:",
 "opciones": [
 "La tara más la masa del conductor estimada en 75 kg.",
@@ -21483,7 +22194,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1211,
+"id": 1258,
 "enunciado": "La 'masa remolcable' de un vehículo es:",
 "opciones": [
 "La masa máxima que el vehículo puede arrastrar en un remolque.",
@@ -21497,7 +22208,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1212,
+"id": 1259,
 "enunciado": "Una 'vía rápida' (carretera para automóviles) se caracteriza por:",
 "opciones": [
 "Tener una sola calzada, accesos limitados y estar reservada a automóviles, con la señalización correspondiente.",
@@ -21511,7 +22222,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1213,
+"id": 1260,
 "enunciado": "Un 'túnel', a efectos de circulación, es:",
 "opciones": [
 "Un tramo de vía cubierto que exige normas específicas (luces, distancias, prohibición de parar).",
@@ -21525,7 +22236,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1214,
+"id": 1261,
 "enunciado": "Un 'enlace' de una vía es:",
 "opciones": [
 "El conjunto de ramales que permite pasar de una vía a otra sin cruces a nivel.",
@@ -21539,7 +22250,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1215,
+"id": 1262,
 "enunciado": "El 'carril de aceleración' de una autovía sirve para:",
 "opciones": [
 "Ganar velocidad e incorporarse a la circulación con seguridad.",
@@ -21553,7 +22264,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1216,
+"id": 1263,
 "enunciado": "La 'detención' de un vehículo se refiere a:",
 "opciones": [
 "La inmovilización breve por necesidad de la circulación (semáforo, retención, orden de agente).",
@@ -21567,7 +22278,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1217,
+"id": 1264,
 "enunciado": "Un 'ciclo' es:",
 "opciones": [
 "Un vehículo de al menos dos ruedas accionado por el esfuerzo muscular de sus ocupantes.",
@@ -21581,7 +22292,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1218,
+"id": 1265,
 "enunciado": "Un 'ciclomotor de tres ruedas' o un 'cuadriciclo ligero' se conducen con el permiso:",
 "opciones": [
 "AM, obtenible a partir de los 15 años.",
@@ -21595,7 +22306,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1219,
+"id": 1266,
 "enunciado": "Una 'berma' es:",
 "opciones": [
 "La franja de terreno que hay entre el borde exterior de la explanación y el arcén o la cuneta.",
@@ -21609,7 +22320,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1220,
+"id": 1267,
 "enunciado": "Un 'obstáculo en la vía' es:",
 "opciones": [
 "Todo aquello que dificulta la libre circulación y puede generar peligro (carga caída, animal, avería).",
@@ -21623,7 +22334,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1221,
+"id": 1268,
 "enunciado": "Un 'vehículo de emergencia' o prioritario, cuando presta servicio urgente:",
 "opciones": [
 "Puede dejar de cumplir ciertas normas usando las señales luminosas y acústicas, sin poner en peligro a nadie.",
@@ -21637,7 +22348,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1222,
+"id": 1269,
 "enunciado": "El 'titular' de un vehículo es:",
 "opciones": [
 "La persona a cuyo nombre figura el vehículo en el Registro de la DGT.",
@@ -21651,7 +22362,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1223,
+"id": 1270,
 "enunciado": "Un 'paso para peatones' es:",
 "opciones": [
 "La parte de la calzada, debidamente señalizada, por donde deben cruzar los peatones.",
@@ -21665,7 +22376,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1224,
+"id": 1271,
 "enunciado": "Un 'vehículo para personas de movilidad reducida' es:",
 "opciones": [
 "Un vehículo pequeño, con velocidad limitada, concebido para personas con problemas de movilidad.",
@@ -21679,7 +22390,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1225,
+"id": 1272,
 "enunciado": "El concepto de 'poblado' (o zona urbana) es relevante porque:",
 "opciones": [
 "Dentro de él la vía se considera urbana y cambian los límites de velocidad y otras normas.",
@@ -21693,7 +22404,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1226,
+"id": 1273,
 "enunciado": "Una 'cuneta' es:",
 "opciones": [
 "La zanja a un lado de la calzada destinada a recoger y evacuar el agua.",
@@ -21707,7 +22418,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1227,
+"id": 1274,
 "enunciado": "El 'permiso de circulación' de un vehículo es el documento que:",
 "opciones": [
 "Acredita la autorización para que el vehículo circule y a nombre de quién está.",
@@ -21721,7 +22432,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1228,
+"id": 1275,
 "enunciado": "Un 'remolque' se diferencia de un semirremolque en que el remolque:",
 "opciones": [
 "Se apoya sobre sus propios ejes y no descarga peso sobre el vehículo tractor.",
@@ -21735,7 +22446,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1229,
+"id": 1276,
 "enunciado": "La 'calzada' de una autopista o autovía con dos calzadas separadas:",
 "opciones": [
 "Cada sentido de circulación tiene su propia calzada separada por una mediana.",
@@ -21749,7 +22460,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1230,
+"id": 1277,
 "enunciado": "Un 'ciclo de motor' o 'bicicleta con pedaleo asistido' se considera bicicleta si:",
 "opciones": [
 "El motor deja de asistir al alcanzar los 25 km/h y no supera cierta potencia.",
@@ -21763,7 +22474,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1231,
+"id": 1278,
 "enunciado": "Una 'zona de gran afluencia' o zona escolar señalizada implica:",
 "opciones": [
 "Extremar la precaución y, en su caso, respetar una velocidad reducida por la presencia de peatones.",
@@ -21777,7 +22488,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1232,
+"id": 1279,
 "enunciado": "Un 'punto kilométrico' (hito) sirve para:",
 "opciones": [
 "Indicar el kilómetro de la vía en que nos encontramos, útil para localizarnos.",
@@ -21791,7 +22502,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1233,
+"id": 1280,
 "enunciado": "La 'explanación' de una carretera es:",
 "opciones": [
 "La superficie de terreno preparada sobre la que se asienta la vía.",
@@ -21805,7 +22516,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1234,
+"id": 1281,
 "enunciado": "Un 'vehículo agrícola especial' (tractor, cosechadora) se caracteriza por:",
 "opciones": [
 "Estar concebido para labores agrícolas y circular a velocidad reducida.",
@@ -21819,7 +22530,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1235,
+"id": 1282,
 "enunciado": "Una 'vía ciclista' es:",
 "opciones": [
 "Una vía específicamente acondicionada y señalizada para la circulación de ciclos.",
@@ -21833,7 +22544,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1236,
+"id": 1283,
 "enunciado": "Un remolque se considera 'ligero' cuando su masa máxima autorizada no supera:",
 "opciones": [
 "750 kg.",
@@ -21847,7 +22558,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1237,
+"id": 1284,
 "enunciado": "Un cuadriciclo ligero tiene una masa en vacío (sin baterías, si es eléctrico) que no supera:",
 "opciones": [
 "425 kg.",
@@ -21861,7 +22572,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1238,
+"id": 1285,
 "enunciado": "La capacidad máxima de un turismo, incluido el conductor, es de:",
 "opciones": [
 "9 plazas.",
@@ -21875,7 +22586,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1239,
+"id": 1286,
 "enunciado": "La velocidad máxima a la que puede estar diseñado un vehículo de movilidad personal (VMP) es:",
 "opciones": [
 "25 km/h.",
@@ -21889,7 +22600,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1240,
+"id": 1287,
 "enunciado": "Para que un vehículo de mercancías sea un 'camión' y no una furgoneta, su MMA debe superar:",
 "opciones": [
 "3.500 kg.",
@@ -21903,7 +22614,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1241,
+"id": 1288,
 "enunciado": "La diferencia esencial entre una autopista y una autovía es que la autopista:",
 "opciones": [
 "No admite accesos a las propiedades colindantes ni cruces a nivel.",
@@ -21917,7 +22628,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1242,
+"id": 1289,
 "enunciado": "Un vehículo de movilidad personal (VMP) tiene prohibido circular por:",
 "opciones": [
 "Aceras, zonas peatonales, autopistas, autovías y travesías.",
@@ -21931,7 +22642,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1243,
+"id": 1290,
 "enunciado": "La 'masa máxima autorizada' (MMA) de un vehículo:",
 "opciones": [
 "Es fijada por la Administración para su circulación y no puede superar la masa máxima técnicamente admisible.",
@@ -21945,7 +22656,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1244,
+"id": 1291,
 "enunciado": "Un 'vehículo articulado' está compuesto por:",
 "opciones": [
 "Un automóvil (cabeza tractora) y un semirremolque.",
@@ -21959,7 +22670,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1245,
+"id": 1292,
 "enunciado": "El permiso B autoriza a arrastrar un remolque cuya MMA no supere, con carácter general:",
 "opciones": [
 "750 kg (o más si el conjunto no supera 3.500 kg de MMA).",
@@ -21973,7 +22684,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1246,
+"id": 1293,
 "enunciado": "Una 'travesía' se distingue de una vía urbana normal en que:",
 "opciones": [
 "Es el tramo de una carretera que discurre por poblado, sin tener la condición de vía urbana.",
@@ -21987,7 +22698,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1247,
+"id": 1294,
 "enunciado": "La cilindrada máxima de un ciclomotor de motor de combustión es de:",
 "opciones": [
 "50 cc.",
@@ -22001,7 +22712,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1248,
+"id": 1295,
 "enunciado": "La potencia máxima de un cuadriciclo ligero es de:",
 "opciones": [
 "4 kW.",
@@ -22015,7 +22726,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1249,
+"id": 1296,
 "enunciado": "Un ciclomotor es un vehículo de dos o tres ruedas cuya velocidad máxima por construcción no supera los...",
 "opciones": [
 "45 km/h y con cilindrada no superior a 50 cc.",
@@ -22029,7 +22740,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1250,
+"id": 1297,
 "enunciado": "El remolque ligero es aquel cuya masa máxima autorizada no excede de...",
 "opciones": [
 "750 kg.",
@@ -22043,7 +22754,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1251,
+"id": 1298,
 "enunciado": "El autobús es el automóvil concebido para el transporte de personas con capacidad de...",
 "opciones": [
 "más de 9 plazas, incluido el conductor.",
@@ -22057,7 +22768,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1252,
+"id": 1299,
 "enunciado": "La masa en orden de marcha se obtiene sumando a la tara del vehículo...",
 "opciones": [
 "la masa del conductor, valorada en 75 kg.",
@@ -22071,7 +22782,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1253,
+"id": 1300,
 "enunciado": "Un vehículo de movilidad personal (VMP) está diseñado para alcanzar una velocidad máxima comprendida entre...",
 "opciones": [
 "6 y 25 km/h.",
@@ -22085,7 +22796,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1254,
+"id": 1301,
 "enunciado": "El vehículo articulado se compone de un automóvil y...",
 "opciones": [
 "un semirremolque que apoya parte de su masa sobre el tractor.",
@@ -22099,7 +22810,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1255,
+"id": 1302,
 "enunciado": "La autopista se diferencia de la autovía en que, entre otros requisitos, la autopista...",
 "opciones": [
 "no da acceso a las propiedades colindantes.",
@@ -22113,7 +22824,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1256,
+"id": 1303,
 "enunciado": "El cuadriciclo ligero tiene una potencia máxima de 4 kW y una masa en vacío que no supera...",
 "opciones": [
 "425 kg.",
@@ -22127,7 +22838,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1257,
+"id": 1304,
 "enunciado": "Una vía interurbana es toda aquella que...",
 "opciones": [
 "discurre fuera de poblado.",
@@ -22141,7 +22852,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1258,
+"id": 1305,
 "enunciado": "La parada se diferencia del estacionamiento en que la parada no excede de...",
 "opciones": [
 "2 minutos y el conductor no se aleja del vehículo.",
@@ -22155,7 +22866,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1259,
+"id": 1306,
 "enunciado": "El permiso B permite arrastrar un remolque cuando la MMA del conjunto (vehículo + remolque) no supera...",
 "opciones": [
 "3.500 kg.",
@@ -22169,7 +22880,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1260,
+"id": 1307,
 "enunciado": "La bicicleta de pedaleo asistido conserva la consideración de ciclo si el motor deja de asistir cuando se alcanzan los...",
 "opciones": [
 "25 km/h.",
@@ -22183,7 +22894,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1261,
+"id": 1308,
 "enunciado": "La Dirección Electrónica Vial (DEV) sirve para:",
 "opciones": [
 "Recibir de forma electrónica las notificaciones de tráfico (multas, avisos).",
@@ -22197,7 +22908,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1262,
+"id": 1309,
 "enunciado": "El 'parte amistoso de accidente' es:",
 "opciones": [
 "Una declaración conjunta de los implicados para tramitar el siniestro con las aseguradoras.",
@@ -22211,7 +22922,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1263,
+"id": 1310,
 "enunciado": "La 'carta verde' del seguro:",
 "opciones": [
 "Acredita que el seguro tiene cobertura para circular por determinados países extranjeros.",
@@ -22225,7 +22936,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1264,
+"id": 1311,
 "enunciado": "El Impuesto de Vehículos de Tracción Mecánica (IVTM) es:",
 "opciones": [
 "Un impuesto municipal anual que se paga por tener el vehículo.",
@@ -22239,7 +22950,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1265,
+"id": 1312,
 "enunciado": "El distintivo ambiental 'ECO' corresponde, en general, a:",
 "opciones": [
 "Vehículos híbridos o de gas que cumplen ciertos requisitos, con prestaciones intermedias.",
@@ -22253,7 +22964,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1266,
+"id": 1313,
 "enunciado": "Los vehículos más antiguos y contaminantes, respecto al distintivo ambiental:",
 "opciones": [
 "No reciben etiqueta y suelen tener más restricciones en las Zonas de Bajas Emisiones.",
@@ -22267,7 +22978,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1267,
+"id": 1314,
 "enunciado": "El permiso de la clase A1 habilita para conducir:",
 "opciones": [
 "Motocicletas de hasta 125 cc y 11 kW, a partir de los 16 años.",
@@ -22281,7 +22992,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1268,
+"id": 1315,
 "enunciado": "El permiso de la clase A2 habilita para conducir:",
 "opciones": [
 "Motocicletas de hasta 35 kW, a partir de los 18 años.",
@@ -22295,7 +23006,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1269,
+"id": 1316,
 "enunciado": "El código 96 (o el permiso B+E) sirve para:",
 "opciones": [
 "Poder arrastrar remolques más pesados de lo que permite el permiso B ordinario.",
@@ -22309,7 +23020,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1270,
+"id": 1317,
 "enunciado": "Un permiso de conducción expedido en otro país de la Unión Europea, en España:",
 "opciones": [
 "Es válido para conducir, sin necesidad de canjearlo.",
@@ -22323,7 +23034,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1271,
+"id": 1318,
 "enunciado": "El permiso internacional de conducción:",
 "opciones": [
 "Es un documento que acompaña al permiso nacional para conducir en ciertos países fuera de la UE.",
@@ -22337,7 +23048,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1272,
+"id": 1319,
 "enunciado": "La 'baja temporal' de un vehículo permite:",
 "opciones": [
 "Que el vehículo deje de circular durante un tiempo sin darlo de baja definitiva.",
@@ -22351,7 +23062,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1273,
+"id": 1320,
 "enunciado": "Si la ITV resulta 'desfavorable' por un defecto grave, el vehículo:",
 "opciones": [
 "Solo puede circular para ir a repararlo y volver a pasar la inspección.",
@@ -22365,7 +23076,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1274,
+"id": 1321,
 "enunciado": "Si la ITV resulta 'negativa' por un defecto muy grave, el vehículo:",
 "opciones": [
 "No puede circular por sus propios medios (debe retirarse en grúa).",
@@ -22379,7 +23090,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1275,
+"id": 1322,
 "enunciado": "La inspección técnica (ITV) de las motocicletas se realiza, con carácter general:",
 "opciones": [
 "A partir de los 4 años de antigüedad, cada 2 años.",
@@ -22393,7 +23104,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1276,
+"id": 1323,
 "enunciado": "La ITV debe realizarse en:",
 "opciones": [
 "Estaciones de inspección técnica autorizadas.",
@@ -22407,7 +23118,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1277,
+"id": 1324,
 "enunciado": "El adhesivo (pegatina) de la ITV en el parabrisas indica:",
 "opciones": [
 "El mes y el año en que caduca la inspección y hay que volver a pasarla.",
@@ -22421,7 +23132,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1278,
+"id": 1325,
 "enunciado": "Una placa de matrícula temporal (verde) se utiliza:",
 "opciones": [
 "Para traslados o pruebas de vehículos aún sin matrícula definitiva.",
@@ -22435,7 +23146,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1279,
+"id": 1326,
 "enunciado": "Cuando un conductor comete una infracción GRAVE de las que restan puntos, puede perder:",
 "opciones": [
 "Entre 2 y 6 puntos según la infracción concreta.",
@@ -22449,7 +23160,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1280,
+"id": 1327,
 "enunciado": "Los cursos de sensibilización y reeducación vial sirven para:",
 "opciones": [
 "Recuperar parte de los puntos o poder volver a conducir tras perderlos todos.",
@@ -22463,7 +23174,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1281,
+"id": 1328,
 "enunciado": "Si un conductor pierde TODOS sus puntos:",
 "opciones": [
 "No puede conducir y, para reobtener el permiso, debe hacer un curso y superar una prueba.",
@@ -22477,7 +23188,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1282,
+"id": 1329,
 "enunciado": "El conductor novel tiene condiciones especiales durante:",
 "opciones": [
 "Los 2 primeros años desde que obtiene el permiso.",
@@ -22491,7 +23202,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1283,
+"id": 1330,
 "enunciado": "El plazo general para presentar alegaciones frente a una multa de tráfico es de:",
 "opciones": [
 "20 días naturales desde la notificación.",
@@ -22505,7 +23216,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1284,
+"id": 1331,
 "enunciado": "Una sanción económica de tráfico GRAVE puede ascender, con carácter general, hasta:",
 "opciones": [
 "200 €.",
@@ -22519,7 +23230,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1285,
+"id": 1332,
 "enunciado": "La franquicia de un seguro es:",
 "opciones": [
 "La cantidad de cada siniestro que asume el propio asegurado antes de que pague la compañía.",
@@ -22533,7 +23244,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1286,
+"id": 1333,
 "enunciado": "El seguro obligatorio de automóviles NO cubre:",
 "opciones": [
 "Los daños propios del conductor causante del accidente.",
@@ -22547,7 +23258,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1287,
+"id": 1334,
 "enunciado": "Antes de comprar un vehículo de segunda mano conviene:",
 "opciones": [
 "Comprobar en un informe de la DGT sus cargas, ITV y posibles deudas o embargos.",
@@ -22561,7 +23272,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1288,
+"id": 1335,
 "enunciado": "El permiso de CONDUCCIÓN y el permiso de CIRCULACIÓN se diferencian en que:",
 "opciones": [
 "El de conducción acredita la aptitud de la persona; el de circulación autoriza a circular al vehículo.",
@@ -22575,7 +23286,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1289,
+"id": 1336,
 "enunciado": "El número de bastidor de un vehículo:",
 "opciones": [
 "Es un identificador único grabado que sirve para identificar el vehículo.",
@@ -22589,7 +23300,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1290,
+"id": 1337,
 "enunciado": "Para poder circular, todo vehículo a motor debe llevar, como mínimo:",
 "opciones": [
 "El seguro obligatorio en vigor y la ITV al día cuando le corresponda.",
@@ -22603,7 +23314,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1291,
+"id": 1338,
 "enunciado": "Si vas a circular por una Zona de Bajas Emisiones (ZBE) con un vehículo sin distintivo ambiental:",
 "opciones": [
 "Puede estar restringido o prohibido según la ordenanza municipal de esa ciudad.",
@@ -22617,7 +23328,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1292,
+"id": 1339,
 "enunciado": "El 'seguro a todo riesgo' se caracteriza porque:",
 "opciones": [
 "Además de los daños a terceros, cubre los daños propios del vehículo asegurado.",
@@ -22631,7 +23342,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1293,
+"id": 1340,
 "enunciado": "El permiso de conducción digital de la app miDGT:",
 "opciones": [
 "Tiene validez para identificarte ante los agentes dentro de España.",
@@ -22645,7 +23356,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1294,
+"id": 1341,
 "enunciado": "Cuando cambias de domicilio, respecto a tu vehículo y permiso debes:",
 "opciones": [
 "Comunicar el cambio a la DGT para mantener actualizados tus datos.",
@@ -22659,7 +23370,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1295,
+"id": 1342,
 "enunciado": "El impuesto de matriculación de un vehículo:",
 "opciones": [
 "Es un tributo que puede pagarse al matricular según las emisiones de CO₂ del vehículo.",
@@ -22673,7 +23384,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1296,
+"id": 1343,
 "enunciado": "El titular que no desea recibir notificaciones en papel puede:",
 "opciones": [
 "Suscribirse a la Dirección Electrónica Vial (DEV) para recibirlas electrónicamente.",
@@ -22687,7 +23398,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1297,
+"id": 1344,
 "enunciado": "Para transferir un vehículo al comprarlo de segunda mano, se debe:",
 "opciones": [
 "Tramitar el cambio de titularidad en la DGT y pagar la tasa e impuestos correspondientes.",
@@ -22701,7 +23412,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1298,
+"id": 1345,
 "enunciado": "El Certificado de Aptitud Profesional (CAP) es necesario para:",
 "opciones": [
 "Los conductores profesionales de transporte de mercancías o de viajeros por carretera.",
@@ -22715,7 +23426,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1299,
+"id": 1346,
 "enunciado": "Un vehículo dado de BAJA DEFINITIVA (entregado al desguace):",
 "opciones": [
 "No puede volver a circular ni matricularse de nuevo.",
@@ -22729,7 +23440,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1300,
+"id": 1347,
 "enunciado": "El duplicado del permiso de circulación se solicita cuando:",
 "opciones": [
 "El documento se ha deteriorado, perdido o ha sido sustraído.",
@@ -22743,7 +23454,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1301,
+"id": 1348,
 "enunciado": "Un conductor que obtiene el permiso por primera vez (novel) parte con un saldo de puntos de:",
 "opciones": [
 "8 puntos.",
@@ -22757,7 +23468,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1302,
+"id": 1349,
 "enunciado": "El saldo máximo de puntos que puede llegar a tener un conductor sin sanciones es:",
 "opciones": [
 "15 puntos.",
@@ -22771,7 +23482,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1303,
+"id": 1350,
 "enunciado": "Un turismo particular pasa su PRIMERA ITV y, entre los 4 y los 10 años, la repite:",
 "opciones": [
 "A los 4 años y, de 4 a 10 años, cada 2 años.",
@@ -22785,7 +23496,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1304,
+"id": 1351,
 "enunciado": "Usar el teléfono móvil sosteniéndolo en la mano mientras se conduce supone la pérdida de:",
 "opciones": [
 "6 puntos.",
@@ -22799,7 +23510,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1305,
+"id": 1352,
 "enunciado": "No utilizar el cinturón de seguridad, el casco o el sistema de retención infantil supone la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -22813,7 +23524,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1306,
+"id": 1353,
 "enunciado": "Mediante un curso de recuperación, un conductor puede recuperar como máximo:",
 "opciones": [
 "6 puntos (una vez cada 2 años; los profesionales, una vez al año).",
@@ -22827,7 +23538,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1307,
+"id": 1354,
 "enunciado": "Para recuperar el saldo total de puntos sin hacer curso, hay que estar sin ser sancionado:",
 "opciones": [
 "2 años (si la última fue grave) o 3 años (si fue muy grave).",
@@ -22841,7 +23552,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1308,
+"id": 1355,
 "enunciado": "El permiso B, mediante el código 96, permite conducir conjuntos (vehículo + remolque) cuya MMA total esté entre:",
 "opciones": [
 "3.500 y 4.250 kg.",
@@ -22855,7 +23566,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1309,
+"id": 1356,
 "enunciado": "Una infracción muy grave de tráfico puede suponer una multa de hasta:",
 "opciones": [
 "500 € y la detracción de hasta 6 puntos.",
@@ -22869,7 +23580,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1310,
+"id": 1357,
 "enunciado": "El permiso A2 (motos de hasta 35 kW) se puede obtener a partir de los:",
 "opciones": [
 "18 años.",
@@ -22883,7 +23594,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1311,
+"id": 1358,
 "enunciado": "Pagar una multa dentro del periodo de pago con reducción (pronto pago) supone, normalmente:",
 "opciones": [
 "Una reducción del 50 % del importe, renunciando a alegar.",
@@ -22897,7 +23608,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1312,
+"id": 1359,
 "enunciado": "Un turismo particular con más de 10 años de antigüedad debe pasar la ITV:",
 "opciones": [
 "Todos los años.",
@@ -22911,7 +23622,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1313,
+"id": 1360,
 "enunciado": "Un turismo particular pasa su primera inspección técnica (ITV) a los...",
 "opciones": [
 "4 años de su matriculación.",
@@ -22925,7 +23636,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1314,
+"id": 1361,
 "enunciado": "El conductor novel parte con un saldo de...",
 "opciones": [
 "8 puntos.",
@@ -22939,7 +23650,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1315,
+"id": 1362,
 "enunciado": "Con carácter general, el permiso B se renueva, para menores de 65 años, cada...",
 "opciones": [
 "10 años.",
@@ -22953,7 +23664,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1316,
+"id": 1363,
 "enunciado": "Con carácter general, el permiso B para conductores de 65 años o más se renueva cada...",
 "opciones": [
 "5 años.",
@@ -22967,7 +23678,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1317,
+"id": 1364,
 "enunciado": "Sujetar el teléfono móvil con la mano mientras se conduce resta...",
 "opciones": [
 "6 puntos.",
@@ -22981,7 +23692,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1318,
+"id": 1365,
 "enunciado": "No usar el cinturón de seguridad, el casco o el sistema de retención infantil resta...",
 "opciones": [
 "4 puntos.",
@@ -22995,7 +23706,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1319,
+"id": 1366,
 "enunciado": "La edad mínima para obtener el permiso B es de...",
 "opciones": [
 "18 años.",
@@ -23009,7 +23720,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1320,
+"id": 1367,
 "enunciado": "Con el permiso B, sin autorización adicional, se puede arrastrar un remolque cuya MMA no supere...",
 "opciones": [
 "750 kg.",
@@ -23023,7 +23734,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1321,
+"id": 1368,
 "enunciado": "El saldo máximo de puntos que puede alcanzar un conductor es de...",
 "opciones": [
 "15 puntos.",
@@ -23037,7 +23748,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1322,
+"id": 1369,
 "enunciado": "Mediante un curso, un conductor puede recuperar como máximo...",
 "opciones": [
 "6 puntos.",
@@ -23051,7 +23762,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1323,
+"id": 1370,
 "enunciado": "El plazo general para alegar frente a una multa es de...",
 "opciones": [
 "20 días naturales.",
@@ -23065,7 +23776,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1324,
+"id": 1371,
 "enunciado": "Entre los 4 y los 10 años de antigüedad, un turismo particular pasa la ITV...",
 "opciones": [
 "cada 2 años.",
@@ -23079,7 +23790,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1325,
+"id": 1372,
 "enunciado": "El alcohol, respecto al sistema nervioso central, actúa como una sustancia:",
 "opciones": [
 "Estimulante que mejora los reflejos.",
@@ -23093,7 +23804,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1326,
+"id": 1373,
 "enunciado": "Una de las consecuencias del alcohol sobre la visión al conducir es:",
 "opciones": [
 "Que amplía el campo visual del conductor.",
@@ -23107,7 +23818,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1327,
+"id": 1374,
 "enunciado": "Tras beber alcohol, el tiempo de reacción del conductor:",
 "opciones": [
 "Aumenta, por lo que tarda más en responder ante un peligro.",
@@ -23121,7 +23832,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1328,
+"id": 1375,
 "enunciado": "El alcohol suele producir en el conductor una:",
 "opciones": [
 "Percepción realista y prudente del riesgo.",
@@ -23135,7 +23846,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1329,
+"id": 1376,
 "enunciado": "¿Cuál es la única forma real de eliminar el alcohol del organismo?",
 "opciones": [
 "Beber café cargado.",
@@ -23149,7 +23860,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1330,
+"id": 1377,
 "enunciado": "Tomar un café bien cargado después de beber alcohol:",
 "opciones": [
 "Elimina el alcohol de la sangre de inmediato.",
@@ -23163,7 +23874,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1331,
+"id": 1378,
 "enunciado": "Si se bebe alcohol con el estómago vacío (en ayunas):",
 "opciones": [
 "Se absorbe más lentamente que con el estómago lleno.",
@@ -23177,7 +23888,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1332,
+"id": 1379,
 "enunciado": "La prueba que se utiliza habitualmente para detectar drogas en un control de tráfico es:",
 "opciones": [
 "Una prueba de saliva (test salival).",
@@ -23191,7 +23902,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1333,
+"id": 1380,
 "enunciado": "Negarse a someterse a las pruebas de detección de alcohol o drogas:",
 "opciones": [
 "No tiene consecuencias si el conductor lo pide por escrito.",
@@ -23205,7 +23916,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1334,
+"id": 1381,
 "enunciado": "Antes de tomar un medicamento y ponerse al volante conviene:",
 "opciones": [
 "Consultar el prospecto y fijarse en el pictograma de conducción.",
@@ -23219,7 +23930,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1335,
+"id": 1382,
 "enunciado": "Algunos medicamentos, como ciertos antihistamínicos o ansiolíticos, pueden producir:",
 "opciones": [
 "Somnolencia y disminución de los reflejos.",
@@ -23233,7 +23944,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1336,
+"id": 1383,
 "enunciado": "El pictograma que advierte de que un medicamento puede afectar a la conducción es:",
 "opciones": [
 "Un triángulo rojo con un coche negro.",
@@ -23247,7 +23958,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1337,
+"id": 1384,
 "enunciado": "Mezclar alcohol con determinados fármacos:",
 "opciones": [
 "Neutraliza los efectos de ambos.",
@@ -23261,7 +23972,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1338,
+"id": 1385,
 "enunciado": "La fatiga y la falta de sueño al conducir pueden provocar:",
 "opciones": [
 "Microsueños, pérdidas breves de conciencia de pocos segundos.",
@@ -23275,7 +23986,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1339,
+"id": 1386,
 "enunciado": "En un viaje largo, para prevenir la fatiga se recomienda descansar:",
 "opciones": [
 "Solo al llegar al destino.",
@@ -23289,7 +24000,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1340,
+"id": 1387,
 "enunciado": "Si mientras conduces notas los primeros síntomas de sueño (parpadeo, bostezos), lo correcto es:",
 "opciones": [
 "Detenerte en un lugar seguro y descansar.",
@@ -23303,7 +24014,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1341,
+"id": 1388,
 "enunciado": "El alcohol afecta a la coordinación de movimientos, lo que dificulta:",
 "opciones": [
 "Maniobras precisas como frenar, girar el volante o cambiar de marcha.",
@@ -23317,7 +24028,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1342,
+"id": 1389,
 "enunciado": "Aunque un conductor se sienta capaz tras beber una copa, el alcohol:",
 "opciones": [
 "No produce ningún efecto en dosis bajas.",
@@ -23331,7 +24042,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1343,
+"id": 1390,
 "enunciado": "El alcoholímetro utilizado por los agentes en un control mide la tasa de alcohol en:",
 "opciones": [
 "El aire espirado.",
@@ -23345,7 +24056,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1344,
+"id": 1391,
 "enunciado": "Si en un control te realizan una primera prueba de alcoholemia positiva, tienes derecho a:",
 "opciones": [
 "Marcharte sin más trámites.",
@@ -23359,7 +24070,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1345,
+"id": 1392,
 "enunciado": "Los efectos del alcohol sobre la conducción aparecen:",
 "opciones": [
 "Solo cuando el conductor está visiblemente borracho.",
@@ -23373,7 +24084,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1346,
+"id": 1393,
 "enunciado": "La cantidad de alcohol que llega a la sangre depende, entre otros factores, de:",
 "opciones": [
 "El peso, el sexo, la comida ingerida y la rapidez con que se bebe.",
@@ -23387,7 +24098,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1347,
+"id": 1394,
 "enunciado": "Los conductores profesionales (camiones, autobuses, taxis) tienen una tasa de alcohol permitida:",
 "opciones": [
 "Más alta que la del resto de conductores.",
@@ -23401,7 +24112,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1348,
+"id": 1395,
 "enunciado": "Un conductor novel se considera aquel que:",
 "opciones": [
 "Lleva menos de dos años con el permiso de conducir.",
@@ -23415,7 +24126,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1349,
+"id": 1396,
 "enunciado": "El consumo de drogas estimulantes (cocaína, anfetaminas) al volante:",
 "opciones": [
 "Hace conducir de forma más segura.",
@@ -23429,7 +24140,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1350,
+"id": 1397,
 "enunciado": "El cannabis (marihuana, hachís) al conducir produce, entre otros efectos:",
 "opciones": [
 "Mayor rapidez de reacción.",
@@ -23443,7 +24154,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1351,
+"id": 1398,
 "enunciado": "Ventilar el habitáculo y bajar la ventanilla durante un viaje largo sirve para:",
 "opciones": [
 "Eliminar el alcohol de la sangre.",
@@ -23457,7 +24168,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1352,
+"id": 1399,
 "enunciado": "Una cena copiosa y pesada antes de conducir puede:",
 "opciones": [
 "Aumentar la somnolencia y la sensación de fatiga.",
@@ -23471,7 +24182,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1353,
+"id": 1400,
 "enunciado": "Si un conductor toma un medicamento por prescripción médica que puede afectar a la conducción, debe:",
 "opciones": [
 "Ignorar la advertencia porque es un fármaco recetado.",
@@ -23485,7 +24196,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1354,
+"id": 1401,
 "enunciado": "El alcohol, sobre la capacidad de atención del conductor:",
 "opciones": [
 "La aumenta y ayuda a concentrarse.",
@@ -23499,7 +24210,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1355,
+"id": 1402,
 "enunciado": "Conducir con resaca al día siguiente de haber bebido:",
 "opciones": [
 "Es seguro porque la tasa ya es cero.",
@@ -23513,7 +24224,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1356,
+"id": 1403,
 "enunciado": "Los agentes de tráfico pueden realizar pruebas de alcoholemia:",
 "opciones": [
 "Solo tras un accidente grave.",
@@ -23527,7 +24238,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1357,
+"id": 1404,
 "enunciado": "La graduación de una bebida indica:",
 "opciones": [
 "El porcentaje de alcohol que contiene.",
@@ -23541,7 +24252,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1358,
+"id": 1405,
 "enunciado": "El plan más seguro si se va a beber alcohol en una celebración es:",
 "opciones": [
 "Beber poco y esperar media hora antes de conducir.",
@@ -23555,7 +24266,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1359,
+"id": 1406,
 "enunciado": "El alcohol influye especialmente de forma negativa en la conducción:",
 "opciones": [
 "Nocturna, porque se suma a la peor visibilidad y a la fatiga.",
@@ -23569,7 +24280,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1360,
+"id": 1407,
 "enunciado": "Respecto a los efectos del alcohol, es correcto afirmar que:",
 "opciones": [
 "Afectan a todas las personas exactamente igual.",
@@ -23583,7 +24294,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1361,
+"id": 1408,
 "enunciado": "El sueño al volante es peligroso porque:",
 "opciones": [
 "Aparece siempre con mucho aviso previo.",
@@ -23597,7 +24308,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1362,
+"id": 1409,
 "enunciado": "La mejor medida frente al sueño en un viaje largo es:",
 "opciones": [
 "Dormir lo suficiente antes de salir y planificar paradas.",
@@ -23611,7 +24322,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1363,
+"id": 1410,
 "enunciado": "Si un pasajero se niega a que el conductor beba y coja el coche, lo más sensato es:",
 "opciones": [
 "Insistir en conducir para demostrar que se controla.",
@@ -23625,7 +24336,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1364,
+"id": 1411,
 "enunciado": "El alcohol y las drogas están implicados en los accidentes de tráfico:",
 "opciones": [
 "En un porcentaje muy pequeño e irrelevante.",
@@ -23639,7 +24350,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1365,
+"id": 1412,
 "enunciado": "Una bebida 'sin alcohol' (0,0) para el conductor:",
 "opciones": [
 "Aporta la misma tasa que una cerveza normal.",
@@ -23653,7 +24364,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1366,
+"id": 1413,
 "enunciado": "El efecto de las drogas alucinógenas sobre la conducción incluye:",
 "opciones": [
 "Alteraciones de la percepción que impiden conducir con seguridad.",
@@ -23667,7 +24378,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1367,
+"id": 1414,
 "enunciado": "El deber de someterse a las pruebas de alcohol o drogas alcanza a:",
 "opciones": [
 "Solo al conductor implicado en un accidente.",
@@ -23681,7 +24392,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1368,
+"id": 1415,
 "enunciado": "Frente a la fatiga, las bebidas energéticas o estimulantes:",
 "opciones": [
 "Sustituyen por completo al descanso.",
@@ -23695,7 +24406,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1369,
+"id": 1416,
 "enunciado": "¿Cuál es la tasa máxima de alcohol en aire espirado para un conductor general con más de dos años de permiso?",
 "opciones": [
 "0,15 mg/l.",
@@ -23709,7 +24420,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1370,
+"id": 1417,
 "enunciado": "La tasa de alcohol en sangre que no pueden superar los conductores noveles y profesionales es:",
 "opciones": [
 "0,3 g/l.",
@@ -23723,7 +24434,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1371,
+"id": 1418,
 "enunciado": "A partir de qué tasa de alcohol en aire espirado conducir constituye siempre delito contra la seguridad vial (art. 379 CP):",
 "opciones": [
 "Más de 0,25 mg/l.",
@@ -23737,7 +24448,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1372,
+"id": 1419,
 "enunciado": "El límite penal de 0,60 mg/l en aire espirado equivale en sangre a:",
 "opciones": [
 "0,5 g/l.",
@@ -23751,7 +24462,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1373,
+"id": 1420,
 "enunciado": "Un conductor con una tasa de 0,30 mg/l en aire espirado (dentro del rango 0,25-0,50) pierde:",
 "opciones": [
 "2 puntos.",
@@ -23765,7 +24476,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1374,
+"id": 1421,
 "enunciado": "Un conductor con una tasa de 0,55 mg/l en aire espirado (superior a 0,50) pierde:",
 "opciones": [
 "4 puntos.",
@@ -23779,7 +24490,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1375,
+"id": 1422,
 "enunciado": "La detección de presencia de drogas en el organismo del conductor supone la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -23793,7 +24504,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1376,
+"id": 1423,
 "enunciado": "Para los conductores noveles y profesionales, la tasa máxima de alcohol en aire espirado es:",
 "opciones": [
 "0,15 mg/l.",
@@ -23807,7 +24518,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1377,
+"id": 1424,
 "enunciado": "El delito de conducir bajo influencia de bebidas alcohólicas o drogas se recoge en el Código Penal en el artículo:",
 "opciones": [
 "379.",
@@ -23821,7 +24532,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1378,
+"id": 1425,
 "enunciado": "La negativa a someterse a las pruebas de alcohol o drogas se castiga en el Código Penal en el artículo:",
 "opciones": [
 "379.",
@@ -23835,7 +24546,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1379,
+"id": 1426,
 "enunciado": "El límite penal de alcohol expresado en sangre, según el art. 379 CP, es superar:",
 "opciones": [
 "0,5 g/l.",
@@ -23849,7 +24560,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1380,
+"id": 1427,
 "enunciado": "La tasa reducida de los noveles se aplica durante:",
 "opciones": [
 "El primer año de permiso.",
@@ -23863,7 +24574,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1381,
+"id": 1428,
 "enunciado": "Un conductor general que da 0,45 mg/l en aire espirado:",
 "opciones": [
 "No supera la tasa administrativa general.",
@@ -23877,7 +24588,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1382,
+"id": 1429,
 "enunciado": "La tasa máxima general de alcohol en aire espirado para un conductor con más de dos años de permiso es de:",
 "opciones": [
 "0,25 mg/l.",
@@ -23891,7 +24602,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1383,
+"id": 1430,
 "enunciado": "La tasa reducida en aire espirado para conductores noveles y profesionales es de:",
 "opciones": [
 "0,15 mg/l.",
@@ -23905,7 +24616,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1384,
+"id": 1431,
 "enunciado": "Conducir con una tasa de alcohol en aire espirado superior a este valor constituye delito del art. 379 CP:",
 "opciones": [
 "0,50 mg/l.",
@@ -23919,7 +24630,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1385,
+"id": 1432,
 "enunciado": "El límite del delito de alcoholemia expresado en gramos de alcohol por litro de sangre es superar:",
 "opciones": [
 "1,0 g/l.",
@@ -23933,7 +24644,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1386,
+"id": 1433,
 "enunciado": "La tasa general de 0,25 mg/l en aire espirado equivale en sangre a:",
 "opciones": [
 "0,3 g/l.",
@@ -23947,7 +24658,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1387,
+"id": 1434,
 "enunciado": "La tasa reducida de 0,15 mg/l en aire espirado equivale en sangre a:",
 "opciones": [
 "0,3 g/l.",
@@ -23961,7 +24672,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1388,
+"id": 1435,
 "enunciado": "Una tasa en aire espirado dentro del rango 0,25-0,50 mg/l conlleva la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -23975,7 +24686,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1389,
+"id": 1436,
 "enunciado": "Una tasa en aire espirado superior a 0,50 mg/l conlleva la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -23989,7 +24700,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1390,
+"id": 1437,
 "enunciado": "Dar positivo por presencia de drogas en la prueba salival conlleva la pérdida de:",
 "opciones": [
 "4 puntos.",
@@ -24003,7 +24714,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1391,
+"id": 1438,
 "enunciado": "El artículo del Código Penal que castiga la NEGATIVA a someterse a las pruebas de alcohol o drogas es el:",
 "opciones": [
 "379.",
@@ -24017,7 +24728,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1392,
+"id": 1439,
 "enunciado": "El artículo del Código Penal que tipifica CONDUCIR bajo la influencia de alcohol o drogas es el:",
 "opciones": [
 "379.",
@@ -24031,7 +24742,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1393,
+"id": 1440,
 "enunciado": "La tasa reducida de alcohol se aplica a los conductores durante:",
 "opciones": [
 "Los dos primeros años de permiso.",
@@ -24045,7 +24756,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1394,
+"id": 1441,
 "enunciado": "Circulando por una autopista, ¿cuál es la velocidad máxima genérica de un turismo si ninguna señal indica otra cosa?",
 "opciones": [
 "100 km/h",
@@ -24059,7 +24770,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1395,
+"id": 1442,
 "enunciado": "En una autovía sin señalización específica de velocidad, una motocicleta puede circular como máximo a:",
 "opciones": [
 "120 km/h",
@@ -24073,7 +24784,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1396,
+"id": 1443,
 "enunciado": "Un turismo circula por una carretera convencional fuera de poblado. Sin otra indicación, su velocidad máxima es:",
 "opciones": [
 "90 km/h",
@@ -24087,7 +24798,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1397,
+"id": 1444,
 "enunciado": "¿A qué velocidad máxima debe circular un turismo en una vía urbana con dos carriles por sentido de circulación?",
 "opciones": [
 "30 km/h",
@@ -24101,7 +24812,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1398,
+"id": 1445,
 "enunciado": "En una calle urbana con un solo carril por sentido, ¿cuál es la velocidad máxima genérica?",
 "opciones": [
 "30 km/h",
@@ -24115,7 +24826,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1399,
+"id": 1446,
 "enunciado": "En una calle donde la acera y la calzada están al mismo nivel (plataforma única), la velocidad máxima es:",
 "opciones": [
 "20 km/h",
@@ -24129,7 +24840,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1400,
+"id": 1447,
 "enunciado": "La señal S-28 indica una zona residencial. En ella, la velocidad máxima permitida es:",
 "opciones": [
 "30 km/h",
@@ -24143,7 +24854,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1401,
+"id": 1448,
 "enunciado": "La velocidad mínima permitida en una vía es, con carácter general:",
 "opciones": [
 "La mitad de la velocidad máxima genérica de esa vía",
@@ -24157,7 +24868,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1402,
+"id": 1449,
 "enunciado": "Al adelantar a otro vehículo en una carretera convencional, respecto al límite de velocidad de la vía:",
 "opciones": [
 "Se puede superar en 20 km/h",
@@ -24171,7 +24882,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1403,
+"id": 1450,
 "enunciado": "La distancia de seguridad con el vehículo que circula delante debe ser:",
 "opciones": [
 "Siempre de 50 metros",
@@ -24185,7 +24896,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1404,
+"id": 1451,
 "enunciado": "Ante la presencia de peatones que van a cruzar la calzada, el conductor debe:",
 "opciones": [
 "Mantener la velocidad y tocar el claxon",
@@ -24199,7 +24910,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1405,
+"id": 1452,
 "enunciado": "Un ciclomotor tiene, por construcción, una velocidad máxima de:",
 "opciones": [
 "45 km/h",
@@ -24213,7 +24924,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1406,
+"id": 1453,
 "enunciado": "Un cuadriciclo ligero tiene como velocidad máxima:",
 "opciones": [
 "60 km/h",
@@ -24227,7 +24938,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1407,
+"id": 1454,
 "enunciado": "Cuando llueve intensamente, la distancia de seguridad respecto al vehículo de delante debe:",
 "opciones": [
 "Reducirse",
@@ -24241,7 +24952,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1408,
+"id": 1455,
 "enunciado": "Si un conductor circula anormalmente despacio sin causa justificada:",
 "opciones": [
 "No pasa nada, es más seguro ir despacio",
@@ -24255,7 +24966,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1409,
+"id": 1456,
 "enunciado": "Al aproximarse a una obra en la carretera, el conductor debe:",
 "opciones": [
 "Mantener la velocidad de crucero",
@@ -24269,7 +24980,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1410,
+"id": 1457,
 "enunciado": "Un autobús que circula por una autopista tiene como velocidad máxima genérica:",
 "opciones": [
 "120 km/h",
@@ -24283,7 +24994,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1411,
+"id": 1458,
 "enunciado": "Sobre pavimento deslizante o con firme en mal estado, el conductor debe:",
 "opciones": [
 "Aumentar la velocidad",
@@ -24297,7 +25008,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1412,
+"id": 1459,
 "enunciado": "La distancia de frenado de un vehículo aumenta con:",
 "opciones": [
 "El aumento de la velocidad",
@@ -24311,7 +25022,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1413,
+"id": 1460,
 "enunciado": "Al acercarse a un paso de peatones, aunque no haya nadie cruzando, el conductor debe:",
 "opciones": [
 "Moderar la velocidad para poder detenerse si aparece un peatón",
@@ -24325,7 +25036,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1414,
+"id": 1461,
 "enunciado": "Ante la presencia de animales cerca de la calzada, la conducta correcta es:",
 "opciones": [
 "Acelerar para alejarse cuanto antes",
@@ -24339,7 +25050,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1415,
+"id": 1462,
 "enunciado": "Cuando la visibilidad es escasa por niebla o humo, respecto a la velocidad el conductor debe:",
 "opciones": [
 "Moderarla",
@@ -24353,7 +25064,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1416,
+"id": 1463,
 "enunciado": "Un camión de más de 3.500 kg de MMA tiene en autopista una velocidad máxima genérica de:",
 "opciones": [
 "120 km/h",
@@ -24367,7 +25078,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1417,
+"id": 1464,
 "enunciado": "La energía cinética de un vehículo, y por tanto la gravedad de un impacto, depende sobre todo de:",
 "opciones": [
 "El color de la carrocería",
@@ -24381,7 +25092,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1418,
+"id": 1465,
 "enunciado": "Cuando una señal fija un límite de velocidad distinto al genérico de la vía, el conductor:",
 "opciones": [
 "Puede elegir el que prefiera",
@@ -24395,7 +25106,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1419,
+"id": 1466,
 "enunciado": "Al aproximarse a un centro escolar en horario de entrada o salida, el conductor debe:",
 "opciones": [
 "Extremar la precaución y moderar la velocidad",
@@ -24409,7 +25120,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1420,
+"id": 1467,
 "enunciado": "Circular a una velocidad adecuada a las condiciones de la vía permite principalmente:",
 "opciones": [
 "Consumir siempre más combustible",
@@ -24423,7 +25134,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1421,
+"id": 1468,
 "enunciado": "En autovía, ¿pueden un turismo y una motocicleta circular al mismo límite máximo genérico?",
 "opciones": [
 "Sí, ambos a 120 km/h",
@@ -24437,7 +25148,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1422,
+"id": 1469,
 "enunciado": "Reducir la velocidad ante un pavimento mojado es recomendable porque:",
 "opciones": [
 "El vehículo consume menos",
@@ -24451,7 +25162,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1423,
+"id": 1470,
 "enunciado": "Adaptar la velocidad significa, sobre todo, tener en cuenta:",
 "opciones": [
 "Solo el límite señalizado",
@@ -24465,7 +25176,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1424,
+"id": 1471,
 "enunciado": "En una vía urbana de plataforma única, la prioridad de la señalización de 20 km/h responde a que:",
 "opciones": [
 "Los peatones comparten el espacio con los vehículos",
@@ -24479,7 +25190,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1425,
+"id": 1472,
 "enunciado": "Ante un ciclista al que vamos a rebasar en una carretera estrecha, debemos:",
 "opciones": [
 "Moderar la velocidad y dejar al menos 1,5 m de separación lateral",
@@ -24493,7 +25204,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1426,
+"id": 1473,
 "enunciado": "Al circular por un tramo de vía con hielo, la conducta correcta respecto a la velocidad es:",
 "opciones": [
 "Aumentarla para no perder el control",
@@ -24507,7 +25218,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1427,
+"id": 1474,
 "enunciado": "Un vehículo circula despacio y molesta a los que van detrás en una carretera estrecha. Lo correcto es:",
 "opciones": [
 "Seguir a su ritmo sin más",
@@ -24521,7 +25232,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1428,
+"id": 1475,
 "enunciado": "La velocidad excesiva es una de las principales causas de accidente porque:",
 "opciones": [
 "Reduce el tiempo y el espacio disponibles para reaccionar",
@@ -24535,7 +25246,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1429,
+"id": 1476,
 "enunciado": "Al circular por un túnel, respecto a la velocidad conviene:",
 "opciones": [
 "Adaptarla y mantener la distancia de seguridad",
@@ -24549,7 +25260,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1430,
+"id": 1477,
 "enunciado": "Para un turismo, el límite genérico en carretera convencional coincide con el de:",
 "opciones": [
 "Una motocicleta en la misma vía (90 km/h)",
@@ -24563,7 +25274,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1431,
+"id": 1478,
 "enunciado": "En una zona con la señal de zona residencial (S-28), además de la velocidad, se debe tener en cuenta que:",
 "opciones": [
 "Los peatones tienen prioridad",
@@ -24577,7 +25288,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1432,
+"id": 1479,
 "enunciado": "Circular a una velocidad demasiado baja en una vía rápida puede:",
 "opciones": [
 "Ser tan peligroso como circular demasiado deprisa",
@@ -24591,7 +25302,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1433,
+"id": 1480,
 "enunciado": "Antes de entrar en una curva cerrada, lo correcto es:",
 "opciones": [
 "Frenar dentro de la curva",
@@ -24605,7 +25316,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1434,
+"id": 1481,
 "enunciado": "En una vía urbana, la velocidad genérica de 30 km/h se aplica a las vías que tienen:",
 "opciones": [
 "Un único carril por sentido de circulación",
@@ -24619,7 +25330,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1435,
+"id": 1482,
 "enunciado": "El conductor debe moderar especialmente la velocidad cuando circula:",
 "opciones": [
 "Por autopista con buen tiempo",
@@ -24633,7 +25344,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1436,
+"id": 1483,
 "enunciado": "Respetar el límite de velocidad y la distancia de seguridad contribuye principalmente a:",
 "opciones": [
 "Reducir el riesgo de accidente y sus consecuencias",
@@ -24647,7 +25358,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1437,
+"id": 1484,
 "enunciado": "En autovía, la velocidad máxima genérica de un autobús es de 100 km/h, mientras que la de un turismo es de:",
 "opciones": [
 "100 km/h",
@@ -24661,7 +25372,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1438,
+"id": 1485,
 "enunciado": "Si un turismo circula a 90 km/h por una carretera convencional, su velocidad mínima genérica sería:",
 "opciones": [
 "45 km/h",
@@ -24675,7 +25386,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1439,
+"id": 1486,
 "enunciado": "En autovía (máximo genérico 120 km/h para turismos), la velocidad mínima genérica es de:",
 "opciones": [
 "60 km/h",
@@ -24689,7 +25400,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1440,
+"id": 1487,
 "enunciado": "Si duplicamos la velocidad de un vehículo, la distancia de frenado aproximadamente:",
 "opciones": [
 "Se duplica",
@@ -24703,7 +25414,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1441,
+"id": 1488,
 "enunciado": "Un camión de más de 3.500 kg tiene en carretera convencional un límite genérico de:",
 "opciones": [
 "80 km/h",
@@ -24717,7 +25428,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1442,
+"id": 1489,
 "enunciado": "La velocidad máxima por construcción de un ciclomotor, según su definición legal, es de:",
 "opciones": [
 "45 km/h",
@@ -24731,7 +25442,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1443,
+"id": 1490,
 "enunciado": "Antes de la reforma de 2019, la velocidad máxima en algunas carreteras convencionales era de 100 km/h. Actualmente el máximo genérico es de:",
 "opciones": [
 "100 km/h",
@@ -24745,7 +25456,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1444,
+"id": 1491,
 "enunciado": "En una zona residencial señalizada con la S-28, la velocidad máxima es exactamente:",
 "opciones": [
 "20 km/h",
@@ -24759,7 +25470,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1445,
+"id": 1492,
 "enunciado": "Al triplicar la velocidad, la energía cinética del vehículo se multiplica aproximadamente por:",
 "opciones": [
 "3",
@@ -24773,7 +25484,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1446,
+"id": 1493,
 "enunciado": "Un turismo que arrastra un remolque ligero por carretera convencional ve su velocidad máxima reducida a:",
 "opciones": [
 "80 km/h",
@@ -24787,7 +25498,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1447,
+"id": 1494,
 "enunciado": "En una vía urbana de un único carril por sentido, la velocidad genérica es la mitad que en una autovía dividida entre dos. En concreto es:",
 "opciones": [
 "30 km/h",
@@ -24801,7 +25512,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1448,
+"id": 1495,
 "enunciado": "Un autobús circula por carretera convencional. Su velocidad máxima genérica es de:",
 "opciones": [
 "80 km/h",
@@ -24815,7 +25526,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1449,
+"id": 1496,
 "enunciado": "En autopista, un turismo puede circular a 120 km/h. En esa misma vía, el límite máximo genérico de un camión de más de 3.500 kg es de:",
 "opciones": [
 "90 km/h",
@@ -24829,7 +25540,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1450,
+"id": 1497,
 "enunciado": "En una autovía cuyo límite máximo genérico para turismos es de 120 km/h, ninguna señal indica otra cosa. La velocidad máxima permitida para un turismo es de:",
 "opciones": [
 "120 km/h",
@@ -24843,7 +25554,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1451,
+"id": 1498,
 "enunciado": "Para un turismo sin remolque, y salvo señalización, la velocidad máxima genérica en carretera convencional fuera de poblado es de:",
 "opciones": [
 "80 km/h",
@@ -24857,7 +25568,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1452,
+"id": 1499,
 "enunciado": "En una vía urbana con un único carril por sentido de circulación, la velocidad máxima genérica es de:",
 "opciones": [
 "20 km/h",
@@ -24871,7 +25582,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1453,
+"id": 1500,
 "enunciado": "En una vía urbana de plataforma única, con calzada y acera al mismo nivel, la velocidad máxima es de:",
 "opciones": [
 "20 km/h",
@@ -24885,7 +25596,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1454,
+"id": 1501,
 "enunciado": "Al adelantar en una carretera convencional cuyo límite es de 90 km/h, un turismo puede alcanzar como máximo:",
 "opciones": [
 "110 km/h",
@@ -24899,7 +25610,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1455,
+"id": 1502,
 "enunciado": "Si la velocidad máxima genérica de una vía es de 120 km/h, la velocidad mínima genérica en esa vía es de:",
 "opciones": [
 "50 km/h",
@@ -24913,7 +25624,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1456,
+"id": 1503,
 "enunciado": "La velocidad máxima por construcción de un ciclomotor o cuadriciclo ligero es de:",
 "opciones": [
 "40 km/h",
@@ -24927,7 +25638,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1457,
+"id": 1504,
 "enunciado": "Si un vehículo pasa de 50 a 100 km/h (dobla su velocidad), su distancia de frenado aproximadamente se multiplica por:",
 "opciones": [
 "2",
@@ -24941,7 +25652,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1458,
+"id": 1505,
 "enunciado": "Un turismo que arrastra un remolque circula por autovía. Su velocidad máxima genérica se ve reducida a:",
 "opciones": [
 "90 km/h",
@@ -24955,7 +25666,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1459,
+"id": 1506,
 "enunciado": "En una zona residencial señalizada con la S-28, la velocidad máxima permitida es de:",
 "opciones": [
 "30 km/h",
@@ -24969,7 +25680,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1460,
+"id": 1507,
 "enunciado": "En autovía o autopista, la velocidad máxima genérica de un autobús es de:",
 "opciones": [
 "100 km/h",
@@ -24983,7 +25694,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1461,
+"id": 1508,
 "enunciado": "Un camión de más de 3.500 kg de MMA circula por carretera convencional. Su velocidad máxima genérica es de:",
 "opciones": [
 "90 km/h",
@@ -24997,7 +25708,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1462,
+"id": 1509,
 "enunciado": "En un cruce sin semáforos, un agente de la autoridad te indica con el brazo extendido horizontalmente que te detengas, pero una señal vertical de la vía te da prioridad de paso. ¿Cómo debes actuar?",
 "opciones": [
 "Elegir libremente, porque tienen el mismo rango",
@@ -25011,7 +25722,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1463,
+"id": 1510,
 "enunciado": "Circulas por una calle donde un semáforo está en verde, pero unas balizas y conos naranjas de una obra desvían el tráfico hacia el carril contrario. ¿Qué prevalece?",
 "opciones": [
 "El semáforo en verde, porque la luz siempre manda sobre las obras",
@@ -25025,7 +25736,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1464,
+"id": 1511,
 "enunciado": "Encuentras una señal triangular con borde rojo que muestra una bocacalle incorporándose por la derecha. ¿Qué te está indicando exactamente?",
 "opciones": [
 "Que estás obligado a ceder el paso a los que salen de esa bocacalle",
@@ -25039,7 +25750,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1465,
+"id": 1512,
 "enunciado": "Ante un STOP, la calzada tiene pintada una línea transversal continua. Si por nieve esa línea no es visible, ¿qué debes hacer?",
 "opciones": [
 "Puedo pasar sin detenerme, porque sin la marca vial la obligación desaparece",
@@ -25053,7 +25764,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1466,
+"id": 1513,
 "enunciado": "En el centro de la calzada ves dos líneas longitudinales paralelas: una continua en tu lado y una discontinua en el lado contrario. ¿Qué significa para ti?",
 "opciones": [
 "Puedo rebasarla para adelantar, porque hay una discontinua",
@@ -25067,7 +25778,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1467,
+"id": 1514,
 "enunciado": "Ves una señal circular de fondo azul con la silueta blanca de una bicicleta y otra, también circular pero con borde rojo, con una bicicleta y una barra roja. ¿En qué se diferencian?",
 "opciones": [
 "La azul obliga a circular por la vía ciclista; la de borde rojo prohíbe la entrada a bicicletas",
@@ -25081,7 +25792,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1468,
+"id": 1515,
 "enunciado": "Una marca vial amarilla en zigzag pintada junto al bordillo, ¿qué te comunica?",
 "opciones": [
 "Que es una zona reservada para estacionar solo residentes",
@@ -25095,7 +25806,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1469,
+"id": 1516,
 "enunciado": "Debajo de una señal de peligro por curva ves un panel rectangular con la inscripción '500 m'. ¿Qué te indica ese panel complementario?",
 "opciones": [
 "La longitud del tramo peligroso, que dura 500 m",
@@ -25109,7 +25820,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1470,
+"id": 1517,
 "enunciado": "Llegas a una intersección con un semáforo apagado (sin ninguna luz encendida) y ves una señal de STOP en tu vía. ¿Qué haces?",
 "opciones": [
 "Paso con precaución sin detenerme, porque el semáforo apagado da prioridad",
@@ -25123,7 +25834,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1471,
+"id": 1518,
 "enunciado": "Distingue entre la señal de 'Ceda el paso' y la de 'STOP' en cuanto a la obligación de parar.",
 "opciones": [
 "Ambas obligan siempre a detener totalmente el vehículo",
@@ -25137,7 +25848,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1472,
+"id": 1519,
 "enunciado": "Ves una señal rectangular azul con una flecha blanca y, sobre otra vía distinta, una señal cuadrada blanca con flecha negra. ¿Qué diferencia hay en su naturaleza?",
 "opciones": [
 "La azul es de indicación de sentido/dirección; la blanca suele ser de orientación en itinerarios",
@@ -25151,7 +25862,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1473,
+"id": 1520,
 "enunciado": "Una señal cuadrada azul con una flecha blanca hacia arriba, ¿qué indica y en qué se diferencia de la circular azul con la misma flecha?",
 "opciones": [
 "La cuadrada indica una calle de sentido único; la circular obliga a seguir de frente",
@@ -25165,7 +25876,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1474,
+"id": 1521,
 "enunciado": "En un paso a nivel el semáforo muestra una luz roja intermitente y no hay barreras bajadas. ¿Qué te obliga a hacer?",
 "opciones": [
 "Pasar con precaución porque intermitente significa solo precaución",
@@ -25179,7 +25890,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1475,
+"id": 1522,
 "enunciado": "Hay una contradicción: una señal vertical prohíbe girar a la izquierda, pero en el suelo una flecha pintada (marca vial) indica giro a la izquierda. ¿Qué obedeces?",
 "opciones": [
 "La marca vial del suelo, porque está más cerca del vehículo",
@@ -25193,7 +25904,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1476,
+"id": 1523,
 "enunciado": "Circulas y ves una señal circular con fondo blanco, borde rojo y una cifra '40' en negro; poco después, una señal cuadrada azul con un '40' blanco. ¿Qué diferencia hay?",
 "opciones": [
 "La circular fija una velocidad máxima de 40; la cuadrada azul recomienda o indica una velocidad de 40",
@@ -25207,7 +25918,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1477,
+"id": 1524,
 "enunciado": "Una señal circular de fondo azul con un número blanco '60' rodeado, ¿qué te obliga a hacer?",
 "opciones": [
 "A no superar los 60 km/h como velocidad máxima",
@@ -25221,7 +25932,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1478,
+"id": 1525,
 "enunciado": "Una señal triangular con borde rojo que muestra la silueta de la calzada estrechándose por ambos lados, ¿qué anuncia?",
 "opciones": [
 "Estrechamiento de la calzada por ambos lados",
@@ -25235,7 +25946,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1479,
+"id": 1526,
 "enunciado": "Un semáforo muestra la luz ámbar fija cuando ya estás muy cerca de la línea de detención y no puedes parar con seguridad. ¿Qué debes hacer?",
 "opciones": [
 "Detenerte bruscamente en cualquier caso ante la línea",
@@ -25249,7 +25960,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1480,
+"id": 1527,
 "enunciado": "Un semáforo circular muestra una luz ámbar intermitente en un cruce. ¿Qué te indica?",
 "opciones": [
 "Que debes detenerte por completo antes del cruce",
@@ -25263,7 +25974,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1481,
+"id": 1528,
 "enunciado": "Una línea longitudinal continua pintada en el centro de la calzada. Selecciona la afirmación correcta.",
 "opciones": [
 "No puede ser rebasada ni pisada por los vehículos",
@@ -25277,7 +25988,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1482,
+"id": 1529,
 "enunciado": "Un semáforo en verde para tu sentido de marcha en un cruce, ¿qué te permite exactamente?",
 "opciones": [
 "Pasar siempre, tengas o no la vía despejada",
@@ -25291,7 +26002,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1483,
+"id": 1530,
 "enunciado": "Un panel complementario colocado bajo una señal indica, entre otras cosas:",
 "opciones": [
 "Únicamente la velocidad máxima del tramo",
@@ -25305,7 +26016,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1484,
+"id": 1531,
 "enunciado": "Una señal de STOP (R-2), ¿qué obliga a hacer al conductor?",
 "opciones": [
 "A ceder el paso deteniéndose solo si viene otro vehículo",
@@ -25319,7 +26030,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1485,
+"id": 1532,
 "enunciado": "Encuentras una señal de 'Calzada con prioridad' (rombo amarillo con borde blanco). ¿Qué te indica?",
 "opciones": [
 "Que tienes prioridad de paso en las intersecciones de la vía por la que circulas",
@@ -25333,7 +26044,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1486,
+"id": 1533,
 "enunciado": "Una señal de 'Prioridad respecto al sentido contrario' se coloca en un tramo estrecho. ¿Qué significa?",
 "opciones": [
 "Que tienes prioridad de paso frente a los vehículos que vienen de frente por ese tramo estrecho",
@@ -25347,7 +26058,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1487,
+"id": 1534,
 "enunciado": "Una línea longitudinal discontinua en la calzada, ¿qué permite?",
 "opciones": [
 "Rebasarla con precaución cuando la maniobra sea segura",
@@ -25361,7 +26072,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1488,
+"id": 1535,
 "enunciado": "En el orden de prioridad entre señales, las órdenes de los agentes ocupan el lugar:",
 "opciones": [
 "Segundo, por debajo del balizamiento de obras",
@@ -25375,7 +26086,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1489,
+"id": 1536,
 "enunciado": "Entre un semáforo y una señal vertical que se contradicen, ¿cuál prevalece?",
 "opciones": [
 "El semáforo, porque está por encima de las señales verticales",
@@ -25389,7 +26100,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1490,
+"id": 1537,
 "enunciado": "Una marca vial de una línea de detención transversal continua unida a la señal de STOP indica al conductor:",
 "opciones": [
 "El punto exacto donde debe detener por completo el vehículo",
@@ -25403,7 +26114,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1491,
+"id": 1538,
 "enunciado": "Circula por una vía sin señales ni semáforos y llega a un cruce al mismo tiempo que otro vehículo que aparece por su derecha. ¿Quién pasa primero?",
 "opciones": [
 "El vehículo que viene por la derecha.",
@@ -25417,7 +26128,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1492,
+"id": 1539,
 "enunciado": "¿Qué vehículos tienen preferencia de paso en cualquier caso frente al resto de la circulación?",
 "opciones": [
 "Los que transportan mercancías peligrosas.",
@@ -25431,7 +26142,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1493,
+"id": 1540,
 "enunciado": "¿Qué obligación impone la señal de STOP al conductor que la encuentra?",
 "opciones": [
 "Reducir la velocidad y continuar si no viene nadie.",
@@ -25445,7 +26156,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1494,
+"id": 1541,
 "enunciado": "En una glorieta o rotonda, salvo señal que indique lo contrario, ¿quién tiene la preferencia de paso?",
 "opciones": [
 "Quien va a entrar en la glorieta.",
@@ -25459,7 +26170,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1495,
+"id": 1542,
 "enunciado": "Como norma general, ¿por qué lado se realiza el adelantamiento?",
 "opciones": [
 "Por el arcén.",
@@ -25473,7 +26184,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1496,
+"id": 1543,
 "enunciado": "¿Qué debe hacer antes de incorporarse a la circulación desde un estacionamiento?",
 "opciones": [
 "Ceder el paso a los vehículos que ya circulan.",
@@ -25487,7 +26198,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1497,
+"id": 1544,
 "enunciado": "La maniobra de marcha atrás está permitida:",
 "opciones": [
 "Como maniobra habitual en cualquier vía.",
@@ -25501,7 +26212,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1498,
+"id": 1545,
 "enunciado": "¿Con qué debe señalizar las maniobras como girar o cambiar de carril?",
 "opciones": [
 "Con los intermitentes, con la suficiente antelación.",
@@ -25515,7 +26226,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1499,
+"id": 1546,
 "enunciado": "Ante un vehículo de emergencia en servicio urgente con las señales luminosas y acústicas conectadas, usted debe:",
 "opciones": [
 "Mantener su velocidad sin variar la trayectoria.",
@@ -25529,7 +26240,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1500,
+"id": 1547,
 "enunciado": "¿Cuándo puede adelantarse por la derecha?",
 "opciones": [
 "Nunca, en ninguna circunstancia.",
@@ -25543,7 +26254,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1501,
+"id": 1548,
 "enunciado": "¿Dónde está prohibido cambiar el sentido de la marcha?",
 "opciones": [
 "En una calle ancha de doble sentido.",
@@ -25557,7 +26268,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1502,
+"id": 1549,
 "enunciado": "Al llegar a un paso de peatones señalizado y ver personas cruzando, el conductor debe:",
 "opciones": [
 "Detenerse y cederles el paso.",
@@ -25571,7 +26282,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1503,
+"id": 1550,
 "enunciado": "¿Está permitido parar o estacionar sobre un paso de peatones?",
 "opciones": [
 "Sí, si es solo un momento.",
@@ -25585,7 +26296,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1504,
+"id": 1551,
 "enunciado": "Al terminar un adelantamiento y volver a su carril, usted debe:",
 "opciones": [
 "Cerrarle el paso rápidamente al adelantado.",
@@ -25599,7 +26310,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1505,
+"id": 1552,
 "enunciado": "¿Está permitido estacionar delante de un vado debidamente señalizado?",
 "opciones": [
 "Sí, durante el día.",
@@ -25613,7 +26324,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1506,
+"id": 1553,
 "enunciado": "Al realizar marcha atrás, el conductor:",
 "opciones": [
 "Tiene siempre preferencia sobre los peatones.",
@@ -25627,7 +26338,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1507,
+"id": 1554,
 "enunciado": "En un paso a nivel con las barreras bajando, el conductor debe:",
 "opciones": [
 "Cruzar rápido antes de que cierren del todo.",
@@ -25641,7 +26352,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1508,
+"id": 1555,
 "enunciado": "El cambio de sentido de la marcha solo puede efectuarse:",
 "opciones": [
 "Donde esté permitido y sin crear peligro ni obstáculo a la circulación.",
@@ -25655,7 +26366,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1509,
+"id": 1556,
 "enunciado": "Un vehículo que va a girar a la izquierda en una intersección, antes de hacerlo, debe:",
 "opciones": [
 "Acelerar para completar el giro rápido.",
@@ -25669,7 +26380,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1510,
+"id": 1557,
 "enunciado": "Al girar para entrar en otra vía y coincidir con peatones que cruzan por el paso de la calle a la que accede, usted debe:",
 "opciones": [
 "Cederles el paso.",
@@ -25683,7 +26394,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1511,
+"id": 1558,
 "enunciado": "El adelantamiento por la derecha en ciudad está permitido:",
 "opciones": [
 "En calzadas con varios carriles en el mismo sentido señalizados con marcas.",
@@ -25697,7 +26408,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1512,
+"id": 1559,
 "enunciado": "Ante una señal de 'ceda el paso' con la vía libre, el conductor:",
 "opciones": [
 "Debe detenerse siempre por completo.",
@@ -25711,7 +26422,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1513,
+"id": 1560,
 "enunciado": "Antes de abrir la puerta al bajar del vehículo estacionado, el conductor debe:",
 "opciones": [
 "Abrir sin más, la vía es suya.",
@@ -25725,7 +26436,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1514,
+"id": 1561,
 "enunciado": "Un tranvía que se aproxima a un cruce respecto al resto de vehículos:",
 "opciones": [
 "Debe ceder el paso siempre.",
@@ -25739,7 +26450,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1515,
+"id": 1562,
 "enunciado": "¿Está permitido adelantar en una curva de visibilidad reducida?",
 "opciones": [
 "Sí, con precaución.",
@@ -25753,7 +26464,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1516,
+"id": 1563,
 "enunciado": "En un semáforo en verde para usted, pero con la salida bloqueada por una retención al otro lado del cruce:",
 "opciones": [
 "No debe entrar en el cruce hasta poder salir de él.",
@@ -25767,7 +26478,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1517,
+"id": 1564,
 "enunciado": "¿Está permitida la marcha atrás en autopista?",
 "opciones": [
 "Sí, un tramo muy corto.",
@@ -25781,7 +26492,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1518,
+"id": 1565,
 "enunciado": "En un carril-bici, parar o estacionar el turismo está:",
 "opciones": [
 "Prohibido.",
@@ -25795,7 +26506,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1519,
+"id": 1566,
 "enunciado": "Un vehículo prioritario en servicio urgente, ¿puede rebasar un semáforo en rojo?",
 "opciones": [
 "No, nunca puede saltarse un semáforo.",
@@ -25809,7 +26520,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1520,
+"id": 1567,
 "enunciado": "Cuando una ambulancia con prioridad se aproxima por detrás mientras usted circula, debe:",
 "opciones": [
 "Frenar en seco en su carril.",
@@ -25823,7 +26534,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1521,
+"id": 1568,
 "enunciado": "Antes de cambiar de carril, el conductor debe:",
 "opciones": [
 "Comprobar que no molesta a otros, señalizar y ceder el paso a quien circula por ese carril.",
@@ -25837,7 +26548,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1522,
+"id": 1569,
 "enunciado": "Ante un STOP, si detiene el vehículo pero no cede el paso a quien tiene preferencia, comete:",
 "opciones": [
 "Nada, con detenerse es suficiente.",
@@ -25851,7 +26562,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1523,
+"id": 1570,
 "enunciado": "En una glorieta, para salir de ella el conductor debe:",
 "opciones": [
 "Salir bruscamente desde el carril interior sin avisar.",
@@ -25865,7 +26576,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1524,
+"id": 1571,
 "enunciado": "El estacionamiento debe realizarse de forma que el vehículo:",
 "opciones": [
 "No obstaculice la circulación ni constituya un peligro para los demás.",
@@ -25879,7 +26590,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1525,
+"id": 1572,
 "enunciado": "En un cruce regulado por un agente de tráfico, ¿qué prevalece?",
 "opciones": [
 "Las indicaciones del agente sobre las señales y semáforos.",
@@ -25893,7 +26604,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1526,
+"id": 1573,
 "enunciado": "Para dejar o recoger pasajeros en la vía, la parada debe hacerse:",
 "opciones": [
 "En doble fila si es rápido.",
@@ -25907,7 +26618,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1527,
+"id": 1574,
 "enunciado": "Adelantar utilizando el arcén está:",
 "opciones": [
 "Prohibido, salvo excepciones muy concretas.",
@@ -25921,7 +26632,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1528,
+"id": 1575,
 "enunciado": "Al aproximarse a un paso de peatones sin semáforo, con carácter general el conductor debe:",
 "opciones": [
 "Mantener la velocidad si tiene prisa.",
@@ -25935,7 +26646,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1529,
+"id": 1576,
 "enunciado": "La incorporación desde una vía secundaria a una principal implica:",
 "opciones": [
 "Tener preferencia por acceder desde una vía nueva.",
@@ -25949,7 +26660,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1530,
+"id": 1577,
 "enunciado": "Va a adelantar a un ciclista en una carretera convencional estrecha con línea continua. ¿Qué es lo correcto?",
 "opciones": [
 "Esperar a poder dejar la separación de seguridad, aunque implique invadir en parte el otro sentido si es seguro y no hay tráfico de frente.",
@@ -25963,7 +26674,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1531,
+"id": 1578,
 "enunciado": "En una intersección con STOP, después de detenerse ve que se aproxima un vehículo por la vía preferente aún algo lejos. ¿Qué hace?",
 "opciones": [
 "Salgo de inmediato porque ya me he detenido.",
@@ -25977,7 +26688,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1532,
+"id": 1579,
 "enunciado": "Un vehículo prioritario en servicio urgente circula por detrás y usted está detenido en un semáforo en rojo, con espacio a la derecha. Debe:",
 "opciones": [
 "Facilitarle el paso apartándose, aunque tenga el semáforo en rojo, cuando pueda hacerlo con seguridad.",
@@ -25991,7 +26702,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1533,
+"id": 1580,
 "enunciado": "Desea cambiar de sentido en una vía urbana de doble sentido con línea discontinua y sin prohibición. ¿Es correcto?",
 "opciones": [
 "No, el cambio de sentido está siempre prohibido en ciudad.",
@@ -26005,7 +26716,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1534,
+"id": 1581,
 "enunciado": "Al incorporarse a una autovía, el carril de aceleración termina y no ha encontrado hueco. Lo correcto es:",
 "opciones": [
 "Ajustar la velocidad y buscar un hueco sin detenerse, cediendo el paso a los que circulan.",
@@ -26019,7 +26730,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1535,
+"id": 1582,
 "enunciado": "Estaciona en una calle con pendiente pronunciada. Además del freno de estacionamiento, conviene:",
 "opciones": [
 "Dejar el vehículo en punto muerto sin más.",
@@ -26033,7 +26744,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1536,
+"id": 1583,
 "enunciado": "Circula por una vía con tranvía y llega a un cruce a la vez que él, sin semáforos. ¿Quién pasa?",
 "opciones": [
 "El tranvía, que tiene preferencia por circular sobre raíles.",
@@ -26047,7 +26758,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1537,
+"id": 1584,
 "enunciado": "En una vía de tres carriles en el mismo sentido en ciudad, un vehículo de su carril central circula más lento. ¿Puede rebasarlo por el carril de la derecha?",
 "opciones": [
 "No, siempre hay que adelantar por la izquierda.",
@@ -26061,7 +26772,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1538,
+"id": 1585,
 "enunciado": "Tiene una avería y detiene el vehículo en el arcén de una vía interurbana. Antes de bajarse, lo prioritario es:",
 "opciones": [
 "Señalizar la presencia del vehículo y ponerse el chaleco reflectante antes de salir a la calzada.",
@@ -26075,7 +26786,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1539,
+"id": 1586,
 "enunciado": "Se aproxima a un cruce sin señalizar por el que también llega un vehículo por su izquierda. ¿Debe usted cederle el paso?",
 "opciones": [
 "No; usted tiene preferencia por venir por la derecha respecto a él.",
@@ -26089,7 +26800,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1540,
+"id": 1587,
 "enunciado": "Al terminar un adelantamiento en carretera, ¿cuándo debe volver a su carril?",
 "opciones": [
 "Cuando pueda ver al vehículo adelantado en el retrovisor y regresar sin obligarle a frenar.",
@@ -26103,7 +26814,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1541,
+"id": 1588,
 "enunciado": "En una intersección va a girar a la izquierda y de frente viene un vehículo que sigue recto. ¿Quién tiene preferencia?",
 "opciones": [
 "Usted, porque va a girar y lo ha señalizado.",
@@ -26117,7 +26828,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1542,
+"id": 1589,
 "enunciado": "Circula por una glorieta y otro vehículo espera para entrar en su misma salida. ¿Quién tiene preferencia?",
 "opciones": [
 "Usted, que ya circula por la glorieta.",
@@ -26131,7 +26842,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1543,
+"id": 1590,
 "enunciado": "Sin señalización, ¿qué prioridad hay entre un vehículo que gira y un peatón que cruza por la prolongación de la acera de la vía a la que se accede?",
 "opciones": [
 "El peatón tiene prioridad; el conductor que gira debe cederle el paso.",
@@ -26145,7 +26856,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1544,
+"id": 1591,
 "enunciado": "Está prohibido adelantar en las intersecciones y en sus proximidades, salvo cuando:",
 "opciones": [
 "La intersección esté regulada por semáforos o la vía sea de sentido único.",
@@ -26159,7 +26870,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1545,
+"id": 1592,
 "enunciado": "El adelantamiento a un vehículo se realiza por la izquierda, salvo que el vehículo precedente:",
 "opciones": [
 "Circule por el centro de la calzada.",
@@ -26173,7 +26884,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1546,
+"id": 1593,
 "enunciado": "La señal de STOP obliga a detención total, mientras que la de 'ceda el paso' obliga a:",
 "opciones": [
 "Ceder el paso, deteniéndose solo si es necesario para no estorbar a los preferentes.",
@@ -26187,7 +26898,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1547,
+"id": 1594,
 "enunciado": "En una glorieta, tiene preferencia quien circula por ella respecto a quien va a entrar, salvo que:",
 "opciones": [
 "El que entra circule más deprisa.",
@@ -26201,7 +26912,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1548,
+"id": 1595,
 "enunciado": "La marcha atrás está permitida como maniobra auxiliar, y debe realizarse:",
 "opciones": [
 "Durante un recorrido de hasta cincuenta metros en cualquier vía.",
@@ -26215,7 +26926,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1549,
+"id": 1596,
 "enunciado": "El cambio de sentido de la marcha está prohibido, entre otros lugares, en:",
 "opciones": [
 "Cambios de rasante, curvas, pasos a nivel, túneles y autopistas o autovías.",
@@ -26229,7 +26940,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1550,
+"id": 1597,
 "enunciado": "El adelantamiento está prohibido en los pasos a nivel y, además:",
 "opciones": [
 "En sus alrededores hasta trescientos metros después.",
@@ -26243,7 +26954,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1551,
+"id": 1598,
 "enunciado": "Los vehículos prioritarios en servicio urgente tienen preferencia cuando circulan:",
 "opciones": [
 "Con las señales luminosas y acústicas especiales en funcionamiento.",
@@ -26257,7 +26968,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1552,
+"id": 1599,
 "enunciado": "Antes de adelantar, además de disponer de espacio y visibilidad, el conductor debe cerciorarse de que:",
 "opciones": [
 "Ningún conductor que le sigue haya iniciado el adelantamiento sobre él.",
@@ -26271,7 +26982,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1553,
+"id": 1600,
 "enunciado": "Además de en los pasos de peatones, está prohibido parar y estacionar:",
 "opciones": [
 "En cualquier vía urbana con línea blanca discontinua.",
@@ -26285,7 +26996,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1554,
+"id": 1601,
 "enunciado": "En una incorporación a la circulación, el conductor debe ceder el paso, salvo que:",
 "opciones": [
 "Un agente o señal le concedan expresamente la preferencia.",
@@ -26299,7 +27010,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1555,
+"id": 1602,
 "enunciado": "¿En qué plazas del vehículo es obligatorio abrocharse el cinturón de seguridad?",
 "opciones": [
 "Solo en las plazas delanteras.",
@@ -26313,7 +27024,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1556,
+"id": 1603,
 "enunciado": "Con carácter general, ¿en qué asientos deben viajar los niños de estatura igual o inferior a 135 cm?",
 "opciones": [
 "En los asientos traseros, con un sistema de retención infantil adecuado.",
@@ -26327,7 +27038,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1557,
+"id": 1604,
 "enunciado": "¿Quién está obligado a llevar casco homologado al circular en motocicleta?",
 "opciones": [
 "Únicamente el conductor.",
@@ -26341,7 +27052,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1558,
+"id": 1605,
 "enunciado": "Respecto al cinturón de seguridad, el airbag frontal es un sistema que:",
 "opciones": [
 "Sustituye al cinturón y permite no usarlo.",
@@ -26355,7 +27066,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1559,
+"id": 1606,
 "enunciado": "¿Qué luz debe utilizarse de noche al circular por una vía urbana suficientemente iluminada?",
 "opciones": [
 "La luz de carretera (larga).",
@@ -26369,7 +27080,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1560,
+"id": 1607,
 "enunciado": "¿Cuándo puede usarse la luz de carretera (larga)?",
 "opciones": [
 "Fuera de poblado y en vías sin iluminación, sin deslumbrar a otros usuarios.",
@@ -26383,7 +27094,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1561,
+"id": 1608,
 "enunciado": "¿Cuál es la profundidad mínima legal del dibujo de la banda de rodadura de los neumáticos?",
 "opciones": [
 "0,8 milímetros.",
@@ -26397,7 +27108,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1562,
+"id": 1609,
 "enunciado": "¿En qué estado deben estar los neumáticos para comprobar correctamente su presión?",
 "opciones": [
 "En caliente, después de un largo recorrido.",
@@ -26411,7 +27122,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1563,
+"id": 1610,
 "enunciado": "¿Para qué sirve el sistema ABS?",
 "opciones": [
 "Para evitar el bloqueo de las ruedas durante una frenada.",
@@ -26425,7 +27136,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1564,
+"id": 1611,
 "enunciado": "¿Qué controla principalmente el sistema ESP de un vehículo?",
 "opciones": [
 "La temperatura del aceite del motor.",
@@ -26439,7 +27150,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1565,
+"id": 1612,
 "enunciado": "Ante una avería o accidente en la carretera, ¿qué prenda debe ponerse el conductor antes de salir del vehículo a la calzada?",
 "opciones": [
 "Un abrigo oscuro para no llamar la atención.",
@@ -26453,7 +27164,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1566,
+"id": 1613,
 "enunciado": "¿Qué significan las siglas del protocolo P.A.S. en caso de accidente?",
 "opciones": [
 "Proteger, Avisar y Socorrer.",
@@ -26467,7 +27178,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1567,
+"id": 1614,
 "enunciado": "¿A qué número de teléfono se debe llamar para avisar de un accidente de tráfico?",
 "opciones": [
 "Al taller mecánico más cercano.",
@@ -26481,7 +27192,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1568,
+"id": 1615,
 "enunciado": "En un accidente, ¿qué se debe hacer con un herido tumbado en la calzada?",
 "opciones": [
 "Trasladarlo siempre de inmediato a un lugar cerrado.",
@@ -26495,7 +27206,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1569,
+"id": 1616,
 "enunciado": "¿Cada cuánto tiempo, de forma aproximada, conviene hacer una parada de descanso en un viaje largo?",
 "opciones": [
 "Aproximadamente cada dos horas.",
@@ -26509,7 +27220,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1570,
+"id": 1617,
 "enunciado": "¿Qué es un microsueño al volante?",
 "opciones": [
 "Un método de descanso recomendado para conductores.",
@@ -26523,7 +27234,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1571,
+"id": 1618,
 "enunciado": "¿Cómo debe ir colocada la carga en un vehículo?",
 "opciones": [
 "Suelta, para poder redistribuirla durante la marcha.",
@@ -26537,7 +27248,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1572,
+"id": 1619,
 "enunciado": "¿Con qué señal se indica una carga que sobresale por la parte trasera del vehículo?",
 "opciones": [
 "Con la señal V-20 (panel a rayas rojas y blancas).",
@@ -26551,7 +27262,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1573,
+"id": 1620,
 "enunciado": "Para una conducción eficiente que ahorre combustible, conviene:",
 "opciones": [
 "Acelerar y frenar con frecuencia para mantener el ritmo.",
@@ -26565,7 +27276,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1574,
+"id": 1621,
 "enunciado": "¿Cuándo debe encenderse la luz antiniebla trasera?",
 "opciones": [
 "Siempre que se circule de noche por autopista.",
@@ -26579,7 +27290,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1575,
+"id": 1622,
 "enunciado": "¿Qué efecto tiene sobre la seguridad circular con los neumáticos poco hinchados?",
 "opciones": [
 "Mejora el agarre y reduce el consumo.",
@@ -26593,7 +27304,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1576,
+"id": 1623,
 "enunciado": "Al aumentar la velocidad de circulación, la distancia de frenado:",
 "opciones": [
 "Aumenta de forma proporcional al cuadrado de la velocidad.",
@@ -26607,7 +27318,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1577,
+"id": 1624,
 "enunciado": "¿Puede colocarse una silla infantil orientada hacia atrás (a contramarcha) en un asiento con airbag frontal activado?",
 "opciones": [
 "Sí, siempre que el niño lleve además el cinturón.",
@@ -26621,7 +27332,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1578,
+"id": 1625,
 "enunciado": "¿Para qué sirven las luces de posición del vehículo?",
 "opciones": [
 "Para iluminar la calzada a gran distancia.",
@@ -26635,7 +27346,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1579,
+"id": 1626,
 "enunciado": "¿Qué dispositivo, junto con el chaleco, sirve para señalizar una avería o accidente y es obligatorio desde 2026?",
 "opciones": [
 "La baliza luminosa V-16.",
@@ -26649,7 +27360,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1580,
+"id": 1627,
 "enunciado": "El líquido de frenos es importante porque:",
 "opciones": [
 "Sirve para lubricar el motor.",
@@ -26663,7 +27374,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1581,
+"id": 1628,
 "enunciado": "¿Qué indica normalmente un testigo de color rojo encendido en el cuadro de instrumentos?",
 "opciones": [
 "Una avería o situación que requiere detenerse y comprobar.",
@@ -26677,7 +27388,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1582,
+"id": 1629,
 "enunciado": "¿Qué debe hacerse si durante la marcha se enciende el testigo rojo de presión de aceite?",
 "opciones": [
 "Seguir circulando hasta llegar a casa.",
@@ -26691,7 +27402,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1583,
+"id": 1630,
 "enunciado": "¿Qué luz debe utilizarse al entrar en un túnel iluminado?",
 "opciones": [
 "Únicamente la luz de posición.",
@@ -26705,7 +27416,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1584,
+"id": 1631,
 "enunciado": "El uso del cinturón de seguridad reduce las lesiones porque:",
 "opciones": [
 "Retiene el cuerpo evitando que salga despedido o golpee el interior.",
@@ -26719,7 +27430,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1585,
+"id": 1632,
 "enunciado": "¿Cuál de estos elementos forma parte de una revisión básica antes de un viaje largo?",
 "opciones": [
 "Cambiar siempre el motor completo.",
@@ -26733,7 +27444,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1586,
+"id": 1633,
 "enunciado": "La sobrecarga de un vehículo (superar su MMA):",
 "opciones": [
 "Mejora el agarre y acorta la distancia de frenado.",
@@ -26747,7 +27458,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1587,
+"id": 1634,
 "enunciado": "¿Por qué es importante mantener limpio el parabrisas y en buen estado las escobillas?",
 "opciones": [
 "Porque reducen el consumo de combustible.",
@@ -26761,7 +27472,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1588,
+"id": 1635,
 "enunciado": "¿Qué ventaja aporta el ABS al frenar sobre un pavimento deslizante?",
 "opciones": [
 "Elimina por completo la distancia de frenado.",
@@ -26775,7 +27486,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1589,
+"id": 1636,
 "enunciado": "¿Dónde debe colocarse la baliza luminosa V-16 para señalizar el vehículo?",
 "opciones": [
 "En el punto más alto del vehículo, como el techo.",
@@ -26789,7 +27500,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1590,
+"id": 1637,
 "enunciado": "Una ventaja de la baliza V-16 frente a los triángulos de emergencia es que:",
 "opciones": [
 "Se coloca sin salir a la calzada, reduciendo el riesgo de atropello.",
@@ -26803,7 +27514,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1591,
+"id": 1638,
 "enunciado": "El aire acondicionado y otros consumos eléctricos del vehículo:",
 "opciones": [
 "No influyen en el consumo del motor.",
@@ -26817,7 +27528,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1592,
+"id": 1639,
 "enunciado": "¿Qué se debe comprobar en los neumáticos además de la presión?",
 "opciones": [
 "La profundidad del dibujo y la ausencia de cortes o deformaciones.",
@@ -26831,7 +27542,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1593,
+"id": 1640,
 "enunciado": "Circular con niebla densa por la carretera exige, entre otras precauciones:",
 "opciones": [
 "Encender la luz de carretera para ver mejor.",
@@ -26845,7 +27556,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1594,
+"id": 1641,
 "enunciado": "¿Qué conviene hacer para conducir con seguridad y anticiparse a los peligros?",
 "opciones": [
 "Fijar la vista únicamente en el capó del vehículo.",
@@ -26859,7 +27570,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1595,
+"id": 1642,
 "enunciado": "Frente a un charco o zona con agua en la calzada, el conductor debe temer un fenómeno llamado:",
 "opciones": [
 "Sobrealimentación del motor.",
@@ -26873,7 +27584,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1596,
+"id": 1643,
 "enunciado": "¿Qué elemento del vehículo transmite el giro del volante a las ruedas?",
 "opciones": [
 "El sistema de escape.",
@@ -26887,7 +27598,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 1
 },
 {
-"id": 1597,
+"id": 1644,
 "enunciado": "Si el sistema ABS se activa en una frenada de emergencia, el conductor notará:",
 "opciones": [
 "Una vibración o pulsaciones en el pedal, que debe mantener pisado.",
@@ -26901,7 +27612,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1598,
+"id": 1645,
 "enunciado": "Un conductor duplica su velocidad de 40 a 80 km/h. ¿Cómo varía aproximadamente la distancia de frenado?",
 "opciones": [
 "Se mantiene prácticamente igual.",
@@ -26915,7 +27626,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1599,
+"id": 1646,
 "enunciado": "Si un niño mide 130 cm, ¿qué requisito debe cumplir para viajar en el coche?",
 "opciones": [
 "Puede usar solo el cinturón del adulto en cualquier asiento.",
@@ -26929,7 +27640,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1600,
+"id": 1647,
 "enunciado": "En un vehículo con airbag frontal en el copiloto que no se puede desactivar, ¿cómo debe viajar un bebé en silla a contramarcha?",
 "opciones": [
 "En una plaza trasera, nunca delante con el airbag activado.",
@@ -26943,7 +27654,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1601,
+"id": 1648,
 "enunciado": "Ante el reventón de un neumático delantero a velocidad de crucero, lo correcto es:",
 "opciones": [
 "Frenar a fondo de inmediato y girar el volante con fuerza.",
@@ -26957,7 +27668,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1602,
+"id": 1649,
 "enunciado": "¿Qué diferencia hay entre el ABS y el ESP?",
 "opciones": [
 "El ABS evita el bloqueo de las ruedas al frenar; el ESP corrige la pérdida de estabilidad.",
@@ -26971,7 +27682,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1603,
+"id": 1650,
 "enunciado": "Circular con una carga sin distribuir correctamente afecta a la conducción porque:",
 "opciones": [
 "Mejora la adherencia de todos los neumáticos.",
@@ -26985,7 +27696,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1604,
+"id": 1651,
 "enunciado": "Si durante la marcha el indicador de temperatura del refrigerante entra en la zona roja, se debe:",
 "opciones": [
 "Detenerse en un lugar seguro y dejar enfriar el motor antes de comprobar niveles.",
@@ -26999,7 +27710,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1605,
+"id": 1652,
 "enunciado": "¿Por qué una silla infantil correctamente instalada es más segura que sujetar al niño con el cinturón del adulto?",
 "opciones": [
 "Porque el cinturón del adulto no se ajusta al cuerpo del niño y puede lesionarlo.",
@@ -27013,7 +27724,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1606,
+"id": 1653,
 "enunciado": "En una frenada de emergencia con un vehículo sin ABS, para no perder el control conviene:",
 "opciones": [
 "Bloquear las ruedas para detenerse antes.",
@@ -27027,7 +27738,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1607,
+"id": 1654,
 "enunciado": "Un conductor nota que el volante vibra a cierta velocidad. ¿Qué revisión es la más adecuada?",
 "opciones": [
 "El equilibrado y estado de los neumáticos y la dirección.",
@@ -27041,7 +27752,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1608,
+"id": 1655,
 "enunciado": "Al circular fuera de poblado por una vía sin iluminación con la luz de carretera y aparecer un vehículo de frente, se debe:",
 "opciones": [
 "Cambiar a la luz de cruce con antelación suficiente para no deslumbrar.",
@@ -27055,7 +27766,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1609,
+"id": 1656,
 "enunciado": "¿Cuál de estas conductas contribuye a alargar la vida de los frenos y ahorrar combustible?",
 "opciones": [
 "Circular con el pie apoyado permanentemente sobre el freno.",
@@ -27069,7 +27780,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 2
 },
 {
-"id": 1610,
+"id": 1657,
 "enunciado": "La profundidad mínima legal del dibujo de los neumáticos de un turismo es de:",
 "opciones": [
 "1,6 milímetros.",
@@ -27083,7 +27794,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1611,
+"id": 1658,
 "enunciado": "Los sistemas de retención infantil son obligatorios, con carácter general, para los menores cuya estatura sea igual o inferior a:",
 "opciones": [
 "125 centímetros.",
@@ -27097,7 +27808,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1612,
+"id": 1659,
 "enunciado": "La baliza luminosa de señalización de emergencia se denomina:",
 "opciones": [
 "V-16.",
@@ -27111,7 +27822,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1613,
+"id": 1660,
 "enunciado": "El dispositivo que se coloca para señalizar una carga que sobresale por la parte trasera del vehículo es:",
 "opciones": [
 "La señal V-16.",
@@ -27125,7 +27836,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1614,
+"id": 1661,
 "enunciado": "Un conductor pasa de circular a 50 km/h a hacerlo a 100 km/h. La distancia de frenado, aproximadamente:",
 "opciones": [
 "Se multiplica por dos.",
@@ -27139,7 +27850,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1615,
+"id": 1662,
 "enunciado": "En viajes largos, la recomendación general de descanso es realizar una parada cada, aproximadamente:",
 "opciones": [
 "Dos horas de conducción.",
@@ -27153,7 +27864,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1616,
+"id": 1663,
 "enunciado": "La distancia de frenado de un vehículo aumenta en proporción:",
 "opciones": [
 "Al doble de la velocidad.",
@@ -27167,7 +27878,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1617,
+"id": 1664,
 "enunciado": "El sistema electrónico que evita el bloqueo de las ruedas durante la frenada es el:",
 "opciones": [
 "ABS.",
@@ -27181,7 +27892,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1618,
+"id": 1665,
 "enunciado": "El sistema electrónico que corrige la pérdida de estabilidad y ayuda a evitar derrapes es el:",
 "opciones": [
 "TPMS.",
@@ -27195,7 +27906,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1619,
+"id": 1666,
 "enunciado": "La presión de los neumáticos debe comprobarse siempre con las ruedas:",
 "opciones": [
 "En frío.",
@@ -27209,7 +27920,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1620,
+"id": 1667,
 "enunciado": "La luz que debe utilizarse de noche al circular por una vía interurbana correctamente iluminada es la luz de:",
 "opciones": [
 "Carretera.",
@@ -27223,7 +27934,7 @@ window.DGT_QUESTIONS = [
 "dificultad": 3
 },
 {
-"id": 1621,
+"id": 1668,
 "enunciado": "La baliza luminosa V-16 pasa a ser obligatoria, en sustitución de los triángulos, a partir del año:",
 "opciones": [
 "2024.",

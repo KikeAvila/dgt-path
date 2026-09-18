@@ -352,3 +352,60 @@ main { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
 .study-note .study-ok { color: var(--green-dark); font-weight: 700; }
 
 .hidden { display: none !important; }
+
+/* ---------------- Botón de tema (claro/oscuro) ---------------- */
+.theme-toggle {
+  cursor: pointer; font-size: 18px; line-height: 1; border: 2px solid var(--gray);
+  background: transparent; border-radius: 999px; padding: 4px 10px;
+}
+.theme-toggle:hover { filter: brightness(1.1); }
+
+/* =============================================================================
+   MODO OSCURO — se activa con <html data-theme="dark">
+   Los acentos (verde/azul/rojo/amarillo) se mantienen; cambian fondos y textos.
+   ============================================================================= */
+html[data-theme="dark"] {
+  --text: #e7e9ec;
+  --gray: #363c46;
+  --gray-dark: #9aa2b1;
+  --bg: #14171c;
+  --locked: #2a2f38;
+}
+html[data-theme="dark"] body { background: #14171c; color: var(--text); }
+html[data-theme="dark"] .topbar,
+html[data-theme="dark"] .tabs { background: #1b1f26; border-color: #2a2f38; }
+html[data-theme="dark"] .tab:hover { background: #262c36; }
+html[data-theme="dark"] .tab.active { color: var(--green); background: #223016; }
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .modal-box,
+html[data-theme="dark"] .menu-card,
+html[data-theme="dark"] .teoria-ficha,
+html[data-theme="dark"] .senal-card,
+html[data-theme="dark"] .opcion,
+html[data-theme="dark"] .nivel-btn {
+  background: #1e232b; border-color: #313845; color: var(--text);
+}
+html[data-theme="dark"] .menu-card:hover,
+html[data-theme="dark"] .opcion:hover { background: #262c36; }
+html[data-theme="dark"] .gstat { background: #1b1f26; border-color: #313845; }
+html[data-theme="dark"] .rev-item { border-color: #313845; }
+html[data-theme="dark"] .fallo-item { border-color: #313845; }
+html[data-theme="dark"] .menu-card .mc-ic { background: #223016; }
+html[data-theme="dark"] .tema-chip { background: #223016; }
+html[data-theme="dark"] .stat.user { background: #16233a; }
+html[data-theme="dark"] .theme-toggle { border-color: #3a414d; }
+/* Señales e imágenes del quiz: fondo blanco para que se lean bien sobre oscuro */
+html[data-theme="dark"] .quiz-imagen { background: #fff; }
+html[data-theme="dark"] .senal-card img { background: #fff; border-radius: 8px; }
+/* Textos secundarios con contraste suficiente */
+html[data-theme="dark"] .rev-item .rev-exp,
+html[data-theme="dark"] .senal-card .sig { color: #b7bfcc; }
+html[data-theme="dark"] .study-note { background: #16283a; border-color: var(--blue-dark); }
+html[data-theme="dark"] .rb-nota { background: #2a2410; border-color: #5a4a12; color: #ffdf9e; }
+/* Estados de respuesta: versiones oscuras legibles */
+html[data-theme="dark"] .opcion.selected { background: #12314a; color: #bfe4ff; }
+html[data-theme="dark"] .opcion.correct { background: #1c3a12; color: #cdffb0; }
+html[data-theme="dark"] .opcion.wrong { background: #3d1518; color: #ffc7ca; }
+html[data-theme="dark"] .feedback.ok .feedback-inner { background: #1c3a12; }
+html[data-theme="dark"] .feedback.err .feedback-inner { background: #3d1518; }
+html[data-theme="dark"] .feedback .btn { background: #1e232b; color: var(--text); }

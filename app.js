@@ -217,6 +217,26 @@ const Audio = {
   levelup() { [523, 659, 784, 1046].forEach((f, i) => this.tone(f, i * 0.09, 0.2, "triangle")); },
 };
 
+// -------- Tema claro/oscuro --------
+function currentTheme() {
+  return document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+}
+function setThemeIcon() {
+  const tt = document.getElementById("theme-toggle");
+  if (!tt) return;
+  const dark = currentTheme() === "dark";
+  tt.textContent = dark ? "☀️" : "🌙";
+  tt.title = dark ? "Cambiar a tema claro" : "Cambiar a tema oscuro";
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute("content", dark ? "#14171c" : "#58cc02");
+}
+function toggleTheme() {
+  const next = currentTheme() === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  try { localStorage.setItem("dgtpath_theme", next); } catch (_) {}
+  setThemeIcon();
+}
+
 // -------- Render estado --------
 function renderState() {
   document.getElementById("stat-racha").textContent = S.racha;
@@ -270,6 +290,8 @@ function renderInicio() {
   const modos = [
     { ic: "🧠", t: "Práctica (Camino)", fn: () => switchView("path") },
     { ic: "🛡️", t: "Examen de práctica", fn: () => startExam() },
+    { ic: "🔥", t: "Test difícil", sub: "las más falladas", fn: () => startExamenSimulacro(QUESTIONS.filter((q) => q.dificultad === 4), "🔥 Test difícil") },
+    { ic: "⚖️", t: "Reglamento 2026", sub: "1 oct 2026", fn: () => startExamenSimulacro(QUESTIONS.filter((q) => q.reforma_tipo), "⚖️ Reglamento 1-oct-2026") },
     { ic: "🏛️", t: "Exámenes oficiales DGT", fn: () => switchView("oficiales") },
     { ic: "📖", t: "Leer teoría", fn: () => switchView("teoria") },
     { ic: "🚦", t: "Practicar señales", fn: () => { teoriaSel = "senales"; switchView("teoria"); renderTeoriaSelector(); renderTeoriaContent(); } },
@@ -301,6 +323,36 @@ function renderOficiales() {
     { ic: "🔥", t: "Solo difíciles", sub: `${dificiles.length} preg · las que más se fallan`, fn: () => startExamenSimulacro(dificiles, "Simulacro difícil") },
   ];
   cont.appendChild(_menuSeccion("🎯 Simulacros de práctica (preguntas reales DGT)", sim));
+
+  // --- 🔥 Test difícil: TODAS las preguntas marcadas como difíciles (dificultad 4) ---
+  const todasDificiles = QUESTIONS.filter((q) => q.dificultad === 4);
+  if (todasDificiles.length) {
+    const avisoD = document.createElement("div"); avisoD.className = "card";
+    avisoD.style.borderLeft = "4px solid #c0392b";
+    avisoD.innerHTML = `<h3 style="margin:0 0 4px">🔥 Test difícil</h3>` +
+      `<p class="muted">Las <b>${todasDificiles.length}</b> preguntas más enrevesadas: matices de velocidad, tasas de alcohol, masas, prioridad, maniobras, ITV... ` +
+      `Mezcla preguntas reales marcadas como difíciles y preguntas "trampa" de repaso (IA). Pensadas para las que más se suspenden.</p>`;
+    cont.appendChild(avisoD);
+    const difItems = [
+      { ic: "🔥", t: "Test difícil (30)", sub: "las que más se fallan", fn: () => startExamenSimulacro(todasDificiles, "🔥 Test difícil") },
+    ];
+    cont.appendChild(_menuSeccion("🔥 Test difícil", difItems));
+  }
+
+  // --- ⚖️ Reglamento nuevo (1 de octubre de 2026): sección aparte ---
+  const reforma = QUESTIONS.filter((q) => q.reforma_tipo);
+  if (reforma.length) {
+    const avisoR = document.createElement("div"); avisoR.className = "card";
+    avisoR.style.borderLeft = "4px solid #2c7be5";
+    avisoR.innerHTML = `<h3 style="margin:0 0 4px">⚖️ Reglamento nuevo · 1 de octubre de 2026</h3>` +
+      `<p class="muted">Las <b>${reforma.length}</b> preguntas sobre los cambios del Reglamento General de Circulación (baliza V-16, adelantamiento a ciclistas, VMP, motos, pasillo de emergencia, cinturón...). ` +
+      `Repásalas juntas para no fallar las novedades que entran en vigor el 1 de octubre de 2026.</p>`;
+    cont.appendChild(avisoR);
+    const refItems = [
+      { ic: "⚖️", t: "Reglamento 2026", sub: `${reforma.length} preg · novedades`, fn: () => startExamenSimulacro(reforma, "⚖️ Reglamento 1-oct-2026") },
+    ];
+    cont.appendChild(_menuSeccion("⚖️ Reglamento nuevo (1 oct 2026)", refItems));
+  }
 
   // --- Exámenes reales de la DGT, por año y trimestre ---
   const totalDif = EXAMENES.reduce((s, e) => s + (e.n_dificiles || 0), 0);
@@ -1353,6 +1405,9 @@ function init() {
   loadState(); regenVidas(); saveState(); renderState(); renderNivelSelector(); renderTree(); renderInicio();
   if (S.perfil && S.perfil.nombre && /^\d{4}$/.test(S.perfil.pin || "")) cloudLogin(S.perfil.nombre, S.perfil.pin);
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => switchView(t.dataset.view)));
+  // Tema claro/oscuro
+  const tt = document.getElementById("theme-toggle");
+  if (tt) { setThemeIcon(); tt.addEventListener("click", toggleTheme); }
   document.getElementById("quiz-check").addEventListener("click", checkAnswer);
   document.getElementById("quiz-close").addEventListener("click", () => { if (quiz) clearTimeout(quiz.advTimer); document.getElementById("feedback").classList.add("hidden"); closeModal("quiz-modal"); });
   document.getElementById("feedback-continue").addEventListener("click", advanceQuiz);
