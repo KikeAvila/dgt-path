@@ -566,8 +566,19 @@ function startReview() {
 
 // -------- Práctica de señales (generada del catálogo) --------
 const SENALES_SESION = 20; // preguntas por sesión (aleatorias)
-function _preguntaSignifica(s, familia) {
-  const distract = sample(familia, 2).map((o) => o.nombre);
+function _preguntaSignifica(s, familia, todos) {
+  // Distractores con nombre DISTINTO al de la señal y entre sí (evita 3 opciones iguales,
+  // porque muchas señales del catálogo comparten un nombre truncado idéntico).
+  const seen = new Set([s.nombre]);
+  const distract = [];
+  const tomar = (lista) => {
+    for (const o of sample(lista, lista.length)) {
+      if (distract.length >= 2) break;
+      if (o.nombre && !seen.has(o.nombre)) { seen.add(o.nombre); distract.push(o.nombre); }
+    }
+  };
+  tomar(familia);
+  if (distract.length < 2) tomar((todos || familia).filter((o) => o.codigo !== s.codigo));
   const opts = sample([s.nombre, ...distract], 3);
   return {
     id: "sig_" + s.codigo, tema_id: 5, imagenCat: s.img, imagen: null,
@@ -590,11 +601,19 @@ function generarSenales(modo) {
   const con = CATALOGO.filter((s) => s.img && s.nombre);
   const porCat = {}; con.forEach((s) => (porCat[s.categoria] = porCat[s.categoria] || []).push(s));
   const cats = Object.keys(porCat);
+  // Cuántas veces se repite cada nombre: solo preguntamos "¿qué significa?" con nombres
+  // ÚNICOS, para que la respuesta correcta sea inequívoca (muchas señales del catálogo
+  // comparten el mismo nombre truncado y darían una pregunta imposible).
+  const nombreN = {}; con.forEach((s) => (nombreN[s.nombre] = (nombreN[s.nombre] || 0) + 1));
+  const unicas = con.filter((s) => nombreN[s.nombre] === 1);
   const preg = [];
   con.forEach((s) => {
-    let fam = (porCat[s.categoria] || []).filter((o) => o.codigo !== s.codigo);
-    if (fam.length < 2) fam = con.filter((o) => o.codigo !== s.codigo);
-    preg.push(_preguntaSignifica(s, fam));
+    if (nombreN[s.nombre] === 1) {
+      let fam = (porCat[s.categoria] || []).filter((o) => o.codigo !== s.codigo && nombreN[o.nombre] === 1);
+      if (fam.length < 2) fam = unicas.filter((o) => o.codigo !== s.codigo);
+      preg.push(_preguntaSignifica(s, fam, unicas));
+    }
+    // La pregunta de "grupo" (modo B) sí vale para todas: el grupo siempre es inequívoco.
     if (modo === "B" && cats.length >= 3) preg.push(_preguntaGrupo(s, cats));
   });
   return sample(preg, SENALES_SESION); // baraja y coge una sesión manejable
