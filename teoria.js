@@ -369,3 +369,374 @@ window.DGT_TEORIA = {
 ]
 }
 };
+window.DGT_TEORIA_EN = {
+"1": {
+"titulo": "Definitions",
+"secciones": [
+{
+"h": "Parts of the road",
+"puntos": [
+"Carriageway: the part of the road for vehicle traffic; it is divided into lanes.",
+"Hard shoulder: the side strip next to the carriageway, not for cars except in exceptional cases.",
+"Pavement (sidewalk): a raised side area reserved for pedestrians.",
+"Central reservation (median): separates the two carriageways of opposite directions (motorways/dual carriageways).",
+"Traffic island: a painted or raised area that organises traffic or protects pedestrians."
+]
+},
+{
+"h": "Types of road",
+"puntos": [
+"Motorway (autopista) and dual carriageway (autovía): two separated carriageways with no level crossings. A motorway does NOT give access to adjoining properties.",
+"Conventional road: any road that is neither a motorway nor a dual carriageway.",
+"Through-road (travesía): a stretch of road that crosses a built-up area.",
+"Urban road: one inside a built-up area; interurban: one that runs outside it."
+]
+},
+{
+"h": "Types of vehicle",
+"puntos": [
+"Car: carries people, up to 9 seats including the driver.",
+"Bus: carries people, more than 9 seats including the driver.",
+"Lorry (truck): goods, GVW > 3,500 kg. Van: goods, GVW ≤ 3,500 kg.",
+"Moped: 2/3 wheels, up to 50 cc and 45 km/h. Motorcycle: exceeds those limits.",
+"Light quadricycle: up to 4 kW and 425 kg. PMD (e-scooter): 6–25 km/h."
+]
+},
+{
+"h": "Masses",
+"puntos": [
+"Kerb weight (tara): mass of the empty vehicle. GVW (maximum authorised mass): the maximum mass allowed to drive with.",
+"Mass in running order: kerb weight + driver (75 kg).",
+"Payload: what can be loaded = GVW − kerb weight."
+]
+},
+{
+"h": "Trailers and axles",
+"puntos": [
+"Trailer: a towed vehicle that rests on ITS OWN axles (it may have one or several).",
+"Semi-trailer: part of its weight rests on the towing vehicle.",
+"LIGHT trailer: GVW ≤ 750 kg.",
+"A trailer may have 1, 2 or 3 axles; some signs distinguish single-axle ones (e.g. sign R-112 does not affect single-axle trailers).",
+"Category B licence: trailer ≤ 750 kg, or a larger trailer if the combination does not exceed 3,500 kg (with code B96, up to 4,250 kg; for more, B+E licence)."
+]
+},
+{
+"h": "Stopping, standing and parking",
+"puntos": [
+"Halt (detención): a stop forced by traffic (traffic light, jam, officer).",
+"Standing (parada): a voluntary stop of less than 2 minutes without the driver moving away.",
+"Parking: a longer voluntary immobilisation."
+]
+}
+]
+},
+"2": {
+"titulo": "Documents & roadworthiness test",
+"secciones": [
+{
+"h": "Documents",
+"puntos": [
+"DRIVING licence: certifies the person's fitness to drive.",
+"Vehicle REGISTRATION document: authorises the vehicle to drive and shows its owner.",
+"Technical data sheet (roadworthiness card): the vehicle's technical characteristics.",
+"Compulsory insurance: covers damage to third parties (not the at-fault driver's own)."
+]
+},
+{
+"h": "Roadworthiness test / ITV (private car)",
+"puntos": [
+"First inspection: at 4 years.",
+"From 4 to 10 years: every 2 years.",
+"From 10 years on: every year.",
+"Motorcycles: first at 4 years and then every 2 years.",
+"Unfavourable result (serious): may only drive to go and repair it. Negative (very serious): cannot drive, goes by tow truck."
+]
+},
+{
+"h": "Points-based licence",
+"puntos": [
+"Novice driver: starts with 8 points; after 3 years with no penalties, 12. Maximum: 15.",
+"Hand-held phone: −6 points. Not using seatbelt/helmet/child restraint: −4 points.",
+"A course recovers up to 6 points. Losing them all: course + exam to regain the licence."
+]
+},
+{
+"h": "Category B licence & renewal",
+"puntos": [
+"Minimum age: 18. Renewal: every 10 years (under 65) and every 5 (65 or over).",
+"Category B: cars up to 3,500 kg and 9 seats; trailer up to 750 kg (or combination ≤ 3,500 kg)."
+]
+},
+{
+"h": "Environment",
+"puntos": [
+"Emission labels: 0 (blue), ECO, C (green) and B (yellow). The oldest vehicles have no label.",
+"Low Emission Zone (LEZ): each town council limits access according to the label."
+]
+}
+]
+},
+"3": {
+"titulo": "Alcohol, drugs & medication",
+"secciones": [
+{
+"h": "Alcohol limits",
+"puntos": [
+"General: maximum 0.25 mg/l in exhaled air (0.5 g/l in blood).",
+"Novices (first 2 years) and professional drivers: 0.15 mg/l (0.3 g/l).",
+"Exceeding them is an offence; very high levels or refusing the test can be a crime."
+]
+},
+{
+"h": "Effects of alcohol",
+"puntos": [
+"It increases reaction time and gives a false sense of security.",
+"It reduces the field of vision and the ability to pay attention.",
+"Only time removes alcohol: there are no tricks to lower the level."
+]
+},
+{
+"h": "Drugs & medication",
+"puntos": [
+"Drugs: zero tolerance, merely detecting their presence is enough.",
+"Some medicines affect driving: read the leaflet and ask your doctor.",
+"Never mix alcohol with medication or drugs."
+]
+},
+{
+"h": "Sleep & fatigue",
+"puntos": [
+"Fatigue and drowsiness reduce reflexes like alcohol does.",
+"Rest roughly every 2 hours and ventilate the vehicle.",
+"At the first signs of sleepiness, stop in a safe place."
+]
+}
+]
+},
+"4": {
+"titulo": "Speed limits",
+"secciones": [
+{
+"h": "Limits outside built-up areas (car)",
+"puntos": [
+"Motorway and dual carriageway: 120 km/h.",
+"Conventional road: 90 km/h.",
+"Always obey the signs, which may lower the limit."
+]
+},
+{
+"h": "Limits in the city",
+"puntos": [
+"20 km/h on single-platform roads (carriageway and pavement at the same level).",
+"30 km/h on roads with a single lane per direction.",
+"50 km/h on roads with two or more lanes per direction."
+]
+},
+{
+"h": "Other vehicles (outside built-up areas)",
+"puntos": [
+"Motorcycles: same as a car (120 on motorway/dual carriageway, 90 on conventional roads).",
+"Bus: 100 on motorway/dual carriageway, 80 on conventional roads.",
+"Lorry (GVW > 3,500 kg): 90 on motorway/dual carriageway, 80 on conventional roads.",
+"Moped: 45 km/h maximum on any road."
+]
+},
+{
+"h": "With a trailer",
+"puntos": [
+"Car with a LIGHT trailer (≤ 750 kg): 90 on motorway/dual carriageway, 80 on conventional roads.",
+"Car with a trailer of MORE than 750 kg: 80 on motorway/dual carriageway and 80 on conventional roads.",
+"Even if the sign shows more, you cannot exceed the limit for your type of vehicle."
+]
+},
+{
+"h": "Minimum speed & overtaking",
+"puntos": [
+"The generic MINIMUM speed is half the road's maximum (e.g. 60 on a 120 motorway).",
+"Since 2022 you may NOT exceed the road's limit even to overtake (the old +20 km/h margin was removed)."
+]
+},
+{
+"h": "Distance & appropriate speed",
+"puntos": [
+"Keep a safe distance so you can stop in time.",
+"Adjust your speed to the road, traffic, rain or fog.",
+"Driving very slowly for no reason is also dangerous and punishable."
+]
+}
+]
+},
+"5": {
+"titulo": "Road signs",
+"secciones": [
+{
+"h": "Types of sign",
+"puntos": [
+"Danger warning: triangular, red border (they warn of a risk).",
+"Prohibition and obligation: circular. Prohibition has a red border; obligation has a blue background.",
+"Information: blue squares/rectangles (they inform)."
+]
+},
+{
+"h": "Order of priority between signs",
+"puntos": [
+"1st Traffic officers.",
+"2nd Temporary and roadworks signs.",
+"3rd Traffic lights.",
+"4th Vertical signs.",
+"5th Road markings."
+]
+},
+{
+"h": "Traffic lights & road markings",
+"puntos": [
+"Red: stop before the line. Steady amber: stop if you can do so safely.",
+"Solid line: you may not step on or cross it. Broken line: you may cross it with care.",
+"Yellow markings prohibit or restrict standing and parking."
+]
+},
+{
+"h": "Signs affecting trailers and loads",
+"puntos": [
+"R-112: no entry for vehicles with a trailer, EXCEPT single-axle ones.",
+"R-201 / R-202: limit on total mass and on mass per axle.",
+"V-20: a red-and-white striped panel (50×50 cm) marking a load that projects at the rear.",
+"On a car a load may only project at the rear (10% of the length, or 15% if indivisible)."
+]
+},
+{
+"h": "Useful sign details",
+"puntos": [
+"Outside built-up areas, danger signs are placed 150–250 m before the risk.",
+"END-of-prohibition signs: circular, white/grey with a diagonal band.",
+"ROADWORKS signs (yellow background) prevail over the same signs on a white background.",
+"The official catalogue (RD 465/2025) has 15 categories and 447 signs; you can see them all in «🚦 All signs»."
+]
+}
+]
+},
+"6": {
+"titulo": "Priority & manoeuvres",
+"secciones": [
+{
+"h": "Right of way",
+"puntos": [
+"With no signs, whoever comes from the right has priority.",
+"Obey the STOP (full halt) and the Give Way.",
+"On a roundabout, whoever is already on it has priority unless a sign says otherwise."
+]
+},
+{
+"h": "Overtaking",
+"puntos": [
+"Make sure there is visibility and room; signal with the indicator.",
+"Do it on the left, quickly and safely.",
+"Forbidden on brows of hills, blind bends and wherever a sign indicates."
+]
+},
+{
+"h": "Joining, turns & U-turns",
+"puntos": [
+"When joining, give way to those already driving.",
+"Always signal turns in advance.",
+"Make a U-turn only where allowed and without obstructing."
+]
+},
+{
+"h": "Parking",
+"puntos": [
+"Do not park on pedestrian crossings, junctions, cycle lanes or where a sign prohibits it.",
+"Leave the vehicle well secured (handbrake and in gear)."
+]
+}
+]
+},
+"7": {
+"titulo": "Safety & mechanics",
+"secciones": [
+{
+"h": "Safety equipment",
+"puntos": [
+"Seatbelt: compulsory in all seats, front and rear.",
+"Children: a child restraint system suited to their height/weight.",
+"Approved helmet compulsory on motorcycles and mopeds."
+]
+},
+{
+"h": "Lights",
+"puntos": [
+"Dipped (low) beam: at night in the city and in tunnels.",
+"Main (high) beam: outside built-up areas with no lighting; do not dazzle.",
+"Use side lights and fog lights according to visibility."
+]
+},
+{
+"h": "Tyres & brakes",
+"puntos": [
+"Minimum tyre tread depth: 1.6 mm.",
+"Check the pressure when cold; wrong pressure lengthens braking and causes wear.",
+"If the brakes feel odd or the steering is stiff, get it checked as soon as possible."
+]
+},
+{
+"h": "In case of breakdown or accident",
+"puntos": [
+"Put on the reflective vest and signal with the V-16 beacon switched on (compulsory since 2026).",
+"P.A.S. protocol: Protect, Alert (112) and Assist.",
+"Do not move an injured person unless there is clear danger."
+]
+}
+]
+},
+"8": {
+"titulo": "What's new in 2026 (regulation changes)",
+"secciones": [
+{
+"h": "🆕 V-16 beacon (in force since 1 January 2026)",
+"puntos": [
+"BEFORE: you marked the breakdown/accident with two triangles, getting out of the car to place them.",
+"NOW: the connected V-16 beacon is the ONLY compulsory device; it is placed on the roof without getting onto the carriageway.",
+"It must be connected to the DGT 3.0 platform to send your location in real time.",
+"Triangles are still tolerated alongside the V-16, but the compulsory device is the V-16."
+]
+},
+{
+"h": "🔄 Bus-HOV lanes (Resolution of January 2026)",
+"puntos": [
+"NOW: reserved for vehicles with at least 2 occupants, motorcycles and public transport.",
+"A car with a single occupant may NOT use them, even with a 0 or ECO label."
+]
+},
+{
+"h": "🔄 Overtaking cyclists (from 1 October 2026)",
+"puntos": [
+"STAYS: 1.5 m of lateral separation when overtaking.",
+"NEW: you must also reduce speed by at least 20 km/h from the road's limit."
+]
+},
+{
+"h": "🆕 Cyclists and e-scooters (from 1 October 2026)",
+"puntos": [
+"NEW: helmet compulsory for cyclists on interurban roads.",
+"NEW: e-scooters (PMDs) require a minimum age of 15 and a reflective vest.",
+"NEW: compulsory civil liability insurance for certain PMDs."
+]
+},
+{
+"h": "✏️ Seatbelt and motorcycles (from 1 October 2026)",
+"puntos": [
+"MODIFIED: taxi drivers, delivery riders and driving instructors are no longer exempt from the seatbelt.",
+"NEW: motorcyclists must wear closed footwear and gloves; motorcycles may use the hard shoulder with restrictions."
+]
+},
+{
+"h": "🆕 Other traffic rules (from 1 October 2026)",
+"puntos": [
+"NEW: overtaking forbidden when there is snow or ice on the carriageway.",
+"NEW: in traffic jams you must leave a central emergency corridor by moving to one side.",
+"POSTPONED to 2027: approved motorcyclist helmets and permanent lights on e-scooters."
+]
+}
+]
+}
+};

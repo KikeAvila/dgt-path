@@ -26,14 +26,25 @@ const CFG = {
   UNIT_EXAM_SIZE: 30,
   AUTO_ADVANCE_MS: 1100, // pausa tras acertar antes de pasar a la siguiente
 };
-const TEMAS = {
+const TEMAS_ES = {
   1: "Definiciones", 2: "Documentación e ITV", 3: "Alcohol, drogas y fármacos",
   4: "Velocidades", 5: "Señales", 6: "Prioridad y maniobras", 7: "Seguridad y mecánica",
 };
-const NIVELES = {
+const NIVELES_ES = {
   1: "Nivel 1 · Aprender", 2: "Nivel 2 · Difícil", 3: "Nivel 3 · Experto",
   4: "Nivel 4 · Difíciles (DGT real)", 5: "Nivel 5 · Examen real DGT",
 };
+// TEMAS/NIVELES apuntan al idioma activo; applyLangData() los reasigna al cambiar de idioma.
+let TEMAS = TEMAS_ES;
+let NIVELES = NIVELES_ES;
+function applyLangData() {
+  const en = (typeof LANG === "function" && LANG() === "en");
+  TEMAS = en && window.TEMAS_EN ? window.TEMAS_EN : TEMAS_ES;
+  NIVELES = en && window.NIVELES_EN ? window.NIVELES_EN : NIVELES_ES;
+  TEORIA = en && Object.keys(TEORIA_EN).length ? TEORIA_EN : TEORIA_ES;
+}
+// Título de una sesión (ya se guarda en el idioma activo al crearla).
+function tituloL(q) { return (q && q.titulo) || ""; }
 
 const QUESTIONS = window.DGT_QUESTIONS || [];
 QUESTIONS.forEach((q) => { if (!q.dificultad) q.dificultad = 1; });
@@ -43,11 +54,18 @@ QUESTIONS.forEach((q) => (BY_ID[q.id] = q));
 // Exámenes oficiales de la DGT (examenes.js): lista por fecha, más reciente primero.
 const EXAMENES = window.DGT_EXAMENES || [];
 
-// Teoría (fichas de lectura) desde teoria.js.
-const TEORIA = window.DGT_TEORIA || {};
+// Teoría (fichas de lectura) desde teoria.js. Apunta al idioma activo (ver applyLangData).
+const TEORIA_ES = window.DGT_TEORIA || {};
+const TEORIA_EN = window.DGT_TEORIA_EN || {};
+let TEORIA = TEORIA_ES;
 let teoriaSel = 1;
 // Catálogo completo de señales (catalogo.js).
 const CATALOGO = (window.DGT_CATALOGO && window.DGT_CATALOGO.senales) || [];
+// Mapa nombre(ES) -> nombre(EN) para las opciones de la práctica de señales.
+const _NOMBRE_EN = {};
+CATALOGO.forEach((s) => { if (s.nombre && s.nombre_en && !_NOMBRE_EN[s.nombre]) _NOMBRE_EN[s.nombre] = s.nombre_en; });
+function nombreEn(n) { return _NOMBRE_EN[n] || n; }
+function catEn(c) { return (window.CAT_EN && window.CAT_EN[c]) || c; }
 
 // -------- Estado persistente --------
 const KEY = "dgtpath_state_v2";
@@ -237,6 +255,28 @@ function toggleTheme() {
   setThemeIcon();
 }
 
+// -------- Idioma (ES / EN) --------
+function setLangIcon() {
+  const lt = document.getElementById("lang-toggle");
+  if (!lt) return;
+  // Muestra el idioma al que se cambiará al pulsar.
+  lt.textContent = LANG() === "en" ? "🇪🇸 ES" : "🇬🇧 EN";
+  lt.title = t("top.lang");
+}
+function activeView() {
+  const el = document.querySelector(".view.active");
+  return el ? el.id.replace("view-", "") : "inicio";
+}
+function toggleLang() {
+  setLang(LANG() === "en" ? "es" : "en");
+  applyLangData();
+  applyStaticI18n();
+  setLangIcon();
+  // Repinta todo lo dinámico en el nuevo idioma.
+  renderState(); renderNivelSelector(); renderTree(); renderPerfil();
+  switchView(activeView());
+}
+
 // -------- Render estado --------
 function renderState() {
   document.getElementById("stat-racha").textContent = S.racha;
@@ -282,35 +322,38 @@ function _menuSeccion(titulo, items) {
 function renderInicio() {
   const cont = document.getElementById("inicio-content"); if (!cont) return; cont.innerHTML = "";
   const head = document.createElement("div"); head.className = "card";
-  head.innerHTML = `<h2>¡Hola${S.perfil && S.perfil.nombre ? ", " + S.perfil.nombre : ""}! 👋</h2>
-    <p class="muted">Nivel ${nivel()} · ⚡ ${S.xp} XP · 🔥 ${S.racha} · ${"❤️".repeat(S.vidas)}${"🤍".repeat(Math.max(0, CFG.MAX_VIDAS - S.vidas))}</p>
-    <p class="muted" style="margin-top:6px">Dificultad:</p>
+  const hearts = "❤️".repeat(S.vidas) + "🤍".repeat(Math.max(0, CFG.MAX_VIDAS - S.vidas));
+  head.innerHTML = `<h2>${t("d.hi", { name: S.perfil && S.perfil.nombre ? ", " + S.perfil.nombre : "" })}</h2>
+    <p class="muted">${t("d.levelLine", { lvl: nivel(), xp: S.xp, racha: S.racha, hearts })}</p>
+    <p class="muted" style="margin-top:6px">${t("d.difficulty")}</p>
     <div class="nivel-selector" id="inicio-nivel" style="margin-top:4px"></div>`;
   cont.appendChild(head);
+  const tHard = LANG() === "en" ? "🔥 Hard test" : "🔥 Test difícil";
+  const tReform = LANG() === "en" ? "⚖️ 2026 regulations (1 Oct)" : "⚖️ Reglamento 1-oct-2026";
   const modos = [
-    { ic: "🧠", t: "Práctica (Camino)", fn: () => switchView("path") },
-    { ic: "🛡️", t: "Examen de práctica", fn: () => startExam() },
-    { ic: "🔥", t: "Test difícil", sub: "las más falladas", fn: () => startExamenSimulacro(QUESTIONS.filter((q) => q.dificultad === 4), "🔥 Test difícil") },
-    { ic: "⚖️", t: "Reglamento 2026", sub: "1 oct 2026", fn: () => startExamenSimulacro(QUESTIONS.filter((q) => q.reforma_tipo), "⚖️ Reglamento 1-oct-2026") },
-    { ic: "🏛️", t: "Exámenes oficiales DGT", fn: () => switchView("oficiales") },
-    { ic: "📖", t: "Leer teoría", fn: () => switchView("teoria") },
-    { ic: "🚦", t: "Practicar señales", fn: () => { teoriaSel = "senales"; switchView("teoria"); renderTeoriaSelector(); renderTeoriaContent(); } },
+    { ic: "🧠", t: t("m.practice"), fn: () => switchView("path") },
+    { ic: "🛡️", t: t("m.examPractice"), fn: () => startExam() },
+    { ic: "🔥", t: t("m.hard"), sub: t("m.hardSub"), fn: () => startExamenSimulacro(QUESTIONS.filter((q) => q.dificultad === 4), tHard) },
+    { ic: "⚖️", t: t("m.reform"), sub: t("m.reformSub"), fn: () => startExamenSimulacro(QUESTIONS.filter((q) => q.reforma_tipo), tReform) },
+    { ic: "🏛️", t: t("m.official"), fn: () => switchView("oficiales") },
+    { ic: "📖", t: t("m.readTheory"), fn: () => switchView("teoria") },
+    { ic: "🚦", t: t("m.practiceSigns"), fn: () => { teoriaSel = "senales"; switchView("teoria"); renderTeoriaSelector(); renderTeoriaContent(); } },
   ];
   const revisar = [
-    { ic: "❌", t: "Mis errores", fn: () => startReview() },
-    { ic: "🙈", t: "Menos vistas", fn: () => startMenosVistas() },
+    { ic: "❌", t: t("m.myErrors"), fn: () => startReview() },
+    { ic: "🙈", t: t("m.leastSeen"), fn: () => startMenosVistas() },
   ];
-  cont.appendChild(_menuSeccion("Modos de examen", modos));
-  cont.appendChild(_menuSeccion("Revisar", revisar));
-  const cats = [1, 2, 3, 4, 5, 6, 7].map((t) => ({ ic: CAT_ICON[t], t: TEMAS[t], sub: NIVELES[S.nivelDif].split(" · ")[1], fn: () => startCategoria(t) }));
-  cont.appendChild(_menuSeccion("Categorías", cats));
+  cont.appendChild(_menuSeccion(t("d.secModes"), modos));
+  cont.appendChild(_menuSeccion(t("d.secReview"), revisar));
+  const cats = [1, 2, 3, 4, 5, 6, 7].map((tm) => ({ ic: CAT_ICON[tm], t: TEMAS[tm], sub: NIVELES[S.nivelDif].split(" · ")[1], fn: () => startCategoria(tm) }));
+  cont.appendChild(_menuSeccion(t("d.secCats"), cats));
   pintarNiveles("inicio-nivel", () => renderInicio());
 }
 
 function renderOficiales() {
   const cont = document.getElementById("oficiales-content"); if (!cont) return; cont.innerHTML = "";
   if (!EXAMENES.length) {
-    cont.innerHTML = '<div class="card"><p class="muted">No hay exámenes disponibles.</p></div>';
+    cont.innerHTML = `<div class="card"><p class="muted">${t("of.none")}</p></div>`;
     return;
   }
   // Preguntas REALES de la DGT (para los simulacros de práctica).
@@ -319,24 +362,23 @@ function renderOficiales() {
 
   // --- Simulacros de práctica (se montan con preguntas REALES de la DGT) ---
   const sim = [
-    { ic: "🎲", t: "Simulacro aleatorio", sub: "30 preguntas reales", fn: () => startExamenSimulacro(reales, "Simulacro aleatorio") },
-    { ic: "🔥", t: "Solo difíciles", sub: `${dificiles.length} preg · las que más se fallan`, fn: () => startExamenSimulacro(dificiles, "Simulacro difícil") },
+    { ic: "🎲", t: t("of.simRandom"), sub: t("of.simRandomSub"), fn: () => startExamenSimulacro(reales, t("of.simRandom")) },
+    { ic: "🔥", t: t("of.simHard"), sub: t("of.simHardSub", { n: dificiles.length }), fn: () => startExamenSimulacro(dificiles, t("e.simHard")) },
   ];
-  cont.appendChild(_menuSeccion("🎯 Simulacros de práctica (preguntas reales DGT)", sim));
+  cont.appendChild(_menuSeccion(t("of.simTitle"), sim));
 
   // --- 🔥 Test difícil: TODAS las preguntas marcadas como difíciles (dificultad 4) ---
   const todasDificiles = QUESTIONS.filter((q) => q.dificultad === 4);
   if (todasDificiles.length) {
     const avisoD = document.createElement("div"); avisoD.className = "card";
     avisoD.style.borderLeft = "4px solid #c0392b";
-    avisoD.innerHTML = `<h3 style="margin:0 0 4px">🔥 Test difícil</h3>` +
-      `<p class="muted">Las <b>${todasDificiles.length}</b> preguntas más enrevesadas: matices de velocidad, tasas de alcohol, masas, prioridad, maniobras, ITV... ` +
-      `Mezcla preguntas reales marcadas como difíciles y preguntas "trampa" de repaso (IA). Pensadas para las que más se suspenden.</p>`;
+    avisoD.innerHTML = `<h3 style="margin:0 0 4px">${t("of.hardH")}</h3>` +
+      `<p class="muted">${t("of.hardP", { n: todasDificiles.length })}</p>`;
     cont.appendChild(avisoD);
     const difItems = [
-      { ic: "🔥", t: "Test difícil (30)", sub: "las que más se fallan", fn: () => startExamenSimulacro(todasDificiles, "🔥 Test difícil") },
+      { ic: "🔥", t: t("of.hardBtn"), sub: t("of.hardBtnSub"), fn: () => startExamenSimulacro(todasDificiles, t("of.hardH")) },
     ];
-    cont.appendChild(_menuSeccion("🔥 Test difícil", difItems));
+    cont.appendChild(_menuSeccion(t("of.hardH"), difItems));
   }
 
   // --- ⚖️ Reglamento nuevo (1 de octubre de 2026): sección aparte ---
@@ -344,21 +386,19 @@ function renderOficiales() {
   if (reforma.length) {
     const avisoR = document.createElement("div"); avisoR.className = "card";
     avisoR.style.borderLeft = "4px solid #2c7be5";
-    avisoR.innerHTML = `<h3 style="margin:0 0 4px">⚖️ Reglamento nuevo · 1 de octubre de 2026</h3>` +
-      `<p class="muted">Las <b>${reforma.length}</b> preguntas sobre los cambios del Reglamento General de Circulación (baliza V-16, adelantamiento a ciclistas, VMP, motos, pasillo de emergencia, cinturón...). ` +
-      `Repásalas juntas para no fallar las novedades que entran en vigor el 1 de octubre de 2026.</p>`;
+    avisoR.innerHTML = `<h3 style="margin:0 0 4px">${t("of.reformH")}</h3>` +
+      `<p class="muted">${t("of.reformP", { n: reforma.length })}</p>`;
     cont.appendChild(avisoR);
     const refItems = [
-      { ic: "⚖️", t: "Reglamento 2026", sub: `${reforma.length} preg · novedades`, fn: () => startExamenSimulacro(reforma, "⚖️ Reglamento 1-oct-2026") },
+      { ic: "⚖️", t: t("of.reformBtn"), sub: t("of.reformBtnSub", { n: reforma.length }), fn: () => startExamenSimulacro(reforma, t("of.reformH")) },
     ];
-    cont.appendChild(_menuSeccion("⚖️ Reglamento nuevo (1 oct 2026)", refItems));
+    cont.appendChild(_menuSeccion(t("of.reformSec"), refItems));
   }
 
   // --- Exámenes reales de la DGT, por año y trimestre ---
   const totalDif = EXAMENES.reduce((s, e) => s + (e.n_dificiles || 0), 0);
   const info = document.createElement("div"); info.className = "card";
-  info.innerHTML = `<p class="muted">📊 <b>${EXAMENES.length}</b> exámenes oficiales reales (${EXAMENES[EXAMENES.length - 1].anio}–${EXAMENES[0].anio}), ` +
-    `<b>${reales.length}</b> preguntas. 🔥 = preguntas de los temas donde más se suspende (velocidad, alcohol, prioridad).</p>`;
+  info.innerHTML = `<p class="muted">${t("of.info", { n: EXAMENES.length, a1: EXAMENES[EXAMENES.length - 1].anio, a2: EXAMENES[0].anio, q: reales.length })}</p>`;
   cont.appendChild(info);
 
   const porAnio = {};
@@ -369,7 +409,7 @@ function renderOficiales() {
     const items = lista.map((ex) => {
       const r = S.examOficial && S.examOficial[ex.num];
       const tri = ex.trimestre && ex.trimestre !== "?" ? ex.trimestre + " · " : "";
-      let sub = `${tri}${ex.ids.length} preg${ex.n_dificiles ? " · 🔥" + ex.n_dificiles : ""}`;
+      let sub = `${tri}${ex.ids.length} ${LANG() === "en" ? "q" : "preg"}${ex.n_dificiles ? " · 🔥" + ex.n_dificiles : ""}`;
       if (r) sub = `${r.apto ? "✅" : "❌"} ${r.mejor}/${r.total || ex.ids.length} · ${sub}`;
       return { ic: "🏛️", t: ex.fecha || ("Test " + ex.num), sub, fn: () => startExamenOficial(ex) };
     });
@@ -381,20 +421,19 @@ function renderOficiales() {
   if (ia.length) {
     const aviso = document.createElement("div"); aviso.className = "card";
     aviso.style.borderLeft = "4px solid #b26a00";
-    aviso.innerHTML = `<h3 style="margin:0 0 4px">🤖 Simulacros IA <span class="muted">(no oficiales)</span></h3>` +
-      `<p class="muted">Estas <b>${ia.length}</b> preguntas de tipo "trampa" las <b>redactó la IA</b> (Claude) a partir del reglamento público. ` +
-      `<b>NO son oficiales de la DGT</b> — úsalas solo como repaso extra. Están separadas del resto a propósito.</p>`;
+    aviso.innerHTML = `<h3 style="margin:0 0 4px">${t("of.iaH")}</h3>` +
+      `<p class="muted">${t("of.iaP", { n: ia.length })}</p>`;
     cont.appendChild(aviso);
     const iaItems = [
-      { ic: "🤖", t: "Simulacro IA (aleatorio)", sub: "30 preguntas · no oficial", fn: () => startExamenSimulacro(ia, "🤖 Simulacro IA (no oficial)") },
+      { ic: "🤖", t: t("of.iaBtn"), sub: t("of.iaBtnSub"), fn: () => startExamenSimulacro(ia, t("of.iaSec")) },
     ];
-    cont.appendChild(_menuSeccion("🤖 Preguntas de IA (no oficial)", iaItems));
+    cont.appendChild(_menuSeccion(t("of.iaSec"), iaItems));
   }
 }
 
 function startExamenSimulacro(pool, titulo) {
   Audio.ensure();
-  if (!pool || !pool.length) { toast("No hay preguntas para el simulacro."); return; }
+  if (!pool || !pool.length) { toast(t("t.noSim")); return; }
   const sel = sample(pool, Math.min(30, pool.length));
   lanzarExamen(sel, {
     kind: "simulacro", niv: null, tema: null,
@@ -405,10 +444,10 @@ function startExamenSimulacro(pool, titulo) {
 function startExamenOficial(ex) {
   Audio.ensure();
   const preguntas = ex.ids.map((id) => BY_ID[id]).filter(Boolean);
-  if (!preguntas.length) { toast("Este examen no tiene preguntas disponibles."); return; }
+  if (!preguntas.length) { toast(t("t.noExam")); return; }
   lanzarExamen(preguntas, {
     kind: "oficial", niv: null, tema: null, examNum: ex.num,
-    titulo: `DGT · ${ex.fecha || ("Test " + ex.num)}`,
+    titulo: t("e.dgt", { f: ex.fecha || ("Test " + ex.num) }),
     durMin: Math.max(15, preguntas.length),
     maxFallos: CFG.EXAM_MAX_FAILS,
   });
@@ -417,9 +456,9 @@ function startExamenOficial(ex) {
 function startCategoria(tema) {
   Audio.ensure();
   const pool = poolTema(S.nivelDif, tema);
-  if (!pool.length) { toast(`No hay preguntas de "${TEMAS[tema]}" en este nivel.`); return; }
+  if (!pool.length) { toast(t("t.noCat", { t: TEMAS[tema] })); return; }
   quiz = {
-    mode: "categoria", titulo: "Categoría · " + TEMAS[tema],
+    mode: "categoria", titulo: t("cat.categoria", { t: TEMAS[tema] }),
     questions: sample(pool, Math.min(15, pool.length)),
     index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, history: [], review: null, studyPhase: false,
   };
@@ -429,9 +468,9 @@ function startMenosVistas() {
   Audio.ensure();
   const arr = QUESTIONS.map((q) => ({ q, v: S.srs[q.id] ? S.srs[q.id].vecesVista : 0 }))
     .sort((a, b) => a.v - b.v).slice(0, 15).map((x) => x.q);
-  if (!arr.length) { toast("No hay preguntas."); return; }
+  if (!arr.length) { toast(t("t.noQ")); return; }
   quiz = {
-    mode: "categoria", titulo: "Menos vistas",
+    mode: "categoria", titulo: t("cat.leastSeen"),
     questions: sample(arr, arr.length),
     index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, history: [], review: null, studyPhase: false,
   };
@@ -489,18 +528,18 @@ function renderTree() {
   const unidades = buildTree(niv);
   const hayContenido = unidades.some((u) => u.n > 0);
   if (!hayContenido) {
-    path.innerHTML = `<div class="card center"><p class="muted">Aún no hay preguntas para este nivel.</p></div>`;
+    path.innerHTML = `<div class="card center"><p class="muted">${t("u.noContent")}</p></div>`;
     return;
   }
   unidades.forEach((u) => {
     if (u.n === 0) return; // no mostrar unidades sin preguntas en este nivel
     const h = document.createElement("div");
     h.className = "unit-header" + (u.desbloqueada ? "" : " locked");
-    h.innerHTML = `<div><h3>Unidad ${u.t} · ${u.titulo}</h3>
-      <small>${u.n} preguntas · ${u.nSub} bloques ${u.desbloqueada ? "" : "· 🔒"}</small></div>
+    h.innerHTML = `<div><h3>${t("u.unit", { t: u.t, titulo: u.titulo })}</h3>
+      <small>${t("u.blocks", { n: u.n, s: u.nSub, lock: u.desbloqueada ? "" : " · 🔒" })}</small></div>
       <div style="display:flex;align-items:center;gap:8px">
         ${u.completa ? "🏆" : ""}
-        ${u.desbloqueada ? `<button class="unit-exam-btn">📝 Examen</button>` : ""}
+        ${u.desbloqueada ? `<button class="unit-exam-btn">${t("u.exam")}</button>` : ""}
       </div>`;
     if (u.desbloqueada) {
       const eb = h.querySelector(".unit-exam-btn");
@@ -517,7 +556,7 @@ function renderTree() {
         btn.className = "node exam" + (n.completado ? " completed" : "") + (locked ? " locked" : "");
         btn.innerHTML = locked ? "🔒" : n.completado ? "🏆" : "📝";
         const cap = document.createElement("span");
-        cap.className = "node-cap"; cap.textContent = "Examen";
+        cap.className = "node-cap"; cap.textContent = t("u.examCap");
         btn.appendChild(cap);
         if (!locked) btn.addEventListener("click", () => abrirExamenModo(niv, u.t, u.titulo));
       } else {
@@ -559,8 +598,8 @@ function startReview() {
     .sort((a, b) => (a.s.dominada - b.s.dominada) || String(a.s.due).localeCompare(String(b.s.due)) || (b.s.vecesFallada - a.s.vecesFallada))
     .slice(0, 15)
     .map((x) => BY_ID[x.qid]);
-  if (!pend.length) { toast("🎉 ¡No tienes preguntas pendientes de repaso!"); return; }
-  quiz = { mode: "review", titulo: "Repaso inteligente", questions: pend, index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, history: [], review: null, studyPhase: true };
+  if (!pend.length) { toast(t("t.noReview")); return; }
+  quiz = { mode: "review", titulo: t("gen.reviewInt"), questions: pend, index: 0, aciertos: 0, fallos: 0, answered: false, shuffle: null, selected: null, history: [], review: null, studyPhase: true };
   openModal("quiz-modal"); renderQuizQuestion();
 }
 
@@ -583,8 +622,10 @@ function _preguntaSignifica(s, familia, todos) {
   return {
     id: "sig_" + s.codigo, tema_id: 5, imagenCat: s.img, imagen: null,
     enunciado: "¿Qué significa esta señal?",
-    opciones: opts, correcta_idx: opts.indexOf(s.nombre),
+    enunciado_en: "What does this sign mean?",
+    opciones: opts, opciones_en: opts.map(nombreEn), correcta_idx: opts.indexOf(s.nombre),
     explicacion: `${s.codigo} · ${s.nombre}. ${s.descripcion || ""}`,
+    explicacion_en: `${s.codigo} · ${nombreEn(s.nombre)}. ${s.descripcion_en || s.descripcion || ""}`,
   };
 }
 function _preguntaGrupo(s, cats) {
@@ -593,8 +634,10 @@ function _preguntaGrupo(s, cats) {
   return {
     id: "grp_" + s.codigo, tema_id: 5, imagenCat: s.img, imagen: null,
     enunciado: "¿A qué grupo de señales pertenece esta?",
-    opciones: opts, correcta_idx: opts.indexOf(s.categoria),
+    enunciado_en: "Which group of signs does this belong to?",
+    opciones: opts, opciones_en: opts.map(catEn), correcta_idx: opts.indexOf(s.categoria),
     explicacion: `${s.codigo} · ${s.nombre} — grupo: ${s.categoria}.`,
+    explicacion_en: `${s.codigo} · ${nombreEn(s.nombre)} — group: ${catEn(s.categoria)}.`,
   };
 }
 function generarSenales(modo) {
@@ -621,9 +664,9 @@ function generarSenales(modo) {
 function startSenales(modo) {
   Audio.ensure();
   const qs = generarSenales(modo);
-  if (!qs.length) { toast("No hay señales con imagen para practicar."); return; }
+  if (!qs.length) { toast(t("t.noSigns")); return; }
   quiz = {
-    mode: "senales", titulo: modo === "B" ? "Señales · variantes" : "Señales",
+    mode: "senales", titulo: modo === "B" ? (LANG() === "en" ? "Signs · variants" : "Señales · variantes") : (LANG() === "en" ? "Signs" : "Señales"),
     questions: qs, index: 0, aciertos: 0, fallos: 0, answered: false,
     shuffle: null, selected: null, history: [], review: null, noVidas: true, noSrs: true, studyPhase: false,
   };
@@ -647,16 +690,17 @@ function renderQuizQuestion(keepShuffle) {
   const studyMode = q.mode === "review" && q.studyPhase;
 
   const nivTxt = q.mode === "practice" ? ` · ${NIVELES[q.niv].split(" · ")[1] || ""}` : "";
-  document.getElementById("quiz-tema").textContent = q.titulo + " · " + (TEMAS[question.tema_id] || "") + nivTxt;
+  document.getElementById("quiz-tema").textContent = tituloL(q) + " · " + (TEMAS[question.tema_id] || "") + nivTxt;
   setReforma("quiz-reforma", question);
-  document.getElementById("quiz-enunciado").textContent = question.enunciado;
+  document.getElementById("quiz-enunciado").textContent = L(question, "enunciado");
   setImagen(document.getElementById("quiz-imagen"), question);
 
   const cont = document.getElementById("quiz-opciones"); cont.innerHTML = "";
   const letras = ["A", "B", "C"];
+  const opc = LOPC(question);
   q.shuffle.forEach((opt, i) => {
     const b = document.createElement("button"); b.className = "opcion";
-    b.innerHTML = `<span class="letra">${letras[i]}</span>${opt.text}`;
+    b.innerHTML = `<span class="letra">${letras[i]}</span>${opc[opt.canonical]}`;
     if (studyMode) {
       // Modo lectura: marca la correcta y no deja seleccionar.
       b.classList.add("disabled");
@@ -676,9 +720,9 @@ function renderQuizQuestion(keepShuffle) {
   const note = document.getElementById("quiz-study-note");
   if (studyMode) {
     note.innerHTML =
-      `<span class="study-tag">📖 Lee primero</span>` +
-      `<div>Respuesta correcta: <span class="study-ok">${question.opciones[question.correcta_idx]}</span></div>` +
-      (question.explicacion ? `<div style="margin-top:6px">${question.explicacion}</div>` : "");
+      `<span class="study-tag">${t("sn.readFirst")}</span>` +
+      `<div>${t("sn.correctAns")} <span class="study-ok">${opc[question.correcta_idx]}</span></div>` +
+      (L(question, "explicacion") ? `<div style="margin-top:6px">${L(question, "explicacion")}</div>` : "");
     note.classList.remove("hidden");
   } else {
     note.classList.add("hidden");
@@ -737,14 +781,14 @@ function checkAnswer() {
   q.history = q.history || [];
   q.history[q.index] = { shuffle: q.shuffle, sel: q.selected.canonical, correcto, sinVidas };
 
-  showFeedback(correcto, question.explicacion, sinVidas);
+  showFeedback(correcto, L(question, "explicacion"), sinVidas);
 }
 
 function showFeedback(correcto, explicacion, sinVidas) {
   const fb = document.getElementById("feedback");
   fb.className = "feedback " + (correcto ? "ok" : "err");
   document.getElementById("feedback-icon").textContent = correcto ? "✅" : "❌";
-  document.getElementById("feedback-title").textContent = correcto ? "¡Correcto!" : "Respuesta incorrecta";
+  document.getElementById("feedback-title").textContent = correcto ? t("q.correct") : t("q.wrong");
   fb._sinVidas = sinVidas;
   const txt = document.getElementById("feedback-text");
   const btnCont = document.getElementById("feedback-continue");
@@ -774,7 +818,7 @@ function verExplicacion() {
   const q = quiz; if (!q) return;
   clearTimeout(q.advTimer);
   const txt = document.getElementById("feedback-text");
-  txt.textContent = q.questions[q.index].explicacion || "";
+  txt.textContent = L(q.questions[q.index], "explicacion") || "";
   txt.classList.remove("hidden");
   document.getElementById("feedback-explica").classList.add("hidden");
   document.getElementById("feedback-continue").classList.remove("hidden");
@@ -795,17 +839,18 @@ function advanceQuiz() {
 function renderQuizReview() {
   const q = quiz, i = q.review, question = q.questions[i], h = q.history[i];
   const nivTxt = q.mode === "practice" ? ` · ${NIVELES[q.niv].split(" · ")[1] || ""}` : "";
-  document.getElementById("quiz-tema").textContent = q.titulo + " · " + (TEMAS[question.tema_id] || "") + nivTxt;
+  document.getElementById("quiz-tema").textContent = tituloL(q) + " · " + (TEMAS[question.tema_id] || "") + nivTxt;
   setReforma("quiz-reforma", question);
-  document.getElementById("quiz-enunciado").textContent = question.enunciado;
+  document.getElementById("quiz-enunciado").textContent = L(question, "enunciado");
   setImagen(document.getElementById("quiz-imagen"), question);
 
   // Opciones en solo lectura, con la correcta (y tu fallo, si lo hubo) marcados.
   const cont = document.getElementById("quiz-opciones"); cont.innerHTML = "";
   const letras = ["A", "B", "C"];
+  const opc = LOPC(question);
   h.shuffle.forEach((opt, idx) => {
     const b = document.createElement("button"); b.className = "opcion disabled";
-    b.innerHTML = `<span class="letra">${letras[idx]}</span>${opt.text}`;
+    b.innerHTML = `<span class="letra">${letras[idx]}</span>${opc[opt.canonical]}`;
     if (opt.canonical === question.correcta_idx) b.classList.add("correct");
     if (!h.correcto && opt.canonical === h.sel) b.classList.add("wrong");
     cont.appendChild(b);
@@ -815,13 +860,13 @@ function renderQuizReview() {
   // la explicación es opcional, tras el botón "💡 Ver explicación".
   const note = document.getElementById("quiz-study-note");
   const cab =
-    `<span class="study-tag">🔎 Revisión · pregunta ${i + 1}</span>` +
-    `<div>${h.correcto ? "✅ La acertaste." : "❌ La fallaste."} Respuesta correcta: ` +
-    `<span class="study-ok">${question.opciones[question.correcta_idx]}</span></div>`;
-  const exp = question.explicacion || "";
+    `<span class="study-tag">${t("rv.tag", { n: i + 1 })}</span>` +
+    `<div>${h.correcto ? t("rv.got") : t("rv.missed")} ${t("sn.correctAns")} ` +
+    `<span class="study-ok">${opc[question.correcta_idx]}</span></div>`;
+  const exp = L(question, "explicacion") || "";
   if (h.correcto && exp) {
     note.innerHTML = cab +
-      `<button class="btn" id="rev-exp-btn" style="margin-top:8px">💡 Ver explicación</button>` +
+      `<button class="btn" id="rev-exp-btn" style="margin-top:8px">${t("rv.seeExp")}</button>` +
       `<div id="rev-exp" class="hidden" style="margin-top:6px">${exp}</div>`;
     const eb = note.querySelector("#rev-exp-btn");
     eb.addEventListener("click", () => {
@@ -878,17 +923,17 @@ function finishQuiz(completo) {
     let xpGanado = 0;
     if (aprobado) { if (!prev.completado) { xpGanado = CFG.XP_NODO; S.xp += xpGanado; } S.nodes[key] = { completado: true, estrellas: Math.max(prev.estrellas, estrellas) }; }
     saveState(); renderState(); renderNivelSelector(); renderTree();
-    showResult(aprobado ? "¡Bloque completado!" : "Bloque no superado", aprobado ? estrellas : 0, `Aciertos: ${q.aciertos}/${total} · +${xpGanado} XP`);
+    showResult(aprobado ? t("r.blockDone") : t("r.blockFail"), aprobado ? estrellas : 0, t("r.hits", { a: q.aciertos, t: total, xp: xpGanado }));
   } else if (q.mode === "review") {
     loadReviewCount();
-    showResult("Repaso terminado", q.fallos === 0 ? 3 : q.fallos <= 2 ? 2 : 1, `Aciertos: ${q.aciertos}/${q.index}`);
+    showResult(t("r.reviewDone"), q.fallos === 0 ? 3 : q.fallos <= 2 ? 2 : 1, t("r.hitsOf", { a: q.aciertos, t: q.index }));
   } else if (q.mode === "senales" || q.mode === "categoria") {
     const tot = q.answered ? q.index + 1 : q.index;
     renderState(); renderInicio();
-    showResult(q.titulo || "Práctica", q.fallos === 0 ? 3 : q.fallos <= 3 ? 2 : 1, `Aciertos: ${q.aciertos}/${tot}`);
+    showResult(q.titulo || t("r.practice"), q.fallos === 0 ? 3 : q.fallos <= 3 ? 2 : 1, t("r.hitsOf", { a: q.aciertos, t: tot }));
   } else {
     renderTree();
-    showResult("Sin vidas ❤️", 0, `Aciertos: ${q.aciertos}. Espera a recuperar vidas (1 cada ${CFG.VIDA_REGEN_MIN} min).`);
+    showResult(t("r.noLives"), 0, t("r.noLivesTxt", { a: q.aciertos, min: CFG.VIDA_REGEN_MIN }));
   }
 }
 function showResult(title, estrellas, text) {
@@ -908,7 +953,7 @@ function startExam() {
   const porTema = {};
   QUESTIONS.filter((q) => (q.dificultad || 1) === niv).forEach((q) => { (porTema[q.tema_id] = porTema[q.tema_id] || []).push(q); });
   const temas = Object.keys(porTema);
-  if (!temas.length) { toast("No hay preguntas para el examen en este nivel."); return; }
+  if (!temas.length) { toast(t("t.noExamLevel")); return; }
   let sel = [];
   const base = Math.floor(CFG.EXAM_SIZE / temas.length);
   temas.forEach((t) => { sel = sel.concat(sample(porTema[t], base)); });
@@ -920,7 +965,7 @@ function startExam() {
   sel = sample(sel, Math.min(CFG.EXAM_SIZE, sel.length));
   lanzarExamen(sel, {
     kind: "general", niv, tema: null,
-    titulo: `Examen general · ${NIVELES[niv].split(" · ")[1] || ""}`,
+    titulo: t("e.gtitle", { niv: NIVELES[niv].split(" · ")[1] || "" }),
     durMin: CFG.EXAM_MIN, maxFallos: CFG.EXAM_MAX_FAILS,
   });
 }
@@ -929,7 +974,7 @@ let examenPendiente = null;
 function abrirExamenModo(niv, tema, titulo) {
   // Deja elegir modo fácil / restringido antes de lanzar el examen de unidad.
   examenPendiente = { niv, tema, titulo };
-  document.getElementById("examen-modo-titulo").textContent = `Unidad ${tema} · ${titulo}`;
+  document.getElementById("examen-modo-titulo").textContent = t("u.unit", { t: tema, titulo });
   openModal("examen-modo-modal");
 }
 function lanzarExamenPendiente(modo) {
@@ -948,13 +993,13 @@ function startUnitExam(niv, tema, titulo, modo) {
   else maxFallos = size >= 30 ? 3 : Math.max(1, Math.round(size * 0.1));
   lanzarExamen(sel, {
     kind: "unit", niv, tema, modo,
-    titulo: `Examen U${tema} · ${modo === "restringido" ? "restringido 0 fallos" : "fácil ≤3"}`,
+    titulo: t("e.utitle", { t: tema, mode: modo === "restringido" ? t("e.modeRestr") : t("e.modeEasy") }),
     durMin: Math.max(10, size), maxFallos,
   });
 }
 
 function lanzarExamen(questions, opts) {
-  if (!questions.length) { toast("No hay preguntas suficientes para el examen."); return; }
+  if (!questions.length) { toast(t("t.noExamEnough")); return; }
   exam = {
     questions, shuffles: questions.map(shuffleOptions),
     selected: new Array(questions.length).fill(null),
@@ -979,14 +1024,15 @@ function renderExamQuestion() {
   const question = exam.questions[exam.index], shuffle = exam.shuffles[exam.index];
   document.getElementById("exam-counter").textContent = `${exam.titulo} · ${exam.index + 1}/${exam.questions.length}`;
   setReforma("exam-reforma", question);
-  document.getElementById("exam-enunciado").textContent = question.enunciado;
+  document.getElementById("exam-enunciado").textContent = L(question, "enunciado");
   setImagen(document.getElementById("exam-imagen"), question);
   const cont = document.getElementById("exam-opciones"); cont.innerHTML = "";
   const letras = ["A", "B", "C"];
+  const opc = LOPC(question);
   shuffle.forEach((opt, i) => {
     const b = document.createElement("button"); b.className = "opcion";
     if (exam.selected[exam.index] === opt.canonical) b.classList.add("selected");
-    b.innerHTML = `<span class="letra">${letras[i]}</span>${opt.text}`;
+    b.innerHTML = `<span class="letra">${letras[i]}</span>${opc[opt.canonical]}`;
     b.addEventListener("click", () => {
       exam.selected[exam.index] = opt.canonical;
       cont.querySelectorAll(".opcion").forEach((o) => o.classList.remove("selected"));
@@ -1050,13 +1096,13 @@ function submitExam() {
 }
 function renderExamResult(r) {
   const v = document.getElementById("exam-verdict");
-  v.textContent = r.apto ? "✅ APTO" : "❌ NO APTO"; v.className = r.apto ? "apto" : "no-apto";
+  v.textContent = r.apto ? t("e.apto") : t("e.noApto"); v.className = r.apto ? "apto" : "no-apto";
   let extra = "";
   if (r.apto && r.kind === "general" && nivelCompleto(r.niv) && r.niv < 5 && nivelTieneContenido(r.niv + 1)) {
-    extra = ` · 🎉 ¡Nivel ${r.niv + 1} desbloqueado!`;
+    extra = t("e.unlocked", { n: r.niv + 1 });
   }
   document.getElementById("exam-score").textContent =
-    `Aciertos: ${r.aciertos} · Fallos: ${r.fallos} · En blanco: ${r.enBlanco} (máx. ${r.maxFallos} para APTO) · +${r.xpGanado} XP${extra}`;
+    t("e.score", { a: r.aciertos, f: r.fallos, b: r.enBlanco, m: r.maxFallos, xp: r.xpGanado, extra });
   const bd = document.getElementById("exam-tema-breakdown"); bd.innerHTML = "";
   r.resumen.forEach((t) => {
     const total = t.aciertos + t.fallos, pct = total ? Math.round((t.aciertos / total) * 100) : 0;
@@ -1068,16 +1114,17 @@ function renderExamResult(r) {
   const letras = ["A", "B", "C"];
   r.detalle.filter((d) => !d.correcto).forEach((d) => {
     const item = document.createElement("div"); item.className = "rev-item err";
-    const tu = d.sel === null ? "— (sin responder)" : `${letras[d.sel]}) ${d.q.opciones[d.sel]}`;
+    const opc = LOPC(d.q);
+    const tu = d.sel === null ? t("e.blank") : `${letras[d.sel]}) ${opc[d.sel]}`;
     const rf = reformaHTML(d.q);
-    item.innerHTML = `<div class="rev-q">[${TEMAS[d.q.tema_id]}] ${d.q.enunciado}</div>
+    item.innerHTML = `<div class="rev-q">[${TEMAS[d.q.tema_id]}] ${L(d.q, "enunciado")}</div>
       ${rf ? `<div class="reforma-badge" style="margin:6px 0">${rf}</div>` : ""}
-      <div class="rev-a">Tu respuesta: <b>${tu}</b></div>
-      <div class="rev-a">Correcta: <b>${letras[d.q.correcta_idx]}) ${d.q.opciones[d.q.correcta_idx]}</b></div>
-      <div class="rev-exp">${d.q.explicacion || ""}</div>`;
+      <div class="rev-a">${t("e.yourAns")} <b>${tu}</b></div>
+      <div class="rev-a">${t("e.correctAns")} <b>${letras[d.q.correcta_idx]}) ${opc[d.q.correcta_idx]}</b></div>
+      <div class="rev-exp">${L(d.q, "explicacion") || ""}</div>`;
     rev.appendChild(item);
   });
-  if (!rev.children.length) rev.innerHTML = `<div class="rev-item ok"><div class="rev-q">¡Perfecto! Sin fallos. 🎉</div></div>`;
+  if (!rev.children.length) rev.innerHTML = `<div class="rev-item ok"><div class="rev-q">${t("e.perfect")}</div></div>`;
   openModal("exam-result-modal");
 }
 
@@ -1101,17 +1148,17 @@ function loadStats() {
   }
   const g = { total: gTotal, dominadas: gDom, precision: gVistas > 0 ? Math.round((100 * (gVistas - gFallos)) / gVistas) : null };
   document.getElementById("global-stats").innerHTML = `
-    <div class="gstat"><div class="num">${g.dominadas}/${g.total}</div><div class="lbl">Dominadas</div></div>
-    <div class="gstat"><div class="num">${g.precision === null ? "—" : g.precision + "%"}</div><div class="lbl">Precisión</div></div>
-    <div class="gstat"><div class="num">${S.xp}</div><div class="lbl">XP · Nv ${nivel()}</div></div>
-    <div class="gstat"><div class="num">🔥 ${S.racha}</div><div class="lbl">Racha</div></div>`;
+    <div class="gstat"><div class="num">${g.dominadas}/${g.total}</div><div class="lbl">${t("s.mastered")}</div></div>
+    <div class="gstat"><div class="num">${g.precision === null ? "—" : g.precision + "%"}</div><div class="lbl">${t("s.precision")}</div></div>
+    <div class="gstat"><div class="num">${S.xp}</div><div class="lbl">${t("s.xpLvl", { n: nivel() })}</div></div>
+    <div class="gstat"><div class="num">🔥 ${S.racha}</div><div class="lbl">${t("s.streak")}</div></div>`;
   const cont = document.getElementById("tema-stats"); cont.innerHTML = "";
   temas.forEach((t) => {
     const pct = t.total ? Math.round((t.dominadas / t.total) * 100) : 0;
     const div = document.createElement("div"); div.className = "tema-stat";
     div.innerHTML = `<div class="row"><span>${t.t}. ${t.titulo}</span><span class="pct">${pct}%</span></div>
       <div class="bar"><div class="fill" style="width:${pct}%"></div></div>
-      <div class="sub">${t.dominadas}/${t.total} dominadas · precisión ${t.precision === null ? "—" : t.precision + "%"}</div>`;
+      <div class="sub">${window.t("s.masteredOf", { d: t.dominadas, t: t.total, p: t.precision === null ? "—" : t.precision + "%" })}</div>`;
     cont.appendChild(div);
   });
   const fl = document.getElementById("fallos-list"); fl.innerHTML = "";
@@ -1119,12 +1166,12 @@ function loadStats() {
     .filter((x) => x.q && x.s.vecesFallada > 0)
     .sort((a, b) => (b.s.vecesFallada - a.s.vecesFallada) || (a.s.dominada - b.s.dominada))
     .slice(0, 15);
-  if (!fallos.length) { fl.innerHTML = `<p class="muted">Aún no tienes fallos registrados. ¡Sigue practicando! 💪</p>`; document.getElementById("btn-practice-mistakes").disabled = true; }
+  if (!fallos.length) { fl.innerHTML = `<p class="muted">${t("s.noMistakes")}</p>`; document.getElementById("btn-practice-mistakes").disabled = true; }
   else {
     document.getElementById("btn-practice-mistakes").disabled = false;
     fallos.forEach((x) => {
       const item = document.createElement("div"); item.className = "fallo-item";
-      item.innerHTML = `<div class="fq">[${TEMAS[x.q.tema_id]}] ${x.q.enunciado}</div><div class="badge">${x.s.vecesFallada}× ${x.s.dominada ? "✅" : ""}</div>`;
+      item.innerHTML = `<div class="fq">[${TEMAS[x.q.tema_id]}] ${L(x.q, "enunciado")}</div><div class="badge">${x.s.vecesFallada}× ${x.s.dominada ? "✅" : ""}</div>`;
       fl.appendChild(item);
     });
   }
@@ -1149,7 +1196,7 @@ function renderTeoriaSelector() {
   if (CATALOGO.length) {
     const b = document.createElement("button");
     b.className = "nivel-btn" + (teoriaSel === "senales" ? " active" : "");
-    b.textContent = `🚦 Todas las señales (${CATALOGO.length})`;
+    b.textContent = t("teo.allSigns", { n: CATALOGO.length });
     b.addEventListener("click", () => { teoriaSel = "senales"; renderTeoriaSelector(); renderTeoriaContent(); });
     cont.appendChild(b);
   }
@@ -1158,9 +1205,9 @@ function renderTeoriaContent() {
   const cont = document.getElementById("teoria-content"); cont.innerHTML = "";
   if (teoriaSel === "senales") { renderCatalogoSenales(cont); return; }
   const tema = TEORIA[teoriaSel];
-  if (!tema) { cont.innerHTML = `<div class="card"><p class="muted">Todavía no hay teoría para este tema.</p></div>`; return; }
+  if (!tema) { cont.innerHTML = `<div class="card"><p class="muted">${t("teo.none")}</p></div>`; return; }
   const ficha = document.createElement("div"); ficha.className = "teoria-ficha";
-  let html = `<h3>Tema ${teoriaSel} · ${tema.titulo}</h3>`;
+  let html = `<h3>${t("teo.themeN", { n: teoriaSel, t: tema.titulo })}</h3>`;
   (tema.secciones || []).forEach((s) => {
     html += `<div class="teoria-sec"><h4>${s.h}</h4><ul>` +
       (s.puntos || []).map((p) => `<li>${p}</li>`).join("") + `</ul></div>`;
@@ -1172,22 +1219,22 @@ function renderCatalogoSenales(cont) {
   const porCat = {};
   CATALOGO.forEach((s) => { (porCat[s.categoria || "Otras"] = porCat[s.categoria || "Otras"] || []).push(s); });
   const intro = document.createElement("div"); intro.className = "teoria-ficha";
-  intro.innerHTML = `<h3>🚦 Catálogo completo de señales (${CATALOGO.length})</h3>
-    <p class="sig" style="color:#555">Todas las señales oficiales (catálogo DGT 2025). Estúdialas por tipo o ponte a prueba.</p>
-    <button class="btn btn-primary" id="btn-practicar-senales" style="margin-top:8px">📝 Practicar estas señales (test)</button>`;
+  intro.innerHTML = `<h3>${t("cat.h", { n: CATALOGO.length })}</h3>
+    <p class="sig" style="color:#555">${t("cat.p")}</p>
+    <button class="btn btn-primary" id="btn-practicar-senales" style="margin-top:8px">${t("cat.practice")}</button>`;
   cont.appendChild(intro);
   const bp = intro.querySelector("#btn-practicar-senales");
   if (bp) bp.addEventListener("click", () => openModal("senales-modo-modal"));
   Object.keys(porCat).forEach((cat) => {
-    const h = document.createElement("h3"); h.className = "senal-cat-titulo"; h.textContent = `${cat} (${porCat[cat].length})`;
+    const h = document.createElement("h3"); h.className = "senal-cat-titulo"; h.textContent = `${catNombre(cat)} (${porCat[cat].length})`;
     cont.appendChild(h);
     const grid = document.createElement("div"); grid.className = "senal-grid";
     porCat[cat].forEach((s) => {
       const card = document.createElement("div"); card.className = "senal-card";
-      const img = s.img ? `<img src="senales/${s.img}" alt="${s.codigo}" loading="lazy">` : `<div class="no-img">sin imagen</div>`;
-      const badge = s.nuevo2025 ? `<div class="senal-badge nueva">🆕 NUEVA 2025</div>`
-        : (s.cambio_diseno ? `<div class="senal-badge cambio">🔄 Diseño 2025</div>` : "");
-      card.innerHTML = `${img}${badge}<div class="cod">${s.codigo}</div><div class="nom">${s.nombre || ""}</div><div class="sig">${s.descripcion || ""}</div>`;
+      const img = s.img ? `<img src="senales/${s.img}" alt="${s.codigo}" loading="lazy">` : `<div class="no-img">${t("cat.noImg")}</div>`;
+      const badge = s.nuevo2025 ? `<div class="senal-badge nueva">${t("cat.new")}</div>`
+        : (s.cambio_diseno ? `<div class="senal-badge cambio">${t("cat.redesign")}</div>` : "");
+      card.innerHTML = `${img}${badge}<div class="cod">${s.codigo}</div><div class="nom">${L(s, "nombre") || ""}</div><div class="sig">${L(s, "descripcion") || ""}</div>`;
       grid.appendChild(card);
     });
     cont.appendChild(grid);
@@ -1209,48 +1256,48 @@ function recargarVidas(modo) {
   if (modo === "facil") {
     S.vidas = CFG.MAX_VIDAS; S.vidasTs = Date.now();
     saveState(); renderState(); renderPerfil();
-    closeModal("vidas-modal"); toast("❤️ Vidas recargadas (modo fácil).");
+    closeModal("vidas-modal"); toast(window.t("t.livesFree"));
     return;
   }
   // Restringido: baja una lección (el último subbloque hecho) de la unidad actual.
   const niv = S.nivelDif;
   const t = unidadActual(niv);
-  if (!t) { closeModal("vidas-modal"); toast("No hay unidad en curso de la que bajar una lección."); return; }
+  if (!t) { closeModal("vidas-modal"); toast(window.t("t.noUnit")); return; }
   const nSub = nSubbloques(niv, t);
   let bajado = -1;
   for (let i = nSub - 1; i >= 0; i--) {
     const k = `${niv}_${t}_${i}`;
     if (S.nodes[k] && S.nodes[k].completado) { delete S.nodes[k]; bajado = i; break; }
   }
-  if (bajado < 0) { closeModal("vidas-modal"); toast("En la unidad actual no tienes lecciones hechas que bajar; no se recarga."); return; }
+  if (bajado < 0) { closeModal("vidas-modal"); toast(window.t("t.noLesson")); return; }
   S.vidas = CFG.MAX_VIDAS; S.vidasTs = Date.now();
   saveState(); renderState(); renderPerfil(); renderNivelSelector(); renderTree();
   closeModal("vidas-modal");
-  toast(`❤️ Vidas recargadas. Bajó la lección ${bajado + 1} de la Unidad ${t}: tendrás que repetirla.`);
+  toast(window.t("t.livesDown", { l: bajado + 1, t }));
 }
 
 // -------- Perfil (usuario + PIN) y código de progreso --------
 function renderPerfil() {
   const nombre = (S.perfil && S.perfil.nombre) ? S.perfil.nombre : "";
   const el = document.getElementById("perfil-nombre");
-  if (el) el.textContent = nombre || "— (sin definir)";
+  if (el) el.textContent = nombre || t("s.profileUndef");
   const vi = document.getElementById("vidas-info");
   if (vi) vi.textContent = `${S.vidas} / ${CFG.MAX_VIDAS} ❤️`;
   // Botón de cuenta de la barra superior.
   const un = document.getElementById("stat-user-name");
-  if (un) un.textContent = nombre || "Entrar";
+  if (un) un.textContent = nombre || t("top.enter");
   const ub = document.getElementById("stat-user");
   if (ub) ub.classList.toggle("logged", !!nombre);
 }
 function editarPerfil() {
-  const nombre = prompt("Tu nombre de usuario:", (S.perfil && S.perfil.nombre) || "");
+  const nombre = prompt(t("p.userName"), (S.perfil && S.perfil.nombre) || "");
   if (nombre === null) return;
-  let pin = prompt("PIN de 4 números (protege tu código de progreso):", (S.perfil && S.perfil.pin) || "");
+  let pin = prompt(t("p.pin"), (S.perfil && S.perfil.pin) || "");
   if (pin === null) return;
   pin = (pin || "").trim();
-  if (!/^\d{4}$/.test(pin)) { toast("El PIN debe ser exactamente 4 números."); return; }
+  if (!/^\d{4}$/.test(pin)) { toast(t("t.pin4")); return; }
   S.perfil = { nombre: (nombre || "").trim() || "Alumno", pin };
-  saveState(); renderPerfil(); toast("Perfil guardado ✔");
+  saveState(); renderPerfil(); toast(t("t.profileSaved"));
   if (cloudReady()) cloudLogin(S.perfil.nombre, S.perfil.pin); // conecta la nube con este usuario
 }
 let codigoModo = null;
@@ -1263,28 +1310,26 @@ function decodeProgreso(txt) {
 }
 function abrirExportar() {
   if (!S.perfil || !S.perfil.nombre || !/^\d{4}$/.test(S.perfil.pin || "")) {
-    toast("Primero pon tu usuario y PIN (botón 'Poner usuario y PIN')."); return;
+    toast(t("t.needUser")); return;
   }
-  document.getElementById("codigo-titulo").textContent = "Exportar progreso";
-  document.getElementById("codigo-ayuda").textContent =
-    "Pulsa «Descargar archivo» y guárdalo o pásalo al otro móvil (WhatsApp/AirDrop/Archivos). Incluye tu PIN. Si prefieres, también puedes copiar el texto.";
+  document.getElementById("codigo-titulo").textContent = t("exp.title");
+  document.getElementById("codigo-ayuda").textContent = t("exp.help");
   const ta = document.getElementById("codigo-texto"); ta.value = JSON.stringify(S); ta.readOnly = true;
   document.getElementById("codigo-pin-wrap").style.display = "none";
   document.getElementById("codigo-elegir-archivo").style.display = "none";
   document.getElementById("codigo-descargar").style.display = "";
-  document.getElementById("codigo-accion").textContent = "Copiar texto";
+  document.getElementById("codigo-accion").textContent = t("exp.copy");
   codigoModo = "export"; openModal("codigo-modal");
 }
 function abrirImportar() {
-  document.getElementById("codigo-titulo").textContent = "Importar progreso";
-  document.getElementById("codigo-ayuda").textContent =
-    "Pulsa «Elegir archivo» y selecciona el archivo de progreso (o pega el texto). Después escribe el PIN de 4 cifras.";
+  document.getElementById("codigo-titulo").textContent = t("imp.title");
+  document.getElementById("codigo-ayuda").textContent = t("imp.help");
   const ta = document.getElementById("codigo-texto"); ta.value = ""; ta.readOnly = false;
   document.getElementById("codigo-pin-wrap").style.display = "";
   document.getElementById("codigo-pin").value = "";
   document.getElementById("codigo-elegir-archivo").style.display = "";
   document.getElementById("codigo-descargar").style.display = "none";
-  document.getElementById("codigo-accion").textContent = "Importar";
+  document.getElementById("codigo-accion").textContent = t("imp.do");
   codigoModo = "import"; openModal("codigo-modal");
 }
 function descargarProgreso() {
@@ -1295,7 +1340,7 @@ function descargarProgreso() {
   a.href = url; a.download = `dgt-progreso-${nombre}.json`;
   document.body.appendChild(a); a.click();
   setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 200);
-  toast("Archivo descargado ⬇️ Pásalo al otro móvil y usa «Importar».");
+  toast(t("t.fileDown"));
 }
 function elegirArchivo() { document.getElementById("codigo-file").click(); }
 function archivoElegido(e) {
@@ -1304,9 +1349,9 @@ function archivoElegido(e) {
   const r = new FileReader();
   r.onload = () => {
     document.getElementById("codigo-texto").value = (r.result || "").trim();
-    toast("Archivo cargado. Escribe el PIN y pulsa «Importar».");
+    toast(t("t.fileLoaded"));
   };
-  r.onerror = () => toast("No se pudo leer el archivo.");
+  r.onerror = () => toast(t("t.fileErr"));
   r.readAsText(f);
   e.target.value = "";
 }
@@ -1315,16 +1360,16 @@ function accionCodigo() {
   if (codigoModo === "export") {
     ta.select();
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(ta.value).then(() => toast("Código copiado ✔")).catch(() => toast("Selecciónalo y cópialo a mano."));
-    } else { try { document.execCommand("copy"); toast("Código copiado ✔"); } catch (_) { toast("Selecciónalo y cópialo a mano."); } }
+      navigator.clipboard.writeText(ta.value).then(() => toast(t("t.copied"))).catch(() => toast(t("t.copyManual")));
+    } else { try { document.execCommand("copy"); toast(t("t.copied")); } catch (_) { toast(t("t.copyManual")); } }
     return;
   }
   const code = (ta.value || "").trim();
   const pin = (document.getElementById("codigo-pin").value || "").trim();
   const data = decodeProgreso(code);
-  if (!data) { toast("El código/archivo no es válido."); return; }
-  if (!data.perfil) { toast("El código no contiene un perfil válido."); return; }
-  if ((data.perfil.pin || "") !== pin) { toast("PIN incorrecto para ese código."); return; }
+  if (!data) { toast(t("t.badCode")); return; }
+  if (!data.perfil) { toast(t("t.badProfile")); return; }
+  if ((data.perfil.pin || "") !== pin) { toast(t("t.badPin")); return; }
   S = data;
   S.unitExam = S.unitExam || {}; S.generalExam = S.generalExam || {};
   S.nodes = S.nodes || {}; S.srs = S.srs || {}; S.nivelDif = S.nivelDif || 1;
@@ -1332,7 +1377,7 @@ function accionCodigo() {
   saveState();
   renderState(); renderNivelSelector(); renderTree(); renderPerfil(); loadStats();
   closeModal("codigo-modal");
-  toast(`Progreso de ${S.perfil.nombre || "usuario"} importado ✔`);
+  toast(t("t.imported", { n: S.perfil.nombre || "usuario" }));
 }
 
 // -------- Modales / vistas / toast --------
@@ -1380,7 +1425,7 @@ function aplicarNube(jsonStr, ts) {
   localStorage.setItem(KEY, JSON.stringify(S)); // sin re-disparar la subida
   renderState(); renderNivelSelector(); renderTree(); renderPerfil(); loadStats();
   cloudAplicando = false;
-  toast("Progreso sincronizado ☁️");
+  toast(t("t.cloudSync"));
 }
 function cloudGuardarYa() {
   if (!cloudReady() || !cloudDoc) return;
@@ -1403,7 +1448,7 @@ async function cloudLogin(nombre, pin) {
     const snap = await cloudDoc.get();
     if (snap.exists) {
       const d = snap.data() || {};
-      if ((d.pin || "") !== pin) { toast("Ese usuario ya existe con otro PIN."); cloudDoc = null; return false; }
+      if ((d.pin || "") !== pin) { toast(t("t.userOtherPin")); cloudDoc = null; return false; }
       const remoteTs = d.updatedAt || 0, localTs = S.cloudTs || 0;
       if (remoteTs > localTs && d.data) aplicarNube(d.data, remoteTs);
       else cloudGuardarYa(); // lo de este dispositivo es más nuevo: súbelo
@@ -1421,7 +1466,11 @@ async function cloudLogin(nombre, pin) {
 }
 
 function init() {
+  applyLangData(); applyStaticI18n();  // idioma activo antes de pintar
   loadState(); regenVidas(); saveState(); renderState(); renderNivelSelector(); renderTree(); renderInicio();
+  // Botón de idioma ES/EN
+  const lt = document.getElementById("lang-toggle");
+  if (lt) { setLangIcon(); lt.addEventListener("click", toggleLang); }
   if (S.perfil && S.perfil.nombre && /^\d{4}$/.test(S.perfil.pin || "")) cloudLogin(S.perfil.nombre, S.perfil.pin);
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => switchView(t.dataset.view)));
   // Tema claro/oscuro
@@ -1440,9 +1489,9 @@ function init() {
   document.getElementById("btn-start-exam").addEventListener("click", startExam);
   document.getElementById("btn-practice-mistakes").addEventListener("click", startReview);
   document.getElementById("btn-reset").addEventListener("click", () => {
-    if (confirm("¿Reiniciar todo tu progreso? Esto no borra las preguntas.")) {
+    if (confirm(t("p.reset"))) {
       S = nuevoEstado();
-      saveState(); renderState(); renderNivelSelector(); renderTree(); loadStats(); toast("Progreso reiniciado");
+      saveState(); renderState(); renderNivelSelector(); renderTree(); loadStats(); toast(t("t.resetDone"));
     }
   });
   document.getElementById("exam-prev").addEventListener("click", () => { if (exam.index > 0) { exam.index--; renderExamQuestion(); } });

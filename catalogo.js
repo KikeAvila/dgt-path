@@ -7,7 +7,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-1.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Intersection with priority",
+"descripcion_en": "Danger due to the proximity of a junction with a road whose users must give way."
 },
 {
 "codigo": "P-1a",
@@ -16,7 +18,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-1a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Intersection with priority over a road on the right",
+"descripcion_en": "Danger due to the proximity of a junction with a road on the right whose users must give way."
 },
 {
 "codigo": "P-1b",
@@ -25,7 +29,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-1b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Intersection with priority over a road on the left",
+"descripcion_en": "Danger due to the proximity of a junction with a road on the left whose users must give way."
 },
 {
 "codigo": "P-1c",
@@ -34,7 +40,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-1c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Intersection with priority over a merge from the right",
+"descripcion_en": "Danger due to the proximity of a merge from the right of a road whose users must give way."
 },
 {
 "codigo": "P-1d",
@@ -43,7 +51,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-1d.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Intersection with priority over a merge from the left",
+"descripcion_en": "Danger due to the proximity of a merge from the left of a road whose users must give way."
 },
 {
 "codigo": "P-1e",
@@ -52,7 +62,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-1e.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Stretch with direct accesses",
+"descripcion_en": "Danger due to the proximity of a stretch with several direct accesses onto the road, whose users must give way."
 },
 {
 "codigo": "P-2",
@@ -61,7 +73,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-2.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Intersection with priority to the right",
+"descripcion_en": "Danger due to the proximity of a junction governed by the general give-way-to-the-right rule."
 },
 {
 "codigo": "P-3",
@@ -70,7 +84,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-3.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Traffic lights",
+"descripcion_en": "Danger due to the proximity of an isolated junction or stretch where traffic is controlled by traffic lights."
 },
 {
 "codigo": "P-4",
@@ -79,7 +95,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-4.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Roundabout",
+"descripcion_en": "Danger due to the proximity of a roundabout with traffic circulating in the direction indicated by the arrows."
 },
 {
 "codigo": "P-5",
@@ -88,7 +106,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-5.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Movable bridge",
+"descripcion_en": "Danger due to the proximity of a bridge that can be raised or swung open, thereby temporarily interrupting traffic."
 },
 {
 "codigo": "P-6",
@@ -97,7 +117,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-6.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Tram crossing",
+"descripcion_en": "Danger due to the proximity of a crossing with a tram line, which has priority."
 },
 {
 "codigo": "P-7",
@@ -106,7 +128,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-7.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Level crossing with barriers",
+"descripcion_en": "Danger due to the proximity of a level crossing fitted with barriers or half-barriers."
 },
 {
 "codigo": "P-8",
@@ -115,7 +139,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-8.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Level crossing without barriers",
+"descripcion_en": "Danger due to the proximity of a level crossing not fitted with barriers or half-barriers."
 },
 {
 "codigo": "P-9a",
@@ -124,7 +150,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-9a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Approach to a level crossing, movable bridge or quay",
+"descripcion_en": "(200 m, right-hand side) Indicates the presence of a level crossing, a movable bridge or a quay at a distance of 200 m. This marker is placed on the right-hand side of the carriageway and is always accompanied by sign P-5, P-7, P-8 or P-27."
 },
 {
 "codigo": "P-9b",
@@ -133,7 +161,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-9b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Approach to a level crossing, movable bridge or quay",
+"descripcion_en": "(150 m, right-hand side) Indicates the presence of a level crossing, a movable bridge or a quay at a distance of 150 m. This marker is placed on the right-hand side of the carriageway."
 },
 {
 "codigo": "P-9c",
@@ -142,7 +172,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-9c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Approach to a level crossing, movable bridge or quay",
+"descripcion_en": "(100 m, right-hand side) Indicates the presence of a level crossing, a movable bridge or a quay at a distance of 100 m. This marker is placed on the right-hand side of the carriageway."
 },
 {
 "codigo": "P-10a",
@@ -151,7 +183,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-10a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Approach to a level crossing, movable bridge or quay",
+"descripcion_en": "(200 m, left-hand side) Indicates the presence of a level crossing, a movable bridge or a quay at a distance of 200 m. This marker is placed on the left-hand side of the carriageway and is always accompanied by sign P-5, P-7, P-8 or P-27."
 },
 {
 "codigo": "P-10b",
@@ -160,7 +194,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-10b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Approach to a level crossing, movable bridge or quay",
+"descripcion_en": "(150 m, left-hand side) Indicates the presence of a level crossing, a movable bridge or a quay at a distance of 150 m. This marker is placed on the left-hand side of the carriageway."
 },
 {
 "codigo": "P-10c",
@@ -169,7 +205,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-10c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Approach to a level crossing, movable bridge or quay",
+"descripcion_en": "(100 m, left-hand side) Indicates the presence of a level crossing, a movable bridge or a quay at a distance of 100 m. This marker is placed on the left-hand side of the carriageway."
 },
 {
 "codigo": "P-11",
@@ -178,7 +216,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-11.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a level crossing without barriers",
+"descripcion_en": "Danger due to the immediate presence of a level crossing without barriers."
 },
 {
 "codigo": "P-11a",
@@ -187,7 +227,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-11a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a level crossing without barriers over more than one railway track",
+"descripcion_en": "Danger due to the immediate presence of a level crossing without barriers over more than one railway track."
 },
 {
 "codigo": "P-12",
@@ -196,7 +238,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-12.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Airport",
+"descripcion_en": "Danger due to the proximity of a place where aircraft frequently fly low over the road and may cause unexpected noise."
 },
 {
 "codigo": "P-13a",
@@ -205,7 +249,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-13a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Dangerous bend to the right",
+"descripcion_en": "Danger due to the proximity of a dangerous bend to the right."
 },
 {
 "codigo": "P-13b",
@@ -214,7 +260,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-13b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Dangerous bend to the left",
+"descripcion_en": "Danger due to the proximity of a dangerous bend to the left."
 },
 {
 "codigo": "P-14a",
@@ -223,7 +271,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-14a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Dangerous bends, first to the right",
+"descripcion_en": "Danger due to the proximity of a series of dangerous bends close together, the first of which is to the right."
 },
 {
 "codigo": "P-14b",
@@ -232,7 +282,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-14b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Dangerous bends, first to the left",
+"descripcion_en": "Danger due to the proximity of a series of dangerous bends close together, the first of which is to the left."
 },
 {
 "codigo": "P-15",
@@ -241,7 +293,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-15.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Uneven surface",
+"descripcion_en": "Danger due to the proximity of a hump or dip in the road, or a road surface in poor condition."
 },
 {
 "codigo": "P-15a",
@@ -250,7 +304,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-15a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Hump",
+"descripcion_en": "Danger due to the proximity of a hump in the road."
 },
 {
 "codigo": "P-15b",
@@ -259,7 +315,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-15b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Dip",
+"descripcion_en": "Danger due to the proximity of a dip in the road."
 },
 {
 "codigo": "P-16a",
@@ -268,7 +326,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-16a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Steep descent",
+"descripcion_en": "Danger due to the existence of a stretch of road with a steep downward gradient. The figure indicates the gradient as a percentage."
 },
 {
 "codigo": "P-16b",
@@ -277,7 +337,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-16b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Steep ascent",
+"descripcion_en": "Danger due to the existence of a stretch of road with a steep upward gradient. The figure indicates the gradient as a percentage."
 },
 {
 "codigo": "P-17",
@@ -286,7 +348,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-17.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Road narrows",
+"descripcion_en": "Danger due to the proximity of a section of road where the carriageway narrows. It may also be used where the width of the verges is reduced. It shall not be used where, after a reduction in the number of lanes, the width of the remaining lanes and verges is unchanged."
 },
 {
 "codigo": "P-17a",
@@ -295,7 +359,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-17a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Road narrows on the right",
+"descripcion_en": "Danger due to the proximity of a section of road where the carriageway narrows on the right-hand side. It may also be used where the width of the right verge is reduced. It shall not be used where, after a reduction in the number of lanes on the right, the width of the remaining lanes and verges is unchanged."
 },
 {
 "codigo": "P-17b",
@@ -304,7 +370,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-17b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Road narrows on the left",
+"descripcion_en": "Danger due to the proximity of a section of road where the carriageway narrows on the left-hand side. It may also be used where the width of the left verge of a one-way carriageway is reduced. It shall not be used where, after a reduction in the number of lanes on the left, the width of the remaining lanes and verges is unchanged."
 },
 {
 "codigo": "P-18",
@@ -313,7 +381,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-18.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Roadworks",
+"descripcion_en": "Danger due to the proximity of a stretch of road under roadworks."
 },
 {
 "codigo": "P-19",
@@ -322,7 +392,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-19.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Slippery road surface",
+"descripcion_en": "Danger due to the proximity of a section of carriageway whose surface may be slippery."
 },
 {
 "codigo": "P-20a",
@@ -331,7 +403,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-20a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrian crossing",
+"descripcion_en": "Danger due to the proximity of one or more pedestrian crossings."
 },
 {
 "codigo": "P-20b",
@@ -340,7 +414,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-20b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrians",
+"descripcion_en": "Danger due to the proximity of a place or stretch with heavy pedestrian traffic."
 },
 {
 "codigo": "P-20c",
@@ -349,7 +425,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-20c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrian and cyclist crossings",
+"descripcion_en": "Danger due to the proximity of a pedestrian crossing adjoining or shared with a cyclist crossing."
 },
 {
 "codigo": "P-21a",
@@ -358,7 +436,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-21a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Children",
+"descripcion_en": "Danger due to the proximity of a place frequented by children, such as a school, a play area, etc."
 },
 {
 "codigo": "P-21b",
@@ -367,7 +447,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-21b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "People with reduced mobility",
+"descripcion_en": "Danger due to the proximity of a place frequented by people with reduced mobility or sensory impairments."
 },
 {
 "codigo": "P-22a",
@@ -376,7 +458,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-22a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Cyclist crossing",
+"descripcion_en": "Danger due to the proximity of one or more cyclist crossings."
 },
 {
 "codigo": "P-22b",
@@ -385,7 +469,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-22b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Cyclists",
+"descripcion_en": "Danger due to the proximity of a stretch with frequent cyclist traffic."
 },
 {
 "codigo": "P-23",
@@ -394,7 +480,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-23.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Domestic animals or livestock crossing",
+"descripcion_en": "Danger due to the proximity of a place where the road is frequently crossed by domestic animals or livestock."
 },
 {
 "codigo": "P-24",
@@ -403,7 +491,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-24.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Wild animals crossing",
+"descripcion_en": "Danger due to the proximity of a place where the road is frequently crossed by wild animals."
 },
 {
 "codigo": "P-24a",
@@ -412,7 +502,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-24a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Wild animals crossing (wild boar)",
+"descripcion_en": "Danger due to the proximity of a place where the road is frequently crossed by wild animals, a very significant proportion of which are wild boar."
 },
 {
 "codigo": "P-25",
@@ -421,7 +513,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-25.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Two-way traffic",
+"descripcion_en": "Danger due to the proximity of a stretch with traffic in both directions."
 },
 {
 "codigo": "P-26",
@@ -430,7 +524,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-26.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Falling rocks",
+"descripcion_en": "Danger due to the proximity of an area with frequent rockfalls and the resulting possible presence of obstacles on the carriageway."
 },
 {
 "codigo": "P-27",
@@ -439,7 +535,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-27.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Quay",
+"descripcion_en": "Danger because the road leads onto a quay or into a watercourse."
 },
 {
 "codigo": "P-28",
@@ -448,7 +546,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-28.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Loose chippings",
+"descripcion_en": "Danger due to the proximity of a stretch of road where there is a risk of chippings being thrown up as vehicles pass."
 },
 {
 "codigo": "P-29",
@@ -457,7 +557,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-29.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Side wind",
+"descripcion_en": "Danger due to the proximity of an area where strong crosswinds frequently blow."
 },
 {
 "codigo": "P-30",
@@ -466,7 +568,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-30.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lateral drop",
+"descripcion_en": "Danger due to the existence of a drop along the road on the side indicated by the symbol."
 },
 {
 "codigo": "P-31",
@@ -475,7 +579,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-31.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Congestion",
+"descripcion_en": "Danger due to the proximity of a stretch where traffic is frequently stopped or hindered by congestion."
 },
 {
 "codigo": "P-32",
@@ -484,7 +590,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-32.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Obstruction on the carriageway",
+"descripcion_en": "Danger due to the proximity of a place where vehicles obstruct the carriageway because of a breakdown, accident or other causes."
 },
 {
 "codigo": "P-33",
@@ -493,7 +601,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-33.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Reduced visibility",
+"descripcion_en": "Danger due to the proximity of a stretch where traffic is frequently hindered by a notable loss of visibility due to fog, rain, snow, smoke, etc."
 },
 {
 "codigo": "P-34",
@@ -502,7 +612,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-34.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Presence of ice or snow",
+"descripcion_en": "Danger due to the proximity of a stretch where, during the winter season, there is frequently ice or snow and the associated hazards."
 },
 {
 "codigo": "P-35",
@@ -511,7 +623,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-35.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Weaving",
+"descripcion_en": "Danger due to the proximity of a stretch between a merge and a diverge where vehicles perform various lane changes, crossing paths and thereby increasing the risk of collisions."
 },
 {
 "codigo": "P-50",
@@ -520,7 +634,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Advertencia De Peligro",
 "img": "P-50.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Other dangers",
+"descripcion_en": "Indicates the proximity of a danger other than those warned of by other signs."
 },
 {
 "codigo": "R-1",
@@ -529,7 +645,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prioridad",
 "img": "R-1.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Give way",
+"descripcion_en": "Obligation for every driver to give way at the next junction to vehicles travelling on the road being approached or in the lane being joined."
 },
 {
 "codigo": "R-2",
@@ -538,7 +656,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prioridad",
 "img": "R-2.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory stop or stop",
+"descripcion_en": "Obligation for every driver to stop their vehicle at the next stop line or, if there is none, immediately before the junction, and to give way there to vehicles travelling on the road being approached. If, due to exceptional circumstances, there is not sufficient visibility from the place where the stop was made, the driver must stop again at a place from which there is visibility, without endangering any road user."
 },
 {
 "codigo": "R-3",
@@ -547,7 +667,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prioridad",
 "img": "R-3.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Road with priority",
+"descripcion_en": "Indicates to drivers travelling on a road that they have priority at junctions over vehicles travelling on or coming from another road."
 },
 {
 "codigo": "R-4",
@@ -556,7 +678,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prioridad",
 "img": "R-4.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of priority",
+"descripcion_en": "Indicates the proximity of the place where the road being travelled loses its priority with respect to another road."
 },
 {
 "codigo": "R-5",
@@ -565,7 +689,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prioridad",
 "img": "R-5.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Priority to oncoming traffic",
+"descripcion_en": "Prohibition on entering a narrow passage while it is not possible to pass through it without forcing oncoming vehicles to stop."
 },
 {
 "codigo": "R-6",
@@ -574,7 +700,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prioridad",
 "img": "R-6.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Priority over oncoming traffic",
+"descripcion_en": "Indicates to drivers that, at the next narrow passage, they have priority over oncoming vehicles."
 },
 {
 "codigo": "R-100",
@@ -583,7 +711,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-100.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No traffic",
+"descripcion_en": "Prohibition on all types of vehicles travelling in either direction."
 },
 {
 "codigo": "R-101",
@@ -592,7 +722,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-101.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry",
+"descripcion_en": "Prohibition on access to all types of vehicles."
 },
 {
 "codigo": "R-102",
@@ -601,7 +733,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-102.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for motor vehicles",
+"descripcion_en": "Prohibition on access to motor vehicles."
 },
 {
 "codigo": "R-103",
@@ -610,7 +744,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-103.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for motor vehicles, except two-wheeled motorcycles",
+"descripcion_en": "Prohibition on access to motor vehicles. It does not prohibit access to two-wheeled motorcycles or to three-wheeled vehicles treated as motorcycles."
 },
 {
 "codigo": "R-104",
@@ -619,7 +755,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-104.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for motorcycles",
+"descripcion_en": "Prohibition on access to motorcycles and to three-wheeled vehicles treated as motorcycles."
 },
 {
 "codigo": "R-105",
@@ -628,7 +766,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-105.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for mopeds",
+"descripcion_en": "Prohibition on access to mopeds. It likewise prohibits entry to vehicles for persons with reduced mobility."
 },
 {
 "codigo": "R-106",
@@ -637,7 +777,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-106.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for goods vehicles",
+"descripcion_en": "Prohibition on access to vehicles used for carrying goods, understood as lorries, articulated lorries and vans, regardless of their mass."
 },
 {
 "codigo": "R-107",
@@ -646,7 +788,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-107.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for goods vehicles with a maximum authorised mass greater than that indicated",
+"descripcion_en": "Prohibition on access to all types of goods vehicles if their maximum authorised mass exceeds that indicated on the sign, understood as lorries, articulated lorries and vans with a maximum authorised mass greater than that indicated on the sign. It prohibits access even when travelling empty."
 },
 {
 "codigo": "R-108",
@@ -655,7 +799,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-108.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for vehicles carrying dangerous goods",
+"descripcion_en": "Prohibition on access to all types of vehicles carrying dangerous goods that are required to be marked in accordance with their specific regulations."
 },
 {
 "codigo": "R-109",
@@ -664,7 +810,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-109.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for vehicles carrying explosive or flammable goods",
+"descripcion_en": "Prohibition on access to all types of vehicles carrying explosive or highly flammable goods that are required to be marked in accordance with their specific regulations."
 },
 {
 "codigo": "R-110",
@@ -673,7 +821,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-110.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for vehicles carrying products that pollute water",
+"descripcion_en": "Prohibition on access to all types of vehicles carrying more than 1,000 litres of products capable of polluting water."
 },
 {
 "codigo": "R-111",
@@ -682,7 +832,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-111.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for agricultural motor vehicles",
+"descripcion_en": "Prohibition on access to tractors and other self-propelled agricultural machinery."
 },
 {
 "codigo": "R-112",
@@ -691,7 +843,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-112.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for motor vehicles with a trailer, except single-axle trailers",
+"descripcion_en": "Prohibition on access to motor vehicles with a trailer, except single-axle trailers. A tonnage figure inscribed on the trailer silhouette or on a supplementary plate means that the prohibition applies only when the maximum authorised mass of the trailer exceeds that figure."
 },
 {
 "codigo": "R-113",
@@ -700,7 +854,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-113.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for animal-drawn vehicles",
+"descripcion_en": "Prohibition on access to animal-drawn vehicles."
 },
 {
 "codigo": "R-114",
@@ -709,7 +865,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-114.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for cycles",
+"descripcion_en": "Prohibition on access to cycles."
 },
 {
 "codigo": "R-115",
@@ -718,7 +876,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-115.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for handcarts",
+"descripcion_en": "Prohibition on access to handcarts."
 },
 {
 "codigo": "R-116",
@@ -727,7 +887,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-116.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for pedestrians",
+"descripcion_en": "Prohibition on access to pedestrians."
 },
 {
 "codigo": "R-117",
@@ -736,7 +898,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-117.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for ridden animals",
+"descripcion_en": "Prohibition on access to ridden animals."
 },
 {
 "codigo": "R-118",
@@ -745,7 +909,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-118.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for personal mobility vehicles",
+"descripcion_en": "Prohibition on access to personal mobility vehicles."
 },
 {
 "codigo": "R-119",
@@ -754,7 +920,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-119.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for cycles and personal mobility vehicles",
+"descripcion_en": "Prohibition on access to cycles and personal mobility vehicles."
 },
 {
 "codigo": "R-120",
@@ -763,7 +931,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Prohibición De Entrada",
 "img": "R-120.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No entry for vehicles based on their environmental label or other environmental criteria",
+"descripcion_en": "Prohibition on access to vehicles based on their environmental label or other environmental criteria that may be established. The conditions will be specified on a supplementary S-860 panel or on a sign that includes this symbol, referring where applicable to the classification of each vehicle according to its environmental label, as established by regulation."
 },
 {
 "codigo": "R-200",
@@ -772,7 +942,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-200.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No passing without stopping",
+"descripcion_en": "Indicates the place where stopping is compulsory due to the proximity, according to the inscription it bears, of a customs, police, toll or other post, behind which mechanical stopping devices may be installed. In any case, the driver thus stopped may not resume driving until the requirement set by the sign has been fulfilled."
 },
 {
 "codigo": "R-201",
@@ -781,7 +953,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-201.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Mass limit",
+"descripcion_en": "Prohibition on passage for vehicles whose laden mass exceeds that indicated in tonnes."
 },
 {
 "codigo": "R-202",
@@ -790,7 +964,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-202.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Axle mass limit",
+"descripcion_en": "Prohibition on passage for vehicles whose mass per axle, transmitted by all the wheels coupled to any axle, exceeds that indicated on the sign."
 },
 {
 "codigo": "R-203",
@@ -799,7 +975,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-203.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Length limit",
+"descripcion_en": "Prohibition on passage for vehicles or combinations of vehicles whose maximum length, including the load, exceeds that indicated."
 },
 {
 "codigo": "R-204",
@@ -808,7 +986,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-204.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Width limit",
+"descripcion_en": "Prohibition on passage for vehicles whose maximum width, including the load, exceeds that indicated."
 },
 {
 "codigo": "R-205",
@@ -817,7 +997,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-205.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Height limit",
+"descripcion_en": "Prohibition on passage for vehicles whose maximum height, including the load, exceeds that indicated."
 },
 {
 "codigo": "R-300",
@@ -826,7 +1008,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-300.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Minimum gap",
+"descripcion_en": "Prohibition on driving without keeping a gap from the vehicle ahead equal to or greater than that indicated on the sign, except when about to carry out an overtaking manoeuvre. If no figure appears, it is a general reminder to keep the safe distance between vehicles established by regulation."
 },
 {
 "codigo": "R-301",
@@ -835,7 +1019,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-301.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Maximum speed",
+"descripcion_en": "Prohibition on driving at a speed higher than that indicated on the sign, expressed in kilometres per hour. It applies from the place where it is located until the next \"End of speed limit\", \"End of prohibitions\" or another \"Maximum speed\" sign, unless it is placed on the same post as a danger warning sign or on the same panel as such, in which case the prohibition ends when the indicated danger ends. Placed on a road without priority, it ceases to be valid on leaving a junction with a road with priority. If the limit indicated by the sign matches the maximum speed permitted for that type of road, it is a general reminder of the prohibition on exceeding it."
 },
 {
 "codigo": "R-302",
@@ -844,7 +1030,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-302.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No right turn",
+"descripcion_en": "Prohibition on turning right."
 },
 {
 "codigo": "R-303",
@@ -853,7 +1041,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-303.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No left turn",
+"descripcion_en": "Prohibition on turning left. This also includes the prohibition on making a U-turn."
 },
 {
 "codigo": "R-304",
@@ -862,7 +1052,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-304.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No U-turn",
+"descripcion_en": "Prohibition on carrying out a U-turn manoeuvre."
 },
 {
 "codigo": "R-305",
@@ -871,7 +1063,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-305.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No overtaking",
+"descripcion_en": "In addition to the general principles on overtaking, it indicates the prohibition on all vehicles overtaking motor vehicles travelling on the carriageway when that manoeuvre involves entering the area reserved for oncoming traffic. The prohibition applies from the place where the sign is located until the next \"End of no overtaking\" or \"End of prohibitions\" sign. Placed at locations where overtaking is prohibited by rule, it is a general reminder of the prohibition on carrying out this manoeuvre."
 },
 {
 "codigo": "R-306",
@@ -880,7 +1074,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-306.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No overtaking for lorries",
+"descripcion_en": "Prohibition on lorries whose maximum authorised mass exceeds 3,500 kilograms overtaking motor vehicles travelling on the carriageway, even when that manoeuvre does not involve entering the area reserved for oncoming traffic. The prohibition applies from the place where the sign is located until the next \"End of no overtaking\" or \"End of prohibitions\" sign."
 },
 {
 "codigo": "R-307",
@@ -889,7 +1085,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-307.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No stopping or parking",
+"descripcion_en": "Prohibition on stopping and parking on the side of the carriageway where the sign is located. Unless otherwise indicated, the prohibition begins at the vertical of the sign and ends at the nearest junction in the direction of travel."
 },
 {
 "codigo": "R-307a",
@@ -898,7 +1096,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-307a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No stopping or parking on both sides of the sign",
+"descripcion_en": "Prohibition on stopping and parking on the side of the carriageway where the sign is located, in the stretch between the nearest junctions or R-307b and R-307c signs on both sides of the sign."
 },
 {
 "codigo": "R-307b",
@@ -907,7 +1107,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-307b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No stopping or parking towards the side indicated by the arrow",
+"descripcion_en": "Prohibition on stopping and parking on the side of the carriageway where the sign is located, in the stretch between the sign and the nearest junction or R-307c sign in the direction indicated by the arrow."
 },
 {
 "codigo": "R-307c",
@@ -916,7 +1118,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-307c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No stopping or parking towards the side indicated by the arrow",
+"descripcion_en": "Prohibition on stopping and parking on the side of the carriageway where the sign is located, in the stretch between the sign and the nearest junction or R-307b sign in the direction indicated by the arrow."
 },
 {
 "codigo": "R-308",
@@ -925,7 +1129,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-308.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No parking",
+"descripcion_en": "Prohibition on parking on the side of the carriageway where the sign is located. Unless otherwise indicated, the prohibition begins at the vertical of the sign and ends at the nearest junction in the direction of travel. It does not prohibit stopping."
 },
 {
 "codigo": "R-308c",
@@ -934,7 +1140,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-308c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No parking during the first fortnight",
+"descripcion_en": "Prohibition on parking on the side of the carriageway where the sign is located, from 9:00 on the 1st until 9:00 on the 16th of the month. Unless otherwise indicated, the prohibition begins at the vertical of the sign and ends at the nearest junction in the direction of travel. It does not prohibit stopping."
 },
 {
 "codigo": "R-308d",
@@ -943,7 +1151,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-308d.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No parking during the second fortnight",
+"descripcion_en": "Prohibition on parking on the side of the carriageway where the sign is located, from 9:00 on the 16th until 9:00 on the 1st of the month. Unless otherwise indicated, the prohibition begins at the vertical of the sign and ends at the nearest junction in the direction of travel. It does not prohibit stopping."
 },
 {
 "codigo": "R-308e",
@@ -952,7 +1162,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-308e.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No parking in front of a vehicle entrance",
+"descripcion_en": "Prohibits parking in front of a vehicle entrance."
 },
 {
 "codigo": "R-308f",
@@ -961,7 +1173,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-308f.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No parking on both sides of the sign",
+"descripcion_en": "Prohibition on parking on the side of the carriageway where the sign is located, in the stretch between the nearest junctions or R-308g and R-308h signs on both sides of the sign. It does not prohibit stopping."
 },
 {
 "codigo": "R-308g",
@@ -970,7 +1184,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-308g.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No parking towards the side indicated by the arrow",
+"descripcion_en": "Prohibition on parking on the side of the carriageway where the sign is located, in the stretch between the sign and the nearest junction or R-308h sign in the direction indicated by the arrow. It does not prohibit stopping."
 },
 {
 "codigo": "R-308h",
@@ -979,7 +1195,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-308h.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No parking towards the side indicated by the arrow",
+"descripcion_en": "Prohibition on parking on the side of the carriageway where the sign is located, in the stretch between the sign and the nearest junction or R-308g sign in the direction indicated by the arrow. It does not prohibit stopping."
 },
 {
 "codigo": "R-309",
@@ -988,7 +1206,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-309.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Limited parking zone",
+"descripcion_en": "A zone of limited-duration parking and an obligation for the driver to indicate, in the prescribed manner, the time at which parking began. The maximum authorised parking time and the hours during which the restriction applies may be included within the sign itself, on a plate or on a supplementary panel. It may also be indicated whether parking is subject to payment."
 },
 {
 "codigo": "R-310",
@@ -997,7 +1217,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Restricción De Paso",
 "img": "R-310.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No audible warnings",
+"descripcion_en": "Reminder of the general prohibition on giving audible signals, except to avoid an accident."
 },
 {
 "codigo": "R-400a",
@@ -1006,7 +1228,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-400a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory direction",
+"descripcion_en": "The arrow indicates the direction that vehicles are obliged to follow."
 },
 {
 "codigo": "R-400b",
@@ -1015,7 +1239,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-400b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory direction",
+"descripcion_en": "The arrow indicates the direction that vehicles are obliged to follow."
 },
 {
 "codigo": "R-400c",
@@ -1024,7 +1250,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-400c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory direction",
+"descripcion_en": "The arrow indicates the direction that vehicles are obliged to follow."
 },
 {
 "codigo": "R-400d",
@@ -1033,7 +1261,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-400d.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory direction",
+"descripcion_en": "The arrow indicates the direction that vehicles are obliged to follow."
 },
 {
 "codigo": "R-400e",
@@ -1042,7 +1272,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-400e.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory direction",
+"descripcion_en": "The arrow indicates the direction that vehicles are obliged to follow."
 },
 {
 "codigo": "R-401a",
@@ -1051,7 +1283,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-401a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory passing side",
+"descripcion_en": "The arrow indicates the side of the refuge, island or obstacle on which vehicles must pass."
 },
 {
 "codigo": "R-401b",
@@ -1060,7 +1294,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-401b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory passing side",
+"descripcion_en": "The arrow indicates the side of the refuge, island or obstacle on which vehicles must pass."
 },
 {
 "codigo": "R-401c",
@@ -1069,7 +1305,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-401c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory passing side",
+"descripcion_en": "The arrows indicate the sides of the refuge, island or obstacle, on one of which vehicles must pass."
 },
 {
 "codigo": "R-402",
@@ -1078,7 +1316,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-402.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Compulsory direction at roundabout",
+"descripcion_en": "The arrows indicate the direction of the circular movement that vehicles must follow."
 },
 {
 "codigo": "R-403a",
@@ -1087,7 +1327,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-403a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Only permitted directions",
+"descripcion_en": "The arrows indicate the only directions that vehicles may take."
 },
 {
 "codigo": "R-403b",
@@ -1096,7 +1338,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-403b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Only permitted directions",
+"descripcion_en": "The arrows indicate the only directions that vehicles may take."
 },
 {
 "codigo": "R-403c",
@@ -1105,7 +1349,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-403c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Only permitted direction",
+"descripcion_en": "The arrows indicate the only direction that vehicles may take."
 },
 {
 "codigo": "R-404",
@@ -1114,7 +1360,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-404.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Carriageway compulsory for motor cars, except two-wheeled motorcycles",
+"descripcion_en": "Obligation for drivers of motor cars, except two-wheeled motorcycles and three-wheeled vehicles treated as motorcycles, to travel on the carriageway at the entrance to which it is located."
 },
 {
 "codigo": "R-405",
@@ -1123,7 +1371,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-405.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Carriageway compulsory for two-wheeled motorcycles",
+"descripcion_en": "Obligation for drivers of two-wheeled motorcycles and three-wheeled vehicles treated as motorcycles to travel on the carriageway at the entrance to which it is located."
 },
 {
 "codigo": "R-406",
@@ -1132,7 +1382,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-406.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Carriageway compulsory for lorries, articulated lorries and vans",
+"descripcion_en": "Obligation for drivers of all types of lorries, articulated lorries and vans, regardless of their mass, to travel on the carriageway at the entrance to which it is located. A tonnage figure inscribed on the vehicle silhouette or on a supplementary plate means that the obligation applies only when the maximum authorised mass of the vehicle or combination of vehicles exceeds that figure."
 },
 {
 "codigo": "R-407a",
@@ -1141,7 +1393,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-407a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route reserved and compulsory for cycles",
+"descripcion_en": "Obligation for drivers of cycles to travel on the route at the entrance to which it is located, and prohibition on other road users using it."
 },
 {
 "codigo": "R-407b",
@@ -1150,7 +1404,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-407b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route reserved and compulsory for mopeds",
+"descripcion_en": "Obligation for drivers of mopeds to travel on the route at the entrance to which it is located, and prohibition on other road users using it."
 },
 {
 "codigo": "R-408",
@@ -1159,7 +1415,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-408.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Track compulsory for animal-drawn vehicles",
+"descripcion_en": "Obligation for drivers of animal-drawn vehicles to use the track at the entrance to which it is located."
 },
 {
 "codigo": "R-409",
@@ -1168,7 +1426,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-409.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Track reserved and compulsory for ridden animals",
+"descripcion_en": "Obligation for riders to use, with their ridden animals, the track at the entrance to which it is located, and prohibition on other road users using it."
 },
 {
 "codigo": "R-410",
@@ -1177,7 +1437,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-410.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Path reserved and compulsory for pedestrians",
+"descripcion_en": "Obligation for pedestrians to use the path at the entrance to which it is located, and prohibition on other road users using it."
 },
 {
 "codigo": "R-411",
@@ -1186,7 +1448,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-411.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Minimum speed",
+"descripcion_en": "Obligation for drivers to travel at least at the speed indicated by the figure, in kilometres per hour, on the sign, from the place where it is located until another sign of a different minimum speed, or of end of minimum speed, or of a maximum speed equal to or lower than that value."
 },
 {
 "codigo": "R-412",
@@ -1195,7 +1459,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-412.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Snow chains",
+"descripcion_en": "Obligation not to continue driving without snow chains or other authorised anti-skid devices fitted to at least one wheel on each side of the same drive axle, or special snow tyres."
 },
 {
 "codigo": "R-412b",
@@ -1204,7 +1470,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-412b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Winter tyres",
+"descripcion_en": "Obligation not to continue driving without special winter tyres."
 },
 {
 "codigo": "R-413",
@@ -1213,7 +1481,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-413.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Dipped headlights",
+"descripcion_en": "Obligation for drivers to travel with at least dipped headlights on, regardless of the visibility and lighting conditions of the road, from the place where the sign is located until another sign ending this obligation."
 },
 {
 "codigo": "R-414",
@@ -1222,7 +1492,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-414.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Carriageway compulsory for vehicles carrying dangerous goods",
+"descripcion_en": "Obligation for drivers of all types of vehicles carrying dangerous goods that are required to be marked in accordance with their specific regulations to travel on the carriageway at the entrance to which it is located."
 },
 {
 "codigo": "R-415",
@@ -1231,7 +1503,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-415.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Carriageway compulsory for vehicles carrying products that pollute water",
+"descripcion_en": "Obligation for drivers of all types of vehicles carrying more than 1,000 litres of products capable of polluting water to travel on the carriageway at the entrance to which it is located."
 },
 {
 "codigo": "R-416",
@@ -1240,7 +1514,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-416.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Carriageway compulsory for vehicles carrying explosive and flammable goods",
+"descripcion_en": "Obligation for drivers of all types of vehicles carrying explosive or highly flammable goods that are required to be marked in accordance with their specific regulations to travel on the carriageway at the entrance to which it is located."
 },
 {
 "codigo": "R-417",
@@ -1249,7 +1525,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-417.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Seat belt compulsory",
+"descripcion_en": "Reminder of the obligation to wear a seat belt."
 },
 {
 "codigo": "R-418",
@@ -1258,7 +1536,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-418.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route exclusively for vehicles fitted with operational electronic toll equipment. Electronic tolling compulsory",
+"descripcion_en": "Obligation to pay the toll by means of the dynamic tolling or electronic tolling system; a vehicle travelling in the lane or lanes marked in this way must be fitted with the technical device that enables its use in operational conditions in accordance with the legal provisions on the matter."
 },
 {
 "codigo": "R-419",
@@ -1267,7 +1547,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-419.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Track compulsory for tractors",
+"descripcion_en": "Obligation for drivers of tractors to use the track at the entrance to which it is located."
 },
 {
 "codigo": "R-420",
@@ -1276,7 +1558,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-420.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route reserved and compulsory for personal mobility vehicles",
+"descripcion_en": "Obligation for drivers of personal mobility vehicles to travel on the route at the entrance to which it is located, and prohibition on other road users using it."
 },
 {
 "codigo": "R-421",
@@ -1285,7 +1569,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-421.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route reserved and compulsory for cycles and personal mobility vehicles",
+"descripcion_en": "Obligation for drivers of cycles and personal mobility vehicles to travel on the route at the entrance to which it is located, and prohibition on other road users using it."
 },
 {
 "codigo": "R-422",
@@ -1294,7 +1580,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Obligación",
 "img": "R-422.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Dismount and continue on foot",
+"descripcion_en": "Obligation for cycle users to continue on foot. If this obligation is limited to certain periods, this will be indicated on a supplementary panel."
 },
 {
 "codigo": "R-500",
@@ -1303,7 +1591,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-500.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of prohibitions",
+"descripcion_en": "Marks the place from which all the specific prohibitions indicated by earlier prohibition signs for moving vehicles cease to apply."
 },
 {
 "codigo": "R-501",
@@ -1312,7 +1602,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-501.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of speed limit",
+"descripcion_en": "Marks the place from which an earlier maximum speed sign ceases to apply."
 },
 {
 "codigo": "R-502",
@@ -1321,7 +1613,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-502.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of no overtaking",
+"descripcion_en": "Marks the place from which an earlier no-overtaking sign ceases to apply."
 },
 {
 "codigo": "R-503",
@@ -1330,7 +1624,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-503.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of no overtaking for lorries",
+"descripcion_en": "Marks the place from which an earlier no-overtaking sign for lorries ceases to apply."
 },
 {
 "codigo": "R-504",
@@ -1339,7 +1635,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-504.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of limited parking zone",
+"descripcion_en": "Marks the place from which an earlier limited parking zone sign ceases to apply."
 },
 {
 "codigo": "R-506",
@@ -1348,7 +1646,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-506.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of minimum speed",
+"descripcion_en": "Marks the place from which an earlier minimum speed sign ceases to apply."
 },
 {
 "codigo": "R-507",
@@ -1357,7 +1657,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-507.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of carriageway compulsory for motor cars, except two-wheeled motorcycles",
+"descripcion_en": "Marks the place from which an earlier sign of carriageway compulsory for motor cars, except two-wheeled motorcycles and three-wheeled vehicles treated as motorcycles, ceases to apply."
 },
 {
 "codigo": "R-508",
@@ -1366,7 +1668,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-508.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of carriageway compulsory for two-wheeled motorcycles",
+"descripcion_en": "Marks the place from which an earlier sign of carriageway compulsory for two-wheeled motorcycles and three-wheeled vehicles treated as motorcycles ceases to apply."
 },
 {
 "codigo": "R-509",
@@ -1375,7 +1679,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-509.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of carriageway compulsory for lorries, articulated lorries and vans",
+"descripcion_en": "Marks the place from which an earlier sign of carriageway compulsory for lorries, articulated lorries and vans ceases to apply."
 },
 {
 "codigo": "R-510",
@@ -1384,7 +1690,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-510.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of route reserved and compulsory for mopeds",
+"descripcion_en": "Marks the place from which an earlier sign of route reserved and compulsory for mopeds ceases to apply."
 },
 {
 "codigo": "R-511",
@@ -1393,7 +1701,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-511.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of track compulsory for animal-drawn vehicles",
+"descripcion_en": "Marks the place from which an earlier sign of track compulsory for animal-drawn vehicles ceases to apply."
 },
 {
 "codigo": "R-512",
@@ -1402,7 +1712,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-512.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of track reserved and compulsory for ridden animals",
+"descripcion_en": "Marks the place from which an earlier sign of track reserved and compulsory for ridden animals ceases to apply."
 },
 {
 "codigo": "R-513",
@@ -1411,7 +1723,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-513.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of path reserved and compulsory for pedestrians",
+"descripcion_en": "Marks the place from which an earlier sign of path reserved and compulsory for pedestrians ceases to apply."
 },
 {
 "codigo": "R-514",
@@ -1420,7 +1734,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-514.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of track compulsory for tractors",
+"descripcion_en": "Marks the place from which an earlier sign of track compulsory for tractors ceases to apply."
 },
 {
 "codigo": "R-515",
@@ -1429,7 +1745,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-515.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of route reserved and compulsory for personal mobility vehicles",
+"descripcion_en": "Marks the place from which an earlier sign of route reserved and compulsory for personal mobility vehicles ceases to apply."
 },
 {
 "codigo": "R-516",
@@ -1438,7 +1756,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Fin De Prohibición, Restricción U Obligación",
 "img": "R-516.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of route reserved and compulsory for cycles and personal mobility vehicles",
+"descripcion_en": "Marks the place from which an earlier sign of route reserved and compulsory for cycles and personal mobility vehicles ceases to apply."
 },
 {
 "codigo": "S-1",
@@ -1447,7 +1767,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-1.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Motorway",
+"descripcion_en": "Indicates the beginning of a motorway and therefore the place from which the special traffic rules for this type of road apply. It may also indicate the slip road of an interchange leading to a motorway."
 },
 {
 "codigo": "S-1a",
@@ -1456,7 +1778,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-1a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Dual carriageway",
+"descripcion_en": "Indicates the beginning of a dual carriageway and therefore the place from which the special traffic rules for this type of road apply. It may also indicate the slip road of an interchange leading to a dual carriageway."
 },
 {
 "codigo": "S-1c",
@@ -1465,7 +1789,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-1c.png",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "2+1 road",
+"descripcion_en": "Indicates the beginning of a 2+1 road, that is, one that has three traffic lanes and allows travel in both directions. The central lane is used to assist the overtaking manoeuvre, being reserved alternately for one direction of travel and then the other. This sign may also indicate the slip road of an interchange leading to a 2+1 road."
 },
 {
 "codigo": "S-2",
@@ -1474,7 +1800,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-2.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of motorway",
+"descripcion_en": "Indicates the end of a motorway."
 },
 {
 "codigo": "S-2a",
@@ -1483,7 +1811,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-2a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of dual carriageway",
+"descripcion_en": "Indicates the end of a dual carriageway."
 },
 {
 "codigo": "S-2c",
@@ -1492,7 +1822,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-2c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of 2+1 road",
+"descripcion_en": "Indicates the end of a 2+1 road."
 },
 {
 "codigo": "S-3",
@@ -1501,7 +1833,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-3.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Road reserved for motor vehicles",
+"descripcion_en": "Indicates the beginning of a road reserved for motor vehicle traffic."
 },
 {
 "codigo": "S-4",
@@ -1510,7 +1844,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-4.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of road reserved for motor vehicles",
+"descripcion_en": "Indicates the end of a road reserved for motor vehicles."
 },
 {
 "codigo": "S-5",
@@ -1519,7 +1855,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-5.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Tunnel",
+"descripcion_en": "Indicates the beginning and, where applicable, the name of a tunnel, an underpass or a stretch of road treated as a tunnel. It may bear at its lower part the length of the tunnel in metres."
 },
 {
 "codigo": "S-7",
@@ -1528,7 +1866,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-7.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Recommended maximum speed",
+"descripcion_en": "Recommends a driving speed, in kilometres per hour, that it is advised not to exceed even when the weather and environmental conditions of the road and traffic are favourable. When placed below a danger warning sign, the recommendation refers to the stretch where that danger persists."
 },
 {
 "codigo": "S-8",
@@ -1537,7 +1877,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-8.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of recommended maximum speed",
+"descripcion_en": "Indicates the end of a stretch where it is recommended to travel at the speed, in kilometres per hour, indicated on the sign."
 },
 {
 "codigo": "S-9",
@@ -1546,7 +1888,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-9.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Recommended speed range",
+"descripcion_en": "Recommends keeping the speed between the values indicated, provided that the weather and environmental conditions of the road and traffic are favourable. When placed below a danger warning sign, the recommendation refers to the stretch where that danger persists."
 },
 {
 "codigo": "S-10",
@@ -1555,7 +1899,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-10.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of recommended speed range",
+"descripcion_en": "Marks the place from which an earlier recommended speed range sign ceases to apply."
 },
 {
 "codigo": "S-11",
@@ -1564,7 +1910,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-11.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "One-way single-lane carriageway",
+"descripcion_en": "Indicates that on the single-lane carriageway extending in the direction of the arrow, vehicles must travel in the direction indicated by it, and that travel in the opposite direction is prohibited."
 },
 {
 "codigo": "S-11a",
@@ -1573,7 +1921,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-11a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "One-way two-lane carriageway",
+"descripcion_en": "Indicates that on the two-lane carriageway extending in the direction of the arrows, vehicles must travel in the direction indicated by them, and that travel in the opposite direction is prohibited."
 },
 {
 "codigo": "S-11b",
@@ -1582,7 +1932,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-11b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "One-way three-lane carriageway",
+"descripcion_en": "Indicates that on the three-lane carriageway extending in the direction of the arrows, vehicles must travel in the direction indicated by them, and that travel in the opposite direction is prohibited. Where there are more lanes, the number of arrows will be adapted accordingly."
 },
 {
 "codigo": "S-12a",
@@ -1591,7 +1943,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-12a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "One-way stretch of carriageway",
+"descripcion_en": "Indicates that on the stretch of carriageway extending in the direction of the arrow, vehicles must travel in the direction indicated by it, and that travel in the opposite direction is prohibited."
 },
 {
 "codigo": "S-12b",
@@ -1600,7 +1954,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-12b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "One-way stretch of carriageway",
+"descripcion_en": "Indicates that on the stretch of carriageway extending in the direction of the arrow, vehicles must travel in the direction indicated by it, and that travel in the opposite direction is prohibited."
 },
 {
 "codigo": "S-13",
@@ -1609,7 +1965,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-13.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a pedestrian crossing",
+"descripcion_en": "Indicates the location of a pedestrian crossing."
 },
 {
 "codigo": "S-14a",
@@ -1618,7 +1976,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-14a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrian footbridge",
+"descripcion_en": "Indicates the location of a pedestrian footbridge."
 },
 {
 "codigo": "S-14b",
@@ -1627,7 +1987,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-14b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrian underpass",
+"descripcion_en": "Indicates the location of a pedestrian underpass."
 },
 {
 "codigo": "S-14c",
@@ -1636,7 +1998,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-14c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrian footbridge with ramp",
+"descripcion_en": "Indicates the location of a pedestrian footbridge fitted with a ramp."
 },
 {
 "codigo": "S-14d",
@@ -1645,7 +2009,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-14d.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrian underpass with ramp",
+"descripcion_en": "Indicates the location of a pedestrian underpass fitted with a ramp."
 },
 {
 "codigo": "S-14e",
@@ -1654,7 +2020,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-14e.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrian footbridge with cycle rail or ramp",
+"descripcion_en": "Indicates the location of a pedestrian footbridge fitted with a cycle rail or ramp."
 },
 {
 "codigo": "S-14f",
@@ -1663,7 +2031,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-14f.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrian underpass with cycle rail or ramp",
+"descripcion_en": "Indicates the location of a pedestrian underpass fitted with a cycle rail or ramp."
 },
 {
 "codigo": "S-15a",
@@ -1672,7 +2042,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-15a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No through road",
+"descripcion_en": "Indicates that the road shown on the sign with a red outline has no through route."
 },
 {
 "codigo": "S-15b",
@@ -1681,7 +2053,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-15b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance warning of no through road",
+"descripcion_en": "Indicates that the road shown on the sign with a red outline has no through route. The mirror image may be used to match the actual layout."
 },
 {
 "codigo": "S-15c",
@@ -1690,7 +2064,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-15c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance warning of no through road",
+"descripcion_en": "Indicates that the road shown on the sign with a red outline has no through route. The mirror image may be used to match the actual layout."
 },
 {
 "codigo": "S-15d",
@@ -1699,7 +2075,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-15d.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance warning of no through road",
+"descripcion_en": "Indicates that the road shown on the sign with a red outline has no through route."
 },
 {
 "codigo": "S-15e",
@@ -1708,7 +2086,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-15e.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "No through road except for pedestrians or cycles",
+"descripcion_en": "Indicates that the road shown on the sign with a red outline has no through route except for pedestrians or cycles. The pictogram(s) of the users to which the exception applies will be shown."
 },
 {
 "codigo": "S-16",
@@ -1717,7 +2097,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-16.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Emergency braking zone",
+"descripcion_en": "Indicates the location of an escape lane off the carriageway prepared so that a vehicle can be stopped in the event of a failure of its braking system."
 },
 {
 "codigo": "S-17",
@@ -1726,7 +2108,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-17.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Parking",
+"descripcion_en": "Indicates the place where vehicle parking is authorised. An inscription or a symbol representing certain classes of vehicle indicates that parking is reserved for those classes. An inscription with time indications limits the duration of parking to that stated."
 },
 {
 "codigo": "S-17a",
@@ -1735,7 +2119,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-17a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Parking for a specific purpose",
+"descripcion_en": "Indicates the place where vehicle parking is authorised solely for a specific purpose (access to a pharmacy, hospital, etc.), whose pictogram will be included on the sign, and for a set time. The duration of that time will be indicated on a supplementary panel."
 },
 {
 "codigo": "S-18",
@@ -1744,7 +2130,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-18.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Place reserved for taxis",
+"descripcion_en": "Indicates the place reserved for the stopping and parking of vacant taxis and taxis in service. An inscribed number indicates the total number of spaces reserved for this purpose."
 },
 {
 "codigo": "S-19",
@@ -1753,7 +2141,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-19.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Bus stop",
+"descripcion_en": "Indicates the place reserved for a bus stop."
 },
 {
 "codigo": "S-20",
@@ -1762,7 +2152,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-20.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Tram stop",
+"descripcion_en": "Indicates the place reserved for a tram stop."
 },
 {
 "codigo": "S-21",
@@ -1771,7 +2163,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-21.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Passability of a mountain stretch or pass",
+"descripcion_en": "Indicates the passability status of the pass or stretch defined in the upper part of the sign."
 },
 {
 "codigo": "S-22",
@@ -1780,7 +2174,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-22.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "At-grade U-turn point",
+"descripcion_en": "Indicates the proximity of a place where an at-grade U-turn can be made."
 },
 {
 "codigo": "S-23",
@@ -1789,7 +2185,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-23.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Hospital",
+"descripcion_en": "Indicates the location of a hospital, as well as the advisability of taking the precautions required by the proximity of medical facilities, especially that of avoiding noise."
 },
 {
 "codigo": "S-24",
@@ -1798,7 +2196,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-24.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of obligation to use dipped headlights",
+"descripcion_en": "(dipped beam) Indicates the end of a stretch where at least dipped or low-beam headlights are compulsory, and is a reminder that these may be dispensed with, provided this is not required by conditions of visibility, time of day or road lighting."
 },
 {
 "codigo": "S-25",
@@ -1807,7 +2207,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-25.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Grade-separated U-turn point",
+"descripcion_en": "Indicates the proximity of an exit by which a grade-separated U-turn can be made."
 },
 {
 "codigo": "S-26a",
@@ -1816,7 +2218,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-26a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Exit approach panel (300 m)",
+"descripcion_en": "Indicates, on a motorway or dual carriageway, that the next exit is located approximately 300 m ahead. If the exit is on the left, the diagonal would slope down from left to right and the sign would be placed on the left of the carriageway."
 },
 {
 "codigo": "S-26b",
@@ -1825,7 +2229,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-26b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Exit approach panel (200 m)",
+"descripcion_en": "Indicates, on a motorway or dual carriageway, that the next exit is located approximately 200 m ahead. If the exit is on the left, the diagonal would slope down from left to right and the sign would be placed on the left of the carriageway."
 },
 {
 "codigo": "S-26c",
@@ -1834,7 +2240,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-26c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Exit approach panel (100 m)",
+"descripcion_en": "Indicates, on a motorway or dual carriageway, that the next exit is located approximately 100 m ahead. If the exit is on the left, the diagonal would slope down from left to right and the sign would be placed on the left of the carriageway."
 },
 {
 "codigo": "S-27",
@@ -1843,7 +2251,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-27.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Roadside assistance",
+"descripcion_en": "Indicates the location of the nearest emergency post or telephone from which help can be requested in the event of an accident or breakdown. The sign may indicate the distance to it."
 },
 {
 "codigo": "S-28",
@@ -1852,7 +2262,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-28.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Residential and play zone",
+"descripcion_en": "Indicates traffic areas primarily intended for pedestrians, where the following special traffic rules apply: the maximum speed for vehicles is set at 10 kilometres per hour and drivers must give priority to pedestrians; vehicles may park only in places designated by signs or markings; cycles and, where applicable, PMVs may travel in both directions, unless the competent authority provides otherwise; pedestrians may use the entire traffic area, and therefore pedestrian crossings are not marked; games and sports are permitted there. It is always accompanied by sign R-301 limiting the speed to 10 km/h."
 },
 {
 "codigo": "S-29",
@@ -1861,7 +2273,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-29.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of residential and play zone",
+"descripcion_en": "Indicates that the general traffic rules apply again."
 },
 {
 "codigo": "S-30a",
@@ -1870,7 +2284,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-30a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Pedestrian zone",
+"descripcion_en": "Indicates a zone reserved for pedestrian use."
 },
 {
 "codigo": "S-31a",
@@ -1879,7 +2295,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-31a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of pedestrian zone",
+"descripcion_en": "Indicates the end of a zone reserved for pedestrian use."
 },
 {
 "codigo": "S-32",
@@ -1888,7 +2306,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-32.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Electronic tolling",
+"descripcion_en": "Indicates that a vehicle travelling in the lane or lanes marked in this way may, in addition to by other means, pay the toll by the dynamic tolling or electronic tolling system, provided it is fitted with the technical device that enables its use."
 },
 {
 "codigo": "S-33",
@@ -1897,7 +2317,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-33.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Shared cycle and pedestrian path",
+"descripcion_en": "Indicates the existence of a path for pedestrians, cycles and, where applicable, PMVs, segregated from motorised traffic, which usually runs through open spaces, parks, gardens or woodland, though outside built-up areas it may also run parallel to the road. In the presence of people walking, cycles and, where applicable, PMVs must reduce their speed to ensure safety and coexistence. Likewise, people on foot shall facilitate the passage of cycles and, where applicable, PMVs."
 },
 {
 "codigo": "S-34",
@@ -1906,7 +2328,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-34.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lay-by",
+"descripcion_en": "Indicates the location of a place where a vehicle can pull over in an emergency in order to leave the way clear."
 },
 {
 "codigo": "S-34a",
@@ -1915,7 +2339,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-34a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lay-by in tunnels with emergency telephone",
+"descripcion_en": "Indicates the location of a place where a vehicle can pull over in a tunnel in an emergency in order to leave the way clear, and which has an emergency telephone."
 },
 {
 "codigo": "S-35",
@@ -1924,7 +2350,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-35.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route reserved for cycles",
+"descripcion_en": "Indicates the existence of a route intended for cycle traffic and prohibition on other road users using it."
 },
 {
 "codigo": "S-36",
@@ -1933,7 +2361,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-36.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of route reserved for cycles",
+"descripcion_en": "Indicates the end of a route intended for cycle traffic."
 },
 {
 "codigo": "S-37",
@@ -1942,7 +2372,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-37.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route reserved for personal mobility vehicles",
+"descripcion_en": "Indicates the existence of a route intended for personal mobility vehicle traffic and prohibition on other road users using it."
 },
 {
 "codigo": "S-38",
@@ -1951,7 +2383,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-38.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route reserved for cycles and personal mobility vehicles",
+"descripcion_en": "Indicates the existence of a route intended for cycle and personal mobility vehicle traffic and prohibition on other road users using it."
 },
 {
 "codigo": "S-39",
@@ -1960,7 +2394,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-39.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of route reserved for personal mobility vehicles",
+"descripcion_en": "Indicates the end of a route intended for personal mobility vehicle traffic and prohibition on other road users using it."
 },
 {
 "codigo": "S-40",
@@ -1969,7 +2405,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-40.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of route reserved for cycles and personal mobility vehicles",
+"descripcion_en": "Indicates the end of a route intended for cycle and personal mobility vehicle traffic and prohibition on other road users using it."
 },
 {
 "codigo": "S-41",
@@ -1978,7 +2416,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-41.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route reserved for cycles and pedestrians with separate spaces for each",
+"descripcion_en": "Indicates the existence of a route intended for cycle and pedestrian traffic with a separate space for each. The design of the sign may be adapted to the actual arrangement of the spaces on each route."
 },
 {
 "codigo": "S-42",
@@ -1987,7 +2427,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-42.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of route reserved for cycles and pedestrians with separate spaces for each",
+"descripcion_en": "Indicates the end of a route intended for cycle and pedestrian traffic with a separate space for each. The design of the sign may be adapted to the actual arrangement of the spaces on each route."
 },
 {
 "codigo": "S-43",
@@ -1996,7 +2438,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-43.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route reserved for cycles, personal mobility vehicles",
+"descripcion_en": "and pedestrians, with separate spaces between the first two and the last. Indicates the existence of a route intended for cycle, personal mobility vehicle and pedestrian traffic with a separate space between the first two and the last. The design of the sign may be adapted to the actual arrangement of the spaces on each route."
 },
 {
 "codigo": "S-44",
@@ -2005,7 +2449,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-44.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of route reserved for cycles, personal mobility",
+"descripcion_en": "vehicles and pedestrians, with separate spaces between the first two and the last. Indicates the end of a route intended for cycle, personal mobility vehicle and pedestrian traffic with a separate space between the first two and the last. The design of the sign may be adapted to the actual arrangement of the spaces on each route."
 },
 {
 "codigo": "S-45",
@@ -2014,7 +2460,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-45.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a cyclist crossing",
+"descripcion_en": "Indicates the location of a cyclist crossing."
 },
 {
 "codigo": "S-46",
@@ -2023,7 +2471,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-46.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a pedestrian and cyclist crossing",
+"descripcion_en": "Indicates the location of a pedestrian crossing adjoining or shared with a cyclist crossing."
 },
 {
 "codigo": "S-47",
@@ -2032,7 +2482,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-47.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Coexistence zone",
+"descripcion_en": "Indicates an area of circulation intended primarily for pedestrians, where the following special traffic rules apply: the maximum speed for vehicles is 20 km/h; the road is shared between vehicles, cyclists and pedestrians; pedestrians have priority, may use the whole area and therefore pedestrian crossings are not marked; cycles and, where applicable, personal mobility vehicles may travel in both directions, unless the competent authority provides otherwise; vehicles may only park in places designated by signs or markings; games and sports are not permitted."
 },
 {
 "codigo": "S-48",
@@ -2041,7 +2493,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-48.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of coexistence zone",
+"descripcion_en": "Indicates that the general traffic rules apply again."
 },
 {
 "codigo": "S-49",
@@ -2050,7 +2504,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Indicaciones Generales",
 "img": "S-49.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advanced stop area for motorcycles or bicycles",
+"descripcion_en": "Indicates a waiting area ahead of the stop line at a junction controlled by traffic lights, reserved for the vehicles shown on the sign (motorcycles, three-wheeled vehicles treated as motorcycles and mopeds, all three represented by the motorcycle pictogram, or cycles)."
 },
 {
 "codigo": "S-50a",
@@ -2059,7 +2515,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-50a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lanes reserved according to the signposted speed",
+"descripcion_en": "Indicates, on a two-way carriageway, the addition of a lane on the left which may only be used by vehicles travelling at a speed equal to or greater than that indicated, although they must keep to the right-hand lane if circumstances permit. The end of the minimum-speed requirement is established by sign R-506 or the corresponding S-52 type sign."
 },
 {
 "codigo": "S-50b",
@@ -2068,7 +2526,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-50b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lanes reserved according to the signposted speed",
+"descripcion_en": "Indicates, on a two-way carriageway, the addition of a lane on the right. The lane over which the minimum-speed sign is placed may only be used by vehicles travelling at a speed equal to or greater than that indicated, although they must keep to the right-hand lane if circumstances permit. The end of the minimum-speed requirement is established by sign R-506 or the corresponding S-52 type sign."
 },
 {
 "codigo": "S-50c",
@@ -2077,7 +2537,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-50c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lanes reserved according to the signposted speed",
+"descripcion_en": "Indicates, on a one-way carriageway, the addition of a lane on the right. The lanes over which the minimum-speed sign is placed may only be used by vehicles travelling at a speed equal to or greater than that indicated, although they must keep to the right-hand lane if circumstances permit. The end of the minimum-speed requirement is established by sign R-506 or the corresponding S-52 type sign."
 },
 {
 "codigo": "S-50d",
@@ -2086,7 +2548,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-50d.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lanes reserved according to the signposted speed",
+"descripcion_en": "Indicates, on a two-way carriageway, that the lane over which the minimum-speed sign is placed may only be used by vehicles travelling at a speed equal to or greater than that indicated, although they must keep to the right-hand lane if circumstances permit. The end of the minimum-speed requirement is established by sign R-506 or the corresponding S-52 type sign."
 },
 {
 "codigo": "S-50e",
@@ -2095,7 +2559,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-50e.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lanes reserved according to the signposted speed",
+"descripcion_en": "Indicates, on a one-way carriageway, that the lanes over which the minimum-speed signs are placed may only be used by vehicles travelling at a speed equal to or greater than that indicated, although they must keep to the right-hand lane if circumstances permit. The end of the minimum-speed requirement is established by sign R-506 or the corresponding S-52 type sign."
 },
 {
 "codigo": "S-51a",
@@ -2104,7 +2570,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-51a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Lane reserved for specific types of vehicle",
+"descripcion_en": "Indicates a lane reserved exclusively for the circulation of one or more specific types of vehicle (buses, motorcycles, three-wheeled vehicles treated as motorcycles, taxis, cycles, etc.). The pictogram representing the type or types of authorised vehicles is included on the sign. On stretches where the longitudinal road marking delimiting the lane is a broken line, other vehicles are allowed to use it only to carry out a manoeuvre other than stopping, parking, changing direction or overtaking, always giving priority to the vehicles authorised to travel in this lane."
 },
 {
 "codigo": "S-51b",
@@ -2113,7 +2581,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-51b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lane reserved for high-occupancy vehicles",
+"descripcion_en": "(HOV) Indicates one or more lanes reserved exclusively for the circulation of high-occupancy vehicles. The image shows the number of occupants from which a vehicle is considered high-occupancy, as determined by the competent managing body in each case. If the lane or lanes are reserved not only for HOVs but also for one or more other specific types of vehicle, the corresponding images may be combined in the same way as on sign S-51a."
 },
 {
 "codigo": "S-52",
@@ -2122,7 +2592,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-52.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of a traffic lane",
+"descripcion_en": "Indicates, on a three-lane one-way carriageway, that the right-hand lane ends and that a lane change is necessary."
 },
 {
 "codigo": "S-52a",
@@ -2131,7 +2603,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-52a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of a traffic lane",
+"descripcion_en": "Indicates, on a two-way carriageway with two lanes in the direction of travel, that the right-hand lane ends and that a lane change is necessary."
 },
 {
 "codigo": "S-52b",
@@ -2140,7 +2614,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-52b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of a traffic lane",
+"descripcion_en": "Indicates, on a two-way carriageway with two lanes in the direction of travel, that the left-hand lane ends and that a lane change is necessary."
 },
 {
 "codigo": "S-52c",
@@ -2149,7 +2625,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-52c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of a traffic lane",
+"descripcion_en": "Indicates, on a two-lane one-way carriageway, that the right-hand lane ends and that a lane change is necessary."
 },
 {
 "codigo": "S-52d",
@@ -2158,7 +2636,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-52d.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of a traffic lane",
+"descripcion_en": "Indicates, on a two-lane one-way carriageway, that the left-hand lane ends and that a lane change is necessary."
 },
 {
 "codigo": "S-52e",
@@ -2167,7 +2647,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-52e.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of a traffic lane",
+"descripcion_en": "Indicates, on a three-lane one-way carriageway, that the left-hand lane ends and that a lane change is necessary."
 },
 {
 "codigo": "S-52f",
@@ -2176,7 +2658,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-52f.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of a traffic lane",
+"descripcion_en": "Indicates, on a four-lane one-way carriageway, that the left-hand lane ends and that a lane change is necessary."
 },
 {
 "codigo": "S-52g",
@@ -2185,7 +2669,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-52g.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of a traffic lane",
+"descripcion_en": "Indicates, on a four-lane one-way carriageway, that the right-hand lane ends and that a lane change is necessary."
 },
 {
 "codigo": "S-53",
@@ -2194,7 +2680,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-53.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Change from one to two traffic lanes",
+"descripcion_en": "Indicates, on a stretch with a single lane, that two lanes in the same direction of travel will become available."
 },
 {
 "codigo": "S-53a",
@@ -2203,7 +2691,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-53a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Change from one to two traffic lanes, with the maximum speed specified for each",
+"descripcion_en": "Indicates, on a stretch with a single traffic lane, that two lanes in the same direction of travel will become available. It also indicates the maximum speed permitted in each of them."
 },
 {
 "codigo": "S-53b",
@@ -2212,7 +2702,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-53b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Change from two to three traffic lanes",
+"descripcion_en": "Indicates, on a stretch with two lanes in one direction of travel, that three lanes in the same direction of travel will become available."
 },
 {
 "codigo": "S-53c",
@@ -2221,7 +2713,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-53c.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Change from two to three traffic lanes, with the maximum speed specified for each",
+"descripcion_en": "Indicates, on a stretch with two lanes in one direction of travel, that three lanes in the same direction of travel will become available. It also indicates the maximum speed permitted in each of them."
 },
 {
 "codigo": "S-60a",
@@ -2230,7 +2724,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-60a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork to the left on a two-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with two lanes in the same direction, that a fork with a change of direction will occur in the left-hand lane."
 },
 {
 "codigo": "S-60b",
@@ -2239,7 +2735,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-60b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork to the right on a two-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with two lanes in the same direction, that a fork with a change of direction will occur in the right-hand lane."
 },
 {
 "codigo": "S-61a",
@@ -2248,7 +2746,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-61a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork to the left on a three-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with three lanes in the same direction, that a fork with a change of direction will occur in the left-hand lane."
 },
 {
 "codigo": "S-61b",
@@ -2257,7 +2757,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-61b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork to the right on a three-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with three lanes in the same direction, that a fork with a change of direction will occur in the right-hand lane."
 },
 {
 "codigo": "S-61c",
@@ -2266,7 +2768,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-61c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork to the right on a carriageway with two lanes in the direction of travel and one lane in the opposite direction",
+"descripcion_en": "Indicates, on a two-way carriageway with two lanes in the direction of travel, that a fork with a change of direction will occur in the right-hand lane."
 },
 {
 "codigo": "S-62a",
@@ -2275,7 +2779,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-62a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork to the left on a four-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with four lanes in the same direction, that a fork with a change of direction will occur in the left-hand lane."
 },
 {
 "codigo": "S-62b",
@@ -2284,7 +2790,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-62b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork to the right on a four-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with four lanes in the same direction, that a fork with a change of direction will occur in the right-hand lane."
 },
 {
 "codigo": "S-63a",
@@ -2293,7 +2801,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-63a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork on a four-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with four lanes in the same direction, that a fork with a change of direction will occur, with two lanes going left and two lanes going right."
 },
 {
 "codigo": "S-63b",
@@ -2302,7 +2812,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-63b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork on a three-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with three lanes in the same direction, that a fork will occur in the central lane, with a change of direction of the four resulting lanes, two to the left and two to the right."
 },
 {
 "codigo": "S-63c",
@@ -2311,7 +2823,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-63c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork of two lanes to the left on a four-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with four lanes in the same direction, that a fork with a change of direction will occur in the two left-hand lanes."
 },
 {
 "codigo": "S-63d",
@@ -2320,7 +2834,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-63d.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fork of two lanes to the right on a four-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with four lanes in the same direction, that a fork with a change of direction will occur in the two right-hand lanes."
 },
 {
 "codigo": "S-64a",
@@ -2329,7 +2845,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-64a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Cycle lane, reserved and compulsory, adjoining a one-way carriageway",
+"descripcion_en": "Indicates, on one-way carriageways, the obligation for cyclists to travel in the lane over which the sign is placed and the prohibition for all other road users to use it. The arrows indicate the number of lanes on the carriageway."
 },
 {
 "codigo": "S-64b",
@@ -2338,7 +2856,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-64b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Cycle lane, reserved and compulsory, adjoining a two-way carriageway",
+"descripcion_en": "Indicates, on two-way carriageways, the obligation for cyclists to travel in the lane over which the sign is placed and the prohibition for all other road users to use it. The arrows indicate the number of lanes on the carriageway as well as the direction of travel."
 },
 {
 "codigo": "S-65a",
@@ -2347,7 +2867,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-65a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Cycle lane reserved, adjoining a one-way carriageway",
+"descripcion_en": "Indicates, on one-way carriageways, that the lane over which the sign is placed is reserved for the circulation of cycles, its use being prohibited to all other road users. The arrows indicate the number of lanes on the carriageway."
 },
 {
 "codigo": "S-65b",
@@ -2356,7 +2878,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-65b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Cycle lane reserved, adjoining a two-way carriageway",
+"descripcion_en": "Indicates, on two-way carriageways, that the lane over which the sign is placed is reserved for the circulation of cycles, its use being prohibited to all other road users. The arrows indicate the number of lanes on the carriageway as well as the direction of travel."
 },
 {
 "codigo": "S-66",
@@ -2365,7 +2889,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-66.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Cycle lane in the opposite direction",
+"descripcion_en": "Indicates the existence of a compulsory cycle lane whose direction of travel is opposite to that of the adjacent lane."
 },
 {
 "codigo": "S-68",
@@ -2374,7 +2900,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-68.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Stretch of carriageway with one lane in the direction of travel and two lanes in the opposite direction",
+"descripcion_en": "Indicates, on a two-way carriageway, that only one lane is available, while the opposite direction has two. The length over which this configuration is maintained is specified by a supplementary panel S-810."
 },
 {
 "codigo": "S-70a",
@@ -2383,7 +2911,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-70a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Merge of a lane from the left on a one-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with one lane, that a lane will merge from the left."
 },
 {
 "codigo": "S-70b",
@@ -2392,7 +2922,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-70b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Merge of a lane from the right on a one-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with one lane, that a lane will merge from the right."
 },
 {
 "codigo": "S-71a",
@@ -2401,7 +2933,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-71a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Merge of a lane from the left on a two-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with two lanes in the same direction, that a lane will merge from the left."
 },
 {
 "codigo": "S-71b",
@@ -2410,7 +2944,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-71b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Merge of a lane from the right on a two-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with two lanes in the same direction, that a lane will merge from the right."
 },
 {
 "codigo": "S-72a",
@@ -2419,7 +2955,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-72a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Merge of a lane from the left on a three-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with three lanes in the same direction, that a lane will merge from the left."
 },
 {
 "codigo": "S-72b",
@@ -2428,7 +2966,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-72b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Merge of a lane from the right on a three-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with three lanes in the same direction, that a lane will merge from the right."
 },
 {
 "codigo": "S-73a",
@@ -2437,7 +2977,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-73a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Merge of two lanes from the left on a two-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with two lanes in the same direction, that two lanes will merge from the left."
 },
 {
 "codigo": "S-73b",
@@ -2446,7 +2988,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Carriles",
 "img": "S-73b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Merge of two lanes from the right on a two-lane carriageway",
+"descripcion_en": "Indicates, on a carriageway with two lanes in the same direction, that two lanes will merge from the right."
 },
 {
 "codigo": "S-100",
@@ -2455,7 +2999,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-100.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "First-aid post",
+"descripcion_en": "Indicates the location of an officially recognised centre where emergency treatment can be provided."
 },
 {
 "codigo": "S-101",
@@ -2464,7 +3010,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-101.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Ambulance station",
+"descripcion_en": "Indicates the location of an ambulance on permanent service for the treatment and transport of those injured in road accidents."
 },
 {
 "codigo": "S-102",
@@ -2473,7 +3021,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-102.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Vehicle technical inspection service",
+"descripcion_en": "Indicates the location of a vehicle technical inspection station."
 },
 {
 "codigo": "S-103",
@@ -2482,7 +3032,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-103.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Repair workshop",
+"descripcion_en": "Indicates the location of a car repair workshop."
 },
 {
 "codigo": "S-104",
@@ -2491,7 +3043,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-104.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Telephone",
+"descripcion_en": "Indicates the location of a telephone. If it bears the inscription “S.O.S”, it indicates the location of a permanently available telephone for alerting the authorities to an accident or emergency on the road."
 },
 {
 "codigo": "S-105",
@@ -2500,7 +3054,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-105.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fuel pump",
+"descripcion_en": "Indicates the location of a fuel pump or filling station."
 },
 {
 "codigo": "S-105b",
@@ -2509,7 +3065,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-105b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fuel pump and LPG",
+"descripcion_en": "Indicates the location of a fuel pump or filling station where liquefied petroleum gas (LPG) or autogas is available."
 },
 {
 "codigo": "S-105c",
@@ -2518,7 +3076,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-105c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "LPG pump",
+"descripcion_en": "Indicates the location of a pump or filling station for liquefied petroleum gas (LPG) or autogas."
 },
 {
 "codigo": "S-105d",
@@ -2527,7 +3087,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-105d.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fuel pump and electric charging station",
+"descripcion_en": "Indicates the location of a fuel pump or filling station where an electric charging station is available."
 },
 {
 "codigo": "S-105e",
@@ -2536,7 +3098,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-105e.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Electric charging station",
+"descripcion_en": "Indicates the location of an electric charging station."
 },
 {
 "codigo": "S-105f",
@@ -2545,7 +3109,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-105f.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fuel pump, LPG and electric charging station",
+"descripcion_en": "Indicates the location of a fuel pump or filling station where liquefied petroleum gas (LPG) or autogas and an electric charging station are available."
 },
 {
 "codigo": "S-106",
@@ -2554,7 +3120,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-106.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Repair workshop and fuel pump",
+"descripcion_en": "Indicates the location of a facility with a repair workshop and a fuel pump."
 },
 {
 "codigo": "S-107",
@@ -2563,7 +3131,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-107.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Campsite",
+"descripcion_en": "Indicates the location of a place where camping is permitted."
 },
 {
 "codigo": "S-108",
@@ -2572,7 +3142,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-108.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Water",
+"descripcion_en": "Indicates the location of a fountain with drinking water."
 },
 {
 "codigo": "S-109",
@@ -2581,7 +3153,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-109.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Scenic viewpoint",
+"descripcion_en": "Indicates a scenic spot or the point from which it can be viewed. Its name may appear inscribed on the sign."
 },
 {
 "codigo": "S-110",
@@ -2590,7 +3164,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-110.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Hotel or motel",
+"descripcion_en": "Indicates the location of a hotel or motel."
 },
 {
 "codigo": "S-111",
@@ -2599,7 +3175,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-111.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Restaurant",
+"descripcion_en": "Indicates the location of a restaurant."
 },
 {
 "codigo": "S-112",
@@ -2608,7 +3186,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-112.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Cafeteria",
+"descripcion_en": "Indicates the location of a bar or cafeteria."
 },
 {
 "codigo": "S-113",
@@ -2617,7 +3197,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-113.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Site for caravans",
+"descripcion_en": "Indicates the location of a site where camping with a caravan is permitted."
 },
 {
 "codigo": "S-114",
@@ -2626,7 +3208,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-114.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Picnic area",
+"descripcion_en": "Indicates a place that may be used for eating and drinking."
 },
 {
 "codigo": "S-115",
@@ -2635,7 +3219,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-115.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Starting point for walking excursions",
+"descripcion_en": "Indicates a suitable place to start walking excursions."
 },
 {
 "codigo": "S-116",
@@ -2644,7 +3230,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-116.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Campsite and caravan site",
+"descripcion_en": "Indicates the location of a place where camping with a tent or a caravan is permitted."
 },
 {
 "codigo": "S-117",
@@ -2653,7 +3241,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-117.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Youth hostel",
+"descripcion_en": "Indicates the location of a youth hostel."
 },
 {
 "codigo": "S-118",
@@ -2662,7 +3252,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-118.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Tourist information",
+"descripcion_en": "Indicates the location of a tourist information office."
 },
 {
 "codigo": "S-119",
@@ -2671,7 +3263,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-119.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fishing reserve",
+"descripcion_en": "Indicates a lake or stretch of river where fishing is subject to special authorisation."
 },
 {
 "codigo": "S-120",
@@ -2680,7 +3274,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-120.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Park or nature reserve",
+"descripcion_en": "Indicates the location of a park or nature reserve. Its name may appear inscribed on the sign."
 },
 {
 "codigo": "S-121",
@@ -2689,7 +3285,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-121.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Monument",
+"descripcion_en": "Indicates the location of a historic or artistic work designated as a monument."
 },
 {
 "codigo": "S-122",
@@ -2698,7 +3296,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-122.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Other services",
+"descripcion_en": "Generic sign for any other service, which will be inscribed in the white box."
 },
 {
 "codigo": "S-123",
@@ -2707,7 +3307,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-123.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Rest area",
+"descripcion_en": "Indicates the location of a rest area."
 },
 {
 "codigo": "S-124",
@@ -2716,7 +3318,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-124.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Parking for rail users",
+"descripcion_en": "Indicates the location of a parking area connected to a railway station, intended mainly for the vehicles of users who make part of their journey by private vehicle and the rest by rail."
 },
 {
 "codigo": "S-125",
@@ -2725,7 +3329,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-125.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Parking for metro users",
+"descripcion_en": "Indicates the location of a parking area connected to a metro station, intended mainly for the vehicles of users who make part of their journey by private vehicle and the rest by metro."
 },
 {
 "codigo": "S-126",
@@ -2734,7 +3340,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-126.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Parking for bus users",
+"descripcion_en": "Indicates the location of a parking area connected to a bus station or terminal, intended mainly for the private vehicles of users who make part of their journey by private vehicle and the rest by bus."
 },
 {
 "codigo": "S-128",
@@ -2743,7 +3351,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-128.png",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Caravan and motorhome waste disposal point",
+"descripcion_en": "Indicates the location of a waste-water disposal point for caravans and motorhomes."
 },
 {
 "codigo": "S-129",
@@ -2752,7 +3362,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Servicio",
 "img": "S-129.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Emergency parking for snowfall",
+"descripcion_en": "Indicates the location of an emergency parking area for snowfall and, exceptionally, for incidents."
 },
 {
 "codigo": "S-200",
@@ -2761,7 +3373,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-200.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance sign for a roundabout",
+"descripcion_en": "Indicates the directions of the various exits from the roundabout ahead. If any inscription appears on a blue background, it indicates that the exit leads to a motorway or a dual carriageway."
 },
 {
 "codigo": "S-201",
@@ -2770,7 +3384,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-201.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance sign for a split roundabout from the main carriageway",
+"descripcion_en": "Indicates the directions of the various exits of a junction whose layout is similar to a roundabout, but where the main carriageway, on which the vehicle is travelling in this case, does not lose continuity. If any inscription appears on a blue background, it indicates that the exit leads to a motorway or a dual carriageway."
 },
 {
 "codigo": "S-202",
@@ -2779,7 +3395,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-202.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance sign for a split roundabout from the secondary carriageways",
+"descripcion_en": "Indicates the directions of the various exits of a junction whose layout is similar to a roundabout, but where the main carriageway, on which the vehicle is not travelling in this case, does not lose continuity. If any inscription appears on a blue background, it indicates that the exit leads to a motorway or a dual carriageway."
 },
 {
 "codigo": "S-203",
@@ -2788,7 +3406,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-203.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance sign for a roundabout with lane selection according to the intended movement",
+"descripcion_en": "Indicates the directions of the various exits from the roundabout ahead and the lane by which to reach each of them."
 },
 {
 "codigo": "S-220",
@@ -2797,7 +3417,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-220.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with lateral sign, on a conventional road or multi-lane road towards a conventional road or multi-lane road",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the destinations of the exits from the next junction when these lead towards a conventional road or a multi-lane road, as well as the distance to those exits."
 },
 {
 "codigo": "S-220a",
@@ -2806,7 +3428,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-220a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with lateral sign, on a conventional road or multi-lane road towards a conventional road or multi-lane road, including the road's own direction",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the direction of the road being travelled and the destinations of the exits from the next junction when these lead towards a conventional road or a multi-lane road, as well as the distance to those exits."
 },
 {
 "codigo": "S-222",
@@ -2815,7 +3439,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-222.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with lateral sign, on a conventional road or multi-lane road towards a motorway or dual carriageway",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the destinations of the exits from the next junction when these lead towards a motorway or a dual carriageway, as well as the distance to those exits."
 },
 {
 "codigo": "S-222a",
@@ -2824,7 +3450,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-222a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with lateral sign, on a conventional road or multi-lane road towards a motorway or dual carriageway, including the road's own direction",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the direction of the road being travelled and the destinations of the exits from the next junction when these lead towards a motorway or a dual carriageway, as well as the distance to those exits."
 },
 {
 "codigo": "S-225",
@@ -2833,7 +3461,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-225.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with lateral sign, on a motorway or dual carriageway towards any type of road",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the destinations of the exit from the next interchange. It also indicates the distance to that exit, its number and, where applicable, its letter."
 },
 {
 "codigo": "S-230",
@@ -2842,7 +3472,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-230.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with overhead sign, on a conventional road or multi-lane road towards a conventional road or multi-lane road",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the destinations of the exit from the next junction when it leads towards a conventional road or a multi-lane road, as well as the distance to that exit."
 },
 {
 "codigo": "S-230a",
@@ -2851,7 +3483,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-230a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with overhead signs, on a conventional road or multi-lane road towards a conventional road or multi-lane road, including the road's own direction",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the direction of the road being travelled and the destinations of the exit from the next junction when it leads towards a conventional road or a multi-lane road, as well as the distance to that exit."
 },
 {
 "codigo": "S-232",
@@ -2860,7 +3494,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-232.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with overhead sign, on a conventional road or multi-lane road towards a motorway or dual carriageway",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the destinations of the exit from the next junction when it leads towards a motorway or a dual carriageway, as well as the distance to that exit."
 },
 {
 "codigo": "S-232a",
@@ -2869,7 +3505,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-232a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with overhead signs, on a conventional road or multi-lane road towards a motorway or dual carriageway, including the road's own direction",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the direction of the road being travelled and the destinations of the exit from the next junction when it leads towards a motorway or a dual carriageway, as well as the distance to that exit."
 },
 {
 "codigo": "S-235",
@@ -2878,7 +3516,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-235.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with overhead sign, on a motorway or dual carriageway towards any type of road",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the destinations of the exit from the next interchange. It also indicates the distance to that exit, its number and, where applicable, its letter."
 },
 {
 "codigo": "S-235a",
@@ -2887,7 +3527,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-235a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with overhead signs, on a motorway or dual carriageway towards any type of road, including the road's own direction",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the direction of the road being travelled and the destinations of the exit from the next interchange. It also indicates the distance to that exit, its number and, where applicable, its letter."
 },
 {
 "codigo": "S-242",
@@ -2896,7 +3538,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-242.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with overhead sign on a motorway or dual carriageway, of two very close exits towards any type of road",
+"descripcion_en": "Indicates the directions of the slip roads of two consecutive exits on a motorway or a dual carriageway. It also indicates the distance to those exits and the numbers, or the number and letters, of each of them."
 },
 {
 "codigo": "S-242a",
@@ -2905,7 +3549,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-242a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing, with overhead signs on a motorway or dual carriageway, of two very close exits towards any type of road, including the road's own direction",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the direction of the road being travelled and the directions of the slip roads of two consecutive exits. It also indicates the distance to those exits and the numbers, or the number and letters, of each of them."
 },
 {
 "codigo": "S-245",
@@ -2914,7 +3560,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-245.png",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Supplementary advance signing of towns on a conventional road or multi-lane road",
+"descripcion_en": "Indicates nearby towns of more than 5,000 inhabitants that can be reached via the next junction, and the distance to that junction."
 },
 {
 "codigo": "S-246",
@@ -2923,7 +3571,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-246.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Supplementary advance signing of towns on a motorway or dual carriageway",
+"descripcion_en": "Indicates nearby towns of more than 5,000 inhabitants that can be reached from the exit shown on the upper sub-panel, as well as the distance to it."
 },
 {
 "codigo": "S-247",
@@ -2932,7 +3582,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-247.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing of exits on a town bypass",
+"descripcion_en": "Indicates the numbers of the various exits of a town bypass, accompanied by the name of the approach road or the cardinal point."
 },
 {
 "codigo": "S-250",
@@ -2941,7 +3593,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-250.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing of a route",
+"descripcion_en": "Indicates the route to be followed to take the direction shown by the arrow."
 },
 {
 "codigo": "S-260",
@@ -2950,7 +3604,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-260.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance lane signing",
+"descripcion_en": "Indicates the only directions permitted at the next junction for road users travelling in the signposted lanes. The identifying box of the road being travelled is placed over the arrows indicating the lanes that continue along it. Its use is limited to exceptional situations where the continuous line separating lanes does not imply a divergence from the lanes on the left, or to interchanges or forks between two dual carriageways or motorways with high traffic volumes on both."
 },
 {
 "codigo": "S-261",
@@ -2959,7 +3615,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-261.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing of services on conventional roads with high traffic volumes and on all multi-lane roads",
+"descripcion_en": "Indicates, on conventional roads with high traffic and on all multi-lane roads, the approach of an exit towards the signposted services. If these are located in a town, its name may appear on the first line of the sign, and if they are located on a service road the inscription “service road” will appear. If the services include a filling station and/or a charging station, the distance to it and its opening hours will be indicated. The lower sub-panel will show the distance and opening hours of the next filling station and/or charging station in the direction of travel. The upper box will show the distance to the exit."
 },
 {
 "codigo": "S-263",
@@ -2968,7 +3626,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-263.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing of services on a motorway or dual carriageway",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the approach of an exit towards the signposted services. If these are located in a town, its name may appear on the first line of the sign, and if they are located on a service road the inscription “service road” will appear. If the services include a filling station and/or a charging station, the distance to it and its opening hours will be indicated. The lower sub-panel will show the distance and opening hours of the next filling station and/or charging station in the direction of travel. The upper sub-panels will show the exit number and the distance to it."
 },
 {
 "codigo": "S-267",
@@ -2977,7 +3637,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-267.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing of various services on a conventional road or multi-lane road",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the approach of an exit towards the signposted services such as a residential development, marina, sports area, shopping area, industrial estate, business park and leisure area. The upper box will show the distance to the exit."
 },
 {
 "codigo": "S-268",
@@ -2986,7 +3648,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Preseñalización",
 "img": "S-268.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Advance signing of various services on a motorway or dual carriageway",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the approach of an exit towards the signposted services such as a residential development, marina, sports area, shopping area, industrial estate, business park and leisure area. The upper sub-panels will show the exit number and the distance to it."
 },
 {
 "codigo": "S-300",
@@ -2995,7 +3659,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-300.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Towns on one or more routes via a conventional road or multi-lane road",
+"descripcion_en": "Indicates the names of towns located on one or more routes made up of a conventional road or a multi-lane road, and the direction in which they are reached. The sign may contain one or more boxes accompanying the destinations, defining the category and number of the road. The figures aligned with the destinations indicate the distance to them, expressed in kilometres."
 },
 {
 "codigo": "S-301",
@@ -3004,7 +3670,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-301.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Towns on a route via a motorway or dual carriageway",
+"descripcion_en": "Indicates the names of towns located on a route made up of a motorway or a dual carriageway, and the direction in which they are reached. The box within the sign defines the category and number of the road. The figures aligned with the destinations indicate the distance to them, expressed in kilometres."
 },
 {
 "codigo": "S-320",
@@ -3013,7 +3681,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-320.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Places of interest via a conventional road or multi-lane road",
+"descripcion_en": "Indicates places of interest that are not towns, located on a route made up of a conventional road or a multi-lane road. The figures aligned with the destinations indicate the distance to them, expressed in kilometres."
 },
 {
 "codigo": "S-321",
@@ -3022,7 +3692,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-321.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Places of interest via a motorway or dual carriageway",
+"descripcion_en": "Indicates places of interest that are not towns, located on a route made up of a motorway or a dual carriageway. The figures aligned with the destinations indicate the distance to them, expressed in kilometres."
 },
 {
 "codigo": "S-341",
@@ -3031,7 +3703,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-341.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit destination signs towards a conventional road or multi-lane road",
+"descripcion_en": "Indicates the point of exit from a motorway or a dual carriageway towards a conventional road or a multi-lane road. The figure indicates the interchange number, which corresponds to the kilometre point of the road."
 },
 {
 "codigo": "S-342",
@@ -3040,7 +3714,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-342.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit destination signs towards a motorway or dual carriageway",
+"descripcion_en": "Indicates the point of exit from a motorway or a dual carriageway towards a motorway or a dual carriageway. The figure indicates the interchange number, which corresponds to the kilometre point of the road."
 },
 {
 "codigo": "S-344",
@@ -3049,7 +3725,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-344.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit destination signs, exclusive or shared with a conventional road or multi-lane road, towards the indicated services",
+"descripcion_en": "Indicates the point of exit towards the signposted services, which may coincide with an exit towards a conventional road or a multi-lane road."
 },
 {
 "codigo": "S-347",
@@ -3058,7 +3736,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-347.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit destination signs towards the indicated services, with a shared exit towards a motorway or dual carriageway",
+"descripcion_en": "Indicates the point of exit towards a service zone, area or road, this coinciding with an exit towards a motorway or a dual carriageway."
 },
 {
 "codigo": "S-348",
@@ -3067,7 +3747,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-348.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with lateral sign, on a conventional road or multi-lane road towards a conventional road or multi-lane road",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the destinations of the exits from the next junction when these lead towards a conventional road or a multi-lane road."
 },
 {
 "codigo": "S-349",
@@ -3076,7 +3758,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-349.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with lateral sign, on a conventional road or multi-lane road towards a motorway or dual carriageway",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the destinations of the exits from the next junction when these lead towards a motorway or a dual carriageway."
 },
 {
 "codigo": "S-349a",
@@ -3085,7 +3769,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-349a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with lateral sign, on a conventional road or multi-lane road towards a motorway or dual carriageway, including the road's own direction",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the direction of the road being travelled and the destinations of the exits from the next junction when these lead towards a motorway or a dual carriageway."
 },
 {
 "codigo": "S-350",
@@ -3094,7 +3780,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-350.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with overhead sign, on a conventional road or multi-lane road towards a conventional road or multi-lane road",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the destinations of the exit from the next junction when it leads towards a conventional road or a multi-lane road."
 },
 {
 "codigo": "S-350a",
@@ -3103,7 +3791,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-350a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with overhead signs, on a conventional road or multi-lane road towards a conventional road or multi-lane road, including the road's own direction",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the direction of the road being travelled and the destinations of the exit from the next junction when it leads towards a conventional road or a multi-lane road."
 },
 {
 "codigo": "S-351",
@@ -3112,7 +3802,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-351.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with overhead sign, on a conventional road or multi-lane road towards a motorway or dual carriageway",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the destinations of the exit from the next junction when it leads towards a motorway or a dual carriageway."
 },
 {
 "codigo": "S-351a",
@@ -3121,7 +3813,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-351a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with overhead signs, on a conventional road or multi-lane road towards a motorway or dual carriageway, including the road's own direction",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the direction of the road being travelled and the destinations of the exit from the next junction when it leads towards a motorway or a dual carriageway."
 },
 {
 "codigo": "S-352",
@@ -3130,7 +3824,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-352.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with overhead sign, on a motorway or dual carriageway towards a conventional road or multi-lane road",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the destinations of the exit from the next interchange when it leads towards a conventional road or a multi-lane road. It also indicates the exit number and, where applicable, its letter."
 },
 {
 "codigo": "S-352a",
@@ -3139,7 +3835,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-352a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with overhead signs, on a motorway or dual carriageway towards a conventional road or multi-lane road, including the road's own direction",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the direction of the road being travelled and the destinations of the exit from the next interchange when it leads towards a conventional road or a multi-lane road. It also indicates the exit number and, where applicable, its letter."
 },
 {
 "codigo": "S-353a",
@@ -3148,7 +3846,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-353a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Immediate-exit signing, with overhead signs, on a motorway or dual carriageway towards a motorway or dual carriageway, including the road's own direction",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the direction of the road being travelled and the destinations of the exit from the next interchange when it leads towards a motorway or a dual carriageway. It also indicates the exit number and, where applicable, its letter."
 },
 {
 "codigo": "S-373",
@@ -3157,7 +3857,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-373.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Signing of the first of two very close immediate exits, with overhead signs, on a motorway or dual carriageway towards a conventional road or multi-lane road, destinations of the second exit and the road's own direction",
+"descripcion_en": "Indicates, at the first of two very close exits on a motorway or a dual carriageway, the direction of the road being travelled (left and centre signs), the destinations of the second exit (centre sign) and the destinations of the first exit when it leads towards a conventional road or a multi-lane road (right sign). It also indicates the exit number and, where applicable, its letter."
 },
 {
 "codigo": "S-375",
@@ -3166,7 +3868,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-375.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Signing of the first of two very close immediate exits, with overhead signs, on a motorway or dual carriageway towards a motorway or dual carriageway, destinations of the second exit and the road's own direction",
+"descripcion_en": "Indicates, at the first of two very close exits on a motorway or a dual carriageway, the direction of the road being travelled (left and centre signs), the destinations of the second exit (centre sign) and the destinations of the first exit when it leads towards a motorway or a dual carriageway (right sign). It also indicates the exit number and, where applicable, its letter."
 },
 {
 "codigo": "S-376",
@@ -3175,7 +3879,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-376.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Signing of an immediate exit to services on conventional roads with high traffic volumes and on all multi-lane roads",
+"descripcion_en": "Indicates, on conventional roads with high traffic and on all multi-lane roads, the exit towards the signposted services. If these are located in a town, its name may appear on the first line of the sign, and if they are located on a service road the inscription “service road” will appear. If the services include a filling station and/or a charging station, the distance to it and its opening hours will be indicated. The lower sub-panel will show the distance and opening hours of the next filling station and/or charging station in the direction of travel."
 },
 {
 "codigo": "S-377",
@@ -3184,7 +3890,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-377.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Signing of an immediate exit to services on other conventional roads",
+"descripcion_en": "Indicates, on other conventional roads, the exit towards the signposted services. If these include a filling station and/or a charging station, its opening hours will be indicated."
 },
 {
 "codigo": "S-378",
@@ -3193,7 +3901,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-378.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Signing of an immediate exit to services on a motorway or dual carriageway",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the exit towards the signposted services. If these are located in a town, its name may appear on the first line of the sign, and if they are located on a service road the inscription “service road” will appear. If the services include a filling station and/or a charging station, the distance to it and its opening hours will be indicated. The lower sub-panel will show the distance and opening hours of the next filling station and/or charging station in the direction of travel. The upper sub-panel will show the exit number."
 },
 {
 "codigo": "S-379",
@@ -3202,7 +3912,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-379.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Signing of an immediate exit towards a service area",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the exit towards a service area, showing its name and opening hours as well as the pictograms of the services it offers. The lower sub-panel will show the distance and opening hours of the next service area in the direction of travel."
 },
 {
 "codigo": "S-380",
@@ -3211,7 +3923,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Dirección",
 "img": "S-380.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Destination sign for an immediate exit towards a service area",
+"descripcion_en": "Indicates the point of exit from a motorway or a dual carriageway towards a service area."
 },
 {
 "codigo": "S-400",
@@ -3220,7 +3934,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Identificación De Carreteras",
 "img": "S-400.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Route of the international «E» network",
+"descripcion_en": "Identifies a route of the international «E» network."
 },
 {
 "codigo": "S-410",
@@ -3229,7 +3945,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Identificación De Carreteras",
 "img": "S-410.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Motorway and dual carriageway",
+"descripcion_en": "Identifies a motorway or a dual carriageway. When it belongs to a regional administration, the initials identifying the autonomous community may be included, in addition to the letter A followed by the corresponding number, or above the sign on a supplementary panel. No road that does not have the characteristics of a motorway or dual carriageway may be identified with the letter A. When the motorway or dual carriageway is a ring road or bypass, the letter A may be replaced by the letters identifying the city, in accordance with the code established for this purpose by the Ministry of Public Works."
 },
 {
 "codigo": "S-410a",
@@ -3238,7 +3956,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Identificación De Carreteras",
 "img": "S-410a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Toll motorway",
+"descripcion_en": "Identifies a toll motorway. Toll motorways belonging to a regional administration are subject, as regards their naming, to the same rules as those established for sign S-410."
 },
 {
 "codigo": "S-420",
@@ -3247,7 +3967,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Identificación De Carreteras",
 "img": "S-420.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Conventional road or multi-lane road of the State network",
+"descripcion_en": "Identifies a road of the State network that is not a motorway or a dual carriageway."
 },
 {
 "codigo": "S-430",
@@ -3256,7 +3978,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Identificación De Carreteras",
 "img": "S-430.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "First-level road belonging to a network other than the State network",
+"descripcion_en": "Identifies a first-level road, other than a motorway or a dual carriageway, belonging to a network other than the State network."
 },
 {
 "codigo": "S-450",
@@ -3265,7 +3989,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Identificación De Carreteras",
 "img": "S-450.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Third-level road belonging to a network other than the State network",
+"descripcion_en": "Identifies a third-level road, other than a motorway or a dual carriageway, belonging to a network other than the State network."
 },
 {
 "codigo": "S-500",
@@ -3274,7 +4000,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-500.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Entrance to a built-up area",
+"descripcion_en": "Indicates the name of the built-up area being entered, as well as the point from which the traffic rules for built-up areas apply. The upper sub-panel reinforces the message that driving must be adapted to the presence of pedestrians, cyclists or other vulnerable road users. In addition, the maximum speed permitted on that road from that point may be included, regardless of any different limits that may exist on other roads within the built-up area."
 },
 {
 "codigo": "S-510",
@@ -3283,7 +4011,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-510.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "End of a built-up area",
+"descripcion_en": "Indicates the name of the built-up area being left, as well as the point from which the traffic rules for built-up areas cease to apply."
 },
 {
 "codigo": "S-520",
@@ -3292,7 +4022,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-520.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of geographical features crossed by the road",
+"descripcion_en": "Indicates the point where the road crosses a notable geographical feature."
 },
 {
 "codigo": "S-530",
@@ -3301,7 +4033,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-530.png",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a tunnel on a conventional road or multi-lane road, with information on its safety facilities",
+"descripcion_en": "Indicates the location of a tunnel on a conventional road or a multi-lane road, including information on its safety facilities, as well as its length."
 },
 {
 "codigo": "S-531",
@@ -3310,7 +4044,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-531.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a tunnel on a motorway or dual carriageway, with information on its safety facilities",
+"descripcion_en": "Indicates the location of a tunnel on a motorway or a dual carriageway, including information on its safety facilities, as well as its length."
 },
 {
 "codigo": "S-532",
@@ -3319,7 +4055,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-532.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a tunnel on a conventional road or multi-lane road, with information on the specific driving requirements within it",
+"descripcion_en": "Indicates the location of a tunnel on a conventional road or a multi-lane road, including information on the specific driving requirements within it."
 },
 {
 "codigo": "S-533",
@@ -3328,7 +4066,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-533.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a tunnel on a motorway or dual carriageway, with information on the specific driving requirements within it",
+"descripcion_en": "Indicates the location of a tunnel on a motorway or a dual carriageway, including information on the specific driving requirements within it."
 },
 {
 "codigo": "S-540",
@@ -3337,7 +4077,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-540.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a provincial boundary",
+"descripcion_en": "Indicates the point from which the road enters the indicated province."
 },
 {
 "codigo": "S-550",
@@ -3346,7 +4088,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-550.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of an autonomous community boundary",
+"descripcion_en": "Indicates the point from which the road enters the indicated autonomous community."
 },
 {
 "codigo": "S-551",
@@ -3355,7 +4099,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-551.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of a river basin district boundary",
+"descripcion_en": "Indicates the point from which the road enters the indicated river basin district."
 },
 {
 "codigo": "S-560",
@@ -3364,7 +4110,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-560.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Location of an autonomous community and provincial boundary",
+"descripcion_en": "Indicates the point from which the road enters the indicated autonomous community and province."
 },
 {
 "codigo": "S-561",
@@ -3373,7 +4121,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-561.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Institutional sign on a conventional road or multi-lane road",
+"descripcion_en": "Sign indicating the ownership, number and name of the conventional road or multi-lane road being entered. If the road has no name, the sign will contain the text “Road” followed by the identifying box."
 },
 {
 "codigo": "S-562",
@@ -3382,7 +4132,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-562.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Institutional sign on a motorway or dual carriageway",
+"descripcion_en": "Sign indicating the ownership, number and name of the motorway or dual carriageway being entered. If the motorway or dual carriageway has no name, the sign will contain the text “Motorway” or “Dual carriageway” followed by the identifying box."
 },
 {
 "codigo": "S-570",
@@ -3391,7 +4143,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-570.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Kilometre marker on a motorway or dual carriageway",
+"descripcion_en": "Indicates the kilometre point of the motorway or dual carriageway whose identification appears at the top."
 },
 {
 "codigo": "S-570a",
@@ -3400,7 +4154,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-570a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Kilometre marker on a toll motorway",
+"descripcion_en": "Indicates the kilometre point of the toll motorway whose identification appears at the top."
 },
 {
 "codigo": "S-571",
@@ -3409,7 +4165,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-571.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Kilometre marker on a motorway or dual carriageway belonging to an international route",
+"descripcion_en": "Indicates the kilometre point of the motorway or dual carriageway belonging to an international route, whose identification appears at the top of the sign."
 },
 {
 "codigo": "S-573",
@@ -3418,7 +4176,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-573.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Kilometre marker on a conventional road or multi-lane road belonging to an international route",
+"descripcion_en": "Indicates the kilometre point of a conventional road or a multi-lane road belonging to an international route, whose letters and numbers appear at the top of the sign."
 },
 {
 "codigo": "S-574",
@@ -3427,7 +4187,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-574.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Ten-kilometre marker on a conventional road or multi-lane road",
+"descripcion_en": "Indicates the kilometre point of a conventional road or a multi-lane road when it is a multiple of ten."
 },
 {
 "codigo": "S-574a",
@@ -3436,7 +4198,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-574a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Ten-kilometre marker on a motorway or dual carriageway",
+"descripcion_en": "Indicates the kilometre point of a motorway or a dual carriageway when it is a multiple of ten."
 },
 {
 "codigo": "S-574b",
@@ -3445,7 +4209,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-574b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Ten-kilometre marker on a toll motorway",
+"descripcion_en": "Indicates the kilometre point of a toll motorway when it is a multiple of ten."
 },
 {
 "codigo": "S-574c",
@@ -3454,7 +4220,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-574c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Ten-kilometre marker on a conventional road or multi-lane road belonging to an international route",
+"descripcion_en": "Indicates the kilometre point, when it is a multiple of ten, on a conventional road or a multi-lane road belonging to an international route, whose identification appears at the top of the sign."
 },
 {
 "codigo": "S-574d",
@@ -3463,7 +4231,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-574d.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Ten-kilometre marker on a motorway or dual carriageway belonging to an international route",
+"descripcion_en": "Indicates the kilometre point, when it is a multiple of ten, on a motorway or a dual carriageway belonging to an international route, whose identification appears at the top of the sign."
 },
 {
 "codigo": "S-574e",
@@ -3472,7 +4242,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Localización",
 "img": "S-574e.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Ten-kilometre marker on a toll motorway belonging to an international route",
+"descripcion_en": "Indicates the kilometre point, when it is a multiple of ten, on a toll motorway that also forms part of an international route, whose identification appears at the top of the sign."
 },
 {
 "codigo": "S-600",
@@ -3481,7 +4253,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Confirmación",
 "img": "S-600.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Confirmation of towns on a route via a conventional road or multi-lane road",
+"descripcion_en": "Indicates, on a conventional road or a multi-lane road, the names of towns on that route and the corresponding distances in kilometres."
 },
 {
 "codigo": "S-602",
@@ -3490,7 +4264,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Confirmación",
 "img": "S-602.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Confirmation of towns on a route via a motorway or dual carriageway",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the names of towns on that route and the corresponding distances in kilometres."
 },
 {
 "codigo": "S-603",
@@ -3499,7 +4275,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Confirmación",
 "img": "S-603.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Supplementary confirmation with advance exit signing",
+"descripcion_en": "Indicates, on a motorway or a dual carriageway, the names of provincial capitals not adjacent to the motorway or dual carriageway being travelled, and the corresponding distances in kilometres. It also shows the identifying boxes of the dual carriageways or motorways by which those towns are reached. The upper sub-panels will also show the corresponding exit number and the distance to that exit."
 },
 {
 "codigo": "S-700",
@@ -3508,7 +4286,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-700.jpeg",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Places on the urban road network",
+"descripcion_en": "Indicates the names of streets, avenues, squares, roundabouts or any other point on the road network."
 },
 {
 "codigo": "S-710",
@@ -3517,7 +4297,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-710.jpeg",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Places of interest for travellers",
+"descripcion_en": "Indicates places of interest for travellers, such as stations, airports, port boarding areas, hotels, campsites, tourist offices and automobile clubs."
 },
 {
 "codigo": "S-720",
@@ -3526,7 +4308,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-720.jpeg",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Places of sporting or recreational interest",
+"descripcion_en": "Indicates places where a sporting or recreational interest predominates."
 },
 {
 "codigo": "S-730",
@@ -3535,7 +4319,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-730.jpeg",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Places of geographical or ecological character and of monumental, historical or artistic interest",
+"descripcion_en": "Indicates places of a geographical type, of ecological interest or of monumental, historical or artistic interest, such as monuments, castles, monasteries, museums, palaces, etc."
 },
 {
 "codigo": "S-740",
@@ -3544,7 +4330,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-740.jpeg",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Places of cultural interest",
+"descripcion_en": "Indicates places of cultural interest such as universities, cultural centres, libraries, theatres, etc."
 },
 {
 "codigo": "S-750",
@@ -3553,7 +4341,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-750.jpeg",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Industrial-use areas",
+"descripcion_en": "Indicates areas that attract significant lorry, goods and, in general, heavy industrial traffic."
 },
 {
 "codigo": "S-760",
@@ -3562,7 +4352,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-760.jpeg",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Motorways and dual carriageways",
+"descripcion_en": "Indicates the motorways and dual carriageways and the places that can be reached by them."
 },
 {
 "codigo": "S-770",
@@ -3571,7 +4363,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-770.jpeg",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Other places and roads",
+"descripcion_en": "Indicates roads other than motorways or dual carriageways and the built-up areas that can be reached by them, as well as other places of public interest not covered by signs S-700 to S-760."
 },
 {
 "codigo": "S-800",
@@ -3580,7 +4374,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-800.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Distance to the start of the hazard or restriction",
+"descripcion_en": "Indicates the distance from where the sign is located to the point at which the hazard begins or the restriction begins to apply. Where it is placed beneath a hazard warning sign for a carriageway narrowing, it may indicate the clear width of that narrowing."
 },
 {
 "codigo": "S-810",
@@ -3589,7 +4385,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-810.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Length of the hazardous stretch or stretch subject to a restriction",
+"descripcion_en": "Indicates the length over which the hazard exists or the restriction applies."
 },
 {
 "codigo": "S-820",
@@ -3598,7 +4396,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-820.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Extent of the prohibition, on one side",
+"descripcion_en": "Placed beneath a prohibition sign, it indicates the distance over which this prohibition applies in the direction of the arrow."
 },
 {
 "codigo": "S-821",
@@ -3607,7 +4407,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-821.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Extent of the prohibition, on one side",
+"descripcion_en": "Placed beneath a prohibition sign, it indicates the distance over which this prohibition applies in the direction of the arrow."
 },
 {
 "codigo": "S-830",
@@ -3616,7 +4418,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-830.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Extent of the prohibition, on both sides",
+"descripcion_en": "Placed beneath a prohibition sign, it indicates the distances over which this prohibition applies in each direction shown by the arrows."
 },
 {
 "codigo": "S-840",
@@ -3625,7 +4429,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-840.png",
 "nuevo2025": false,
-"cambio_diseno": true
+"cambio_diseno": true,
+"nombre_en": "Advance warning of a compulsory stop",
+"descripcion_en": "Placed beneath the give-way sign, it indicates the distance to the compulsory stop or STOP sign at the next junction."
 },
 {
 "codigo": "S-850",
@@ -3634,7 +4440,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-850.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Priority route",
+"descripcion_en": "Additional panel for sign R-3, indicating the priority route."
 },
 {
 "codigo": "S-851",
@@ -3643,7 +4451,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-851.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Priority route",
+"descripcion_en": "Additional panel for sign R-3, indicating the priority route."
 },
 {
 "codigo": "S-852",
@@ -3652,7 +4462,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-852.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Priority route",
+"descripcion_en": "Additional panel for sign R-3, indicating the priority route."
 },
 {
 "codigo": "S-853",
@@ -3661,7 +4473,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-853.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Priority route",
+"descripcion_en": "Additional panel for sign R-3, indicating the priority route."
 },
 {
 "codigo": "S-860",
@@ -3670,7 +4484,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-860.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Generic",
+"descripcion_en": "Panel for any other clarification or delimitation of the sign or traffic light beneath which it is placed."
 },
 {
 "codigo": "S-870a",
@@ -3679,7 +4495,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-870a.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it applies only to the exit slip road whose direction roughly coincides with that of the arrow."
 },
 {
 "codigo": "S-870b",
@@ -3688,7 +4506,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-870b.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it applies only to the exit slip road whose direction roughly coincides with that of the arrow."
 },
 {
 "codigo": "S-880a",
@@ -3697,7 +4517,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-880a.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing to lorries",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it refers exclusively to lorries."
 },
 {
 "codigo": "S-880b",
@@ -3706,7 +4528,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-880b.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing to vehicles with a trailer, except single-axle trailers",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it refers exclusively to vehicles with a trailer, except single-axle trailers."
 },
 {
 "codigo": "S-880c",
@@ -3715,7 +4539,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-880c.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing to buses",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it refers exclusively to buses."
 },
 {
 "codigo": "S-880d",
@@ -3724,7 +4550,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-880d.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing to cycles",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it refers exclusively to cycles."
 },
 {
 "codigo": "S-880e",
@@ -3733,7 +4561,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-880e.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing to personal mobility vehicles",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it refers exclusively to personal mobility vehicles."
 },
 {
 "codigo": "S-880f",
@@ -3742,7 +4572,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-880f.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing to cycles and personal mobility vehicles",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it refers exclusively to cycles and personal mobility vehicles."
 },
 {
 "codigo": "S-890a",
@@ -3751,7 +4583,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-890a.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing in snow conditions",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it applies only in snow conditions."
 },
 {
 "codigo": "S-890b",
@@ -3760,7 +4594,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-890b.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing in rain conditions",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it applies only in rain conditions."
 },
 {
 "codigo": "S-890c",
@@ -3769,7 +4605,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-890c.png",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Application of the signing in fog conditions",
+"descripcion_en": "Indicates, beneath the corresponding vertical sign, that it applies only in fog conditions."
 },
 {
 "codigo": "S-891",
@@ -3778,7 +4616,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-891.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Lateral clearance when overtaking a cycle or moped",
+"descripcion_en": "Reminds, beneath the corresponding vertical sign, of the minimum safe clearance that must be kept when overtaking a cycle or moped, or a group of either. In the case of a group of cycles or mopeds, the clearance refers to the one travelling furthest to the left."
 },
 {
 "codigo": "S-892",
@@ -3787,7 +4627,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-892.png",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Automatic enforcement",
+"descripcion_en": "Indicates enforcement, by means of automatic detection and penalty systems, of compliance with the requirement of the vertical sign it accompanies."
 },
 {
 "codigo": "S-900",
@@ -3796,7 +4638,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-900.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fire hazard",
+"descripcion_en": "Warns of the hazard posed by lighting a fire."
 },
 {
 "codigo": "S-910",
@@ -3805,7 +4649,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-910.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Fire extinguisher",
+"descripcion_en": "Indicates the location of a fire extinguisher."
 },
 {
 "codigo": "S-920",
@@ -3814,7 +4660,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-920.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Entry into Spain",
+"descripcion_en": "Indicates that Spanish territory has been entered via a road coming from another country."
 },
 {
 "codigo": "S-930",
@@ -3823,7 +4671,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-930.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Country confirmation",
+"descripcion_en": "Indicates the name of the country towards which the road leads. The figure at the bottom indicates the distance to the border."
 },
 {
 "codigo": "S-940",
@@ -3832,7 +4682,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-940.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Speed limits in Spain",
+"descripcion_en": "Indicates the general speed limits on the different classes of road and in urban areas in Spain."
 },
 {
 "codigo": "S-950",
@@ -3841,7 +4693,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-950.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Radio frequency of stations dedicated to road information",
+"descripcion_en": "Indicates the frequency to which the radio receiver must be tuned in order to receive information."
 },
 {
 "codigo": "S-960",
@@ -3850,7 +4704,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-960.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Emergency telephone",
+"descripcion_en": "Indicates the location of an emergency telephone."
 },
 {
 "codigo": "S-970",
@@ -3859,7 +4715,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-970.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Emergency telephone and fire extinguisher",
+"descripcion_en": "Indicates the location of a fire extinguisher and emergency telephone."
 },
 {
 "codigo": "S-980",
@@ -3868,7 +4726,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-980.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Emergency exit",
+"descripcion_en": "Indicates the location of an emergency exit."
 },
 {
 "codigo": "S-980a",
@@ -3877,7 +4737,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-980a.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Adjacent emergency exit",
+"descripcion_en": "Indicates the position of the nearest emergency exit."
 },
 {
 "codigo": "S-980b",
@@ -3886,7 +4748,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-980b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Adjacent emergency exit",
+"descripcion_en": "Indicates the position of the nearest emergency exit."
 },
 {
 "codigo": "S-990a",
@@ -3895,7 +4759,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-990a.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Nearby emergency exit",
+"descripcion_en": "Indicates the direction of the nearest emergency exit and the remaining distance to reach it."
 },
 {
 "codigo": "S-990b",
@@ -3904,7 +4770,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-990b.jpeg",
 "nuevo2025": false,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Nearby emergency exit",
+"descripcion_en": "Indicates the direction of the nearest emergency exit and the remaining distance to reach it."
 },
 {
 "codigo": "S-991a",
@@ -3913,7 +4781,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-991a.png",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Speed enforcement on a conventional road or multi-lane road",
+"descripcion_en": "Indicates the presence of a speed enforcement device at a point or stretch of a conventional road or a multi-lane road. It may include an R-301 sign with the corresponding speed value, as well as upper or lower sub-panels with additional information."
 },
 {
 "codigo": "S-991b",
@@ -3922,7 +4792,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-991b.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Speed enforcement on a motorway or dual carriageway",
+"descripcion_en": "Indicates the presence of a speed enforcement device at a point or stretch of a motorway or a dual carriageway. It may include an R-301 sign with the corresponding speed value, as well as upper or lower sub-panels with additional information."
 },
 {
 "codigo": "S-991c",
@@ -3931,7 +4803,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-991c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Red-light enforcement",
+"descripcion_en": "Indicates the presence of a device that enforces stopping at a red traffic light. Upper or lower sub-panels with additional information may be added."
 },
 {
 "codigo": "S-991d",
@@ -3940,7 +4814,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-991d.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "STOP enforcement",
+"descripcion_en": "Indicates the presence of a device that enforces stopping at a STOP sign. Upper or lower sub-panels with additional information may be added."
 },
 {
 "codigo": "S-991e",
@@ -3949,7 +4825,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-991e.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Minimum-separation enforcement on a conventional road or multi-lane road",
+"descripcion_en": "Indicates the presence of a device that enforces the minimum separation between vehicles at a point or stretch of a conventional road or a multi-lane road. Upper or lower sub-panels with additional information may be added."
 },
 {
 "codigo": "S-991f",
@@ -3958,7 +4836,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-991f.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Minimum-separation enforcement on a motorway or dual carriageway",
+"descripcion_en": "Indicates the presence of a device that enforces the minimum separation between vehicles at a point or stretch of a motorway or dual carriageway. Upper or lower sub-panels with additional information may be added."
 },
 {
 "codigo": "S-991g",
@@ -3967,7 +4847,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-991g.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Speed enforcement by aerial means",
+"descripcion_en": "Indicates the possible presence of speed enforcement on the stretch by aerial means, such as helicopter or drone. If such enforcement targets a specific type of vehicle, the sign may include only the pictogram corresponding to that vehicle."
 },
 {
 "codigo": "S-992a",
@@ -3976,7 +4858,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-992a.png",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Information sign for the minimum distance between vehicles on a conventional road or multi-lane road",
+"descripcion_en": "Indicates, on a stretch of conventional road or multi-lane road where rear-end collisions frequently occur, the number of chevron road markings that a vehicle must leave between itself and the vehicle in front."
 },
 {
 "codigo": "S-992b",
@@ -3985,7 +4869,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-992b.png",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Information sign for the minimum distance between vehicles inside a tunnel on a conventional road or multi-lane road",
+"descripcion_en": "Indicates the number of chevron road markings that a vehicle must leave between itself and the vehicle in front inside a tunnel on a conventional road or a multi-lane road."
 },
 {
 "codigo": "S-992c",
@@ -3994,7 +4880,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-992c.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Information sign for the minimum distance between vehicles on a motorway or dual carriageway",
+"descripcion_en": "Indicates, on a stretch of a motorway or a dual carriageway where rear-end collisions frequently occur, the number of chevron road markings that a vehicle must leave between itself and the vehicle in front."
 },
 {
 "codigo": "S-992d",
@@ -4003,7 +4891,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-992d.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Information sign for the minimum distance between vehicles inside a tunnel on a motorway or dual carriageway",
+"descripcion_en": "Indicates the number of chevron road markings that a vehicle must leave between itself and the vehicle in front inside a tunnel on a motorway or a dual carriageway."
 },
 {
 "codigo": "S-992e",
@@ -4012,7 +4902,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-992e.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Information sign for the minimum distance between vehicles indicated by means of luminous beacons",
+"descripcion_en": "Indicates, on a stretch where loss of visibility due to fog is frequent, the number of luminous beacons that a vehicle must leave between itself and the vehicle in front."
 },
 {
 "codigo": "S-993",
@@ -4021,7 +4913,9 @@ window.DGT_CATALOGO = {
 "categoria": "Señales De Uso Específico En Poblado",
 "img": "S-993.jpeg",
 "nuevo2025": true,
-"cambio_diseno": false
+"cambio_diseno": false,
+"nombre_en": "Warning of rear-end collision risk on an uphill stretch of motorway or dual carriageway",
+"descripcion_en": "Warns of the risk of rear-end collisions on a stretch of motorway or dual carriageway because the uphill gradient causes lorries to travel at a noticeably lower speed than cars."
 }
 ]
 };
